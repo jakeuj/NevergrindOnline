@@ -1,14 +1,19 @@
 {
   "base": "https://atelier3.web.fc2.com/ngo/index.html",
-  "crawledAt": "2026-05-05T03:21:10.654Z",
+  "crawledAt": "2026-05-05T04:31:40.443Z",
   "expectedCount": 106,
   "count": 106,
   "errors": [],
+  "cache": {
+    "rawHtml": ".cache/fc2/html",
+    "structuredPages": ".cache/fc2/pages"
+  },
   "pages": [
     {
       "url": "https://atelier3.web.fc2.com/ngo/alderon.html",
       "file": "alderon.html",
       "title": "セット/Alderon | Nevergrind Online 攻略DB",
+      "pageTitle": "Alderon's セット",
       "headings": [
         {
           "tag": "h1",
@@ -21,12 +26,19 @@
           "url": "https://atelier3.web.fc2.com/ngo/menu.html"
         }
       ],
-      "lastModified": "Sat, 30 Nov 2024 05:02:57 GMT"
+      "lastModified": "Sat, 30 Nov 2024 05:02:57 GMT",
+      "contentType": "text/html",
+      "contentHash": "9aa842ed40d865cddf3c070e624096949e8e9ecd773c8faea55b2edbade77782",
+      "blockCounts": {
+        "heading": 1,
+        "table": 3
+      }
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/aradune.html",
       "file": "aradune.html",
       "title": "セット/Aradune | Nevergrind Online 攻略DB",
+      "pageTitle": "Aradune's セット",
       "headings": [
         {
           "tag": "h1",
@@ -39,12 +51,19 @@
           "url": "https://atelier3.web.fc2.com/ngo/menu.html"
         }
       ],
-      "lastModified": "Tue, 25 Mar 2025 15:28:00 GMT"
+      "lastModified": "Tue, 25 Mar 2025 15:28:00 GMT",
+      "contentType": "text/html",
+      "contentHash": "02befb59866e5e6819d4a0810ef8155fab426b1b1c08d9271a7c2147ee060d34",
+      "blockCounts": {
+        "heading": 1,
+        "table": 3
+      }
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/asaph.html",
       "file": "asaph.html",
       "title": "セット/Asaph | Nevergrind Online 攻略DB",
+      "pageTitle": "Asaph's セット",
       "headings": [
         {
           "tag": "h1",
@@ -57,12 +76,19 @@
           "url": "https://atelier3.web.fc2.com/ngo/menu.html"
         }
       ],
-      "lastModified": "Tue, 25 Mar 2025 15:28:00 GMT"
+      "lastModified": "Tue, 25 Mar 2025 15:28:00 GMT",
+      "contentType": "text/html",
+      "contentHash": "4be993e61d7e4fc8ea722bccb4ed11681550e4531ba4a7a5fea24ea7a77fc5d4",
+      "blockCounts": {
+        "heading": 1,
+        "table": 3
+      }
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/bard.html",
       "file": "bard.html",
       "title": "クラス/バード | Nevergrind Online 攻略DB",
+      "pageTitle": "バード",
       "headings": [
         {
           "tag": "h1",
@@ -223,12 +249,21 @@
           "url": "https://atelier3.web.fc2.com/ngo/uglove.html"
         }
       ],
-      "lastModified": "Sun, 19 Apr 2026 21:44:07 GMT"
+      "lastModified": "Sun, 19 Apr 2026 21:44:07 GMT",
+      "contentType": "text/html",
+      "contentHash": "a11ea036d4d154b6fe6ebd78dface0bdf30cada22df521c2612bee18e76ea288",
+      "blockCounts": {
+        "heading": 11,
+        "paragraph": 32,
+        "list": 1,
+        "table": 3
+      }
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/bishop.html",
       "file": "bishop.html",
       "title": "セット/Bishop | Nevergrind Online 攻略DB",
+      "pageTitle": "Bishop's セット",
       "headings": [
         {
           "tag": "h1",
@@ -241,12 +276,19 @@
           "url": "https://atelier3.web.fc2.com/ngo/menu.html"
         }
       ],
-      "lastModified": "Wed, 25 Jun 2025 16:14:24 GMT"
+      "lastModified": "Wed, 25 Jun 2025 16:14:24 GMT",
+      "contentType": "text/html",
+      "contentHash": "67b3c0d3c4aab8b4ef22a7c7bb7b7afff03f014fc6747fd628ec6d473b6ecdf9",
+      "blockCounts": {
+        "heading": 1,
+        "table": 3
+      }
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/boss.html",
       "file": "boss.html",
       "title": "ボスまとめ | Nevergrind Online 攻略DB",
+      "pageTitle": "ボスまとめ",
       "headings": [
         {
           "tag": "h1",
@@ -347,12 +389,20 @@
           "url": "https://atelier3.web.fc2.com/ngo/boss.html"
         }
       ],
-      "lastModified": "Fri, 20 Sep 2024 22:56:52 GMT"
+      "lastModified": "Fri, 20 Sep 2024 22:56:52 GMT",
+      "contentType": "text/html",
+      "contentHash": "e7df7c2d5bac5cd55b04a12667ccf03575cb997659d321a78abb650d9a5df6d3",
+      "blockCounts": {
+        "heading": 19,
+        "paragraph": 3,
+        "table": 14
+      }
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/chancellor.html",
       "file": "chancellor.html",
       "title": "セット/Chancellor | Nevergrind Online 攻略DB",
+      "pageTitle": "Chancellor's セット",
       "headings": [
         {
           "tag": "h1",
@@ -365,12 +415,19 @@
           "url": "https://atelier3.web.fc2.com/ngo/menu.html"
         }
       ],
-      "lastModified": "Tue, 08 Oct 2024 19:32:25 GMT"
+      "lastModified": "Tue, 08 Oct 2024 19:32:25 GMT",
+      "contentType": "text/html",
+      "contentHash": "d61e8aaf0c8cef0e5ab6e3d237ea0f8566d658b0c45d4702fea63c165634b46c",
+      "blockCounts": {
+        "heading": 1,
+        "table": 3
+      }
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/charamake.html",
       "file": "charamake.html",
       "title": "キャラメイク関連 | Nevergrind Online 攻略DB",
+      "pageTitle": "キャラメイク関連",
       "headings": [
         {
           "tag": "h1",
@@ -527,12 +584,21 @@
           "url": "https://atelier3.web.fc2.com/ngo/charamake.html"
         }
       ],
-      "lastModified": "Mon, 23 Jun 2025 23:12:21 GMT"
+      "lastModified": "Mon, 23 Jun 2025 23:12:21 GMT",
+      "contentType": "text/html",
+      "contentHash": "83e87347c28657b84db3275071f1337d817aaf71465b9e91a73822cf939249c6",
+      "blockCounts": {
+        "heading": 64,
+        "paragraph": 33,
+        "list": 1,
+        "table": 15
+      }
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/chart.html",
       "file": "chart.html",
       "title": "ゲームの流れ | Nevergrind Online 攻略DB",
+      "pageTitle": "ゲームの流れ",
       "headings": [
         {
           "tag": "h1",
@@ -633,12 +699,20 @@
           "url": "https://atelier3.web.fc2.com/ngo/gambling.html"
         }
       ],
-      "lastModified": "Tue, 13 May 2025 16:18:13 GMT"
+      "lastModified": "Tue, 13 May 2025 16:18:13 GMT",
+      "contentType": "text/html",
+      "contentHash": "55ac92df7acbb383f8ad10da959514d6a385bafc51b87187db823feb60d91a7c",
+      "blockCounts": {
+        "heading": 14,
+        "paragraph": 48,
+        "list": 3
+      }
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/cleric.html",
       "file": "cleric.html",
       "title": "クラス/クレリック | Nevergrind Online 攻略DB",
+      "pageTitle": "クレリック",
       "headings": [
         {
           "tag": "h1",
@@ -803,12 +877,21 @@
           "url": "https://atelier3.web.fc2.com/ngo/uglove.html"
         }
       ],
-      "lastModified": "Fri, 01 Nov 2024 04:55:59 GMT"
+      "lastModified": "Fri, 01 Nov 2024 04:55:59 GMT",
+      "contentType": "text/html",
+      "contentHash": "3eb98a43f2c50ca0b6b3cd5498215bb923bfb06c4378ea63605436e9f1ba19c5",
+      "blockCounts": {
+        "heading": 15,
+        "paragraph": 37,
+        "list": 1,
+        "table": 1
+      }
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/crusader.html",
       "file": "crusader.html",
       "title": "クラス/クルセイダー | Nevergrind Online 攻略DB",
+      "pageTitle": "クルセイダー",
       "headings": [
         {
           "tag": "h1",
@@ -1037,12 +1120,21 @@
           "url": "https://atelier3.web.fc2.com/ngo/uhead.html"
         }
       ],
-      "lastModified": "Sun, 19 Apr 2026 22:30:01 GMT"
+      "lastModified": "Sun, 19 Apr 2026 22:30:01 GMT",
+      "contentType": "text/html",
+      "contentHash": "3089bf54fd5cc12126fdf5d5745f033df80d79008e88ced0505fcb8a606903f6",
+      "blockCounts": {
+        "heading": 13,
+        "paragraph": 46,
+        "list": 2,
+        "table": 3
+      }
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/daahoud.html",
       "file": "daahoud.html",
       "title": "セット/Daahoud | Nevergrind Online 攻略DB",
+      "pageTitle": "Daahoud's セット",
       "headings": [
         {
           "tag": "h1",
@@ -1055,12 +1147,19 @@
           "url": "https://atelier3.web.fc2.com/ngo/menu.html"
         }
       ],
-      "lastModified": "Fri, 06 Jun 2025 02:48:07 GMT"
+      "lastModified": "Fri, 06 Jun 2025 02:48:07 GMT",
+      "contentType": "text/html",
+      "contentHash": "60bd1771e4e5b57d1eb77221c2c21bc3ca6fe7500145ef19638ba52cf9ce0271",
+      "blockCounts": {
+        "heading": 1,
+        "table": 3
+      }
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/daiyo.html",
       "file": "daiyo.html",
       "title": "セット/Daiyo | Nevergrind Online 攻略DB",
+      "pageTitle": "Daiyo's セット",
       "headings": [
         {
           "tag": "h1",
@@ -1073,12 +1172,19 @@
           "url": "https://atelier3.web.fc2.com/ngo/menu.html"
         }
       ],
-      "lastModified": "Mon, 23 Jun 2025 21:32:18 GMT"
+      "lastModified": "Mon, 23 Jun 2025 21:32:18 GMT",
+      "contentType": "text/html",
+      "contentHash": "1b227c636d6fe9e25dcb7db2d88bc0054bdce782c27fb13fcd71d1460fba0ccf",
+      "blockCounts": {
+        "heading": 1,
+        "table": 3
+      }
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/demetrium.html",
       "file": "demetrium.html",
       "title": "セット/Demetrium | Nevergrind Online 攻略DB",
+      "pageTitle": "Demetrium's セット",
       "headings": [
         {
           "tag": "h1",
@@ -1091,12 +1197,19 @@
           "url": "https://atelier3.web.fc2.com/ngo/menu.html"
         }
       ],
-      "lastModified": "Mon, 23 Jun 2025 21:33:37 GMT"
+      "lastModified": "Mon, 23 Jun 2025 21:33:37 GMT",
+      "contentType": "text/html",
+      "contentHash": "03f1c57bae2936950f5d1db9c8a7812745e573fda4f1daf6915902a7dcfd6195",
+      "blockCounts": {
+        "heading": 1,
+        "table": 3
+      }
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/dpscalc.html",
       "file": "dpscalc.html",
       "title": "武器DPS計算機 | Nevergrind Online 攻略DB",
+      "pageTitle": "武器DPS計算機",
       "headings": [
         {
           "tag": "h1",
@@ -1117,12 +1230,20 @@
           "url": "https://atelier3.web.fc2.com/ngo/menu.html"
         }
       ],
-      "lastModified": "Wed, 09 Apr 2025 21:24:57 GMT"
+      "lastModified": "Wed, 09 Apr 2025 21:24:57 GMT",
+      "contentType": "text/html",
+      "contentHash": "668de0e788968aa25d64ab376e5ad31ee92ca82b8233c7388dba98e6436a9ea0",
+      "blockCounts": {
+        "heading": 3,
+        "paragraph": 2,
+        "table": 2
+      }
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/druid.html",
       "file": "druid.html",
       "title": "クラス/ドルイド | Nevergrind Online 攻略DB",
+      "pageTitle": "ドルイド",
       "headings": [
         {
           "tag": "h1",
@@ -1295,12 +1416,21 @@
           "url": "https://atelier3.web.fc2.com/ngo/ubelt.html"
         }
       ],
-      "lastModified": "Fri, 11 Apr 2025 10:10:16 GMT"
+      "lastModified": "Fri, 11 Apr 2025 10:10:16 GMT",
+      "contentType": "text/html",
+      "contentHash": "faed8922386db01ca9723954338799f0e2f219a9bed93ac7ab5d16328e4b20e4",
+      "blockCounts": {
+        "heading": 9,
+        "paragraph": 26,
+        "list": 1,
+        "table": 1
+      }
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/edarion.html",
       "file": "edarion.html",
       "title": "セット/Edarion | Nevergrind Online 攻略DB",
+      "pageTitle": "Edarion's セット",
       "headings": [
         {
           "tag": "h1",
@@ -1313,12 +1443,19 @@
           "url": "https://atelier3.web.fc2.com/ngo/menu.html"
         }
       ],
-      "lastModified": "Fri, 06 Jun 2025 02:48:45 GMT"
+      "lastModified": "Fri, 06 Jun 2025 02:48:45 GMT",
+      "contentType": "text/html",
+      "contentHash": "7b003f0aa39c3b6886700c90c1076a3f914b100cb46b83b599105fe3ca734559",
+      "blockCounts": {
+        "heading": 1,
+        "table": 3
+      }
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/emissary.html",
       "file": "emissary.html",
       "title": "セット/Emissary | Nevergrind Online 攻略DB",
+      "pageTitle": "Emissary's セット",
       "headings": [
         {
           "tag": "h1",
@@ -1331,12 +1468,19 @@
           "url": "https://atelier3.web.fc2.com/ngo/menu.html"
         }
       ],
-      "lastModified": "Fri, 25 Oct 2024 20:44:10 GMT"
+      "lastModified": "Fri, 25 Oct 2024 20:44:10 GMT",
+      "contentType": "text/html",
+      "contentHash": "278ee9d8f0c13763b6b65d53b2bd25ef21c41a9c3851679f28b9e460f86a0a76",
+      "blockCounts": {
+        "heading": 1,
+        "table": 2
+      }
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/enchanter.html",
       "file": "enchanter.html",
       "title": "クラス/エンチャンター | Nevergrind Online 攻略DB",
+      "pageTitle": "エンチャンター",
       "headings": [
         {
           "tag": "h1",
@@ -1493,12 +1637,21 @@
           "url": "https://atelier3.web.fc2.com/ngo/uboot.html"
         }
       ],
-      "lastModified": "Tue, 20 May 2025 13:06:48 GMT"
+      "lastModified": "Tue, 20 May 2025 13:06:48 GMT",
+      "contentType": "text/html",
+      "contentHash": "d1858c44b91a000680232c86f3f38cebbe41b65b61faa0ef3c4ec826ab780e95",
+      "blockCounts": {
+        "heading": 14,
+        "paragraph": 54,
+        "list": 1,
+        "table": 3
+      }
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/english.html",
       "file": "english.html",
       "title": "英語・略語など | Nevergrind Online 攻略DB",
+      "pageTitle": "英語・略語など",
       "headings": [
         {
           "tag": "h1",
@@ -1731,12 +1884,19 @@
           "url": "https://atelier3.web.fc2.com/ngo/english.html"
         }
       ],
-      "lastModified": "Thu, 26 Jun 2025 00:23:06 GMT"
+      "lastModified": "Thu, 26 Jun 2025 00:23:06 GMT",
+      "contentType": "text/html",
+      "contentHash": "419fe725de90390cad8c617e4bf231ee453c7a6b823fd2ef75a322a2bdf629f8",
+      "blockCounts": {
+        "heading": 30,
+        "paragraph": 5
+      }
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/falzain.html",
       "file": "falzain.html",
       "title": "セット/Falzain | Nevergrind Online 攻略DB",
+      "pageTitle": "Falzain's セット",
       "headings": [
         {
           "tag": "h1",
@@ -1749,12 +1909,19 @@
           "url": "https://atelier3.web.fc2.com/ngo/menu.html"
         }
       ],
-      "lastModified": "Sat, 30 Nov 2024 05:02:57 GMT"
+      "lastModified": "Sat, 30 Nov 2024 05:02:57 GMT",
+      "contentType": "text/html",
+      "contentHash": "ec755364df58dd810071184f79132bfcff99486aaee12ba96ee5e5540298f15b",
+      "blockCounts": {
+        "heading": 1,
+        "table": 3
+      }
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/fanatic.html",
       "file": "fanatic.html",
       "title": "セット/Fanatic | Nevergrind Online 攻略DB",
+      "pageTitle": "Fanatic's セット",
       "headings": [
         {
           "tag": "h1",
@@ -1767,12 +1934,19 @@
           "url": "https://atelier3.web.fc2.com/ngo/menu.html"
         }
       ],
-      "lastModified": "Tue, 25 Mar 2025 15:28:00 GMT"
+      "lastModified": "Tue, 25 Mar 2025 15:28:00 GMT",
+      "contentType": "text/html",
+      "contentHash": "366f472799c376efe858aec91febae0594cf039b6cc9969907c301206e8163b8",
+      "blockCounts": {
+        "heading": 1,
+        "table": 2
+      }
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/fansy.html",
       "file": "fansy.html",
       "title": "セット/Fansy | Nevergrind Online 攻略DB",
+      "pageTitle": "Fansy's セット",
       "headings": [
         {
           "tag": "h1",
@@ -1785,12 +1959,19 @@
           "url": "https://atelier3.web.fc2.com/ngo/menu.html"
         }
       ],
-      "lastModified": "Fri, 06 Jun 2025 02:55:05 GMT"
+      "lastModified": "Fri, 06 Jun 2025 02:55:05 GMT",
+      "contentType": "text/html",
+      "contentHash": "30d089a773bb41d3838052b4c092ed926327ca30904cf5e2a02b99b3e72fa952",
+      "blockCounts": {
+        "heading": 1,
+        "table": 3
+      }
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/faq.html",
       "file": "faq.html",
       "title": "よくある質問 | Nevergrind Online 攻略DB",
+      "pageTitle": "よくある質問",
       "headings": [
         {
           "tag": "h1",
@@ -2003,12 +2184,19 @@
           "url": "https://atelier3.web.fc2.com/ngo/faq.html"
         }
       ],
-      "lastModified": "Sat, 31 May 2025 17:38:10 GMT"
+      "lastModified": "Sat, 31 May 2025 17:38:10 GMT",
+      "contentType": "text/html",
+      "contentHash": "14f12159d37ebba15c35f04026a2315ca2d4817d15ca3f1edfbdbe5fe0601c2a",
+      "blockCounts": {
+        "heading": 26,
+        "list": 1
+      }
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/furor.html",
       "file": "furor.html",
       "title": "セット/Furor | Nevergrind Online 攻略DB",
+      "pageTitle": "Furor's セット",
       "headings": [
         {
           "tag": "h1",
@@ -2021,12 +2209,19 @@
           "url": "https://atelier3.web.fc2.com/ngo/menu.html"
         }
       ],
-      "lastModified": "Mon, 07 Jul 2025 16:12:31 GMT"
+      "lastModified": "Mon, 07 Jul 2025 16:12:31 GMT",
+      "contentType": "text/html",
+      "contentHash": "ebee9f66669e9579300e1443f23f787c9f4457b6789f3a24099d59d0fb5cd981",
+      "blockCounts": {
+        "heading": 1,
+        "table": 3
+      }
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/gambling.html",
       "file": "gambling.html",
       "title": "ギャンブル | Nevergrind Online 攻略DB",
+      "pageTitle": "ギャンブルのすすめ",
       "headings": [
         {
           "tag": "h1",
@@ -2131,12 +2326,20 @@
           "url": "https://atelier3.web.fc2.com/ngo/legendary.html"
         }
       ],
-      "lastModified": "Wed, 09 Apr 2025 16:47:42 GMT"
+      "lastModified": "Wed, 09 Apr 2025 16:47:42 GMT",
+      "contentType": "text/html",
+      "contentHash": "1e2d78f75c537e53094a29e16ee41f4546842b09ce4eee87220a2ba4d1d582c6",
+      "blockCounts": {
+        "heading": 10,
+        "paragraph": 17,
+        "list": 1
+      }
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/golem.html",
       "file": "golem.html",
       "title": "セット/Golem | Nevergrind Online 攻略DB",
+      "pageTitle": "Golem's セット",
       "headings": [
         {
           "tag": "h1",
@@ -2149,12 +2352,19 @@
           "url": "https://atelier3.web.fc2.com/ngo/menu.html"
         }
       ],
-      "lastModified": "Tue, 25 Mar 2025 15:28:01 GMT"
+      "lastModified": "Tue, 25 Mar 2025 15:28:01 GMT",
+      "contentType": "text/html",
+      "contentHash": "554998ad328d5ca191e884afcf39906a03c2048e76ac01a95b7a43816ead2101",
+      "blockCounts": {
+        "heading": 1,
+        "table": 3
+      }
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/index.html",
       "file": "index.html",
       "title": "Nevergrind Online 攻略DB",
+      "pageTitle": "Nevergrind Online 攻略DB",
       "headings": [
         {
           "tag": "h1",
@@ -2167,12 +2377,20 @@
           "url": "https://atelier3.web.fc2.com/ngo/menu.html"
         }
       ],
-      "lastModified": "Thu, 26 Jun 2025 00:18:25 GMT"
+      "lastModified": "Thu, 26 Jun 2025 00:18:25 GMT",
+      "contentType": "text/html",
+      "contentHash": "e1f5b0d45c364d30129f9cffb752590d36341ae6dce6a2b17190c235779a2dc9",
+      "blockCounts": {
+        "heading": 1,
+        "paragraph": 4,
+        "list": 1
+      }
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/itemmods.html",
       "file": "itemmods.html",
       "title": "装備Mods | Nevergrind Online 攻略DB",
+      "pageTitle": "装備Mods",
       "headings": [
         {
           "tag": "h1",
@@ -2469,12 +2687,21 @@
           "url": "https://atelier3.web.fc2.com/ngo/itemmods.html"
         }
       ],
-      "lastModified": "Mon, 23 Jun 2025 02:55:16 GMT"
+      "lastModified": "Mon, 23 Jun 2025 02:55:16 GMT",
+      "contentType": "text/html",
+      "contentHash": "caee42d32a64f22c24db6d9248ffbf87c1cc20b75566e0e79ea1b100203a8907",
+      "blockCounts": {
+        "heading": 37,
+        "paragraph": 45,
+        "list": 1,
+        "table": 2
+      }
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/jibekn.html",
       "file": "jibekn.html",
       "title": "セット/Jibekn | Nevergrind Online 攻略DB",
+      "pageTitle": "Jibekn's セット",
       "headings": [
         {
           "tag": "h1",
@@ -2487,12 +2714,19 @@
           "url": "https://atelier3.web.fc2.com/ngo/menu.html"
         }
       ],
-      "lastModified": "Sat, 30 Nov 2024 05:02:57 GMT"
+      "lastModified": "Sat, 30 Nov 2024 05:02:57 GMT",
+      "contentType": "text/html",
+      "contentHash": "8bf730a9adbd904fc005b805ee247a9e5e5e53eb116c9dfd7f622285e2cfc817",
+      "blockCounts": {
+        "heading": 1,
+        "table": 3
+      }
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/legendary.html",
       "file": "legendary.html",
       "title": "レジェンダリー | Nevergrind Online 攻略DB",
+      "pageTitle": "レジェンダリー",
       "headings": [
         {
           "tag": "h1",
@@ -2673,12 +2907,20 @@
           "url": "https://atelier3.web.fc2.com/ngo/legendary.html"
         }
       ],
-      "lastModified": "Sun, 19 Apr 2026 22:30:01 GMT"
+      "lastModified": "Sun, 19 Apr 2026 22:30:01 GMT",
+      "contentType": "text/html",
+      "contentHash": "06eba47ee1dec25f9c53803b057996feacf41d8a1adc0e4753ceefa0ed7278de",
+      "blockCounts": {
+        "heading": 22,
+        "paragraph": 3,
+        "table": 21
+      }
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/loot.html",
       "file": "loot.html",
       "title": "持ち帰るアイテム | Nevergrind Online 攻略DB",
+      "pageTitle": "持ち帰るアイテム",
       "headings": [
         {
           "tag": "h1",
@@ -2731,12 +2973,19 @@
           "url": "https://atelier3.web.fc2.com/ngo/selectlist2.html"
         }
       ],
-      "lastModified": "Sun, 01 Jun 2025 08:54:55 GMT"
+      "lastModified": "Sun, 01 Jun 2025 08:54:55 GMT",
+      "contentType": "text/html",
+      "contentHash": "e9af5c73fe403c2901a8af121e205fe673c31abc9d9a3e0df2d3a1c49a9aa117",
+      "blockCounts": {
+        "heading": 6,
+        "paragraph": 15
+      }
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/magnate.html",
       "file": "magnate.html",
       "title": "セット/Magnate | Nevergrind Online 攻略DB",
+      "pageTitle": "Magnate's セット",
       "headings": [
         {
           "tag": "h1",
@@ -2749,12 +2998,19 @@
           "url": "https://atelier3.web.fc2.com/ngo/menu.html"
         }
       ],
-      "lastModified": "Mon, 23 Jun 2025 21:55:42 GMT"
+      "lastModified": "Mon, 23 Jun 2025 21:55:42 GMT",
+      "contentType": "text/html",
+      "contentHash": "bcc41d40447b067a92875fc35afc3fe29f68ab7af9fa6252f74ff91b337dcecd",
+      "blockCounts": {
+        "heading": 1,
+        "table": 3
+      }
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/martyr.html",
       "file": "martyr.html",
       "title": "セット/Martyr | Nevergrind Online 攻略DB",
+      "pageTitle": "Martyr's セット",
       "headings": [
         {
           "tag": "h1",
@@ -2767,12 +3023,19 @@
           "url": "https://atelier3.web.fc2.com/ngo/menu.html"
         }
       ],
-      "lastModified": "Tue, 08 Oct 2024 19:32:25 GMT"
+      "lastModified": "Tue, 08 Oct 2024 19:32:25 GMT",
+      "contentType": "text/html",
+      "contentHash": "9db0ccb6d0e48a6ad39cf7ef8eef93b368aea6ea68e7d531463bce09f119fa80",
+      "blockCounts": {
+        "heading": 1,
+        "table": 3
+      }
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/menu.html",
       "file": "menu.html",
-      "title": "",
+      "title": "menu.html",
+      "pageTitle": "menu.html",
       "headings": [
         {
           "tag": "h2",
@@ -2937,12 +3200,20 @@
           "url": "https://atelier3.web.fc2.com/ngo/gambling.html"
         }
       ],
-      "lastModified": "Mon, 12 Jan 2026 18:07:47 GMT"
+      "lastModified": "Mon, 12 Jan 2026 18:07:47 GMT",
+      "contentType": "text/html",
+      "contentHash": "00ba27cc15f7c97de9d3a7c6c45d910a078616a8116056b07b6f2eea757058a4",
+      "blockCounts": {
+        "paragraph": 1,
+        "heading": 5,
+        "list": 5
+      }
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/minotaur.html",
       "file": "minotaur.html",
       "title": "セット/Minotaur | Nevergrind Online 攻略DB",
+      "pageTitle": "Minotaur's セット",
       "headings": [
         {
           "tag": "h1",
@@ -2955,12 +3226,19 @@
           "url": "https://atelier3.web.fc2.com/ngo/menu.html"
         }
       ],
-      "lastModified": "Mon, 23 Jun 2025 21:57:30 GMT"
+      "lastModified": "Mon, 23 Jun 2025 21:57:30 GMT",
+      "contentType": "text/html",
+      "contentHash": "4841b9f9abd88a333245b7192484031f4695c25fa90fd9cc93e4a13427b35f0e",
+      "blockCounts": {
+        "heading": 1,
+        "table": 3
+      }
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/miranda.html",
       "file": "miranda.html",
       "title": "セット/Miranda | Nevergrind Online 攻略DB",
+      "pageTitle": "Miranda's セット",
       "headings": [
         {
           "tag": "h1",
@@ -2973,12 +3251,19 @@
           "url": "https://atelier3.web.fc2.com/ngo/menu.html"
         }
       ],
-      "lastModified": "Fri, 21 Mar 2025 05:12:59 GMT"
+      "lastModified": "Fri, 21 Mar 2025 05:12:59 GMT",
+      "contentType": "text/html",
+      "contentHash": "f2392e9887bd8c2f65986a34f5ea245dc0cd7469c490558c649f394440c039cf",
+      "blockCounts": {
+        "heading": 1,
+        "table": 3
+      }
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/monk.html",
       "file": "monk.html",
       "title": "クラス/モンク | Nevergrind Online 攻略DB",
+      "pageTitle": "モンク",
       "headings": [
         {
           "tag": "h1",
@@ -3123,12 +3408,21 @@
           "url": "https://atelier3.web.fc2.com/ngo/ucharm.html"
         }
       ],
-      "lastModified": "Sun, 19 Apr 2026 22:15:08 GMT"
+      "lastModified": "Sun, 19 Apr 2026 22:15:08 GMT",
+      "contentType": "text/html",
+      "contentHash": "3f1f4f195a918b7b8deb59dbd3d4e0388c76a3b56380d17810d570fc2bd77f05",
+      "blockCounts": {
+        "heading": 8,
+        "paragraph": 29,
+        "list": 2,
+        "table": 1
+      }
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/mythical.html",
       "file": "mythical.html",
       "title": "クラフト | Nevergrind Online 攻略DB",
+      "pageTitle": "クラフト",
       "headings": [
         {
           "tag": "h1",
@@ -3189,12 +3483,19 @@
           "url": "https://atelier3.web.fc2.com/ngo/menu.html"
         }
       ],
-      "lastModified": "Thu, 26 Jun 2025 00:26:03 GMT"
+      "lastModified": "Thu, 26 Jun 2025 00:26:03 GMT",
+      "contentType": "text/html",
+      "contentHash": "a8a1668cd3919bfd0477820be93d9a785238801d387fe7a2b44faed89b6bd05f",
+      "blockCounts": {
+        "heading": 13,
+        "paragraph": 19
+      }
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/noik.html",
       "file": "noik.html",
       "title": "セット/Noik | Nevergrind Online 攻略DB",
+      "pageTitle": "Noik's セット",
       "headings": [
         {
           "tag": "h1",
@@ -3207,12 +3508,19 @@
           "url": "https://atelier3.web.fc2.com/ngo/menu.html"
         }
       ],
-      "lastModified": "Sat, 30 Nov 2024 05:02:57 GMT"
+      "lastModified": "Sat, 30 Nov 2024 05:02:57 GMT",
+      "contentType": "text/html",
+      "contentHash": "e8dec6821a6869d07d21da98b55a722444ff0a1ac532e6e75c7a08adde2a46c0",
+      "blockCounts": {
+        "heading": 1,
+        "table": 3
+      }
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/nylith.html",
       "file": "nylith.html",
       "title": "セット/Nylith | Nevergrind Online 攻略DB",
+      "pageTitle": "Nylith's セット",
       "headings": [
         {
           "tag": "h1",
@@ -3225,12 +3533,19 @@
           "url": "https://atelier3.web.fc2.com/ngo/menu.html"
         }
       ],
-      "lastModified": "Sat, 30 Nov 2024 05:02:57 GMT"
+      "lastModified": "Sat, 30 Nov 2024 05:02:57 GMT",
+      "contentType": "text/html",
+      "contentHash": "a417b659330e3ea3283b11df9ff7c18d55f355c077995c47c77b388a50d27e0c",
+      "blockCounts": {
+        "heading": 1,
+        "table": 3
+      }
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/orator.html",
       "file": "orator.html",
       "title": "セット/Orator | Nevergrind Online 攻略DB",
+      "pageTitle": "Orator's セット",
       "headings": [
         {
           "tag": "h1",
@@ -3243,12 +3558,19 @@
           "url": "https://atelier3.web.fc2.com/ngo/menu.html"
         }
       ],
-      "lastModified": "Tue, 08 Oct 2024 19:32:25 GMT"
+      "lastModified": "Tue, 08 Oct 2024 19:32:25 GMT",
+      "contentType": "text/html",
+      "contentHash": "98f610c49d17f795368d2fbb917fbc8581bdc9948d20f75d24469315213db29b",
+      "blockCounts": {
+        "heading": 1,
+        "table": 2
+      }
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/procyon.html",
       "file": "procyon.html",
       "title": "セット/Procyon | Nevergrind Online 攻略DB",
+      "pageTitle": "Procyon's セット",
       "headings": [
         {
           "tag": "h1",
@@ -3261,12 +3583,19 @@
           "url": "https://atelier3.web.fc2.com/ngo/menu.html"
         }
       ],
-      "lastModified": "Fri, 06 Jun 2025 02:54:19 GMT"
+      "lastModified": "Fri, 06 Jun 2025 02:54:19 GMT",
+      "contentType": "text/html",
+      "contentHash": "81db2c2f445d295f861fa932429e320df0e040876b9b743853a16f9858333495",
+      "blockCounts": {
+        "heading": 1,
+        "table": 3
+      }
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/ranger.html",
       "file": "ranger.html",
       "title": "クラス/レンジャー | Nevergrind Online 攻略DB",
+      "pageTitle": "レンジャー",
       "headings": [
         {
           "tag": "h1",
@@ -3415,12 +3744,21 @@
           "url": "https://atelier3.web.fc2.com/ngo/uglove.html"
         }
       ],
-      "lastModified": "Sat, 21 Jun 2025 15:21:17 GMT"
+      "lastModified": "Sat, 21 Jun 2025 15:21:17 GMT",
+      "contentType": "text/html",
+      "contentHash": "8ceae399644b66cd1b2288c2e71cb3c1eeccd28bde38baf477a5b4bdc4b6cceb",
+      "blockCounts": {
+        "heading": 9,
+        "paragraph": 30,
+        "list": 1,
+        "table": 1
+      }
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/recipe.html",
       "file": "recipe.html",
       "title": "レシピ | Nevergrind Online 攻略DB",
+      "pageTitle": "レシピ",
       "headings": [
         {
           "tag": "h1",
@@ -3521,12 +3859,20 @@
           "url": "https://atelier3.web.fc2.com/ngo/recipe.html"
         }
       ],
-      "lastModified": "Wed, 02 Jul 2025 14:10:19 GMT"
+      "lastModified": "Wed, 02 Jul 2025 14:10:19 GMT",
+      "contentType": "text/html",
+      "contentHash": "cfe3a393e2a5fff4279c120e12f968ef05c5bf2cff967c7825afd1bced6e95c1",
+      "blockCounts": {
+        "heading": 12,
+        "paragraph": 2,
+        "table": 11
+      }
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/rogue.html",
       "file": "rogue.html",
       "title": "クラス/ローグ | Nevergrind Online 攻略DB",
+      "pageTitle": "ローグ",
       "headings": [
         {
           "tag": "h1",
@@ -3675,12 +4021,21 @@
           "url": "https://atelier3.web.fc2.com/ngo/uring.html"
         }
       ],
-      "lastModified": "Fri, 18 Apr 2025 05:57:45 GMT"
+      "lastModified": "Fri, 18 Apr 2025 05:57:45 GMT",
+      "contentType": "text/html",
+      "contentHash": "62d4b3df26ee32178ab9a2a4a4a420615312133722274affae1072b56c9450c6",
+      "blockCounts": {
+        "heading": 9,
+        "paragraph": 30,
+        "list": 1,
+        "table": 1
+      }
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/rune.html",
       "file": "rune.html",
       "title": "ルーン | Nevergrind Online 攻略DB",
+      "pageTitle": "ルーン",
       "headings": [
         {
           "tag": "h1",
@@ -3693,12 +4048,21 @@
           "url": "https://atelier3.web.fc2.com/ngo/menu.html"
         }
       ],
-      "lastModified": "Mon, 23 Jun 2025 23:50:00 GMT"
+      "lastModified": "Mon, 23 Jun 2025 23:50:00 GMT",
+      "contentType": "text/html",
+      "contentHash": "6935755d7fdd9ec4c22a69f200889d71ef1a65604dd79bc64a23c5e8b0c8cd25",
+      "blockCounts": {
+        "heading": 1,
+        "paragraph": 3,
+        "list": 1,
+        "table": 1
+      }
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/runeselect.html",
       "file": "runeselect.html",
       "title": "ルーンの選び方 | Nevergrind Online 攻略DB",
+      "pageTitle": "ルーンの選び方",
       "headings": [
         {
           "tag": "h1",
@@ -3779,12 +4143,19 @@
           "url": "https://atelier3.web.fc2.com/ngo/legendary.html"
         }
       ],
-      "lastModified": "Mon, 19 May 2025 15:41:38 GMT"
+      "lastModified": "Mon, 19 May 2025 15:41:38 GMT",
+      "contentType": "text/html",
+      "contentHash": "439c0cc6d09cdd57f4b8007aead6291b2fcd203226417abd89f48be1ffbf3325",
+      "blockCounts": {
+        "heading": 12,
+        "paragraph": 21
+      }
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/sage.html",
       "file": "sage.html",
       "title": "セット/Sage | Nevergrind Online 攻略DB",
+      "pageTitle": "Sage's セット",
       "headings": [
         {
           "tag": "h1",
@@ -3797,12 +4168,19 @@
           "url": "https://atelier3.web.fc2.com/ngo/menu.html"
         }
       ],
-      "lastModified": "Sun, 13 Oct 2024 22:23:13 GMT"
+      "lastModified": "Sun, 13 Oct 2024 22:23:13 GMT",
+      "contentType": "text/html",
+      "contentHash": "648519411900dff0ccade4083521577453352e2ceccd2f737351628797fbec99",
+      "blockCounts": {
+        "heading": 1,
+        "table": 3
+      }
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/samurai.html",
       "file": "samurai.html",
       "title": "セット/Samurai | Nevergrind Online 攻略DB",
+      "pageTitle": "Samurai's セット",
       "headings": [
         {
           "tag": "h1",
@@ -3815,12 +4193,19 @@
           "url": "https://atelier3.web.fc2.com/ngo/menu.html"
         }
       ],
-      "lastModified": "Mon, 23 Jun 2025 21:58:23 GMT"
+      "lastModified": "Mon, 23 Jun 2025 21:58:23 GMT",
+      "contentType": "text/html",
+      "contentHash": "522e545778d63150632a73056e01a0dcc095dcf0330e472b172021dac1dd6151",
+      "blockCounts": {
+        "heading": 1,
+        "table": 3
+      }
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/sarvida.html",
       "file": "sarvida.html",
       "title": "セット/Sarvida | Nevergrind Online 攻略DB",
+      "pageTitle": "Sarvida's セット",
       "headings": [
         {
           "tag": "h1",
@@ -3833,12 +4218,19 @@
           "url": "https://atelier3.web.fc2.com/ngo/menu.html"
         }
       ],
-      "lastModified": "Mon, 23 Jun 2025 22:00:15 GMT"
+      "lastModified": "Mon, 23 Jun 2025 22:00:15 GMT",
+      "contentType": "text/html",
+      "contentHash": "38e9f77f40fa5be7802b784029744612fc9c2e26c5cd9e7a6968085846bc65af",
+      "blockCounts": {
+        "heading": 1,
+        "table": 3
+      }
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/scourge.html",
       "file": "scourge.html",
       "title": "セット/Scourge | Nevergrind Online 攻略DB",
+      "pageTitle": "Scourge's セット",
       "headings": [
         {
           "tag": "h1",
@@ -3851,12 +4243,19 @@
           "url": "https://atelier3.web.fc2.com/ngo/menu.html"
         }
       ],
-      "lastModified": "Wed, 25 Jun 2025 16:11:20 GMT"
+      "lastModified": "Wed, 25 Jun 2025 16:11:20 GMT",
+      "contentType": "text/html",
+      "contentHash": "1ff5a8a3ec3ef407bade3816ff1fc59f7a125806fe0bae55ec562a2d55d8e12f",
+      "blockCounts": {
+        "heading": 1,
+        "table": 3
+      }
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/scryer.html",
       "file": "scryer.html",
       "title": "セット/Scryer | Nevergrind Online 攻略DB",
+      "pageTitle": "Scryer's セット",
       "headings": [
         {
           "tag": "h1",
@@ -3869,12 +4268,19 @@
           "url": "https://atelier3.web.fc2.com/ngo/menu.html"
         }
       ],
-      "lastModified": "Fri, 01 Nov 2024 04:55:59 GMT"
+      "lastModified": "Fri, 01 Nov 2024 04:55:59 GMT",
+      "contentType": "text/html",
+      "contentHash": "ec9d103a3d64c3662ef40027fffac012482ab6f542da6574b41a022f78d04cb9",
+      "blockCounts": {
+        "heading": 1,
+        "table": 3
+      }
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/selectlist.html",
       "file": "selectlist.html",
       "title": "各職の代表スキル | Nevergrind Online 攻略DB",
+      "pageTitle": "各職の代表スキル",
       "headings": [
         {
           "tag": "h1",
@@ -3887,12 +4293,20 @@
           "url": "https://atelier3.web.fc2.com/ngo/menu.html"
         }
       ],
-      "lastModified": "Sun, 08 Jun 2025 10:47:22 GMT"
+      "lastModified": "Sun, 08 Jun 2025 10:47:22 GMT",
+      "contentType": "text/html",
+      "contentHash": "6cd31079c5cbbd7ab4825225f2a99b495b8960f13dd09404a422150b70d47a02",
+      "blockCounts": {
+        "heading": 1,
+        "paragraph": 3,
+        "table": 1
+      }
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/selectlist2.html",
       "file": "selectlist2.html",
       "title": "各職の厳選ユニーク | Nevergrind Online 攻略DB",
+      "pageTitle": "各職の厳選ユニーク",
       "headings": [
         {
           "tag": "h1",
@@ -3941,12 +4355,20 @@
           "url": "https://atelier3.web.fc2.com/ngo/selectlist.html"
         }
       ],
-      "lastModified": "Sun, 08 Jun 2025 10:52:22 GMT"
+      "lastModified": "Sun, 08 Jun 2025 10:52:22 GMT",
+      "contentType": "text/html",
+      "contentHash": "228b2c1ae453111ac7ba6d9ac57c18a0c6f0f470c1ded6cb573123405e09c46a",
+      "blockCounts": {
+        "heading": 4,
+        "paragraph": 7,
+        "table": 3
+      }
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/servant.html",
       "file": "servant.html",
       "title": "セット/Servant | Nevergrind Online 攻略DB",
+      "pageTitle": "Servant's セット",
       "headings": [
         {
           "tag": "h1",
@@ -3959,12 +4381,19 @@
           "url": "https://atelier3.web.fc2.com/ngo/menu.html"
         }
       ],
-      "lastModified": "Tue, 08 Oct 2024 19:32:26 GMT"
+      "lastModified": "Tue, 08 Oct 2024 19:32:26 GMT",
+      "contentType": "text/html",
+      "contentHash": "4a8c10fa584f9b3637be492f26f4a021b62aa080c154fd843be5cd9265f84ffb",
+      "blockCounts": {
+        "heading": 1,
+        "table": 2
+      }
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/set.html",
       "file": "set.html",
       "title": "セット | Nevergrind Online 攻略DB",
+      "pageTitle": "セット",
       "headings": [
         {
           "tag": "h1",
@@ -4197,12 +4626,20 @@
           "url": "https://atelier3.web.fc2.com/ngo/zamtil.html"
         }
       ],
-      "lastModified": "Fri, 20 Sep 2024 19:14:32 GMT"
+      "lastModified": "Fri, 20 Sep 2024 19:14:32 GMT",
+      "contentType": "text/html",
+      "contentHash": "b4688eecb06865d4f278e78a4028fa3299e6065a052ec525ff0b17ab5008196d",
+      "blockCounts": {
+        "heading": 4,
+        "paragraph": 1,
+        "table": 3
+      }
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/shadowknight.html",
       "file": "shadowknight.html",
       "title": "クラス/シャドウナイト | Nevergrind Online 攻略DB",
+      "pageTitle": "シャドウナイト",
       "headings": [
         {
           "tag": "h1",
@@ -4363,12 +4800,21 @@
           "url": "https://atelier3.web.fc2.com/ngo/uring.html"
         }
       ],
-      "lastModified": "Fri, 04 Jul 2025 12:06:40 GMT"
+      "lastModified": "Fri, 04 Jul 2025 12:06:40 GMT",
+      "contentType": "text/html",
+      "contentHash": "9bdbcf2a5812399de0f3d4e23cea7902612e357353738893f050fd9d9468a8cb",
+      "blockCounts": {
+        "heading": 9,
+        "paragraph": 30,
+        "list": 1,
+        "table": 1
+      }
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/shaman.html",
       "file": "shaman.html",
       "title": "クラス/シャーマン | Nevergrind Online 攻略DB",
+      "pageTitle": "シャーマン",
       "headings": [
         {
           "tag": "h1",
@@ -4557,12 +5003,21 @@
           "url": "https://atelier3.web.fc2.com/ngo/uleg.html"
         }
       ],
-      "lastModified": "Sun, 19 Apr 2026 21:44:07 GMT"
+      "lastModified": "Sun, 19 Apr 2026 21:44:07 GMT",
+      "contentType": "text/html",
+      "contentHash": "df53452e796715131f2eec7fbfaf90e2282bf2c526915c5aad65921ca44ec650",
+      "blockCounts": {
+        "heading": 14,
+        "paragraph": 35,
+        "list": 1,
+        "table": 2
+      }
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/sidey.html",
       "file": "sidey.html",
       "title": "セット/Sidey | Nevergrind Online 攻略DB",
+      "pageTitle": "Sidey's セット",
       "headings": [
         {
           "tag": "h1",
@@ -4575,12 +5030,19 @@
           "url": "https://atelier3.web.fc2.com/ngo/menu.html"
         }
       ],
-      "lastModified": "Mon, 23 Jun 2025 21:36:18 GMT"
+      "lastModified": "Mon, 23 Jun 2025 21:36:18 GMT",
+      "contentType": "text/html",
+      "contentHash": "c3e427f1d3b650acb6da7b9151379452afaca7a4e0166e3ec5a9d64a2720d5f4",
+      "blockCounts": {
+        "heading": 1,
+        "table": 3
+      }
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/sinifay.html",
       "file": "sinifay.html",
       "title": "セット/Sinifay | Nevergrind Online 攻略DB",
+      "pageTitle": "Sinifay's セット",
       "headings": [
         {
           "tag": "h1",
@@ -4593,12 +5055,19 @@
           "url": "https://atelier3.web.fc2.com/ngo/menu.html"
         }
       ],
-      "lastModified": "Fri, 06 Jun 2025 02:44:08 GMT"
+      "lastModified": "Fri, 06 Jun 2025 02:44:08 GMT",
+      "contentType": "text/html",
+      "contentHash": "596da0c56853a4b7fa59b29a34a610fd2c7f6ab98c82274f27124cd7f50f96a4",
+      "blockCounts": {
+        "heading": 1,
+        "table": 3
+      }
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/spinalzz.html",
       "file": "spinalzz.html",
       "title": "セット/Spinalzz | Nevergrind Online 攻略DB",
+      "pageTitle": "Spinalzz's セット",
       "headings": [
         {
           "tag": "h1",
@@ -4611,12 +5080,19 @@
           "url": "https://atelier3.web.fc2.com/ngo/menu.html"
         }
       ],
-      "lastModified": "Thu, 26 Jun 2025 00:14:31 GMT"
+      "lastModified": "Thu, 26 Jun 2025 00:14:31 GMT",
+      "contentType": "text/html",
+      "contentHash": "b301444fc9297768892a98319fb955eace876de1e1ff0a63be05c074b92bb0e3",
+      "blockCounts": {
+        "heading": 1,
+        "table": 3
+      }
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/starcaller.html",
       "file": "starcaller.html",
       "title": "セット/Starcaller | Nevergrind Online 攻略DB",
+      "pageTitle": "Starcaller's セット",
       "headings": [
         {
           "tag": "h1",
@@ -4629,12 +5105,19 @@
           "url": "https://atelier3.web.fc2.com/ngo/menu.html"
         }
       ],
-      "lastModified": "Mon, 23 Jun 2025 19:40:15 GMT"
+      "lastModified": "Mon, 23 Jun 2025 19:40:15 GMT",
+      "contentType": "text/html",
+      "contentHash": "9c848c456738e343f15c587c5a8aa15886512a3ceea31349b5e1d5270937f8ef",
+      "blockCounts": {
+        "heading": 1,
+        "table": 3
+      }
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/statuseffect.html",
       "file": "statuseffect.html",
       "title": "状態異常一覧 | Nevergrind Online 攻略DB",
+      "pageTitle": "状態異常一覧",
       "headings": [
         {
           "tag": "h1",
@@ -4647,12 +5130,20 @@
           "url": "https://atelier3.web.fc2.com/ngo/menu.html"
         }
       ],
-      "lastModified": "Mon, 04 Nov 2024 08:08:53 GMT"
+      "lastModified": "Mon, 04 Nov 2024 08:08:53 GMT",
+      "contentType": "text/html",
+      "contentHash": "5e3497dee83641e0ed28304b292689c89099396704f9f13e887ba5e9b987ebbd",
+      "blockCounts": {
+        "heading": 1,
+        "paragraph": 4,
+        "table": 1
+      }
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/stockade.html",
       "file": "stockade.html",
       "title": "セット/Stockade | Nevergrind Online 攻略DB",
+      "pageTitle": "Stockade's セット",
       "headings": [
         {
           "tag": "h1",
@@ -4665,12 +5156,19 @@
           "url": "https://atelier3.web.fc2.com/ngo/menu.html"
         }
       ],
-      "lastModified": "Tue, 25 Mar 2025 15:28:01 GMT"
+      "lastModified": "Tue, 25 Mar 2025 15:28:01 GMT",
+      "contentType": "text/html",
+      "contentHash": "d2febb2b9bbc340212070b4b436e72b4a07be7484d46cc21d15195142b511a7b",
+      "blockCounts": {
+        "heading": 1,
+        "table": 2
+      }
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/swiftraven.html",
       "file": "swiftraven.html",
       "title": "セット/Swiftraven | Nevergrind Online 攻略DB",
+      "pageTitle": "Swiftraven's セット",
       "headings": [
         {
           "tag": "h1",
@@ -4683,12 +5181,19 @@
           "url": "https://atelier3.web.fc2.com/ngo/menu.html"
         }
       ],
-      "lastModified": "Sun, 08 Jun 2025 23:21:25 GMT"
+      "lastModified": "Sun, 08 Jun 2025 23:21:25 GMT",
+      "contentType": "text/html",
+      "contentHash": "a61283326847f8398a21df11f4b0b376b40499853916dca8f70fd4b91e4fb41f",
+      "blockCounts": {
+        "heading": 1,
+        "table": 3
+      }
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/templar.html",
       "file": "templar.html",
       "title": "クラス/テンプラー | Nevergrind Online 攻略DB",
+      "pageTitle": "テンプラー",
       "headings": [
         {
           "tag": "h1",
@@ -4853,12 +5358,21 @@
           "url": "https://atelier3.web.fc2.com/ngo/uamulet.html"
         }
       ],
-      "lastModified": "Fri, 01 Nov 2024 04:55:58 GMT"
+      "lastModified": "Fri, 01 Nov 2024 04:55:58 GMT",
+      "contentType": "text/html",
+      "contentHash": "86e30635de8aa234073cb6df925fb41a27f2e154547fb6a3e4c6e821b50f6576",
+      "blockCounts": {
+        "heading": 15,
+        "paragraph": 50,
+        "list": 1,
+        "table": 1
+      }
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/tigole.html",
       "file": "tigole.html",
       "title": "セット/Tigole | Nevergrind Online 攻略DB",
+      "pageTitle": "Tigole's セット",
       "headings": [
         {
           "tag": "h1",
@@ -4871,12 +5385,19 @@
           "url": "https://atelier3.web.fc2.com/ngo/menu.html"
         }
       ],
-      "lastModified": "Mon, 23 Jun 2025 22:01:23 GMT"
+      "lastModified": "Mon, 23 Jun 2025 22:01:23 GMT",
+      "contentType": "text/html",
+      "contentHash": "9ec945f371e6cb74666688664a670531476aad2409402f85e62c18c62405d989",
+      "blockCounts": {
+        "heading": 1,
+        "table": 3
+      }
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/tsubodai.html",
       "file": "tsubodai.html",
       "title": "セット/Tsubodai | Nevergrind Online 攻略DB",
+      "pageTitle": "Tsubodai's セット",
       "headings": [
         {
           "tag": "h1",
@@ -4889,12 +5410,19 @@
           "url": "https://atelier3.web.fc2.com/ngo/menu.html"
         }
       ],
-      "lastModified": "Sun, 08 Jun 2025 23:48:07 GMT"
+      "lastModified": "Sun, 08 Jun 2025 23:48:07 GMT",
+      "contentType": "text/html",
+      "contentHash": "75d2bfb6fce64115c502e559a9dda7835b9162b1e35ead1244f33731d8fed421",
+      "blockCounts": {
+        "heading": 1,
+        "table": 3
+      }
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/tunso.html",
       "file": "tunso.html",
       "title": "セット/Tunso | Nevergrind Online 攻略DB",
+      "pageTitle": "Tunso's セット",
       "headings": [
         {
           "tag": "h1",
@@ -4907,12 +5435,19 @@
           "url": "https://atelier3.web.fc2.com/ngo/menu.html"
         }
       ],
-      "lastModified": "Sat, 30 Nov 2024 05:02:57 GMT"
+      "lastModified": "Sat, 30 Nov 2024 05:02:57 GMT",
+      "contentType": "text/html",
+      "contentHash": "988dc6a7b6d4e42f0e0b9ea426e7e5f1657d45677d1837035ce5a35487ba12e6",
+      "blockCounts": {
+        "heading": 1,
+        "table": 3
+      }
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/tyranid.html",
       "file": "tyranid.html",
       "title": "セット/Tyranid | Nevergrind Online 攻略DB",
+      "pageTitle": "Tyranid's セット",
       "headings": [
         {
           "tag": "h1",
@@ -4925,12 +5460,19 @@
           "url": "https://atelier3.web.fc2.com/ngo/menu.html"
         }
       ],
-      "lastModified": "Tue, 25 Mar 2025 15:28:01 GMT"
+      "lastModified": "Tue, 25 Mar 2025 15:28:01 GMT",
+      "contentType": "text/html",
+      "contentHash": "934511cd70a65b467daa9914108e417687897c253a7caae819c73bdd01b79753",
+      "blockCounts": {
+        "heading": 1,
+        "table": 3
+      }
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/u1hbm.html",
       "file": "u1hbm.html",
       "title": "ユニーク武器/片手鈍器（魔） | Nevergrind Online 攻略DB",
+      "pageTitle": "ユニーク武器/片手鈍器（魔）",
       "headings": [
         {
           "tag": "h1",
@@ -4967,12 +5509,20 @@
           "url": "https://atelier3.web.fc2.com/ngo/u1hbm.html"
         }
       ],
-      "lastModified": "Wed, 25 Jun 2025 16:24:24 GMT"
+      "lastModified": "Wed, 25 Jun 2025 16:24:24 GMT",
+      "contentType": "text/html",
+      "contentHash": "63bd9ae8b90da4ebcdfd3f6c32a9182c6096fbe21c173ff3c41d9910accb42d7",
+      "blockCounts": {
+        "heading": 4,
+        "paragraph": 1,
+        "table": 3
+      }
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/u1hbp.html",
       "file": "u1hbp.html",
       "title": "ユニーク武器/片手鈍器（物） | Nevergrind Online 攻略DB",
+      "pageTitle": "ユニーク武器/片手鈍器（物）",
       "headings": [
         {
           "tag": "h1",
@@ -5009,12 +5559,20 @@
           "url": "https://atelier3.web.fc2.com/ngo/u1hbp.html"
         }
       ],
-      "lastModified": "Wed, 25 Jun 2025 22:06:33 GMT"
+      "lastModified": "Wed, 25 Jun 2025 22:06:33 GMT",
+      "contentType": "text/html",
+      "contentHash": "db9cbd7cba4c4aa535198b90c7fdb67987dce319effa59ad07ad876c0eecbc3e",
+      "blockCounts": {
+        "heading": 4,
+        "paragraph": 1,
+        "table": 3
+      }
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/u1hs.html",
       "file": "u1hs.html",
       "title": "ユニーク武器/片手斬り | Nevergrind Online 攻略DB",
+      "pageTitle": "ユニーク武器/片手斬り",
       "headings": [
         {
           "tag": "h1",
@@ -5051,12 +5609,20 @@
           "url": "https://atelier3.web.fc2.com/ngo/u1hs.html"
         }
       ],
-      "lastModified": "Wed, 25 Jun 2025 15:14:16 GMT"
+      "lastModified": "Wed, 25 Jun 2025 15:14:16 GMT",
+      "contentType": "text/html",
+      "contentHash": "16f9093a46f77d8c39545c0c529669b9726b530b89c28c34cbaa019427065d53",
+      "blockCounts": {
+        "heading": 4,
+        "paragraph": 1,
+        "table": 3
+      }
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/u2hbm.html",
       "file": "u2hbm.html",
       "title": "ユニーク武器/両手鈍器（魔） | Nevergrind Online 攻略DB",
+      "pageTitle": "ユニーク武器/両手鈍器（魔）",
       "headings": [
         {
           "tag": "h1",
@@ -5093,12 +5659,20 @@
           "url": "https://atelier3.web.fc2.com/ngo/u2hbm.html"
         }
       ],
-      "lastModified": "Wed, 25 Jun 2025 22:32:06 GMT"
+      "lastModified": "Wed, 25 Jun 2025 22:32:06 GMT",
+      "contentType": "text/html",
+      "contentHash": "9a0cf14a51d545fb154b5ab05ffc32d43ba7bee316014194ba7dd52f71f307e1",
+      "blockCounts": {
+        "heading": 4,
+        "paragraph": 1,
+        "table": 3
+      }
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/u2hbp.html",
       "file": "u2hbp.html",
       "title": "ユニーク武器/両手鈍器（物） | Nevergrind Online 攻略DB",
+      "pageTitle": "ユニーク武器/両手鈍器（物）",
       "headings": [
         {
           "tag": "h1",
@@ -5135,12 +5709,20 @@
           "url": "https://atelier3.web.fc2.com/ngo/u2hbp.html"
         }
       ],
-      "lastModified": "Wed, 25 Jun 2025 22:13:20 GMT"
+      "lastModified": "Wed, 25 Jun 2025 22:13:20 GMT",
+      "contentType": "text/html",
+      "contentHash": "3b17e3593980ba87c4994d839d98803a946a14ea369342a9d181460a066365a4",
+      "blockCounts": {
+        "heading": 4,
+        "paragraph": 1,
+        "table": 3
+      }
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/u2hs.html",
       "file": "u2hs.html",
       "title": "ユニーク武器/両手斬り | Nevergrind Online 攻略DB",
+      "pageTitle": "ユニーク武器/両手斬り",
       "headings": [
         {
           "tag": "h1",
@@ -5177,12 +5759,20 @@
           "url": "https://atelier3.web.fc2.com/ngo/u2hs.html"
         }
       ],
-      "lastModified": "Thu, 26 Jun 2025 00:13:11 GMT"
+      "lastModified": "Thu, 26 Jun 2025 00:13:11 GMT",
+      "contentType": "text/html",
+      "contentHash": "80398e91d2d3429c21a62d64cc59e873d5ea2640e3d6ad11ce8fc70170b42acb",
+      "blockCounts": {
+        "heading": 4,
+        "paragraph": 1,
+        "table": 3
+      }
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/uamulet.html",
       "file": "uamulet.html",
       "title": "ユニーク防具/ネックレス | Nevergrind Online 攻略DB",
+      "pageTitle": "ユニーク防具/ネックレス",
       "headings": [
         {
           "tag": "h1",
@@ -5219,12 +5809,20 @@
           "url": "https://atelier3.web.fc2.com/ngo/uamulet.html"
         }
       ],
-      "lastModified": "Tue, 25 Mar 2025 15:46:10 GMT"
+      "lastModified": "Tue, 25 Mar 2025 15:46:10 GMT",
+      "contentType": "text/html",
+      "contentHash": "715a14bf559f91189f570867d3b0caf113c4217ea74b81c130aa7784411cc12b",
+      "blockCounts": {
+        "heading": 4,
+        "paragraph": 1,
+        "table": 3
+      }
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/uback.html",
       "file": "uback.html",
       "title": "ユニーク防具/背中 | Nevergrind Online 攻略DB",
+      "pageTitle": "ユニーク防具/背中",
       "headings": [
         {
           "tag": "h1",
@@ -5261,12 +5859,20 @@
           "url": "https://atelier3.web.fc2.com/ngo/uback.html"
         }
       ],
-      "lastModified": "Mon, 23 Jun 2025 19:35:15 GMT"
+      "lastModified": "Mon, 23 Jun 2025 19:35:15 GMT",
+      "contentType": "text/html",
+      "contentHash": "7bf11c13257d748a2ecb441e698de893c3adb5d76a772ca849c6ca7851d48ac8",
+      "blockCounts": {
+        "heading": 4,
+        "paragraph": 1,
+        "table": 3
+      }
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/ubar.html",
       "file": "ubar.html",
       "title": "セット/Ubar | Nevergrind Online 攻略DB",
+      "pageTitle": "Ubar's セット",
       "headings": [
         {
           "tag": "h1",
@@ -5279,12 +5885,19 @@
           "url": "https://atelier3.web.fc2.com/ngo/menu.html"
         }
       ],
-      "lastModified": "Sat, 30 Nov 2024 05:02:57 GMT"
+      "lastModified": "Sat, 30 Nov 2024 05:02:57 GMT",
+      "contentType": "text/html",
+      "contentHash": "16226e43644ff91118a7b96bfafac28c178cff804469e20bb363ead31d594962",
+      "blockCounts": {
+        "heading": 1,
+        "table": 3
+      }
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/ubelt.html",
       "file": "ubelt.html",
       "title": "ユニーク防具/腰 | Nevergrind Online 攻略DB",
+      "pageTitle": "ユニーク防具/腰",
       "headings": [
         {
           "tag": "h1",
@@ -5405,12 +6018,20 @@
           "url": "https://atelier3.web.fc2.com/ngo/ubelt.html"
         }
       ],
-      "lastModified": "Sun, 08 Jun 2025 00:27:16 GMT"
+      "lastModified": "Sun, 08 Jun 2025 00:27:16 GMT",
+      "contentType": "text/html",
+      "contentHash": "f05e73d9f635a9ef54390b8356455475d2759052805e2e8770314e73ffdea236",
+      "blockCounts": {
+        "heading": 16,
+        "paragraph": 3,
+        "table": 12
+      }
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/uboot.html",
       "file": "uboot.html",
       "title": "ユニーク防具/靴 | Nevergrind Online 攻略DB",
+      "pageTitle": "ユニーク防具/靴",
       "headings": [
         {
           "tag": "h1",
@@ -5531,12 +6152,20 @@
           "url": "https://atelier3.web.fc2.com/ngo/uboot.html"
         }
       ],
-      "lastModified": "Sat, 30 Nov 2024 05:21:37 GMT"
+      "lastModified": "Sat, 30 Nov 2024 05:21:37 GMT",
+      "contentType": "text/html",
+      "contentHash": "2faddd44d30f3a06e71e3d81018ed4c9870b930f36180c40434d790e5739ad54",
+      "blockCounts": {
+        "heading": 16,
+        "paragraph": 3,
+        "table": 12
+      }
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/ubow.html",
       "file": "ubow.html",
       "title": "ユニーク武器/弓術 | Nevergrind Online 攻略DB",
+      "pageTitle": "ユニーク武器/弓術",
       "headings": [
         {
           "tag": "h1",
@@ -5573,12 +6202,20 @@
           "url": "https://atelier3.web.fc2.com/ngo/ubow.html"
         }
       ],
-      "lastModified": "Mon, 23 Jun 2025 21:15:38 GMT"
+      "lastModified": "Mon, 23 Jun 2025 21:15:38 GMT",
+      "contentType": "text/html",
+      "contentHash": "353d793cc361ecd13c22a1c57c41d09cb7f7352dc724a0d0f6c18b4cd0c5d255",
+      "blockCounts": {
+        "heading": 4,
+        "paragraph": 1,
+        "table": 3
+      }
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/ubracer.html",
       "file": "ubracer.html",
       "title": "ユニーク防具/腕 | Nevergrind Online 攻略DB",
+      "pageTitle": "ユニーク防具/腕",
       "headings": [
         {
           "tag": "h1",
@@ -5699,12 +6336,20 @@
           "url": "https://atelier3.web.fc2.com/ngo/ubracer.html"
         }
       ],
-      "lastModified": "Sun, 03 Nov 2024 09:18:17 GMT"
+      "lastModified": "Sun, 03 Nov 2024 09:18:17 GMT",
+      "contentType": "text/html",
+      "contentHash": "241f6e61bc597b31d170eecc4f76e2f39edf4fd9354634c78cf48f78f620a816",
+      "blockCounts": {
+        "heading": 16,
+        "paragraph": 3,
+        "table": 12
+      }
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/ucharm.html",
       "file": "ucharm.html",
       "title": "ユニーク武器/チャーム | Nevergrind Online 攻略DB",
+      "pageTitle": "ユニーク武器/チャーム",
       "headings": [
         {
           "tag": "h1",
@@ -5741,12 +6386,20 @@
           "url": "https://atelier3.web.fc2.com/ngo/ucharm.html"
         }
       ],
-      "lastModified": "Sat, 30 Nov 2024 05:21:37 GMT"
+      "lastModified": "Sat, 30 Nov 2024 05:21:37 GMT",
+      "contentType": "text/html",
+      "contentHash": "c62071b405db3591b16063ef27c58e8f1bfe843fbe0a6b729aae8ff19a178735",
+      "blockCounts": {
+        "heading": 4,
+        "paragraph": 1,
+        "table": 3
+      }
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/uchest.html",
       "file": "uchest.html",
       "title": "ユニーク防具/胴体 | Nevergrind Online 攻略DB",
+      "pageTitle": "ユニーク防具/胴体",
       "headings": [
         {
           "tag": "h1",
@@ -5867,12 +6520,20 @@
           "url": "https://atelier3.web.fc2.com/ngo/uchest.html"
         }
       ],
-      "lastModified": "Mon, 23 Jun 2025 19:35:15 GMT"
+      "lastModified": "Mon, 23 Jun 2025 19:35:15 GMT",
+      "contentType": "text/html",
+      "contentHash": "0627c2b4b352f77e293d377fa0a04e087b4e56eb1d5b4c615bc394a24c2ecc71",
+      "blockCounts": {
+        "heading": 16,
+        "paragraph": 3,
+        "table": 12
+      }
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/uglove.html",
       "file": "uglove.html",
       "title": "ユニーク防具/手 | Nevergrind Online 攻略DB",
+      "pageTitle": "ユニーク防具/手",
       "headings": [
         {
           "tag": "h1",
@@ -5993,12 +6654,20 @@
           "url": "https://atelier3.web.fc2.com/ngo/uglove.html"
         }
       ],
-      "lastModified": "Thu, 26 Jun 2025 12:32:26 GMT"
+      "lastModified": "Thu, 26 Jun 2025 12:32:26 GMT",
+      "contentType": "text/html",
+      "contentHash": "bfe6070905fe4d5a22cf57bbd48b716b8c1844bb25ee38a01b8b550b50ed9c61",
+      "blockCounts": {
+        "heading": 16,
+        "paragraph": 3,
+        "table": 12
+      }
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/uhead.html",
       "file": "uhead.html",
       "title": "ユニーク防具/頭 | Nevergrind Online 攻略DB",
+      "pageTitle": "ユニーク防具/頭",
       "headings": [
         {
           "tag": "h1",
@@ -6119,12 +6788,20 @@
           "url": "https://atelier3.web.fc2.com/ngo/uhead.html"
         }
       ],
-      "lastModified": "Mon, 23 Jun 2025 19:35:14 GMT"
+      "lastModified": "Mon, 23 Jun 2025 19:35:14 GMT",
+      "contentType": "text/html",
+      "contentHash": "95d36dc88c68c7bc0eb5fe04ff813fc18c0d676a58fb47c7068dfa0a1ac8a060",
+      "blockCounts": {
+        "heading": 16,
+        "paragraph": 3,
+        "table": 12
+      }
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/uleg.html",
       "file": "uleg.html",
       "title": "ユニーク防具/太腿 | Nevergrind Online 攻略DB",
+      "pageTitle": "ユニーク防具/太腿",
       "headings": [
         {
           "tag": "h1",
@@ -6245,12 +6922,20 @@
           "url": "https://atelier3.web.fc2.com/ngo/uleg.html"
         }
       ],
-      "lastModified": "Mon, 23 Jun 2025 19:35:15 GMT"
+      "lastModified": "Mon, 23 Jun 2025 19:35:15 GMT",
+      "contentType": "text/html",
+      "contentHash": "a35558f3a52167f39fe06e55b838f8405980971a931534a91c6987f9f7f6b944",
+      "blockCounts": {
+        "heading": 16,
+        "paragraph": 3,
+        "table": 12
+      }
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/unimon.html",
       "file": "unimon.html",
       "title": "特殊モンスター | Nevergrind Online 攻略DB",
+      "pageTitle": "特殊モンスター",
       "headings": [
         {
           "tag": "h1",
@@ -6287,12 +6972,20 @@
           "url": "https://atelier3.web.fc2.com/ngo/menu.html"
         }
       ],
-      "lastModified": "Sun, 13 Apr 2025 14:29:25 GMT"
+      "lastModified": "Sun, 13 Apr 2025 14:29:25 GMT",
+      "contentType": "text/html",
+      "contentHash": "03c1ca71cf80a8d7c668ae65f5e6d548fda1b538eae3795cf46f4f910ee58223",
+      "blockCounts": {
+        "heading": 7,
+        "paragraph": 16,
+        "table": 1
+      }
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/unique.html",
       "file": "unique.html",
       "title": "ユニーク | Nevergrind Online 攻略DB",
+      "pageTitle": "ユニーク",
       "headings": [
         {
           "tag": "h1",
@@ -6397,12 +7090,19 @@
           "url": "https://atelier3.web.fc2.com/ngo/uring.html"
         }
       ],
-      "lastModified": "Mon, 18 Nov 2024 08:54:58 GMT"
+      "lastModified": "Mon, 18 Nov 2024 08:54:58 GMT",
+      "contentType": "text/html",
+      "contentHash": "59029172d101a9ff14efbc1ca95242833f68c040cac23e502b33d36885002d04",
+      "blockCounts": {
+        "heading": 3,
+        "table": 2
+      }
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/upiercer.html",
       "file": "upiercer.html",
       "title": "ユニーク武器/刺突 | Nevergrind Online 攻略DB",
+      "pageTitle": "ユニーク武器/刺突",
       "headings": [
         {
           "tag": "h1",
@@ -6439,12 +7139,20 @@
           "url": "https://atelier3.web.fc2.com/ngo/upiercer.html"
         }
       ],
-      "lastModified": "Wed, 25 Jun 2025 22:43:57 GMT"
+      "lastModified": "Wed, 25 Jun 2025 22:43:57 GMT",
+      "contentType": "text/html",
+      "contentHash": "531ec1e5de9f4322886eb101c0566b833fc4125c8f767cd4f5abfac8b5675c46",
+      "blockCounts": {
+        "heading": 4,
+        "paragraph": 1,
+        "table": 3
+      }
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/uring.html",
       "file": "uring.html",
       "title": "ユニーク防具/指輪 | Nevergrind Online 攻略DB",
+      "pageTitle": "ユニーク防具/指輪",
       "headings": [
         {
           "tag": "h1",
@@ -6481,12 +7189,20 @@
           "url": "https://atelier3.web.fc2.com/ngo/uring.html"
         }
       ],
-      "lastModified": "Sat, 30 Nov 2024 05:21:37 GMT"
+      "lastModified": "Sat, 30 Nov 2024 05:21:37 GMT",
+      "contentType": "text/html",
+      "contentHash": "308f942feb8c8f68ca2e919ccaabb67d59221c8c8c77ccdc4ade805630b4d6e9",
+      "blockCounts": {
+        "heading": 4,
+        "paragraph": 1,
+        "table": 3
+      }
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/ushield.html",
       "file": "ushield.html",
       "title": "ユニーク武器/盾 | Nevergrind Online 攻略DB",
+      "pageTitle": "ユニーク武器/盾",
       "headings": [
         {
           "tag": "h1",
@@ -6523,12 +7239,20 @@
           "url": "https://atelier3.web.fc2.com/ngo/ushield.html"
         }
       ],
-      "lastModified": "Sat, 21 Jun 2025 23:44:11 GMT"
+      "lastModified": "Sat, 21 Jun 2025 23:44:11 GMT",
+      "contentType": "text/html",
+      "contentHash": "73405c210ba78101bb7bc24af268ad0aa2e78b721fc0cec2bc90e55c460371c6",
+      "blockCounts": {
+        "heading": 4,
+        "paragraph": 1,
+        "table": 3
+      }
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/ushoulder.html",
       "file": "ushoulder.html",
       "title": "ユニーク防具/肩 | Nevergrind Online 攻略DB",
+      "pageTitle": "ユニーク防具/肩",
       "headings": [
         {
           "tag": "h1",
@@ -6649,12 +7373,20 @@
           "url": "https://atelier3.web.fc2.com/ngo/ushoulder.html"
         }
       ],
-      "lastModified": "Fri, 01 Nov 2024 04:55:58 GMT"
+      "lastModified": "Fri, 01 Nov 2024 04:55:58 GMT",
+      "contentType": "text/html",
+      "contentHash": "fda8dd3404613e369a465b08545d2503a3fefb44cc2ec1a5d9dee0e2b5770609",
+      "blockCounts": {
+        "heading": 16,
+        "paragraph": 3,
+        "table": 12
+      }
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/vagabond.html",
       "file": "vagabond.html",
       "title": "セット/Vagabond | Nevergrind Online 攻略DB",
+      "pageTitle": "Vagabond's セット",
       "headings": [
         {
           "tag": "h1",
@@ -6667,12 +7399,19 @@
           "url": "https://atelier3.web.fc2.com/ngo/menu.html"
         }
       ],
-      "lastModified": "Tue, 08 Oct 2024 19:32:25 GMT"
+      "lastModified": "Tue, 08 Oct 2024 19:32:25 GMT",
+      "contentType": "text/html",
+      "contentHash": "a8ac5a6c7c28852441689315e99241975b95678b58413e437178ed34bd509852",
+      "blockCounts": {
+        "heading": 1,
+        "table": 2
+      }
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/vagrant.html",
       "file": "vagrant.html",
       "title": "セット/Vagrant | Nevergrind Online 攻略DB",
+      "pageTitle": "Vagrant's セット",
       "headings": [
         {
           "tag": "h1",
@@ -6685,12 +7424,19 @@
           "url": "https://atelier3.web.fc2.com/ngo/menu.html"
         }
       ],
-      "lastModified": "Mon, 14 Oct 2024 05:03:29 GMT"
+      "lastModified": "Mon, 14 Oct 2024 05:03:29 GMT",
+      "contentType": "text/html",
+      "contentHash": "45202d177eca3ac5d779a4cb8a0c95d961a1e5843701eb467c56289ee6d6ae34",
+      "blockCounts": {
+        "heading": 1,
+        "table": 3
+      }
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/volaki.html",
       "file": "volaki.html",
       "title": "セット/Volaki | Nevergrind Online 攻略DB",
+      "pageTitle": "Volaki's セット",
       "headings": [
         {
           "tag": "h1",
@@ -6703,12 +7449,19 @@
           "url": "https://atelier3.web.fc2.com/ngo/menu.html"
         }
       ],
-      "lastModified": "Mon, 23 Jun 2025 21:35:25 GMT"
+      "lastModified": "Mon, 23 Jun 2025 21:35:25 GMT",
+      "contentType": "text/html",
+      "contentHash": "1bcda34aaef9fff7af68c1621b1ed5901b73640e36f19951022b3fd1d4313c34",
+      "blockCounts": {
+        "heading": 1,
+        "table": 3
+      }
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/warlock.html",
       "file": "warlock.html",
       "title": "クラス/ウォーロック | Nevergrind Online 攻略DB",
+      "pageTitle": "ウォーロック",
       "headings": [
         {
           "tag": "h1",
@@ -6869,12 +7622,21 @@
           "url": "https://atelier3.web.fc2.com/ngo/noik.html"
         }
       ],
-      "lastModified": "Fri, 01 Nov 2024 04:55:57 GMT"
+      "lastModified": "Fri, 01 Nov 2024 04:55:57 GMT",
+      "contentType": "text/html",
+      "contentHash": "726e87995d5f4362528c1d9a4af807df1b9745dd39328634f7b369094978623e",
+      "blockCounts": {
+        "heading": 9,
+        "paragraph": 35,
+        "list": 1,
+        "table": 2
+      }
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/warrior.html",
       "file": "warrior.html",
       "title": "クラス/ウォーリアー | Nevergrind Online 攻略DB",
+      "pageTitle": "ウォーリアー",
       "headings": [
         {
           "tag": "h1",
@@ -7047,12 +7809,21 @@
           "url": "https://atelier3.web.fc2.com/ngo/stockade.html"
         }
       ],
-      "lastModified": "Thu, 26 Jun 2025 13:10:08 GMT"
+      "lastModified": "Thu, 26 Jun 2025 13:10:08 GMT",
+      "contentType": "text/html",
+      "contentHash": "bced9957537a70acc430a15186337137ad8d4c277d2e0f1f847927279fd9ed44",
+      "blockCounts": {
+        "heading": 9,
+        "paragraph": 29,
+        "list": 2,
+        "table": 1
+      }
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/wizard.html",
       "file": "wizard.html",
       "title": "クラス/ウィザード | Nevergrind Online 攻略DB",
+      "pageTitle": "ウィザード",
       "headings": [
         {
           "tag": "h1",
@@ -7245,12 +8016,21 @@
           "url": "https://atelier3.web.fc2.com/ngo/uboot.html"
         }
       ],
-      "lastModified": "Fri, 01 Nov 2024 04:56:00 GMT"
+      "lastModified": "Fri, 01 Nov 2024 04:56:00 GMT",
+      "contentType": "text/html",
+      "contentHash": "88bcfaac78701870d80209986c97be6ae4cb7a5c1068ab4a570e1ba889d18c9a",
+      "blockCounts": {
+        "heading": 14,
+        "paragraph": 41,
+        "list": 1,
+        "table": 3
+      }
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/wyvern.html",
       "file": "wyvern.html",
       "title": "セット/Wyvern | Nevergrind Online 攻略DB",
+      "pageTitle": "Wyvern's セット",
       "headings": [
         {
           "tag": "h1",
@@ -7263,12 +8043,19 @@
           "url": "https://atelier3.web.fc2.com/ngo/menu.html"
         }
       ],
-      "lastModified": "Tue, 08 Oct 2024 19:32:25 GMT"
+      "lastModified": "Tue, 08 Oct 2024 19:32:25 GMT",
+      "contentType": "text/html",
+      "contentHash": "96d5a022a468802854bc194917b47ddc689d7d6f763d42f7998851ed07eb44fd",
+      "blockCounts": {
+        "heading": 1,
+        "table": 3
+      }
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/yizeren.html",
       "file": "yizeren.html",
       "title": "セット/Yizeren | Nevergrind Online 攻略DB",
+      "pageTitle": "Yizeren's セット",
       "headings": [
         {
           "tag": "h1",
@@ -7281,12 +8068,19 @@
           "url": "https://atelier3.web.fc2.com/ngo/menu.html"
         }
       ],
-      "lastModified": "Fri, 01 Nov 2024 04:56:01 GMT"
+      "lastModified": "Fri, 01 Nov 2024 04:56:01 GMT",
+      "contentType": "text/html",
+      "contentHash": "5847022eb7de2f400885c731b0a0cd9c95c497fd443ce01ff562d59272e97cb3",
+      "blockCounts": {
+        "heading": 1,
+        "table": 3
+      }
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/zak.html",
       "file": "zak.html",
       "title": "セット/Zak | Nevergrind Online 攻略DB",
+      "pageTitle": "Zak's セット",
       "headings": [
         {
           "tag": "h1",
@@ -7299,12 +8093,19 @@
           "url": "https://atelier3.web.fc2.com/ngo/menu.html"
         }
       ],
-      "lastModified": "Sat, 21 Jun 2025 21:58:04 GMT"
+      "lastModified": "Sat, 21 Jun 2025 21:58:04 GMT",
+      "contentType": "text/html",
+      "contentHash": "1d9fbfa6ebe0f18fe0ee6fffa765ce03a127394c1062a95cb19d82ad96e5151b",
+      "blockCounts": {
+        "heading": 1,
+        "table": 3
+      }
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/zamtil.html",
       "file": "zamtil.html",
       "title": "セット/Zamtil | Nevergrind Online 攻略DB",
+      "pageTitle": "Zamtil's セット",
       "headings": [
         {
           "tag": "h1",
@@ -7317,12 +8118,19 @@
           "url": "https://atelier3.web.fc2.com/ngo/menu.html"
         }
       ],
-      "lastModified": "Sat, 30 Nov 2024 05:02:57 GMT"
+      "lastModified": "Sat, 30 Nov 2024 05:02:57 GMT",
+      "contentType": "text/html",
+      "contentHash": "e2093e25d0c815741eb6040a5f06ce4dd7ef2dcee532524aa6cbc74a815aebca",
+      "blockCounts": {
+        "heading": 1,
+        "table": 3
+      }
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/zarth.html",
       "file": "zarth.html",
       "title": "セット/Zarth | Nevergrind Online 攻略DB",
+      "pageTitle": "Zarth's セット",
       "headings": [
         {
           "tag": "h1",
@@ -7335,7 +8143,13 @@
           "url": "https://atelier3.web.fc2.com/ngo/menu.html"
         }
       ],
-      "lastModified": "Mon, 23 Jun 2025 21:17:09 GMT"
+      "lastModified": "Mon, 23 Jun 2025 21:17:09 GMT",
+      "contentType": "text/html",
+      "contentHash": "f98f7d97ff318933dca05e1eb54b284a1d667336a0134e737a6f9c6d4901c1ea",
+      "blockCounts": {
+        "heading": 1,
+        "table": 3
+      }
     }
   ]
 }

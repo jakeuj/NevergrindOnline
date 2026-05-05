@@ -1,100 +1,19 @@
-import { mkdir, writeFile } from 'node:fs/promises';
-import { dirname } from 'node:path';
+import { mkdir, rm, writeFile } from 'node:fs/promises';
+import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import * as cheerio from 'cheerio';
-import iconv from 'iconv-lite';
+import {
+  EXPECTED_FC2_COUNT,
+  FC2_BASE_URL,
+  extractPage,
+  fetchFc2Page,
+  isInternalHtml,
+} from './fc2-common.mjs';
 
-const BASE_URL = 'https://atelier3.web.fc2.com/ngo/index.html';
-const OUTPUT_PATH = new URL('../src/data/fc2-source-manifest.json', import.meta.url);
-const EXPECTED_COUNT = 106;
-const USER_AGENT =
-  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 ' +
-  '(KHTML, like Gecko) Chrome/124.0 Safari/537.36';
-
-function isInternalHtml(value, base) {
-  try {
-    const url = new URL(value, base);
-    return url.origin === base.origin && url.pathname.startsWith('/ngo/') && url.pathname.endsWith('.html');
-  } catch {
-    return false;
-  }
-}
-
-function decodeHtml(buffer, contentType = '') {
-  const charset = contentType.match(/charset=([^;]+)/i)?.[1]?.trim();
-  if (charset) {
-    return iconv.decode(buffer, charset);
-  }
-
-  const utf8 = iconv.decode(buffer, 'utf8');
-  if (!utf8.includes('\uFFFD')) {
-    return utf8;
-  }
-  return iconv.decode(buffer, 'shift_jis');
-}
-
-function cleanText(value) {
-  return value.replace(/\s+/g, ' ').trim();
-}
-
-async function fetchPage(url) {
-  const response = await fetch(url, {
-    headers: {
-      'user-agent': USER_AGENT,
-    },
-  });
-
-  if (!response.ok) {
-    throw new Error(`${response.status} ${response.statusText}`);
-  }
-
-  const buffer = Buffer.from(await response.arrayBuffer());
-  const html = decodeHtml(buffer, response.headers.get('content-type') ?? '');
-  return {
-    html,
-    lastModified: response.headers.get('last-modified') ?? '',
-    contentType: response.headers.get('content-type') ?? '',
-  };
-}
-
-function discover(url, html, base) {
-  const $ = cheerio.load(html);
-  const links = [];
-  const enqueue = [];
-
-  $('iframe[src], frame[src], a[href]').each((_, element) => {
-    const attr = element.tagName === 'a' ? 'href' : 'src';
-    const raw = $(element).attr(attr);
-    if (!raw) return;
-
-    const absolute = new URL(raw, url);
-    absolute.hash = '';
-    if (!isInternalHtml(absolute.href, base)) return;
-
-    links.push({
-      label: cleanText($(element).text()),
-      url: absolute.href,
-    });
-    enqueue.push(absolute.href);
-  });
-
-  const headings = [];
-  $('h1, h2, h3').each((_, element) => {
-    const text = cleanText($(element).text());
-    if (!text) return;
-    headings.push({
-      tag: element.tagName.toLowerCase(),
-      text,
-    });
-  });
-
-  return {
-    title: cleanText($('title').first().text()),
-    headings,
-    links,
-    enqueue,
-  };
-}
+const ROOT = fileURLToPath(new URL('..', import.meta.url));
+const OUTPUT_PATH = join(ROOT, 'src/data/fc2-source-manifest.json');
+const CACHE_ROOT = join(ROOT, '.cache/fc2');
+const HTML_CACHE = join(CACHE_ROOT, 'html');
+const PAGE_CACHE = join(CACHE_ROOT, 'pages');
 
 async function crawl(baseUrl) {
   const base = new URL(baseUrl);
@@ -103,24 +22,36 @@ async function crawl(baseUrl) {
   const pages = [];
   const errors = [];
 
+  await rm(CACHE_ROOT, { recursive: true, force: true });
+  await mkdir(HTML_CACHE, { recursive: true });
+  await mkdir(PAGE_CACHE, { recursive: true });
+
   while (queue.length > 0) {
     const url = queue.shift();
     if (!url || seen.has(url) || !isInternalHtml(url, base)) continue;
     seen.add(url);
 
     try {
-      const fetched = await fetchPage(url);
-      const discovered = discover(url, fetched.html, base);
+      const fetched = await fetchFc2Page(url);
+      const page = extractPage(url, fetched.html, fetched);
+
+      await writeFile(join(HTML_CACHE, page.file), fetched.html, 'utf8');
+      await writeFile(join(PAGE_CACHE, `${page.file}.json`), `${JSON.stringify(page, null, 2)}\n`, 'utf8');
+
       pages.push({
-        url,
-        file: new URL(url).pathname.split('/').pop(),
-        title: discovered.title,
-        headings: discovered.headings,
-        links: discovered.links,
-        lastModified: fetched.lastModified,
+        url: page.url,
+        file: page.file,
+        title: page.title,
+        pageTitle: page.pageTitle,
+        headings: page.headings,
+        links: page.links,
+        lastModified: page.lastModified,
+        contentType: page.contentType,
+        contentHash: page.contentHash,
+        blockCounts: page.blockCounts,
       });
 
-      for (const next of discovered.enqueue) {
+      for (const next of page.enqueue) {
         if (!seen.has(next) && !queue.includes(next)) queue.push(next);
       }
     } catch (error) {
@@ -135,21 +66,26 @@ async function crawl(baseUrl) {
   return {
     base: base.href,
     crawledAt: new Date().toISOString(),
-    expectedCount: EXPECTED_COUNT,
+    expectedCount: EXPECTED_FC2_COUNT,
     count: pages.length,
     errors,
+    cache: {
+      rawHtml: '.cache/fc2/html',
+      structuredPages: '.cache/fc2/pages',
+    },
     pages,
   };
 }
 
-const manifest = await crawl(BASE_URL);
-await mkdir(dirname(fileURLToPath(OUTPUT_PATH)), { recursive: true });
+const manifest = await crawl(FC2_BASE_URL);
+await mkdir(dirname(OUTPUT_PATH), { recursive: true });
 await writeFile(OUTPUT_PATH, `${JSON.stringify(manifest, null, 2)}\n`, 'utf8');
 
 console.log(
   JSON.stringify(
     {
-      output: fileURLToPath(OUTPUT_PATH),
+      output: OUTPUT_PATH,
+      structuredPages: PAGE_CACHE,
       count: manifest.count,
       expectedCount: manifest.expectedCount,
       errors: manifest.errors.length,
@@ -161,6 +97,6 @@ console.log(
 
 if (manifest.errors.length > 0) {
   process.exitCode = 2;
-} else if (manifest.count !== EXPECTED_COUNT) {
+} else if (manifest.count !== EXPECTED_FC2_COUNT) {
   process.exitCode = 1;
 }

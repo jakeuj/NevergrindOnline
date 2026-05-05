@@ -309,6 +309,16 @@ function sourceReminder() {
 }
 
 async function main() {
+  if (process.env.ALLOW_WRITERSIDE_IMPORT !== '1') {
+    throw new Error(
+      [
+        'import:writerside is disabled by default because it overwrites FC2-generated docs with old Writerside seed content.',
+        'Use npm run crawl:fc2 && npm run build:fc2-docs for FC2 pages.',
+        'Set ALLOW_WRITERSIDE_IMPORT=1 only when intentionally rebuilding the legacy Writerside seed.',
+      ].join(' '),
+    );
+  }
+
   const files = (await readdir(WRITERSIDE_TOPICS)).filter((file) => /^nevergrind-online-.+\.md$/.test(file));
   const linkMap = new Map(files.map((file) => [file, outputFileForSource(file)]));
   const manifestByUrl = await loadManifest();

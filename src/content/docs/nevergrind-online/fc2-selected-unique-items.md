@@ -1,6 +1,6 @@
 ---
-title: "Nevergrind Online FC2 各職嚴選 Unique 裝備速查"
-description: "FC2 的 各職の厳選ユニーク 頁是一張高階取捨清單：當你打到其他職業的 Unique、Set 或特殊單件裝備時，用它判斷哪些名字值得先留、哪些 roll 要特別比較。這不是官方 BiS 表，也不是「沒列在這頁就能賣」的清單；它比較像玩家整理的重點提醒，適合搭配目前遊戲內 tooltip、職業頁與 nevergrind-online-fc2-signatur"
+title: "Nevergrind Online FC2 嚴選 Unique 速查"
+description: "FC2 嚴選 Unique 速查頁的繁中化版本，用於快速判斷值得保留的 Unique 裝備。"
 sourcePages:
   - file: "selectlist2.html"
     title: "各職の厳選ユニーク | Nevergrind Online 攻略DB"
@@ -8,122 +8,119 @@ sourcePages:
     lastModified: "Sun, 08 Jun 2025 10:52:22 GMT"
 reviewedAt: "2026-05-05"
 sourceLastModified: "Sun, 08 Jun 2025 10:52:22 GMT"
-status: "整理改寫"
+status: "FC2 原站高保真繁中化"
 ---
 
-FC2 的 `各職の厳選ユニーク` 頁是一張高階取捨清單：當你打到其他職業的 Unique、Set 或特殊單件裝備時，用它判斷哪些名字值得先留、哪些 roll 要特別比較。這不是官方 BiS 表，也不是「沒列在這頁就能賣」的清單；它比較像玩家整理的重點提醒，適合搭配目前遊戲內 tooltip、職業頁與 [FC2 各職代表技能速查](./fc2-signature-skills/) 一起讀。
+本頁由 FC2 / atelier3 原站 HTML 重新擷取後繁中化，保留原頁段落、清單、表格欄位與數值；原站圖片、CSS、JavaScript 不搬入公開站。
 
 - 檢視日期：`2026-05-05`
-- 分類：[獨特裝備（Unique Items）指南](./unique-items/)
-- 延伸閱讀：[FC2 各職代表技能速查](./fc2-signature-skills/)、[裝備收集路線](./equipment-collection/)、[套裝（Set Items）指南](./set-items/)、[符文（Runes）指南](./runes/)
-- 資料來源：[FC2 攻略 DB：各職の厳選ユニーク](https://atelier3.web.fc2.com/ngo/selectlist2.html)（本次直接請求 `Last-Modified: 2025-06-08`）
-- 版本提醒：FC2 是玩家 meta snapshot；等級、roll range、socket 上限、技能名稱與裝備可用性請以目前遊戲內 tooltip 為準
+- FC2 來源頁數：1
+- 翻譯策略：保留英文 item / skill / class / rune 查詢詞，日文攻略語氣轉為台灣繁中說明。
+- 內容狀態：由 FC2 原站正文生成，不使用舊版摘要句。
 
 > **快速重點**
-> 先把這頁當「看到名字時先不要急著賣」的提醒，不要當永久 BiS 表。
-> 武器通常會被 elite set 或 legendary 取代；但 talent breakpoint、high DPS、socket space 或 offhand utility 仍可能讓單件裝備值得留。
-> 防具與飾品更常因 talent tree、specific skill、rare drop、resistance 或主屬性 roll 而保留。
+> 這是玩家攻略與資料表的繁中化快照，適合查路線、裝備、Rune、Recipe、Set / Unique / Legendary 數值。
+> 投入 crafting、交易或丟裝前，仍建議回遊戲內 tooltip 確認。
 
-<a id="fc2-selected-unique-reading"></a>
+<a id="fc2-selected-unique-items-sources"></a>
 
-## 這頁怎麼讀
+## 本頁收錄來源
 
-FC2 頁面自己的判斷基準可以整理成三句話：
+|FC2 file|原站標題|Last-Modified|
+|---|---|---|
+|[selectlist2.html](https://atelier3.web.fc2.com/ngo/selectlist2.html)|各職の厳選ユニーク \| Nevergrind Online 攻略DB|Sun, 08 Jun 2025 10:52:22 GMT|
 
-| 讀法 | 實務意思 |
-| ------ | ------ |
-| 武器多半採用 elite set，所以 Unique 武器出場機會較少 | 只有高 DPS、talent breakpoint、socket space、buff switch 或 offhand utility 命中時才特別留 |
-| 防具若不是 elite set 的核心部位，更容易被採用 | 頭、胸、手、腰、腿、靴等部位要看 set bonus 機會成本 |
-| 這頁只列「比較需要嚴選」的候選 | 沒列到不等於一定能賣；列到也要看 roll、職業、技能與目前 build |
+<a id="fc2-selectlist2"></a>
 
-> **提醒**
-> 表內的「最大」與門檻數字來自 FC2 頁面。公開攻略中保留它們作為查裝方向；真正交易、鑲 rune 或賣掉前，仍要回遊戲內 tooltip 核對。
+## 為每個職業精心挑選獨特的
 
-<a id="fc2-selected-unique-weapons"></a>
+- FC2 file：[selectlist2.html](https://atelier3.web.fc2.com/ngo/selectlist2.html)
+- 原站 Last-Modified：`Sun, 08 Jun 2025 10:52:22 GMT`
 
-## 武器與副手候選
+第2頁，當你在為自己不了解的其他職業選擇裝備時，很難知道哪些Talent和技能更強。
 
-| 裝備 | Lv | FC2 指向 | 留裝重點 |
-| ------ | ------ | ------ | ------ |
-| `Cryptic Paragon` / Haniwa | 75 | 魔法職 | 技能命中已經不錯，talent 命中更關鍵；頁面特別點名 Druid `Tornado`、Enchanter `Superior Enthrall`、Wizard `Superior Lightning Bolt`。 |
-| `Gleaming Swiftblade` / Shinken | 72 | Shadow Knight | `Shadow Break` 連打型；FC2 只建議看 DPS 120 以上且 `Blood Knight +2` 的 roll。 |
-| `Abyssal Shard` / Mythical Sword | 75 | Shadow Knight | 同樣是 `Shadow Break` 連打型；看 DPS 120 以上、undead damage 高 roll，若同時有 `Shadow Break` skill enhancement 更好。 |
-| `Korelian Adamantite Maul` / Havoc Mallet | 67 | Warrior | 作為 legendary weapon 前的過渡；盡量看高 DPS、`All Talents +3` 與 4 sockets。 |
-| `Zimri's Wisdom` / Baroque Staff | 72 | Warrior | 只看 `All Talents +5`；雖是 caster staff，FC2 把它定位成 Warrior 雙持兩手鈍器時的 offhand talent stick。 |
-| `Phadol's Barricade` / Artremian Defender | 70 | Arcane 職 | `Arcane Talents +2` 與 `Tree Talents +3`；`Gladewalker`、`Demi Lich` 類 buff switch 可看，`Inveigler`、`Judicator`、`Arbiter` 也可比較。 |
-| `Dreadlord's Armament` / Fenwoven Shield | 72 | Shadow Knight | 看全屬性、全被動與 attack ability；Shadow Knight talent 命中，並帶 `Shadow Break` enhancement 時價值更高。 |
-| `Chaos Mirror` / Fahlnir Ward | 73 | 多數職業 | 靠 `Tree Talents +3` 與 specific talent +3 做專精裝，理論上可追 +6；整體性通常不如 Haniwa，較像過渡或 breakpoint 工具。 |
-| `Stormcaller Bow` / Long War Bow | 39 | Crusader / 其他 | 最高 4 sockets，且可帶 `All Talents +1`；當差 1 點 talent 就能增加 hit count / 次數時特別有用。 |
-| `Demetrium's Ballista` / Battle Bow | 29 | 可用弓職業 | Set bow 而不是 Unique；FC2 因其 socket 上限可到 6 而特別列入。重點是高 socket roll 與 ranged slot 工具性。 |
-| `Fallen Construct` / Charm | 62 | Monk | Monk 不能用 bow 時的副手火力工具；看 attack ability 與最高 5 sockets。 |
-| `Arctic Orb` / Charm | 62 | Druid | 看 cold damage、rare drop 與 skill enhancement；`Tornado` roll 特別值得留，Templar `Frozen Orb` 也可比較。 |
+作為選擇的依據，大部分武器都是精英套裝，所以使用的機會很少。
 
-<a id="fc2-selected-unique-armor"></a>
+如果盔甲不屬於精英套裝，那麼它往往更有可能被採用。
 
-## 防具候選
+請注意，我們僅介紹可能需要仔細選擇的項目。
 
-| 裝備 | Lv | 部位 / 對象 | 留裝重點 |
-| ------ | ------ | ------ | ------ |
-| `Charlatan's Crest` / Shako | 72 | cloth head / 多數 | `All Talents +2` 是核心，接著比較 elemental damage 與 rare drop；FC2 對 bleed damage roll 評價較低。 |
-| `Chemosh's Hooded Shade` | 64 | cloth head / Warlock、Enchanter、Wizard | `Tree Talents +2` 與 talent +3 命中時很強；用來補 Warlock plague、Enchanter 專精或 Wizard `Superior Lightning`。 |
-| `Bodhidharma's Satori` | 65 | cloth head / Monk | 看 `Phoenix` 或 `Falcon +2`，最好再帶 `Dragon Punch` 或 `Hurricane Kicks`。火力向可比較它；rare drop 向通常會看 Shako。 |
-| `Ashtaroth's Guardian` | 67 | cloth head / Warlock、Enchanter、Wizard | 讀法與 `Chemosh's Hooded Shade` 類似：tree + talent 是否命中才是重點。 |
-| `Stormfeather's Eye` | 71 | cloth head / Enchanter、Wizard | Lightning talent 與 `Chaos Mage` 合計至少 3 才值得看；Wizard Haniwa 雙持缺 talent 時、Enchanter `Psionicist` 或 Templar `Visionary` 火力特化可比較。 |
-| `Tortoise Shell Helmet` | 48 | leather head / Druid | `Tornado` 合計 3 以上才看，主要補 hit count / 次數；Templar `Frozen Orb` 也可能有趣。 |
-| `Rephaim's Kepi` | 64 | leather head / Druid | `Stormcaller` 與 `Tornado` 合計 3 以上時，作為缺次數時的補洞頭。 |
-| `Hebron's Coif` | 67 | leather head / Druid | 同樣看 `Stormcaller` + `Tornado` 合計；Templar `Elementalist + Frozen Orb` 也可比較。 |
-| `Uncle Herschel's Visage` | 67 | plate head / Warrior | `All Talents +2`、高 strength；`Rupture` 等 Warrior 主要 skill enhancement 值得留。 |
-| `Marionette's Vestment` | 68 | cloth chest / Wizard | 只看 `Superior Lightning Bolt +3` 類命中 roll；Wizard Haniwa 雙持缺 talent 時才特別有用。 |
-| `Erghal's Panoply Shroud` | 70 | cloth chest / Enchanter 等 | 耐性胸甲；可收不同 elemental damage roll，Enchanter 特別看 arcane 與 lightning。 |
-| `Courtier's Trunk` | 71 | leather chest / Monk、Templar | 以 talent +3 為目標；Monk 看 `Phoenix` / `Falcon`，Templar 看 `Elementalist` / `Visionary`，+2 可當過渡。 |
-| `Fallen Angel` | 65 | leather chest / Rogue | 用輸出與耐性換 rare drop，最高 rare drop roll 很適合 farm；若帶 useful skill 更容易採用。 |
-| `Hellmourn Flesh` | 73 | leather chest / Rogue | Strength roll 越高越好，並看 `Flash Strike` / `Backstab`；rare drop 不是賣點。 |
-| `Gwendolyn's Might` | 75 | chest / Warrior、Crusader、Shadow Knight | 追 rare drop 與 undead damage；Warrior / Shadow Knight 看 strength，Crusader 還可看 arcane damage。 |
-| `Attuned Shawl of the Forsaken` | 50 | cloth shoulder / 魔法職 | 肩部強裝較少，因此 undead damage 與 caster main skill roll 值得留。 |
-| `Armbands of the Crypt` | 67 | cloth bracer / 魔法職 | rare drop、undead damage 與 caster main skill roll 都有價值；腕部候選相對少。 |
-| `Adendu's Echelon Gauntlets` | 52 | mail gloves / Ranger | 與 `Harvest Stranglers` 比較；`Outrider` roll、strength、attack ability、critical 是重點。 |
-| `Harvest Stranglers` | 68 | mail gloves / Ranger、Shaman | talent +2 為前提；Ranger 看 `Outrider`，Shaman 看 `Witch Doctor` 或 `Frostreaver`。 |
-| `Tarfug's Gout Breakers` | 68 | plate gloves / Bard | 只有 `Battle Hymn` 或 `Mastery: Battery +3` 這類命中 roll 才較值得比較；仍要和 `Marshal Gauntlets Iniquity` 比。 |
-| `Marshal Gauntlets Iniquity` | 74 | plate gloves / Warrior、Shadow Knight、Bard、Cleric | FC2 視為多數 plate 職的核心手套候選；talent +2 為前提，Warrior 看 `Goliath`、Shadow Knight 看 `Blood Knight`、Bard 看 `Composer`、Cleric 看 `Arbiter`。Crusader 通常有 set 部位替代。 |
-| `Tresta's Jade Cord` | 64 | cloth belt / Wizard | `Superior Lightning Bolt +2-3` 時，用來補 Haniwa 雙持或 lightning build 的 talent 缺口。 |
-| `Thotthi's Sash` | 65 | leather belt / Druid | 看 `Tornado` talent，用來補次數；注意 FC2 指的是非 `Superior Tornado`。 |
-| `String of Kunzar` | 67 | leather belt / Druid、Templar | cold damage 與 rare drop；若 skill enhancement 命中主要技能，價值更高。 |
-| `Spectral Nether Strap` | 72 | mail belt / Shaman | `Superior Poison Bolt` 或 `Superior Frost Rift` 可用來追次數，+2 比 +1 更值得。 |
-| `Hulking Storm Belt` | 73 | plate belt / Warrior | Strength roll 是主軸，並留意主要技能 enhancement。 |
-| `Rheinhart's Leggings` | 70 | leather legs / Monk | 看 `Dragon Punch` 或 `Hurricane Kicks`，同時追高 strength。 |
-| `Dwarven Zeal Legplates` | 68 | plate legs / Crusader | undead damage 與 `Blessed Hammer` enhancement 是重點；Cleric 也可比較，但物理職通常較難吃滿 undead 特攻價值。 |
-| `Trek of Glory` | 50 | leather boots / 多數 | rare drop 與 experience bonus 讓它很常被採用；適合 farm / leveling 目的保留多雙。 |
+請注意，並非此處列出的所有商品都可以出售。
 
-<a id="fc2-selected-unique-accessories"></a>
+（不過，確實，即使賣了也很容易拿回錢。）
 
-## 飾品候選
+頁面連接：武器/防具/配件
 
-| 裝備 | Lv | 對象 | 留裝重點 |
-| ------ | ------ | ------ | ------ |
-| `Shimmering Fragment` | 51 | 多數 | talent 與 tree 同時咬合時價值很高；具體該留哪個組合要回到職業代表技能頁判斷。 |
-| `Syzygy Shard` | 66 | Templar | lightning talent +3 可用，若同時帶 lightning damage 更好。 |
-| `Sayanim Kaleidoscope` | 69 | 多數 | `All Talents +2` 是前提；再比較 elemental damage、skill enhancement 與 resistance。 |
-| `Circle of Death` | 53 | 物理職 | Strength 固定值讓它幾乎不用嚴選；Exceptional ring 容易被忽略，看到名字可先留。 |
-| `Girded Everliving Golem` | 61 | 物理職 | attack ability 高 roll 可用，屬於容易被忽略的 Exceptional ring。 |
-| `Black Swan Band` | 69 | 多數 | Strength、elemental damage 與 resistance 組合好用，適合跨職業比較。 |
-| `Heaven's Wing` | 70 | 多數 | talent +2 若命中核心 build 很有價值；元素抗性若 roll 出多條，也能成為實用飾品。 |
+<a id="fc2-selectlist2-hdr1"></a>
 
-<a id="fc2-selected-unique-keep-flow"></a>
+### 武器
 
-## 留裝流程
+|物理品名稱|等級|職業業|備註|
+|---|---|---|---|
+|[圖片:focus7.png] Cryptic Paragon Haniwa [單手套鈍器]|75|魔法職業|俗稱埴輪。基本上就是查看各個職業的代表技能。光是技能搭配就很出色，但Talent搭配卻極為強大。特別危險的是Druid的龍捲風、附魔師的高級迷惑和法師的高級閃電箭。|
+|[圖片:oneHandSlashers5.png] Gleaming Swiftblade Shinken [單手套斬擊]|72|SK|暗影破壞 連續攻擊型Shadow Knight使用。必須具有 120 或更高的 DPS 以及血騎士Talent +2。|
+|[圖片:oneHandSlashers7.png] Abyssal Shard Mythical Sword [單手套斬擊]|75|SK|暗影破壞 連續攻擊型Shadow Knight使用。 DPS 120 或以上的不死族上限為 6%。如果影斷能相容技能強化就更好了。|
+|[圖片:twoHandBlunts2.png] Korelian Adamantite Maul Havoc Mallet [雙手套鈍器]|67|Warrior|非常適合作為戰士傳奇武器的連結。我想盡可能尋找高DPS、擁有Talent+3、以及Socket4的。|
+|[圖片:staves4.png] Zimri's Wisdom Baroque Staff [雙手套鈍器]|72|Warrior|僅限Talent+5 擁有的。它是一種用於魔法的鈍器，但不用於魔法職業。它是一種有用的左手斗篷武器，可以讓戰士獲得可以攜帶鈍器的Talent。|
+|[圖片:shields4.png] Phadol's Barricade Artremian Defender [盾牌]|70|Arcane職業|奧術Talent+2，Talent樹+3。即使總共有4個，也是一個連結。 Gladewalker（Druid）和Demi Lich（Warlock）將其用作增益開關。保留Inveigler（附魔師）、Judicator（Crusader）、Arbiter（Cleric）等可能是個好主意，儘管他們不常使用。|
+|[圖片:shields5.png] Dreadlord's Armament Fenwoven Shield [盾牌]|72|SK|所有能力最多10，所有被動最多5，攻擊等級最多80。如果你的Talent是Shadow Knight，就保留它，如果你的技能增強中加入暗影破碎就更好了。|
+|[圖片:shields6.png] Chaos Mirror Fahlnir Ward [盾牌]|73|多數|特殊裝備，可讓你以Talent樹 +3 和Talent +3 瞄準最多 6。雖然比隱密至尊多了一項Talent，但綜合實力較差，所以基本上只是作為連結裝備使用。保留與每個職業的代表性技能相符的物品。|
+|[圖片:bows7.png] Stormcaller Bow Long War Bow [弓術]|39|Crusader 他|插槽最大4個。擁有一張Talent+1的弓，在多加一個Talent次數會增加的情況下很有用。|
+|[圖片:bows5.png] Demetrium's Ballista Battle Bow [弓術]|29|弓術職業|插槽最大 6。它不是唯一的，而是一組，但它非常重要，因此我將其包含在此處。一把好用的弓，可以在所有可以裝備弓的職業中使用。|
+|[圖片:charms0.png] Fallen Construct Charm [副手套]|62|Monk|攻擊等級最高100，插槽最高5。由於Monk無法裝備弓，所以只能用魅惑來增加火力。|
+|[圖片:charms1.png] Arctic Orb Charm [副手套]|62|Druid|冰冷傷害高達 12%，閱讀高達 16。我絕對想保留龍捲風那一套。Templar的冰凍寶珠也被保留，但使用頻率較低。Wizard系列是一種嗜好。|
 
-1. 先看裝備是否在這頁被點名；若有，先不要急著賣。
-2. 對照職業代表技能或自己的 build，確認 talent tree / specific skill 是否命中。
-3. 檢查數字門檻，例如 DPS、socket count、rare drop、strength、attack ability、undead damage 或 resistance。
-4. 判斷它解決的是什麼問題：breakpoint、缺抗、farm、offhand utility、ranged slot、或套裝弱部位。
-5. 若只是「名字對但 roll 不對」，通常當過渡或賣店；若名字、部位、技能與數值都對，再放進銀行或規劃 rune / craft。
+<a id="fc2-selectlist2-hdr2"></a>
 
-## 參考資料
+### 防具
 
-- [FC2 攻略 DB：各職の厳選ユニーク](https://atelier3.web.fc2.com/ngo/selectlist2.html)
-- [FC2 攻略 DB：各職の代表スキル](https://atelier3.web.fc2.com/ngo/selectlist.html)
+|物理品名稱|等級|職業業|備註|
+|---|---|---|---|
+|[圖片:helms6.png] Charlatan's Crest Shako [頭部] [布甲製]|72|多數|俗名：螳螂蝦。需要控球Talent+2，越接近屬性傷害+16%、拉德羅+50%越好。唯一的問題是出血。|
+|[圖片:helms0.png] Chemosh's Hooded Shade Outrider Hood [頭部] [布甲製]|64|Warlock Enchanter Wizard|Talent是樹+2、Talent+3的裝備，搭配很強。當Warlock的瘟疫增幅不足、附魔師的專精裝備、法師的高級閃電增幅不足等時可以使用。|
+|[圖片:helms2.png] Bodhidharma's Satori Nemes [頭部] [布甲製]|65|Monk|+2 鳳凰或獵鷹Talent，最好涉及龍拳或颶風踢。如果火力是你的首要任務，那就選擇這個，如果你優先考慮雷德羅，那就選擇薩科。|
+|[圖片:helms3.png] Ashtaroth's Guardian Dynasty Crown [頭部] [布甲製]|67|Warlock Enchanter Wizard|Talent是樹+2、Talent+3的裝備，搭配很強。當Warlock的瘟疫增幅不足、附魔師的專精裝備、法師的高級閃電增幅不足等時可以使用。|
+|[圖片:helms5.png] Stormfeather's Eye Corona [頭部] [布甲製]|71|Enchanter Wizard|閃電Talent+1~3，混沌法師+1~2，合計3個以上。Wizard的精英套裝非常出色，但是當使用Haniwa Shumomochi時，我有時會使用它，因為我沒有足夠的Talent來賺取。附魔師的靈能師和Templar的遠見家也被用來專攻火力。|
+|[圖片:helms8.png] Tortoise Shell Helmet Shell Coif [頭部] [皮甲製]|48|Druid|Talent來自龍捲風，總數為3個或以上。除非嚙合得很好，否則只是螳螂蝦的變質，但在重複次數無法增加的情況下使用。龍捲風+6確實很強。我認為Templar的冰凍寶珠也很有趣。|
+|[圖片:helms1.png] Rephaim's Kepi Bashlyk [頭部] [皮甲製]|64|Druid|Talent是風暴召喚者，Talent是龍捲風，總數為3個或更多。除非嚙合得很好，否則只是螳螂蝦的變質，但在重複次數無法增加的情況下使用。|
+|[圖片:helms8.png] Hebron's Coif Lanfeld Cowl [頭部] [皮甲製]|67|Druid|Talent是風暴召喚者，Talent是龍捲風，總數為3個或更多。除非嚙合得很好，否則只是螳螂蝦的變質，但在重複次數無法增加的情況下使用。我認為Templar的元素師+冰凍球也會很有趣。|
+|[圖片:helms13.png] Uncle Herschel's Visage Shungite Helm [頭部] [板甲]|67|Warrior|擁有Talent+2，力量最大55。保留戰士的主要技能增強，例如破裂。|
+|[圖片:chests8.png] Marionette's Vestment Cryptic Vestment [胸甲] [布甲製]|68|Wizard|僅限擁有高級閃電+3Talent的人。Wizard的精英套裝非常出色，但是當使用Haniwa Shumomochi時，我有時會使用它，因為我沒有足夠的Talent來賺取。也有可能將其用作其他布甲職業的專門成分。|
+|[圖片:chests9.png] Erghal's Panoply Shroud Abstruse Shroud [胸甲] [布甲製]|70|Enchanter 他|有助於獲得抵抗力的胸甲。收集所有機器屬性傷害 13-17% 的幀可能是個好主意。推薦奧術和神電，因為它們對附魔者特別有效。|
+|[圖片:chests11.png] Courtier's Trunk Goliath Husk [胸甲] [皮甲製]|71|Monk Templar|Talent+3是前提，如果你有有用的技能就更好了。對Monk來說，鳳凰或獵鷹是最好的Talent，對Templar來說，元素師或幻視者是最好的Talent。如果構圖好，甚至+2也能成為連結。|
+|[圖片:chests2.png] Fallen Angel Diamond Mail [胸甲] [皮甲製]|65|Rogue|降低火力和抵抗力的胸甲，用於高達 50% 的閱讀量。如果你擁有有用的技能，那麼僱用就會更容易。|
+|[圖片:chests13.png] Hellmourn Flesh Balrog Skin [胸甲] [皮甲製]|73|Rogue|由於它用於強度目的，因此越接近最大值 30 越好。我還想要閃擊和背刺增強。萊多羅去世。|
+|[圖片:chests15.png] Gwendolyn's Might Sacred Armor [胸甲] [皮甲製]|75|Warrior Crusader SK|瞄準最多 25% 的雷德羅和最多 10% 的亡靈的胸甲。戰士和SK的目標是力量達到40，而Crusader的目標是奧術達到16%。|
+|[圖片:shoulders3.png] Attuned Shawl of the Forsaken Damask Shawl [肩部] [布甲製]|50|魔法職業|不死族高達7%。尤其是保留布甲職業的主要技能。很容易被錄用，因為肩膀不是很強壯。|
+|[圖片:bracers2.png] Armbands of the Crypt Fenwoven Bindings [護腕] [布甲製]|67|魔法職業|Reado 高達 10%，Undead 高達 6%。尤其是保留布甲職業的主要技能。很容易被錄用，因為它沒有很強的防護裝備。|
+|[圖片:gloves10.png] Adendu's Echelon Gauntlets Poplar Gauntlets [手套] [鎖甲]|52|Ranger|選擇的是下面的收穫絞殺者。如果你只有+1Talent，我推薦Ranger的先驅者。精心挑選，力量高達 24，攻擊等級高達 75，暴力高達 35。|
+|[圖片:gloves9.png] Harvest Stranglers Vambraces [手套] [鎖甲]|68|Ranger Shaman|Talent+2是先決條件。前鋒是Ranger的好選擇，巫醫和霜掠者是Shaman的好選擇。盜賊有套裝裝備，所以沒必要。|
+|[圖片:gloves13.png] Tarfug's Gout Breakers Orc Gauntlets [手套] [板甲]|68|Bard|戰歌與Mastery：似乎只有+3電池值得採用。Mastery：電池的傷害可能比下面的罪惡元帥手套低，但我不知道。|
+|[圖片:gloves15.png] Marshal Gauntlets Iniquity Zealot Gauntlets [手套] [板甲]|74|Warrior SK Bard Cleric|大多數板甲職業都需要頭上的有趣裝備。假設Talent+2，我們推薦戰士為歌利亞，SK為血騎士，Bard為作曲家，Cleric為仲裁者。只有Crusader有套裝裝備，所以基本上沒必要。|
+|[圖片:belts0.png] Tresta's Jade Cord Cashmere Sash [腰帶] [布甲製]|64|Wizard|僅限於擁有高級閃電+2到3Talent的人。Wizard精英套裝非常好，但是當使用Haniwa Shumomochi時，我有時會使用它，因為我沒有足夠的Talent來賺取。也有可能將其用作其他布甲職業的專門成分。|
+|[圖片:belts2.png] Thotthi's Sash Greenthorn Belt [腰帶] [皮甲製]|65|Druid|Talent一定是龍捲風。需要增加龍捲風的數量。請注意，我不是一個高級人。|
+|[圖片:belts10.png] String of Kunzar Eldritch Belt [腰帶] [皮甲製]|67|Druid Templar|冰冷傷害最高可達 5%，雷奧傷害最高可達 25%。技能強化與主技能的匹配尤為重要。|
+|[圖片:belts5.png] Spectral Nether Strap Gilded Belt [腰帶] [鎖甲]|72|Shaman|如果你的Talent裡有高級毒箭或高級冰霜裂縫，你可以使用它來增加次數。 +1 會有點奇怪，所以如果可能的話+2。|
+|[圖片:belts15.png] Hulking Storm Belt Shungite Girdle [腰帶] [板甲]|73|Warrior|強度最高可達50。技能強化與主技能的匹配尤為重要。|
+|[圖片:legs7.png] Rheinhart's Leggings Hipposkin Leggings [腿甲] [皮甲製]|70|Monk|好的物品是技能中帶有龍拳或颶風踢的物品，同時目標強度最大為 48。|
+|[圖片:legs13.png] Dwarven Zeal Legplates Zealot Legplates [腿甲] [板甲]|68|Crusader|不死族高達7%。物理職業很難使用，因為不死族的特殊攻擊效果很弱。Cleric也可以使用，儘管它低一級。與祝福悍馬一起贏得一場勝利。|
+|[圖片:boots7.png] Trek of Glory Viperskin Boots [靴子] [皮甲製]|50|多數|你可以獲得最多 50% 的 Readore 和最多 10% 的 Reindori。無論如何，就業機會很多，所以有多少並不重要。|
+
+<a id="fc2-selectlist2-hdr3"></a>
+
+### 配件
+
+|物理品名稱|等級|職業業|備註|
+|---|---|---|---|
+|[圖片:amulets0.png] Shimmering Fragment Amulet [項鍊]|51|多數|當Talent與Talent融合在一起時，我們就會獲勝。詳細內容請查看各職業的代表技能。|
+|[圖片:amulets1.png] Syzygy Shard Amulet [項鍊]|66|Templar|如果你獲得 +3 閃光Talent，則很有用。如果你能造成閃光傷害就更好了。|
+|[圖片:amulets3.png] Sayanim Kaleidoscope Amulet [項鍊]|69|多數|假定擁有Talent+2。我很高興它帶有屬性傷害和技能增強，你可以獲得很大的抵抗力。|
+|[圖片:rings0.png] Circle of Death Ring [戒指]|53|物理理職業|由於力量固定為35，幾乎不需要仔細選擇，但由於很容易在不被注意到的情況下扔掉卓越的裝備，所以我決定將其包括在內。|
+|[圖片:rings1.png] Girded Everliving Golem Ring [戒指]|61|物理理職業|攻擊等級高達100。雖然它往往略遜於上面的死亡之環，但這也是一個在物理職業中很有用的例外戒律。|
+|[圖片:rings2.png] Black Swan Band Ring [戒指]|69|多數|具有強度和屬性傷害，抗性優良，使用方便。|
+|[圖片:rings3.png] Heaven's Wing Ring [戒指]|70|多數|如果Talent匹配+2，你就贏了。雖然是幾率，但是最多給出6個元素抗性。如果添加大約 4 個，你將擁有一個易於使用的設備。|
 
 ---
 
 > **版本提醒**
-> 本頁是玩家攻略與社群資料的繁中整理版；技能、裝備、掉落、配方與版本敏感數值，請以目前遊戲內 tooltip / UI 與官方公告為準。
+> 本頁是 FC2 玩家攻略快照的繁中整理版；技能、裝備、掉落、配方與版本敏感數值，請以目前遊戲內 tooltip / UI 與官方公告為準。
