@@ -8,8 +8,8 @@ description: Maintain the repo-local Astro Starlight Traditional Chinese Nevergr
 ## Repo Shape
 
 - Work from the repository root. In this machine it is `/Users/jakeuj/Documents/New project 4`.
-- Public docs live under `src/content/docs/nevergrind-online/`.
-- The canonical terminology table is `src/content/docs/nevergrind-online/terminology.md`.
+- Public docs live under `src/content/docs/` so `ngo.jakeuj.com` serves pages from root paths such as `/guide/` and `/fc2-general-reference/`.
+- The canonical terminology table is `src/content/docs/terminology.md`.
 - The Starlight sidebar is data-driven from `src/data/sidebar.json`.
 - FC2 routing lives in `src/data/fc2-topic-map.json`; crawl metadata lives in `src/data/fc2-source-manifest.json`.
 - FC2 source snapshots are generated under `.cache/fc2/` and are intentionally ignored.

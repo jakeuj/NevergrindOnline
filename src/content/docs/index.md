@@ -11,10 +11,10 @@ status: "site-index"
 
 ## 閱讀入口
 
-- [Nevergrind Online 攻略首頁](./nevergrind-online/guide/)
-- [FC2 攻略 DB 連結索引](./nevergrind-online/fc2-link-index/)
-- [FC2 一般攻略全量參考](./nevergrind-online/fc2-general-reference/)
-- [中英名詞對照](./nevergrind-online/terminology/)
+- [Nevergrind Online 攻略首頁](./guide/)
+- [FC2 攻略 DB 連結索引](./fc2-link-index/)
+- [FC2 一般攻略全量參考](./fc2-general-reference/)
+- [中英名詞對照](./terminology/)
 
 ## 來源聲明
 

@@ -1,0 +1,36 @@
+---
+import { getCollection } from 'astro:content';
+
+export async function getStaticPaths() {
+  const docs = await getCollection('docs');
+
+  return docs
+    .map((entry) => entry.id.replace(/\/index$/, ''))
+    .filter((slug) => slug && slug !== 'index')
+    .map((slug) => ({
+      params: { slug },
+      props: { targetPath: `/${slug}/` },
+    }));
+}
+
+const { targetPath } = Astro.props;
+const redirectScript = `
+const targetPath = ${JSON.stringify(targetPath)};
+window.location.replace(targetPath + (window.location.hash || ''));
+`;
+---
+
+<!doctype html>
+<html lang="zh-TW">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="robots" content="noindex" />
+    <meta http-equiv="refresh" content={`0; url=${targetPath}`} />
+    <link rel="canonical" href={targetPath} />
+    <title>重新導向</title>
+    <script is:inline set:html={redirectScript}></script>
+  </head>
+  <body data-pagefind-ignore>
+    <p>頁面已移到 <a href={targetPath}>{targetPath}</a>。</p>
+  </body>
+</html>

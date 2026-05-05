@@ -15,6 +15,7 @@
     "lint:md": "markdownlint-cli2 \"**/*.md\" \"!node_modules/**\" \"!dist/**\""
   },
   "dependencies": {
+    "@astrojs/sitemap": "^3.7.2",
     "@astrojs/starlight": "^0.38.4",
     "astro": "^6.2.2",
     "cheerio": "^1.2.0",

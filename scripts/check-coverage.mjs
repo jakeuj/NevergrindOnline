@@ -6,7 +6,7 @@ import matter from 'gray-matter';
 
 const ROOT = fileURLToPath(new URL('..', import.meta.url));
 const DOCS_ROOT = join(ROOT, 'src/content/docs');
-const NEVERGRIND_DOCS = join(DOCS_ROOT, 'nevergrind-online');
+const NEVERGRIND_DOCS = DOCS_ROOT;
 const MANIFEST_PATH = join(ROOT, 'src/data/fc2-source-manifest.json');
 const TOPIC_MAP_PATH = join(ROOT, 'src/data/fc2-topic-map.json');
 const EXPECTED_COUNT = 106;

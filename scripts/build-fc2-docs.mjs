@@ -4,7 +4,7 @@ import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const ROOT = fileURLToPath(new URL('..', import.meta.url));
-const DOCS_DIR = join(ROOT, 'src/content/docs/nevergrind-online');
+const DOCS_DIR = join(ROOT, 'src/content/docs');
 const DATA_DIR = join(ROOT, 'src/data');
 const PAGE_CACHE = join(ROOT, '.cache/fc2/pages');
 const TRANSLATION_CACHE = join(ROOT, '.cache/fc2/translations-ja-zh-tw.json');

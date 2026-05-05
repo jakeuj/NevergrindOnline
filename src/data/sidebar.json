@@ -4,37 +4,37 @@
     "items": [
       {
         "label": "攻略首頁",
-        "slug": "nevergrind-online/guide"
+        "slug": "guide"
       },
       {
         "label": "原站攻略",
         "items": [
           {
             "label": "原站對照索引",
-            "slug": "nevergrind-online/fc2-link-index"
+            "slug": "fc2-link-index"
           },
           {
             "label": "一般",
             "items": [
               {
                 "label": "遊戲流程",
-                "link": "/nevergrind-online/fc2-general-reference/#fc2-chart"
+                "link": "/fc2-general-reference/#fc2-chart"
               },
               {
                 "label": "常見問題",
-                "link": "/nevergrind-online/fc2-general-reference/#fc2-faq"
+                "link": "/fc2-general-reference/#fc2-faq"
               },
               {
                 "label": "角色建立",
-                "link": "/nevergrind-online/fc2-general-reference/#fc2-charamake"
+                "link": "/fc2-general-reference/#fc2-charamake"
               },
               {
                 "label": "各職代表技能",
-                "link": "/nevergrind-online/fc2-signature-skills/#fc2-selectlist"
+                "link": "/fc2-signature-skills/#fc2-selectlist"
               },
               {
                 "label": "嚴選獨特裝備",
-                "link": "/nevergrind-online/fc2-selected-unique-items/#fc2-selectlist2"
+                "link": "/fc2-selected-unique-items/#fc2-selectlist2"
               }
             ]
           },
@@ -43,31 +43,31 @@
             "items": [
               {
                 "label": "獨特裝備",
-                "link": "/nevergrind-online/fc2-unique-weapons/#fc2-unique"
+                "link": "/fc2-unique-weapons/#fc2-unique"
               },
               {
                 "label": "套裝",
-                "link": "/nevergrind-online/fc2-set-normal/#fc2-set"
+                "link": "/fc2-set-normal/#fc2-set"
               },
               {
                 "label": "傳奇裝備",
-                "link": "/nevergrind-online/fc2-legendary-table/#fc2-legendary"
+                "link": "/fc2-legendary-table/#fc2-legendary"
               },
               {
                 "label": "神話製作",
-                "link": "/nevergrind-online/fc2-rune-craft-reference/#fc2-mythical"
+                "link": "/fc2-rune-craft-reference/#fc2-mythical"
               },
               {
                 "label": "配方",
-                "link": "/nevergrind-online/fc2-recipes/#fc2-recipe"
+                "link": "/fc2-recipes/#fc2-recipe"
               },
               {
                 "label": "符文",
-                "link": "/nevergrind-online/fc2-rune-craft-reference/#fc2-rune"
+                "link": "/fc2-rune-craft-reference/#fc2-rune"
               },
               {
                 "label": "物品詞綴",
-                "link": "/nevergrind-online/fc2-rune-craft-reference/#fc2-itemmods"
+                "link": "/fc2-rune-craft-reference/#fc2-itemmods"
               }
             ]
           },
@@ -76,15 +76,15 @@
             "items": [
               {
                 "label": "狀態異常",
-                "link": "/nevergrind-online/fc2-general-reference/#fc2-statuseffect"
+                "link": "/fc2-general-reference/#fc2-statuseffect"
               },
               {
                 "label": "特殊怪物",
-                "link": "/nevergrind-online/fc2-general-reference/#fc2-unimon"
+                "link": "/fc2-general-reference/#fc2-unimon"
               },
               {
                 "label": "首領總表",
-                "link": "/nevergrind-online/fc2-general-reference/#fc2-boss"
+                "link": "/fc2-general-reference/#fc2-boss"
               }
             ]
           },
@@ -93,59 +93,59 @@
             "items": [
               {
                 "label": "戰士",
-                "link": "/nevergrind-online/fc2-class-build-index/#fc2-warrior"
+                "link": "/fc2-class-build-index/#fc2-warrior"
               },
               {
                 "label": "十字軍",
-                "link": "/nevergrind-online/fc2-class-build-index/#fc2-crusader"
+                "link": "/fc2-class-build-index/#fc2-crusader"
               },
               {
                 "label": "暗影騎士",
-                "link": "/nevergrind-online/fc2-class-build-index/#fc2-shadowknight"
+                "link": "/fc2-class-build-index/#fc2-shadowknight"
               },
               {
                 "label": "武僧",
-                "link": "/nevergrind-online/fc2-class-build-index/#fc2-monk"
+                "link": "/fc2-class-build-index/#fc2-monk"
               },
               {
                 "label": "盜賊",
-                "link": "/nevergrind-online/fc2-class-build-index/#fc2-rogue"
+                "link": "/fc2-class-build-index/#fc2-rogue"
               },
               {
                 "label": "遊俠",
-                "link": "/nevergrind-online/fc2-class-build-index/#fc2-ranger"
+                "link": "/fc2-class-build-index/#fc2-ranger"
               },
               {
                 "label": "吟遊詩人",
-                "link": "/nevergrind-online/fc2-class-build-index/#fc2-bard"
+                "link": "/fc2-class-build-index/#fc2-bard"
               },
               {
                 "label": "德魯伊",
-                "link": "/nevergrind-online/fc2-class-build-index/#fc2-druid"
+                "link": "/fc2-class-build-index/#fc2-druid"
               },
               {
                 "label": "牧師",
-                "link": "/nevergrind-online/fc2-class-build-index/#fc2-cleric"
+                "link": "/fc2-class-build-index/#fc2-cleric"
               },
               {
                 "label": "薩滿",
-                "link": "/nevergrind-online/fc2-class-build-index/#fc2-shaman"
+                "link": "/fc2-class-build-index/#fc2-shaman"
               },
               {
                 "label": "術士",
-                "link": "/nevergrind-online/fc2-class-build-index/#fc2-warlock"
+                "link": "/fc2-class-build-index/#fc2-warlock"
               },
               {
                 "label": "附魔師",
-                "link": "/nevergrind-online/fc2-class-build-index/#fc2-enchanter"
+                "link": "/fc2-class-build-index/#fc2-enchanter"
               },
               {
                 "label": "聖殿騎士",
-                "link": "/nevergrind-online/fc2-class-build-index/#fc2-templar"
+                "link": "/fc2-class-build-index/#fc2-templar"
               },
               {
                 "label": "巫師",
-                "link": "/nevergrind-online/fc2-class-build-index/#fc2-wizard"
+                "link": "/fc2-class-build-index/#fc2-wizard"
               }
             ]
           },
@@ -154,23 +154,23 @@
             "items": [
               {
                 "label": "英文與略語",
-                "link": "/nevergrind-online/fc2-general-reference/#fc2-english"
+                "link": "/fc2-general-reference/#fc2-english"
               },
               {
                 "label": "武器傷害計算機",
-                "link": "/nevergrind-online/fc2-general-reference/#fc2-dpscalc"
+                "link": "/fc2-general-reference/#fc2-dpscalc"
               },
               {
                 "label": "符文選法",
-                "link": "/nevergrind-online/fc2-rune-craft-reference/#fc2-runeselect"
+                "link": "/fc2-rune-craft-reference/#fc2-runeselect"
               },
               {
                 "label": "帶回城物品",
-                "link": "/nevergrind-online/fc2-general-reference/#fc2-loot"
+                "link": "/fc2-general-reference/#fc2-loot"
               },
               {
                 "label": "賭博",
-                "link": "/nevergrind-online/fc2-general-reference/#fc2-gambling"
+                "link": "/fc2-general-reference/#fc2-gambling"
               }
             ]
           }
@@ -184,23 +184,23 @@
             "items": [
               {
                 "label": "系統總覽與核心架構",
-                "slug": "nevergrind-online/core-structure"
+                "slug": "core-structure"
               },
               {
                 "label": "進度路線與攻略讀法",
-                "slug": "nevergrind-online/progression-roadmap"
+                "slug": "progression-roadmap"
               },
               {
                 "label": "社群百科索引",
-                "slug": "nevergrind-online/fandom-link-index"
+                "slug": "fandom-link-index"
               },
               {
                 "label": "中英名詞對照",
-                "slug": "nevergrind-online/terminology"
+                "slug": "terminology"
               },
               {
                 "label": "來源判讀與疑難排解",
-                "slug": "nevergrind-online/public-source-notes"
+                "slug": "public-source-notes"
               }
             ]
           },
@@ -209,15 +209,15 @@
             "items": [
               {
                 "label": "熱鍵與聊天指令",
-                "slug": "nevergrind-online/hotkeys-commands"
+                "slug": "hotkeys-commands"
               },
               {
                 "label": "地城冒險與任務",
-                "slug": "nevergrind-online/dungeons"
+                "slug": "dungeons"
               },
               {
                 "label": "怪物分類與特性",
-                "slug": "nevergrind-online/monsters"
+                "slug": "monsters"
               }
             ]
           },
@@ -226,27 +226,27 @@
             "items": [
               {
                 "label": "伊登堡城鎮設施",
-                "slug": "nevergrind-online/edenburg"
+                "slug": "edenburg"
               },
               {
                 "label": "酒館",
-                "slug": "nevergrind-online/tavern"
+                "slug": "tavern"
               },
               {
                 "label": "藥劑店",
-                "slug": "nevergrind-online/apothecary"
+                "slug": "apothecary"
               },
               {
                 "label": "商人",
-                "slug": "nevergrind-online/merchant"
+                "slug": "merchant"
               },
               {
                 "label": "鐵匠鋪",
-                "slug": "nevergrind-online/blacksmith"
+                "slug": "blacksmith"
               },
               {
                 "label": "製作與配方研究",
-                "slug": "nevergrind-online/blacksmith-crafting-recipe-research"
+                "slug": "blacksmith-crafting-recipe-research"
               }
             ]
           },
@@ -255,35 +255,35 @@
             "items": [
               {
                 "label": "職業與流派",
-                "slug": "nevergrind-online/classes"
+                "slug": "classes"
               },
               {
                 "label": "十字軍",
-                "slug": "nevergrind-online/crusader"
+                "slug": "crusader"
               },
               {
                 "label": "治療者總覽",
-                "slug": "nevergrind-online/healers"
+                "slug": "healers"
               },
               {
                 "label": "牧師",
-                "slug": "nevergrind-online/cleric"
+                "slug": "cleric"
               },
               {
                 "label": "牧師技能參考",
-                "slug": "nevergrind-online/cleric-skills-twloli"
+                "slug": "cleric-skills-twloli"
               },
               {
                 "label": "牧師輸出",
-                "slug": "nevergrind-online/cleric-scion-dps"
+                "slug": "cleric-scion-dps"
               },
               {
                 "label": "牧師刷區域",
-                "slug": "nevergrind-online/cleric-farming-zones"
+                "slug": "cleric-farming-zones"
               },
               {
                 "label": "法爾尼爾城堡",
-                "slug": "nevergrind-online/fahlnir-citadel"
+                "slug": "fahlnir-citadel"
               }
             ]
           },
@@ -292,51 +292,51 @@
             "items": [
               {
                 "label": "物品與戰利品",
-                "slug": "nevergrind-online/items-loot"
+                "slug": "items-loot"
               },
               {
                 "label": "裝備收集路線",
-                "slug": "nevergrind-online/equipment-collection"
+                "slug": "equipment-collection"
               },
               {
                 "label": "鑑定",
-                "slug": "nevergrind-online/identification"
+                "slug": "identification"
               },
               {
                 "label": "魔法裝備",
-                "slug": "nevergrind-online/magic-items"
+                "slug": "magic-items"
               },
               {
                 "label": "稀有裝備",
-                "slug": "nevergrind-online/rare-items"
+                "slug": "rare-items"
               },
               {
                 "label": "獨特裝備",
-                "slug": "nevergrind-online/unique-items"
+                "slug": "unique-items"
               },
               {
                 "label": "套裝",
-                "slug": "nevergrind-online/set-items"
+                "slug": "set-items"
               },
               {
                 "label": "傳奇裝備",
-                "slug": "nevergrind-online/legendary-items"
+                "slug": "legendary-items"
               },
               {
                 "label": "神秘典範",
-                "slug": "nevergrind-online/cryptic-paragon-haniwa"
+                "slug": "cryptic-paragon-haniwa"
               },
               {
                 "label": "金錢效率與賣裝",
-                "slug": "nevergrind-online/money-efficiency"
+                "slug": "money-efficiency"
               },
               {
                 "label": "賭博",
-                "slug": "nevergrind-online/gambling"
+                "slug": "gambling"
               },
               {
                 "label": "符文",
-                "slug": "nevergrind-online/runes"
+                "slug": "runes"
               }
             ]
           }

@@ -1,5 +1,6 @@
 import { readFileSync } from 'node:fs';
 import { defineConfig } from 'astro/config';
+import sitemap from '@astrojs/sitemap';
 import starlight from '@astrojs/starlight';
 
 const repository = process.env.GITHUB_REPOSITORY ?? '';
@@ -72,6 +73,9 @@ export default defineConfig({
           },
         },
       ],
+    }),
+    sitemap({
+      filter: (page) => !new URL(page).pathname.startsWith('/nevergrind-online/'),
     }),
   ],
 });

@@ -9,7 +9,7 @@ const WRITERSIDE_ROOT = '/Users/jakeuj/WritersideProjects/writerside';
 const WRITERSIDE_TOPICS = join(WRITERSIDE_ROOT, 'Writerside/topics');
 const WRITERSIDE_IMAGES = join(WRITERSIDE_ROOT, 'Writerside/images');
 const HI_TREE = join(WRITERSIDE_ROOT, 'Writerside/hi.tree');
-const OUTPUT_DOCS = join(ROOT, 'src/content/docs/nevergrind-online');
+const OUTPUT_DOCS = join(ROOT, 'src/content/docs');
 const DATA_DIR = join(ROOT, 'src/data');
 const SOURCE_INDEX = join(WRITERSIDE_TOPICS, 'nevergrind-online-fc2-link-index.md');
 const MANIFEST_PATH = join(DATA_DIR, 'fc2-source-manifest.json');
@@ -27,7 +27,7 @@ function outputFileForSource(file) {
 }
 
 function slugForSource(file) {
-  return `nevergrind-online/${stripPrefix(file)}`;
+  return stripPrefix(file);
 }
 
 function escapeYaml(value) {
