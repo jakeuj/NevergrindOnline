@@ -39,6 +39,19 @@ const FC2_TERMINOLOGY_PATTERNS = [
   /カリスマ|ｶﾘｽﾏ/,
   /老闆總結/,
   /正常為|惡夢為/,
+  /Normal的|Nightmare的|Nightmare中|Hell為/,
+  /《惡夢》和《Hell》/,
+  /普通模式下|上級和Mastery/,
+  /惡夢減少|惡夢最高|Hell減少|Hell最高/,
+  /夢魘/,
+  /Unique等級|普通Unique|UniqueDrop/,
+  /\bTalent\b/,
+  /城鎮左側的欄|自然能力/,
+  /屬性抗性Rune/,
+  /\|Strength\|Stamina\|Agility\|Dexterity\|Intelligence\|Wisdom\|Charisma\|/,
+  /\b(?:Cleric|Enchanter|Monk|Shadow Knight|Shaman|Templar|Warlock|Warrior|Wizard|Crusader|Rogue|Ranger|Bard|Druid)、/,
+  /\b(?:Cleric|Enchanter|Monk|Shadow Knight|Shaman|Templar|Warlock|Warrior|Wizard|Crusader|Rogue|Ranger|Bard|Druid)\s+(?:Skill|Talent|才能)/,
+  /\|(?:Warrior|Crusader|Shadow Knight|Monk|Rogue|Ranger|Bard|Druid|Cleric|Shaman|Warlock|Enchanter|Templar|Wizard)\|[+|]/,
   /單手套|雙手套|右手套|左手套|副手套/,
   /スペルパワー|ディフェンス|オフェンス|ブロック率|受流し|反撃/,
   /攻撃|連続|単体では|状態異常の|組み合わさる|減少効果|全体攻撃|硬くなる/,
@@ -49,6 +62,29 @@ function contentWithoutSourceTitleRows(content) {
     .split('\n')
     .filter((line) => !/^\|\[[^\]]+\.html\]\([^)]*\)\|.*Nevergrind Online 攻略DB\|/.test(line))
     .join('\n');
+}
+
+function faqSectionHasAnswers(content) {
+  const faqStart = content.indexOf('<a id="fc2-faq"></a>');
+  if (faqStart < 0) return true;
+
+  const afterFaq = content.slice(faqStart);
+  const nextPageStart = afterFaq.indexOf('\n<a id="fc2-gambling"></a>');
+  const faqSection = nextPageStart >= 0 ? afterFaq.slice(0, nextPageStart) : afterFaq;
+  const answerLines = faqSection
+    .split('\n')
+    .map((line) => line.trim())
+    .filter((line) => {
+      if (!line) return false;
+      if (line.startsWith('<a id=')) return false;
+      if (line.startsWith('#')) return false;
+      if (line.startsWith('- FC2 file')) return false;
+      if (line.startsWith('- 原站 Last-Modified')) return false;
+      if (line.startsWith('- ')) return false;
+      return true;
+    });
+
+  return answerLines.length >= 15;
 }
 
 async function markdownFiles(dir) {
@@ -111,6 +147,10 @@ for (const doc of docs) {
     const kanaMatches = qualityContent.match(/[\u3040-\u30ffー]{8,}/g) ?? [];
     if (kanaMatches.length > 12) {
       problems.push(`${doc} still appears to contain large untranslated Japanese fragments: ${kanaMatches.slice(0, 8).join(', ')}`);
+    }
+
+    if (doc.endsWith('fc2-general-reference.md') && !faqSectionHasAnswers(qualityContent)) {
+      problems.push(`${doc} appears to have a heading-only FC2 FAQ section without rendered answers.`);
     }
   }
 

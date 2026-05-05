@@ -82,6 +82,10 @@ function blockText($, element) {
   return inlineText($, element);
 }
 
+function hasBlockChildren($, element) {
+  return $(element).children('h1,h2,h3,h4,h5,h6,p,ul,ol,table,div,section,article').length > 0;
+}
+
 function tableRows($, element) {
   const rows = [];
 
@@ -200,6 +204,12 @@ function extractBlocksFrom($, parent, blocks, state) {
               extractBlocksFrom($, tab, blocks, state);
             });
           state.pendingTabs = [];
+          return;
+        }
+
+        if (!hasBlockChildren($, element)) {
+          const text = blockText($, element);
+          if (text) blocks.push({ type: 'paragraph', text });
           return;
         }
 

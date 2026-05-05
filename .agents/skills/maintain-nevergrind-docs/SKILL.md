@@ -38,8 +38,9 @@ npm run build
 
 - Write in Taiwan Traditional Chinese.
 - Use `terminology.md` as the first source for Chinese names. In FC2 generated docs, prefer wording such as `可選職業` for class options and `種族紅利` for race bonus.
-- Preserve English game lookup terms for item names, skills, classes, runes, bosses, maps, and UI labels.
-- Keep stat names aligned with the terminology table and in-game lookup needs: `Strength`, `Stamina`, `Agility`, `Dexterity`, `Intelligence`, `Wisdom`, and `Charisma` may remain English in tables when that is the clearest UI match.
+- In generated FC2 public docs, keep player-facing wording Chinese-first for difficulties, classes, attributes, talents, rarity tiers, and runes: for example `地獄（Hell）`, `牧師`, `力量`, `天賦`, `獨特`, and `符文`.
+- Preserve English lookup terms for item names, skill names, bosses, maps, UI labels, and source metadata when those names are needed for in-game or FC2/wiki lookup.
+- Keep stat names aligned with the terminology table: table headers should use `力量`, `耐力`, `敏捷`, `靈巧`, `智力`, `智慧`, and `魅力`.
 - Preserve all factual rows, columns, numbers, source URLs, and `Last-Modified` metadata.
 - Do not publish original FC2 images, CSS, or JavaScript.
 - Do not drop FC2 gameplay text because of source-policy wording. Translate or faithfully localize the full source gameplay content into zh-TW, keeping original Japanese only where it is source metadata such as titles.

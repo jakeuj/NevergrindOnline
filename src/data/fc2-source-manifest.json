@@ -1,6 +1,6 @@
 {
   "base": "https://atelier3.web.fc2.com/ngo/index.html",
-  "crawledAt": "2026-05-05T04:31:40.443Z",
+  "crawledAt": "2026-05-05T08:48:44.221Z",
   "expectedCount": 106,
   "count": 106,
   "errors": [],
@@ -1889,7 +1889,7 @@
       "contentHash": "419fe725de90390cad8c617e4bf231ee453c7a6b823fd2ef75a322a2bdf629f8",
       "blockCounts": {
         "heading": 30,
-        "paragraph": 5
+        "paragraph": 31
       }
     },
     {
@@ -2189,7 +2189,8 @@
       "contentHash": "14f12159d37ebba15c35f04026a2315ca2d4817d15ca3f1edfbdbe5fe0601c2a",
       "blockCounts": {
         "heading": 26,
-        "list": 1
+        "list": 1,
+        "paragraph": 25
       }
     },
     {
@@ -2331,7 +2332,7 @@
       "contentHash": "1e2d78f75c537e53094a29e16ee41f4546842b09ce4eee87220a2ba4d1d582c6",
       "blockCounts": {
         "heading": 10,
-        "paragraph": 17,
+        "paragraph": 19,
         "list": 1
       }
     },
@@ -2978,7 +2979,7 @@
       "contentHash": "e9af5c73fe403c2901a8af121e205fe673c31abc9d9a3e0df2d3a1c49a9aa117",
       "blockCounts": {
         "heading": 6,
-        "paragraph": 15
+        "paragraph": 16
       }
     },
     {
@@ -4148,7 +4149,7 @@
       "contentHash": "439c0cc6d09cdd57f4b8007aead6291b2fcd203226417abd89f48be1ffbf3325",
       "blockCounts": {
         "heading": 12,
-        "paragraph": 21
+        "paragraph": 30
       }
     },
     {
