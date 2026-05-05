@@ -41,7 +41,8 @@ npm run build
 - Preserve English game lookup terms for item names, skills, classes, runes, bosses, maps, and UI labels.
 - Keep stat names aligned with the terminology table and in-game lookup needs: `Strength`, `Stamina`, `Agility`, `Dexterity`, `Intelligence`, `Wisdom`, and `Charisma` may remain English in tables when that is the clearest UI match.
 - Preserve all factual rows, columns, numbers, source URLs, and `Last-Modified` metadata.
-- Do not publish original FC2 images, CSS, JavaScript, or long Japanese originals.
+- Do not publish original FC2 images, CSS, or JavaScript.
+- Do not drop FC2 gameplay text because of source-policy wording. Translate or faithfully localize the full source gameplay content into zh-TW, keeping original Japanese only where it is source metadata such as titles.
 - Treat FC2 as a player meta snapshot. Keep or add version reminders that current game tooltip / UI should be final authority.
 - When checking a specific FC2 URL, find its target via `src/data/fc2-topic-map.json`, then inspect the generated Markdown section anchor `fc2-<source-file-stem>`.
 
