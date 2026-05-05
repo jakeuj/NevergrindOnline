@@ -77,6 +77,18 @@ const SOURCE_TERM_REPLACEMENTS = [
   ['ゲームの流れ', '遊戲流程'],
   ['よくある質問', '常見問題'],
   ['キャラメイク', '角色建立'],
+  ['選択可能クラス', '可選職業'],
+  ['クラスボーナス', '職業紅利'],
+  ['クラスカラー', '職業代表色'],
+  ['性別ボーナス', '性別紅利'],
+  ['種族ボーナス', '種族紅利'],
+  ['全クラス', '所有職業'],
+  ['サポートクラス', '輔助職業'],
+  ['ボスまとめ', 'Boss 總表'],
+  ['状態異常一覧', '狀態異常一覽'],
+  ['装備収集', '裝備收集'],
+  ['金銭効率', '金錢效率'],
+  ['仕様', '規則'],
   ['更新履歴', '更新紀錄'],
   ['ページ内リンク', '頁內連結'],
   ['ノーマル', 'Normal'],
@@ -123,6 +135,7 @@ const SOURCE_TERM_REPLACEMENTS = [
   ['ソケット', 'Socket'],
   ['クラフト', 'Craft'],
   ['ギャンブル', 'Gambling'],
+  ['スペルパワー', 'Spell Power'],
   ['レアドロップ率', 'Rare Drop Rate'],
   ['ドロップ率', 'Drop Rate'],
   ['ダメージ', 'Damage'],
@@ -131,6 +144,12 @@ const SOURCE_TERM_REPLACEMENTS = [
   ['アイテム名', '物品名稱'],
   ['レベル', '等級'],
   ['クラス', '職業'],
+  ['ボーナス', '紅利'],
+  ['ブロック率', '格擋率'],
+  ['ディフェンス', '防禦'],
+  ['オフェンス', '攻擊'],
+  ['受流し', '招架'],
+  ['反撃', '反擊'],
   ['サブ', '副手'],
   ['多数', '多數'],
   ['物理防御', '物理防禦'],
@@ -167,11 +186,13 @@ const SOURCE_TERM_REPLACEMENTS = [
   ['才能ツリー', 'Talent 樹'],
   ['ツリー', '樹'],
   ['装備', '裝備'],
-  ['器用', 'Dexterity'],
   ['片手斬り', '單手斬擊'],
   ['両手斬り', '雙手斬擊'],
   ['片手鈍器', '單手鈍器'],
   ['両手鈍器', '雙手鈍器'],
+  ['片手', '單手'],
+  ['両手', '雙手'],
+  ['器用', 'Dexterity'],
   ['刺突', '刺擊'],
   ['盾', '盾牌'],
   ['弓術', '弓術'],
@@ -211,9 +232,13 @@ const SOURCE_TERM_REPLACEMENTS = [
   ['物理', '物理'],
   ['耐性', '抗性'],
   ['筋力', 'Strength'],
-  ['敏捷', 'Dexterity'],
+  ['敏捷', 'Agility'],
+  ['俊敏', 'Agility'],
   ['知性', 'Intelligence'],
+  ['知恵', 'Intelligence'],
   ['賢さ', 'Wisdom'],
+  ['カリスマ', 'Charisma'],
+  ['ｶﾘｽﾏ', 'Charisma'],
   ['体力', 'Stamina'],
   ['ヘルス', 'Health'],
   ['マナ', 'Mana'],
@@ -240,11 +265,57 @@ const SOURCE_TERM_REPLACEMENTS = [
   ['防具', '防具'],
   ['魔法', '魔法'],
   ['物理理', '物理'],
-  ['物', '物理'],
 ];
 
 const POSTPROCESS_REPLACEMENTS = [
   ['您', '你'],
+  ['全能力，力量，耐力，敏捷，敏捷，智慧，智慧，魅力。', '全能力值、Strength、Stamina、Agility、Dexterity、Intelligence、Wisdom、Charisma。'],
+  ['正常為 1，惡夢為 2，Hell為 3。', 'Normal 為 1 個、Nightmare 為 2 個、Hell 為 3 個。'],
+  ['惡夢', 'Nightmare'],
+  ['地獄', 'Hell'],
+  ['老闆總結', 'Boss 總表'],
+  ['可選課程', '可選職業'],
+  ['所有課程', '所有職業'],
+  ['職業業', '職業'],
+  ['特殊怪物理', '特殊怪物'],
+  ['物理理', '物理'],
+  ['毒素物理抗性', '毒素抗性'],
+  ['毒素物抗性', '毒素抗性'],
+  ['物理品名稱', '物品名稱'],
+  ['單手套', '單手'],
+  ['雙手套', '雙手'],
+  ['右手套', '右手'],
+  ['左手套', '左手'],
+  ['副手套', '副手'],
+  ['狀態異常一覧', '狀態異常一覽'],
+  ['装備収集', '裝備收集'],
+  ['金銭効率', '金錢效率'],
+  ['仕様', '規則'],
+  ['知恵', 'Intelligence'],
+  ['カリスマ', 'Charisma'],
+  ['ｶﾘｽﾏ', 'Charisma'],
+  ['俊敏', 'Agility'],
+  ['スペルパワー', 'Spell Power'],
+  ['ディフェンス', '防禦'],
+  ['オフェンス', '攻擊'],
+  ['ブロック率', '格擋率'],
+  ['受流し', '招架'],
+  ['反撃', '反擊'],
+  ['物理Damage', '物理 Damage'],
+  ['Damage減免', 'Damage 減免'],
+  ['Arcane抗性', 'Arcane 抗性'],
+  ['攻撃能力', 'Attack Rating'],
+  ['攻撃', '攻擊'],
+  ['連続', '連續'],
+  ['半減', '減半'],
+  ['二回攻擊', 'Double Attack'],
+  ['二回攻撃', 'Double Attack'],
+  ['班級獎金', '職業紅利'],
+  ['班級顏色', '職業代表色'],
+  ['類別顏色', '職業代表色'],
+  ['職業獎金', '職業紅利'],
+  ['性別獎金', '性別紅利'],
+  ['種族獎金', '種族紅利'],
   ['人才', 'Talent'],
   ['天賦', 'Talent'],
   ['精通', 'Mastery'],
@@ -269,6 +340,65 @@ const POSTPROCESS_REPLACEMENTS = [
   ['聖堂武士', 'Templar'],
   ['暗影騎士', 'Shadow Knight'],
 ];
+
+const MANUAL_TRANSLATIONS = {
+  'ノーマルで1個、ナイトメアで2個、ヘルで3個付与される。':
+    'Normal 為 1 個、Nightmare 為 2 個、Hell 為 3 個。',
+  '全ステータス、筋力、体力、俊敏、器用、知恵、賢さ、カリスマ。':
+    '全能力值、Strength、Stamina、Agility、Dexterity、Intelligence、Wisdom、Charisma。',
+  '物理スキルダメージと攻撃能力の上昇 物理スキルダメージに対する影響が非常に大きい':
+    '物理技能傷害與 Attack Rating 提升；對物理技能傷害影響很大。',
+  '最大ヘルスの上昇': '最大 Health 增加。',
+  '回避率と物理防御の上昇': '閃避率與物理防禦提升。',
+  '攻撃能力、受流し、反撃、ブロック率、クリティカルヒット率の上昇 攻撃能力は筋力ほどは上昇しない。':
+    'Attack Rating、招架、反擊、格擋率與暴擊率提升；Attack Rating 的提升幅度不如 Strength。',
+  '最大スピリットと Conjuration スペルの威力の上昇 Evocation スペルの威力にもわずかに影響':
+    '最大 Spirit 與 Conjuration 法術強度提升；也會小幅影響 Evocation 法術強度。',
+  '最大マナと Evocation スペルの威力の上昇 Conjuration スペルの威力にもわずかに影響':
+    '最大 Mana 與 Evocation 法術強度提升；也會小幅影響 Conjuration 法術強度。',
+  '最大スピリットと Alteration スペルの威力の上昇':
+    '最大 Spirit 與 Alteration 法術強度提升。',
+  '被物理ダメージ半減': '受到的物理 Damage 減半。',
+  '物理ダメージの通りが悪いので魔法職が処理したい':
+    '物理 Damage 不容易打穿，建議由魔法職業處理。',
+  '敵が死ぬたびに攻撃力増加 出血耐性50%':
+    '每當敵人死亡時攻擊力增加；出血抗性 50%。',
+  '強化時に赤く光るのでそれで見つける 最後まで残すと一撃で倒されかねないので早めに倒す':
+    '強化時會發紅光，可用這點辨識；拖到最後可能被一擊擊倒，建議優先處理。',
+  '物理攻撃力増加': '物理攻擊力增加。',
+  '物理全体攻撃を使用': '使用物理全體攻擊。',
+  '単体ではさほど怖くないが他のModsと組み合わさると危険':
+    '單獨出現不算太可怕，和其他 Mods 疊在一起會很危險。',
+  '状態異常の時間が半減': '狀態異常持續時間減半。',
+  '攻撃が必ず当たる': '攻擊必定命中。',
+  '炎全体攻撃を使用 炎属性ダメージ強化40% 炎耐性50%':
+    '使用火焰全體攻擊；火焰 Damage +40%；火焰抗性 50%。',
+  '攻撃速度増加 Mods使用頻度増加': '攻擊速度增加；Mods 使用頻率增加。',
+  'Rampageなどと組み合わさると回転率が上がり危険':
+    '與 Rampage 等 Mods 搭配時，行動頻率會提高，很危險。',
+  '氷全体攻撃を使用 氷属性ダメージ強化40% 氷耐性50% 冷却・凍結時間66%減少':
+    '使用冰冷全體攻擊；冰冷 Damage +40%；冰冷抗性 50%；冷卻 / 凍結時間減少 66%。',
+  '雷全体攻撃を使用 雷属性ダメージ強化40% 雷耐性50%':
+    '使用閃電全體攻擊；閃電 Damage +40%；閃電抗性 50%。',
+  '攻撃時マナ減少': '攻擊時減少 Mana。',
+  '敵の攻撃にマナ減少効果が付与される 無敵状態であってもマナは減少する':
+    '敵人的攻擊會附加 Mana 減少效果；即使處於無敵狀態，Mana 仍會減少。',
+  '全属性ダメージ強化30% 全属性耐性30%': '全屬性 Damage +30%；全屬性抗性 30%。',
+  '～Enchantedと組み合わさると耐性が跳ね上がる':
+    '與各種 Enchanted Mods 疊加時，抗性會大幅上升。',
+  '麻痺をかけて対策する': '以麻痺處理。',
+  '毒全体攻撃を使用 毒属性ダメージ強化40% 毒耐性50%':
+    '使用毒素全體攻擊；毒素 Damage +40%；毒素抗性 50%。',
+  '物理連続攻撃': '物理連續攻擊。',
+  '赤く光って音を鳴らしてから6回連続攻撃を行う スタンで止めることができる':
+    '發紅光並發出聲音後，會連續攻擊 6 次；可用 Stun 中斷。',
+  '攻撃時スピリット減少': '攻擊時減少 Spirit。',
+  '敵の攻撃にスピリット減少効果が付与される 無敵状態であってもスピリットは減少する':
+    '敵人的攻擊會附加 Spirit 減少效果；即使處於無敵狀態，Spirit 仍會減少。',
+  HP大幅増加: 'HP 大幅增加。',
+  '耐性系と組み合わさると非常に硬くなる':
+    '與抗性類 Mods 疊加時會變得非常硬。',
+};
 
 function todayTaipei() {
   return new Intl.DateTimeFormat('en-CA', {
@@ -357,11 +487,13 @@ class Translator {
 
   get(value) {
     if (!value) return '';
-    return this.cache[value] ?? postprocessTranslation(normalizeSourceTerms(value));
+    if (MANUAL_TRANSLATIONS[value]) return MANUAL_TRANSLATIONS[value];
+    return postprocessTranslation(this.cache[value] ?? normalizeSourceTerms(value));
   }
 
   local(value) {
     if (!value) return '';
+    if (MANUAL_TRANSLATIONS[value]) return MANUAL_TRANSLATIONS[value];
     return postprocessTranslation(normalizeSourceTerms(value));
   }
 
@@ -527,7 +659,7 @@ function escapeMarkdownCell(value) {
 
 function shouldTranslateTableCell(value) {
   const text = String(value ?? '');
-  return hasJapaneseKana(text) && /[。！？]/.test(text);
+  return hasJapaneseKana(text);
 }
 
 function tableCellText(value, translator) {

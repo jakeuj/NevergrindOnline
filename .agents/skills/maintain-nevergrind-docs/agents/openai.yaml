@@ -1,0 +1,4 @@
+interface:
+  display_name: "Maintain Nevergrind Docs"
+  short_description: "維護 Nevergrind 繁中攻略站、FC2 匯入與名詞品質"
+  default_prompt: "Use $maintain-nevergrind-docs to refresh, localize, quality-check, organize, or publish the FC2 source-driven zh-TW Nevergrind Online docs site."

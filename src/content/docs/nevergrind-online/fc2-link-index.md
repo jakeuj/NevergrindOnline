@@ -1,6 +1,6 @@
 ---
-title: "Nevergrind Online FC2 攻略 DB 連結索引"
-description: "FC2 的 Nevergrind Online 攻略 DB 是高密度玩家資料庫。這篇負責記錄原站 106 個 HTML 的分類、整理目標與完成狀態；實際全量表格分散在職業、Unique、Set、Legendary、Recipe、Rune / Craft 與一般攻略參考頁。"
+title: "Nevergrind Online FC2 原站 HTML 對照索引"
+description: "對照 FC2 原站 106 個 HTML 檔案的分類、整理目標與完成狀態；實際全量表格分散在職業、Unique、Set、Legendary、Recipe、Rune / Craft 與一般攻略參考頁。"
 sourcePages:
   - file: "index.html"
     title: "Nevergrind Online 攻略DB"
@@ -15,7 +15,7 @@ sourceLastModified: "Mon, 12 Jan 2026 18:07:47 GMT"
 status: "整理改寫"
 ---
 
-FC2 的 Nevergrind Online 攻略 DB 是高密度玩家資料庫。這篇負責記錄原站 106 個 HTML 的分類、整理目標與完成狀態；實際全量表格分散在職業、Unique、Set、Legendary、Recipe、Rune / Craft 與一般攻略參考頁。
+這篇是 FC2 原站 HTML 對照索引，負責記錄 106 個來源檔案的分類、整理目標與完成狀態；實際全量表格分散在職業、Unique、Set、Legendary、Recipe、Rune / Craft 與一般攻略參考頁。
 
 - 檢視日期：`2026-05-05`
 - 分類：[Nevergrind Online（絕不刷怪）遊戲指南](./guide/)

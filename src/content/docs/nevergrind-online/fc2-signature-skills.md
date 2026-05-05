@@ -43,7 +43,7 @@ status: "FC2 原站高保真繁中化"
 
 技能裡寫的同一個Talent不可能是弱的，所以這個符號就省略了。
 
-|職業業|樹|Talent|Skill|備註|
+|類別|樹|Talent|Skill|備註|
 |---|---|---|---|---|
 |Warrior|Berserker|武器Mastery|Furious Cleave||
 |Goliath||Rupture|||
@@ -51,32 +51,32 @@ status: "FC2 原站高保真繁中化"
 |Shadow Knight|Doom Knight||Doom Thrust||
 |Blood Knight||Shadow Break|||
 |Zealot|武器Mastery||||
-|Crusader|Herald|Mastery: 前触れ|Consecrate|物理理|
-|Protector||Zealous Slam|物理理||
+|Crusader|Herald|Mastery：先驅者|Consecrate|物理|
+|Protector||Zealous Slam|物理||
 |Judicator|Mastery: 弟子|Blessed Hammer|魔法||
 |Monk|Phoenix||Dragon Punch||
 |Falcon||Hurricane Kicks|||
-|Lotus|Superior Mime Strike Mastery: 雙手套鈍器||||
+|Lotus|Superior Mime Strike Mastery: 雙手鈍器||||
 |Rogue|Assassin||Backstab||
 |Havoc|Talisman of Treachery Mastery: 刺擊|Flash Strike|||
 |Ranger|Blademaster||Blade Storm||
 |Outrider|Mastery: Buriza|Spread Shot|||
 |Bard|Maestro|(Superior) Righteous Rhapsody||支援|
-|Composer|Mastery: バッテリー||殴り||
+|Composer|Mastery：電池||毆打||
 |Dynamo|Battle Hymn||支援||
 |Druid|Flamecaller||Molten Boulder||
 |Stormcaller||Tornado|||
-|Gladewalker|Superior Branch Spirit||バフスイッチ||
+|Gladewalker|Superior Branch Spirit||增益開關||
 |Cleric|Scion||Deliverance||
 |Vestal||Circle of Prayer|||
 |Arbiter||Condemnation|||
-|Shaman|Soothsayer|Mastery: スワームコーラー|||
+|Shaman|Soothsayer|Mastery：蟲群召喚者|||
 |Witch Doctor||Poison Bolt|||
 ||Poison Nova||||
-|Frostreaver|Mastery: フロストゴーレム|Frost Rift|||
+|Frostreaver|Mastery：冰霜傀儡|Frost Rift|||
 |Warlock|Plaguebearer|Mastery: 疫病|Venom Bolt||
 |Engulfing Darkness|||||
-|Demi Lich|Superior Lich Form||バフスイッチ||
+|Demi Lich|Superior Lich Form||增益開關||
 |Enchanter|Psionicist|Superior Phase Blade|Mind Blitz||
 |Inveigler||Enthrall|||
 |Templar|Elementalist||Frozen Orb||

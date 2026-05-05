@@ -16,9 +16,40 @@ const PLACEHOLDER_PATTERNS = [
   /原文屬玩家 meta snapshot/,
   /這段主要在談/,
   /自動摘要占位/,
+  /可選課程/,
+  /所有課程/,
+  /職業業/,
+  /班級/,
+  /班級獎金/,
+  /職業獎金/,
+  /性別獎金/,
+  /種族獎金/,
   /placeholder/i,
   /[⟦⟧⧦⧧⧟]|__NGO|__N|GON\d/,
 ];
+
+const FC2_TERMINOLOGY_PATTERNS = [
+  /Dexterity\|Dexterity/,
+  /物理理/,
+  /特殊怪物理/,
+  /毒素物理抗性/,
+  /毒素物抗性/,
+  /物理品名稱/,
+  /知恵/,
+  /カリスマ|ｶﾘｽﾏ/,
+  /老闆總結/,
+  /正常為|惡夢為/,
+  /單手套|雙手套|右手套|左手套|副手套/,
+  /スペルパワー|ディフェンス|オフェンス|ブロック率|受流し|反撃/,
+  /攻撃|連続|単体では|状態異常の|組み合わさる|減少効果|全体攻撃|硬くなる/,
+];
+
+function contentWithoutSourceTitleRows(content) {
+  return content
+    .split('\n')
+    .filter((line) => !/^\|\[[^\]]+\.html\]\([^)]*\)\|.*Nevergrind Online 攻略DB\|/.test(line))
+    .join('\n');
+}
 
 async function markdownFiles(dir) {
   const entries = await readdir(dir, { withFileTypes: true });
@@ -62,15 +93,22 @@ for (const doc of docs) {
   const raw = await readFile(doc, 'utf8');
   const parsed = matter(raw);
   docContentByPath.set(doc, parsed.content);
+  const qualityContent = contentWithoutSourceTitleRows(parsed.content);
 
   for (const pattern of PLACEHOLDER_PATTERNS) {
-    if (pattern.test(parsed.content)) {
+    if (pattern.test(qualityContent)) {
       problems.push(`${doc} still contains generated placeholder text matching ${pattern}.`);
     }
   }
 
   if (doc.startsWith(NEVERGRIND_DOCS) && doc.split('/').pop().startsWith('fc2-')) {
-    const kanaMatches = parsed.content.match(/[\u3040-\u30ffー]{8,}/g) ?? [];
+    for (const pattern of FC2_TERMINOLOGY_PATTERNS) {
+      if (pattern.test(qualityContent)) {
+        problems.push(`${doc} still contains FC2 terminology drift matching ${pattern}.`);
+      }
+    }
+
+    const kanaMatches = qualityContent.match(/[\u3040-\u30ffー]{8,}/g) ?? [];
     if (kanaMatches.length > 12) {
       problems.push(`${doc} still appears to contain large untranslated Japanese fragments: ${kanaMatches.slice(0, 8).join(', ')}`);
     }

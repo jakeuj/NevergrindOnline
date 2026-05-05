@@ -55,26 +55,26 @@ status: "FC2 原站高保真繁中化"
 
 ### 武器
 
-|物理品名稱|等級|職業業|備註|
+|物品名稱|等級|類別|備註|
 |---|---|---|---|
-|[圖片:focus7.png] Cryptic Paragon Haniwa [單手套鈍器]|75|魔法職業|俗稱埴輪。基本上就是查看各個職業的代表技能。光是技能搭配就很出色，但Talent搭配卻極為強大。特別危險的是Druid的龍捲風、附魔師的高級迷惑和法師的高級閃電箭。|
-|[圖片:oneHandSlashers5.png] Gleaming Swiftblade Shinken [單手套斬擊]|72|SK|暗影破壞 連續攻擊型Shadow Knight使用。必須具有 120 或更高的 DPS 以及血騎士Talent +2。|
-|[圖片:oneHandSlashers7.png] Abyssal Shard Mythical Sword [單手套斬擊]|75|SK|暗影破壞 連續攻擊型Shadow Knight使用。 DPS 120 或以上的不死族上限為 6%。如果影斷能相容技能強化就更好了。|
-|[圖片:twoHandBlunts2.png] Korelian Adamantite Maul Havoc Mallet [雙手套鈍器]|67|Warrior|非常適合作為戰士傳奇武器的連結。我想盡可能尋找高DPS、擁有Talent+3、以及Socket4的。|
-|[圖片:staves4.png] Zimri's Wisdom Baroque Staff [雙手套鈍器]|72|Warrior|僅限Talent+5 擁有的。它是一種用於魔法的鈍器，但不用於魔法職業。它是一種有用的左手斗篷武器，可以讓戰士獲得可以攜帶鈍器的Talent。|
+|[圖片:focus7.png] Cryptic Paragon Haniwa [單手鈍器]|75|魔法職業|俗稱埴輪。基本上就是查看各個職業的代表技能。光是技能搭配就很出色，但Talent搭配卻極為強大。特別危險的是Druid的龍捲風、附魔師的高級迷惑和法師的高級閃電箭。|
+|[圖片:oneHandSlashers5.png] Gleaming Swiftblade Shinken [單手斬擊]|72|SK|暗影破壞 連續攻擊型Shadow Knight使用。必須具有 120 或更高的 DPS 以及血騎士Talent +2。|
+|[圖片:oneHandSlashers7.png] Abyssal Shard Mythical Sword [單手斬擊]|75|SK|暗影破壞 連續攻擊型Shadow Knight使用。 DPS 120 或以上的不死族上限為 6%。如果影斷能相容技能強化就更好了。|
+|[圖片:twoHandBlunts2.png] Korelian Adamantite Maul Havoc Mallet [雙手鈍器]|67|Warrior|非常適合作為戰士傳奇武器的連結。我想盡可能尋找高DPS、擁有Talent+3、以及Socket4的。|
+|[圖片:staves4.png] Zimri's Wisdom Baroque Staff [雙手鈍器]|72|Warrior|僅限Talent+5 擁有的。它是一種用於魔法的鈍器，但不用於魔法職業。它是一種有用的左手斗篷武器，可以讓戰士獲得可以攜帶鈍器的Talent。|
 |[圖片:shields4.png] Phadol's Barricade Artremian Defender [盾牌]|70|Arcane職業|奧術Talent+2，Talent樹+3。即使總共有4個，也是一個連結。 Gladewalker（Druid）和Demi Lich（Warlock）將其用作增益開關。保留Inveigler（附魔師）、Judicator（Crusader）、Arbiter（Cleric）等可能是個好主意，儘管他們不常使用。|
 |[圖片:shields5.png] Dreadlord's Armament Fenwoven Shield [盾牌]|72|SK|所有能力最多10，所有被動最多5，攻擊等級最多80。如果你的Talent是Shadow Knight，就保留它，如果你的技能增強中加入暗影破碎就更好了。|
 |[圖片:shields6.png] Chaos Mirror Fahlnir Ward [盾牌]|73|多數|特殊裝備，可讓你以Talent樹 +3 和Talent +3 瞄準最多 6。雖然比隱密至尊多了一項Talent，但綜合實力較差，所以基本上只是作為連結裝備使用。保留與每個職業的代表性技能相符的物品。|
 |[圖片:bows7.png] Stormcaller Bow Long War Bow [弓術]|39|Crusader 他|插槽最大4個。擁有一張Talent+1的弓，在多加一個Talent次數會增加的情況下很有用。|
 |[圖片:bows5.png] Demetrium's Ballista Battle Bow [弓術]|29|弓術職業|插槽最大 6。它不是唯一的，而是一組，但它非常重要，因此我將其包含在此處。一把好用的弓，可以在所有可以裝備弓的職業中使用。|
-|[圖片:charms0.png] Fallen Construct Charm [副手套]|62|Monk|攻擊等級最高100，插槽最高5。由於Monk無法裝備弓，所以只能用魅惑來增加火力。|
-|[圖片:charms1.png] Arctic Orb Charm [副手套]|62|Druid|冰冷傷害高達 12%，閱讀高達 16。我絕對想保留龍捲風那一套。Templar的冰凍寶珠也被保留，但使用頻率較低。Wizard系列是一種嗜好。|
+|[圖片:charms0.png] Fallen Construct Charm [副手]|62|Monk|攻擊等級最高100，插槽最高5。由於Monk無法裝備弓，所以只能用魅惑來增加火力。|
+|[圖片:charms1.png] Arctic Orb Charm [副手]|62|Druid|冰冷傷害高達 12%，閱讀高達 16。我絕對想保留龍捲風那一套。Templar的冰凍寶珠也被保留，但使用頻率較低。Wizard系列是一種嗜好。|
 
 <a id="fc2-selectlist2-hdr2"></a>
 
 ### 防具
 
-|物理品名稱|等級|職業業|備註|
+|物品名稱|等級|類別|備註|
 |---|---|---|---|
 |[圖片:helms6.png] Charlatan's Crest Shako [頭部] [布甲製]|72|多數|俗名：螳螂蝦。需要控球Talent+2，越接近屬性傷害+16%、拉德羅+50%越好。唯一的問題是出血。|
 |[圖片:helms0.png] Chemosh's Hooded Shade Outrider Hood [頭部] [布甲製]|64|Warlock Enchanter Wizard|Talent是樹+2、Talent+3的裝備，搭配很強。當Warlock的瘟疫增幅不足、附魔師的專精裝備、法師的高級閃電增幅不足等時可以使用。|
@@ -110,13 +110,13 @@ status: "FC2 原站高保真繁中化"
 
 ### 配件
 
-|物理品名稱|等級|職業業|備註|
+|物品名稱|等級|類別|備註|
 |---|---|---|---|
 |[圖片:amulets0.png] Shimmering Fragment Amulet [項鍊]|51|多數|當Talent與Talent融合在一起時，我們就會獲勝。詳細內容請查看各職業的代表技能。|
 |[圖片:amulets1.png] Syzygy Shard Amulet [項鍊]|66|Templar|如果你獲得 +3 閃光Talent，則很有用。如果你能造成閃光傷害就更好了。|
 |[圖片:amulets3.png] Sayanim Kaleidoscope Amulet [項鍊]|69|多數|假定擁有Talent+2。我很高興它帶有屬性傷害和技能增強，你可以獲得很大的抵抗力。|
-|[圖片:rings0.png] Circle of Death Ring [戒指]|53|物理理職業|由於力量固定為35，幾乎不需要仔細選擇，但由於很容易在不被注意到的情況下扔掉卓越的裝備，所以我決定將其包括在內。|
-|[圖片:rings1.png] Girded Everliving Golem Ring [戒指]|61|物理理職業|攻擊等級高達100。雖然它往往略遜於上面的死亡之環，但這也是一個在物理職業中很有用的例外戒律。|
+|[圖片:rings0.png] Circle of Death Ring [戒指]|53|物理職業|由於力量固定為35，幾乎不需要仔細選擇，但由於很容易在不被注意到的情況下扔掉卓越的裝備，所以我決定將其包括在內。|
+|[圖片:rings1.png] Girded Everliving Golem Ring [戒指]|61|物理職業|攻擊等級高達100。雖然它往往略遜於上面的死亡之環，但這也是一個在物理職業中很有用的例外戒律。|
 |[圖片:rings2.png] Black Swan Band Ring [戒指]|69|多數|具有強度和屬性傷害，抗性優良，使用方便。|
 |[圖片:rings3.png] Heaven's Wing Ring [戒指]|70|多數|如果Talent匹配+2，你就贏了。雖然是幾率，但是最多給出6個元素抗性。如果添加大約 4 個，你將擁有一個易於使用的設備。|
 
