@@ -9,11 +9,13 @@ description: Maintain the repo-local Astro Starlight Traditional Chinese Nevergr
 
 - Work from the repository root. In this machine it is `/Users/jakeuj/Documents/New project 4`.
 - Public docs live under `src/content/docs/` so `ngo.jakeuj.com` serves pages from root paths such as `/guide/` and `/fc2-general-reference/`.
+- Do not place public docs under `src/content/docs/nevergrind-online/`; that would reintroduce the extra URL layer on the custom domain.
 - The canonical terminology table is `src/content/docs/terminology.md`.
 - The Starlight sidebar is data-driven from `src/data/sidebar.json`.
 - FC2 routing lives in `src/data/fc2-topic-map.json`; crawl metadata lives in `src/data/fc2-source-manifest.json`.
 - FC2 source snapshots are generated under `.cache/fc2/` and are intentionally ignored.
 - The public site targets GitHub Pages and the custom domain `ngo.jakeuj.com`.
+- Legacy `/nevergrind-online/...` compatibility pages live only in `src/pages/nevergrind-online/`; keep them `noindex`, `data-pagefind-ignore`, hash-preserving, and excluded from the sitemap.
 
 ## FC2 Refresh Workflow
 
@@ -29,10 +31,18 @@ npm run build
 ```
 
 - `crawl:fc2` must still report 106 pages and 0 errors.
-- `build:fc2-docs` regenerates the source-driven `fc2-*` Markdown pages from `.cache/fc2/pages`.
+- `build:fc2-docs` regenerates the source-driven `fc2-*` Markdown pages from `.cache/fc2/pages` into `src/content/docs/`.
 - `check:coverage` verifies every FC2 URL is routed and appears in frontmatter.
 - `check:quality` blocks old placeholder text, leaked translation guard tokens, missing render coverage, terminology drift, stale machine-translation phrases, and large untranslated Japanese fragments. It may intentionally ignore FC2 source-title rows where the Japanese original title is metadata.
 - Do not use `import:writerside` for FC2 pages. It is intentionally disabled by default because the old Writerside seed can overwrite source-driven FC2 docs with placeholder summaries.
+
+## Routes And Source Lookup
+
+- Public links, sidebar `slug` values, and `src/data/fc2-topic-map.json` targets must use root routes such as `guide`, `fc2-general-reference`, and `/fc2-general-reference/#fc2-chart`.
+- Do not add `/nevergrind-online/` to sidebar links, Markdown links, generated topic-map slugs, README examples, or GitHub Pages config.
+- Keep `astro.config.mjs` using `@astrojs/sitemap` with a filter that excludes legacy `/nevergrind-online/` paths from `dist/sitemap*.xml`.
+- When checking an FC2 source file, find its target with `src/data/fc2-topic-map.json`; the public section is `https://ngo.jakeuj.com/<slug>/#fc2-<source-file-stem>`, for example `chart.html` maps to `/fc2-general-reference/#fc2-chart`.
+- If changing the custom-domain route strategy, update `src/content/docs/`, `src/data/sidebar.json`, `src/data/fc2-topic-map.json`, redirect pages, sitemap filtering, README, this skill, and GitHub Actions together.
 
 ## Terminology And Content Rules
 
@@ -45,7 +55,6 @@ npm run build
 - Do not publish original FC2 images, CSS, or JavaScript.
 - Do not drop FC2 gameplay text because of source-policy wording. Translate or faithfully localize the full source gameplay content into zh-TW, keeping original Japanese only where it is source metadata such as titles.
 - Treat FC2 as a player meta snapshot. Keep or add version reminders that current game tooltip / UI should be final authority.
-- When checking a specific FC2 URL, find its target via `src/data/fc2-topic-map.json`, then inspect the generated Markdown section anchor `fc2-<source-file-stem>`.
 
 ## Editing Guidance
 
@@ -56,11 +65,16 @@ npm run build
 - If `check:quality` flags terminology drift, fix the generator output or the term replacement source instead of patching only the generated Markdown.
 - Keep sidebar labels Chinese-first and concise. Do not show raw `*.html` filenames or parenthesized English in the sidebar unless the user explicitly asks; source filenames belong in `fc2-link-index`, source tables, anchors, and frontmatter.
 - Keep FC2 original-source navigation separate from user-facing supplemental guides. Use the FC2 section for source-aligned entries and the supplemental section for non-FC2 pages.
+- After route, sidebar, or topic-map changes, search for accidental public nested paths with `rg -n 'nevergrind-online/' src/content/docs src/data README.md scripts .github/workflows .agents/skills/maintain-nevergrind-docs -S`. Allow only intentional legacy redirect code, sitemap filtering, and external source URLs.
+- After `npm run build`, `rg -n '<loc>[^<]*/nevergrind-online/' dist/sitemap*.xml` should return nothing.
+- For local route checks, root pages such as `http://127.0.0.1:4322/guide/` should render directly, while legacy pages such as `http://127.0.0.1:4322/nevergrind-online/guide/#x` should redirect to `/guide/#x`.
 - Before committing, run `git diff --check` and confirm `.cache/`, `.astro/`, `dist/`, and `.idea/` are not staged.
 
 ## Deploy Workflow
 
 - Commit source files and generated Markdown, not `.cache/`, `.astro/`, `dist/`, or `.idea/`.
 - Keep `public/CNAME` set to `ngo.jakeuj.com` for the GitHub Pages custom domain.
+- Keep GitHub Actions publishing with `SITE=https://ngo.jakeuj.com` and `BASE_PATH=/` so the custom domain serves root paths.
 - Push `main` to `https://github.com/jakeuj/NevergrindOnline.git`.
-- GitHub Actions builds Pages from source. If checking locally, use `npm run dev -- --port 4322` and open `http://127.0.0.1:4322/`.
+- GitHub Actions builds Pages from source. After deploy, expected canonical URLs look like `https://ngo.jakeuj.com/guide/`, not `https://ngo.jakeuj.com/nevergrind-online/guide/`.
+- If checking locally, use `npm run dev -- --port 4322` and open `http://127.0.0.1:4322/`.
