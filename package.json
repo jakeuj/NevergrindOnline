@@ -1,0 +1,29 @@
+{
+  "name": "nevergrind-online-zh-tw-db",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev --host 127.0.0.1",
+    "build": "astro build",
+    "preview": "astro preview --host 127.0.0.1",
+    "crawl:fc2": "node scripts/crawl-fc2.mjs",
+    "import:writerside": "node scripts/import-writerside.mjs",
+    "check:coverage": "node scripts/check-coverage.mjs",
+    "lint:md": "markdownlint-cli2 \"**/*.md\" \"!node_modules/**\" \"!dist/**\""
+  },
+  "dependencies": {
+    "@astrojs/starlight": "^0.38.4",
+    "astro": "^6.2.2",
+    "cheerio": "^1.2.0",
+    "gray-matter": "^4.0.3",
+    "iconv-lite": "^0.7.2"
+  },
+  "devDependencies": {
+    "markdownlint-cli2": "^0.22.1",
+    "typescript": "^5.9.3"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  }
+}

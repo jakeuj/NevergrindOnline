@@ -1,0 +1,7341 @@
+{
+  "base": "https://atelier3.web.fc2.com/ngo/index.html",
+  "crawledAt": "2026-05-05T03:21:10.654Z",
+  "expectedCount": 106,
+  "count": 106,
+  "errors": [],
+  "pages": [
+    {
+      "url": "https://atelier3.web.fc2.com/ngo/alderon.html",
+      "file": "alderon.html",
+      "title": "セット/Alderon | Nevergrind Online 攻略DB",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Alderon's セット"
+        }
+      ],
+      "links": [
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/menu.html"
+        }
+      ],
+      "lastModified": "Sat, 30 Nov 2024 05:02:57 GMT"
+    },
+    {
+      "url": "https://atelier3.web.fc2.com/ngo/aradune.html",
+      "file": "aradune.html",
+      "title": "セット/Aradune | Nevergrind Online 攻略DB",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Aradune's セット"
+        }
+      ],
+      "links": [
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/menu.html"
+        }
+      ],
+      "lastModified": "Tue, 25 Mar 2025 15:28:00 GMT"
+    },
+    {
+      "url": "https://atelier3.web.fc2.com/ngo/asaph.html",
+      "file": "asaph.html",
+      "title": "セット/Asaph | Nevergrind Online 攻略DB",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Asaph's セット"
+        }
+      ],
+      "links": [
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/menu.html"
+        }
+      ],
+      "lastModified": "Tue, 25 Mar 2025 15:28:00 GMT"
+    },
+    {
+      "url": "https://atelier3.web.fc2.com/ngo/bard.html",
+      "file": "bard.html",
+      "title": "クラス/バード | Nevergrind Online 攻略DB",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "バード"
+        },
+        {
+          "tag": "h2",
+          "text": "基本的な情報"
+        },
+        {
+          "tag": "h3",
+          "text": "種族"
+        },
+        {
+          "tag": "h3",
+          "text": "防具"
+        },
+        {
+          "tag": "h3",
+          "text": "パッシブ"
+        },
+        {
+          "tag": "h3",
+          "text": "特殊効果"
+        },
+        {
+          "tag": "h2",
+          "text": "タレント例"
+        },
+        {
+          "tag": "h2",
+          "text": "装備例"
+        },
+        {
+          "tag": "h2",
+          "text": "立ち回り"
+        }
+      ],
+      "links": [
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/menu.html"
+        },
+        {
+          "label": "Emissary",
+          "url": "https://atelier3.web.fc2.com/ngo/emissary.html"
+        },
+        {
+          "label": "Volaki",
+          "url": "https://atelier3.web.fc2.com/ngo/volaki.html"
+        },
+        {
+          "label": "Fansy",
+          "url": "https://atelier3.web.fc2.com/ngo/fansy.html"
+        },
+        {
+          "label": "基本的な情報",
+          "url": "https://atelier3.web.fc2.com/ngo/bard.html"
+        },
+        {
+          "label": "タレント例",
+          "url": "https://atelier3.web.fc2.com/ngo/bard.html"
+        },
+        {
+          "label": "装備例",
+          "url": "https://atelier3.web.fc2.com/ngo/bard.html"
+        },
+        {
+          "label": "立ち回り",
+          "url": "https://atelier3.web.fc2.com/ngo/bard.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/fansy.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/fansy.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/fansy.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/uhead.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/fansy.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/fansy.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/noik.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/uglove.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/edarion.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/zamtil.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/nylith.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/nylith.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/fansy.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/fansy.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/fansy.html"
+        },
+        {
+          "label": "Cryptic Paragon",
+          "url": "https://atelier3.web.fc2.com/ngo/u1hbm.html"
+        },
+        {
+          "label": "Nylith",
+          "url": "https://atelier3.web.fc2.com/ngo/nylith.html"
+        },
+        {
+          "label": "Edarion's Testimony",
+          "url": "https://atelier3.web.fc2.com/ngo/edarion.html"
+        },
+        {
+          "label": "Harmonic bindings",
+          "url": "https://atelier3.web.fc2.com/ngo/ubelt.html"
+        },
+        {
+          "label": "Hulking Storm Belt",
+          "url": "https://atelier3.web.fc2.com/ngo/ubelt.html"
+        },
+        {
+          "label": "Volaki's Vibrato",
+          "url": "https://atelier3.web.fc2.com/ngo/volaki.html"
+        },
+        {
+          "label": "Tarfug's Gout Breakers",
+          "url": "https://atelier3.web.fc2.com/ngo/uglove.html"
+        }
+      ],
+      "lastModified": "Sun, 19 Apr 2026 21:44:07 GMT"
+    },
+    {
+      "url": "https://atelier3.web.fc2.com/ngo/bishop.html",
+      "file": "bishop.html",
+      "title": "セット/Bishop | Nevergrind Online 攻略DB",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Bishop's セット"
+        }
+      ],
+      "links": [
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/menu.html"
+        }
+      ],
+      "lastModified": "Wed, 25 Jun 2025 16:14:24 GMT"
+    },
+    {
+      "url": "https://atelier3.web.fc2.com/ngo/boss.html",
+      "file": "boss.html",
+      "title": "ボスまとめ | Nevergrind Online 攻略DB",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "ボスまとめ"
+        },
+        {
+          "tag": "h2",
+          "text": "Act.I"
+        },
+        {
+          "tag": "h3",
+          "text": "SALUBRIN HAVEN"
+        },
+        {
+          "tag": "h3",
+          "text": "TENDOLIN PASSAGE"
+        },
+        {
+          "tag": "h2",
+          "text": "Act.II"
+        },
+        {
+          "tag": "h3",
+          "text": "GREENTHORN CAVERN"
+        },
+        {
+          "tag": "h3",
+          "text": "LANFELD REFUGE"
+        },
+        {
+          "tag": "h3",
+          "text": "RIVEN GROTTO"
+        },
+        {
+          "tag": "h3",
+          "text": "BASTILLE CITADEL"
+        },
+        {
+          "tag": "h2",
+          "text": "Act.III"
+        },
+        {
+          "tag": "h3",
+          "text": "KORDATA COVE"
+        },
+        {
+          "tag": "h3",
+          "text": "SYLONG SANCTUARY"
+        },
+        {
+          "tag": "h3",
+          "text": "THULE CRYPT"
+        },
+        {
+          "tag": "h3",
+          "text": "TEMPLE OF PRENSSOR"
+        },
+        {
+          "tag": "h2",
+          "text": "Act.IV"
+        },
+        {
+          "tag": "h3",
+          "text": "FAHLNIR CITADEL"
+        },
+        {
+          "tag": "h3",
+          "text": "ANURAN RUINS"
+        },
+        {
+          "tag": "h3",
+          "text": "GALEBLAST FORTRESS"
+        },
+        {
+          "tag": "h3",
+          "text": "ASHENFLOW PEAK"
+        }
+      ],
+      "links": [
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/menu.html"
+        },
+        {
+          "label": "Act.I",
+          "url": "https://atelier3.web.fc2.com/ngo/boss.html"
+        },
+        {
+          "label": "Act.II",
+          "url": "https://atelier3.web.fc2.com/ngo/boss.html"
+        },
+        {
+          "label": "Act.III",
+          "url": "https://atelier3.web.fc2.com/ngo/boss.html"
+        },
+        {
+          "label": "Act.IV",
+          "url": "https://atelier3.web.fc2.com/ngo/boss.html"
+        }
+      ],
+      "lastModified": "Fri, 20 Sep 2024 22:56:52 GMT"
+    },
+    {
+      "url": "https://atelier3.web.fc2.com/ngo/chancellor.html",
+      "file": "chancellor.html",
+      "title": "セット/Chancellor | Nevergrind Online 攻略DB",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Chancellor's セット"
+        }
+      ],
+      "links": [
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/menu.html"
+        }
+      ],
+      "lastModified": "Tue, 08 Oct 2024 19:32:25 GMT"
+    },
+    {
+      "url": "https://atelier3.web.fc2.com/ngo/charamake.html",
+      "file": "charamake.html",
+      "title": "キャラメイク関連 | Nevergrind Online 攻略DB",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "キャラメイク関連"
+        },
+        {
+          "tag": "h2",
+          "text": "性別"
+        },
+        {
+          "tag": "h3",
+          "text": "男性"
+        },
+        {
+          "tag": "h3",
+          "text": "女性"
+        },
+        {
+          "tag": "h2",
+          "text": "種族"
+        },
+        {
+          "tag": "h3",
+          "text": "アヌカリ"
+        },
+        {
+          "tag": "h3",
+          "text": "バーバリアン"
+        },
+        {
+          "tag": "h3",
+          "text": "ダークエルフ"
+        },
+        {
+          "tag": "h3",
+          "text": "ドワーフ"
+        },
+        {
+          "tag": "h3",
+          "text": "ノーム"
+        },
+        {
+          "tag": "h3",
+          "text": "ハーフエルフ"
+        },
+        {
+          "tag": "h3",
+          "text": "ハーフリング"
+        },
+        {
+          "tag": "h3",
+          "text": "ハイエルフ"
+        },
+        {
+          "tag": "h3",
+          "text": "ヒューマン"
+        },
+        {
+          "tag": "h3",
+          "text": "ネコバス"
+        },
+        {
+          "tag": "h3",
+          "text": "オーガ"
+        },
+        {
+          "tag": "h3",
+          "text": "オーク"
+        },
+        {
+          "tag": "h3",
+          "text": "セラフィム"
+        },
+        {
+          "tag": "h3",
+          "text": "ウッドエルフ"
+        },
+        {
+          "tag": "h2",
+          "text": "クラスボーナス"
+        }
+      ],
+      "links": [
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/menu.html"
+        },
+        {
+          "label": "性別",
+          "url": "https://atelier3.web.fc2.com/ngo/charamake.html"
+        },
+        {
+          "label": "種族",
+          "url": "https://atelier3.web.fc2.com/ngo/charamake.html"
+        },
+        {
+          "label": "アヌカリ",
+          "url": "https://atelier3.web.fc2.com/ngo/charamake.html"
+        },
+        {
+          "label": "バーバリアン",
+          "url": "https://atelier3.web.fc2.com/ngo/charamake.html"
+        },
+        {
+          "label": "ダークエルフ",
+          "url": "https://atelier3.web.fc2.com/ngo/charamake.html"
+        },
+        {
+          "label": "ドワーフ",
+          "url": "https://atelier3.web.fc2.com/ngo/charamake.html"
+        },
+        {
+          "label": "ノーム",
+          "url": "https://atelier3.web.fc2.com/ngo/charamake.html"
+        },
+        {
+          "label": "ハーフエルフ",
+          "url": "https://atelier3.web.fc2.com/ngo/charamake.html"
+        },
+        {
+          "label": "ハーフリング",
+          "url": "https://atelier3.web.fc2.com/ngo/charamake.html"
+        },
+        {
+          "label": "ハイエルフ",
+          "url": "https://atelier3.web.fc2.com/ngo/charamake.html"
+        },
+        {
+          "label": "ヒューマン",
+          "url": "https://atelier3.web.fc2.com/ngo/charamake.html"
+        },
+        {
+          "label": "ネコバス",
+          "url": "https://atelier3.web.fc2.com/ngo/charamake.html"
+        },
+        {
+          "label": "オーガ",
+          "url": "https://atelier3.web.fc2.com/ngo/charamake.html"
+        },
+        {
+          "label": "オーク",
+          "url": "https://atelier3.web.fc2.com/ngo/charamake.html"
+        },
+        {
+          "label": "セラフィム",
+          "url": "https://atelier3.web.fc2.com/ngo/charamake.html"
+        },
+        {
+          "label": "ウッドエルフ",
+          "url": "https://atelier3.web.fc2.com/ngo/charamake.html"
+        },
+        {
+          "label": "クラスボーナス",
+          "url": "https://atelier3.web.fc2.com/ngo/charamake.html"
+        }
+      ],
+      "lastModified": "Mon, 23 Jun 2025 23:12:21 GMT"
+    },
+    {
+      "url": "https://atelier3.web.fc2.com/ngo/chart.html",
+      "file": "chart.html",
+      "title": "ゲームの流れ | Nevergrind Online 攻略DB",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "ゲームの流れ"
+        },
+        {
+          "tag": "h2",
+          "text": "ノーマル"
+        },
+        {
+          "tag": "h3",
+          "text": "Lv1～"
+        },
+        {
+          "tag": "h3",
+          "text": "Lv25～"
+        },
+        {
+          "tag": "h3",
+          "text": "Lv45～"
+        },
+        {
+          "tag": "h2",
+          "text": "ナイトメア"
+        },
+        {
+          "tag": "h3",
+          "text": "属性耐性を意識しよう！"
+        },
+        {
+          "tag": "h3",
+          "text": "ゴールドを節約しよう"
+        },
+        {
+          "tag": "h2",
+          "text": "ヘル"
+        },
+        {
+          "tag": "h3",
+          "text": "属性耐性を気合でなんとかしよう！！！"
+        },
+        {
+          "tag": "h3",
+          "text": "レアドロップ率を意識しよう"
+        },
+        {
+          "tag": "h2",
+          "text": "ヒロイック"
+        },
+        {
+          "tag": "h3",
+          "text": "Lv95～"
+        },
+        {
+          "tag": "h3",
+          "text": "周回するダンジョン"
+        }
+      ],
+      "links": [
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/menu.html"
+        },
+        {
+          "label": "ノーマル",
+          "url": "https://atelier3.web.fc2.com/ngo/chart.html"
+        },
+        {
+          "label": "ナイトメア",
+          "url": "https://atelier3.web.fc2.com/ngo/chart.html"
+        },
+        {
+          "label": "ヘル",
+          "url": "https://atelier3.web.fc2.com/ngo/chart.html"
+        },
+        {
+          "label": "ヒロイック",
+          "url": "https://atelier3.web.fc2.com/ngo/chart.html"
+        },
+        {
+          "label": "Arc of Anastaryan",
+          "url": "https://atelier3.web.fc2.com/ngo/u2hbm.html"
+        },
+        {
+          "label": "Robe of the Viper King",
+          "url": "https://atelier3.web.fc2.com/ngo/uchest.html"
+        },
+        {
+          "label": "Chains of Veneration",
+          "url": "https://atelier3.web.fc2.com/ngo/uchest.html"
+        },
+        {
+          "label": "Turreto Starfort",
+          "url": "https://atelier3.web.fc2.com/ngo/uamulet.html"
+        },
+        {
+          "label": "ギャンブルのすすめ",
+          "url": "https://atelier3.web.fc2.com/ngo/gambling.html"
+        }
+      ],
+      "lastModified": "Tue, 13 May 2025 16:18:13 GMT"
+    },
+    {
+      "url": "https://atelier3.web.fc2.com/ngo/cleric.html",
+      "file": "cleric.html",
+      "title": "クラス/クレリック | Nevergrind Online 攻略DB",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "クレリック"
+        },
+        {
+          "tag": "h2",
+          "text": "基本的な情報"
+        },
+        {
+          "tag": "h3",
+          "text": "種族"
+        },
+        {
+          "tag": "h3",
+          "text": "防具"
+        },
+        {
+          "tag": "h3",
+          "text": "パッシブ"
+        },
+        {
+          "tag": "h3",
+          "text": "特殊効果"
+        },
+        {
+          "tag": "h2",
+          "text": "タレント例"
+        },
+        {
+          "tag": "h3",
+          "text": "Arbiter（共通）"
+        },
+        {
+          "tag": "h3",
+          "text": "Vestal"
+        },
+        {
+          "tag": "h3",
+          "text": "Arbiter（共通）"
+        },
+        {
+          "tag": "h3",
+          "text": "Scion"
+        },
+        {
+          "tag": "h2",
+          "text": "装備例"
+        },
+        {
+          "tag": "h2",
+          "text": "立ち回り"
+        }
+      ],
+      "links": [
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/menu.html"
+        },
+        {
+          "label": "Servant",
+          "url": "https://atelier3.web.fc2.com/ngo/servant.html"
+        },
+        {
+          "label": "Asaph",
+          "url": "https://atelier3.web.fc2.com/ngo/asaph.html"
+        },
+        {
+          "label": "Tunso",
+          "url": "https://atelier3.web.fc2.com/ngo/tunso.html"
+        },
+        {
+          "label": "基本的な情報",
+          "url": "https://atelier3.web.fc2.com/ngo/cleric.html"
+        },
+        {
+          "label": "タレント例",
+          "url": "https://atelier3.web.fc2.com/ngo/cleric.html"
+        },
+        {
+          "label": "装備例",
+          "url": "https://atelier3.web.fc2.com/ngo/cleric.html"
+        },
+        {
+          "label": "立ち回り",
+          "url": "https://atelier3.web.fc2.com/ngo/cleric.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/tunso.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/tunso.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/zamtil.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/tunso.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/tunso.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/fanatic.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/tunso.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/zamtil.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/edarion.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/zamtil.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/fanatic.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/scourge.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/tunso.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/asaph.html"
+        },
+        {
+          "label": "Fanatic",
+          "url": "https://atelier3.web.fc2.com/ngo/fanatic.html"
+        },
+        {
+          "label": "Trek of Glory",
+          "url": "https://atelier3.web.fc2.com/ngo/uboot.html"
+        },
+        {
+          "label": "Zamtil",
+          "url": "https://atelier3.web.fc2.com/ngo/zamtil.html"
+        },
+        {
+          "label": "Zamtil's Bluster",
+          "url": "https://atelier3.web.fc2.com/ngo/zamtil.html"
+        },
+        {
+          "label": "Marshal Gauntlets Iniquity",
+          "url": "https://atelier3.web.fc2.com/ngo/uglove.html"
+        }
+      ],
+      "lastModified": "Fri, 01 Nov 2024 04:55:59 GMT"
+    },
+    {
+      "url": "https://atelier3.web.fc2.com/ngo/crusader.html",
+      "file": "crusader.html",
+      "title": "クラス/クルセイダー | Nevergrind Online 攻略DB",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "クルセイダー"
+        },
+        {
+          "tag": "h2",
+          "text": "基本的な情報"
+        },
+        {
+          "tag": "h3",
+          "text": "種族"
+        },
+        {
+          "tag": "h3",
+          "text": "防具"
+        },
+        {
+          "tag": "h3",
+          "text": "パッシブ"
+        },
+        {
+          "tag": "h3",
+          "text": "特殊効果"
+        },
+        {
+          "tag": "h2",
+          "text": "タレント例"
+        },
+        {
+          "tag": "h2",
+          "text": "装備例"
+        },
+        {
+          "tag": "h2",
+          "text": "立ち回り"
+        },
+        {
+          "tag": "h2",
+          "text": "装備例"
+        },
+        {
+          "tag": "h2",
+          "text": "立ち回り"
+        }
+      ],
+      "links": [
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/menu.html"
+        },
+        {
+          "label": "Bishop",
+          "url": "https://atelier3.web.fc2.com/ngo/bishop.html"
+        },
+        {
+          "label": "Fanatic",
+          "url": "https://atelier3.web.fc2.com/ngo/fanatic.html"
+        },
+        {
+          "label": "Edarion",
+          "url": "https://atelier3.web.fc2.com/ngo/edarion.html"
+        },
+        {
+          "label": "基本的な情報",
+          "url": "https://atelier3.web.fc2.com/ngo/crusader.html"
+        },
+        {
+          "label": "タレント例",
+          "url": "https://atelier3.web.fc2.com/ngo/crusader.html"
+        },
+        {
+          "label": "装備例",
+          "url": "https://atelier3.web.fc2.com/ngo/crusader.html"
+        },
+        {
+          "label": "立ち回り",
+          "url": "https://atelier3.web.fc2.com/ngo/crusader.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/edarion.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/ubow.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/uhead.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/uchest.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/fanatic.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/edarion.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/edarion.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/edarion.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/uleg.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/edarion.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/scourge.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/edarion.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/asaph.html"
+        },
+        {
+          "label": "Fanatic's Sanctuary",
+          "url": "https://atelier3.web.fc2.com/ngo/fanatic.html"
+        },
+        {
+          "label": "Demonslayer",
+          "url": "https://atelier3.web.fc2.com/ngo/legendary.html"
+        },
+        {
+          "label": "Zamtil's Plenitude",
+          "url": "https://atelier3.web.fc2.com/ngo/zamtil.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/edarion.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/demetrium.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/uhead.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/fanatic.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/ushoulder.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/edarion.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/edarion.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/edarion.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/uleg.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/edarion.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/daahoud.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/edarion.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/uring.html"
+        },
+        {
+          "label": "Firmament Staff of the Crystal Sea",
+          "url": "https://atelier3.web.fc2.com/ngo/legendary.html"
+        },
+        {
+          "label": "Thoth Mindlink Staff",
+          "url": "https://atelier3.web.fc2.com/ngo/legendary.html"
+        },
+        {
+          "label": "Deathly Usher's Bracers",
+          "url": "https://atelier3.web.fc2.com/ngo/ubracer.html"
+        },
+        {
+          "label": "Marshal Gauntlets Iniquity",
+          "url": "https://atelier3.web.fc2.com/ngo/uglove.html"
+        },
+        {
+          "label": "Hulking Storm Belt",
+          "url": "https://atelier3.web.fc2.com/ngo/ubelt.html"
+        },
+        {
+          "label": "Stormcaller Bow",
+          "url": "https://atelier3.web.fc2.com/ngo/ubow.html"
+        },
+        {
+          "label": "Spinalzz's Vigil",
+          "url": "https://atelier3.web.fc2.com/ngo/spinalzz.html"
+        },
+        {
+          "label": "Charlatan's Crest",
+          "url": "https://atelier3.web.fc2.com/ngo/uhead.html"
+        }
+      ],
+      "lastModified": "Sun, 19 Apr 2026 22:30:01 GMT"
+    },
+    {
+      "url": "https://atelier3.web.fc2.com/ngo/daahoud.html",
+      "file": "daahoud.html",
+      "title": "セット/Daahoud | Nevergrind Online 攻略DB",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Daahoud's セット"
+        }
+      ],
+      "links": [
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/menu.html"
+        }
+      ],
+      "lastModified": "Fri, 06 Jun 2025 02:48:07 GMT"
+    },
+    {
+      "url": "https://atelier3.web.fc2.com/ngo/daiyo.html",
+      "file": "daiyo.html",
+      "title": "セット/Daiyo | Nevergrind Online 攻略DB",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Daiyo's セット"
+        }
+      ],
+      "links": [
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/menu.html"
+        }
+      ],
+      "lastModified": "Mon, 23 Jun 2025 21:32:18 GMT"
+    },
+    {
+      "url": "https://atelier3.web.fc2.com/ngo/demetrium.html",
+      "file": "demetrium.html",
+      "title": "セット/Demetrium | Nevergrind Online 攻略DB",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Demetrium's セット"
+        }
+      ],
+      "links": [
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/menu.html"
+        }
+      ],
+      "lastModified": "Mon, 23 Jun 2025 21:33:37 GMT"
+    },
+    {
+      "url": "https://atelier3.web.fc2.com/ngo/dpscalc.html",
+      "file": "dpscalc.html",
+      "title": "武器DPS計算機 | Nevergrind Online 攻略DB",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "武器DPS計算機"
+        },
+        {
+          "tag": "h3",
+          "text": "入力フォーム"
+        },
+        {
+          "tag": "h3",
+          "text": "計算結果"
+        }
+      ],
+      "links": [
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/menu.html"
+        }
+      ],
+      "lastModified": "Wed, 09 Apr 2025 21:24:57 GMT"
+    },
+    {
+      "url": "https://atelier3.web.fc2.com/ngo/druid.html",
+      "file": "druid.html",
+      "title": "クラス/ドルイド | Nevergrind Online 攻略DB",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "ドルイド"
+        },
+        {
+          "tag": "h2",
+          "text": "基本的な情報"
+        },
+        {
+          "tag": "h3",
+          "text": "種族"
+        },
+        {
+          "tag": "h3",
+          "text": "防具"
+        },
+        {
+          "tag": "h3",
+          "text": "パッシブ"
+        },
+        {
+          "tag": "h3",
+          "text": "特殊効果"
+        },
+        {
+          "tag": "h2",
+          "text": "タレント例"
+        },
+        {
+          "tag": "h2",
+          "text": "装備例"
+        },
+        {
+          "tag": "h2",
+          "text": "立ち回り"
+        }
+      ],
+      "links": [
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/menu.html"
+        },
+        {
+          "label": "Vagrant",
+          "url": "https://atelier3.web.fc2.com/ngo/vagrant.html"
+        },
+        {
+          "label": "Starcaller",
+          "url": "https://atelier3.web.fc2.com/ngo/starcaller.html"
+        },
+        {
+          "label": "Nylith",
+          "url": "https://atelier3.web.fc2.com/ngo/nylith.html"
+        },
+        {
+          "label": "基本的な情報",
+          "url": "https://atelier3.web.fc2.com/ngo/druid.html"
+        },
+        {
+          "label": "タレント例",
+          "url": "https://atelier3.web.fc2.com/ngo/druid.html"
+        },
+        {
+          "label": "装備例",
+          "url": "https://atelier3.web.fc2.com/ngo/druid.html"
+        },
+        {
+          "label": "立ち回り",
+          "url": "https://atelier3.web.fc2.com/ngo/druid.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/nylith.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/u1hbm.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/ucharm.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/uhead.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/nylith.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/ushoulder.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/ubracer.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/nylith.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/ubelt.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/zamtil.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/nylith.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/nylith.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/nylith.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/uring.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/uring.html"
+        },
+        {
+          "label": "Starcaller's Aurora",
+          "url": "https://atelier3.web.fc2.com/ngo/starcaller.html"
+        },
+        {
+          "label": "Attuned Shawl of the Forsaken",
+          "url": "https://atelier3.web.fc2.com/ngo/ushoulder.html"
+        },
+        {
+          "label": "Jibekn",
+          "url": "https://atelier3.web.fc2.com/ngo/jibekn.html"
+        },
+        {
+          "label": "Falzain Mercy",
+          "url": "https://atelier3.web.fc2.com/ngo/falzain.html"
+        },
+        {
+          "label": "Ubar's Fallacy",
+          "url": "https://atelier3.web.fc2.com/ngo/ubar.html"
+        },
+        {
+          "label": "Cryptic Paragon",
+          "url": "https://atelier3.web.fc2.com/ngo/u1hbm.html"
+        },
+        {
+          "label": "Tortoise Shell Helmet",
+          "url": "https://atelier3.web.fc2.com/ngo/uhead.html"
+        },
+        {
+          "label": "Rephaim's Kepi",
+          "url": "https://atelier3.web.fc2.com/ngo/uhead.html"
+        },
+        {
+          "label": "Hebron's Coif",
+          "url": "https://atelier3.web.fc2.com/ngo/uhead.html"
+        },
+        {
+          "label": "Thotthi's Sash",
+          "url": "https://atelier3.web.fc2.com/ngo/ubelt.html"
+        }
+      ],
+      "lastModified": "Fri, 11 Apr 2025 10:10:16 GMT"
+    },
+    {
+      "url": "https://atelier3.web.fc2.com/ngo/edarion.html",
+      "file": "edarion.html",
+      "title": "セット/Edarion | Nevergrind Online 攻略DB",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Edarion's セット"
+        }
+      ],
+      "links": [
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/menu.html"
+        }
+      ],
+      "lastModified": "Fri, 06 Jun 2025 02:48:45 GMT"
+    },
+    {
+      "url": "https://atelier3.web.fc2.com/ngo/emissary.html",
+      "file": "emissary.html",
+      "title": "セット/Emissary | Nevergrind Online 攻略DB",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Emissary's セット"
+        }
+      ],
+      "links": [
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/menu.html"
+        }
+      ],
+      "lastModified": "Fri, 25 Oct 2024 20:44:10 GMT"
+    },
+    {
+      "url": "https://atelier3.web.fc2.com/ngo/enchanter.html",
+      "file": "enchanter.html",
+      "title": "クラス/エンチャンター | Nevergrind Online 攻略DB",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "エンチャンター"
+        },
+        {
+          "tag": "h2",
+          "text": "基本的な情報"
+        },
+        {
+          "tag": "h3",
+          "text": "種族"
+        },
+        {
+          "tag": "h3",
+          "text": "防具"
+        },
+        {
+          "tag": "h3",
+          "text": "パッシブ"
+        },
+        {
+          "tag": "h2",
+          "text": "タレント例"
+        },
+        {
+          "tag": "h3",
+          "text": "Inveigler（共通）"
+        },
+        {
+          "tag": "h3",
+          "text": "Psionicist"
+        },
+        {
+          "tag": "h3",
+          "text": "Inveigler（共通）"
+        },
+        {
+          "tag": "h3",
+          "text": "Thaumaturgist"
+        },
+        {
+          "tag": "h2",
+          "text": "装備例"
+        },
+        {
+          "tag": "h2",
+          "text": "立ち回り"
+        }
+      ],
+      "links": [
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/menu.html"
+        },
+        {
+          "label": "Orator",
+          "url": "https://atelier3.web.fc2.com/ngo/orator.html"
+        },
+        {
+          "label": "Ubar",
+          "url": "https://atelier3.web.fc2.com/ngo/ubar.html"
+        },
+        {
+          "label": "Zamtil",
+          "url": "https://atelier3.web.fc2.com/ngo/zamtil.html"
+        },
+        {
+          "label": "基本的な情報",
+          "url": "https://atelier3.web.fc2.com/ngo/enchanter.html"
+        },
+        {
+          "label": "タレント例",
+          "url": "https://atelier3.web.fc2.com/ngo/enchanter.html"
+        },
+        {
+          "label": "装備例",
+          "url": "https://atelier3.web.fc2.com/ngo/enchanter.html"
+        },
+        {
+          "label": "立ち回り",
+          "url": "https://atelier3.web.fc2.com/ngo/enchanter.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/u1hbm.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/zamtil.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/zamtil.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/uhead.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/uchest.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/ushoulder.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/ubracer.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/zamtil.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/ubar.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/zamtil.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/uboot.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/zamtil.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/zamtil.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/asaph.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/asaph.html"
+        },
+        {
+          "label": "Noik's Graft",
+          "url": "https://atelier3.web.fc2.com/ngo/noik.html"
+        },
+        {
+          "label": "Jibekn's Patrimony",
+          "url": "https://atelier3.web.fc2.com/ngo/jibekn.html"
+        },
+        {
+          "label": "Consortium Slippers",
+          "url": "https://atelier3.web.fc2.com/ngo/uboot.html"
+        }
+      ],
+      "lastModified": "Tue, 20 May 2025 13:06:48 GMT"
+    },
+    {
+      "url": "https://atelier3.web.fc2.com/ngo/english.html",
+      "file": "english.html",
+      "title": "英語・略語など | Nevergrind Online 攻略DB",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "英語・略語など"
+        },
+        {
+          "tag": "h2",
+          "text": "翻訳ソフト"
+        },
+        {
+          "tag": "h3",
+          "text": "QTranslate"
+        },
+        {
+          "tag": "h2",
+          "text": "英語・略語"
+        },
+        {
+          "tag": "h3",
+          "text": "aa"
+        },
+        {
+          "tag": "h3",
+          "text": "afk, brb, bio"
+        },
+        {
+          "tag": "h3",
+          "text": "cya"
+        },
+        {
+          "tag": "h3",
+          "text": "dot"
+        },
+        {
+          "tag": "h3",
+          "text": "dps"
+        },
+        {
+          "tag": "h3",
+          "text": "gz, gratz"
+        },
+        {
+          "tag": "h3",
+          "text": "hc"
+        },
+        {
+          "tag": "h3",
+          "text": "hero"
+        },
+        {
+          "tag": "h3",
+          "text": "ic"
+        },
+        {
+          "tag": "h3",
+          "text": "idk"
+        },
+        {
+          "tag": "h3",
+          "text": "imma"
+        },
+        {
+          "tag": "h3",
+          "text": "lfg"
+        },
+        {
+          "tag": "h3",
+          "text": "lfm"
+        },
+        {
+          "tag": "h3",
+          "text": "mf"
+        },
+        {
+          "tag": "h3",
+          "text": "nm"
+        },
+        {
+          "tag": "h3",
+          "text": "np"
+        },
+        {
+          "tag": "h3",
+          "text": "pl"
+        },
+        {
+          "tag": "h3",
+          "text": "proc"
+        },
+        {
+          "tag": "h3",
+          "text": "pst"
+        },
+        {
+          "tag": "h3",
+          "text": "r, rdy"
+        },
+        {
+          "tag": "h3",
+          "text": "sc"
+        },
+        {
+          "tag": "h3",
+          "text": "sk"
+        },
+        {
+          "tag": "h3",
+          "text": "ty, thx, tyvm, tyfp"
+        },
+        {
+          "tag": "h3",
+          "text": "wb, cb"
+        },
+        {
+          "tag": "h3",
+          "text": "wtb, wtt, wts"
+        },
+        {
+          "tag": "h3",
+          "text": "yw"
+        }
+      ],
+      "links": [
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/menu.html"
+        },
+        {
+          "label": "aa",
+          "url": "https://atelier3.web.fc2.com/ngo/english.html"
+        },
+        {
+          "label": "afk, brb, bio",
+          "url": "https://atelier3.web.fc2.com/ngo/english.html"
+        },
+        {
+          "label": "cya",
+          "url": "https://atelier3.web.fc2.com/ngo/english.html"
+        },
+        {
+          "label": "dot",
+          "url": "https://atelier3.web.fc2.com/ngo/english.html"
+        },
+        {
+          "label": "dps",
+          "url": "https://atelier3.web.fc2.com/ngo/english.html"
+        },
+        {
+          "label": "gz, gratz",
+          "url": "https://atelier3.web.fc2.com/ngo/english.html"
+        },
+        {
+          "label": "hc",
+          "url": "https://atelier3.web.fc2.com/ngo/english.html"
+        },
+        {
+          "label": "hero",
+          "url": "https://atelier3.web.fc2.com/ngo/english.html"
+        },
+        {
+          "label": "ic",
+          "url": "https://atelier3.web.fc2.com/ngo/english.html"
+        },
+        {
+          "label": "idk",
+          "url": "https://atelier3.web.fc2.com/ngo/english.html"
+        },
+        {
+          "label": "imma",
+          "url": "https://atelier3.web.fc2.com/ngo/english.html"
+        },
+        {
+          "label": "lfg",
+          "url": "https://atelier3.web.fc2.com/ngo/english.html"
+        },
+        {
+          "label": "lfm",
+          "url": "https://atelier3.web.fc2.com/ngo/english.html"
+        },
+        {
+          "label": "mf",
+          "url": "https://atelier3.web.fc2.com/ngo/english.html"
+        },
+        {
+          "label": "nm",
+          "url": "https://atelier3.web.fc2.com/ngo/english.html"
+        },
+        {
+          "label": "np",
+          "url": "https://atelier3.web.fc2.com/ngo/english.html"
+        },
+        {
+          "label": "pl",
+          "url": "https://atelier3.web.fc2.com/ngo/english.html"
+        },
+        {
+          "label": "proc",
+          "url": "https://atelier3.web.fc2.com/ngo/english.html"
+        },
+        {
+          "label": "pst",
+          "url": "https://atelier3.web.fc2.com/ngo/english.html"
+        },
+        {
+          "label": "r, rdy",
+          "url": "https://atelier3.web.fc2.com/ngo/english.html"
+        },
+        {
+          "label": "sc",
+          "url": "https://atelier3.web.fc2.com/ngo/english.html"
+        },
+        {
+          "label": "sk",
+          "url": "https://atelier3.web.fc2.com/ngo/english.html"
+        },
+        {
+          "label": "ty, thx, tyvm, tyfp",
+          "url": "https://atelier3.web.fc2.com/ngo/english.html"
+        },
+        {
+          "label": "wb, cb",
+          "url": "https://atelier3.web.fc2.com/ngo/english.html"
+        },
+        {
+          "label": "wtb, wtt, wts",
+          "url": "https://atelier3.web.fc2.com/ngo/english.html"
+        },
+        {
+          "label": "yw",
+          "url": "https://atelier3.web.fc2.com/ngo/english.html"
+        }
+      ],
+      "lastModified": "Thu, 26 Jun 2025 00:23:06 GMT"
+    },
+    {
+      "url": "https://atelier3.web.fc2.com/ngo/falzain.html",
+      "file": "falzain.html",
+      "title": "セット/Falzain | Nevergrind Online 攻略DB",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Falzain's セット"
+        }
+      ],
+      "links": [
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/menu.html"
+        }
+      ],
+      "lastModified": "Sat, 30 Nov 2024 05:02:57 GMT"
+    },
+    {
+      "url": "https://atelier3.web.fc2.com/ngo/fanatic.html",
+      "file": "fanatic.html",
+      "title": "セット/Fanatic | Nevergrind Online 攻略DB",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Fanatic's セット"
+        }
+      ],
+      "links": [
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/menu.html"
+        }
+      ],
+      "lastModified": "Tue, 25 Mar 2025 15:28:00 GMT"
+    },
+    {
+      "url": "https://atelier3.web.fc2.com/ngo/fansy.html",
+      "file": "fansy.html",
+      "title": "セット/Fansy | Nevergrind Online 攻略DB",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Fansy's セット"
+        }
+      ],
+      "links": [
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/menu.html"
+        }
+      ],
+      "lastModified": "Fri, 06 Jun 2025 02:55:05 GMT"
+    },
+    {
+      "url": "https://atelier3.web.fc2.com/ngo/faq.html",
+      "file": "faq.html",
+      "title": "よくある質問 | Nevergrind Online 攻略DB",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "よくある質問"
+        },
+        {
+          "tag": "h3",
+          "text": "キャラクターメイキングについて"
+        },
+        {
+          "tag": "h3",
+          "text": "ラダーとエターナルの違い"
+        },
+        {
+          "tag": "h3",
+          "text": "シーズンについて"
+        },
+        {
+          "tag": "h3",
+          "text": "ダンジョンへの行き方が分からない"
+        },
+        {
+          "tag": "h3",
+          "text": "鑑定するのがめんどくさい"
+        },
+        {
+          "tag": "h3",
+          "text": "アイテムの売買がめんどくさい"
+        },
+        {
+          "tag": "h3",
+          "text": "インベントリの拡張ってどうやるの？"
+        },
+        {
+          "tag": "h3",
+          "text": "ルーンの装着ってどうやるの？"
+        },
+        {
+          "tag": "h3",
+          "text": "タレントのリセットってどうやるの？"
+        },
+        {
+          "tag": "h3",
+          "text": "アイテムの共有ってどうやるの？"
+        },
+        {
+          "tag": "h3",
+          "text": "装備の比較ってどうやるの？"
+        },
+        {
+          "tag": "h3",
+          "text": "緑の剣の出し方が分からない"
+        },
+        {
+          "tag": "h3",
+          "text": "スキルショートカットを入れ替えたい"
+        },
+        {
+          "tag": "h3",
+          "text": "チャットコマンドを知りたい"
+        },
+        {
+          "tag": "h3",
+          "text": "ギルドに入ることで特典はある？"
+        },
+        {
+          "tag": "h3",
+          "text": "ダンジョンの報酬タイプって何？"
+        },
+        {
+          "tag": "h3",
+          "text": "装備のタレントやスキルの文字色は何？"
+        },
+        {
+          "tag": "h3",
+          "text": "効果って何？"
+        },
+        {
+          "tag": "h3",
+          "text": "エーテル・不滅って何？"
+        },
+        {
+          "tag": "h3",
+          "text": "ラピッドアタックって何？"
+        },
+        {
+          "tag": "h3",
+          "text": "ボス部屋の大まかな位置を絞りたい"
+        },
+        {
+          "tag": "h3",
+          "text": "ダンジョン内移動を楽にしたい"
+        },
+        {
+          "tag": "h3",
+          "text": "ゲームが徐々に重くなる"
+        },
+        {
+          "tag": "h3",
+          "text": "操作ができなくなる時がある"
+        },
+        {
+          "tag": "h3",
+          "text": "アイテムが消えた"
+        }
+      ],
+      "links": [
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/menu.html"
+        },
+        {
+          "label": "キャラクターメイキングについて",
+          "url": "https://atelier3.web.fc2.com/ngo/faq.html"
+        },
+        {
+          "label": "ラダーとエターナルの違い",
+          "url": "https://atelier3.web.fc2.com/ngo/faq.html"
+        },
+        {
+          "label": "シーズンについて",
+          "url": "https://atelier3.web.fc2.com/ngo/faq.html"
+        },
+        {
+          "label": "ダンジョンへの行き方が分からない",
+          "url": "https://atelier3.web.fc2.com/ngo/faq.html"
+        },
+        {
+          "label": "鑑定するのがめんどくさい",
+          "url": "https://atelier3.web.fc2.com/ngo/faq.html"
+        },
+        {
+          "label": "アイテムの売買がめんどくさい",
+          "url": "https://atelier3.web.fc2.com/ngo/faq.html"
+        },
+        {
+          "label": "インベントリの拡張ってどうやるの？",
+          "url": "https://atelier3.web.fc2.com/ngo/faq.html"
+        },
+        {
+          "label": "ルーンの装着ってどうやるの？",
+          "url": "https://atelier3.web.fc2.com/ngo/faq.html"
+        },
+        {
+          "label": "タレントのリセットってどうやるの？",
+          "url": "https://atelier3.web.fc2.com/ngo/faq.html"
+        },
+        {
+          "label": "アイテムの共有ってどうやるの？",
+          "url": "https://atelier3.web.fc2.com/ngo/faq.html"
+        },
+        {
+          "label": "装備の比較ってどうやるの？",
+          "url": "https://atelier3.web.fc2.com/ngo/faq.html"
+        },
+        {
+          "label": "緑の剣の出し方が分からない",
+          "url": "https://atelier3.web.fc2.com/ngo/faq.html"
+        },
+        {
+          "label": "スキルショートカットを入れ替えたい",
+          "url": "https://atelier3.web.fc2.com/ngo/faq.html"
+        },
+        {
+          "label": "チャットコマンドを知りたい",
+          "url": "https://atelier3.web.fc2.com/ngo/faq.html"
+        },
+        {
+          "label": "ギルドに入ることで特典はある？",
+          "url": "https://atelier3.web.fc2.com/ngo/faq.html"
+        },
+        {
+          "label": "ダンジョンの報酬タイプって何？",
+          "url": "https://atelier3.web.fc2.com/ngo/faq.html"
+        },
+        {
+          "label": "装備のタレントやスキルの文字色は何？",
+          "url": "https://atelier3.web.fc2.com/ngo/faq.html"
+        },
+        {
+          "label": "効果って何？",
+          "url": "https://atelier3.web.fc2.com/ngo/faq.html"
+        },
+        {
+          "label": "エーテル・不滅って何？",
+          "url": "https://atelier3.web.fc2.com/ngo/faq.html"
+        },
+        {
+          "label": "ラピッドアタックって何？",
+          "url": "https://atelier3.web.fc2.com/ngo/faq.html"
+        },
+        {
+          "label": "ボス部屋の大まかな位置を絞りたい",
+          "url": "https://atelier3.web.fc2.com/ngo/faq.html"
+        },
+        {
+          "label": "ダンジョン内移動を楽にしたい",
+          "url": "https://atelier3.web.fc2.com/ngo/faq.html"
+        },
+        {
+          "label": "ゲームが徐々に重くなる",
+          "url": "https://atelier3.web.fc2.com/ngo/faq.html"
+        },
+        {
+          "label": "操作ができなくなることがある",
+          "url": "https://atelier3.web.fc2.com/ngo/faq.html"
+        },
+        {
+          "label": "アイテムが消えた",
+          "url": "https://atelier3.web.fc2.com/ngo/faq.html"
+        }
+      ],
+      "lastModified": "Sat, 31 May 2025 17:38:10 GMT"
+    },
+    {
+      "url": "https://atelier3.web.fc2.com/ngo/furor.html",
+      "file": "furor.html",
+      "title": "セット/Furor | Nevergrind Online 攻略DB",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Furor's セット"
+        }
+      ],
+      "links": [
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/menu.html"
+        }
+      ],
+      "lastModified": "Mon, 07 Jul 2025 16:12:31 GMT"
+    },
+    {
+      "url": "https://atelier3.web.fc2.com/ngo/gambling.html",
+      "file": "gambling.html",
+      "title": "ギャンブル | Nevergrind Online 攻略DB",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "ギャンブルのすすめ"
+        },
+        {
+          "tag": "h2",
+          "text": "仕様"
+        },
+        {
+          "tag": "h2",
+          "text": "おすすめのアイテム"
+        },
+        {
+          "tag": "h3",
+          "text": "アクセサリー類（エクセプ・エリート）"
+        },
+        {
+          "tag": "h3",
+          "text": "シャコ（エリート）"
+        },
+        {
+          "tag": "h3",
+          "text": "ハニワ（エリート）"
+        },
+        {
+          "tag": "h3",
+          "text": "ノーマル～エクセプの有用品"
+        },
+        {
+          "tag": "h3",
+          "text": "特定のユニーク部位（エリート）"
+        },
+        {
+          "tag": "h3",
+          "text": "特定のセット部位（エリート）"
+        },
+        {
+          "tag": "h3",
+          "text": "特定のレジェンダリー（エリート）"
+        }
+      ],
+      "links": [
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/menu.html"
+        },
+        {
+          "label": "Shimmering Fragment",
+          "url": "https://atelier3.web.fc2.com/ngo/uamulet.html"
+        },
+        {
+          "label": "Sayanim Kaleidoscope",
+          "url": "https://atelier3.web.fc2.com/ngo/uamulet.html"
+        },
+        {
+          "label": "Black Swan Band",
+          "url": "https://atelier3.web.fc2.com/ngo/uring.html"
+        },
+        {
+          "label": "Heaven's Wing",
+          "url": "https://atelier3.web.fc2.com/ngo/uring.html"
+        },
+        {
+          "label": "Charlatan's Crest",
+          "url": "https://atelier3.web.fc2.com/ngo/uhead.html"
+        },
+        {
+          "label": "Mosby's Ancient Crown",
+          "url": "https://atelier3.web.fc2.com/ngo/legendary.html"
+        },
+        {
+          "label": "Cryptic Paragon",
+          "url": "https://atelier3.web.fc2.com/ngo/u1hbm.html"
+        },
+        {
+          "label": "Trek of Glory",
+          "url": "https://atelier3.web.fc2.com/ngo/uboot.html"
+        },
+        {
+          "label": "Demetrium's Ballista",
+          "url": "https://atelier3.web.fc2.com/ngo/demetrium.html"
+        },
+        {
+          "label": "Courtier's Trunk",
+          "url": "https://atelier3.web.fc2.com/ngo/uchest.html"
+        },
+        {
+          "label": "Marshal Gauntlets Iniquity",
+          "url": "https://atelier3.web.fc2.com/ngo/uglove.html"
+        },
+        {
+          "label": "Hide of the Hydra",
+          "url": "https://atelier3.web.fc2.com/ngo/legendary.html"
+        },
+        {
+          "label": "Firmament Staff of the Crystal Sea",
+          "url": "https://atelier3.web.fc2.com/ngo/legendary.html"
+        },
+        {
+          "label": "Thoth Mindlink Staff",
+          "url": "https://atelier3.web.fc2.com/ngo/legendary.html"
+        }
+      ],
+      "lastModified": "Wed, 09 Apr 2025 16:47:42 GMT"
+    },
+    {
+      "url": "https://atelier3.web.fc2.com/ngo/golem.html",
+      "file": "golem.html",
+      "title": "セット/Golem | Nevergrind Online 攻略DB",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Golem's セット"
+        }
+      ],
+      "links": [
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/menu.html"
+        }
+      ],
+      "lastModified": "Tue, 25 Mar 2025 15:28:01 GMT"
+    },
+    {
+      "url": "https://atelier3.web.fc2.com/ngo/index.html",
+      "file": "index.html",
+      "title": "Nevergrind Online 攻略DB",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Nevergrind Online 攻略DB"
+        }
+      ],
+      "links": [
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/menu.html"
+        }
+      ],
+      "lastModified": "Thu, 26 Jun 2025 00:18:25 GMT"
+    },
+    {
+      "url": "https://atelier3.web.fc2.com/ngo/itemmods.html",
+      "file": "itemmods.html",
+      "title": "装備Mods | Nevergrind Online 攻略DB",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "装備Mods"
+        },
+        {
+          "tag": "h2",
+          "text": "ダメージ強化"
+        },
+        {
+          "tag": "h2",
+          "text": "攻撃速度増加"
+        },
+        {
+          "tag": "h2",
+          "text": "ブロック率"
+        },
+        {
+          "tag": "h2",
+          "text": "ブロック率増加"
+        },
+        {
+          "tag": "h2",
+          "text": "物理防御強化"
+        },
+        {
+          "tag": "h2",
+          "text": "才能・タレント"
+        },
+        {
+          "tag": "h2",
+          "text": "ステータス"
+        },
+        {
+          "tag": "h2",
+          "text": "パッシブ"
+        },
+        {
+          "tag": "h2",
+          "text": "要求"
+        },
+        {
+          "tag": "h2",
+          "text": "クリティカルヒット"
+        },
+        {
+          "tag": "h2",
+          "text": "攻撃能力"
+        },
+        {
+          "tag": "h2",
+          "text": "詠唱速度増加"
+        },
+        {
+          "tag": "h2",
+          "text": "リソース"
+        },
+        {
+          "tag": "h2",
+          "text": "リジェネ"
+        },
+        {
+          "tag": "h2",
+          "text": "ヒット時回復"
+        },
+        {
+          "tag": "h2",
+          "text": "キル時回復"
+        },
+        {
+          "tag": "h2",
+          "text": "被弾時回復"
+        },
+        {
+          "tag": "h2",
+          "text": "最大リソース"
+        },
+        {
+          "tag": "h2",
+          "text": "ダメージの軽減"
+        },
+        {
+          "tag": "h2",
+          "text": "物理耐性"
+        },
+        {
+          "tag": "h2",
+          "text": "属性耐性"
+        },
+        {
+          "tag": "h2",
+          "text": "吸収する 属性"
+        },
+        {
+          "tag": "h2",
+          "text": "状態異常耐性"
+        },
+        {
+          "tag": "h2",
+          "text": "ダメージ近接"
+        },
+        {
+          "tag": "h2",
+          "text": "スペルパワー"
+        },
+        {
+          "tag": "h2",
+          "text": "属性ダメージ"
+        },
+        {
+          "tag": "h2",
+          "text": "削減 敵 耐性"
+        },
+        {
+          "tag": "h2",
+          "text": "移動速度"
+        },
+        {
+          "tag": "h2",
+          "text": "獲得率"
+        },
+        {
+          "tag": "h2",
+          "text": "ダメージ強化 vs タイプ"
+        },
+        {
+          "tag": "h2",
+          "text": "スキル強化"
+        },
+        {
+          "tag": "h3",
+          "text": "各ラベルと該当クラス一覧"
+        },
+        {
+          "tag": "h2",
+          "text": "効果"
+        },
+        {
+          "tag": "h2",
+          "text": "エーテル"
+        },
+        {
+          "tag": "h2",
+          "text": "不滅"
+        },
+        {
+          "tag": "h2",
+          "text": "ソケット"
+        }
+      ],
+      "links": [
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/menu.html"
+        },
+        {
+          "label": "ダメージ強化",
+          "url": "https://atelier3.web.fc2.com/ngo/itemmods.html"
+        },
+        {
+          "label": "攻撃速度増加",
+          "url": "https://atelier3.web.fc2.com/ngo/itemmods.html"
+        },
+        {
+          "label": "ブロック率",
+          "url": "https://atelier3.web.fc2.com/ngo/itemmods.html"
+        },
+        {
+          "label": "ブロック率増加",
+          "url": "https://atelier3.web.fc2.com/ngo/itemmods.html"
+        },
+        {
+          "label": "物理防御強化",
+          "url": "https://atelier3.web.fc2.com/ngo/itemmods.html"
+        },
+        {
+          "label": "才能・タレント",
+          "url": "https://atelier3.web.fc2.com/ngo/itemmods.html"
+        },
+        {
+          "label": "ステータス",
+          "url": "https://atelier3.web.fc2.com/ngo/itemmods.html"
+        },
+        {
+          "label": "パッシブ",
+          "url": "https://atelier3.web.fc2.com/ngo/itemmods.html"
+        },
+        {
+          "label": "要求",
+          "url": "https://atelier3.web.fc2.com/ngo/itemmods.html"
+        },
+        {
+          "label": "クリティカルヒット",
+          "url": "https://atelier3.web.fc2.com/ngo/itemmods.html"
+        },
+        {
+          "label": "攻撃能力",
+          "url": "https://atelier3.web.fc2.com/ngo/itemmods.html"
+        },
+        {
+          "label": "詠唱速度増加",
+          "url": "https://atelier3.web.fc2.com/ngo/itemmods.html"
+        },
+        {
+          "label": "リソース",
+          "url": "https://atelier3.web.fc2.com/ngo/itemmods.html"
+        },
+        {
+          "label": "リジェネ",
+          "url": "https://atelier3.web.fc2.com/ngo/itemmods.html"
+        },
+        {
+          "label": "ヒット時回復",
+          "url": "https://atelier3.web.fc2.com/ngo/itemmods.html"
+        },
+        {
+          "label": "キル時回復",
+          "url": "https://atelier3.web.fc2.com/ngo/itemmods.html"
+        },
+        {
+          "label": "被弾時回復",
+          "url": "https://atelier3.web.fc2.com/ngo/itemmods.html"
+        },
+        {
+          "label": "最大リソース",
+          "url": "https://atelier3.web.fc2.com/ngo/itemmods.html"
+        },
+        {
+          "label": "ダメージの軽減",
+          "url": "https://atelier3.web.fc2.com/ngo/itemmods.html"
+        },
+        {
+          "label": "物理耐性",
+          "url": "https://atelier3.web.fc2.com/ngo/itemmods.html"
+        },
+        {
+          "label": "属性耐性",
+          "url": "https://atelier3.web.fc2.com/ngo/itemmods.html"
+        },
+        {
+          "label": "吸収する 属性",
+          "url": "https://atelier3.web.fc2.com/ngo/itemmods.html"
+        },
+        {
+          "label": "状態異常耐性",
+          "url": "https://atelier3.web.fc2.com/ngo/itemmods.html"
+        },
+        {
+          "label": "ダメージ近接",
+          "url": "https://atelier3.web.fc2.com/ngo/itemmods.html"
+        },
+        {
+          "label": "スペルパワー",
+          "url": "https://atelier3.web.fc2.com/ngo/itemmods.html"
+        },
+        {
+          "label": "属性ダメージ",
+          "url": "https://atelier3.web.fc2.com/ngo/itemmods.html"
+        },
+        {
+          "label": "削減 敵 耐性",
+          "url": "https://atelier3.web.fc2.com/ngo/itemmods.html"
+        },
+        {
+          "label": "移動速度",
+          "url": "https://atelier3.web.fc2.com/ngo/itemmods.html"
+        },
+        {
+          "label": "獲得率",
+          "url": "https://atelier3.web.fc2.com/ngo/itemmods.html"
+        },
+        {
+          "label": "ダメージ強化 vs タイプ",
+          "url": "https://atelier3.web.fc2.com/ngo/itemmods.html"
+        },
+        {
+          "label": "スキル強化",
+          "url": "https://atelier3.web.fc2.com/ngo/itemmods.html"
+        },
+        {
+          "label": "効果",
+          "url": "https://atelier3.web.fc2.com/ngo/itemmods.html"
+        },
+        {
+          "label": "エーテル",
+          "url": "https://atelier3.web.fc2.com/ngo/itemmods.html"
+        },
+        {
+          "label": "不滅",
+          "url": "https://atelier3.web.fc2.com/ngo/itemmods.html"
+        },
+        {
+          "label": "ソケット",
+          "url": "https://atelier3.web.fc2.com/ngo/itemmods.html"
+        }
+      ],
+      "lastModified": "Mon, 23 Jun 2025 02:55:16 GMT"
+    },
+    {
+      "url": "https://atelier3.web.fc2.com/ngo/jibekn.html",
+      "file": "jibekn.html",
+      "title": "セット/Jibekn | Nevergrind Online 攻略DB",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Jibekn's セット"
+        }
+      ],
+      "links": [
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/menu.html"
+        }
+      ],
+      "lastModified": "Sat, 30 Nov 2024 05:02:57 GMT"
+    },
+    {
+      "url": "https://atelier3.web.fc2.com/ngo/legendary.html",
+      "file": "legendary.html",
+      "title": "レジェンダリー | Nevergrind Online 攻略DB",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "レジェンダリー"
+        },
+        {
+          "tag": "h2",
+          "text": "片手斬り"
+        },
+        {
+          "tag": "h2",
+          "text": "両手斬り"
+        },
+        {
+          "tag": "h2",
+          "text": "片手鈍器(物)"
+        },
+        {
+          "tag": "h2",
+          "text": "片手鈍器(魔)"
+        },
+        {
+          "tag": "h2",
+          "text": "両手鈍器(物)"
+        },
+        {
+          "tag": "h2",
+          "text": "両手鈍器(魔)"
+        },
+        {
+          "tag": "h2",
+          "text": "刺突"
+        },
+        {
+          "tag": "h2",
+          "text": "盾"
+        },
+        {
+          "tag": "h2",
+          "text": "弓術"
+        },
+        {
+          "tag": "h2",
+          "text": "チャーム"
+        },
+        {
+          "tag": "h2",
+          "text": "頭"
+        },
+        {
+          "tag": "h2",
+          "text": "胴体"
+        },
+        {
+          "tag": "h2",
+          "text": "肩"
+        },
+        {
+          "tag": "h2",
+          "text": "腕"
+        },
+        {
+          "tag": "h2",
+          "text": "手"
+        },
+        {
+          "tag": "h2",
+          "text": "腰"
+        },
+        {
+          "tag": "h2",
+          "text": "太腿"
+        },
+        {
+          "tag": "h2",
+          "text": "靴"
+        },
+        {
+          "tag": "h2",
+          "text": "背中"
+        },
+        {
+          "tag": "h2",
+          "text": "ネックレス"
+        },
+        {
+          "tag": "h2",
+          "text": "指輪"
+        }
+      ],
+      "links": [
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/menu.html"
+        },
+        {
+          "label": "片手斬り",
+          "url": "https://atelier3.web.fc2.com/ngo/legendary.html"
+        },
+        {
+          "label": "両手斬り",
+          "url": "https://atelier3.web.fc2.com/ngo/legendary.html"
+        },
+        {
+          "label": "片手鈍器(物)",
+          "url": "https://atelier3.web.fc2.com/ngo/legendary.html"
+        },
+        {
+          "label": "片手鈍器(魔)",
+          "url": "https://atelier3.web.fc2.com/ngo/legendary.html"
+        },
+        {
+          "label": "両手鈍器(物)",
+          "url": "https://atelier3.web.fc2.com/ngo/legendary.html"
+        },
+        {
+          "label": "両手鈍器(魔)",
+          "url": "https://atelier3.web.fc2.com/ngo/legendary.html"
+        },
+        {
+          "label": "刺突",
+          "url": "https://atelier3.web.fc2.com/ngo/legendary.html"
+        },
+        {
+          "label": "盾",
+          "url": "https://atelier3.web.fc2.com/ngo/legendary.html"
+        },
+        {
+          "label": "弓術",
+          "url": "https://atelier3.web.fc2.com/ngo/legendary.html"
+        },
+        {
+          "label": "チャーム",
+          "url": "https://atelier3.web.fc2.com/ngo/legendary.html"
+        },
+        {
+          "label": "頭",
+          "url": "https://atelier3.web.fc2.com/ngo/legendary.html"
+        },
+        {
+          "label": "胴体",
+          "url": "https://atelier3.web.fc2.com/ngo/legendary.html"
+        },
+        {
+          "label": "肩",
+          "url": "https://atelier3.web.fc2.com/ngo/legendary.html"
+        },
+        {
+          "label": "腕",
+          "url": "https://atelier3.web.fc2.com/ngo/legendary.html"
+        },
+        {
+          "label": "手",
+          "url": "https://atelier3.web.fc2.com/ngo/legendary.html"
+        },
+        {
+          "label": "腰",
+          "url": "https://atelier3.web.fc2.com/ngo/legendary.html"
+        },
+        {
+          "label": "太腿",
+          "url": "https://atelier3.web.fc2.com/ngo/legendary.html"
+        },
+        {
+          "label": "靴",
+          "url": "https://atelier3.web.fc2.com/ngo/legendary.html"
+        },
+        {
+          "label": "背中",
+          "url": "https://atelier3.web.fc2.com/ngo/legendary.html"
+        },
+        {
+          "label": "ネックレス",
+          "url": "https://atelier3.web.fc2.com/ngo/legendary.html"
+        },
+        {
+          "label": "指輪",
+          "url": "https://atelier3.web.fc2.com/ngo/legendary.html"
+        }
+      ],
+      "lastModified": "Sun, 19 Apr 2026 22:30:01 GMT"
+    },
+    {
+      "url": "https://atelier3.web.fc2.com/ngo/loot.html",
+      "file": "loot.html",
+      "title": "持ち帰るアイテム | Nevergrind Online 攻略DB",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "持ち帰るアイテム"
+        },
+        {
+          "tag": "h2",
+          "text": "レア等級以下"
+        },
+        {
+          "tag": "h3",
+          "text": "装備収集"
+        },
+        {
+          "tag": "h3",
+          "text": "金銭効率"
+        },
+        {
+          "tag": "h2",
+          "text": "ユニーク等級以上"
+        },
+        {
+          "tag": "h3",
+          "text": "装備収集・金銭効率"
+        }
+      ],
+      "links": [
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/menu.html"
+        },
+        {
+          "label": "Marshal Gauntlets Iniquity",
+          "url": "https://atelier3.web.fc2.com/ngo/uglove.html"
+        },
+        {
+          "label": "Stormcaller Bow",
+          "url": "https://atelier3.web.fc2.com/ngo/ubow.html"
+        },
+        {
+          "label": "Demetrium's Ballista",
+          "url": "https://atelier3.web.fc2.com/ngo/demetrium.html"
+        },
+        {
+          "label": "各職の代表スキル",
+          "url": "https://atelier3.web.fc2.com/ngo/selectlist.html"
+        },
+        {
+          "label": "各職の厳選ユニーク",
+          "url": "https://atelier3.web.fc2.com/ngo/selectlist2.html"
+        }
+      ],
+      "lastModified": "Sun, 01 Jun 2025 08:54:55 GMT"
+    },
+    {
+      "url": "https://atelier3.web.fc2.com/ngo/magnate.html",
+      "file": "magnate.html",
+      "title": "セット/Magnate | Nevergrind Online 攻略DB",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Magnate's セット"
+        }
+      ],
+      "links": [
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/menu.html"
+        }
+      ],
+      "lastModified": "Mon, 23 Jun 2025 21:55:42 GMT"
+    },
+    {
+      "url": "https://atelier3.web.fc2.com/ngo/martyr.html",
+      "file": "martyr.html",
+      "title": "セット/Martyr | Nevergrind Online 攻略DB",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Martyr's セット"
+        }
+      ],
+      "links": [
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/menu.html"
+        }
+      ],
+      "lastModified": "Tue, 08 Oct 2024 19:32:25 GMT"
+    },
+    {
+      "url": "https://atelier3.web.fc2.com/ngo/menu.html",
+      "file": "menu.html",
+      "title": "",
+      "headings": [
+        {
+          "tag": "h2",
+          "text": "全般"
+        },
+        {
+          "tag": "h2",
+          "text": "アイテム"
+        },
+        {
+          "tag": "h2",
+          "text": "ダンジョン"
+        },
+        {
+          "tag": "h2",
+          "text": "クラス"
+        },
+        {
+          "tag": "h2",
+          "text": "その他"
+        }
+      ],
+      "links": [
+        {
+          "label": "Top",
+          "url": "https://atelier3.web.fc2.com/ngo/index.html"
+        },
+        {
+          "label": "ゲームの流れ",
+          "url": "https://atelier3.web.fc2.com/ngo/chart.html"
+        },
+        {
+          "label": "よくある質問",
+          "url": "https://atelier3.web.fc2.com/ngo/faq.html"
+        },
+        {
+          "label": "キャラメイク関連",
+          "url": "https://atelier3.web.fc2.com/ngo/charamake.html"
+        },
+        {
+          "label": "各職の代表スキル",
+          "url": "https://atelier3.web.fc2.com/ngo/selectlist.html"
+        },
+        {
+          "label": "各職の厳選ユニーク",
+          "url": "https://atelier3.web.fc2.com/ngo/selectlist2.html"
+        },
+        {
+          "label": "ユニーク",
+          "url": "https://atelier3.web.fc2.com/ngo/unique.html"
+        },
+        {
+          "label": "セット",
+          "url": "https://atelier3.web.fc2.com/ngo/set.html"
+        },
+        {
+          "label": "レジェンダリー",
+          "url": "https://atelier3.web.fc2.com/ngo/legendary.html"
+        },
+        {
+          "label": "クラフト",
+          "url": "https://atelier3.web.fc2.com/ngo/mythical.html"
+        },
+        {
+          "label": "レシピ",
+          "url": "https://atelier3.web.fc2.com/ngo/recipe.html"
+        },
+        {
+          "label": "ルーン",
+          "url": "https://atelier3.web.fc2.com/ngo/rune.html"
+        },
+        {
+          "label": "装備Mods",
+          "url": "https://atelier3.web.fc2.com/ngo/itemmods.html"
+        },
+        {
+          "label": "状態異常一覧",
+          "url": "https://atelier3.web.fc2.com/ngo/statuseffect.html"
+        },
+        {
+          "label": "特殊モンスター",
+          "url": "https://atelier3.web.fc2.com/ngo/unimon.html"
+        },
+        {
+          "label": "ボスまとめ",
+          "url": "https://atelier3.web.fc2.com/ngo/boss.html"
+        },
+        {
+          "label": "ウォーリアー",
+          "url": "https://atelier3.web.fc2.com/ngo/warrior.html"
+        },
+        {
+          "label": "クルセイダー",
+          "url": "https://atelier3.web.fc2.com/ngo/crusader.html"
+        },
+        {
+          "label": "シャドウナイト",
+          "url": "https://atelier3.web.fc2.com/ngo/shadowknight.html"
+        },
+        {
+          "label": "モンク",
+          "url": "https://atelier3.web.fc2.com/ngo/monk.html"
+        },
+        {
+          "label": "ローグ",
+          "url": "https://atelier3.web.fc2.com/ngo/rogue.html"
+        },
+        {
+          "label": "レンジャー",
+          "url": "https://atelier3.web.fc2.com/ngo/ranger.html"
+        },
+        {
+          "label": "バード",
+          "url": "https://atelier3.web.fc2.com/ngo/bard.html"
+        },
+        {
+          "label": "ドルイド",
+          "url": "https://atelier3.web.fc2.com/ngo/druid.html"
+        },
+        {
+          "label": "クレリック",
+          "url": "https://atelier3.web.fc2.com/ngo/cleric.html"
+        },
+        {
+          "label": "シャーマン",
+          "url": "https://atelier3.web.fc2.com/ngo/shaman.html"
+        },
+        {
+          "label": "ウォーロック",
+          "url": "https://atelier3.web.fc2.com/ngo/warlock.html"
+        },
+        {
+          "label": "エンチャンター",
+          "url": "https://atelier3.web.fc2.com/ngo/enchanter.html"
+        },
+        {
+          "label": "テンプラー",
+          "url": "https://atelier3.web.fc2.com/ngo/templar.html"
+        },
+        {
+          "label": "ウィザード",
+          "url": "https://atelier3.web.fc2.com/ngo/wizard.html"
+        },
+        {
+          "label": "英語・略語など",
+          "url": "https://atelier3.web.fc2.com/ngo/english.html"
+        },
+        {
+          "label": "武器DPS計算機",
+          "url": "https://atelier3.web.fc2.com/ngo/dpscalc.html"
+        },
+        {
+          "label": "ルーンの選び方",
+          "url": "https://atelier3.web.fc2.com/ngo/runeselect.html"
+        },
+        {
+          "label": "持ち帰るアイテム",
+          "url": "https://atelier3.web.fc2.com/ngo/loot.html"
+        },
+        {
+          "label": "ギャンブルのすすめ",
+          "url": "https://atelier3.web.fc2.com/ngo/gambling.html"
+        }
+      ],
+      "lastModified": "Mon, 12 Jan 2026 18:07:47 GMT"
+    },
+    {
+      "url": "https://atelier3.web.fc2.com/ngo/minotaur.html",
+      "file": "minotaur.html",
+      "title": "セット/Minotaur | Nevergrind Online 攻略DB",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Minotaur's セット"
+        }
+      ],
+      "links": [
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/menu.html"
+        }
+      ],
+      "lastModified": "Mon, 23 Jun 2025 21:57:30 GMT"
+    },
+    {
+      "url": "https://atelier3.web.fc2.com/ngo/miranda.html",
+      "file": "miranda.html",
+      "title": "セット/Miranda | Nevergrind Online 攻略DB",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Miranda's セット"
+        }
+      ],
+      "links": [
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/menu.html"
+        }
+      ],
+      "lastModified": "Fri, 21 Mar 2025 05:12:59 GMT"
+    },
+    {
+      "url": "https://atelier3.web.fc2.com/ngo/monk.html",
+      "file": "monk.html",
+      "title": "クラス/モンク | Nevergrind Online 攻略DB",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "モンク"
+        },
+        {
+          "tag": "h2",
+          "text": "基本的な情報"
+        },
+        {
+          "tag": "h3",
+          "text": "種族"
+        },
+        {
+          "tag": "h3",
+          "text": "防具"
+        },
+        {
+          "tag": "h3",
+          "text": "パッシブ"
+        },
+        {
+          "tag": "h2",
+          "text": "タレント例"
+        },
+        {
+          "tag": "h2",
+          "text": "装備例"
+        },
+        {
+          "tag": "h2",
+          "text": "立ち回り"
+        }
+      ],
+      "links": [
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/menu.html"
+        },
+        {
+          "label": "Vagabond",
+          "url": "https://atelier3.web.fc2.com/ngo/vagabond.html"
+        },
+        {
+          "label": "Daiyo",
+          "url": "https://atelier3.web.fc2.com/ngo/daiyo.html"
+        },
+        {
+          "label": "Daahoud",
+          "url": "https://atelier3.web.fc2.com/ngo/daahoud.html"
+        },
+        {
+          "label": "基本的な情報",
+          "url": "https://atelier3.web.fc2.com/ngo/monk.html"
+        },
+        {
+          "label": "タレント例",
+          "url": "https://atelier3.web.fc2.com/ngo/monk.html"
+        },
+        {
+          "label": "装備例",
+          "url": "https://atelier3.web.fc2.com/ngo/monk.html"
+        },
+        {
+          "label": "立ち回り",
+          "url": "https://atelier3.web.fc2.com/ngo/monk.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/daahoud.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/ucharm.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/uhead.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/uchest.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/daahoud.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/daahoud.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/daahoud.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/daahoud.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/uleg.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/uboot.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/daahoud.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/uring.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/uring.html"
+        },
+        {
+          "label": "Charlatan's Crest",
+          "url": "https://atelier3.web.fc2.com/ngo/uhead.html"
+        },
+        {
+          "label": "Gukta Hunting Boots",
+          "url": "https://atelier3.web.fc2.com/ngo/uboot.html"
+        },
+        {
+          "label": "Black Swan Band",
+          "url": "https://atelier3.web.fc2.com/ngo/uring.html"
+        },
+        {
+          "label": "Circle of Death",
+          "url": "https://atelier3.web.fc2.com/ngo/uring.html"
+        },
+        {
+          "label": "Stockade's Insignia",
+          "url": "https://atelier3.web.fc2.com/ngo/stockade.html"
+        },
+        {
+          "label": "Elysian Dewdrop",
+          "url": "https://atelier3.web.fc2.com/ngo/ucharm.html"
+        }
+      ],
+      "lastModified": "Sun, 19 Apr 2026 22:15:08 GMT"
+    },
+    {
+      "url": "https://atelier3.web.fc2.com/ngo/mythical.html",
+      "file": "mythical.html",
+      "title": "クラフト | Nevergrind Online 攻略DB",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "クラフト"
+        },
+        {
+          "tag": "h2",
+          "text": "基本"
+        },
+        {
+          "tag": "h3",
+          "text": "作成方法"
+        },
+        {
+          "tag": "h2",
+          "text": "素材"
+        },
+        {
+          "tag": "h3",
+          "text": "灰字"
+        },
+        {
+          "tag": "h3",
+          "text": "Mod"
+        },
+        {
+          "tag": "h3",
+          "text": "ショップ"
+        },
+        {
+          "tag": "h2",
+          "text": "製作"
+        },
+        {
+          "tag": "h3",
+          "text": "ソケット"
+        },
+        {
+          "tag": "h3",
+          "text": "素体準拠"
+        },
+        {
+          "tag": "h3",
+          "text": "要求レベル"
+        },
+        {
+          "tag": "h3",
+          "text": "スキルMod"
+        },
+        {
+          "tag": "h3",
+          "text": "エーテル"
+        }
+      ],
+      "links": [
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/menu.html"
+        }
+      ],
+      "lastModified": "Thu, 26 Jun 2025 00:26:03 GMT"
+    },
+    {
+      "url": "https://atelier3.web.fc2.com/ngo/noik.html",
+      "file": "noik.html",
+      "title": "セット/Noik | Nevergrind Online 攻略DB",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Noik's セット"
+        }
+      ],
+      "links": [
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/menu.html"
+        }
+      ],
+      "lastModified": "Sat, 30 Nov 2024 05:02:57 GMT"
+    },
+    {
+      "url": "https://atelier3.web.fc2.com/ngo/nylith.html",
+      "file": "nylith.html",
+      "title": "セット/Nylith | Nevergrind Online 攻略DB",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Nylith's セット"
+        }
+      ],
+      "links": [
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/menu.html"
+        }
+      ],
+      "lastModified": "Sat, 30 Nov 2024 05:02:57 GMT"
+    },
+    {
+      "url": "https://atelier3.web.fc2.com/ngo/orator.html",
+      "file": "orator.html",
+      "title": "セット/Orator | Nevergrind Online 攻略DB",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Orator's セット"
+        }
+      ],
+      "links": [
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/menu.html"
+        }
+      ],
+      "lastModified": "Tue, 08 Oct 2024 19:32:25 GMT"
+    },
+    {
+      "url": "https://atelier3.web.fc2.com/ngo/procyon.html",
+      "file": "procyon.html",
+      "title": "セット/Procyon | Nevergrind Online 攻略DB",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Procyon's セット"
+        }
+      ],
+      "links": [
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/menu.html"
+        }
+      ],
+      "lastModified": "Fri, 06 Jun 2025 02:54:19 GMT"
+    },
+    {
+      "url": "https://atelier3.web.fc2.com/ngo/ranger.html",
+      "file": "ranger.html",
+      "title": "クラス/レンジャー | Nevergrind Online 攻略DB",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "レンジャー"
+        },
+        {
+          "tag": "h2",
+          "text": "基本的な情報"
+        },
+        {
+          "tag": "h3",
+          "text": "種族"
+        },
+        {
+          "tag": "h3",
+          "text": "防具"
+        },
+        {
+          "tag": "h3",
+          "text": "パッシブ"
+        },
+        {
+          "tag": "h3",
+          "text": "特殊効果"
+        },
+        {
+          "tag": "h2",
+          "text": "タレント例"
+        },
+        {
+          "tag": "h2",
+          "text": "装備例"
+        },
+        {
+          "tag": "h2",
+          "text": "立ち回り"
+        }
+      ],
+      "links": [
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/menu.html"
+        },
+        {
+          "label": "Samurai",
+          "url": "https://atelier3.web.fc2.com/ngo/samurai.html"
+        },
+        {
+          "label": "Zarth",
+          "url": "https://atelier3.web.fc2.com/ngo/zarth.html"
+        },
+        {
+          "label": "Sinifay",
+          "url": "https://atelier3.web.fc2.com/ngo/sinifay.html"
+        },
+        {
+          "label": "基本的な情報",
+          "url": "https://atelier3.web.fc2.com/ngo/ranger.html"
+        },
+        {
+          "label": "タレント例",
+          "url": "https://atelier3.web.fc2.com/ngo/ranger.html"
+        },
+        {
+          "label": "装備例",
+          "url": "https://atelier3.web.fc2.com/ngo/ranger.html"
+        },
+        {
+          "label": "立ち回り",
+          "url": "https://atelier3.web.fc2.com/ngo/ranger.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/sinifay.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/sinifay.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/sinifay.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/sinifay.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/sinifay.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/ushoulder.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/zarth.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/uglove.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/ubelt.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/zarth.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/sinifay.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/zarth.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/uring.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/uring.html"
+        },
+        {
+          "label": "Sinifay セット",
+          "url": "https://atelier3.web.fc2.com/ngo/sinifay.html"
+        },
+        {
+          "label": "Zarth セット",
+          "url": "https://atelier3.web.fc2.com/ngo/zarth.html"
+        },
+        {
+          "label": "Behemoth Mantle",
+          "url": "https://atelier3.web.fc2.com/ngo/ushoulder.html"
+        },
+        {
+          "label": "Harvest Stranglers",
+          "url": "https://atelier3.web.fc2.com/ngo/uglove.html"
+        },
+        {
+          "label": "Adendu's Echelon Gauntlets",
+          "url": "https://atelier3.web.fc2.com/ngo/uglove.html"
+        }
+      ],
+      "lastModified": "Sat, 21 Jun 2025 15:21:17 GMT"
+    },
+    {
+      "url": "https://atelier3.web.fc2.com/ngo/recipe.html",
+      "file": "recipe.html",
+      "title": "レシピ | Nevergrind Online 攻略DB",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "レシピ"
+        },
+        {
+          "tag": "h2",
+          "text": "頭"
+        },
+        {
+          "tag": "h2",
+          "text": "胴体"
+        },
+        {
+          "tag": "h2",
+          "text": "片手斬り"
+        },
+        {
+          "tag": "h2",
+          "text": "両手斬り"
+        },
+        {
+          "tag": "h2",
+          "text": "片手鈍器(物)"
+        },
+        {
+          "tag": "h2",
+          "text": "片手鈍器(魔)"
+        },
+        {
+          "tag": "h2",
+          "text": "両手鈍器(物)"
+        },
+        {
+          "tag": "h2",
+          "text": "両手鈍器(魔)"
+        },
+        {
+          "tag": "h2",
+          "text": "刺突"
+        },
+        {
+          "tag": "h2",
+          "text": "盾"
+        },
+        {
+          "tag": "h2",
+          "text": "弓術"
+        }
+      ],
+      "links": [
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/menu.html"
+        },
+        {
+          "label": "頭",
+          "url": "https://atelier3.web.fc2.com/ngo/recipe.html"
+        },
+        {
+          "label": "胴体",
+          "url": "https://atelier3.web.fc2.com/ngo/recipe.html"
+        },
+        {
+          "label": "片手斬り",
+          "url": "https://atelier3.web.fc2.com/ngo/recipe.html"
+        },
+        {
+          "label": "両手斬り",
+          "url": "https://atelier3.web.fc2.com/ngo/recipe.html"
+        },
+        {
+          "label": "片手鈍器(物)",
+          "url": "https://atelier3.web.fc2.com/ngo/recipe.html"
+        },
+        {
+          "label": "片手鈍器(魔)",
+          "url": "https://atelier3.web.fc2.com/ngo/recipe.html"
+        },
+        {
+          "label": "両手鈍器(物)",
+          "url": "https://atelier3.web.fc2.com/ngo/recipe.html"
+        },
+        {
+          "label": "両手鈍器(魔)",
+          "url": "https://atelier3.web.fc2.com/ngo/recipe.html"
+        },
+        {
+          "label": "刺突",
+          "url": "https://atelier3.web.fc2.com/ngo/recipe.html"
+        },
+        {
+          "label": "盾",
+          "url": "https://atelier3.web.fc2.com/ngo/recipe.html"
+        },
+        {
+          "label": "弓術",
+          "url": "https://atelier3.web.fc2.com/ngo/recipe.html"
+        }
+      ],
+      "lastModified": "Wed, 02 Jul 2025 14:10:19 GMT"
+    },
+    {
+      "url": "https://atelier3.web.fc2.com/ngo/rogue.html",
+      "file": "rogue.html",
+      "title": "クラス/ローグ | Nevergrind Online 攻略DB",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "ローグ"
+        },
+        {
+          "tag": "h2",
+          "text": "基本的な情報"
+        },
+        {
+          "tag": "h3",
+          "text": "種族"
+        },
+        {
+          "tag": "h3",
+          "text": "防具"
+        },
+        {
+          "tag": "h3",
+          "text": "パッシブ"
+        },
+        {
+          "tag": "h3",
+          "text": "特殊効果"
+        },
+        {
+          "tag": "h2",
+          "text": "タレント例"
+        },
+        {
+          "tag": "h2",
+          "text": "装備例"
+        },
+        {
+          "tag": "h2",
+          "text": "立ち回り"
+        }
+      ],
+      "links": [
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/menu.html"
+        },
+        {
+          "label": "Martyr",
+          "url": "https://atelier3.web.fc2.com/ngo/martyr.html"
+        },
+        {
+          "label": "Sidey",
+          "url": "https://atelier3.web.fc2.com/ngo/sidey.html"
+        },
+        {
+          "label": "Procyon",
+          "url": "https://atelier3.web.fc2.com/ngo/procyon.html"
+        },
+        {
+          "label": "基本的な情報",
+          "url": "https://atelier3.web.fc2.com/ngo/rogue.html"
+        },
+        {
+          "label": "タレント例",
+          "url": "https://atelier3.web.fc2.com/ngo/rogue.html"
+        },
+        {
+          "label": "装備例",
+          "url": "https://atelier3.web.fc2.com/ngo/rogue.html"
+        },
+        {
+          "label": "立ち回り",
+          "url": "https://atelier3.web.fc2.com/ngo/rogue.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/procyon.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/procyon.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/demetrium.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/uhead.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/uchest.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/sidey.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/procyon.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/procyon.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/procyon.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/procyon.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/uboot.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/procyon.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/uring.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/uring.html"
+        },
+        {
+          "label": "Fallen Angel",
+          "url": "https://atelier3.web.fc2.com/ngo/uchest.html"
+        },
+        {
+          "label": "Behemoth Mantle",
+          "url": "https://atelier3.web.fc2.com/ngo/ushoulder.html"
+        },
+        {
+          "label": "Daiyo's Temple",
+          "url": "https://atelier3.web.fc2.com/ngo/daiyo.html"
+        },
+        {
+          "label": "Circle of Death",
+          "url": "https://atelier3.web.fc2.com/ngo/uring.html"
+        },
+        {
+          "label": "Black Swan Band",
+          "url": "https://atelier3.web.fc2.com/ngo/uring.html"
+        }
+      ],
+      "lastModified": "Fri, 18 Apr 2025 05:57:45 GMT"
+    },
+    {
+      "url": "https://atelier3.web.fc2.com/ngo/rune.html",
+      "file": "rune.html",
+      "title": "ルーン | Nevergrind Online 攻略DB",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "ルーン"
+        }
+      ],
+      "links": [
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/menu.html"
+        }
+      ],
+      "lastModified": "Mon, 23 Jun 2025 23:50:00 GMT"
+    },
+    {
+      "url": "https://atelier3.web.fc2.com/ngo/runeselect.html",
+      "file": "runeselect.html",
+      "title": "ルーンの選び方 | Nevergrind Online 攻略DB",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "ルーンの選び方"
+        },
+        {
+          "tag": "h2",
+          "text": "武器"
+        },
+        {
+          "tag": "h3",
+          "text": "物理（片手）"
+        },
+        {
+          "tag": "h3",
+          "text": "物理（両手）"
+        },
+        {
+          "tag": "h3",
+          "text": "レンジャー弓"
+        },
+        {
+          "tag": "h3",
+          "text": "レンジャー以外の物理職の弓（チャーム）"
+        },
+        {
+          "tag": "h3",
+          "text": "魔法"
+        },
+        {
+          "tag": "h3",
+          "text": "ヒット率"
+        },
+        {
+          "tag": "h3",
+          "text": "マナ回復"
+        },
+        {
+          "tag": "h2",
+          "text": "防具"
+        },
+        {
+          "tag": "h3",
+          "text": "物理"
+        },
+        {
+          "tag": "h3",
+          "text": "魔法"
+        }
+      ],
+      "links": [
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/menu.html"
+        },
+        {
+          "label": "ルーン",
+          "url": "https://atelier3.web.fc2.com/ngo/rune.html"
+        },
+        {
+          "label": "武器DPS計算機",
+          "url": "https://atelier3.web.fc2.com/ngo/dpscalc.html"
+        },
+        {
+          "label": "Sinifay's Golden Harrier",
+          "url": "https://atelier3.web.fc2.com/ngo/sinifay.html"
+        },
+        {
+          "label": "Reito Doku",
+          "url": "https://atelier3.web.fc2.com/ngo/legendary.html"
+        },
+        {
+          "label": "武器DPS計算機",
+          "url": "https://atelier3.web.fc2.com/ngo/dpscalc.html"
+        },
+        {
+          "label": "Mosby's Ancient Crown",
+          "url": "https://atelier3.web.fc2.com/ngo/legendary.html"
+        }
+      ],
+      "lastModified": "Mon, 19 May 2025 15:41:38 GMT"
+    },
+    {
+      "url": "https://atelier3.web.fc2.com/ngo/sage.html",
+      "file": "sage.html",
+      "title": "セット/Sage | Nevergrind Online 攻略DB",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Sage's セット"
+        }
+      ],
+      "links": [
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/menu.html"
+        }
+      ],
+      "lastModified": "Sun, 13 Oct 2024 22:23:13 GMT"
+    },
+    {
+      "url": "https://atelier3.web.fc2.com/ngo/samurai.html",
+      "file": "samurai.html",
+      "title": "セット/Samurai | Nevergrind Online 攻略DB",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Samurai's セット"
+        }
+      ],
+      "links": [
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/menu.html"
+        }
+      ],
+      "lastModified": "Mon, 23 Jun 2025 21:58:23 GMT"
+    },
+    {
+      "url": "https://atelier3.web.fc2.com/ngo/sarvida.html",
+      "file": "sarvida.html",
+      "title": "セット/Sarvida | Nevergrind Online 攻略DB",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Sarvida's セット"
+        }
+      ],
+      "links": [
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/menu.html"
+        }
+      ],
+      "lastModified": "Mon, 23 Jun 2025 22:00:15 GMT"
+    },
+    {
+      "url": "https://atelier3.web.fc2.com/ngo/scourge.html",
+      "file": "scourge.html",
+      "title": "セット/Scourge | Nevergrind Online 攻略DB",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Scourge's セット"
+        }
+      ],
+      "links": [
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/menu.html"
+        }
+      ],
+      "lastModified": "Wed, 25 Jun 2025 16:11:20 GMT"
+    },
+    {
+      "url": "https://atelier3.web.fc2.com/ngo/scryer.html",
+      "file": "scryer.html",
+      "title": "セット/Scryer | Nevergrind Online 攻略DB",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Scryer's セット"
+        }
+      ],
+      "links": [
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/menu.html"
+        }
+      ],
+      "lastModified": "Fri, 01 Nov 2024 04:55:59 GMT"
+    },
+    {
+      "url": "https://atelier3.web.fc2.com/ngo/selectlist.html",
+      "file": "selectlist.html",
+      "title": "各職の代表スキル | Nevergrind Online 攻略DB",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "各職の代表スキル"
+        }
+      ],
+      "links": [
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/menu.html"
+        }
+      ],
+      "lastModified": "Sun, 08 Jun 2025 10:47:22 GMT"
+    },
+    {
+      "url": "https://atelier3.web.fc2.com/ngo/selectlist2.html",
+      "file": "selectlist2.html",
+      "title": "各職の厳選ユニーク | Nevergrind Online 攻略DB",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "各職の厳選ユニーク"
+        },
+        {
+          "tag": "h2",
+          "text": "武器"
+        },
+        {
+          "tag": "h2",
+          "text": "防具"
+        },
+        {
+          "tag": "h2",
+          "text": "アクセサリー"
+        }
+      ],
+      "links": [
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/menu.html"
+        },
+        {
+          "label": "武器",
+          "url": "https://atelier3.web.fc2.com/ngo/selectlist2.html"
+        },
+        {
+          "label": "防具",
+          "url": "https://atelier3.web.fc2.com/ngo/selectlist2.html"
+        },
+        {
+          "label": "アクセサリー",
+          "url": "https://atelier3.web.fc2.com/ngo/selectlist2.html"
+        },
+        {
+          "label": "各職の代表スキル",
+          "url": "https://atelier3.web.fc2.com/ngo/selectlist.html"
+        },
+        {
+          "label": "各職の代表スキル",
+          "url": "https://atelier3.web.fc2.com/ngo/selectlist.html"
+        },
+        {
+          "label": "各職の代表スキル",
+          "url": "https://atelier3.web.fc2.com/ngo/selectlist.html"
+        }
+      ],
+      "lastModified": "Sun, 08 Jun 2025 10:52:22 GMT"
+    },
+    {
+      "url": "https://atelier3.web.fc2.com/ngo/servant.html",
+      "file": "servant.html",
+      "title": "セット/Servant | Nevergrind Online 攻略DB",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Servant's セット"
+        }
+      ],
+      "links": [
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/menu.html"
+        }
+      ],
+      "lastModified": "Tue, 08 Oct 2024 19:32:26 GMT"
+    },
+    {
+      "url": "https://atelier3.web.fc2.com/ngo/set.html",
+      "file": "set.html",
+      "title": "セット | Nevergrind Online 攻略DB",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "セット"
+        },
+        {
+          "tag": "h2",
+          "text": "ノーマル"
+        },
+        {
+          "tag": "h2",
+          "text": "エクセプショナル"
+        },
+        {
+          "tag": "h2",
+          "text": "エリート"
+        }
+      ],
+      "links": [
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/menu.html"
+        },
+        {
+          "label": "ノーマル",
+          "url": "https://atelier3.web.fc2.com/ngo/set.html"
+        },
+        {
+          "label": "エクセプショナル",
+          "url": "https://atelier3.web.fc2.com/ngo/set.html"
+        },
+        {
+          "label": "エリート",
+          "url": "https://atelier3.web.fc2.com/ngo/set.html"
+        },
+        {
+          "label": "Aradune",
+          "url": "https://atelier3.web.fc2.com/ngo/aradune.html"
+        },
+        {
+          "label": "Bishop",
+          "url": "https://atelier3.web.fc2.com/ngo/bishop.html"
+        },
+        {
+          "label": "Chancellor",
+          "url": "https://atelier3.web.fc2.com/ngo/chancellor.html"
+        },
+        {
+          "label": "Demetrium",
+          "url": "https://atelier3.web.fc2.com/ngo/demetrium.html"
+        },
+        {
+          "label": "Emissary",
+          "url": "https://atelier3.web.fc2.com/ngo/emissary.html"
+        },
+        {
+          "label": "Furor",
+          "url": "https://atelier3.web.fc2.com/ngo/furor.html"
+        },
+        {
+          "label": "Golem",
+          "url": "https://atelier3.web.fc2.com/ngo/golem.html"
+        },
+        {
+          "label": "Magnate",
+          "url": "https://atelier3.web.fc2.com/ngo/magnate.html"
+        },
+        {
+          "label": "Martyr",
+          "url": "https://atelier3.web.fc2.com/ngo/martyr.html"
+        },
+        {
+          "label": "Minotaur",
+          "url": "https://atelier3.web.fc2.com/ngo/minotaur.html"
+        },
+        {
+          "label": "Miranda",
+          "url": "https://atelier3.web.fc2.com/ngo/miranda.html"
+        },
+        {
+          "label": "Orator",
+          "url": "https://atelier3.web.fc2.com/ngo/orator.html"
+        },
+        {
+          "label": "Sage",
+          "url": "https://atelier3.web.fc2.com/ngo/sage.html"
+        },
+        {
+          "label": "Samurai",
+          "url": "https://atelier3.web.fc2.com/ngo/samurai.html"
+        },
+        {
+          "label": "Sarvida",
+          "url": "https://atelier3.web.fc2.com/ngo/sarvida.html"
+        },
+        {
+          "label": "Servant",
+          "url": "https://atelier3.web.fc2.com/ngo/servant.html"
+        },
+        {
+          "label": "Tigole",
+          "url": "https://atelier3.web.fc2.com/ngo/tigole.html"
+        },
+        {
+          "label": "Vagabond",
+          "url": "https://atelier3.web.fc2.com/ngo/vagabond.html"
+        },
+        {
+          "label": "Vagrant",
+          "url": "https://atelier3.web.fc2.com/ngo/vagrant.html"
+        },
+        {
+          "label": "Wyvern",
+          "url": "https://atelier3.web.fc2.com/ngo/wyvern.html"
+        },
+        {
+          "label": "Zak",
+          "url": "https://atelier3.web.fc2.com/ngo/zak.html"
+        },
+        {
+          "label": "Alderon",
+          "url": "https://atelier3.web.fc2.com/ngo/alderon.html"
+        },
+        {
+          "label": "Asaph",
+          "url": "https://atelier3.web.fc2.com/ngo/asaph.html"
+        },
+        {
+          "label": "Daiyo",
+          "url": "https://atelier3.web.fc2.com/ngo/daiyo.html"
+        },
+        {
+          "label": "Falzain",
+          "url": "https://atelier3.web.fc2.com/ngo/falzain.html"
+        },
+        {
+          "label": "Fanatic",
+          "url": "https://atelier3.web.fc2.com/ngo/fanatic.html"
+        },
+        {
+          "label": "Scourge",
+          "url": "https://atelier3.web.fc2.com/ngo/scourge.html"
+        },
+        {
+          "label": "Scryer",
+          "url": "https://atelier3.web.fc2.com/ngo/scryer.html"
+        },
+        {
+          "label": "Sidey",
+          "url": "https://atelier3.web.fc2.com/ngo/sidey.html"
+        },
+        {
+          "label": "Starcaller",
+          "url": "https://atelier3.web.fc2.com/ngo/starcaller.html"
+        },
+        {
+          "label": "Stockade",
+          "url": "https://atelier3.web.fc2.com/ngo/stockade.html"
+        },
+        {
+          "label": "Tyranid",
+          "url": "https://atelier3.web.fc2.com/ngo/tyranid.html"
+        },
+        {
+          "label": "Ubar",
+          "url": "https://atelier3.web.fc2.com/ngo/ubar.html"
+        },
+        {
+          "label": "Volaki",
+          "url": "https://atelier3.web.fc2.com/ngo/volaki.html"
+        },
+        {
+          "label": "Zarth",
+          "url": "https://atelier3.web.fc2.com/ngo/zarth.html"
+        },
+        {
+          "label": "Daahoud",
+          "url": "https://atelier3.web.fc2.com/ngo/daahoud.html"
+        },
+        {
+          "label": "Edarion",
+          "url": "https://atelier3.web.fc2.com/ngo/edarion.html"
+        },
+        {
+          "label": "Fansy",
+          "url": "https://atelier3.web.fc2.com/ngo/fansy.html"
+        },
+        {
+          "label": "Jibekn",
+          "url": "https://atelier3.web.fc2.com/ngo/jibekn.html"
+        },
+        {
+          "label": "Noik",
+          "url": "https://atelier3.web.fc2.com/ngo/noik.html"
+        },
+        {
+          "label": "Nylith",
+          "url": "https://atelier3.web.fc2.com/ngo/nylith.html"
+        },
+        {
+          "label": "Procyon",
+          "url": "https://atelier3.web.fc2.com/ngo/procyon.html"
+        },
+        {
+          "label": "Sinifay",
+          "url": "https://atelier3.web.fc2.com/ngo/sinifay.html"
+        },
+        {
+          "label": "Spinalzz",
+          "url": "https://atelier3.web.fc2.com/ngo/spinalzz.html"
+        },
+        {
+          "label": "Swiftraven",
+          "url": "https://atelier3.web.fc2.com/ngo/swiftraven.html"
+        },
+        {
+          "label": "Tsubodai",
+          "url": "https://atelier3.web.fc2.com/ngo/tsubodai.html"
+        },
+        {
+          "label": "Tunso",
+          "url": "https://atelier3.web.fc2.com/ngo/tunso.html"
+        },
+        {
+          "label": "Yizeren",
+          "url": "https://atelier3.web.fc2.com/ngo/yizeren.html"
+        },
+        {
+          "label": "Zamtil",
+          "url": "https://atelier3.web.fc2.com/ngo/zamtil.html"
+        }
+      ],
+      "lastModified": "Fri, 20 Sep 2024 19:14:32 GMT"
+    },
+    {
+      "url": "https://atelier3.web.fc2.com/ngo/shadowknight.html",
+      "file": "shadowknight.html",
+      "title": "クラス/シャドウナイト | Nevergrind Online 攻略DB",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "シャドウナイト"
+        },
+        {
+          "tag": "h2",
+          "text": "基本的な情報"
+        },
+        {
+          "tag": "h3",
+          "text": "種族"
+        },
+        {
+          "tag": "h3",
+          "text": "防具"
+        },
+        {
+          "tag": "h3",
+          "text": "パッシブ"
+        },
+        {
+          "tag": "h3",
+          "text": "特殊効果"
+        },
+        {
+          "tag": "h2",
+          "text": "タレント例"
+        },
+        {
+          "tag": "h2",
+          "text": "装備例"
+        },
+        {
+          "tag": "h2",
+          "text": "立ち回り"
+        }
+      ],
+      "links": [
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/menu.html"
+        },
+        {
+          "label": "Golem",
+          "url": "https://atelier3.web.fc2.com/ngo/golem.html"
+        },
+        {
+          "label": "Scourge",
+          "url": "https://atelier3.web.fc2.com/ngo/scourge.html"
+        },
+        {
+          "label": "Spinalzz",
+          "url": "https://atelier3.web.fc2.com/ngo/spinalzz.html"
+        },
+        {
+          "label": "基本的な情報",
+          "url": "https://atelier3.web.fc2.com/ngo/shadowknight.html"
+        },
+        {
+          "label": "タレント例",
+          "url": "https://atelier3.web.fc2.com/ngo/shadowknight.html"
+        },
+        {
+          "label": "装備例",
+          "url": "https://atelier3.web.fc2.com/ngo/shadowknight.html"
+        },
+        {
+          "label": "立ち回り",
+          "url": "https://atelier3.web.fc2.com/ngo/shadowknight.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/u1hs.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/ushield.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/ubow.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/spinalzz.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/uchest.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/spinalzz.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/ubracer.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/uglove.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/spinalzz.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/spinalzz.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/edarion.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/procyon.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/uring.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/uring.html"
+        },
+        {
+          "label": "Gleaming Swiftblade",
+          "url": "https://atelier3.web.fc2.com/ngo/u1hs.html"
+        },
+        {
+          "label": "Balmoran Ironbark Heater",
+          "url": "https://atelier3.web.fc2.com/ngo/ushield.html"
+        },
+        {
+          "label": "Dreadlord's Armament",
+          "url": "https://atelier3.web.fc2.com/ngo/ushield.html"
+        },
+        {
+          "label": "Spinalzz セット",
+          "url": "https://atelier3.web.fc2.com/ngo/spinalzz.html"
+        },
+        {
+          "label": "Daahoud's",
+          "url": "https://atelier3.web.fc2.com/ngo/daahoud.html"
+        },
+        {
+          "label": "Demetrium's Ballista",
+          "url": "https://atelier3.web.fc2.com/ngo/demetrium.html"
+        },
+        {
+          "label": "Scourge's Sapphire",
+          "url": "https://atelier3.web.fc2.com/ngo/scourge.html"
+        },
+        {
+          "label": "Girded Everliving Golem",
+          "url": "https://atelier3.web.fc2.com/ngo/uring.html"
+        }
+      ],
+      "lastModified": "Fri, 04 Jul 2025 12:06:40 GMT"
+    },
+    {
+      "url": "https://atelier3.web.fc2.com/ngo/shaman.html",
+      "file": "shaman.html",
+      "title": "クラス/シャーマン | Nevergrind Online 攻略DB",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "シャーマン"
+        },
+        {
+          "tag": "h2",
+          "text": "基本的な情報"
+        },
+        {
+          "tag": "h3",
+          "text": "種族"
+        },
+        {
+          "tag": "h3",
+          "text": "防具"
+        },
+        {
+          "tag": "h3",
+          "text": "パッシブ"
+        },
+        {
+          "tag": "h2",
+          "text": "タレント例"
+        },
+        {
+          "tag": "h3",
+          "text": "Soothsayer（共通）"
+        },
+        {
+          "tag": "h3",
+          "text": "Frostreaver"
+        },
+        {
+          "tag": "h3",
+          "text": "Soothsayer（共通）"
+        },
+        {
+          "tag": "h3",
+          "text": "Witch Doctor"
+        },
+        {
+          "tag": "h2",
+          "text": "装備例"
+        },
+        {
+          "tag": "h2",
+          "text": "立ち回り"
+        }
+      ],
+      "links": [
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/menu.html"
+        },
+        {
+          "label": "Sage",
+          "url": "https://atelier3.web.fc2.com/ngo/sage.html"
+        },
+        {
+          "label": "Scryer",
+          "url": "https://atelier3.web.fc2.com/ngo/scryer.html"
+        },
+        {
+          "label": "Swiftraven",
+          "url": "https://atelier3.web.fc2.com/ngo/swiftraven.html"
+        },
+        {
+          "label": "基本的な情報",
+          "url": "https://atelier3.web.fc2.com/ngo/shaman.html"
+        },
+        {
+          "label": "タレント例",
+          "url": "https://atelier3.web.fc2.com/ngo/shaman.html"
+        },
+        {
+          "label": "装備例",
+          "url": "https://atelier3.web.fc2.com/ngo/shaman.html"
+        },
+        {
+          "label": "立ち回り",
+          "url": "https://atelier3.web.fc2.com/ngo/shaman.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/u1hbm.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/u1hbm.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/swiftraven.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/uhead.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/scryer.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/ushoulder.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/noik.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/uglove.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/scryer.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/zamtil.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/swiftraven.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/swiftraven.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/swiftraven.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/scryer.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/scryer.html"
+        },
+        {
+          "label": "Cryptic Paragon",
+          "url": "https://atelier3.web.fc2.com/ngo/u1hbm.html"
+        },
+        {
+          "label": "Spectral Nether Strap",
+          "url": "https://atelier3.web.fc2.com/ngo/ubelt.html"
+        },
+        {
+          "label": "Cryptic Paragon",
+          "url": "https://atelier3.web.fc2.com/ngo/u1hbm.html"
+        },
+        {
+          "label": "Swiftraven's Bloodletter",
+          "url": "https://atelier3.web.fc2.com/ngo/swiftraven.html"
+        },
+        {
+          "label": "Noik's Graft",
+          "url": "https://atelier3.web.fc2.com/ngo/noik.html"
+        },
+        {
+          "label": "Zamtil's Plenitude",
+          "url": "https://atelier3.web.fc2.com/ngo/zamtil.html"
+        },
+        {
+          "label": "Noik's Graft",
+          "url": "https://atelier3.web.fc2.com/ngo/noik.html"
+        },
+        {
+          "label": "Armbands of the Crypt",
+          "url": "https://atelier3.web.fc2.com/ngo/ubracer.html"
+        },
+        {
+          "label": "Haunted Wail",
+          "url": "https://atelier3.web.fc2.com/ngo/uleg.html"
+        },
+        {
+          "label": "Favor of Fortune",
+          "url": "https://atelier3.web.fc2.com/ngo/uleg.html"
+        },
+        {
+          "label": "Vaillanrathe Legplates",
+          "url": "https://atelier3.web.fc2.com/ngo/uleg.html"
+        }
+      ],
+      "lastModified": "Sun, 19 Apr 2026 21:44:07 GMT"
+    },
+    {
+      "url": "https://atelier3.web.fc2.com/ngo/sidey.html",
+      "file": "sidey.html",
+      "title": "セット/Sidey | Nevergrind Online 攻略DB",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Sidey's セット"
+        }
+      ],
+      "links": [
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/menu.html"
+        }
+      ],
+      "lastModified": "Mon, 23 Jun 2025 21:36:18 GMT"
+    },
+    {
+      "url": "https://atelier3.web.fc2.com/ngo/sinifay.html",
+      "file": "sinifay.html",
+      "title": "セット/Sinifay | Nevergrind Online 攻略DB",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Sinifay's セット"
+        }
+      ],
+      "links": [
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/menu.html"
+        }
+      ],
+      "lastModified": "Fri, 06 Jun 2025 02:44:08 GMT"
+    },
+    {
+      "url": "https://atelier3.web.fc2.com/ngo/spinalzz.html",
+      "file": "spinalzz.html",
+      "title": "セット/Spinalzz | Nevergrind Online 攻略DB",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Spinalzz's セット"
+        }
+      ],
+      "links": [
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/menu.html"
+        }
+      ],
+      "lastModified": "Thu, 26 Jun 2025 00:14:31 GMT"
+    },
+    {
+      "url": "https://atelier3.web.fc2.com/ngo/starcaller.html",
+      "file": "starcaller.html",
+      "title": "セット/Starcaller | Nevergrind Online 攻略DB",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Starcaller's セット"
+        }
+      ],
+      "links": [
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/menu.html"
+        }
+      ],
+      "lastModified": "Mon, 23 Jun 2025 19:40:15 GMT"
+    },
+    {
+      "url": "https://atelier3.web.fc2.com/ngo/statuseffect.html",
+      "file": "statuseffect.html",
+      "title": "状態異常一覧 | Nevergrind Online 攻略DB",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "状態異常一覧"
+        }
+      ],
+      "links": [
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/menu.html"
+        }
+      ],
+      "lastModified": "Mon, 04 Nov 2024 08:08:53 GMT"
+    },
+    {
+      "url": "https://atelier3.web.fc2.com/ngo/stockade.html",
+      "file": "stockade.html",
+      "title": "セット/Stockade | Nevergrind Online 攻略DB",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Stockade's セット"
+        }
+      ],
+      "links": [
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/menu.html"
+        }
+      ],
+      "lastModified": "Tue, 25 Mar 2025 15:28:01 GMT"
+    },
+    {
+      "url": "https://atelier3.web.fc2.com/ngo/swiftraven.html",
+      "file": "swiftraven.html",
+      "title": "セット/Swiftraven | Nevergrind Online 攻略DB",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Swiftraven's セット"
+        }
+      ],
+      "links": [
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/menu.html"
+        }
+      ],
+      "lastModified": "Sun, 08 Jun 2025 23:21:25 GMT"
+    },
+    {
+      "url": "https://atelier3.web.fc2.com/ngo/templar.html",
+      "file": "templar.html",
+      "title": "クラス/テンプラー | Nevergrind Online 攻略DB",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "テンプラー"
+        },
+        {
+          "tag": "h2",
+          "text": "基本的な情報"
+        },
+        {
+          "tag": "h3",
+          "text": "種族"
+        },
+        {
+          "tag": "h3",
+          "text": "防具"
+        },
+        {
+          "tag": "h3",
+          "text": "パッシブ"
+        },
+        {
+          "tag": "h3",
+          "text": "特殊効果"
+        },
+        {
+          "tag": "h2",
+          "text": "タレント例"
+        },
+        {
+          "tag": "h3",
+          "text": "Fanatic（共通）"
+        },
+        {
+          "tag": "h3",
+          "text": "Visionary"
+        },
+        {
+          "tag": "h3",
+          "text": "Fanatic（共通）"
+        },
+        {
+          "tag": "h3",
+          "text": "Elementalist"
+        },
+        {
+          "tag": "h2",
+          "text": "装備例"
+        },
+        {
+          "tag": "h2",
+          "text": "立ち回り"
+        }
+      ],
+      "links": [
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/menu.html"
+        },
+        {
+          "label": "Chancellor",
+          "url": "https://atelier3.web.fc2.com/ngo/chancellor.html"
+        },
+        {
+          "label": "Falzain",
+          "url": "https://atelier3.web.fc2.com/ngo/falzain.html"
+        },
+        {
+          "label": "Jibekn",
+          "url": "https://atelier3.web.fc2.com/ngo/jibekn.html"
+        },
+        {
+          "label": "基本的な情報",
+          "url": "https://atelier3.web.fc2.com/ngo/templar.html"
+        },
+        {
+          "label": "タレント例",
+          "url": "https://atelier3.web.fc2.com/ngo/templar.html"
+        },
+        {
+          "label": "装備例",
+          "url": "https://atelier3.web.fc2.com/ngo/templar.html"
+        },
+        {
+          "label": "立ち回り",
+          "url": "https://atelier3.web.fc2.com/ngo/templar.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/jibekn.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/jibekn.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/falzain.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/uhead.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/uchest.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/jibekn.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/falzain.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/falzain.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/ubelt.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/jibekn.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/jibekn.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/zamtil.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/jibekn.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/jibekn.html"
+        },
+        {
+          "label": "Falzain",
+          "url": "https://atelier3.web.fc2.com/ngo/falzain.html"
+        },
+        {
+          "label": "Erghal's Panoply Shroud",
+          "url": "https://atelier3.web.fc2.com/ngo/uchest.html"
+        },
+        {
+          "label": "Leviathan's Shell",
+          "url": "https://atelier3.web.fc2.com/ngo/uchest.html"
+        },
+        {
+          "label": "Syzygy Shard",
+          "url": "https://atelier3.web.fc2.com/ngo/uamulet.html"
+        },
+        {
+          "label": "Dossam's Morning Star",
+          "url": "https://atelier3.web.fc2.com/ngo/uamulet.html"
+        }
+      ],
+      "lastModified": "Fri, 01 Nov 2024 04:55:58 GMT"
+    },
+    {
+      "url": "https://atelier3.web.fc2.com/ngo/tigole.html",
+      "file": "tigole.html",
+      "title": "セット/Tigole | Nevergrind Online 攻略DB",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Tigole's セット"
+        }
+      ],
+      "links": [
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/menu.html"
+        }
+      ],
+      "lastModified": "Mon, 23 Jun 2025 22:01:23 GMT"
+    },
+    {
+      "url": "https://atelier3.web.fc2.com/ngo/tsubodai.html",
+      "file": "tsubodai.html",
+      "title": "セット/Tsubodai | Nevergrind Online 攻略DB",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Tsubodai's セット"
+        }
+      ],
+      "links": [
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/menu.html"
+        }
+      ],
+      "lastModified": "Sun, 08 Jun 2025 23:48:07 GMT"
+    },
+    {
+      "url": "https://atelier3.web.fc2.com/ngo/tunso.html",
+      "file": "tunso.html",
+      "title": "セット/Tunso | Nevergrind Online 攻略DB",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Tunso's セット"
+        }
+      ],
+      "links": [
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/menu.html"
+        }
+      ],
+      "lastModified": "Sat, 30 Nov 2024 05:02:57 GMT"
+    },
+    {
+      "url": "https://atelier3.web.fc2.com/ngo/tyranid.html",
+      "file": "tyranid.html",
+      "title": "セット/Tyranid | Nevergrind Online 攻略DB",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Tyranid's セット"
+        }
+      ],
+      "links": [
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/menu.html"
+        }
+      ],
+      "lastModified": "Tue, 25 Mar 2025 15:28:01 GMT"
+    },
+    {
+      "url": "https://atelier3.web.fc2.com/ngo/u1hbm.html",
+      "file": "u1hbm.html",
+      "title": "ユニーク武器/片手鈍器（魔） | Nevergrind Online 攻略DB",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "ユニーク武器/片手鈍器（魔）"
+        },
+        {
+          "tag": "h2",
+          "text": "ノーマル"
+        },
+        {
+          "tag": "h2",
+          "text": "エクセプショナル"
+        },
+        {
+          "tag": "h2",
+          "text": "エリート"
+        }
+      ],
+      "links": [
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/menu.html"
+        },
+        {
+          "label": "ノーマル",
+          "url": "https://atelier3.web.fc2.com/ngo/u1hbm.html"
+        },
+        {
+          "label": "エクセプショナル",
+          "url": "https://atelier3.web.fc2.com/ngo/u1hbm.html"
+        },
+        {
+          "label": "エリート",
+          "url": "https://atelier3.web.fc2.com/ngo/u1hbm.html"
+        }
+      ],
+      "lastModified": "Wed, 25 Jun 2025 16:24:24 GMT"
+    },
+    {
+      "url": "https://atelier3.web.fc2.com/ngo/u1hbp.html",
+      "file": "u1hbp.html",
+      "title": "ユニーク武器/片手鈍器（物） | Nevergrind Online 攻略DB",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "ユニーク武器/片手鈍器（物）"
+        },
+        {
+          "tag": "h2",
+          "text": "ノーマル"
+        },
+        {
+          "tag": "h2",
+          "text": "エクセプショナル"
+        },
+        {
+          "tag": "h2",
+          "text": "エリート"
+        }
+      ],
+      "links": [
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/menu.html"
+        },
+        {
+          "label": "ノーマル",
+          "url": "https://atelier3.web.fc2.com/ngo/u1hbp.html"
+        },
+        {
+          "label": "エクセプショナル",
+          "url": "https://atelier3.web.fc2.com/ngo/u1hbp.html"
+        },
+        {
+          "label": "エリート",
+          "url": "https://atelier3.web.fc2.com/ngo/u1hbp.html"
+        }
+      ],
+      "lastModified": "Wed, 25 Jun 2025 22:06:33 GMT"
+    },
+    {
+      "url": "https://atelier3.web.fc2.com/ngo/u1hs.html",
+      "file": "u1hs.html",
+      "title": "ユニーク武器/片手斬り | Nevergrind Online 攻略DB",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "ユニーク武器/片手斬り"
+        },
+        {
+          "tag": "h2",
+          "text": "ノーマル"
+        },
+        {
+          "tag": "h2",
+          "text": "エクセプショナル"
+        },
+        {
+          "tag": "h2",
+          "text": "エリート"
+        }
+      ],
+      "links": [
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/menu.html"
+        },
+        {
+          "label": "ノーマル",
+          "url": "https://atelier3.web.fc2.com/ngo/u1hs.html"
+        },
+        {
+          "label": "エクセプショナル",
+          "url": "https://atelier3.web.fc2.com/ngo/u1hs.html"
+        },
+        {
+          "label": "エリート",
+          "url": "https://atelier3.web.fc2.com/ngo/u1hs.html"
+        }
+      ],
+      "lastModified": "Wed, 25 Jun 2025 15:14:16 GMT"
+    },
+    {
+      "url": "https://atelier3.web.fc2.com/ngo/u2hbm.html",
+      "file": "u2hbm.html",
+      "title": "ユニーク武器/両手鈍器（魔） | Nevergrind Online 攻略DB",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "ユニーク武器/両手鈍器（魔）"
+        },
+        {
+          "tag": "h2",
+          "text": "ノーマル"
+        },
+        {
+          "tag": "h2",
+          "text": "エクセプショナル"
+        },
+        {
+          "tag": "h2",
+          "text": "エリート"
+        }
+      ],
+      "links": [
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/menu.html"
+        },
+        {
+          "label": "ノーマル",
+          "url": "https://atelier3.web.fc2.com/ngo/u2hbm.html"
+        },
+        {
+          "label": "エクセプショナル",
+          "url": "https://atelier3.web.fc2.com/ngo/u2hbm.html"
+        },
+        {
+          "label": "エリート",
+          "url": "https://atelier3.web.fc2.com/ngo/u2hbm.html"
+        }
+      ],
+      "lastModified": "Wed, 25 Jun 2025 22:32:06 GMT"
+    },
+    {
+      "url": "https://atelier3.web.fc2.com/ngo/u2hbp.html",
+      "file": "u2hbp.html",
+      "title": "ユニーク武器/両手鈍器（物） | Nevergrind Online 攻略DB",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "ユニーク武器/両手鈍器（物）"
+        },
+        {
+          "tag": "h2",
+          "text": "ノーマル"
+        },
+        {
+          "tag": "h2",
+          "text": "エクセプショナル"
+        },
+        {
+          "tag": "h2",
+          "text": "エリート"
+        }
+      ],
+      "links": [
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/menu.html"
+        },
+        {
+          "label": "ノーマル",
+          "url": "https://atelier3.web.fc2.com/ngo/u2hbp.html"
+        },
+        {
+          "label": "エクセプショナル",
+          "url": "https://atelier3.web.fc2.com/ngo/u2hbp.html"
+        },
+        {
+          "label": "エリート",
+          "url": "https://atelier3.web.fc2.com/ngo/u2hbp.html"
+        }
+      ],
+      "lastModified": "Wed, 25 Jun 2025 22:13:20 GMT"
+    },
+    {
+      "url": "https://atelier3.web.fc2.com/ngo/u2hs.html",
+      "file": "u2hs.html",
+      "title": "ユニーク武器/両手斬り | Nevergrind Online 攻略DB",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "ユニーク武器/両手斬り"
+        },
+        {
+          "tag": "h2",
+          "text": "ノーマル"
+        },
+        {
+          "tag": "h2",
+          "text": "エクセプショナル"
+        },
+        {
+          "tag": "h2",
+          "text": "エリート"
+        }
+      ],
+      "links": [
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/menu.html"
+        },
+        {
+          "label": "ノーマル",
+          "url": "https://atelier3.web.fc2.com/ngo/u2hs.html"
+        },
+        {
+          "label": "エクセプショナル",
+          "url": "https://atelier3.web.fc2.com/ngo/u2hs.html"
+        },
+        {
+          "label": "エリート",
+          "url": "https://atelier3.web.fc2.com/ngo/u2hs.html"
+        }
+      ],
+      "lastModified": "Thu, 26 Jun 2025 00:13:11 GMT"
+    },
+    {
+      "url": "https://atelier3.web.fc2.com/ngo/uamulet.html",
+      "file": "uamulet.html",
+      "title": "ユニーク防具/ネックレス | Nevergrind Online 攻略DB",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "ユニーク防具/ネックレス"
+        },
+        {
+          "tag": "h2",
+          "text": "ノーマル"
+        },
+        {
+          "tag": "h2",
+          "text": "エクセプショナル"
+        },
+        {
+          "tag": "h2",
+          "text": "エリート"
+        }
+      ],
+      "links": [
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/menu.html"
+        },
+        {
+          "label": "ノーマル",
+          "url": "https://atelier3.web.fc2.com/ngo/uamulet.html"
+        },
+        {
+          "label": "エクセプショナル",
+          "url": "https://atelier3.web.fc2.com/ngo/uamulet.html"
+        },
+        {
+          "label": "エリート",
+          "url": "https://atelier3.web.fc2.com/ngo/uamulet.html"
+        }
+      ],
+      "lastModified": "Tue, 25 Mar 2025 15:46:10 GMT"
+    },
+    {
+      "url": "https://atelier3.web.fc2.com/ngo/uback.html",
+      "file": "uback.html",
+      "title": "ユニーク防具/背中 | Nevergrind Online 攻略DB",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "ユニーク防具/背中"
+        },
+        {
+          "tag": "h2",
+          "text": "ノーマル"
+        },
+        {
+          "tag": "h2",
+          "text": "エクセプショナル"
+        },
+        {
+          "tag": "h2",
+          "text": "エリート"
+        }
+      ],
+      "links": [
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/menu.html"
+        },
+        {
+          "label": "ノーマル",
+          "url": "https://atelier3.web.fc2.com/ngo/uback.html"
+        },
+        {
+          "label": "エクセプショナル",
+          "url": "https://atelier3.web.fc2.com/ngo/uback.html"
+        },
+        {
+          "label": "エリート",
+          "url": "https://atelier3.web.fc2.com/ngo/uback.html"
+        }
+      ],
+      "lastModified": "Mon, 23 Jun 2025 19:35:15 GMT"
+    },
+    {
+      "url": "https://atelier3.web.fc2.com/ngo/ubar.html",
+      "file": "ubar.html",
+      "title": "セット/Ubar | Nevergrind Online 攻略DB",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Ubar's セット"
+        }
+      ],
+      "links": [
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/menu.html"
+        }
+      ],
+      "lastModified": "Sat, 30 Nov 2024 05:02:57 GMT"
+    },
+    {
+      "url": "https://atelier3.web.fc2.com/ngo/ubelt.html",
+      "file": "ubelt.html",
+      "title": "ユニーク防具/腰 | Nevergrind Online 攻略DB",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "ユニーク防具/腰"
+        },
+        {
+          "tag": "h2",
+          "text": "ノーマル"
+        },
+        {
+          "tag": "h3",
+          "text": "布製"
+        },
+        {
+          "tag": "h3",
+          "text": "革製"
+        },
+        {
+          "tag": "h3",
+          "text": "メイル"
+        },
+        {
+          "tag": "h3",
+          "text": "プレート"
+        },
+        {
+          "tag": "h2",
+          "text": "エクセプショナル"
+        },
+        {
+          "tag": "h3",
+          "text": "布製"
+        },
+        {
+          "tag": "h3",
+          "text": "革製"
+        },
+        {
+          "tag": "h3",
+          "text": "メイル"
+        },
+        {
+          "tag": "h3",
+          "text": "プレート"
+        },
+        {
+          "tag": "h2",
+          "text": "エリート"
+        },
+        {
+          "tag": "h3",
+          "text": "布製"
+        },
+        {
+          "tag": "h3",
+          "text": "革製"
+        },
+        {
+          "tag": "h3",
+          "text": "メイル"
+        },
+        {
+          "tag": "h3",
+          "text": "プレート"
+        }
+      ],
+      "links": [
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/menu.html"
+        },
+        {
+          "label": "布製",
+          "url": "https://atelier3.web.fc2.com/ngo/ubelt.html"
+        },
+        {
+          "label": "革製",
+          "url": "https://atelier3.web.fc2.com/ngo/ubelt.html"
+        },
+        {
+          "label": "メイル",
+          "url": "https://atelier3.web.fc2.com/ngo/ubelt.html"
+        },
+        {
+          "label": "プレート",
+          "url": "https://atelier3.web.fc2.com/ngo/ubelt.html"
+        },
+        {
+          "label": "布製",
+          "url": "https://atelier3.web.fc2.com/ngo/ubelt.html"
+        },
+        {
+          "label": "革製",
+          "url": "https://atelier3.web.fc2.com/ngo/ubelt.html"
+        },
+        {
+          "label": "メイル",
+          "url": "https://atelier3.web.fc2.com/ngo/ubelt.html"
+        },
+        {
+          "label": "プレート",
+          "url": "https://atelier3.web.fc2.com/ngo/ubelt.html"
+        },
+        {
+          "label": "布製",
+          "url": "https://atelier3.web.fc2.com/ngo/ubelt.html"
+        },
+        {
+          "label": "革製",
+          "url": "https://atelier3.web.fc2.com/ngo/ubelt.html"
+        },
+        {
+          "label": "メイル",
+          "url": "https://atelier3.web.fc2.com/ngo/ubelt.html"
+        },
+        {
+          "label": "プレート",
+          "url": "https://atelier3.web.fc2.com/ngo/ubelt.html"
+        }
+      ],
+      "lastModified": "Sun, 08 Jun 2025 00:27:16 GMT"
+    },
+    {
+      "url": "https://atelier3.web.fc2.com/ngo/uboot.html",
+      "file": "uboot.html",
+      "title": "ユニーク防具/靴 | Nevergrind Online 攻略DB",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "ユニーク防具/靴"
+        },
+        {
+          "tag": "h2",
+          "text": "ノーマル"
+        },
+        {
+          "tag": "h3",
+          "text": "布製"
+        },
+        {
+          "tag": "h3",
+          "text": "革製"
+        },
+        {
+          "tag": "h3",
+          "text": "メイル"
+        },
+        {
+          "tag": "h3",
+          "text": "プレート"
+        },
+        {
+          "tag": "h2",
+          "text": "エクセプショナル"
+        },
+        {
+          "tag": "h3",
+          "text": "布製"
+        },
+        {
+          "tag": "h3",
+          "text": "革製"
+        },
+        {
+          "tag": "h3",
+          "text": "メイル"
+        },
+        {
+          "tag": "h3",
+          "text": "プレート"
+        },
+        {
+          "tag": "h2",
+          "text": "エリート"
+        },
+        {
+          "tag": "h3",
+          "text": "布製"
+        },
+        {
+          "tag": "h3",
+          "text": "革製"
+        },
+        {
+          "tag": "h3",
+          "text": "メイル"
+        },
+        {
+          "tag": "h3",
+          "text": "プレート"
+        }
+      ],
+      "links": [
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/menu.html"
+        },
+        {
+          "label": "布製",
+          "url": "https://atelier3.web.fc2.com/ngo/uboot.html"
+        },
+        {
+          "label": "革製",
+          "url": "https://atelier3.web.fc2.com/ngo/uboot.html"
+        },
+        {
+          "label": "メイル",
+          "url": "https://atelier3.web.fc2.com/ngo/uboot.html"
+        },
+        {
+          "label": "プレート",
+          "url": "https://atelier3.web.fc2.com/ngo/uboot.html"
+        },
+        {
+          "label": "布製",
+          "url": "https://atelier3.web.fc2.com/ngo/uboot.html"
+        },
+        {
+          "label": "革製",
+          "url": "https://atelier3.web.fc2.com/ngo/uboot.html"
+        },
+        {
+          "label": "メイル",
+          "url": "https://atelier3.web.fc2.com/ngo/uboot.html"
+        },
+        {
+          "label": "プレート",
+          "url": "https://atelier3.web.fc2.com/ngo/uboot.html"
+        },
+        {
+          "label": "布製",
+          "url": "https://atelier3.web.fc2.com/ngo/uboot.html"
+        },
+        {
+          "label": "革製",
+          "url": "https://atelier3.web.fc2.com/ngo/uboot.html"
+        },
+        {
+          "label": "メイル",
+          "url": "https://atelier3.web.fc2.com/ngo/uboot.html"
+        },
+        {
+          "label": "プレート",
+          "url": "https://atelier3.web.fc2.com/ngo/uboot.html"
+        }
+      ],
+      "lastModified": "Sat, 30 Nov 2024 05:21:37 GMT"
+    },
+    {
+      "url": "https://atelier3.web.fc2.com/ngo/ubow.html",
+      "file": "ubow.html",
+      "title": "ユニーク武器/弓術 | Nevergrind Online 攻略DB",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "ユニーク武器/弓術"
+        },
+        {
+          "tag": "h2",
+          "text": "ノーマル"
+        },
+        {
+          "tag": "h2",
+          "text": "エクセプショナル"
+        },
+        {
+          "tag": "h2",
+          "text": "エリート"
+        }
+      ],
+      "links": [
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/menu.html"
+        },
+        {
+          "label": "ノーマル",
+          "url": "https://atelier3.web.fc2.com/ngo/ubow.html"
+        },
+        {
+          "label": "エクセプショナル",
+          "url": "https://atelier3.web.fc2.com/ngo/ubow.html"
+        },
+        {
+          "label": "エリート",
+          "url": "https://atelier3.web.fc2.com/ngo/ubow.html"
+        }
+      ],
+      "lastModified": "Mon, 23 Jun 2025 21:15:38 GMT"
+    },
+    {
+      "url": "https://atelier3.web.fc2.com/ngo/ubracer.html",
+      "file": "ubracer.html",
+      "title": "ユニーク防具/腕 | Nevergrind Online 攻略DB",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "ユニーク防具/腕"
+        },
+        {
+          "tag": "h2",
+          "text": "ノーマル"
+        },
+        {
+          "tag": "h3",
+          "text": "布製"
+        },
+        {
+          "tag": "h3",
+          "text": "革製"
+        },
+        {
+          "tag": "h3",
+          "text": "メイル"
+        },
+        {
+          "tag": "h3",
+          "text": "プレート"
+        },
+        {
+          "tag": "h2",
+          "text": "エクセプショナル"
+        },
+        {
+          "tag": "h3",
+          "text": "布製"
+        },
+        {
+          "tag": "h3",
+          "text": "革製"
+        },
+        {
+          "tag": "h3",
+          "text": "メイル"
+        },
+        {
+          "tag": "h3",
+          "text": "プレート"
+        },
+        {
+          "tag": "h2",
+          "text": "エリート"
+        },
+        {
+          "tag": "h3",
+          "text": "布製"
+        },
+        {
+          "tag": "h3",
+          "text": "革製"
+        },
+        {
+          "tag": "h3",
+          "text": "メイル"
+        },
+        {
+          "tag": "h3",
+          "text": "プレート"
+        }
+      ],
+      "links": [
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/menu.html"
+        },
+        {
+          "label": "布製",
+          "url": "https://atelier3.web.fc2.com/ngo/ubracer.html"
+        },
+        {
+          "label": "革製",
+          "url": "https://atelier3.web.fc2.com/ngo/ubracer.html"
+        },
+        {
+          "label": "メイル",
+          "url": "https://atelier3.web.fc2.com/ngo/ubracer.html"
+        },
+        {
+          "label": "プレート",
+          "url": "https://atelier3.web.fc2.com/ngo/ubracer.html"
+        },
+        {
+          "label": "布製",
+          "url": "https://atelier3.web.fc2.com/ngo/ubracer.html"
+        },
+        {
+          "label": "革製",
+          "url": "https://atelier3.web.fc2.com/ngo/ubracer.html"
+        },
+        {
+          "label": "メイル",
+          "url": "https://atelier3.web.fc2.com/ngo/ubracer.html"
+        },
+        {
+          "label": "プレート",
+          "url": "https://atelier3.web.fc2.com/ngo/ubracer.html"
+        },
+        {
+          "label": "布製",
+          "url": "https://atelier3.web.fc2.com/ngo/ubracer.html"
+        },
+        {
+          "label": "革製",
+          "url": "https://atelier3.web.fc2.com/ngo/ubracer.html"
+        },
+        {
+          "label": "メイル",
+          "url": "https://atelier3.web.fc2.com/ngo/ubracer.html"
+        },
+        {
+          "label": "プレート",
+          "url": "https://atelier3.web.fc2.com/ngo/ubracer.html"
+        }
+      ],
+      "lastModified": "Sun, 03 Nov 2024 09:18:17 GMT"
+    },
+    {
+      "url": "https://atelier3.web.fc2.com/ngo/ucharm.html",
+      "file": "ucharm.html",
+      "title": "ユニーク武器/チャーム | Nevergrind Online 攻略DB",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "ユニーク武器/チャーム"
+        },
+        {
+          "tag": "h2",
+          "text": "ノーマル"
+        },
+        {
+          "tag": "h2",
+          "text": "エクセプショナル"
+        },
+        {
+          "tag": "h2",
+          "text": "エリート"
+        }
+      ],
+      "links": [
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/menu.html"
+        },
+        {
+          "label": "ノーマル",
+          "url": "https://atelier3.web.fc2.com/ngo/ucharm.html"
+        },
+        {
+          "label": "エクセプショナル",
+          "url": "https://atelier3.web.fc2.com/ngo/ucharm.html"
+        },
+        {
+          "label": "エリート",
+          "url": "https://atelier3.web.fc2.com/ngo/ucharm.html"
+        }
+      ],
+      "lastModified": "Sat, 30 Nov 2024 05:21:37 GMT"
+    },
+    {
+      "url": "https://atelier3.web.fc2.com/ngo/uchest.html",
+      "file": "uchest.html",
+      "title": "ユニーク防具/胴体 | Nevergrind Online 攻略DB",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "ユニーク防具/胴体"
+        },
+        {
+          "tag": "h2",
+          "text": "ノーマル"
+        },
+        {
+          "tag": "h3",
+          "text": "布製"
+        },
+        {
+          "tag": "h3",
+          "text": "革製"
+        },
+        {
+          "tag": "h3",
+          "text": "メイル"
+        },
+        {
+          "tag": "h3",
+          "text": "プレート"
+        },
+        {
+          "tag": "h2",
+          "text": "エクセプショナル"
+        },
+        {
+          "tag": "h3",
+          "text": "布製"
+        },
+        {
+          "tag": "h3",
+          "text": "革製"
+        },
+        {
+          "tag": "h3",
+          "text": "メイル"
+        },
+        {
+          "tag": "h3",
+          "text": "プレート"
+        },
+        {
+          "tag": "h2",
+          "text": "エリート"
+        },
+        {
+          "tag": "h3",
+          "text": "布製"
+        },
+        {
+          "tag": "h3",
+          "text": "革製"
+        },
+        {
+          "tag": "h3",
+          "text": "メイル"
+        },
+        {
+          "tag": "h3",
+          "text": "プレート"
+        }
+      ],
+      "links": [
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/menu.html"
+        },
+        {
+          "label": "布製",
+          "url": "https://atelier3.web.fc2.com/ngo/uchest.html"
+        },
+        {
+          "label": "革製",
+          "url": "https://atelier3.web.fc2.com/ngo/uchest.html"
+        },
+        {
+          "label": "メイル",
+          "url": "https://atelier3.web.fc2.com/ngo/uchest.html"
+        },
+        {
+          "label": "プレート",
+          "url": "https://atelier3.web.fc2.com/ngo/uchest.html"
+        },
+        {
+          "label": "布製",
+          "url": "https://atelier3.web.fc2.com/ngo/uchest.html"
+        },
+        {
+          "label": "革製",
+          "url": "https://atelier3.web.fc2.com/ngo/uchest.html"
+        },
+        {
+          "label": "メイル",
+          "url": "https://atelier3.web.fc2.com/ngo/uchest.html"
+        },
+        {
+          "label": "プレート",
+          "url": "https://atelier3.web.fc2.com/ngo/uchest.html"
+        },
+        {
+          "label": "布製",
+          "url": "https://atelier3.web.fc2.com/ngo/uchest.html"
+        },
+        {
+          "label": "革製",
+          "url": "https://atelier3.web.fc2.com/ngo/uchest.html"
+        },
+        {
+          "label": "メイル",
+          "url": "https://atelier3.web.fc2.com/ngo/uchest.html"
+        },
+        {
+          "label": "プレート",
+          "url": "https://atelier3.web.fc2.com/ngo/uchest.html"
+        }
+      ],
+      "lastModified": "Mon, 23 Jun 2025 19:35:15 GMT"
+    },
+    {
+      "url": "https://atelier3.web.fc2.com/ngo/uglove.html",
+      "file": "uglove.html",
+      "title": "ユニーク防具/手 | Nevergrind Online 攻略DB",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "ユニーク防具/手"
+        },
+        {
+          "tag": "h2",
+          "text": "ノーマル"
+        },
+        {
+          "tag": "h3",
+          "text": "布製"
+        },
+        {
+          "tag": "h3",
+          "text": "革製"
+        },
+        {
+          "tag": "h3",
+          "text": "メイル"
+        },
+        {
+          "tag": "h3",
+          "text": "プレート"
+        },
+        {
+          "tag": "h2",
+          "text": "エクセプショナル"
+        },
+        {
+          "tag": "h3",
+          "text": "布製"
+        },
+        {
+          "tag": "h3",
+          "text": "革製"
+        },
+        {
+          "tag": "h3",
+          "text": "メイル"
+        },
+        {
+          "tag": "h3",
+          "text": "プレート"
+        },
+        {
+          "tag": "h2",
+          "text": "エリート"
+        },
+        {
+          "tag": "h3",
+          "text": "布製"
+        },
+        {
+          "tag": "h3",
+          "text": "革製"
+        },
+        {
+          "tag": "h3",
+          "text": "メイル"
+        },
+        {
+          "tag": "h3",
+          "text": "プレート"
+        }
+      ],
+      "links": [
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/menu.html"
+        },
+        {
+          "label": "布製",
+          "url": "https://atelier3.web.fc2.com/ngo/uglove.html"
+        },
+        {
+          "label": "革製",
+          "url": "https://atelier3.web.fc2.com/ngo/uglove.html"
+        },
+        {
+          "label": "メイル",
+          "url": "https://atelier3.web.fc2.com/ngo/uglove.html"
+        },
+        {
+          "label": "プレート",
+          "url": "https://atelier3.web.fc2.com/ngo/uglove.html"
+        },
+        {
+          "label": "布製",
+          "url": "https://atelier3.web.fc2.com/ngo/uglove.html"
+        },
+        {
+          "label": "革製",
+          "url": "https://atelier3.web.fc2.com/ngo/uglove.html"
+        },
+        {
+          "label": "メイル",
+          "url": "https://atelier3.web.fc2.com/ngo/uglove.html"
+        },
+        {
+          "label": "プレート",
+          "url": "https://atelier3.web.fc2.com/ngo/uglove.html"
+        },
+        {
+          "label": "布製",
+          "url": "https://atelier3.web.fc2.com/ngo/uglove.html"
+        },
+        {
+          "label": "革製",
+          "url": "https://atelier3.web.fc2.com/ngo/uglove.html"
+        },
+        {
+          "label": "メイル",
+          "url": "https://atelier3.web.fc2.com/ngo/uglove.html"
+        },
+        {
+          "label": "プレート",
+          "url": "https://atelier3.web.fc2.com/ngo/uglove.html"
+        }
+      ],
+      "lastModified": "Thu, 26 Jun 2025 12:32:26 GMT"
+    },
+    {
+      "url": "https://atelier3.web.fc2.com/ngo/uhead.html",
+      "file": "uhead.html",
+      "title": "ユニーク防具/頭 | Nevergrind Online 攻略DB",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "ユニーク防具/頭"
+        },
+        {
+          "tag": "h2",
+          "text": "ノーマル"
+        },
+        {
+          "tag": "h3",
+          "text": "布製"
+        },
+        {
+          "tag": "h3",
+          "text": "革製"
+        },
+        {
+          "tag": "h3",
+          "text": "メイル"
+        },
+        {
+          "tag": "h3",
+          "text": "プレート"
+        },
+        {
+          "tag": "h2",
+          "text": "エクセプショナル"
+        },
+        {
+          "tag": "h3",
+          "text": "布製"
+        },
+        {
+          "tag": "h3",
+          "text": "革製"
+        },
+        {
+          "tag": "h3",
+          "text": "メイル"
+        },
+        {
+          "tag": "h3",
+          "text": "プレート"
+        },
+        {
+          "tag": "h2",
+          "text": "エリート"
+        },
+        {
+          "tag": "h3",
+          "text": "布製"
+        },
+        {
+          "tag": "h3",
+          "text": "革製"
+        },
+        {
+          "tag": "h3",
+          "text": "メイル"
+        },
+        {
+          "tag": "h3",
+          "text": "プレート"
+        }
+      ],
+      "links": [
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/menu.html"
+        },
+        {
+          "label": "布製",
+          "url": "https://atelier3.web.fc2.com/ngo/uhead.html"
+        },
+        {
+          "label": "革製",
+          "url": "https://atelier3.web.fc2.com/ngo/uhead.html"
+        },
+        {
+          "label": "メイル",
+          "url": "https://atelier3.web.fc2.com/ngo/uhead.html"
+        },
+        {
+          "label": "プレート",
+          "url": "https://atelier3.web.fc2.com/ngo/uhead.html"
+        },
+        {
+          "label": "布製",
+          "url": "https://atelier3.web.fc2.com/ngo/uhead.html"
+        },
+        {
+          "label": "革製",
+          "url": "https://atelier3.web.fc2.com/ngo/uhead.html"
+        },
+        {
+          "label": "メイル",
+          "url": "https://atelier3.web.fc2.com/ngo/uhead.html"
+        },
+        {
+          "label": "プレート",
+          "url": "https://atelier3.web.fc2.com/ngo/uhead.html"
+        },
+        {
+          "label": "布製",
+          "url": "https://atelier3.web.fc2.com/ngo/uhead.html"
+        },
+        {
+          "label": "革製",
+          "url": "https://atelier3.web.fc2.com/ngo/uhead.html"
+        },
+        {
+          "label": "メイル",
+          "url": "https://atelier3.web.fc2.com/ngo/uhead.html"
+        },
+        {
+          "label": "プレート",
+          "url": "https://atelier3.web.fc2.com/ngo/uhead.html"
+        }
+      ],
+      "lastModified": "Mon, 23 Jun 2025 19:35:14 GMT"
+    },
+    {
+      "url": "https://atelier3.web.fc2.com/ngo/uleg.html",
+      "file": "uleg.html",
+      "title": "ユニーク防具/太腿 | Nevergrind Online 攻略DB",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "ユニーク防具/太腿"
+        },
+        {
+          "tag": "h2",
+          "text": "ノーマル"
+        },
+        {
+          "tag": "h3",
+          "text": "布製"
+        },
+        {
+          "tag": "h3",
+          "text": "革製"
+        },
+        {
+          "tag": "h3",
+          "text": "メイル"
+        },
+        {
+          "tag": "h3",
+          "text": "プレート"
+        },
+        {
+          "tag": "h2",
+          "text": "エクセプショナル"
+        },
+        {
+          "tag": "h3",
+          "text": "布製"
+        },
+        {
+          "tag": "h3",
+          "text": "革製"
+        },
+        {
+          "tag": "h3",
+          "text": "メイル"
+        },
+        {
+          "tag": "h3",
+          "text": "プレート"
+        },
+        {
+          "tag": "h2",
+          "text": "エリート"
+        },
+        {
+          "tag": "h3",
+          "text": "布製"
+        },
+        {
+          "tag": "h3",
+          "text": "革製"
+        },
+        {
+          "tag": "h3",
+          "text": "メイル"
+        },
+        {
+          "tag": "h3",
+          "text": "プレート"
+        }
+      ],
+      "links": [
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/menu.html"
+        },
+        {
+          "label": "布製",
+          "url": "https://atelier3.web.fc2.com/ngo/uleg.html"
+        },
+        {
+          "label": "革製",
+          "url": "https://atelier3.web.fc2.com/ngo/uleg.html"
+        },
+        {
+          "label": "メイル",
+          "url": "https://atelier3.web.fc2.com/ngo/uleg.html"
+        },
+        {
+          "label": "プレート",
+          "url": "https://atelier3.web.fc2.com/ngo/uleg.html"
+        },
+        {
+          "label": "布製",
+          "url": "https://atelier3.web.fc2.com/ngo/uleg.html"
+        },
+        {
+          "label": "革製",
+          "url": "https://atelier3.web.fc2.com/ngo/uleg.html"
+        },
+        {
+          "label": "メイル",
+          "url": "https://atelier3.web.fc2.com/ngo/uleg.html"
+        },
+        {
+          "label": "プレート",
+          "url": "https://atelier3.web.fc2.com/ngo/uleg.html"
+        },
+        {
+          "label": "布製",
+          "url": "https://atelier3.web.fc2.com/ngo/uleg.html"
+        },
+        {
+          "label": "革製",
+          "url": "https://atelier3.web.fc2.com/ngo/uleg.html"
+        },
+        {
+          "label": "メイル",
+          "url": "https://atelier3.web.fc2.com/ngo/uleg.html"
+        },
+        {
+          "label": "プレート",
+          "url": "https://atelier3.web.fc2.com/ngo/uleg.html"
+        }
+      ],
+      "lastModified": "Mon, 23 Jun 2025 19:35:15 GMT"
+    },
+    {
+      "url": "https://atelier3.web.fc2.com/ngo/unimon.html",
+      "file": "unimon.html",
+      "title": "特殊モンスター | Nevergrind Online 攻略DB",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "特殊モンスター"
+        },
+        {
+          "tag": "h2",
+          "text": "Mods"
+        },
+        {
+          "tag": "h2",
+          "text": "モンスタータイプ"
+        },
+        {
+          "tag": "h3",
+          "text": "ピオンモンスター"
+        },
+        {
+          "tag": "h3",
+          "text": "チャンピオンモンスター"
+        },
+        {
+          "tag": "h3",
+          "text": "ユニークモンスター"
+        },
+        {
+          "tag": "h3",
+          "text": "ボスモンスター"
+        }
+      ],
+      "links": [
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/menu.html"
+        }
+      ],
+      "lastModified": "Sun, 13 Apr 2025 14:29:25 GMT"
+    },
+    {
+      "url": "https://atelier3.web.fc2.com/ngo/unique.html",
+      "file": "unique.html",
+      "title": "ユニーク | Nevergrind Online 攻略DB",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "ユニーク"
+        },
+        {
+          "tag": "h2",
+          "text": "武器"
+        },
+        {
+          "tag": "h2",
+          "text": "防具"
+        }
+      ],
+      "links": [
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/menu.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/u1hs.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/u2hs.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/u1hbp.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/u1hbm.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/u2hbp.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/u2hbm.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/upiercer.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/ushield.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/ubow.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/ucharm.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/uhead.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/uchest.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/ushoulder.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/ubracer.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/uglove.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/ubelt.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/uleg.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/uboot.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/uback.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/uamulet.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/uring.html"
+        }
+      ],
+      "lastModified": "Mon, 18 Nov 2024 08:54:58 GMT"
+    },
+    {
+      "url": "https://atelier3.web.fc2.com/ngo/upiercer.html",
+      "file": "upiercer.html",
+      "title": "ユニーク武器/刺突 | Nevergrind Online 攻略DB",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "ユニーク武器/刺突"
+        },
+        {
+          "tag": "h2",
+          "text": "ノーマル"
+        },
+        {
+          "tag": "h2",
+          "text": "エクセプショナル"
+        },
+        {
+          "tag": "h2",
+          "text": "エリート"
+        }
+      ],
+      "links": [
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/menu.html"
+        },
+        {
+          "label": "ノーマル",
+          "url": "https://atelier3.web.fc2.com/ngo/upiercer.html"
+        },
+        {
+          "label": "エクセプショナル",
+          "url": "https://atelier3.web.fc2.com/ngo/upiercer.html"
+        },
+        {
+          "label": "エリート",
+          "url": "https://atelier3.web.fc2.com/ngo/upiercer.html"
+        }
+      ],
+      "lastModified": "Wed, 25 Jun 2025 22:43:57 GMT"
+    },
+    {
+      "url": "https://atelier3.web.fc2.com/ngo/uring.html",
+      "file": "uring.html",
+      "title": "ユニーク防具/指輪 | Nevergrind Online 攻略DB",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "ユニーク防具/指輪"
+        },
+        {
+          "tag": "h2",
+          "text": "ノーマル"
+        },
+        {
+          "tag": "h2",
+          "text": "エクセプショナル"
+        },
+        {
+          "tag": "h2",
+          "text": "エリート"
+        }
+      ],
+      "links": [
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/menu.html"
+        },
+        {
+          "label": "ノーマル",
+          "url": "https://atelier3.web.fc2.com/ngo/uring.html"
+        },
+        {
+          "label": "エクセプショナル",
+          "url": "https://atelier3.web.fc2.com/ngo/uring.html"
+        },
+        {
+          "label": "エリート",
+          "url": "https://atelier3.web.fc2.com/ngo/uring.html"
+        }
+      ],
+      "lastModified": "Sat, 30 Nov 2024 05:21:37 GMT"
+    },
+    {
+      "url": "https://atelier3.web.fc2.com/ngo/ushield.html",
+      "file": "ushield.html",
+      "title": "ユニーク武器/盾 | Nevergrind Online 攻略DB",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "ユニーク武器/盾"
+        },
+        {
+          "tag": "h2",
+          "text": "ノーマル"
+        },
+        {
+          "tag": "h2",
+          "text": "エクセプショナル"
+        },
+        {
+          "tag": "h2",
+          "text": "エリート"
+        }
+      ],
+      "links": [
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/menu.html"
+        },
+        {
+          "label": "ノーマル",
+          "url": "https://atelier3.web.fc2.com/ngo/ushield.html"
+        },
+        {
+          "label": "エクセプショナル",
+          "url": "https://atelier3.web.fc2.com/ngo/ushield.html"
+        },
+        {
+          "label": "エリート",
+          "url": "https://atelier3.web.fc2.com/ngo/ushield.html"
+        }
+      ],
+      "lastModified": "Sat, 21 Jun 2025 23:44:11 GMT"
+    },
+    {
+      "url": "https://atelier3.web.fc2.com/ngo/ushoulder.html",
+      "file": "ushoulder.html",
+      "title": "ユニーク防具/肩 | Nevergrind Online 攻略DB",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "ユニーク防具/肩"
+        },
+        {
+          "tag": "h2",
+          "text": "ノーマル"
+        },
+        {
+          "tag": "h3",
+          "text": "布製"
+        },
+        {
+          "tag": "h3",
+          "text": "革製"
+        },
+        {
+          "tag": "h3",
+          "text": "メイル"
+        },
+        {
+          "tag": "h3",
+          "text": "プレート"
+        },
+        {
+          "tag": "h2",
+          "text": "エクセプショナル"
+        },
+        {
+          "tag": "h3",
+          "text": "布製"
+        },
+        {
+          "tag": "h3",
+          "text": "革製"
+        },
+        {
+          "tag": "h3",
+          "text": "メイル"
+        },
+        {
+          "tag": "h3",
+          "text": "プレート"
+        },
+        {
+          "tag": "h2",
+          "text": "エリート"
+        },
+        {
+          "tag": "h3",
+          "text": "布製"
+        },
+        {
+          "tag": "h3",
+          "text": "革製"
+        },
+        {
+          "tag": "h3",
+          "text": "メイル"
+        },
+        {
+          "tag": "h3",
+          "text": "プレート"
+        }
+      ],
+      "links": [
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/menu.html"
+        },
+        {
+          "label": "布製",
+          "url": "https://atelier3.web.fc2.com/ngo/ushoulder.html"
+        },
+        {
+          "label": "革製",
+          "url": "https://atelier3.web.fc2.com/ngo/ushoulder.html"
+        },
+        {
+          "label": "メイル",
+          "url": "https://atelier3.web.fc2.com/ngo/ushoulder.html"
+        },
+        {
+          "label": "プレート",
+          "url": "https://atelier3.web.fc2.com/ngo/ushoulder.html"
+        },
+        {
+          "label": "布製",
+          "url": "https://atelier3.web.fc2.com/ngo/ushoulder.html"
+        },
+        {
+          "label": "革製",
+          "url": "https://atelier3.web.fc2.com/ngo/ushoulder.html"
+        },
+        {
+          "label": "メイル",
+          "url": "https://atelier3.web.fc2.com/ngo/ushoulder.html"
+        },
+        {
+          "label": "プレート",
+          "url": "https://atelier3.web.fc2.com/ngo/ushoulder.html"
+        },
+        {
+          "label": "布製",
+          "url": "https://atelier3.web.fc2.com/ngo/ushoulder.html"
+        },
+        {
+          "label": "革製",
+          "url": "https://atelier3.web.fc2.com/ngo/ushoulder.html"
+        },
+        {
+          "label": "メイル",
+          "url": "https://atelier3.web.fc2.com/ngo/ushoulder.html"
+        },
+        {
+          "label": "プレート",
+          "url": "https://atelier3.web.fc2.com/ngo/ushoulder.html"
+        }
+      ],
+      "lastModified": "Fri, 01 Nov 2024 04:55:58 GMT"
+    },
+    {
+      "url": "https://atelier3.web.fc2.com/ngo/vagabond.html",
+      "file": "vagabond.html",
+      "title": "セット/Vagabond | Nevergrind Online 攻略DB",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Vagabond's セット"
+        }
+      ],
+      "links": [
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/menu.html"
+        }
+      ],
+      "lastModified": "Tue, 08 Oct 2024 19:32:25 GMT"
+    },
+    {
+      "url": "https://atelier3.web.fc2.com/ngo/vagrant.html",
+      "file": "vagrant.html",
+      "title": "セット/Vagrant | Nevergrind Online 攻略DB",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Vagrant's セット"
+        }
+      ],
+      "links": [
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/menu.html"
+        }
+      ],
+      "lastModified": "Mon, 14 Oct 2024 05:03:29 GMT"
+    },
+    {
+      "url": "https://atelier3.web.fc2.com/ngo/volaki.html",
+      "file": "volaki.html",
+      "title": "セット/Volaki | Nevergrind Online 攻略DB",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Volaki's セット"
+        }
+      ],
+      "links": [
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/menu.html"
+        }
+      ],
+      "lastModified": "Mon, 23 Jun 2025 21:35:25 GMT"
+    },
+    {
+      "url": "https://atelier3.web.fc2.com/ngo/warlock.html",
+      "file": "warlock.html",
+      "title": "クラス/ウォーロック | Nevergrind Online 攻略DB",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "ウォーロック"
+        },
+        {
+          "tag": "h2",
+          "text": "基本的な情報"
+        },
+        {
+          "tag": "h3",
+          "text": "種族"
+        },
+        {
+          "tag": "h3",
+          "text": "防具"
+        },
+        {
+          "tag": "h3",
+          "text": "パッシブ"
+        },
+        {
+          "tag": "h3",
+          "text": "特殊効果"
+        },
+        {
+          "tag": "h2",
+          "text": "タレント例"
+        },
+        {
+          "tag": "h2",
+          "text": "装備例"
+        },
+        {
+          "tag": "h2",
+          "text": "立ち回り"
+        }
+      ],
+      "links": [
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/menu.html"
+        },
+        {
+          "label": "Wyvern",
+          "url": "https://atelier3.web.fc2.com/ngo/wyvern.html"
+        },
+        {
+          "label": "Tyranid",
+          "url": "https://atelier3.web.fc2.com/ngo/tyranid.html"
+        },
+        {
+          "label": "Noik",
+          "url": "https://atelier3.web.fc2.com/ngo/noik.html"
+        },
+        {
+          "label": "基本的な情報",
+          "url": "https://atelier3.web.fc2.com/ngo/warlock.html"
+        },
+        {
+          "label": "タレント例",
+          "url": "https://atelier3.web.fc2.com/ngo/warlock.html"
+        },
+        {
+          "label": "装備例",
+          "url": "https://atelier3.web.fc2.com/ngo/warlock.html"
+        },
+        {
+          "label": "立ち回り",
+          "url": "https://atelier3.web.fc2.com/ngo/warlock.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/u1hbm.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/ushield.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/tyranid.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/noik.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/noik.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/ushoulder.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/noik.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/tyranid.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/noik.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/zamtil.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/jibekn.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/scourge.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/noik.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/uring.html"
+        },
+        {
+          "label": "Cryptic Paragon",
+          "url": "https://atelier3.web.fc2.com/ngo/u1hbm.html"
+        },
+        {
+          "label": "Hellspike",
+          "url": "https://atelier3.web.fc2.com/ngo/upiercer.html"
+        },
+        {
+          "label": "Procyon's Fragment",
+          "url": "https://atelier3.web.fc2.com/ngo/procyon.html"
+        },
+        {
+          "label": "Tyranid's Haunting",
+          "url": "https://atelier3.web.fc2.com/ngo/tyranid.html"
+        },
+        {
+          "label": "Yon's Ephemeral Grasp",
+          "url": "https://atelier3.web.fc2.com/ngo/uglove.html"
+        },
+        {
+          "label": "Trek of Glory",
+          "url": "https://atelier3.web.fc2.com/ngo/uboot.html"
+        },
+        {
+          "label": "Nylith",
+          "url": "https://atelier3.web.fc2.com/ngo/nylith.html"
+        },
+        {
+          "label": "Noik's Pact",
+          "url": "https://atelier3.web.fc2.com/ngo/noik.html"
+        }
+      ],
+      "lastModified": "Fri, 01 Nov 2024 04:55:57 GMT"
+    },
+    {
+      "url": "https://atelier3.web.fc2.com/ngo/warrior.html",
+      "file": "warrior.html",
+      "title": "クラス/ウォーリアー | Nevergrind Online 攻略DB",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "ウォーリアー"
+        },
+        {
+          "tag": "h2",
+          "text": "基本的な情報"
+        },
+        {
+          "tag": "h3",
+          "text": "種族"
+        },
+        {
+          "tag": "h3",
+          "text": "防具"
+        },
+        {
+          "tag": "h3",
+          "text": "パッシブ"
+        },
+        {
+          "tag": "h3",
+          "text": "特殊効果"
+        },
+        {
+          "tag": "h2",
+          "text": "タレント例"
+        },
+        {
+          "tag": "h2",
+          "text": "装備例"
+        },
+        {
+          "tag": "h2",
+          "text": "立ち回り"
+        }
+      ],
+      "links": [
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/menu.html"
+        },
+        {
+          "label": "Minotaur",
+          "url": "https://atelier3.web.fc2.com/ngo/minotaur.html"
+        },
+        {
+          "label": "Stockade",
+          "url": "https://atelier3.web.fc2.com/ngo/stockade.html"
+        },
+        {
+          "label": "Tsubodai",
+          "url": "https://atelier3.web.fc2.com/ngo/tsubodai.html"
+        },
+        {
+          "label": "基本的な情報",
+          "url": "https://atelier3.web.fc2.com/ngo/warrior.html"
+        },
+        {
+          "label": "タレント例",
+          "url": "https://atelier3.web.fc2.com/ngo/warrior.html"
+        },
+        {
+          "label": "装備例",
+          "url": "https://atelier3.web.fc2.com/ngo/warrior.html"
+        },
+        {
+          "label": "立ち回り",
+          "url": "https://atelier3.web.fc2.com/ngo/warrior.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/u2hbp.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/u2hbm.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/demetrium.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/uhead.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/uchest.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/daahoud.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/daahoud.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/uglove.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/ubelt.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/uleg.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/edarion.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/daahoud.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/uring.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/uring.html"
+        },
+        {
+          "label": "Korelian Adamantite Maul",
+          "url": "https://atelier3.web.fc2.com/ngo/u2hbp.html"
+        },
+        {
+          "label": "Spinalzz's Vigil",
+          "url": "https://atelier3.web.fc2.com/ngo/spinalzz.html"
+        },
+        {
+          "label": "Olivia's Chains of Fealty",
+          "url": "https://atelier3.web.fc2.com/ngo/legendary.html"
+        },
+        {
+          "label": "Rule of the Tyrant",
+          "url": "https://atelier3.web.fc2.com/ngo/uglove.html"
+        },
+        {
+          "label": "Daahoud セット",
+          "url": "https://atelier3.web.fc2.com/ngo/daahoud.html"
+        },
+        {
+          "label": "Behemoth Mantle",
+          "url": "https://atelier3.web.fc2.com/ngo/ushoulder.html"
+        },
+        {
+          "label": "Deathly Usher's Bracers",
+          "url": "https://atelier3.web.fc2.com/ngo/ubracer.html"
+        },
+        {
+          "label": "Demetrium's Ballista",
+          "url": "https://atelier3.web.fc2.com/ngo/demetrium.html"
+        },
+        {
+          "label": "Stormcaller Bow",
+          "url": "https://atelier3.web.fc2.com/ngo/ubow.html"
+        },
+        {
+          "label": "Circle of Death",
+          "url": "https://atelier3.web.fc2.com/ngo/uring.html"
+        },
+        {
+          "label": "Stockade's Insignia",
+          "url": "https://atelier3.web.fc2.com/ngo/stockade.html"
+        }
+      ],
+      "lastModified": "Thu, 26 Jun 2025 13:10:08 GMT"
+    },
+    {
+      "url": "https://atelier3.web.fc2.com/ngo/wizard.html",
+      "file": "wizard.html",
+      "title": "クラス/ウィザード | Nevergrind Online 攻略DB",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "ウィザード"
+        },
+        {
+          "tag": "h2",
+          "text": "基本的な情報"
+        },
+        {
+          "tag": "h3",
+          "text": "種族"
+        },
+        {
+          "tag": "h3",
+          "text": "防具"
+        },
+        {
+          "tag": "h3",
+          "text": "パッシブ"
+        },
+        {
+          "tag": "h2",
+          "text": "タレント例"
+        },
+        {
+          "tag": "h3",
+          "text": "Chaos Mage"
+        },
+        {
+          "tag": "h3",
+          "text": "Pyromancer"
+        },
+        {
+          "tag": "h3",
+          "text": "Pyromancer"
+        },
+        {
+          "tag": "h3",
+          "text": "Chaos Mage"
+        },
+        {
+          "tag": "h2",
+          "text": "装備例"
+        },
+        {
+          "tag": "h2",
+          "text": "立ち回り"
+        }
+      ],
+      "links": [
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/menu.html"
+        },
+        {
+          "label": "Magnate",
+          "url": "https://atelier3.web.fc2.com/ngo/magnate.html"
+        },
+        {
+          "label": "Alderon",
+          "url": "https://atelier3.web.fc2.com/ngo/alderon.html"
+        },
+        {
+          "label": "Yizeren",
+          "url": "https://atelier3.web.fc2.com/ngo/yizeren.html"
+        },
+        {
+          "label": "基本的な情報",
+          "url": "https://atelier3.web.fc2.com/ngo/wizard.html"
+        },
+        {
+          "label": "タレント例",
+          "url": "https://atelier3.web.fc2.com/ngo/wizard.html"
+        },
+        {
+          "label": "装備例",
+          "url": "https://atelier3.web.fc2.com/ngo/wizard.html"
+        },
+        {
+          "label": "立ち回り",
+          "url": "https://atelier3.web.fc2.com/ngo/wizard.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/u1hbm.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/yizeren.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/yizeren.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/yizeren.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/alderon.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/alderon.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/yizeren.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/ubelt.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/zamtil.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/jibekn.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/alderon.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/yizeren.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/alderon.html"
+        },
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/alderon.html"
+        },
+        {
+          "label": "Yizeren セット",
+          "url": "https://atelier3.web.fc2.com/ngo/yizeren.html"
+        },
+        {
+          "label": "Cryptic Paragon",
+          "url": "https://atelier3.web.fc2.com/ngo/u1hbm.html"
+        },
+        {
+          "label": "Yizeren",
+          "url": "https://atelier3.web.fc2.com/ngo/yizeren.html"
+        },
+        {
+          "label": "Stormslicer",
+          "url": "https://atelier3.web.fc2.com/ngo/upiercer.html"
+        },
+        {
+          "label": "Skewer of the Forsaken",
+          "url": "https://atelier3.web.fc2.com/ngo/upiercer.html"
+        },
+        {
+          "label": "Hellspike",
+          "url": "https://atelier3.web.fc2.com/ngo/upiercer.html"
+        },
+        {
+          "label": "Cryptic Paragon",
+          "url": "https://atelier3.web.fc2.com/ngo/u1hbm.html"
+        },
+        {
+          "label": "Alderon",
+          "url": "https://atelier3.web.fc2.com/ngo/alderon.html"
+        },
+        {
+          "label": "Shadow Silk Mesh",
+          "url": "https://atelier3.web.fc2.com/ngo/ubelt.html"
+        },
+        {
+          "label": "Tresta's Jade Cord",
+          "url": "https://atelier3.web.fc2.com/ngo/ubelt.html"
+        },
+        {
+          "label": "Shining Metallic Leggings",
+          "url": "https://atelier3.web.fc2.com/ngo/uleg.html"
+        },
+        {
+          "label": "Trek of Glory",
+          "url": "https://atelier3.web.fc2.com/ngo/uboot.html"
+        },
+        {
+          "label": "Consortium Slippers",
+          "url": "https://atelier3.web.fc2.com/ngo/uboot.html"
+        }
+      ],
+      "lastModified": "Fri, 01 Nov 2024 04:56:00 GMT"
+    },
+    {
+      "url": "https://atelier3.web.fc2.com/ngo/wyvern.html",
+      "file": "wyvern.html",
+      "title": "セット/Wyvern | Nevergrind Online 攻略DB",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Wyvern's セット"
+        }
+      ],
+      "links": [
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/menu.html"
+        }
+      ],
+      "lastModified": "Tue, 08 Oct 2024 19:32:25 GMT"
+    },
+    {
+      "url": "https://atelier3.web.fc2.com/ngo/yizeren.html",
+      "file": "yizeren.html",
+      "title": "セット/Yizeren | Nevergrind Online 攻略DB",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Yizeren's セット"
+        }
+      ],
+      "links": [
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/menu.html"
+        }
+      ],
+      "lastModified": "Fri, 01 Nov 2024 04:56:01 GMT"
+    },
+    {
+      "url": "https://atelier3.web.fc2.com/ngo/zak.html",
+      "file": "zak.html",
+      "title": "セット/Zak | Nevergrind Online 攻略DB",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Zak's セット"
+        }
+      ],
+      "links": [
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/menu.html"
+        }
+      ],
+      "lastModified": "Sat, 21 Jun 2025 21:58:04 GMT"
+    },
+    {
+      "url": "https://atelier3.web.fc2.com/ngo/zamtil.html",
+      "file": "zamtil.html",
+      "title": "セット/Zamtil | Nevergrind Online 攻略DB",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Zamtil's セット"
+        }
+      ],
+      "links": [
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/menu.html"
+        }
+      ],
+      "lastModified": "Sat, 30 Nov 2024 05:02:57 GMT"
+    },
+    {
+      "url": "https://atelier3.web.fc2.com/ngo/zarth.html",
+      "file": "zarth.html",
+      "title": "セット/Zarth | Nevergrind Online 攻略DB",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Zarth's セット"
+        }
+      ],
+      "links": [
+        {
+          "label": "",
+          "url": "https://atelier3.web.fc2.com/ngo/menu.html"
+        }
+      ],
+      "lastModified": "Mon, 23 Jun 2025 21:17:09 GMT"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+[
+  {
+    "label": "Nevergrind Online",
+    "items": [
+      { "label": "攻略首頁", "slug": "nevergrind-online/guide" },
+      {
+        "label": "入門與閱讀路線",
+        "items": [
+          { "label": "系統總覽與核心架構", "slug": "nevergrind-online/core-structure" },
+          { "label": "進度路線與 FC2 攻略讀法", "slug": "nevergrind-online/progression-roadmap" },
+          { "label": "FC2 攻略 DB 連結索引", "slug": "nevergrind-online/fc2-link-index" },
+          { "label": "FC2 一般攻略全量參考", "slug": "nevergrind-online/fc2-general-reference" },
+          { "label": "Fandom Wiki 連結索引", "slug": "nevergrind-online/fandom-link-index" },
+          { "label": "中英名詞對照", "slug": "nevergrind-online/terminology" },
+          { "label": "來源判讀與疑難排解", "slug": "nevergrind-online/public-source-notes" }
+        ]
+      },
+      {
+        "label": "冒險與操作",
+        "items": [
+          { "label": "熱鍵與聊天指令", "slug": "nevergrind-online/hotkeys-commands" },
+          { "label": "地城冒險與任務", "slug": "nevergrind-online/dungeons" },
+          { "label": "怪物分類與特性", "slug": "nevergrind-online/monsters" }
+        ]
+      },
+      {
+        "label": "城鎮與後勤",
+        "items": [
+          { "label": "Edenburg（伊登堡）城鎮設施", "slug": "nevergrind-online/edenburg" },
+          { "label": "酒館（Tavern）", "slug": "nevergrind-online/tavern" },
+          { "label": "藥劑店（Apothecary）", "slug": "nevergrind-online/apothecary" },
+          { "label": "商人（Merchant）", "slug": "nevergrind-online/merchant" },
+          { "label": "鐵匠鋪（Blacksmith）", "slug": "nevergrind-online/blacksmith" },
+          { "label": "製作與配方", "slug": "nevergrind-online/blacksmith-crafting-recipe-research" }
+        ]
+      },
+      {
+        "label": "職業與流派",
+        "items": [
+          { "label": "職業與流派", "slug": "nevergrind-online/classes" },
+          { "label": "FC2 代表技能速查", "slug": "nevergrind-online/fc2-signature-skills" },
+          { "label": "FC2 職業 Build 摘要", "slug": "nevergrind-online/fc2-class-build-index" },
+          { "label": "十字軍（Crusader）", "slug": "nevergrind-online/crusader" },
+          { "label": "治療者總覽", "slug": "nevergrind-online/healers" },
+          { "label": "牧師（Cleric）", "slug": "nevergrind-online/cleric" },
+          { "label": "牧師技能參考 Twloli", "slug": "nevergrind-online/cleric-skills-twloli" },
+          { "label": "牧師（Scion）輸出", "slug": "nevergrind-online/cleric-scion-dps" },
+          { "label": "牧師刷區域", "slug": "nevergrind-online/cleric-farming-zones" },
+          { "label": "Fahlnir Citadel（法爾尼爾城堡）", "slug": "nevergrind-online/fahlnir-citadel" }
+        ]
+      },
+      {
+        "label": "物品與戰利品",
+        "items": [
+          { "label": "物品與戰利品", "slug": "nevergrind-online/items-loot" },
+          { "label": "裝備收集路線", "slug": "nevergrind-online/equipment-collection" },
+          { "label": "鑑定（Identification）", "slug": "nevergrind-online/identification" },
+          { "label": "魔法裝備（Magic Items）", "slug": "nevergrind-online/magic-items" },
+          { "label": "稀有裝備（Rare Items）", "slug": "nevergrind-online/rare-items" },
+          { "label": "獨特裝備（Unique Items）", "slug": "nevergrind-online/unique-items" },
+          { "label": "FC2 嚴選 Unique 裝備", "slug": "nevergrind-online/fc2-selected-unique-items" },
+          { "label": "FC2 Unique 武器全量表", "slug": "nevergrind-online/fc2-unique-weapons" },
+          { "label": "FC2 Unique 防具全量表", "slug": "nevergrind-online/fc2-unique-armor" },
+          { "label": "FC2 Unique 飾品全量表", "slug": "nevergrind-online/fc2-unique-accessories" },
+          { "label": "套裝（Set Items）", "slug": "nevergrind-online/set-items" },
+          { "label": "FC2 Set Normal 全量表", "slug": "nevergrind-online/fc2-set-normal" },
+          { "label": "FC2 Set Exceptional 全量表", "slug": "nevergrind-online/fc2-set-exceptional" },
+          { "label": "FC2 Set Elite 全量表", "slug": "nevergrind-online/fc2-set-elite" },
+          { "label": "傳奇裝備（Legendary Items）", "slug": "nevergrind-online/legendary-items" },
+          { "label": "FC2 Legendary 全量表", "slug": "nevergrind-online/fc2-legendary-table" },
+          { "label": "Cryptic Paragon（Haniwa）", "slug": "nevergrind-online/cryptic-paragon-haniwa" },
+          { "label": "金錢效率與賣裝", "slug": "nevergrind-online/money-efficiency" },
+          { "label": "賭博（Gambling）", "slug": "nevergrind-online/gambling" },
+          { "label": "符文（Runes）", "slug": "nevergrind-online/runes" },
+          { "label": "FC2 Rune Craft 全量參考", "slug": "nevergrind-online/fc2-rune-craft-reference" },
+          { "label": "FC2 Recipe 全量表", "slug": "nevergrind-online/fc2-recipes" }
+        ]
+      }
+    ]
+  }
+]
