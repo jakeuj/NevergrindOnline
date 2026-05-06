@@ -9,9 +9,14 @@ const ROOT = fileURLToPath(new URL('..', import.meta.url));
 const DOCS_ROOT = join(ROOT, 'src/content/docs');
 const NEVERGRIND_DOCS = DOCS_ROOT;
 const MANIFEST_PATH = join(ROOT, 'src/data/fc2-source-manifest.json');
+const IMAGE_MANIFEST_PATH = join(ROOT, 'src/data/fc2-image-manifest.json');
 const TOPIC_MAP_PATH = join(ROOT, 'src/data/fc2-topic-map.json');
+const PUBLIC_ROOT = join(ROOT, 'public');
+const IMAGE_REF_PATTERN = /!\[[^\]]*]\((\/fc2-assets\/ngo\/[^)\s]+)\)/g;
+const TRACKING_IMAGE_PATTERN = /counter_img|media\.fc2\.com/i;
 
 const PLACEHOLDER_PATTERNS = [
+  /\[圖片[:：]|\[圖[:：]/,
   /FC2\s*(玩家評語|流程重點|推薦重點|注意點)/,
   /原文屬玩家 meta snapshot/,
   /這段主要在談/,
@@ -130,10 +135,12 @@ function fail(messages) {
 const problems = [];
 
 if (!existsSync(MANIFEST_PATH)) problems.push(`Missing FC2 manifest: ${MANIFEST_PATH}`);
+if (!existsSync(IMAGE_MANIFEST_PATH)) problems.push(`Missing FC2 image manifest: ${IMAGE_MANIFEST_PATH}`);
 if (!existsSync(TOPIC_MAP_PATH)) problems.push(`Missing FC2 topic map: ${TOPIC_MAP_PATH}`);
 if (problems.length > 0) fail(problems);
 
 const manifest = JSON.parse(await readFile(MANIFEST_PATH, 'utf8'));
+const imageManifest = JSON.parse(await readFile(IMAGE_MANIFEST_PATH, 'utf8'));
 const topicMap = JSON.parse(await readFile(TOPIC_MAP_PATH, 'utf8'));
 const docs = await markdownFiles(NEVERGRIND_DOCS);
 const docsBySourceUrl = new Map();
@@ -144,6 +151,41 @@ if (manifest.count !== EXPECTED_FC2_COUNT) {
 }
 if (manifest.errors?.length) {
   problems.push(`FC2 manifest contains ${manifest.errors.length} crawl error(s).`);
+}
+
+if (!Array.isArray(imageManifest.images)) {
+  problems.push(`FC2 image manifest has no images array: ${IMAGE_MANIFEST_PATH}.`);
+} else {
+  for (const image of imageManifest.images) {
+    if (!image.publicPath?.startsWith('/fc2-assets/ngo/')) {
+      problems.push(`FC2 image has unexpected public path: ${image.publicPath || image.url}`);
+    }
+    if (TRACKING_IMAGE_PATTERN.test(image.url ?? '')) {
+      problems.push(`Tracking image was downloaded instead of skipped: ${image.url}`);
+    }
+    const publicPath = image.publicPath ? join(PUBLIC_ROOT, image.publicPath.replace(/^\//, '')) : '';
+    const localPath = image.localPath ? join(ROOT, image.localPath) : publicPath;
+    if (!publicPath || !existsSync(publicPath)) {
+      problems.push(`FC2 image public file is missing: ${image.publicPath || image.url}`);
+    }
+    if (localPath && !existsSync(localPath)) {
+      problems.push(`FC2 image manifest local file is missing: ${image.localPath || image.url}`);
+    }
+  }
+}
+
+if (Array.isArray(imageManifest.skipped)) {
+  for (const image of imageManifest.skipped) {
+    let pathname = '';
+    try {
+      pathname = new URL(image.url).pathname;
+    } catch {
+      pathname = '';
+    }
+    if (image.url?.startsWith('https://atelier3.web.fc2.com/ngo/') && /\.(?:png|jpe?g|gif)$/i.test(pathname)) {
+      problems.push(`FC2 content image was skipped unexpectedly: ${image.url}`);
+    }
+  }
 }
 
 for (const doc of docs) {
@@ -159,6 +201,17 @@ for (const doc of docs) {
   }
 
   if (doc.startsWith(NEVERGRIND_DOCS) && doc.split('/').pop().startsWith('fc2-')) {
+    if (TRACKING_IMAGE_PATTERN.test(qualityContent)) {
+      problems.push(`${doc} contains a tracking or external FC2 image reference.`);
+    }
+
+    for (const match of qualityContent.matchAll(IMAGE_REF_PATTERN)) {
+      const publicPath = join(PUBLIC_ROOT, match[1].replace(/^\//, ''));
+      if (!existsSync(publicPath)) {
+        problems.push(`${doc} references missing FC2 image asset: ${match[1]}`);
+      }
+    }
+
     for (const pattern of FC2_TERMINOLOGY_PATTERNS) {
       if (pattern.test(qualityContent)) {
         problems.push(`${doc} still contains FC2 terminology drift matching ${pattern}.`);

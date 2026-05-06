@@ -12,7 +12,8 @@ description: Maintain the repo-local Astro Starlight Traditional Chinese Nevergr
 - Do not place public docs under `src/content/docs/nevergrind-online/`; that would reintroduce the extra URL layer on the custom domain.
 - The canonical terminology table is `src/content/docs/terminology.md`.
 - The Starlight sidebar is data-driven from `src/data/sidebar.json`.
-- FC2 routing lives in `src/data/fc2-topic-map.json`; crawl metadata lives in `src/data/fc2-source-manifest.json`.
+- FC2 routing lives in `src/data/fc2-topic-map.json`; crawl metadata lives in `src/data/fc2-source-manifest.json`; image mirror metadata lives in `src/data/fc2-image-manifest.json`.
+- FC2 content images are mirrored under `public/fc2-assets/ngo/`; CSS, JavaScript, counter images, tracking images, and external non-`/ngo/` assets are not published.
 - FC2 source snapshots are generated under `.cache/fc2/` and are intentionally ignored.
 - The public site targets GitHub Pages and the custom domain `ngo.jakeuj.com`.
 - Legacy `/nevergrind-online/...` compatibility pages live only in `src/pages/nevergrind-online/`; keep them `noindex`, `data-pagefind-ignore`, hash-preserving, and excluded from the sitemap.
@@ -23,6 +24,7 @@ Use this path for FC2 / atelier3 source refreshes, placeholder cleanup, or reque
 
 ```bash
 npm run crawl:fc2
+npm run sync:fc2-images
 npm run build:fc2-docs
 npm run check:coverage
 npm run check:quality
@@ -31,6 +33,7 @@ npm run build
 ```
 
 - `crawl:fc2` must still report 106 pages and 0 errors.
+- `sync:fc2-images` downloads only FC2 `/ngo/` content images into `public/fc2-assets/ngo/`, preserving source paths and writing `src/data/fc2-image-manifest.json`; skipped tracker images belong only in the manifest `skipped` list.
 - `build:fc2-docs` regenerates the source-driven `fc2-*` Markdown pages from `.cache/fc2/pages` into `src/content/docs/`.
 - `check:coverage` verifies every FC2 URL is routed and appears in frontmatter.
 - `check:quality` blocks old placeholder text, leaked translation guard tokens, missing render coverage, terminology drift, stale machine-translation phrases, and large untranslated Japanese fragments. It may intentionally ignore FC2 source-title rows where the Japanese original title is metadata.
@@ -57,7 +60,7 @@ npm run build
 - Translate `金銭効率` as `金錢效率`, never `金屬效率`; translate `周回ダンジョン` as `周回地城`, not `旋轉地城` or `旋轉地牢`.
 - Keep stat names aligned with the terminology table: table headers should use `力量`, `耐力`, `敏捷`, `靈巧`, `智力`, `智慧`, and `魅力`.
 - Preserve all factual rows, columns, numbers, source URLs, and `Last-Modified` metadata.
-- Do not publish original FC2 images, CSS, or JavaScript.
+- Publish FC2 content images only through the local `/fc2-assets/ngo/` mirror. Do not publish FC2 CSS, JavaScript, counter images, tracking images, or unrelated external assets.
 - For FC2 pages whose main value is JavaScript or form interaction, such as `dpscalc.html`, do not render unusable static form tables. Add the page to `INTERACTIVE_TOOL_PAGE_NOTES` in `scripts/build-fc2-docs.mjs`, keep a concise purpose summary and original source link, and skip translating/rendering tool-only tables.
 - Do not drop FC2 gameplay text because of source-policy wording. Translate or faithfully localize the full source gameplay content into zh-TW, keeping original Japanese only where it is source metadata such as titles.
 - Treat FC2 as a player meta snapshot. Keep or add version reminders that current game tooltip / UI should be final authority.
@@ -78,7 +81,7 @@ npm run build
 - After route, sidebar, or topic-map changes, search for accidental public nested paths with `rg -n 'nevergrind-online/' src/content/docs src/data README.md scripts .github/workflows .agents/skills/maintain-nevergrind-docs -S`. Allow only intentional legacy redirect code, sitemap filtering, and external source URLs.
 - After `npm run build`, `rg -n '<loc>[^<]*/nevergrind-online/' dist/sitemap*.xml` should return nothing.
 - For local route checks, root pages such as `http://127.0.0.1:4322/guide/` should render directly, while legacy pages such as `http://127.0.0.1:4322/nevergrind-online/guide/#x` should redirect to `/guide/#x`.
-- Before committing, run `git diff --check` and confirm `.cache/`, `.astro/`, `dist/`, and `.idea/` are not staged.
+- Before committing, run `git diff --check` and confirm `.cache/`, `.astro/`, `dist/`, and `.idea/` are not staged. `public/fc2-assets/ngo/` is an intended tracked asset mirror.
 
 ## Deploy Workflow
 

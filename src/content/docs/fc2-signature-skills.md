@@ -11,7 +11,7 @@ sourceLastModified: "Sun, 08 Jun 2025 10:47:22 GMT"
 status: "FC2 原站高保真繁中化"
 ---
 
-本頁由 FC2 / atelier3 原站 HTML 重新擷取後繁中化，保留原頁段落、清單、表格欄位與數值；原站圖片、CSS、JavaScript 不搬入公開站。
+本頁由 FC2 / atelier3 原站 HTML 重新擷取後繁中化，保留原頁段落、清單、表格欄位與數值；FC2 內容圖片已本地鏡像，CSS、JavaScript 與追蹤圖不搬入公開站。
 
 - 檢視日期：`2026-05-06`
 - FC2 來源頁數：1

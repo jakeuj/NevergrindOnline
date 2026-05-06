@@ -32,3 +32,37 @@
 .sl-markdown-content img {
   border-radius: 0.5rem;
 }
+
+.sl-markdown-content img[src^="/fc2-assets/ngo/"] {
+  border-radius: 0.25rem;
+  vertical-align: middle;
+}
+
+.sl-markdown-content img[src^="/fc2-assets/ngo/"][src$=".png"] {
+  width: 1.75rem;
+  max-width: 1.75rem;
+  max-height: 1.75rem;
+  object-fit: contain;
+}
+
+.sl-markdown-content p img[src^="/fc2-assets/ngo/"][src$=".png"],
+.sl-markdown-content li img[src^="/fc2-assets/ngo/"][src$=".png"] {
+  width: 1.35em;
+  max-width: 1.35em;
+  max-height: 1.35em;
+  vertical-align: -0.2em;
+}
+
+.sl-markdown-content img[src^="/fc2-assets/ngo/"][src$=".jpg"],
+.sl-markdown-content img[src^="/fc2-assets/ngo/"][src$=".jpeg"] {
+  display: block;
+  max-width: min(100%, 48rem);
+  height: auto;
+  margin: 0.75rem 0;
+}
+
+.sl-markdown-content table img[src^="/fc2-assets/ngo/"][src$=".jpg"],
+.sl-markdown-content table img[src^="/fc2-assets/ngo/"][src$=".jpeg"] {
+  max-width: 12rem;
+  margin: 0;
+}

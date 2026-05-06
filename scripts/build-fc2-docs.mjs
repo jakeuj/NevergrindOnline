@@ -9,6 +9,7 @@ const DATA_DIR = join(ROOT, 'src/data');
 const PAGE_CACHE = join(ROOT, '.cache/fc2/pages');
 const TRANSLATION_CACHE = join(ROOT, '.cache/fc2/translations-ja-zh-tw.json');
 const MANIFEST_PATH = join(DATA_DIR, 'fc2-source-manifest.json');
+const IMAGE_MANIFEST_PATH = join(DATA_DIR, 'fc2-image-manifest.json');
 const TOPIC_MAP_PATH = join(DATA_DIR, 'fc2-topic-map.json');
 const FC2_GENERATED_PREFIX = 'fc2-';
 const FC2_LINK_INDEX = 'fc2-link-index.md';
@@ -20,6 +21,7 @@ const TRANSLATE_DELAY_MS = 120;
 const TRANSLATE_TIMEOUT_MS = 15000;
 const CHUNK_LIMIT = 1400;
 const SPLIT_MARKER = '<<<NGO_SPLIT_MARKER>>>';
+const IMAGE_TOKEN_PATTERN = /\{\{FC2_IMAGE_(\d+)\}\}/g;
 
 const TOPIC_META = {
   'fc2-class-build-index.md': {
@@ -799,6 +801,36 @@ async function readJson(path) {
   return JSON.parse(await readFile(path, 'utf8'));
 }
 
+function splitImageTokens(value) {
+  const text = String(value ?? '');
+  const parts = [];
+  let cursor = 0;
+  IMAGE_TOKEN_PATTERN.lastIndex = 0;
+  for (const match of text.matchAll(IMAGE_TOKEN_PATTERN)) {
+    if (match.index > cursor) {
+      parts.push({ type: 'text', value: text.slice(cursor, match.index) });
+    }
+    parts.push({ type: 'image', value: match[0], index: Number(match[1]) });
+    cursor = match.index + match[0].length;
+  }
+  if (cursor < text.length) {
+    parts.push({ type: 'text', value: text.slice(cursor) });
+  }
+  return parts.length ? parts : [{ type: 'text', value: text }];
+}
+
+function textFragmentsForTranslation(value) {
+  return splitImageTokens(value)
+    .filter((part) => part.type === 'text')
+    .map((part) => part.value.trim())
+    .filter(Boolean);
+}
+
+function hasImageToken(value) {
+  IMAGE_TOKEN_PATTERN.lastIndex = 0;
+  return IMAGE_TOKEN_PATTERN.test(String(value ?? ''));
+}
+
 class Translator {
   constructor(cache) {
     this.cache = cache;
@@ -811,11 +843,39 @@ class Translator {
 
   get(value) {
     if (!value) return '';
+    if (!hasImageToken(value)) return this.getPlain(value);
+    return splitImageTokens(value)
+      .map((part) => {
+        if (part.type === 'image') return part.value;
+        const text = part.value.trim();
+        return text ? this.getPlain(text) : part.value;
+      })
+      .join('')
+      .replace(/\s{2,}/g, ' ')
+      .trim();
+  }
+
+  local(value) {
+    if (!value) return '';
+    if (!hasImageToken(value)) return this.localPlain(value);
+    return splitImageTokens(value)
+      .map((part) => {
+        if (part.type === 'image') return part.value;
+        const text = part.value.trim();
+        return text ? this.localPlain(text) : part.value;
+      })
+      .join('')
+      .replace(/\s{2,}/g, ' ')
+      .trim();
+  }
+
+  getPlain(value) {
+    if (!value) return '';
     if (MANUAL_TRANSLATIONS[value]) return MANUAL_TRANSLATIONS[value];
     return postprocessTranslation(this.cache[value] ?? normalizeSourceTerms(value));
   }
 
-  local(value) {
+  localPlain(value) {
     if (!value) return '';
     if (MANUAL_TRANSLATIONS[value]) return MANUAL_TRANSLATIONS[value];
     return postprocessTranslation(normalizeSourceTerms(value));
@@ -966,17 +1026,19 @@ async function pageCacheFor(file) {
 }
 
 function collectTexts(page) {
-  const texts = [page.pageTitle, page.title];
+  const texts = [...textFragmentsForTranslation(page.pageTitle), ...textFragmentsForTranslation(page.title)];
   const skipInteractiveDetails = Boolean(INTERACTIVE_TOOL_PAGE_NOTES[page.file]);
   for (const block of page.blocks ?? []) {
     if (block.type === 'heading' || block.type === 'paragraph') {
-      texts.push(block.text);
+      texts.push(...textFragmentsForTranslation(block.text));
     } else if (block.type === 'list') {
       if (isRedundantHeadingList(page, block)) continue;
-      texts.push(...block.items);
+      for (const item of block.items) texts.push(...textFragmentsForTranslation(item));
     } else if (!skipInteractiveDetails && block.type === 'table') {
       for (const row of block.rows) {
-        texts.push(...row.filter(shouldTranslateTableCell));
+        for (const cell of row) {
+          texts.push(...textFragmentsForTranslation(cell).filter(shouldTranslateTableCell));
+        }
       }
     }
   }
@@ -1008,8 +1070,48 @@ function shouldTranslateTableCell(value) {
   return hasJapaneseKana(text);
 }
 
-function tableCellText(value, translator) {
-  return localizeClassOnlyText(shouldTranslateTableCell(value) ? translator.get(value) : translator.local(value));
+function escapeMarkdownAlt(value) {
+  return String(value || 'FC2 image')
+    .replace(/[\[\]\n\r]/g, ' ')
+    .replace(/\s{2,}/g, ' ')
+    .trim();
+}
+
+function isFc2ContentImageUrl(value) {
+  try {
+    const url = new URL(value);
+    return url.origin === 'https://atelier3.web.fc2.com' && url.pathname.startsWith('/ngo/') && /\.(?:png|jpe?g|gif)$/i.test(url.pathname);
+  } catch {
+    return false;
+  }
+}
+
+function renderImageToken(page, index, imageByUrl) {
+  const image = page.images?.[Number(index)];
+  if (!image) throw new Error(`Missing image token FC2_IMAGE_${index} in ${page.file}.`);
+
+  const manifestImage = imageByUrl.get(image.url);
+  if (!manifestImage) {
+    if (isFc2ContentImageUrl(image.url)) {
+      throw new Error(`Missing synced FC2 image for ${image.url}. Run npm run sync:fc2-images.`);
+    }
+    return '';
+  }
+
+  const alt = escapeMarkdownAlt(image.alt || image.title || image.file || 'FC2 image');
+  return `![${alt}](${manifestImage.publicPath})`;
+}
+
+function renderImagesInText(value, page, imageByUrl) {
+  return String(value ?? '')
+    .replace(IMAGE_TOKEN_PATTERN, (_, index) => renderImageToken(page, index, imageByUrl))
+    .replace(/\s{2,}/g, ' ')
+    .trim();
+}
+
+function tableCellText(value, translator, page, imageByUrl) {
+  const text = localizeClassOnlyText(shouldTranslateTableCell(value) ? translator.get(value) : translator.local(value));
+  return renderImagesInText(text, page, imageByUrl);
 }
 
 function cleanHeadingText(value) {
@@ -1028,10 +1130,10 @@ function isRedundantHeadingList(page, block) {
   return matchingItems >= 4 && matchingItems / block.items.length >= 0.8;
 }
 
-function renderTable(rows, translator) {
+function renderTable(rows, translator, page, imageByUrl) {
   const maxColumns = Math.max(...rows.map((row) => row.length));
   const normalized = rows.map((row) => {
-    const cells = row.map((cell) => tableCellText(cell, translator));
+    const cells = row.map((cell) => tableCellText(cell, translator, page, imageByUrl));
     while (cells.length < maxColumns) cells.push('');
     return cells;
   });
@@ -1041,7 +1143,7 @@ function renderTable(rows, translator) {
   return [`|${header.join('|')}|`, `|${header.map(() => '---').join('|')}|`, ...body].join('\n');
 }
 
-function renderPage(page, translator) {
+function renderPage(page, translator, imageByUrl) {
   const lines = [
     `<a id="fc2-${fileStem(page.file)}"></a>`,
     '',
@@ -1056,7 +1158,7 @@ function renderPage(page, translator) {
   if (interactiveNote) {
     for (const block of page.blocks ?? []) {
       if (block.type !== 'paragraph') continue;
-      const text = translator.get(block.text);
+      const text = renderImagesInText(translator.get(block.text), page, imageByUrl);
       if (text) lines.push(text, '');
     }
     lines.push('> **原站互動工具**');
@@ -1074,7 +1176,7 @@ function renderPage(page, translator) {
         skippedFirstH1 = true;
         continue;
       }
-      const headingText = cleanHeadingText(localizeClassOnlyText(translator.get(block.text)));
+      const headingText = cleanHeadingText(renderImagesInText(localizeClassOnlyText(translator.get(block.text)), page, imageByUrl));
       if (baseSourceHeadingLevel === null) baseSourceHeadingLevel = block.level;
       const baseId = block.id || slugify(headingText) || `section-${headingIds.size + 1}`;
       const idKey = `${fileStem(page.file)}-${baseId}`;
@@ -1087,7 +1189,7 @@ function renderPage(page, translator) {
     }
 
     if (block.type === 'paragraph') {
-      const text = translator.get(block.text);
+      const text = renderImagesInText(translator.get(block.text), page, imageByUrl);
       if (text) lines.push(text, '');
       continue;
     }
@@ -1096,7 +1198,7 @@ function renderPage(page, translator) {
       if (isRedundantHeadingList(page, block)) continue;
       const items = block.items.flatMap((item, index) => {
         const marker = block.ordered ? `${index + 1}.` : '-';
-        const lines = translator.get(item).split('\n').filter(Boolean);
+        const lines = renderImagesInText(translator.get(item), page, imageByUrl).split('\n').filter(Boolean);
         if (lines.length === 0) return [];
         return [`${marker} ${lines[0]}`, ...lines.slice(1).map((line) => `  ${line}`)];
       });
@@ -1105,7 +1207,7 @@ function renderPage(page, translator) {
     }
 
     if (block.type === 'table') {
-      if (block.rows.length > 0) lines.push(renderTable(block.rows, translator), '');
+      if (block.rows.length > 0) lines.push(renderTable(block.rows, translator, page, imageByUrl), '');
     }
   }
 
@@ -1124,7 +1226,7 @@ function sourceReminder() {
 function introFor(outputFile, sourcePages, reviewedAt) {
   const hasInteractiveToolPage = sourcePages.some((page) => INTERACTIVE_TOOL_PAGE_NOTES[page.file]);
   const sourcePolicy = [
-    '本頁由 FC2 / atelier3 原站 HTML 重新擷取後繁中化，保留原頁段落、清單、表格欄位與數值；原站圖片、CSS、JavaScript 不搬入公開站。',
+    '本頁由 FC2 / atelier3 原站 HTML 重新擷取後繁中化，保留原頁段落、清單、表格欄位與數值；FC2 內容圖片已本地鏡像，CSS、JavaScript 與追蹤圖不搬入公開站。',
     hasInteractiveToolPage ? '互動工具頁僅保留用途摘要與原站連結。' : '',
   ]
     .filter(Boolean)
@@ -1153,12 +1255,17 @@ function introFor(outputFile, sourcePages, reviewedAt) {
 
 async function main() {
   if (!existsSync(MANIFEST_PATH)) throw new Error(`Missing manifest: ${MANIFEST_PATH}`);
+  if (!existsSync(IMAGE_MANIFEST_PATH)) {
+    throw new Error(`Missing FC2 image manifest: ${IMAGE_MANIFEST_PATH}. Run npm run sync:fc2-images first.`);
+  }
   if (!existsSync(TOPIC_MAP_PATH)) throw new Error(`Missing topic map: ${TOPIC_MAP_PATH}`);
   if (!existsSync(PAGE_CACHE)) throw new Error(`Missing FC2 page cache: ${PAGE_CACHE}. Run npm run crawl:fc2 first.`);
 
   const manifest = await readJson(MANIFEST_PATH);
+  const imageManifest = await readJson(IMAGE_MANIFEST_PATH);
   const topicMap = await readJson(TOPIC_MAP_PATH);
   const manifestByUrl = new Map(manifest.pages.map((page) => [page.url, page]));
+  const imageByUrl = new Map((imageManifest.images ?? []).map((image) => [image.url, image]));
   const outputFiles = generatedOutputFiles(topicMap);
   const pagesByFile = new Map();
   const translator = await Translator.load();
@@ -1179,7 +1286,7 @@ async function main() {
     const meta = TOPIC_META[outputFile];
     if (!meta) throw new Error(`Missing generated topic metadata for ${outputFile}`);
     const sourcePages = orderSourcePagesForOutput(outputFile, sourcePagesForOutput(topicMap, manifestByUrl, outputFile));
-    const pageSections = sourcePages.map((sourcePage) => renderPage(pagesByFile.get(sourcePage.file), translator));
+    const pageSections = sourcePages.map((sourcePage) => renderPage(pagesByFile.get(sourcePage.file), translator, imageByUrl));
     const output = [
       frontmatterFor({
         title: meta.title,

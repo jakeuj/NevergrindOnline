@@ -49,6 +49,7 @@ async function crawl(baseUrl) {
         contentType: page.contentType,
         contentHash: page.contentHash,
         blockCounts: page.blockCounts,
+        imageCount: page.images?.length ?? 0,
       });
 
       for (const next of page.enqueue) {

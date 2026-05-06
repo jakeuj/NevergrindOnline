@@ -48,7 +48,35 @@ export function fileForUrl(url) {
   return new URL(url).pathname.split('/').pop();
 }
 
-function inlineText($, element) {
+function imageRecord($, element, pageUrl, token = '') {
+  const source = $(element).attr('src') ?? '';
+  if (!source) return null;
+
+  let absolute;
+  try {
+    absolute = new URL(source, pageUrl);
+    absolute.hash = '';
+  } catch {
+    return null;
+  }
+
+  const alt = cleanInlineText($(element).attr('alt') ?? '');
+  const title = cleanInlineText($(element).attr('title') ?? '');
+  const file = basename(absolute.pathname);
+  const label = alt || title || file;
+
+  return {
+    token,
+    source,
+    url: absolute.href,
+    file,
+    alt,
+    title,
+    label,
+  };
+}
+
+function inlineText($, element, state) {
   const parts = [];
 
   $(element)
@@ -67,26 +95,29 @@ function inlineText($, element) {
         return;
       }
       if (tag === 'img') {
-        const source = $(child).attr('src') ?? '';
-        const label = $(child).attr('alt') || $(child).attr('title') || (source ? basename(source) : '');
-        if (label) parts.push(` [圖片:${label}] `);
+        const token = `{{FC2_IMAGE_${state.images.length}}}`;
+        const image = imageRecord($, child, state.pageUrl, token);
+        if (image) {
+          state.images.push(image);
+          parts.push(` ${token} `);
+        }
         return;
       }
-      parts.push(inlineText($, child));
+      parts.push(inlineText($, child, state));
     });
 
   return cleanInlineText(parts.join(''));
 }
 
-function blockText($, element) {
-  return inlineText($, element);
+function blockText($, element, state) {
+  return inlineText($, element, state);
 }
 
 function hasBlockChildren($, element) {
   return $(element).children('h1,h2,h3,h4,h5,h6,p,ul,ol,table,div,section,article').length > 0;
 }
 
-function tableRows($, element) {
+function tableRows($, element, state) {
   const rows = [];
 
   $(element)
@@ -97,7 +128,7 @@ function tableRows($, element) {
         .children('th,td')
         .each((__, cell) => {
           const colspan = Number.parseInt($(cell).attr('colspan') ?? '1', 10) || 1;
-          const text = blockText($, cell);
+          const text = blockText($, cell, state);
           cells.push(text);
           for (let index = 1; index < colspan; index += 1) {
             cells.push('');
@@ -109,7 +140,7 @@ function tableRows($, element) {
   return rows;
 }
 
-function listItems($, element) {
+function listItems($, element, state) {
   const items = [];
   let current = -1;
 
@@ -118,7 +149,7 @@ function listItems($, element) {
     .each((_, child) => {
       if (child.type !== 'tag') return;
       const tag = child.tagName.toLowerCase();
-      const text = blockText($, child);
+      const text = blockText($, child, state);
       if (!text) return;
 
       if (tag === 'li') {
@@ -147,7 +178,7 @@ function extractBlocksFrom($, parent, blocks, state) {
       if (['script', 'style', 'iframe'].includes(tag)) return;
 
       if (/^h[1-6]$/.test(tag)) {
-        const text = blockText($, element);
+        const text = blockText($, element, state);
         if (text) {
           blocks.push({
             type: 'heading',
@@ -160,13 +191,13 @@ function extractBlocksFrom($, parent, blocks, state) {
       }
 
       if (tag === 'p') {
-        const text = blockText($, element);
+        const text = blockText($, element, state);
         if (text) blocks.push({ type: 'paragraph', text });
         return;
       }
 
       if (tag === 'ul' || tag === 'ol') {
-        const items = listItems($, element);
+        const items = listItems($, element, state);
 
         if ($(element).hasClass('tab-list')) {
           state.pendingTabs = items;
@@ -184,7 +215,7 @@ function extractBlocksFrom($, parent, blocks, state) {
       }
 
       if (tag === 'table') {
-        const rows = tableRows($, element);
+        const rows = tableRows($, element, state);
         if (rows.length > 0) blocks.push({ type: 'table', rows });
         return;
       }
@@ -208,7 +239,7 @@ function extractBlocksFrom($, parent, blocks, state) {
         }
 
         if (!hasBlockChildren($, element)) {
-          const text = blockText($, element);
+          const text = blockText($, element, state);
           if (text) blocks.push({ type: 'paragraph', text });
           return;
         }
@@ -217,7 +248,7 @@ function extractBlocksFrom($, parent, blocks, state) {
         return;
       }
 
-      const text = blockText($, element);
+      const text = blockText($, element, state);
       if (text) blocks.push({ type: 'paragraph', text });
     });
 }
@@ -228,7 +259,20 @@ export function extractPage(url, html, fetched = {}) {
   const main = $('#main').first();
   const root = main.length ? main : $('body').first();
   const blocks = [];
-  extractBlocksFrom($, root, blocks, { pendingTabs: [] });
+  const state = {
+    pendingTabs: [],
+    pageUrl: url,
+    images: [],
+  };
+  extractBlocksFrom($, root, blocks, state);
+
+  const imageUrls = new Set(state.images.map((image) => image.url));
+  $('img[src]').each((_, element) => {
+    const image = imageRecord($, element, url, '');
+    if (!image || imageUrls.has(image.url)) return;
+    state.images.push(image);
+    imageUrls.add(image.url);
+  });
 
   const links = [];
   const enqueue = [];
@@ -278,6 +322,7 @@ export function extractPage(url, html, fetched = {}) {
     contentType: fetched.contentType ?? '',
     contentHash: createHash('sha256').update(html).digest('hex'),
     blockCounts,
+    images: state.images,
     blocks,
   };
 }

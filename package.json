@@ -8,6 +8,7 @@
     "build": "astro build",
     "preview": "astro preview --host 127.0.0.1",
     "crawl:fc2": "node scripts/crawl-fc2.mjs",
+    "sync:fc2-images": "node scripts/sync-fc2-images.mjs",
     "build:fc2-docs": "node scripts/build-fc2-docs.mjs",
     "import:writerside": "node scripts/import-writerside.mjs",
     "check:coverage": "node scripts/check-coverage.mjs",

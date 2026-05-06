@@ -1,6 +1,6 @@
 {
   "base": "https://atelier3.web.fc2.com/ngo/index.html",
-  "crawledAt": "2026-05-05T08:48:44.221Z",
+  "crawledAt": "2026-05-06T08:29:13.721Z",
   "expectedCount": 106,
   "count": 106,
   "errors": [],
@@ -32,7 +32,8 @@
       "blockCounts": {
         "heading": 1,
         "table": 3
-      }
+      },
+      "imageCount": 7
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/aradune.html",
@@ -57,7 +58,8 @@
       "blockCounts": {
         "heading": 1,
         "table": 3
-      }
+      },
+      "imageCount": 4
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/asaph.html",
@@ -82,7 +84,8 @@
       "blockCounts": {
         "heading": 1,
         "table": 3
-      }
+      },
+      "imageCount": 7
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/bard.html",
@@ -257,7 +260,8 @@
         "paragraph": 32,
         "list": 1,
         "table": 3
-      }
+      },
+      "imageCount": 18
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/bishop.html",
@@ -282,7 +286,8 @@
       "blockCounts": {
         "heading": 1,
         "table": 3
-      }
+      },
+      "imageCount": 5
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/boss.html",
@@ -396,7 +401,8 @@
         "heading": 19,
         "paragraph": 3,
         "table": 14
-      }
+      },
+      "imageCount": 108
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/chancellor.html",
@@ -421,7 +427,8 @@
       "blockCounts": {
         "heading": 1,
         "table": 3
-      }
+      },
+      "imageCount": 5
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/charamake.html",
@@ -592,7 +599,8 @@
         "paragraph": 33,
         "list": 1,
         "table": 15
-      }
+      },
+      "imageCount": 1
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/chart.html",
@@ -706,7 +714,8 @@
         "heading": 14,
         "paragraph": 48,
         "list": 3
-      }
+      },
+      "imageCount": 1
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/cleric.html",
@@ -885,7 +894,8 @@
         "paragraph": 37,
         "list": 1,
         "table": 1
-      }
+      },
+      "imageCount": 28
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/crusader.html",
@@ -1128,7 +1138,8 @@
         "paragraph": 46,
         "list": 2,
         "table": 3
-      }
+      },
+      "imageCount": 24
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/daahoud.html",
@@ -1153,7 +1164,8 @@
       "blockCounts": {
         "heading": 1,
         "table": 3
-      }
+      },
+      "imageCount": 7
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/daiyo.html",
@@ -1178,7 +1190,8 @@
       "blockCounts": {
         "heading": 1,
         "table": 3
-      }
+      },
+      "imageCount": 7
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/demetrium.html",
@@ -1203,7 +1216,8 @@
       "blockCounts": {
         "heading": 1,
         "table": 3
-      }
+      },
+      "imageCount": 4
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/dpscalc.html",
@@ -1237,7 +1251,8 @@
         "heading": 3,
         "paragraph": 2,
         "table": 2
-      }
+      },
+      "imageCount": 1
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/druid.html",
@@ -1424,7 +1439,8 @@
         "paragraph": 26,
         "list": 1,
         "table": 1
-      }
+      },
+      "imageCount": 14
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/edarion.html",
@@ -1449,7 +1465,8 @@
       "blockCounts": {
         "heading": 1,
         "table": 3
-      }
+      },
+      "imageCount": 7
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/emissary.html",
@@ -1474,7 +1491,8 @@
       "blockCounts": {
         "heading": 1,
         "table": 2
-      }
+      },
+      "imageCount": 5
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/enchanter.html",
@@ -1645,7 +1663,8 @@
         "paragraph": 54,
         "list": 1,
         "table": 3
-      }
+      },
+      "imageCount": 18
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/english.html",
@@ -1890,7 +1909,8 @@
       "blockCounts": {
         "heading": 30,
         "paragraph": 31
-      }
+      },
+      "imageCount": 1
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/falzain.html",
@@ -1915,7 +1935,8 @@
       "blockCounts": {
         "heading": 1,
         "table": 3
-      }
+      },
+      "imageCount": 7
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/fanatic.html",
@@ -1940,7 +1961,8 @@
       "blockCounts": {
         "heading": 1,
         "table": 2
-      }
+      },
+      "imageCount": 7
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/fansy.html",
@@ -1965,7 +1987,8 @@
       "blockCounts": {
         "heading": 1,
         "table": 3
-      }
+      },
+      "imageCount": 7
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/faq.html",
@@ -2191,7 +2214,8 @@
         "heading": 26,
         "list": 1,
         "paragraph": 25
-      }
+      },
+      "imageCount": 1
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/furor.html",
@@ -2216,7 +2240,8 @@
       "blockCounts": {
         "heading": 1,
         "table": 3
-      }
+      },
+      "imageCount": 7
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/gambling.html",
@@ -2334,7 +2359,8 @@
         "heading": 10,
         "paragraph": 19,
         "list": 1
-      }
+      },
+      "imageCount": 8
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/golem.html",
@@ -2359,7 +2385,8 @@
       "blockCounts": {
         "heading": 1,
         "table": 3
-      }
+      },
+      "imageCount": 5
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/index.html",
@@ -2385,7 +2412,8 @@
         "heading": 1,
         "paragraph": 4,
         "list": 1
-      }
+      },
+      "imageCount": 2
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/itemmods.html",
@@ -2696,7 +2724,8 @@
         "paragraph": 45,
         "list": 1,
         "table": 2
-      }
+      },
+      "imageCount": 1
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/jibekn.html",
@@ -2721,7 +2750,8 @@
       "blockCounts": {
         "heading": 1,
         "table": 3
-      }
+      },
+      "imageCount": 7
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/legendary.html",
@@ -2915,7 +2945,8 @@
         "heading": 22,
         "paragraph": 3,
         "table": 21
-      }
+      },
+      "imageCount": 127
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/loot.html",
@@ -2980,7 +3011,8 @@
       "blockCounts": {
         "heading": 6,
         "paragraph": 16
-      }
+      },
+      "imageCount": 6
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/magnate.html",
@@ -3005,7 +3037,8 @@
       "blockCounts": {
         "heading": 1,
         "table": 3
-      }
+      },
+      "imageCount": 5
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/martyr.html",
@@ -3030,7 +3063,8 @@
       "blockCounts": {
         "heading": 1,
         "table": 3
-      }
+      },
+      "imageCount": 5
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/menu.html",
@@ -3208,7 +3242,8 @@
         "paragraph": 1,
         "heading": 5,
         "list": 5
-      }
+      },
+      "imageCount": 1
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/minotaur.html",
@@ -3233,7 +3268,8 @@
       "blockCounts": {
         "heading": 1,
         "table": 3
-      }
+      },
+      "imageCount": 5
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/miranda.html",
@@ -3258,7 +3294,8 @@
       "blockCounts": {
         "heading": 1,
         "table": 3
-      }
+      },
+      "imageCount": 4
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/monk.html",
@@ -3417,7 +3454,8 @@
         "paragraph": 29,
         "list": 2,
         "table": 1
-      }
+      },
+      "imageCount": 17
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/mythical.html",
@@ -3490,7 +3528,8 @@
       "blockCounts": {
         "heading": 13,
         "paragraph": 19
-      }
+      },
+      "imageCount": 2
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/noik.html",
@@ -3515,7 +3554,8 @@
       "blockCounts": {
         "heading": 1,
         "table": 3
-      }
+      },
+      "imageCount": 7
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/nylith.html",
@@ -3540,7 +3580,8 @@
       "blockCounts": {
         "heading": 1,
         "table": 3
-      }
+      },
+      "imageCount": 7
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/orator.html",
@@ -3565,7 +3606,8 @@
       "blockCounts": {
         "heading": 1,
         "table": 2
-      }
+      },
+      "imageCount": 5
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/procyon.html",
@@ -3590,7 +3632,8 @@
       "blockCounts": {
         "heading": 1,
         "table": 3
-      }
+      },
+      "imageCount": 7
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/ranger.html",
@@ -3753,7 +3796,8 @@
         "paragraph": 30,
         "list": 1,
         "table": 1
-      }
+      },
+      "imageCount": 15
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/recipe.html",
@@ -3867,7 +3911,8 @@
         "heading": 12,
         "paragraph": 2,
         "table": 11
-      }
+      },
+      "imageCount": 183
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/rogue.html",
@@ -4030,7 +4075,8 @@
         "paragraph": 30,
         "list": 1,
         "table": 1
-      }
+      },
+      "imageCount": 16
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/rune.html",
@@ -4057,7 +4103,8 @@
         "paragraph": 3,
         "list": 1,
         "table": 1
-      }
+      },
+      "imageCount": 34
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/runeselect.html",
@@ -4150,7 +4197,8 @@
       "blockCounts": {
         "heading": 12,
         "paragraph": 30
-      }
+      },
+      "imageCount": 1
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/sage.html",
@@ -4175,7 +4223,8 @@
       "blockCounts": {
         "heading": 1,
         "table": 3
-      }
+      },
+      "imageCount": 5
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/samurai.html",
@@ -4200,7 +4249,8 @@
       "blockCounts": {
         "heading": 1,
         "table": 3
-      }
+      },
+      "imageCount": 5
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/sarvida.html",
@@ -4225,7 +4275,8 @@
       "blockCounts": {
         "heading": 1,
         "table": 3
-      }
+      },
+      "imageCount": 4
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/scourge.html",
@@ -4250,7 +4301,8 @@
       "blockCounts": {
         "heading": 1,
         "table": 3
-      }
+      },
+      "imageCount": 7
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/scryer.html",
@@ -4275,7 +4327,8 @@
       "blockCounts": {
         "heading": 1,
         "table": 3
-      }
+      },
+      "imageCount": 7
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/selectlist.html",
@@ -4301,7 +4354,8 @@
         "heading": 1,
         "paragraph": 3,
         "table": 1
-      }
+      },
+      "imageCount": 1
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/selectlist2.html",
@@ -4363,7 +4417,8 @@
         "heading": 4,
         "paragraph": 7,
         "table": 3
-      }
+      },
+      "imageCount": 49
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/servant.html",
@@ -4388,7 +4443,8 @@
       "blockCounts": {
         "heading": 1,
         "table": 2
-      }
+      },
+      "imageCount": 5
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/set.html",
@@ -4634,7 +4690,8 @@
         "heading": 4,
         "paragraph": 1,
         "table": 3
-      }
+      },
+      "imageCount": 43
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/shadowknight.html",
@@ -4809,7 +4866,8 @@
         "paragraph": 30,
         "list": 1,
         "table": 1
-      }
+      },
+      "imageCount": 11
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/shaman.html",
@@ -5012,7 +5070,8 @@
         "paragraph": 35,
         "list": 1,
         "table": 2
-      }
+      },
+      "imageCount": 18
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/sidey.html",
@@ -5037,7 +5096,8 @@
       "blockCounts": {
         "heading": 1,
         "table": 3
-      }
+      },
+      "imageCount": 7
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/sinifay.html",
@@ -5062,7 +5122,8 @@
       "blockCounts": {
         "heading": 1,
         "table": 3
-      }
+      },
+      "imageCount": 7
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/spinalzz.html",
@@ -5087,7 +5148,8 @@
       "blockCounts": {
         "heading": 1,
         "table": 3
-      }
+      },
+      "imageCount": 7
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/starcaller.html",
@@ -5112,7 +5174,8 @@
       "blockCounts": {
         "heading": 1,
         "table": 3
-      }
+      },
+      "imageCount": 7
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/statuseffect.html",
@@ -5138,7 +5201,8 @@
         "heading": 1,
         "paragraph": 4,
         "table": 1
-      }
+      },
+      "imageCount": 7
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/stockade.html",
@@ -5163,7 +5227,8 @@
       "blockCounts": {
         "heading": 1,
         "table": 2
-      }
+      },
+      "imageCount": 7
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/swiftraven.html",
@@ -5188,7 +5253,8 @@
       "blockCounts": {
         "heading": 1,
         "table": 3
-      }
+      },
+      "imageCount": 7
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/templar.html",
@@ -5367,7 +5433,8 @@
         "paragraph": 50,
         "list": 1,
         "table": 1
-      }
+      },
+      "imageCount": 27
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/tigole.html",
@@ -5392,7 +5459,8 @@
       "blockCounts": {
         "heading": 1,
         "table": 3
-      }
+      },
+      "imageCount": 6
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/tsubodai.html",
@@ -5417,7 +5485,8 @@
       "blockCounts": {
         "heading": 1,
         "table": 3
-      }
+      },
+      "imageCount": 7
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/tunso.html",
@@ -5442,7 +5511,8 @@
       "blockCounts": {
         "heading": 1,
         "table": 3
-      }
+      },
+      "imageCount": 7
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/tyranid.html",
@@ -5467,7 +5537,8 @@
       "blockCounts": {
         "heading": 1,
         "table": 3
-      }
+      },
+      "imageCount": 7
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/u1hbm.html",
@@ -5517,7 +5588,8 @@
         "heading": 4,
         "paragraph": 1,
         "table": 3
-      }
+      },
+      "imageCount": 25
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/u1hbp.html",
@@ -5567,7 +5639,8 @@
         "heading": 4,
         "paragraph": 1,
         "table": 3
-      }
+      },
+      "imageCount": 25
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/u1hs.html",
@@ -5617,7 +5690,8 @@
         "heading": 4,
         "paragraph": 1,
         "table": 3
-      }
+      },
+      "imageCount": 25
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/u2hbm.html",
@@ -5667,7 +5741,8 @@
         "heading": 4,
         "paragraph": 1,
         "table": 3
-      }
+      },
+      "imageCount": 19
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/u2hbp.html",
@@ -5717,7 +5792,8 @@
         "heading": 4,
         "paragraph": 1,
         "table": 3
-      }
+      },
+      "imageCount": 25
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/u2hs.html",
@@ -5767,7 +5843,8 @@
         "heading": 4,
         "paragraph": 1,
         "table": 3
-      }
+      },
+      "imageCount": 25
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/uamulet.html",
@@ -5817,7 +5894,8 @@
         "heading": 4,
         "paragraph": 1,
         "table": 3
-      }
+      },
+      "imageCount": 30
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/uback.html",
@@ -5867,7 +5945,8 @@
         "heading": 4,
         "paragraph": 1,
         "table": 3
-      }
+      },
+      "imageCount": 49
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/ubar.html",
@@ -5892,7 +5971,8 @@
       "blockCounts": {
         "heading": 1,
         "table": 3
-      }
+      },
+      "imageCount": 7
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/ubelt.html",
@@ -6026,7 +6106,8 @@
         "heading": 16,
         "paragraph": 3,
         "table": 12
-      }
+      },
+      "imageCount": 49
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/uboot.html",
@@ -6160,7 +6241,8 @@
         "heading": 16,
         "paragraph": 3,
         "table": 12
-      }
+      },
+      "imageCount": 49
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/ubow.html",
@@ -6210,7 +6292,8 @@
         "heading": 4,
         "paragraph": 1,
         "table": 3
-      }
+      },
+      "imageCount": 25
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/ubracer.html",
@@ -6344,7 +6427,8 @@
         "heading": 16,
         "paragraph": 3,
         "table": 12
-      }
+      },
+      "imageCount": 49
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/ucharm.html",
@@ -6394,7 +6478,8 @@
         "heading": 4,
         "paragraph": 1,
         "table": 3
-      }
+      },
+      "imageCount": 20
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/uchest.html",
@@ -6528,7 +6613,8 @@
         "heading": 16,
         "paragraph": 3,
         "table": 12
-      }
+      },
+      "imageCount": 49
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/uglove.html",
@@ -6662,7 +6748,8 @@
         "heading": 16,
         "paragraph": 3,
         "table": 12
-      }
+      },
+      "imageCount": 49
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/uhead.html",
@@ -6796,7 +6883,8 @@
         "heading": 16,
         "paragraph": 3,
         "table": 12
-      }
+      },
+      "imageCount": 50
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/uleg.html",
@@ -6930,7 +7018,8 @@
         "heading": 16,
         "paragraph": 3,
         "table": 12
-      }
+      },
+      "imageCount": 49
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/unimon.html",
@@ -6980,7 +7069,8 @@
         "heading": 7,
         "paragraph": 16,
         "table": 1
-      }
+      },
+      "imageCount": 5
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/unique.html",
@@ -7097,7 +7187,8 @@
       "blockCounts": {
         "heading": 3,
         "table": 2
-      }
+      },
+      "imageCount": 22
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/upiercer.html",
@@ -7147,7 +7238,8 @@
         "heading": 4,
         "paragraph": 1,
         "table": 3
-      }
+      },
+      "imageCount": 25
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/uring.html",
@@ -7197,7 +7289,8 @@
         "heading": 4,
         "paragraph": 1,
         "table": 3
-      }
+      },
+      "imageCount": 29
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/ushield.html",
@@ -7247,7 +7340,8 @@
         "heading": 4,
         "paragraph": 1,
         "table": 3
-      }
+      },
+      "imageCount": 25
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/ushoulder.html",
@@ -7381,7 +7475,8 @@
         "heading": 16,
         "paragraph": 3,
         "table": 12
-      }
+      },
+      "imageCount": 49
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/vagabond.html",
@@ -7406,7 +7501,8 @@
       "blockCounts": {
         "heading": 1,
         "table": 2
-      }
+      },
+      "imageCount": 5
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/vagrant.html",
@@ -7431,7 +7527,8 @@
       "blockCounts": {
         "heading": 1,
         "table": 3
-      }
+      },
+      "imageCount": 5
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/volaki.html",
@@ -7456,7 +7553,8 @@
       "blockCounts": {
         "heading": 1,
         "table": 3
-      }
+      },
+      "imageCount": 7
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/warlock.html",
@@ -7631,7 +7729,8 @@
         "paragraph": 35,
         "list": 1,
         "table": 2
-      }
+      },
+      "imageCount": 17
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/warrior.html",
@@ -7818,7 +7917,8 @@
         "paragraph": 29,
         "list": 2,
         "table": 1
-      }
+      },
+      "imageCount": 18
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/wizard.html",
@@ -8025,7 +8125,8 @@
         "paragraph": 41,
         "list": 1,
         "table": 3
-      }
+      },
+      "imageCount": 19
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/wyvern.html",
@@ -8050,7 +8151,8 @@
       "blockCounts": {
         "heading": 1,
         "table": 3
-      }
+      },
+      "imageCount": 5
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/yizeren.html",
@@ -8075,7 +8177,8 @@
       "blockCounts": {
         "heading": 1,
         "table": 3
-      }
+      },
+      "imageCount": 7
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/zak.html",
@@ -8100,7 +8203,8 @@
       "blockCounts": {
         "heading": 1,
         "table": 3
-      }
+      },
+      "imageCount": 4
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/zamtil.html",
@@ -8125,7 +8229,8 @@
       "blockCounts": {
         "heading": 1,
         "table": 3
-      }
+      },
+      "imageCount": 7
     },
     {
       "url": "https://atelier3.web.fc2.com/ngo/zarth.html",
@@ -8150,7 +8255,8 @@
       "blockCounts": {
         "heading": 1,
         "table": 3
-      }
+      },
+      "imageCount": 7
     }
   ]
 }
