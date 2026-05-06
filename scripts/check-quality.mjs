@@ -48,6 +48,8 @@ const FC2_TERMINOLOGY_PATTERNS = [
   /\bTalent\b/,
   /城鎮左側的欄|自然能力/,
   /屬性抗性Rune/,
+  /旋轉地[城牢]|地下城|地牢|副本|绕行|绕过|繞行|繞過去/,
+  /fc2-dpscalc-(輸入表格|計算結果)|輸入博物館值|從裝備中選擇/,
   /\|Strength\|Stamina\|Agility\|Dexterity\|Intelligence\|Wisdom\|Charisma\|/,
   /\b(?:Cleric|Enchanter|Monk|Shadow Knight|Shaman|Templar|Warlock|Warrior|Wizard|Crusader|Rogue|Ranger|Bard|Druid)、/,
   /\b(?:Cleric|Enchanter|Monk|Shadow Knight|Shaman|Templar|Warlock|Warrior|Wizard|Crusader|Rogue|Ranger|Bard|Druid)\s+(?:Skill|Talent|才能)/,

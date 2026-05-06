@@ -142,6 +142,7 @@ const SOURCE_TERM_REPLACEMENTS = [
   ['インベントリ', '背包'],
   ['アカデミー', '學院'],
   ['ミッション', '任務'],
+  ['ダンジョン', '地城'],
   ['酒場', '酒館'],
   ['タウン', '城鎮'],
   ['リログ', '重新登入'],
@@ -277,6 +278,13 @@ const SOURCE_TERM_REPLACEMENTS = [
   ['物理理', '物理'],
 ];
 
+const INTERACTIVE_TOOL_PAGE_NOTES = {
+  'dpscalc.html': [
+    '這個來源頁是 FC2 原站的 JavaScript / 表單計算機。本站不搬原站 JavaScript，也尚未重製可操作版本，因此不把輸入表單與計算結果表格轉成靜態 Markdown。',
+    '要實際試算武器 DPS，請直接開啟原站計算器。',
+  ],
+};
+
 const PUBLIC_TERM_REPLACEMENTS = [
   ['UniqueDrop Rate', '獨特掉落率'],
   ['Unique Drop Rate', '獨特掉落率'],
@@ -379,6 +387,20 @@ const POSTPROCESS_REPLACEMENTS = [
   ['正常難度', '普通（Normal）難度'],
   ['噩夢', '惡夢（Nightmare）'],
   ['英勇', '英雄（Heroic）'],
+  ['以太', '乙太'],
+  ['符號文字', '符文'],
+  ['符號文本', '符文'],
+  ['旋轉地牢', '周回地城'],
+  ['旋轉地城', '周回地城'],
+  ['地下城', '地城'],
+  ['地牢', '地城'],
+  ['副本', '地城'],
+  ['绕行', '周回'],
+  ['绕过', '周回'],
+  ['繞行', '周回'],
+  ['繞過去', '周回'],
+  ['非政府組織', 'NGO'],
+  ['NGO內部', 'NGO 內部'],
   ['流氓', '盜賊'],
   ['聖堂武士', '聖殿騎士'],
   ['從城鎮左側的欄中選擇一個任務並進入。', '從城鎮左側的酒館選擇任務即可進入地城。'],
@@ -503,6 +525,31 @@ const MANUAL_TRANSLATIONS = {
     '惡夢（Nightmare）可以開始收集 Exceptional 裝備。',
   'また盾やセット装備にも優秀なものが多い。そして属性耐性を集め、大きく欠けた属性があるならレアの頭・靴・ネックレスなどで調整したり、ソケット付きの防具に属性耐性ルーンを入れたりするといい。':
     '盾牌與套裝裝備也有許多優秀選擇。接著要開始堆元素抗性；如果某個屬性缺口很大，可以用稀有頭盔、靴子、項鍊等部位補足，或在有插槽的防具上鑲嵌屬性抗性符文。',
+  'エーテルとルーンを反映させた時の数値を調べる用。':
+    '用來試算套用乙太與符文後的武器數值。',
+  'ざっくりした目安としては、DPS7≒筋力30≒全パッシブ15≒攻撃能力100。':
+    '粗略換算：DPS 7 ≒ 力量 30 ≒ 全 Passive 15 ≒ Attack Rating 100。',
+  '非常に危険ではあるが、そのぶんアイテムの収集や経験値稼ぎはしやすくなる。':
+    '雖然非常危險，但相對地更適合收集物品與刷經驗。',
+  'Lv95以降のレベルアップに必要な経験値が馬鹿げているため、だいたいのプレイヤーはこのあたりで合流する。':
+    'Lv95 以後升級所需經驗值非常誇張，多數玩家大約會在這裡開始匯合周回。',
+  'このあたりになるとタレントは2種のツリーの Mastery を獲得するような形になっていると思われる。':
+    '到了這個階段，天賦通常會變成取得兩條天賦樹 Mastery 的配置。',
+  'ヒロイックに入る目安としては、エリートセットが揃っているか、もしくはそれに準じた装備が揃っていること。':
+    '進入英雄（Heroic）的門檻，大致是湊齊 Elite Set 或同等級裝備。',
+  'DPSでいえば75k相当の働きができていれば一人前であり、100k相当の働きをしていればキャリー側といった印象。':
+    '以 DPS 來說，能打出約 75k 的貢獻就算成熟玩家；約 100k 則可視為 carry 端。',
+  周回するダンジョン: '周回地城',
+  'ヒロイックで周回するダンジョンは現状ではほぼ固定化している。':
+    '英雄（Heroic）常見的周回地城目前幾乎已固定。',
+  'Act.II - Riven Grotto - King of Riven Grotto\n一番人気。まずアンデッド特攻を持つクルセイダーとクレリックを十全に活かすことができる点。その他にマップの広さが普通で回りやすく、エリアボスであるためボスドロップが多いことが挙げられる。\nAct.IIIの Thule Crypt も同じアンデッドダンジョンだが、アーケイン耐性持ちが多いため劣化でしかない。':
+    'Act.II - Riven Grotto - King of Riven Grotto\n最受歡迎。理由是能充分發揮十字軍與牧師的不死族特攻；地圖大小適中、路線好跑，又是區域 Boss，因此 Boss 掉落也多。\nAct.III 的 Thule Crypt 同樣是不死族地城，但 Arcane 抗性的怪物很多，整體只算下位替代。',
+  'Act.III - Sylong Sanctuary - Lord Gazzion\n強力なレジェンダリーにミスティック特攻が増えたため、選択肢に挙がるようになってきた。アーケイン耐性が非常に高いため、クルセイダーやクレリックといったアーケイン職は苦手。':
+    'Act.III - Sylong Sanctuary - Lord Gazzion\n因強力 Legendary 裝備增加 Mystical 特攻，逐漸成為可選地城。怪物 Arcane 抗性非常高，十字軍、牧師等 Arcane 職業比較不擅長。',
+  'Act.IV - Galeblast Fortress - 前半のミッション\n氷耐性が高く、炎耐性が低いダンジョンであるため、ウィザード・モンク・ローグといった炎属性の職が回りやすい。またヒューマイドが多いため、ヒューマノイド特攻を伸ばせば周回がしやすい。\nダンジョン後半は物理耐性を持つジャイアントが出現するため人気がない。':
+    'Act.IV - Galeblast Fortress - 前半任務\n這裡冰冷抗性高、火焰抗性低，巫師、武僧、盜賊等火焰屬性職業比較好刷。Humanoid 數量多，堆 Humanoid 特攻也能提高周回效率。\n地城後半會出現具物理抗性的 Giant，因此不受歡迎。',
+  'Act.IV - Ashenflow Peak - 前半のミッション\n炎耐性が高く、氷耐性が低いダンジョンであるため、主にドルイドが中心となったパーティに選ばれやすい。\nこちらもヒューマノイド中心なので、ヒューマノイド特攻が有効。\nダンジョン後半は物理耐性を持つジャイアントや、アーケイン耐性を持つケルベロスがクソ。':
+    'Act.IV - Ashenflow Peak - 前半任務\n這裡火焰抗性高、冰冷抗性低，常被以德魯伊為核心的隊伍選用。\n這裡也以 Humanoid 為主，因此 Humanoid 特攻有效。\n地城後半有物理抗性的 Giant，以及 Arcane 抗性的 Cerberus，很難處理。',
   '難易度上昇による強化点はナイトメアと同様で、より厳しくなったものが適用される。':
     '地獄（Hell）的強化方向和惡夢（Nightmare）相同，但數值與壓力都會更嚴苛。',
   '特に属性耐性が厳しく、ナイトメアからヘルで属性耐性がさらに40%減少し、合計すると70%もの減少となる。':
@@ -846,12 +893,13 @@ async function pageCacheFor(file) {
 
 function collectTexts(page) {
   const texts = [page.pageTitle, page.title];
+  const skipInteractiveDetails = Boolean(INTERACTIVE_TOOL_PAGE_NOTES[page.file]);
   for (const block of page.blocks ?? []) {
     if (block.type === 'heading' || block.type === 'paragraph') {
       texts.push(block.text);
     } else if (block.type === 'list') {
       texts.push(...block.items);
-    } else if (block.type === 'table') {
+    } else if (!skipInteractiveDetails && block.type === 'table') {
       for (const row of block.rows) {
         texts.push(...row.filter(shouldTranslateTableCell));
       }
@@ -917,6 +965,19 @@ function renderPage(page, translator) {
   if (page.lastModified) lines.push(`- 原站 Last-Modified：\`${page.lastModified}\``);
   lines.push('');
 
+  const interactiveNote = INTERACTIVE_TOOL_PAGE_NOTES[page.file];
+  if (interactiveNote) {
+    for (const block of page.blocks ?? []) {
+      if (block.type !== 'paragraph') continue;
+      const text = translator.get(block.text);
+      if (text) lines.push(text, '');
+    }
+    lines.push('> **原站互動工具**');
+    for (const note of interactiveNote) lines.push(`> ${note}`);
+    lines.push(`> 原站連結：[${localizeClassOnlyText(translator.get(page.pageTitle))}](${page.url})。`);
+    return lines.join('\n').replace(/\n{3,}/g, '\n\n').trim();
+  }
+
   let skippedFirstH1 = false;
   const headingIds = new Map();
   let baseSourceHeadingLevel = null;
@@ -973,8 +1034,15 @@ function sourceReminder() {
 }
 
 function introFor(outputFile, sourcePages, reviewedAt) {
-  return [
+  const hasInteractiveToolPage = sourcePages.some((page) => INTERACTIVE_TOOL_PAGE_NOTES[page.file]);
+  const sourcePolicy = [
     '本頁由 FC2 / atelier3 原站 HTML 重新擷取後繁中化，保留原頁段落、清單、表格欄位與數值；原站圖片、CSS、JavaScript 不搬入公開站。',
+    hasInteractiveToolPage ? '互動工具頁僅保留用途摘要與原站連結。' : '',
+  ]
+    .filter(Boolean)
+    .join('');
+  return [
+    sourcePolicy,
     '',
     `- 檢視日期：\`${reviewedAt}\``,
     `- FC2 來源頁數：${sourcePages.length}`,

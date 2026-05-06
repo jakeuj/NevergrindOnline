@@ -46,14 +46,14 @@ sourcePages:
     title: "特殊モンスター | Nevergrind Online 攻略DB"
     url: "https://atelier3.web.fc2.com/ngo/unimon.html"
     lastModified: "Sun, 13 Apr 2025 14:29:25 GMT"
-reviewedAt: "2026-05-05"
+reviewedAt: "2026-05-06"
 sourceLastModified: "Thu, 26 Jun 2025 00:23:06 GMT"
 status: "FC2 原站高保真繁中化"
 ---
 
-本頁由 FC2 / atelier3 原站 HTML 重新擷取後繁中化，保留原頁段落、清單、表格欄位與數值；原站圖片、CSS、JavaScript 不搬入公開站。
+本頁由 FC2 / atelier3 原站 HTML 重新擷取後繁中化，保留原頁段落、清單、表格欄位與數值；原站圖片、CSS、JavaScript 不搬入公開站。互動工具頁僅保留用途摘要與原站連結。
 
-- 檢視日期：`2026-05-05`
+- 檢視日期：`2026-05-06`
 - FC2 來源頁數：11
 - 翻譯策略：職業、屬性、難度、天賦與符文採中文優先；英文 item / skill / boss / map 查詢詞按需保留。
 - 內容狀態：由 FC2 原站正文生成，不使用舊版摘要句。
@@ -752,11 +752,11 @@ Boss mods 是固定的，除非你重新登入或更換領導者。
 
 如果幸運拿到 Gra 符文，可以到鐵匠鋪把它附到有插槽的武器上，推進會輕鬆很多。
 
-最好專注於一個地下城的進展，而不是填充一個廣泛的範圍。對付比你高2級左右的敵人會更有效率，而且如果你清理了該區域，敵人的等級往往會更低。
+最好專注於一個地城的進展，而不是填充一個廣泛的範圍。對付比你高2級左右的敵人會更有效率，而且如果你清理了該區域，敵人的等級往往會更低。
 
 擊敗一個區域的boss也會同時解鎖其他區域的boss，所以不用擔心。
 
-另外，盡量積極參與聚會。隨著敵人數量的增加，訓練速度會發生很大的變化。即使你聽不懂英語，進來時也只需說“hi”，離開時說“tyfp”即可。當你準備好進入地牢時，請右鍵單擊螢幕底部的臉部圖像，然後按切換：準備顯示綠色劍。
+另外，盡量積極參與聚會。隨著敵人數量的增加，訓練速度會發生很大的變化。即使你聽不懂英語，進來時也只需說“hi”，離開時說“tyfp”即可。當你準備好進入地城時，請右鍵單擊螢幕底部的臉部圖像，然後按切換：準備顯示綠色劍。
 
 <a id="fc2-chart-lv25"></a>
 
@@ -868,38 +868,38 @@ Boss mods 是固定的，除非你重新登入或更換領導者。
 
 基本結構與地獄（Hell）相同，但敵人會更強，Champion monster 的比例也會增加。
 
-這是非常危險的，但它使收集物品和賺錢變得更容易。
+雖然非常危險，但相對地更適合收集物品與刷經驗。
 
 <a id="fc2-chart-lv95"></a>
 
 #### Lv95～
 
-大多數玩家都是在這個點加入的，因為Lv95之後升級所需的時間太長了。
+Lv95 以後升級所需經驗值非常誇張，多數玩家大約會在這裡開始匯合周回。
 
-至此，天賦能力似乎變成了可以掌握兩種樹木。
+到了這個階段，天賦通常會變成取得兩條天賦樹 Mastery 的配置。
 
-進入英雄的標準是擁有精英套裝或類似的裝備。
+進入英雄（Heroic）的門檻，大致是湊齊 Elite Set 或同等級裝備。
 
-就DPS而言，如果你能做到相當於75k，你就被認為是一個成熟的玩家，如果你能做到相當於100k，你就被認為是一個carry。
+以 DPS 來說，能打出約 75k 的貢獻就算成熟玩家；約 100k 則可視為 carry 端。
 
-<a id="fc2-chart-旋轉地牢"></a>
+<a id="fc2-chart-周回地城"></a>
 
-#### 旋轉地牢
+#### 周回地城
 
-目前，英雄玩家可以绕行的地下城几乎已经确定。
+英雄（Heroic）常見的周回地城目前幾乎已固定。
 
-- 第二幕 - 裂罅洞窟 - 裂罅洞窟之王
-  最受歡迎。首先，你可以充分利用擁有亡靈特殊攻擊的十字軍和牧師。另外，地圖相當大，出遊也方便，而且由於是區域boss，所以boss掉落也很多。
-  第三幕中的圖勒地穴也是同樣​​的不死地牢，但它只是較差，因為有許多奧術抗性。
-- 第三幕 - 西隆庇護所 - 加齊恩領主
-  隨著強大傳奇人物的神秘特殊攻擊的增加，它已成為一種選擇。由於對奧術的抵抗力極高，所以對抗十字軍、牧師等奧術職業較弱。
-- 第四幕 - 疾風要塞 - 上半場任務
-  由于是冰抗高火抗低的副本，所以很容易找到萨满、战士僧侣、盗贼等火属性职业。另外，由於人形生物數量較多，如果延長人形生物的特攻的話，很容易繞過去。
-  地下城的後半部並不受歡迎，因為出現了具有物理抵抗力的巨人。
-- 第四幕 - 灰流峰 - 上半場任務
-  由於是火抗性高、冰抗性低的副本，所以很容易被以德魯伊為中心的隊伍選出。
-  這也是以人形生物為中心，因此人形生物的特殊攻擊是有效的。
-  副本後半段，物理抗性的巨人和奧術抗性的地獄犬都是垃圾。
+- Act.II - Riven Grotto - King of Riven Grotto
+  最受歡迎。理由是能充分發揮十字軍與牧師的不死族特攻；地圖大小適中、路線好跑，又是區域 Boss，因此 Boss 掉落也多。
+  Act.III 的 Thule Crypt 同樣是不死族地城，但 Arcane 抗性的怪物很多，整體只算下位替代。
+- Act.III - Sylong Sanctuary - Lord Gazzion
+  因強力 Legendary 裝備增加 Mystical 特攻，逐漸成為可選地城。怪物 Arcane 抗性非常高，十字軍、牧師等 Arcane 職業比較不擅長。
+- Act.IV - Galeblast Fortress - 前半任務
+  這裡冰冷抗性高、火焰抗性低，巫師、武僧、盜賊等火焰屬性職業比較好刷。Humanoid 數量多，堆 Humanoid 特攻也能提高周回效率。
+  地城後半會出現具物理抗性的 Giant，因此不受歡迎。
+- Act.IV - Ashenflow Peak - 前半任務
+  這裡火焰抗性高、冰冷抗性低，常被以德魯伊為核心的隊伍選用。
+  這裡也以 Humanoid 為主，因此 Humanoid 特攻有效。
+  地城後半有物理抗性的 Giant，以及 Arcane 抗性的 Cerberus，很難處理。
 
 <a id="fc2-dpscalc"></a>
 
@@ -908,33 +908,14 @@ Boss mods 是固定的，除非你重新登入或更換領導者。
 - FC2 file：[dpscalc.html](https://atelier3.web.fc2.com/ngo/dpscalc.html)
 - 原站 Last-Modified：`Wed, 09 Apr 2025 21:24:57 GMT`
 
-用於檢查反映以太和符號文字時的數值。
+用來試算套用乙太與符文後的武器數值。
 
-作為粗略指導，DPS7≒力量30≒所有被動15≒攻擊等級100。
+粗略換算：DPS 7 ≒ 力量 30 ≒ 全 Passive 15 ≒ Attack Rating 100。
 
-<a id="fc2-dpscalc-輸入表格"></a>
-
-### 輸入表格
-
-|輸入博物館值 傷害 - 速度 從裝備中選擇 個人選擇 閃閃發光的迅刃 深淵碎片 季風 迅刃 領主之劍 聖方舟之杖 神秘典範 境界轉移者 莫迪凱的大天使法杖 龍牙短劍 暴風雨 和弦組選擇 達胡德的寧靜法律的騙子 賤尼諾西尼菲的格林西姆 西尼菲的奧羅薩斯 西尼菲的金鷂 斯賓納爾茲的致命利刃 斯威夫拉文的放血者 坪台的武裝 頓索的贖罪鷂 斯賓納爾茲的致命利刃 斯威夫拉文的放血者 坪台的武裝 頓索的贖罪鷂 磨林的天啟 扎姆提爾的棱鏡魔杖精選 薩拉丁的馬卡里布 格溫的磨光……樹風的喚地者 至高毀滅者 托特 心靈連結法杖 蒼穹法杖 ……巴山的凱旋 希梅爾斯多奇 雷托·多庫 死亡大臣|裝備模組 傷害增強 % 攻擊速度增加 % 元素添加 以太 是 符文雙曼 武器傷害 x 20 武器速度 x 0.07|欄位 3|
-|---|---|---|
-|Damage|－||
-|Speed|||
-|獨特|選択 Gleaming Swiftblade Abyssal Shard Monsoon SwiftBlade Sword of the Lord Rod of the Holy Ark Cryptic Paragon Realm Shifter Mordecai's Archangel Staff Dragontooth Stiletto Tempest Chord||
-|設定|選択 Daahoud's Tranquil Staff Edarion's Soulfury Fansy's Euphony Jibekn's Oddity Noik's Pariah Nylith's Crook Procyon's Fragment Sinifay's Glinthium Sinifay's Aurorthas Sinifay's Golden Harrier Spinalzz's Fatal Edge Swiftraven's Bloodletter Tsubodai's Armament Tunso's Atonement Yizaren's Revelation Zamtil's Prism||
-|萊傑爾|選択 Saladin's Makhalib Gwyn's Burnished... Shadow's Embrace Gloom Harvester McMurdo's Twig Shining Dawn Astral Grimoire of... Fuvu Kifo Treewind's Earthcaller Empyrean Destroyer Thoth Mindlink Staff Firmament Staff of the... Bashan's Triumph Himmelsdolch Reito Doku Minister of Death||
-|Damage強化|%||
-|攻擊速度增加|%||
-|乙醚|是的||
-|符文 雙手|武器Damage|x 20|
-|武器速度|x 0.07||
-
-<a id="fc2-dpscalc-計算結果"></a>
-
-### 計算結果
-
-|Damage|－|Speed|欄位 4|DPS|欄位 6|
-|---|---|---|---|---|---|
+> **原站互動工具**
+> 這個來源頁是 FC2 原站的 JavaScript / 表單計算機。本站不搬原站 JavaScript，也尚未重製可操作版本，因此不把輸入表單與計算結果表格轉成靜態 Markdown。
+> 要實際試算武器 DPS，請直接開啟原站計算器。
+> 原站連結：[武器DPS計算機](https://atelier3.web.fc2.com/ngo/dpscalc.html)。
 
 <a id="fc2-english"></a>
 
@@ -943,7 +924,7 @@ Boss mods 是固定的，除非你重新登入或更換領導者。
 - FC2 file：[english.html](https://atelier3.web.fc2.com/ngo/english.html)
 - 原站 Last-Modified：`Thu, 26 Jun 2025 00:23:06 GMT`
 
-非政府組織內部使用的遊戲詞彙和英文縮寫。
+NGO 內部使用的遊戲詞彙和英文縮寫。
 
 <a id="fc2-english-翻譯軟體"></a>
 
@@ -1500,7 +1481,7 @@ Dauntless 保留率進一步降低了 50%。
 - FC2 file：[unimon.html](https://atelier3.web.fc2.com/ngo/unimon.html)
 - 原站 Last-Modified：`Sun, 13 Apr 2025 14:29:25 GMT`
 
-有關地下城中出現的怪物的資訊。
+有關地城中出現的怪物的資訊。
 
 *由於驗證不充分，可能會有一些錯誤。
 
@@ -1560,7 +1541,7 @@ Dauntless 保留率進一步降低了 50%。
 
 它的名字是紫色背景的怪物，它出現的任務是固定的。
 
-出現在通往地下城的途中以及通往該區域途中的 Boss 房間中的指定角色都適用。
+出現在通往地城的途中以及通往該區域途中的 Boss 房間中的指定角色都適用。
 
 第一個mod是固定的，第二個和第三個是mod。加強地位/抵抗力。
 
