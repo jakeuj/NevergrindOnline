@@ -6,7 +6,7 @@ sourcePages:
     title: "装備Mods | Nevergrind Online 攻略DB"
     url: "https://atelier3.web.fc2.com/ngo/itemmods.html"
     lastModified: "Mon, 23 Jun 2025 02:55:16 GMT"
-reviewedAt: "2026-05-04"
+reviewedAt: "2026-05-06"
 sourceLastModified: "Mon, 23 Jun 2025 02:55:16 GMT"
 status: "整理改寫"
 ---
@@ -47,10 +47,10 @@ status: "整理改寫"
 
 | 建議寫法 | 英文名稱 | 說明 |
 | ------ | ------ | ------ |
-| 普通（Normal） | `Normal` | 基礎難度；怪物特殊屬性數量請以目前版本為準。 |
-| 惡夢（Nightmare） | `Nightmare` | 進階難度；常見整理會把它放在普通與地獄之間。 |
-| 地獄（Hell） | `Hell` | 高難度階段，進入前通常要先補抗性、生存與裝備穩定度。 |
-| 英雄（Heroic） | `Heroic` | 任務的進階模式，通常代表更高風險與更高掉落 / 金幣期待。 |
+| 普通（Normal） | `Normal` | 基礎世界 / 環境難度；怪物特殊屬性數量請以目前版本為準。 |
+| 惡夢（Nightmare） | `Nightmare` | 進階世界 / 環境難度；常見整理會把它放在普通與地獄之間。 |
+| 地獄（Hell） | `Hell` | 高階世界 / 環境難度，通常代表更高 Mods / traits、抗性懲罰與生存壓力；可再疊加英雄（Heroic）任務模式。 |
+| 英雄（Heroic） | `Heroic` | 任務的進階模式，通常在酒館（Tavern）的任務選擇畫面勾選或切換；怪物更密集、更強，並提高掉落 / 金幣 / Magic Find 期待。 |
 | 天梯（Ladder） | `Ladder` | 賽季制競爭模式，通常有獨立排行榜。 |
 | 永久（Eternal） | `Eternal` | 賽季結束後角色移入的非賽季模式。 |
 

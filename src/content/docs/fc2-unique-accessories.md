@@ -1,6 +1,6 @@
 ---
-title: "Nevergrind Online FC2 Unique 飾品全量表"
-description: "FC2 Unique Charm、Amulet、Ring 頁面的繁中化版本，保留 Mods 與需求等級。"
+title: "Nevergrind Online FC2 獨特飾品全量表"
+description: "FC2 獨特 Charm、Amulet、Ring 頁面的繁中化版本，保留 Mods 與需求等級。"
 sourcePages:
   - file: "uamulet.html"
     title: "ユニーク防具/ネックレス | Nevergrind Online 攻略DB"

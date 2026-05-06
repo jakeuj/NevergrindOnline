@@ -1,18 +1,18 @@
 ---
 title: "Nevergrind Online 牧師刷區域指南"
-description: "牧師（Cleric）想提升刷怪效率，優先找不死生物與惡魔密集的任務區域。依 Fandom 牧師頁目前整理，Deliverance 對 demons / undead 有額外傷害，目標被 stun 時還會再吃額外傷害；Condemnation 也會對 demons / undead 追加傷害。這讓牧師在 undead / demon boss 密集的地城裡，能"
+description: "牧師（Cleric）刷 undead / demon 區域的路線整理，包含 Normal、Nightmare、Hell 與 Heroic 周回判斷。"
 sourcePages: []
-reviewedAt: "2026-05-03"
+reviewedAt: "2026-05-06"
 sourceLastModified: "N/A"
 status: "整理改寫"
 ---
 
 牧師（Cleric）想提升刷怪效率，優先找不死生物與惡魔密集的任務區域。依 Fandom 牧師頁目前整理，`Deliverance` 對 demons / undead 有額外傷害，目標被 stun 時還會再吃額外傷害；`Condemnation` 也會對 demons / undead 追加傷害。這讓牧師在 undead / demon boss 密集的地城裡，能從治療者切換成很有效率的爆發型施法職。
 
-- 檢視日期：`2026-05-03`
-- 前置閱讀：[Nevergrind Online 牧師（Cleric）指南](./cleric/)
-- Build 參考：[Nevergrind Online 牧師（Scion）輸出指南](./cleric-scion-dps/)
-- 資料來源：來源摘要、Fandom 牧師（Cleric）頁、Nevergrind Wiki 的 zone / monster mechanics
+- 檢視日期：`2026-05-06`
+- 前置閱讀：[Nevergrind Online 牧師（Cleric）指南](/cleric/)
+- Build 參考：[Nevergrind Online 牧師（Scion）輸出指南](/cleric-scion-dps/)
+- 資料來源：來源摘要、FC2 遊戲流程 / 牧師裝備例、Fandom 牧師（Cleric）頁、Nevergrind Wiki 的 zone / monster mechanics
 - 版本提醒：區域名稱、boss 名稱、怪物族類與掉落目標可能因版本或資料來源不同而變動；實際 farm 前請用遊戲內任務列表、怪物 tooltip 與交易市場再確認一次
 
 > **快速重點**
@@ -41,7 +41,7 @@ status: "整理改寫"
 | ------ | ------ | ------ | ------ | ------ |
 | 1 | `Riven Grotto`（瑞文洞窟） | Act II | 來源摘要指出此區 undead 密度高，適合早期練牧師輸出節奏 | 適合從 Normal 開始熟 route；高難度再追效率 |
 | 2 | `Thule Crypt`（圖勒地窖）/ crypt 系區域 | Act III | 來源摘要列出多個 undead boss，是更高壓的 undead farm 點 | 留意 `Spirit Drain` / 抽資源類壓力；名稱可能需以遊戲內顯示為準 |
-| 3 | [Fahlnir Citadel（法爾尼爾城堡）](./fahlnir-citadel/) | Act IV | 混合高階 undead 與 demon，適合成形牧師發揮特攻 | 風險與掉落等級都更高，Hell trait 組合可能很兇 |
+| 3 | [Fahlnir Citadel（法爾尼爾城堡）](/fahlnir-citadel/) | Act IV | 混合高階 undead 與 demon，適合成形牧師發揮特攻 | 風險與掉落等級都更高，Hell trait 組合可能很兇 |
 | 4 | `Ashenflow Peak`（灰燼流巔峰） | Act IV 後段 | 有 demon 類 boss 可讓牧師打爆發 | 怪物組成較混雜，不像 Riven Grotto 那麼純 |
 
 Nevergrind Wiki 主頁有列出 `Riven Grotto`、`Fahlnir Citadel`、`Ashenflow Peak` 等 zones；`Thule Crypt` 這個名稱來自 來源摘要，公開官方主頁目前沒有同名 zone 條目，所以寫筆記時先保留名稱並提醒進遊戲核對。
@@ -71,7 +71,7 @@ Nightmare 建議：
 
 - `Riven Grotto` 仍是最穩的 undead farm 起點。
 - `Thule Crypt` / crypt 系區域適合進階測試，但遇到抽資源或長戰鬥 boss 要保守。
-- [Fahlnir Citadel](./fahlnir-citadel/) 開始要求更好的 plate armor、抗性與資源回復，尤其要留意 fire / lightning 與抽 spirit 類風險。
+- [Fahlnir Citadel](/fahlnir-citadel/) 開始要求更好的 plate armor、抗性與資源回復，尤其要留意 fire / lightning 與抽 spirit 類風險。
 - `Ashenflow Peak` 適合針對 demon 目標，不適合作為完全無腦 farm 點。
 
 準備方向：
@@ -91,7 +91,7 @@ Hell 的區域判斷：
 | ------ | ------ | ------ |
 | `Riven Grotto` | 最穩定的主刷點 | undead 密度高，牧師特攻收益穩，但仍要看 trait |
 | `Thule Crypt` / crypt 系區域 | 高收益高壓 | undead 目標多，但抽資源或控制壓力會直接威脅牧師 |
-| [Fahlnir Citadel](./fahlnir-citadel/) | 高階成形後再刷 | undead / demon 目標價值高，但 trait 組合與高等 boss 壓力都重 |
+| [Fahlnir Citadel](/fahlnir-citadel/) | 高階成形後再刷 | undead / demon 目標價值高，但 trait 組合與高等 boss 壓力都重 |
 | `Ashenflow Peak` | 針對 demon 目標使用 | demon 目標值得打，但非加成怪較多，效率不一定穩 |
 
 Hell 特別要警戒的 traits / 風險：
@@ -103,6 +103,20 @@ Hell 特別要警戒的 traits / 風險：
 - `Dauntless`：降低 stun、fear、silence 持續時間，會讓 stun -> `Deliverance` 的窗口變短。
 
 Hell farm 的心法是「寧可挑怪，也不要硬拼」。牧師的 plate armor 讓你有容錯，但抽資源與延長施法會直接拆掉你的核心節奏。
+
+## 英雄（Heroic）周回
+
+FC2 的英雄周回建議把 `Act II - Riven Grotto - King of Riven Grotto` 列為熱門地點。這裡不是章節最高的地城，但 undead 目標多，牧師（Cleric）可以把 `Condemnation` / `Deliverance` 的不死生物特攻打出來；FC2 牧師裝備例也把它當成反 undead 配裝的想定場景。
+
+Heroic 階段可以這樣排：
+
+| 地點 | 用途 | 注意點 |
+| ------ | ------ | ------ |
+| `King of Riven Grotto`（Heroic） | 終局主要周回候選，特別適合不死生物特攻裝備成形後反覆刷 | 它是 Act II 的效率點，不要誤寫成 Act IV；仍要看當次 trait 與任務掉落偏好 |
+| `Ashenflow Peak`（Heroic 前半） | Act IV 條件型選項，適合隊伍或裝備能利用元素抗性差異時嘗試 | 怪物組成較混雜，不是牧師專屬農場；後半壓力會更高 |
+| [Fahlnir Citadel（法爾尼爾城堡）](/fahlnir-citadel/) | 成形後測試高壓 undead / demon 目標與裝備強度 | 可以列為周回候選，但不要把特定套裝掉落寫成保證來源 |
+
+如果目標已經從「能通關」變成「補齊終局裝備」，請搭配 [牧師（Scion）輸出指南的終局裝備與取得路線](/cleric-scion-dps/#終局裝備與取得路線) 一起看；刷哪裡和賭什麼部位要連在一起判斷。
 
 ## 輸出循環建議
 
@@ -121,7 +135,7 @@ Hell farm 的心法是「寧可挑怪，也不要硬拼」。牧師的 plate arm
 
 ## 裝備與補給
 
-來源摘要把 [Cryptic Paragon（Haniwa）](./cryptic-paragon-haniwa/) 視為牧師追求的重點裝備之一，原因是它被描述為能支援全才能與 undead 特攻。這類 BiS 名單很值得記，但不要只靠單一舊資料決定 farm 路線。
+來源摘要把 [Cryptic Paragon（Haniwa）](/cryptic-paragon-haniwa/) 視為牧師追求的重點裝備之一，原因是它被描述為能支援全才能與 undead 特攻。這類 BiS 名單很值得記，但不要只靠單一舊資料決定 farm 路線。
 
 刷之前先確認：
 

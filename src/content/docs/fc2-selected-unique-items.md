@@ -57,7 +57,7 @@ status: "FC2 原站高保真繁中化"
 
 |物品名稱|等級|職業|備註|
 |---|---|---|---|
-|[圖片:focus7.png] Cryptic Paragon Haniwa [單手鈍器]|75|魔法職業|俗稱埴輪。基本上就是查看各個職業的代表技能。光是技能匹配就很出色，但自然匹配卻是極強的。特別危險的是德羅伊的龍捲風、大師的高級迷魂和薩滿的高級閃電。|
+|[圖片:focus7.png] Cryptic Paragon Haniwa [單手鈍器]|75|魔法職業|俗稱 Haniwa。基本上請對照各職代表技能；只要技能 roll 命中就很優秀，若天賦也命中會非常強。特別誇張的是德魯伊 Tornado、附魔師 Superior Enthrall、巫師 Superior Lightning Bolt 等。|
 |[圖片:oneHandSlashers5.png] Gleaming Swiftblade Shinken [單手斬擊]|72|暗影騎士|暗影破壞 連續命中型暗影騎士所採用。必須具有 120 或更高的 DPS 以及血騎士天賦 +2。|
 |[圖片:oneHandSlashers7.png] Abyssal Shard Mythical Sword [單手斬擊]|75|暗影騎士|暗影破壞 連續命中型暗影騎士所採用。 DPS 120 或以上的不死族上限為 6%。如果影斷能相容技能強化就更好了。|
 |[圖片:twoHandBlunts2.png] Korelian Adamantite Maul Havoc Mallet [雙手鈍器]|67|戰士|非常適合作為戰士傳奇武器的連結。我想盡可能尋找高DPS、控球天賦+3和插槽4的。|
@@ -76,16 +76,16 @@ status: "FC2 原站高保真繁中化"
 
 |物品名稱|等級|職業|備註|
 |---|---|---|---|
-|[圖片:helms6.png] Charlatan's Crest Shako [頭部] [布甲製]|72|多數|俗名：螳螂蝦。控球天賦+2必不可少，越接近屬性傷害+16%、稀有抽籤+50%越好。唯一的問題是出血。|
+|[圖片:helms6.png] Charlatan's Crest Shako [頭部] [布甲製]|72|多數|俗稱 Shako。+2 所有天賦是必備；屬性傷害越接近 +16%、Rare Drop Rate 越接近 +50% 越好。只有出血屬性比較不理想。|
 |[圖片:helms0.png] Chemosh's Hooded Shade Outrider Hood [頭部] [布甲製]|64|術士 附魔師 巫師|是禮物樹+2和禮物+3的裝備，搭配就很強。可在施法者瘟疫增幅不足、輔助法師專精裝備、薩滿超強閃電增幅不足等情況下使用。|
-|[圖片:helms2.png] Bodhidharma's Satori Nemes [頭部] [布甲製]|65|武僧|+2 鳳凰或獵鷹天賦，最好涉及龍拳或颶風踢。如果火力是你的首要任務，那就選擇這個，如果你優先考慮雷德羅，那就選擇薩科。|
+|[圖片:helms2.png] Bodhidharma's Satori Nemes [頭部] [布甲製]|65|武僧|天賦是 Phoenix 或 Falcon +2，最好還帶 Dragon Punch 或 Hurricane Kicks。火力優先選這件；Rare Drop Rate 優先則選 Shako。|
 |[圖片:helms3.png] Ashtaroth's Guardian Dynasty Crown [頭部] [布甲製]|67|術士 附魔師 巫師|是禮物樹+2和禮物+3的裝備，搭配就很強。可在施法者瘟疫增幅不足、輔助法師專精裝備、薩滿超強閃電增幅不足等情況下使用。|
-|[圖片:helms5.png] Stormfeather's Eye Corona [頭部] [布甲製]|71|附魔師 巫師|閃電天賦+1~3，混沌法師+1~2，合計3個以上。精英套裝對於薩滿來說非常出色，但在進行埴輪舒莫奇時，我有時會使用它，因為我沒有足夠的天賦來賺取。隨從靈能師和神殿騎士幻視者也被用來專攻火力。|
-|[圖片:helms8.png] Tortoise Shell Helmet Shell Coif [頭部] [皮甲製]|48|德魯伊|天賦為龍捲風且總數為3或以上。除非嚙合得很好，否則只是螳螂蝦的變質，但在重複次數無法增加的情況下使用。龍捲風+6確實很強。我覺得聖殿騎士的冰凍寶珠也很有趣。|
-|[圖片:helms1.png] Rephaim's Kepi Bashlyk [頭部] [皮甲製]|64|德魯伊|天賦是風暴召喚者，天賦是龍捲風，總數為3個或更多。除非嚙合得很好，否則只是螳螂蝦的變質，但在重複次數無法增加的情況下使用。|
-|[圖片:helms8.png] Hebron's Coif Lanfeld Cowl [頭部] [皮甲製]|67|德魯伊|天賦是風暴召喚者，天賦是龍捲風，總數為3個或更多。除非嚙合得很好，否則只是螳螂蝦的變質，但在重複次數無法增加的情況下使用。我認為聖殿騎士的元素使+冰凍寶珠也會很有趣。|
+|[圖片:helms5.png] Stormfeather's Eye Corona [頭部] [布甲製]|71|附魔師 巫師|Lightning 類天賦 +1～3，加上 Chaos Mage +1～2，合計 3 以上。巫師的 Elite Set 很優秀，但如果要雙持 Haniwa，常會因為天賦等級不夠而採用。附魔師 Psionicist、聖殿騎士 Visionary 也可作為火力特化裝備。|
+|[圖片:helms8.png] Tortoise Shell Helmet Shell Coif [頭部] [皮甲製]|48|德魯伊|隨機天賦是 Tornado，合計 3 以上。若沒有高度契合，通常只是 Shako 的下位替代；但當攻擊次數怎麼都不夠時可以採用。Tornado +6 真的會很強，聖殿騎士 Frozen Orb 也可能有趣。|
+|[圖片:helms1.png] Rephaim's Kepi Bashlyk [頭部] [皮甲製]|64|德魯伊|天賦是 Stormcaller、隨機天賦是 Tornado，合計 3 以上。若沒有高度契合，通常只是 Shako 的下位替代；但當攻擊次數怎麼都不夠時可以採用。|
+|[圖片:helms8.png] Hebron's Coif Lanfeld Cowl [頭部] [皮甲製]|67|德魯伊|天賦是 Stormcaller、隨機天賦是 Tornado，合計 3 以上。若沒有高度契合，通常只是 Shako 的下位替代；但當攻擊次數怎麼都不夠時可以採用。聖殿騎士 Elementalist + Frozen Orb 也可能有趣。|
 |[圖片:helms13.png] Uncle Herschel's Visage Shungite Helm [頭部] [板甲]|67|戰士|擁有天賦能力+2，能力最大55。保留戰士的主要技能強化補充，例如破裂。|
-|[圖片:chests8.png] Marionette's Vestment Cryptic Vestment [胸甲] [布甲製]|68|巫師|僅限擁有高級閃電+3天賦的人。精英套裝對於薩滿來說非常出色，但在進行埴輪舒莫奇時，我有時會使用它，因為我沒有足夠的天賦來賺取。也有可能將其用作其他布甲職業的專門成分。|
+|[圖片:chests8.png] Marionette's Vestment Cryptic Vestment [胸甲] [布甲製]|68|巫師|僅限隨機天賦為 Superior Lightning Bolt +3。巫師的 Elite Set 很優秀，但如果要雙持 Haniwa，常會因為天賦等級不夠而採用。其他布甲職業的特化配置也可能有用途。|
 |[圖片:chests9.png] Erghal's Panoply Shroud Abstruse Shroud [胸甲] [布甲製]|70|附魔師 他|有助於獲得抵抗力的胸甲。收集所有機器屬性傷害 13-17% 的幀可能是個好主意。推薦奧術和仙登，因為它們對魔法師特別有效。|
 |[圖片:chests11.png] Courtier's Trunk Goliath Husk [胸甲] [皮甲製]|71|武僧 聖殿騎士|天賦+3是前提，如果你有有用的技能就更好了。如果你是戰士武僧，鳳凰或獵鷹是不錯的天賦，如果你是神殿騎士，元素使或幻像是不錯的天賦。如果構圖好，甚至+2也能成為連結。|
 |[圖片:chests2.png] Fallen Angel Diamond Mail [胸甲] [皮甲製]|65|盜賊|降低火力和抵抗力的胸甲，用於高達 50% 的閱讀量。如果你擁有有用的技能，那麼僱用就會更容易。|
@@ -97,7 +97,7 @@ status: "FC2 原站高保真繁中化"
 |[圖片:gloves9.png] Harvest Stranglers Vambraces [手套] [鎖甲]|68|遊俠 薩滿|天賦+2是先決條件。 Outrider is a good choice for Yuyu, and Witch Doctor and Frostreaver are good for Satsuma. The thieves are not required as they have Set equipment.|
 |[圖片:gloves13.png] Tarfug's Gout Breakers Orc Gauntlets [手套] [板甲]|68|吟遊詩人|戰歌與Mastery：似乎只有+3電池值得採用。Mastery：電池的傷害可能比下面的罪惡元帥手套低，但我不知道。|
 |[圖片:gloves15.png] Marshal Gauntlets Iniquity Zealot Gauntlets [手套] [板甲]|74|戰士 SK 吟遊詩人 牧師|大多數板甲職業都需要頭上的有趣裝備。假設天賦+2，戰士推薦歌利亞，SK推薦血騎士，吟遊詩人推薦作曲家，牧師推薦仲裁者。 Only the Crusades have Set equipment, so it is basically unnecessary.|
-|[圖片:belts0.png] Tresta's Jade Cord Cashmere Sash [腰帶] [布甲製]|64|巫師|Limited to those with Superior Lightning Bolt +2~3.精英套裝對於薩滿來說非常出色，但在進行埴輪舒莫奇時，我有時會使用它，因為我沒有足夠的天賦來賺取。也有可能將其用作其他布甲職業的專門成分。|
+|[圖片:belts0.png] Tresta's Jade Cord Cashmere Sash [腰帶] [布甲製]|64|巫師|僅限隨機天賦為 Superior Lightning Bolt +2～3。巫師的 Elite Set 很優秀，但如果要雙持 Haniwa，常會因為天賦等級不夠而採用。其他布甲職業的特化配置也可能有用途。|
 |[圖片:belts2.png] Thotthi's Sash Greenthorn Belt [腰帶] [皮甲製]|65|德魯伊|僅限擁有龍捲風天賦的人。需要增加龍捲風的數量。請注意，我不是一個高級人。|
 |[圖片:belts10.png] String of Kunzar Eldritch Belt [腰帶] [皮甲製]|67|德魯伊 聖殿騎士|冰冷傷害最高可達 5%，雷奧傷害最高可達 25%。技能強化與主技能的匹配尤為重要。|
 |[圖片:belts5.png] Spectral Nether Strap Gilded Belt [腰帶] [鎖甲]|72|薩滿|如果你天生擁有高級毒箭或高級冰霜裂縫，你可以使用它來增加次數。 +1 會有點奇怪，所以如果可能的話+2。|

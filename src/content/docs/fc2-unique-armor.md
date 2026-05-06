@@ -1,6 +1,6 @@
 ---
-title: "Nevergrind Online FC2 Unique 防具全量表"
-description: "FC2 Unique 防具頁面的繁中化版本，保留防禦、需求等級與 Mods。"
+title: "Nevergrind Online FC2 獨特防具全量表"
+description: "FC2 獨特防具頁面的繁中化版本，保留防禦、需求等級與 Mods。"
 sourcePages:
   - file: "uback.html"
     title: "ユニーク防具/背中 | Nevergrind Online 攻略DB"

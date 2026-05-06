@@ -44,10 +44,13 @@ const FC2_TERMINOLOGY_PATTERNS = [
   /普通模式下|上級和Mastery/,
   /惡夢減少|惡夢最高|Hell減少|Hell最高/,
   /夢魘/,
-  /Unique等級|普通Unique|UniqueDrop/,
+  /Unique等級|普通Unique|UniqueDrop|Unique\s+(?:裝備|\d+\s*個)|Rare\s+\d+\s*個|Legendary\s+裝備/,
   /\bTalent\b/,
   /城鎮左側的欄|自然能力/,
   /屬性抗性Rune/,
+  /(?:職業|性別|種族|物理)紅利/,
+  /螳螂蝦|薩科|江湖之冠|埴輪|Haniwa舒莫奇/,
+  /金金屬效率|金屬效率/,
   /旋轉地[城牢]|地下城|地牢|副本|绕行|绕过|繞行|繞過去/,
   /fc2-dpscalc-(輸入表格|計算結果)|輸入博物館值|從裝備中選擇/,
   /\|Strength\|Stamina\|Agility\|Dexterity\|Intelligence\|Wisdom\|Charisma\|/,
@@ -87,6 +90,22 @@ function faqSectionHasAnswers(content) {
     });
 
   return answerLines.length >= 15;
+}
+
+function faqSectionHasNoStaticIntroList(content) {
+  const faqStart = content.indexOf('<a id="fc2-faq"></a>');
+  if (faqStart < 0) return true;
+
+  const afterFaq = content.slice(faqStart);
+  const firstQuestionStart = afterFaq.indexOf('\n<a id="fc2-faq-');
+  const faqIntro = firstQuestionStart >= 0 ? afterFaq.slice(0, firstQuestionStart) : afterFaq;
+  return !/^\s*-\s+(關於角色建立|天梯與永久角色的差異|不知道如何進入地城)\s*$/m.test(faqIntro);
+}
+
+function generalReferenceStartsWithIndex(content) {
+  const indexStart = content.indexOf('<a id="fc2-index"></a>');
+  const chartStart = content.indexOf('<a id="fc2-chart"></a>');
+  return indexStart >= 0 && chartStart >= 0 && indexStart < chartStart;
 }
 
 async function markdownFiles(dir) {
@@ -153,6 +172,14 @@ for (const doc of docs) {
 
     if (doc.endsWith('fc2-general-reference.md') && !faqSectionHasAnswers(qualityContent)) {
       problems.push(`${doc} appears to have a heading-only FC2 FAQ section without rendered answers.`);
+    }
+
+    if (doc.endsWith('fc2-general-reference.md') && !faqSectionHasNoStaticIntroList(qualityContent)) {
+      problems.push(`${doc} still contains the non-clickable FC2 FAQ intro list before the rendered answers.`);
+    }
+
+    if (doc.endsWith('fc2-general-reference.md') && !generalReferenceStartsWithIndex(qualityContent)) {
+      problems.push(`${doc} should render the FC2 source homepage index.html before chart.html.`);
     }
   }
 

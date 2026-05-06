@@ -2,17 +2,17 @@
 title: "Nevergrind Online 牧師（Scion）輸出指南"
 description: "Scion 牧師的核心不是把牧師（Cleric）當純補，而是用 Condemnation、Deliverance、Sacred Revelation、Holy Sanctuary、Smite 與 Force of Glory 串出高頻率爆發。這套玩法適合單刷、farm undead / demon 區域，或在隊伍安全時把牧師轉成高火力施法職。"
 sourcePages: []
-reviewedAt: "2026-05-03"
+reviewedAt: "2026-05-06"
 sourceLastModified: "N/A"
 status: "整理改寫"
 ---
 
 `Scion` 牧師的核心不是把牧師（Cleric）當純補，而是用 `Condemnation`、`Deliverance`、`Sacred Revelation`、`Holy Sanctuary`、`Smite` 與 `Force of Glory` 串出高頻率爆發。這套玩法適合單刷、farm undead / demon 區域，或在隊伍安全時把牧師轉成高火力施法職。
 
-- 檢視日期：`2026-05-03`
-- 前置閱讀：[Nevergrind Online 牧師（Cleric）指南](./cleric/)
-- 技能速查：[Nevergrind Online 牧師技能參考（Twloli）](./cleric-skills-twloli/)
-- 資料來源：來源摘要、Nevergrind Wiki 牧師（Cleric）頁、Fandom 牧師（Cleric）頁、Xackery class list
+- 檢視日期：`2026-05-06`
+- 前置閱讀：[Nevergrind Online 牧師（Cleric）指南](/cleric/)
+- 技能速查：[Nevergrind Online 牧師技能參考（Twloli）](/cleric-skills-twloli/)
+- 資料來源：來源摘要、FC2 牧師裝備範例、Nevergrind Wiki 牧師（Cleric）頁、Fandom 牧師（Cleric）頁、Xackery class list
 - 版本提醒：本文的 rank 目標來自 來源摘要，屬於 build 方向，不是永久固定數值；實際點法請以遊戲內 tooltip、目前 patch 與裝備加成後的 breakpoints 為準
 
 > **快速重點**
@@ -77,7 +77,7 @@ status: "整理改寫"
 
 ## 輸出循環
 
-如果你要先查 Twloli 熱鍵、冷卻、施法時間與中文技能名，先開 [牧師技能參考（Twloli）](./cleric-skills-twloli/)。下面的循環則是把那些按鍵串成 Scion / Arbiter 輸出節奏。
+如果你要先查 Twloli 熱鍵、冷卻、施法時間與中文技能名，先開 [牧師技能參考（Twloli）](/cleric-skills-twloli/)。下面的循環則是把那些按鍵串成 Scion / Arbiter 輸出節奏。
 
 單體 boss 或高價值 undead / demon 目標，可以用這個思路：
 
@@ -112,7 +112,7 @@ Force of Glory for stun burst or emergency control
 
 單刷重點：
 
-- 優先挑 undead / demon 密集區，例如 [牧師刷區域指南](./cleric-farming-zones/) 裡的 `Riven Grotto`、[Fahlnir Citadel](./fahlnir-citadel/) 等。
+- 優先挑 undead / demon 密集區，例如 [牧師刷區域指南](/cleric-farming-zones/) 裡的 `Riven Grotto`、[Fahlnir Citadel](/fahlnir-citadel/) 等。
 - 不要把 `Force of Glory` 全拿來補傷害，危險 boss 要留一手控場。
 - 遇到抽 spirit / mana 的 trait，先求穩，不要硬打完整 rotation。
 - `Smite` 是讓節奏變滑順的 filler，不是每次都要卡滿。
@@ -130,7 +130,7 @@ Force of Glory for stun burst or emergency control
 
 ## 裝備與符文方向
 
-來源摘要提到高階裝備常看 `Tunso` 套裝、`Charlatan's Crest` 與 [Cryptic Paragon（Haniwa）](./cryptic-paragon-haniwa/)，目標是 `all talents +2`、屬性傷害、undead damage、casting haste 與 magic find 等加成。這些名稱很適合作為 farm / trade 關鍵字，但實際價值仍要看當前版本 tooltip。
+來源摘要提到高階裝備常看 `Tunso` 套裝、`Charlatan's Crest` 與 [Cryptic Paragon（Haniwa）](/cryptic-paragon-haniwa/)，目標是 `all talents +2`、屬性傷害、undead damage、casting haste 與 magic find 等加成。這些名稱很適合作為 farm / trade 關鍵字，但實際價值仍要看當前版本 tooltip。
 
 Scion 輸出牧師（Cleric）優先看：
 
@@ -143,6 +143,50 @@ Scion 輸出牧師（Cleric）優先看：
 - 生存、armor、抗性，尤其 Hell 難度
 
 來源摘要也提到 `Gra Rune` 類每擊回復法力的資源方案。這類符文或裝備詞綴的價值取決於你的攻擊頻率與實際觸發規則；如果你常因 OOM / OOS 斷循環，資源詞綴通常比多一點帳面傷害更有感。
+
+## 終局裝備與取得路線
+
+這段整理成一般牧師（Cleric）終局目標，不綁定特定角色等級。進入地獄（Hell）後段或英雄（Heroic）地城後，裝備目標大致是三件事：把 `Superior Condemnation` 推到 Rank 25、保留足夠的抗性與資源回復，並在不死生物區域放大 `Condemnation` / `Deliverance` 的特攻價值。
+
+FC2 的牧師裝備例是以 `King of Riven Grotto` 英雄周回為想定，核心是 `Tunso` 牧師套裝、`Fanatic` 2 件不死生物特攻，以及 `Zamtil` 部位補打寶與奧術方向。可先把它當成終局配裝骨架，再依實際 roll 和隊伍需求替換。
+
+| 部位 | 優先候選 | 判斷重點 |
+| ------ | ------ | ------ |
+| 右手 | `Tunso's Atonement`；或 [Cryptic Paragon（Haniwa）](/cryptic-paragon-haniwa/) | `Tunso's Atonement` 是牧師精銳套裝核心；`Cryptic Paragon` 只有在隨機天賦 / 技能 roll 命中 `Arbiter`、`Condemnation` 或你的主輸出時才值得拆套 |
+| 左手 / 副手 | `Tunso's Asylum`、`Zamtil's Residue` | `Tunso's Asylum` 補牧師天賦、抗性與打寶；`Zamtil's Residue` 常用來湊 `Zamtil` 3 件 |
+| 頭部 | `Tunso's Renown`、`Charlatan's Crest` | 套裝頭穩定補牧師天賦；`Charlatan's Crest` 則追所有天賦、屬性傷害與 Rare Drop Rate（打寶 / MF） |
+| 胴體 | `Tunso's Reproach`；可比較 `Gwendolyn's Might` | `Tunso's Reproach` 保留牧師套裝與不死生物 / 惡魔特攻；`Gwendolyn's Might` 偏打寶與不死生物特攻候選，換上前要先確認少掉的套裝 bonus 是否值得 |
+| 手部 | `Zamtil's Sleight`、`Marshal Gauntlets Iniquity` | `Zamtil's Sleight` 服務 `Zamtil` 3 件；`Marshal Gauntlets Iniquity` 要看是否 roll 到 `Arbiter` 天賦 +2，否則不一定贏過套裝手 |
+| 肩部 + 靴子 | `Fanatic's Gambrel` + `Fanatic's Expedition` | `Fanatic` 2 件給對不死生物傷害 +15%，很貼合 Riven Grotto 這類 undead 周回 |
+| 腿部 | `Zamtil's Plenitude` | 高難度施法 / 支援職常借用的抗性腿，主要價值是補全屬性抗性、物理抗性與控制抗性 |
+| 腰部 | `Edarion's Testimony` | 泛用精銳腰帶候選，提供所有天賦、抗性、Rare Drop Rate 與生存向詞綴 |
+| 項鍊 | `Sayanim Kaleidoscope` 或所有天賦 +2 rare | 優先看所有天賦 +2、全抗、屬性傷害與主技能強化；名字只是入口，roll 才是重點 |
+| 戒指 | `Tunso's Remorse` 搭配 `Black Swan Band`、`Heaven's Wing` 或高品質 rare | `Tunso's Remorse` 補牧師天賦與套裝；另一格依抗性、技能 roll、Rare Drop Rate 與生存缺口調整 |
+
+取得順序可以更務實一點：
+
+1. 先用 `Tunso` 牧師套裝撐起 `Condemnation`、牧師天賦、抗性與基本輸出。
+2. 缺不死生物輸出時，優先湊 `Fanatic's Gambrel` + `Fanatic's Expedition`。
+3. 抗性不穩時，先補 `Zamtil's Plenitude`、`Tunso's Asylum`、`Edarion's Testimony` 與高抗性飾品。
+4. 金錢開始溢出後，把賭博重點放在飾品、`Charlatan's Crest`、`Cryptic Paragon` 與 `Marshal Gauntlets Iniquity` 這些能改變 build 上限的 slot。
+
+### 推薦周回與取得方式
+
+`King of Riven Grotto` 英雄（Heroic）是 FC2 chart 裡列出的熱門周回點。它屬於 Act II 的 `Riven Grotto`，價值不是章節最高，而是 undead 目標多、牧師與十字軍的特攻容易發揮，地圖效率也較適合反覆刷。
+
+`Ashenflow Peak` 英雄（Heroic）則比較像 Act IV 的條件型選項。FC2 提到前半任務較容易利用元素抗性差異，但它不是牧師專屬農場；若你的隊伍或裝備比較適合火焰 / 冰冷抗性配置，再把它排進周回清單。
+
+[Fahlnir Citadel（法爾尼爾城堡）](/fahlnir-citadel/) 可以當成成形後的高壓 undead / demon 測試場，但不要把它寫死成某幾件裝備的保證來源。實際刷裝仍要看任務掉落偏好、Boss 首通加成、目前地城等級與遊戲內 tooltip。
+
+高效率取得的實務順序：
+
+1. **商人賭博（Gambling）**：優先賭優秀（Exceptional）或精銳（Elite）飾品。FC2 賭博頁提到這類飾品沒有稀有（Rare）等級，因此很適合用來追獨特（Unique）或套裝（Set）飾品。
+2. **鎖定圖示賭特定部位**：武器與防具圖示固定，想追 `Charlatan's Crest`、`Marshal Gauntlets Iniquity` 或特定套裝部位時，可以用圖示對照縮小範圍。
+3. **看任務掉落偏好**：酒館任務會標出兩種優先掉落類型；缺戒指、腰帶、肩部或板甲手時，選對偏好比盲刷有效。
+4. **清首通與檢查商店**：尚未完成的地城 Boss 首通有額外打寶價值；商店庫存會刷新，看到紫色獨特或綠色套裝時再進一步比較 roll。
+5. **用全部鑑定提高週轉**：到藥劑師快速鑑定，再把沒命中天賦、抗性或打寶需求的裝備賣掉，轉成下一輪賭博資金。
+
+延伸查表可以看 [FC2 牧師裝備範例](/fc2-class-build-index/#fc2-cleric-hdl3)、[通索的套裝](/fc2-set-elite/#fc2-tunso)、[Fanatic 套裝](/fc2-set-exceptional/#fc2-fanatic)、[Zamtil 套裝](/fc2-set-elite/#fc2-zamtil)、[嚴選獨特裝備](/fc2-selected-unique-items/#fc2-selectlist2) 與 [賭博建議](/fc2-general-reference/#fc2-gambling)。
 
 ## 常見失誤
 

@@ -12,6 +12,9 @@ const MANIFEST_PATH = join(DATA_DIR, 'fc2-source-manifest.json');
 const TOPIC_MAP_PATH = join(DATA_DIR, 'fc2-topic-map.json');
 const FC2_GENERATED_PREFIX = 'fc2-';
 const FC2_LINK_INDEX = 'fc2-link-index.md';
+const OUTPUT_PAGE_ORDER_OVERRIDES = {
+  'fc2-general-reference.md': ['index.html'],
+};
 const TRANSLATE_ENDPOINT = 'https://translate.googleapis.com/translate_a/single';
 const TRANSLATE_DELAY_MS = 120;
 const TRANSLATE_TIMEOUT_MS = 15000;
@@ -60,16 +63,16 @@ const TOPIC_META = {
     description: 'FC2 各職代表技能表的繁中化版本，用於判斷其他職業裝備與天賦 / Skill 價值。',
   },
   'fc2-unique-accessories.md': {
-    title: 'Nevergrind Online FC2 Unique 飾品全量表',
-    description: 'FC2 Unique Charm、Amulet、Ring 頁面的繁中化版本，保留 Mods 與需求等級。',
+    title: 'Nevergrind Online FC2 獨特飾品全量表',
+    description: 'FC2 獨特 Charm、Amulet、Ring 頁面的繁中化版本，保留 Mods 與需求等級。',
   },
   'fc2-unique-armor.md': {
-    title: 'Nevergrind Online FC2 Unique 防具全量表',
-    description: 'FC2 Unique 防具頁面的繁中化版本，保留防禦、需求等級與 Mods。',
+    title: 'Nevergrind Online FC2 獨特防具全量表',
+    description: 'FC2 獨特防具頁面的繁中化版本，保留防禦、需求等級與 Mods。',
   },
   'fc2-unique-weapons.md': {
-    title: 'Nevergrind Online FC2 Unique 武器全量表',
-    description: 'FC2 Unique 武器與盾牌頁面的繁中化版本，保留傷害、DPS、需求等級與 Mods。',
+    title: 'Nevergrind Online FC2 獨特武器全量表',
+    description: 'FC2 獨特武器與盾牌頁面的繁中化版本，保留傷害、DPS、需求等級與 Mods。',
   },
 };
 
@@ -79,10 +82,10 @@ const SOURCE_TERM_REPLACEMENTS = [
   ['キャラメイク', '角色建立'],
   ['キャラクターメイキング', '角色建立'],
   ['選択可能クラス', '可選職業'],
-  ['クラスボーナス', '職業紅利'],
+  ['クラスボーナス', '職業加成'],
   ['クラスカラー', '職業代表色'],
-  ['性別ボーナス', '性別紅利'],
-  ['種族ボーナス', '種族紅利'],
+  ['性別ボーナス', '性別加成'],
+  ['種族ボーナス', '種族加成'],
   ['全クラス', '所有職業'],
   ['サポートクラス', '輔助職業'],
   ['ボスまとめ', 'Boss 總表'],
@@ -99,6 +102,8 @@ const SOURCE_TERM_REPLACEMENTS = [
   ['エリート', 'Elite'],
   ['エクセプショナル', 'Exceptional'],
   ['ユニーク', '獨特'],
+  ['シャコ', 'Shako'],
+  ['ハニワ', 'Haniwa'],
   ['レジェンダリー', 'Legendary'],
   ['ミシカル', 'Mythical'],
   ['セット装備', 'Set 裝備'],
@@ -155,7 +160,7 @@ const SOURCE_TERM_REPLACEMENTS = [
   ['アイテム名', '物品名稱'],
   ['レベル', '等級'],
   ['クラス', '職業'],
-  ['ボーナス', '紅利'],
+  ['ボーナス', '加成'],
   ['ブロック率', '格擋率'],
   ['ディフェンス', '防禦'],
   ['オフェンス', '攻擊'],
@@ -349,6 +354,14 @@ const POSTPROCESS_REPLACEMENTS = [
   ['狀態異常一覧', '狀態異常一覽'],
   ['装備収集', '裝備收集'],
   ['金銭効率', '金錢效率'],
+  ['金金屬效率', '金錢效率'],
+  ['金屬效率', '金錢效率'],
+  ['螳螂蝦', 'Shako'],
+  ['薩科', 'Shako'],
+  ['江湖之冠', "Charlatan's Crest"],
+  ['埴輪', 'Haniwa'],
+  ['Haniwa舒莫奇', '雙持 Haniwa'],
+  ['神秘典範', 'Cryptic Paragon'],
   ['仕様', '規則'],
   ['知恵', 'Intelligence'],
   ['カリスマ', 'Charisma'],
@@ -369,13 +382,22 @@ const POSTPROCESS_REPLACEMENTS = [
   ['半減', '減半'],
   ['二回攻擊', 'Double Attack'],
   ['二回攻撃', 'Double Attack'],
-  ['班級獎金', '職業紅利'],
+  ['班級獎金', '職業加成'],
+  ['職業紅利', '職業加成'],
   ['班級顏色', '職業代表色'],
   ['類別顏色', '職業代表色'],
   ['|類別|力量|耐力|', '|職業|力量|耐力|'],
-  ['職業獎金', '職業紅利'],
-  ['性別獎金', '性別紅利'],
-  ['種族獎金', '種族紅利'],
+  ['職業獎金', '職業加成'],
+  ['性別獎金', '性別加成'],
+  ['種族獎金', '種族加成'],
+  ['性別紅利', '性別加成'],
+  ['種族紅利', '種族加成'],
+  ['物理紅利', '物理加成'],
+  ['Unique 裝備', '獨特裝備'],
+  ['Legendary 裝備', '傳奇裝備'],
+  ['Unique 5 個', '獨特 5 個'],
+  ['Rare 127 個', '稀有 127 個'],
+  ['獨一無二', '獨特'],
   ['人才', '天賦'],
   ['自然能力', '天賦'],
   ['Talent 樹', '天賦樹'],
@@ -440,6 +462,38 @@ const MANUAL_TRANSLATIONS = {
     '另外，普通獨特與套裝裡也有少數值得帶回家的例外，其中弓類特別需要留意。',
   '持ち帰ったユニークやセットの取捨選別に迷ったら、各職の代表スキル や 各職の厳選ユニーク、また各職のビルド紹介ページなどを参考にしてほしい。':
     '如果不確定帶回家的獨特或套裝該留還是該丟，可以參考各職代表技能、各職嚴選獨特裝備，以及各職業 Build 介紹頁。',
+  'シャコ（エリート）': "Charlatan's Crest（Shako, Elite）",
+  'ユニークの Charlatan\'s Crest はすべての才能+2、属性ダメージ強化、高レアドロの3点が揃っている優秀な装備で、多くの職で採用される。ぜひ全属性ぶんを揃えたいところ。':
+    "獨特裝備 Charlatan's Crest 同時具備 +2 所有天賦、屬性傷害強化與高 Rare Drop Rate 三個重點，適合許多職業採用。理想上可以為常用屬性傷害 roll 各準備一頂。",
+  '加えてレジェンダリーの Mosby\'s Ancient Crown も狙える優良商品。':
+    "另外也有機會順便瞄準傳奇裝備 Mosby's Ancient Crown，是值得賭的品項。",
+  'ハニワ（エリート）': 'Cryptic Paragon（Haniwa, Elite）',
+  'こちらはユニークの Cryptic Paragon 一点狙いとなるが、ハニワはすべての才能+2、ランダムタレント、全属性耐性、全スペルダメージ、アンデッド特攻という全部乗せ装備であり、魔法職で活用されやすく、タレントとスキルが噛み合ったものを一生探すことになる。':
+    '這一項主要是在瞄準獨特裝備 Cryptic Paragon。Haniwa 俗稱的價值在於 +2 所有天賦、隨機天賦、全屬性抗性、全 Spell Damage 與不死生物特攻都集中在同一件裝備上，法系職業很容易用得上；真正難的是找到天賦與技能 roll 都契合的那一把。',
+  '参考：Haniwa 試行132回、レア127個、ユニーク5個（3.78%）':
+    '參考：Haniwa 試行 132 次，稀有 127 個、獨特 5 個（3.78%）。',
+  '通称ハニワ。基本的には 各職の代表スキル を確認。 スキル一致だけでも優秀だが、タレント一致は非常に強い。 特にヤバいのはドルイドの Tornado、エンチャの Superior Enthrall、ウィズの Superior Lightning Boltあたり。':
+    '俗稱 Haniwa。基本上請對照各職代表技能；只要技能 roll 命中就很優秀，若天賦也命中會非常強。特別誇張的是德魯伊 Tornado、附魔師 Superior Enthrall、巫師 Superior Lightning Bolt 等。',
+  '通称シャコ。すべての才能+2は必須で、そこから属性ダメージ+16%、レアドロ+50%に近ければ近いほどいい。出血だけハズレ。':
+    '俗稱 Shako。+2 所有天賦是必備；屬性傷害越接近 +16%、Rare Drop Rate 越接近 +50% 越好。只有出血屬性比較不理想。',
+  '才能が Phoenix か Falcon の+2で、できれば Dragon Punch か Hurricane Kicks が絡んでいるもの。 火力優先ならこれ、レアドロ優先ならシャコ。':
+    '天賦是 Phoenix 或 Falcon +2，最好還帶 Dragon Punch 或 Hurricane Kicks。火力優先選這件；Rare Drop Rate 優先則選 Shako。',
+  '雷才能+1～3と Chaos Mage +1～2で、合計が3以上のもの。 ウィズはエリートセットが優秀だが、ハニワ二刀流をする場合、とにかくタレント稼ぎが足りないので使うことがある。 エンチャの Psionicist やテンプラの Visionary も火力特化で採用。':
+    'Lightning 類天賦 +1～3，加上 Chaos Mage +1～2，合計 3 以上。巫師的 Elite Set 很優秀，但如果要雙持 Haniwa，常會因為天賦等級不夠而採用。附魔師 Psionicist、聖殿騎士 Visionary 也可作為火力特化裝備。',
+  'タレントが Tornado のもので合計が3以上。 よほど噛み合わない限りシャコの劣化でしかないが、回数増加がどうしても足りない時に採用する。Tornado +6になるとさすがに強い。 テンプラの Frozen Orb でも面白いと思う。':
+    '隨機天賦是 Tornado，合計 3 以上。若沒有高度契合，通常只是 Shako 的下位替代；但當攻擊次數怎麼都不夠時可以採用。Tornado +6 真的會很強，聖殿騎士 Frozen Orb 也可能有趣。',
+  '才能が Stormcaller、タレントが Tornado のもので合計が3以上。 よほど噛み合わない限りシャコの劣化でしかないが、回数増加がどうしても足りない時に採用する。':
+    '天賦是 Stormcaller、隨機天賦是 Tornado，合計 3 以上。若沒有高度契合，通常只是 Shako 的下位替代；但當攻擊次數怎麼都不夠時可以採用。',
+  '才能が Stormcaller、タレントが Tornado のもので合計が3以上。 よほど噛み合わない限りシャコの劣化でしかないが、回数増加がどうしても足りない時に採用する。 テンプラの Elementalist + Frozen Orb でも面白いと思う。':
+    '天賦是 Stormcaller、隨機天賦是 Tornado，合計 3 以上。若沒有高度契合，通常只是 Shako 的下位替代；但當攻擊次數怎麼都不夠時可以採用。聖殿騎士 Elementalist + Frozen Orb 也可能有趣。',
+  'タレントが Superior Lightning Bolt +3のものに限る。 ウィズはエリートセットが優秀だが、ハニワ二刀流をする場合、とにかくタレント稼ぎが足りないので使うことがある。 他布職の特化構成としても使える可能性あるかも。':
+    '僅限隨機天賦為 Superior Lightning Bolt +3。巫師的 Elite Set 很優秀，但如果要雙持 Haniwa，常會因為天賦等級不夠而採用。其他布甲職業的特化配置也可能有用途。',
+  'タレントが Superior Lightning Bolt +2～3のものに限る。 ウィズはエリートセットが優秀だが、ハニワ二刀流をする場合、とにかくタレント稼ぎが足りないので使うことがある。 他布職の特化構成としても使える可能性あるかも。':
+    '僅限隨機天賦為 Superior Lightning Bolt +2～3。巫師的 Elite Set 很優秀，但如果要雙持 Haniwa，常會因為天賦等級不夠而採用。其他布甲職業的特化配置也可能有用途。',
+  '収集すべきアイテムや、金銭効率といった話。': '談哪些物品值得帶回，以及金錢效率。',
+  '装備収集・金銭効率': '裝備收集 / 金錢效率',
+  'エクセプショナル以上であれば装備収集・金銭効率のどちらの面から見ても、すべて持ち帰っていい。':
+    'Exceptional 以上的物品，無論從裝備收集還是金錢效率來看，基本上都可以帶回家。',
   キャラクターメイキングについて: '關於角色建立',
   'ラダーとエターナルの違い': '天梯與永久角色的差異',
   シーズンについて: '關於賽季',
@@ -545,7 +599,7 @@ const MANUAL_TRANSLATIONS = {
   'Act.II - Riven Grotto - King of Riven Grotto\n一番人気。まずアンデッド特攻を持つクルセイダーとクレリックを十全に活かすことができる点。その他にマップの広さが普通で回りやすく、エリアボスであるためボスドロップが多いことが挙げられる。\nAct.IIIの Thule Crypt も同じアンデッドダンジョンだが、アーケイン耐性持ちが多いため劣化でしかない。':
     'Act.II - Riven Grotto - King of Riven Grotto\n最受歡迎。理由是能充分發揮十字軍與牧師的不死族特攻；地圖大小適中、路線好跑，又是區域 Boss，因此 Boss 掉落也多。\nAct.III 的 Thule Crypt 同樣是不死族地城，但 Arcane 抗性的怪物很多，整體只算下位替代。',
   'Act.III - Sylong Sanctuary - Lord Gazzion\n強力なレジェンダリーにミスティック特攻が増えたため、選択肢に挙がるようになってきた。アーケイン耐性が非常に高いため、クルセイダーやクレリックといったアーケイン職は苦手。':
-    'Act.III - Sylong Sanctuary - Lord Gazzion\n因強力 Legendary 裝備增加 Mystical 特攻，逐漸成為可選地城。怪物 Arcane 抗性非常高，十字軍、牧師等 Arcane 職業比較不擅長。',
+    'Act.III - Sylong Sanctuary - Lord Gazzion\n因強力傳奇裝備增加 Mystical 特攻，逐漸成為可選地城。怪物 Arcane 抗性非常高，十字軍、牧師等 Arcane 職業比較不擅長。',
   'Act.IV - Galeblast Fortress - 前半のミッション\n氷耐性が高く、炎耐性が低いダンジョンであるため、ウィザード・モンク・ローグといった炎属性の職が回りやすい。またヒューマイドが多いため、ヒューマノイド特攻を伸ばせば周回がしやすい。\nダンジョン後半は物理耐性を持つジャイアントが出現するため人気がない。':
     'Act.IV - Galeblast Fortress - 前半任務\n這裡冰冷抗性高、火焰抗性低，巫師、武僧、盜賊等火焰屬性職業比較好刷。Humanoid 數量多，堆 Humanoid 特攻也能提高周回效率。\n地城後半會出現具物理抗性的 Giant，因此不受歡迎。',
   'Act.IV - Ashenflow Peak - 前半のミッション\n炎耐性が高く、氷耐性が低いダンジョンであるため、主にドルイドが中心となったパーティに選ばれやすい。\nこちらもヒューマノイド中心なので、ヒューマノイド特攻が有効。\nダンジョン後半は物理耐性を持つジャイアントや、アーケイン耐性を持つケルベロスがクソ。':
@@ -883,6 +937,26 @@ function sourcePagesForOutput(topicMap, manifestByUrl, outputFile) {
     });
 }
 
+function orderSourcePagesForOutput(outputFile, sourcePages) {
+  const orderedFiles = OUTPUT_PAGE_ORDER_OVERRIDES[outputFile] ?? [];
+  if (orderedFiles.length === 0) return sourcePages;
+
+  const priorityByFile = new Map(orderedFiles.map((file, index) => [file, index]));
+  return sourcePages
+    .map((page, index) => ({ page, index }))
+    .sort((left, right) => {
+      const leftPriority = priorityByFile.has(left.page.file)
+        ? priorityByFile.get(left.page.file)
+        : Number.POSITIVE_INFINITY;
+      const rightPriority = priorityByFile.has(right.page.file)
+        ? priorityByFile.get(right.page.file)
+        : Number.POSITIVE_INFINITY;
+      if (leftPriority !== rightPriority) return leftPriority - rightPriority;
+      return left.index - right.index;
+    })
+    .map(({ page }) => page);
+}
+
 async function pageCacheFor(file) {
   const path = join(PAGE_CACHE, `${file}.json`);
   if (!existsSync(path)) {
@@ -898,6 +972,7 @@ function collectTexts(page) {
     if (block.type === 'heading' || block.type === 'paragraph') {
       texts.push(block.text);
     } else if (block.type === 'list') {
+      if (isRedundantHeadingList(page, block)) continue;
       texts.push(...block.items);
     } else if (!skipInteractiveDetails && block.type === 'table') {
       for (const row of block.rows) {
@@ -939,6 +1014,18 @@ function tableCellText(value, translator) {
 
 function cleanHeadingText(value) {
   return value.replace(/[!！?？。．.：:；;、,\s]+$/g, '').trim();
+}
+
+function isRedundantHeadingList(page, block) {
+  if (block.type !== 'list' || block.ordered || block.items.length < 4) return false;
+  const sourceHeadings = new Set(
+    (page.blocks ?? [])
+      .filter((item) => item.type === 'heading' && item.level > 1)
+      .map((item) => cleanHeadingText(item.text)),
+  );
+  if (sourceHeadings.size === 0) return false;
+  const matchingItems = block.items.filter((item) => sourceHeadings.has(cleanHeadingText(item))).length;
+  return matchingItems >= 4 && matchingItems / block.items.length >= 0.8;
 }
 
 function renderTable(rows, translator) {
@@ -1006,6 +1093,7 @@ function renderPage(page, translator) {
     }
 
     if (block.type === 'list') {
+      if (isRedundantHeadingList(page, block)) continue;
       const items = block.items.flatMap((item, index) => {
         const marker = block.ordered ? `${index + 1}.` : '-';
         const lines = translator.get(item).split('\n').filter(Boolean);
@@ -1090,7 +1178,7 @@ async function main() {
   for (const outputFile of outputFiles) {
     const meta = TOPIC_META[outputFile];
     if (!meta) throw new Error(`Missing generated topic metadata for ${outputFile}`);
-    const sourcePages = sourcePagesForOutput(topicMap, manifestByUrl, outputFile);
+    const sourcePages = orderSourcePagesForOutput(outputFile, sourcePagesForOutput(topicMap, manifestByUrl, outputFile));
     const pageSections = sourcePages.map((sourcePage) => renderPage(pagesByFile.get(sourcePage.file), translator));
     const output = [
       frontmatterFor({

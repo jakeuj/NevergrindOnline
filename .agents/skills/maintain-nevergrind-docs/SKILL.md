@@ -42,16 +42,19 @@ npm run build
 - Do not add `/nevergrind-online/` to sidebar links, Markdown links, generated topic-map slugs, README examples, or GitHub Pages config.
 - Keep `astro.config.mjs` using `@astrojs/sitemap` with a filter that excludes legacy `/nevergrind-online/` paths from `dist/sitemap*.xml`.
 - When checking an FC2 source file, find its target with `src/data/fc2-topic-map.json`; the public section is `https://ngo.jakeuj.com/<slug>/#fc2-<source-file-stem>`, for example `chart.html` maps to `/fc2-general-reference/#fc2-chart`.
+- In `fc2-general-reference.md`, render the FC2 source homepage `index.html` before `chart.html`; keep this in `OUTPUT_PAGE_ORDER_OVERRIDES` rather than hand-moving generated Markdown.
 - If changing the custom-domain route strategy, update `src/content/docs/`, `src/data/sidebar.json`, `src/data/fc2-topic-map.json`, redirect pages, sitemap filtering, README, this skill, and GitHub Actions together.
 
 ## Terminology And Content Rules
 
 - Write in Taiwan Traditional Chinese.
-- Use `terminology.md` as the first source for Chinese names. In FC2 generated docs, prefer wording such as `可選職業` for class options and `種族紅利` for race bonus.
+- Use `terminology.md` as the first source for Chinese names. In FC2 generated docs, prefer wording such as `可選職業` for class options and `種族加成` / `職業加成` for race or class bonus.
 - In generated FC2 public docs, keep player-facing wording Chinese-first for difficulties, classes, attributes, talents, rarity tiers, and runes: for example `地獄（Hell）`, `牧師`, `力量`, `天賦`, `獨特`, and `符文`.
 - Treat `周回` as farming / repeated runs, not rotation. Use `周回地城` or `刷地城` depending on context; never publish `旋轉地城` or `旋轉地牢`.
 - Use `地城` for `ダンジョン`, `乙太` for `エーテル`, and `符文` for `Rune / ルーン` in player-facing prose.
 - Preserve English lookup terms for item names, skill names, bosses, maps, UI labels, and source metadata when those names are needed for in-game or FC2/wiki lookup.
+- Preserve item names in English even when surrounding prose is Chinese. Prefer headings such as `Charlatan's Crest（Shako, Elite）` and `Cryptic Paragon（Haniwa, Elite）`; never publish machine mistranslations such as `螳螂蝦`, `薩科`, `埴輪`, or `江湖之冠`.
+- Translate `金銭効率` as `金錢效率`, never `金屬效率`; translate `周回ダンジョン` as `周回地城`, not `旋轉地城` or `旋轉地牢`.
 - Keep stat names aligned with the terminology table: table headers should use `力量`, `耐力`, `敏捷`, `靈巧`, `智力`, `智慧`, and `魅力`.
 - Preserve all factual rows, columns, numbers, source URLs, and `Last-Modified` metadata.
 - Do not publish original FC2 images, CSS, or JavaScript.
@@ -68,6 +71,8 @@ npm run build
 - If a source sentence needs high-fidelity phrasing, add it to `MANUAL_TRANSLATIONS` rather than relying on cached machine translation. This is especially important for route advice, farming recommendations, class evaluations, and other FC2 player judgement text.
 - If `check:quality` flags terminology drift, fix the generator output or the term replacement source instead of patching only the generated Markdown.
 - When fixing a bad generated phrase or unusable imported block, add a matching `check:quality` pattern so reruns cannot reintroduce it.
+- If an FC2 page starts with a non-clickable list that only repeats later headings, such as FAQ or class-build intro lists, skip that list in `collectTexts` and `renderPage` via `isRedundantHeadingList`; keep the actual sections and answers below it.
+- When changing generated page order, add a quality assertion such as `generalReferenceStartsWithIndex` so regenerated docs cannot drift back.
 - Keep sidebar labels Chinese-first and concise. Do not show raw `*.html` filenames or parenthesized English in the sidebar unless the user explicitly asks; source filenames belong in `fc2-link-index`, source tables, anchors, and frontmatter.
 - Keep FC2 original-source navigation separate from user-facing supplemental guides. Use the FC2 section for source-aligned entries and the supplemental section for non-FC2 pages.
 - After route, sidebar, or topic-map changes, search for accidental public nested paths with `rg -n 'nevergrind-online/' src/content/docs src/data README.md scripts .github/workflows .agents/skills/maintain-nevergrind-docs -S`. Allow only intentional legacy redirect code, sitemap filtering, and external source URLs.
