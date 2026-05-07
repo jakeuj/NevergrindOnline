@@ -644,6 +644,198 @@ const MANUAL_TRANSLATIONS = {
     '如果不確定帶回的獨特或套裝該留還是該賣，可以參考各職代表技能、各職嚴選獨特裝備，以及各職 Build 介紹頁。',
   'ページ内リンク：ノーマル / ナイトメア / ヘル / ヒロイック':
     '頁內連結：普通（Normal） / 惡夢（Nightmare） / 地獄（Hell） / 英雄（Heroic）',
+  'アンデッドに対する強力な特攻を持ち、自身の無敵化や回復などからソロ性能に優れる。':
+    '具備強力的不死生物特攻，也能靠自身無敵化與回復能力維持戰線，因此單刷能力很出色。',
+  'タンクとかいう役割に分類されてた気がするけど、もう完全に忘れた。こいつは範囲DPS。':
+    '雖然我記得它好像曾被歸在 Tank 之類的定位，但現在已經完全忘了。這傢伙就是範圍 DPS。',
+  'で、クラスカラーは ピンク色。': '，職業代表色是粉紅色。',
+  'ラピッドアタック … 武器による自動攻撃が高速化する': 'Rapid Attack：武器自動攻擊會變快。',
+  'ブロック削減 … 盾装備時のブロックによるダメージカット（25%）に数値が加算される':
+    'Block Reduction：裝備盾牌時，格擋的傷害減免（25%）會再加上此數值。',
+  'Judicator を中心に取得し、Protector のバリアか Herald のラピッドアタックの選択となる。':
+    '以 Judicator 為核心取得天賦，接著在 Protector 的 Barrier 與 Herald 的 Rapid Attack 之間擇一。',
+  'ラピッドアタックのメリットはヒット時マナ回復ルーンとの相性がいいことと、武器のスピード調整が必要なくなること。デメリットは効果: Consecrate が効果: Blessed Hummer より優先されるため邪魔になりやすいこと。':
+    'Rapid Attack 的優點是與命中時 Mana 回復符文相性很好，也不需要另外調整武器速度。缺點是效果：Consecrate 會優先於效果：Blessed Hammer 觸發，容易互相干擾。',
+  'Superior Blessed Hummer はランク29でボーナスヒット+4となる。これの達成が最初の目標。':
+    'Superior Blessed Hammer 在 Rank 29 時會獲得 bonus hit +4；先達成這個門檻是第一目標。',
+  'ポイントの余りは Divine Judgment に入れているが、この辺は好み。':
+    '剩餘點數我放進 Divine Judgment，不過這一帶可依個人喜好調整。',
+  'Mastery: 弟子は効果: Blessed Hummer のクール減少目的で上げている。':
+    '提高 Mastery: Disciple 是為了縮短效果：Blessed Hammer 的冷卻時間。',
+  '正確には調べ切れていないが、集めたデータから推測すると0.25s刻みくらいで減っていて、こんな感じだと思う。':
+    '我沒有完全精確驗證，但依照收集到的資料推測，冷卻大約以 0.25 秒為單位遞減，概況如下。',
+  弟子ランク: 'Disciple Rank',
+  'セット武器のスピードが3.7～3.9で、ランク24で3.8までは毎振り可能、ランク25で3.7も毎振りとなる。':
+    'Set 武器速度是 3.7～3.9；Disciple Rank 24 時，速度 3.8 以內可每次揮擊觸發，Rank 25 時速度 3.7 也可每次揮擊觸發。',
+  'ランク27で速度20%バフであるバードの Superior 1振り Battle Hymn や、レンジャーの Spirit of the Hunter に対応できるケースが生まれ、ランク28で完全対応。ランク29でM振り Battle Hymn（30%～）対応が見えてくる。':
+    'Rank 27 時，開始有機會對應吟遊詩人 1 點 Superior Battle Hymn 或遊俠 Spirit of the Hunter 這類 20% 速度 Buff；Rank 28 時可完整對應。Rank 29 時，則能看到對應滿點 Battle Hymn（30%～）的可能性。',
+  首: '項鍊',
+  'King of Riven Grotto (ヒロイック) の周回を想定した対アンデッド装備。':
+    '以英雄（Heroic）King of Riven Grotto 周回為想定的對不死生物裝備。',
+  '才能ツリーは Judicator を集め、スキルは Blessed Hummer を集める。':
+    '天賦樹加成以 Judicator 為目標，技能加成則以 Blessed Hammer 為目標。',
+  'まずは Superior Blessed Hummer 29を踏むことが目標となるが、Edarion 指輪でブーストできるかが鍵となる。':
+    '第一目標是把 Superior Blessed Hammer 撐到 29；關鍵在於能否用 Edarion 戒指補上等級。',
+  '指輪が+2であれば画像の構成（ネックレスは Judicator +3）で達成、+1であれば胴体をエクセプセットである Fanatic\'s Sanctuary の+2に変更することで達成可能だ。':
+    "如果戒指是 +2，照圖中的配置（項鍊為 Judicator +3）即可達成；如果戒指只有 +1，則把胴體換成 Exceptional Set 的 Fanatic's Sanctuary +2 也能達成。",
+  'その後はハンマー29を維持しながら Mastery: 弟子のブーストを目指す。Asaph 指輪のアーケイン才能では弟子が増加しないため、弟子+2の Edarion 指輪に置き換えていく。':
+    '之後在維持 Blessed Hammer 29 的前提下，繼續追求 Mastery: Disciple 加成。Asaph 戒指的 Arcane 天賦不會提高 Disciple，因此後續會逐步替換成 Disciple +2 的 Edarion 戒指。',
+  '才能ブーストがどうにかなるなら、30レジェンダリー弓 Demonslayer が強力なアンデッド特攻を持っていて有用。':
+    '如果天賦加成已經足夠，30 級傳奇弓 Demonslayer 具備強力的不死生物特攻，也很有用。',
+  'またスピード2.1～2.2であるため、弟子ブーストを積み上げた時の効果: Blessed Hummer 回しにも使える。':
+    '另外它的速度是 2.1～2.2，在 Disciple 加成堆高後，也能用來配合效果：Blessed Hammer 的循環。',
+  'Consecrate のスタックで耐性を稼げるとはいえ厳しいことには変わりないので、太腿はエンチャセットの Zamtil\'s Plenitude なども有効。':
+    "雖然 Consecrate 疊層可以補抗性，但壓力仍然很高，因此腿甲也可以考慮附魔師套裝的 Zamtil's Plenitude 等選項。",
+  'Seal of Sanctuary は自身を無敵にしながら強化アーケインで火力も増加する。戦闘直前にかけるか、敵の構成が危険な時にかけるといい。タレントを取得している場合はけっこう雑に使える。':
+    'Seal of Sanctuary 會讓自己進入無敵狀態，同時透過強化 Arcane 來提高火力。適合在戰鬥前施放，或在敵方組成危險時使用；若已取得相關天賦，使用時可以相當大膽。',
+  '戦闘は適当に': '戰鬥時大致上依序使用',
+  'Blessed Hummer、': 'Blessed Hammer、',
+  'Seal of Damnation をクールが明けたやつから使用していくだけ。範囲が強いクラスなので、敵が固まっているところを優先的に狙っていこう。':
+    'Seal of Damnation，哪個冷卻結束就先丟哪個。這是範圍能力很強的職業，因此優先瞄準敵人聚集的位置。',
+  'をクールが明けたやつから使用していくだけ。範囲が強いクラスなので、敵が固まっているところを優先的に狙っていこう。':
+    '，哪個冷卻結束就先丟哪個。這是範圍能力很強的職業，因此優先瞄準敵人聚集的位置。',
+  'Holy Wrath は Rampage 対策になる他、': 'Holy Wrath 除了能作為 Rampage 對策，也能用來避免',
+  'Consecrate の回避防止などにも使える。': 'Consecrate 被迴避。',
+  'Consecrate はダメージは微妙だが耐性稼ぎにはなるので、細かく打つことになる。2回に1回程度の間隔で':
+    'Consecrate 傷害不算亮眼，但可用來堆抗性，因此需要頻繁施放。大約每兩次循環，',
+  'Holy Wrath のクールが明けるので揃ったタイミングでセットで打つといい。':
+    'Holy Wrath 的冷卻就會轉好；兩者時間對上時一起使用會比較好。',
+  '魔法型と比べて物理型のメリットは、ダンジョンを選ばない・マナが枯渇しない・単体の敵に強い、などである。':
+    '和魔法型相比，物理型的優點是不挑地城、不容易耗盡 Mana，且對單體敵人較強。',
+  'デメリットはエンチャンターへの依存度が高すぎること。':
+    '缺點是對附魔師的依賴度過高。',
+  '物理型は Consecrate を回しつつ、空いた時間を Zealous Slam で埋めるスタイルであり、DPSの向上には Mastery: 前触れのランク上昇による効果: Consecrate のクールタイム短縮も重要となってくる。':
+    '物理型是持續施放 Consecrate，並用 Zealous Slam 填補空檔的打法。若想提高 DPS，透過提高 Mastery: Herald 等級來縮短效果：Consecrate 的冷卻時間也很重要。',
+  'ラピッドアタックでの検証なので正確とは言えないが、おそらく前触れランク32で効果: Consecrate のクールタイムは最短である1.5秒となる。ランクが1減るごとに0.3秒程度の増加であり、可能な限り縮めたいところだ。':
+    '因為這是以 Rapid Attack 驗證的結果，不能說完全精確；但推測 Mastery: Herald Rank 32 時，效果：Consecrate 的冷卻時間會達到最短 1.5 秒。每少 1 Rank 約增加 0.3 秒，因此越接近上限越好。',
+  '各スキルの回数増加タイミングは以下の通り。': '各技能攻擊次數增加的門檻如下。',
+  'Consecrate : ランク14 / 20 / 28': 'Consecrate：Rank 14 / 20 / 28',
+  'Zealous Slam : ランク19 / 29': 'Zealous Slam：Rank 19 / 29',
+  'Lv95以降に入手したポイントの使い道は、Benevolence や Seal of Sanctuary の1取得や、Judicator ツリーの器用1取得などがオススメ。Divine Grace が即時回復で使い勝手がよく、そちらを伸ばすのもいいだろう。':
+    'Lv95 以後取得的點數，推薦用來點 1 點 Benevolence、Seal of Sanctuary，或 Judicator 樹的器用。Divine Grace 是即時回復、手感很好，也可以考慮往那邊延伸。',
+  '才能ツリーは Herald を集め、スキルは Consecrate や Zealous Slam を集める。':
+    '天賦樹加成以 Herald 為目標，技能加成則以 Consecrate 與 Zealous Slam 為目標。',
+  '最初はセット装備を集めることから始め、レジェンダリーである Firmament Staff of the Crystal Sea のすべての才能+5や、 Thoth Mindlink Staff を入手したあたりでセットを崩し、 Deathly Usher\'s Bracers、 Marshal Gauntlets Iniquity、 Hulking Storm Belt といった筋力装備に入れ替えていこう。':
+    "一開始先從收集套裝裝備開始；等拿到傳奇 Firmament Staff of the Crystal Sea（+5 所有天賦）或 Thoth Mindlink Staff 左右，就可以拆掉套裝，改換 Deathly Usher's Bracers、Marshal Gauntlets Iniquity、Hulking Storm Belt 等力量裝。",
+  '最初はセット装備を集めることから始め、レジェンダリーである Firmament Staff of the Crystal Sea のすべての才能+5や、Thoth Mindlink Staff を入手したあたりでセットを崩し、Deathly Usher\'s Bracers、Marshal Gauntlets Iniquity、Hulking Storm Beltといった筋力装備に入れ替えていこう。':
+    "一開始先從收集套裝裝備開始；等拿到傳奇 Firmament Staff of the Crystal Sea（+5 所有天賦）或 Thoth Mindlink Staff 左右，就可以拆掉套裝，改換 Deathly Usher's Bracers、Marshal Gauntlets Iniquity、Hulking Storm Belt 等力量裝。",
+  '弓は才能があと1欲しいという状況であれば Stormcaller Bow の採用もあり。':
+    '如果只差 1 點天賦，也可以採用 Stormcaller Bow。',
+  '頭はシャドウナイトセットの Spinalzz\'s Vigil も筋力が高くて優秀。どちらを採用するかはスキル強化次第。':
+    "頭部也可以考慮暗影騎士套裝的 Spinalzz's Vigil；它力量很高、性能優秀。要採用哪一件取決於技能強化 roll。",
+  'レアドロを優先するなら Charlatan\'s Crest でもいいだろう。':
+    "如果優先 Rare Drop Rate，也可以用 Charlatan's Crest。",
+  'ネックレスはすべての才能+2がついたレアを採用し、同時に筋力やパッシブがついているとなおいい。':
+    '項鍊採用帶有 +2 所有天賦的稀有（Rare）項鍊；如果同時帶力量或 Passive 更好。',
+  'セット指輪は Mastery: 前触れ+2が理想であり、もし可能であればどちらの指輪でも前触れをブーストしたい。':
+    'Set 戒指理想上要有 Mastery: Herald +2；如果可能，兩枚戒指都希望能提高 Herald。',
+  'Seal of Sanctuary は自身を無敵にしながら物理ダメージボーナスで火力も増加する。':
+    'Seal of Sanctuary 會讓自己進入無敵狀態，同時透過物理傷害加成提高火力。',
+  '戦闘直前にかけるか、敵の構成が危険な時にかけるといい。':
+    '適合在戰鬥前施放，或在敵方組成危險時使用。',
+  '戦闘は': '戰鬥時',
+  'Consecrate をクールごとに回し、クール中は': '每次冷卻結束就施放 Consecrate，冷卻期間則',
+  'Zealous Slam を連打しよう。': '連打 Zealous Slam。',
+  '回復が必要であれば、単体即時発動の': '需要回復時，請依狀況使用單體即時發動的',
+  'Divine Grace と全体の': 'Divine Grace，以及全體回復的',
+  'Benevolence を使い分ける。': 'Benevolence。',
+  'Holy Wrath は Rampage 対策になるため、パーティの耐久が不安であれば使用した方がいいだろう。':
+    'Holy Wrath 可作為 Rampage 對策；如果擔心隊伍耐久，建議使用。',
+  'スキルヘイストという強力なバフを持つサポートクラスで、物理職との相性が抜群にいい。':
+    '這是擁有強力 Buff `Skill Haste` 的支援職業，和物理職業的相性非常好。',
+  'もちろん魔法職とも悪くなく、スキルヘイストだけでなく詠唱中のノックバックまで防いでくれる。':
+    '當然，和魔法職業搭配也不差；除了 `Skill Haste` 之外，也能防止詠唱中被擊退。',
+  'で、クラスカラーは 明るい水色。': '，職業代表色是明亮的淺藍色。',
+  'アヌカリ、ダークエルフ、ノーム、ハイエルフ、ヒューマン、ネコバス、セラフィム':
+    '阿努卡里、黑暗精靈、侏儒、高等精靈、人類、貓巴士、六翼天使',
+  'オフェンス、ディフェンス、片手鈍器、刺突、素手、両手鈍器、二刀流、回避、Alteration、Conjuration、Evocation':
+    '攻擊、防禦、單手鈍器、刺擊、空手、雙手鈍器、雙持、閃避、Alteration、Conjuration、Evocation',
+  'パーティ全体で見たDPSはこちらの方が高くなりやすいが、物理職の有無やパーティメンバーの強さに左右される。':
+    '從整隊 DPS 來看，這個配置通常比較容易拉高總輸出；但實際效果會受物理職業是否在隊伍中、以及隊員強度影響。',
+  'Lv95時点で5ポイント余らせており、候補は Phase Blade か Mastery 2種のどちらか。':
+    'Lv95 時會剩下 5 點，候選是 Phase Blade，或兩種 Mastery 其中之一。',
+  'どちらかのツリーを削って、Superior Color Shift や Superior Clarity を取得しにいくビルドもなくはない。':
+    '也可以削減其中一條天賦樹，改去取得 Superior Color Shift 或 Superior Clarity。',
+  'メインスキルである Enthrall と Augmentation を有するツリー。':
+    '這條天賦樹擁有主技能 Enthrall 與 Augmentation。',
+  'Superior Enthrall はランク19/29でボーナスヒットが増加する。':
+    'Superior Enthrall 在 Rank 19 / 29 時會增加 bonus hit。',
+  'Superior Augmentation は0でもスキルヘイストが最大値のように感じたため、全体化目的の1取得に留めた。':
+    '我感覺即使 Superior Augmentation 為 0，`Skill Haste` 也已經達到上限，所以只為了全體化取得 1 點。',
+  'スキルヘイストは65%が最速のはずだが、エンチャはこれより低い表記で65%を満たす。バグか？':
+    '`Skill Haste` 理論上應該是 65% 達到最快，但附魔師的顯示值低於 65% 時似乎也能達到上限。這是 bug 嗎？',
+  'Superior Serene Sigil は1取得しないと詠唱時間が長すぎて発狂する。全体化はできない。':
+    'Superior Serene Sigil 如果不點 1，詠唱時間長到很難忍受；這個效果無法全體化。',
+  'Mastery: 誘惑のランクは効果: Enthrall のクールタイムにも関わるが、元が長すぎ・短縮も微妙なので、そちらを目的としては効果が薄い。なのでポイントを振る場合はアーケイン削減を目的とする。':
+    'Mastery: Beguile 的 Rank 也會影響效果：Enthrall 的冷卻時間；但原本冷卻太長，縮短幅度也微妙，所以若要投入點數，主要應該是為了降低敵 Arcane 抗性。',
+  誘惑ランク: 'Beguile Rank',
+  アーケイン削減: '降低敵 Arcane 抗性',
+  'ランク20以降から削減1%増加に必要なランクが2になる。':
+    '從 Rank 20 之後，每增加 1% 抗性降低大約需要 2 Rank。',
+  'さらに伸ばす場合は削減が上昇したタイミングで止めるようにするといい。':
+    '如果還要繼續投點，建議停在抗性降低數值剛增加的 Rank。',
+  '支援面で優秀なスキルが揃っており、特に Superior Phase Blade が強力。':
+    '這條天賦樹有許多優秀的支援技能，其中 Superior Phase Blade 特別強。',
+  'これは雷ダメージを増加する効果ではなく、与えた物理ダメージに対して割合で雷ダメージを追加するというもの。':
+    '這並不是增加閃電傷害的效果，而是按照所給予的物理傷害比例追加 Lightning 傷害。',
+  'おそらくn秒あたり2回までのような制限があるため、高密度の攻撃には乗り切らないが、低密度かつ単発が大きい攻撃（SKの Shadow Break やバッテリーバードなど）との相性が非常にいい。':
+    '它可能有每 n 秒最多觸發 2 次之類的限制，因此無法完整套用在高密度攻擊上；但和低密度、單下很大的攻擊（SK 的 Shadow Break、Battery Bard 等）相性非常好。',
+  '追加雷ダメージには各自の雷削減やダメージ強化vsタイプが乗る。M振り推奨。':
+    '追加 Lightning 傷害會吃各自的 Lightning 抗性降低，以及對類型傷害強化。建議點滿。',
+  'Superior Mind Blitz はランク19/29でボーナスヒットが増加する。Mind Blitz にはアーケイン削減効果も付いているため、ターゲット増加もありがたい。テンプラーがいれば主力スキルにもなりうる。':
+    'Superior Mind Blitz 在 Rank 19 / 29 時會增加 bonus hit。Mind Blitz 也附帶降低敵 Arcane 抗性的效果，因此增加目標數也很有價值；若隊伍裡有聖殿騎士，也能成為主力技能。',
+  'Superior Static Suffocation は麻痺の範囲ばらまきが可能となるので1は取得する。':
+    'Superior Static Suffocation 可以把麻痺擴散到範圍內，因此至少取得 1 點。',
+  'Mastery: ビガイルの効果: Mind Blitz は誘惑と同様にクールが長すぎるため、雷削減目的となる。':
+    'Mastery: Beguile 的效果：Mind Blitz 和 Enthrall 一樣冷卻太長，因此主要是為了降低敵 Lightning 抗性。',
+  '総合力では火力＋支援ビルドより劣るものの、自身が火力を出すためパーティに左右されないのがメリット。':
+    '雖然綜合能力不如火力＋支援 build，但優點是自己能打出傷害，比較不受隊伍組成影響。',
+  'Superior Augmentation は0でもスキルヘイストが最大値のように感じたため、移動速度目的の1取得に留めた。':
+    '我感覺即使 Superior Augmentation 為 0，`Skill Haste` 也已經達到上限，所以只為了移動速度取得 1 點。',
+  'スタンや凍結、マナ回復バフなど補助要素の大きいツリーで、Mastery: 千里眼を取得すると強化アーケインを獲得。':
+    '這條天賦樹包含許多輔助要素，例如 stun、凍結與 Mana 回復 Buff；取得 Mastery: Clairvoyance 後會獲得強化 Arcane。',
+  '以降入手したポイントは千里眼に注ぎ込み、強化アーケインを増加させるとよい。':
+    '之後取得的點數建議投入 Clairvoyance，用來提高強化 Arcane。',
+  '開幕に使用する Color Shift が火力エンチャンターの瞬間最大風速なので、厚めに取得する。':
+    '開場使用的 Color Shift 是火力型附魔師的瞬間爆發高點，因此建議多投入一些點數。',
+  'Superior Color Shift は回数増加の19止めにしてある。':
+    'Superior Color Shift 先調整到 Rank 19，取得攻擊次數增加。',
+  'Superior Stasis Field にはボーナスヒット増加と書かれているが、実際の効果はターゲット増加。':
+    'Superior Stasis Field 雖然描述寫 bonus hit 增加，但實際效果是增加目標數。',
+  'こちらもランク19で回数が増加するため、そこに調整している。':
+    '目標數也會在 Rank 19 增加，因此此配置調整到該門檻。',
+  'Inveigler と Psionicist のどちらをメインに据えるかは好みにもよるが、火力は前者・支援は後者の方が強い。':
+    '要以 Inveigler 還是 Psionicist 為主，部分取決於個人喜好；前者火力較強，後者支援能力較強。',
+  '頭と胴体の属性もビルドに合わせ、アーケインか雷ダメージを選ぶ。':
+    '頭部與胴體的屬性也要配合 build，在 Arcane 或 Lightning Damage 之間選擇。',
+  'すべての才能と才能ツリーを適切に集めた場合、Superior Enthrall もしくは Mind Blitz は27となり、回数を増加させるにはどこかの部位で+2稼ぐ必要がある。非常に条件が厳しいが、ランク39の回数増加を踏むことも可能だ。':
+    '如果把所有天賦與天賦樹加成都正確湊齊，Superior Enthrall 或 Mind Blitz 會到 27；若要達到攻擊次數增加門檻，還需要從某個部位再補 +2。條件非常嚴格，但也有機會踩到 Rank 39 的攻擊次數增加。',
+  '腕は耐性に不安があるなら、ウォーロックセットの Noik\'s Graft が優秀。':
+    "護腕如果擔心抗性，術士套裝的 Noik's Graft 很優秀。",
+  '靴に関しても耐性が欲しいならテンプラーセットの Jibekn\'s Patrimony が優秀で、属性耐性とレアドロのバランスがいい65紫 Consortium Slippers も選択肢に入る。':
+    "靴子如果想補抗性，聖殿騎士套裝的 Jibekn's Patrimony 很優秀；65 級獨特 Consortium Slippers 在元素抗性與 Rare Drop Rate 之間平衡也不錯，也可以列入候選。",
+  'ダンジョンに入ったらバフ4種をかける。': '進入地城後，先施放 4 種 Buff。',
+  'Augmentation が真っ先に切れるが、これは絶対に切らさないようにしよう。':
+    'Augmentation 會最先結束，但絕對不要讓它斷掉。',
+  戦闘に入ったら開幕: '進入戰鬥時，開場先用',
+  'Color Shift でダメージを稼ぎながら全体スタンをかける。':
+    'Color Shift 打傷害並施加全體 stun。',
+  'タレントを取得していない、もしくは耐久に不安のあるPTなら Rampage 対策にスタンを残しておくのも選択肢。':
+    '如果隊伍沒有取得相關天賦，或對耐久不放心，也可以保留 stun 當作 Rampage 對策。',
+  あとはクール毎に: '接著每次冷卻結束就使用',
+  'Enthrall を使用し、合間に': 'Enthrall，空檔穿插',
+  'Mind Blitz や': 'Mind Blitz 或',
+  'Shifting Ether を使用する。': 'Shifting Ether。',
+  'ビルドが雷型かつ、パーティに': '如果 build 是 Lightning 型，且隊伍裡有',
+  テンプラーがいるなら: '聖殿騎士，也可以連打',
+  'Mind Blitz 連打でダメージを稼ぐのもいい。': 'Mind Blitz 來補傷害。',
+  '敵チャンピオンモンスターに Nimble や、ウォリなどの物理職がいるなら':
+    '如果敵方 Champion monster 帶有 Nimble，或遇到戰士等物理職敵人，',
+  'Static Suffocation で麻痺をかけると物理職は大きく助かるので、可能ならば意識しておこう。':
+    'Static Suffocation 的麻痺能大幅幫助己方物理職；可以的話請記得使用。',
+  'また、Bloodlusted など危険な敵が残りそうな場合は':
+    '另外，如果場上可能留下 Bloodlusted 等危險敵人，就用',
+  'Stasis Field で敵を凍結させよう。': 'Stasis Field 凍結敵人。',
   '対アンデッドに強力なダメージを叩き出し、回復や防御系バフもこなせるクラス。':
     '能對不死生物打出強力傷害，同時也能負責治療與防禦系 Buff 的職業。',
   'なんかもうこのゲームにヒーラーの概念なくて、こいつDPSでしょ感ある。ソロ性能も高い。':

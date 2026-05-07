@@ -1,6 +1,6 @@
 import { readdir, readFile } from 'node:fs/promises';
 import { existsSync } from 'node:fs';
-import { join } from 'node:path';
+import { basename, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import matter from 'gray-matter';
 
@@ -74,7 +74,7 @@ for (const doc of docs) {
   }
 
   if (doc.startsWith(NEVERGRIND_DOCS)) {
-    docByOutputFile.set(doc.split('/').pop(), doc);
+    docByOutputFile.set(basename(doc), doc);
   }
 
   for (const sourcePage of parsed.data.sourcePages ?? []) {

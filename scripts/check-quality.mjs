@@ -1,6 +1,6 @@
 import { readdir, readFile } from 'node:fs/promises';
 import { existsSync } from 'node:fs';
-import { join } from 'node:path';
+import { basename, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import matter from 'gray-matter';
 import { EXPECTED_FC2_COUNT } from './fc2-common.mjs';
@@ -78,6 +78,21 @@ const FC2_TERMINOLOGY_PATTERNS = [
   /隨機属性|沈黙|被弾時/,
 ];
 
+const FC2_CRUSADER_TERMINOLOGY_PATTERNS = [
+  /印刷能力|完全忘記了|祝福悍馬|Blessed Hummer|陸地城堡|輔助魔法師/,
+  /艾達里昂|艾達里安|亞薩夫|雷德羅|騙子之冠|斯皮納爾茲的守夜者/,
+  /水晶海的傳奇蒼穹法杖|透特心靈鏈接法杖|死亡引導者護腕|巨大風暴腰帶/,
+  /奉獻閃爍|轉聖化|涼爽|康復|熱心大滿貫|狂熱猛擊|聖域印記/,
+];
+
+const FC2_ENCHANTER_TERMINOLOGY_PATTERNS = [
+  /技能急速|防止技能急速|全黨|體力職業|黨員|上相刀|砍伐|卓越的色移|迷惑/,
+  /高級增強|高級寧靜印記|無法合計|誘惑等級|Arcane降低|掉落率|下降幅度增加/,
+  /輔助魔法師|低級閃光|心靈閃電戰|奧術墜落|火力魔法師|進階色移|超級靜止力場/,
+  /保護臂|諾伊克移植物|稀有抽籤|財團拖鞋|增幅會先用完|涼爽|酷/,
+  /\bEnthral\b|Senkou|身體活動|靜止力場凍結你的敵人/,
+];
+
 const FC2_RECIPE_TERMINOLOGY_PATTERNS = [
   /(?:^|\n)## 食譜/,
   /掉落天賦|所有技能|法術強度魔法|投擲者技能強化|飛衣斬|飛喉斬|斗篷斬擊/,
@@ -105,6 +120,14 @@ function contentWithoutSourceTitleRows(content) {
     .split('\n')
     .filter((line) => !/^\|\[[^\]]+\.html\]\([^)]*\)\|.*Nevergrind Online 攻略DB\|/.test(line))
     .join('\n');
+}
+
+function sectionBetween(content, startMarker, endMarker) {
+  const start = content.indexOf(startMarker);
+  if (start < 0) return '';
+  const afterStart = content.slice(start);
+  const end = afterStart.indexOf(endMarker);
+  return end >= 0 ? afterStart.slice(0, end) : afterStart;
 }
 
 function faqSectionHasAnswers(content) {
@@ -222,6 +245,7 @@ if (Array.isArray(imageManifest.skipped)) {
 }
 
 for (const doc of docs) {
+  const docName = basename(doc);
   const raw = await readFile(doc, 'utf8');
   const parsed = matter(raw);
   docContentByPath.set(doc, parsed.content);
@@ -233,7 +257,7 @@ for (const doc of docs) {
     }
   }
 
-  if (doc.startsWith(NEVERGRIND_DOCS) && doc.split('/').pop().startsWith('fc2-')) {
+  if (doc.startsWith(NEVERGRIND_DOCS) && docName.startsWith('fc2-')) {
     if (TRACKING_IMAGE_PATTERN.test(qualityContent)) {
       problems.push(`${doc} contains a tracking or external FC2 image reference.`);
     }
@@ -251,7 +275,31 @@ for (const doc of docs) {
       }
     }
 
-    if (doc.endsWith('fc2-recipes.md')) {
+    if (docName === 'fc2-class-build-index.md') {
+      const crusaderContent = sectionBetween(
+        qualityContent,
+        '<a id="fc2-crusader"></a>',
+        '<a id="fc2-druid"></a>',
+      );
+      for (const pattern of FC2_CRUSADER_TERMINOLOGY_PATTERNS) {
+        if (pattern.test(crusaderContent)) {
+          problems.push(`${doc} still contains FC2 class-build terminology drift matching ${pattern}.`);
+        }
+      }
+
+      const enchanterContent = sectionBetween(
+        qualityContent,
+        '<a id="fc2-enchanter"></a>',
+        '<a id="fc2-monk"></a>',
+      );
+      for (const pattern of FC2_ENCHANTER_TERMINOLOGY_PATTERNS) {
+        if (pattern.test(enchanterContent)) {
+          problems.push(`${doc} still contains FC2 Enchanter terminology drift matching ${pattern}.`);
+        }
+      }
+    }
+
+    if (docName === 'fc2-recipes.md') {
       for (const pattern of FC2_RECIPE_TERMINOLOGY_PATTERNS) {
         if (pattern.test(qualityContent)) {
           problems.push(`${doc} still contains FC2 recipe terminology drift matching ${pattern}.`);
@@ -259,7 +307,7 @@ for (const doc of docs) {
       }
     }
 
-    if (doc.endsWith('fc2-rune-craft-reference.md')) {
+    if (docName === 'fc2-rune-craft-reference.md') {
       for (const pattern of FC2_MYTHICAL_TERMINOLOGY_PATTERNS) {
         if (pattern.test(qualityContent)) {
           problems.push(`${doc} still contains FC2 Mythical Craft terminology drift matching ${pattern}.`);
@@ -267,7 +315,7 @@ for (const doc of docs) {
       }
     }
 
-    if (doc.endsWith('fc2-general-reference.md')) {
+    if (docName === 'fc2-general-reference.md') {
       for (const pattern of FC2_GAMBLING_TERMINOLOGY_PATTERNS) {
         if (pattern.test(qualityContent)) {
           problems.push(`${doc} still contains FC2 Gambling terminology drift matching ${pattern}.`);
@@ -280,15 +328,15 @@ for (const doc of docs) {
       problems.push(`${doc} still appears to contain large untranslated Japanese fragments: ${kanaMatches.slice(0, 8).join(', ')}`);
     }
 
-    if (doc.endsWith('fc2-general-reference.md') && !faqSectionHasAnswers(qualityContent)) {
+    if (docName === 'fc2-general-reference.md' && !faqSectionHasAnswers(qualityContent)) {
       problems.push(`${doc} appears to have a heading-only FC2 FAQ section without rendered answers.`);
     }
 
-    if (doc.endsWith('fc2-general-reference.md') && !faqSectionHasNoStaticIntroList(qualityContent)) {
+    if (docName === 'fc2-general-reference.md' && !faqSectionHasNoStaticIntroList(qualityContent)) {
       problems.push(`${doc} still contains the non-clickable FC2 FAQ intro list before the rendered answers.`);
     }
 
-    if (doc.endsWith('fc2-general-reference.md') && !generalReferenceStartsWithIndex(qualityContent)) {
+    if (docName === 'fc2-general-reference.md' && !generalReferenceStartsWithIndex(qualityContent)) {
       problems.push(`${doc} should render the FC2 source homepage index.html before chart.html.`);
     }
   }
