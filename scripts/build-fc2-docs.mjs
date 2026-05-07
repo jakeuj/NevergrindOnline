@@ -37,12 +37,12 @@ const TOPIC_META = {
     description: 'FC2 Legendary 裝備表的繁中化版本，保留名稱、需求等級、DPS、防禦與 Mods 數值。',
   },
   'fc2-recipes.md': {
-    title: 'Nevergrind Online FC2 Recipe 全量表',
-    description: 'FC2 Recipe 表格的繁中化版本，保留裝備欄位、需求等級、符文與 Mods。',
+    title: 'Nevergrind Online FC2 配方全量表',
+    description: 'FC2 配方表格的繁中化版本，保留裝備欄位、需求等級、符文與 Mods。',
   },
   'fc2-rune-craft-reference.md': {
-    title: 'Nevergrind Online FC2 符文 / Craft / Item Mods 全量參考',
-    description: '整合 FC2 符文、Rune Select、Mythical Craft 與 Item Mods 頁面，保留配置建議與數值表。',
+    title: 'Nevergrind Online FC2 符文 / 神話製作 / Item Mods 全量參考',
+    description: '整合 FC2 符文、Rune Select、神話製作（Mythical Craft）與 Item Mods 頁面，保留配置建議與數值表。',
   },
   'fc2-selected-unique-items.md': {
     title: 'Nevergrind Online FC2 嚴選獨特裝備速查',
@@ -96,7 +96,8 @@ const SOURCE_TERM_REPLACEMENTS = [
   ['金銭効率', '金錢效率'],
   ['仕様', '規則'],
   ['更新履歴', '更新紀錄'],
-  ['ページ内リンク', '頁內連結'],
+  ['ページ内リンク', '頁內索引'],
+  ['レシピ', '配方'],
   ['ノーマル', '普通（Normal）'],
   ['ナイトメア', '惡夢（Nightmare）'],
   ['ヘル', '地獄（Hell）'],
@@ -135,10 +136,19 @@ const SOURCE_TERM_REPLACEMENTS = [
   ['ウォロ', '術士'],
   ['ウィザード', '巫師'],
   ['ウィズ', '巫師'],
+  ['ソロ性能', '單刷能力'],
+  ['ソロ時', '單刷時'],
+  ['ソロ', '單刷'],
+  ['ブラウン', 'Brawn'],
+  ['すべての才能', '所有天賦'],
+  ['全ての才能', '所有天賦'],
+  ['全才能', '所有天賦'],
+  ['才能ツリー', '天賦樹'],
   ['タレント', '天賦'],
   ['マスタリー', 'Mastery'],
   ['スキル', 'Skill'],
   ['パッシブ', 'Passive'],
+  ['ルーンワード', '符文組'],
   ['ルーン', '符文'],
   ['ソケット', 'Socket'],
   ['クラフト', 'Craft'],
@@ -153,9 +163,16 @@ const SOURCE_TERM_REPLACEMENTS = [
   ['酒場', '酒館'],
   ['タウン', '城鎮'],
   ['リログ', '重新登入'],
+  ['全スペルダメージ', 'All Spell Damage'],
+  ['全スペルパワー', 'All Spell Power'],
+  ['スペルダメージ', 'Spell Damage'],
   ['スペルパワー', 'Spell Power'],
   ['レアドロップ率', 'Rare Drop Rate'],
   ['ドロップ率', 'Drop Rate'],
+  ['Dotダメージ', 'DoT Damage'],
+  ['魔法ダメージ', '魔法 Damage'],
+  ['物理ダメージ', '物理 Damage'],
+  ['ダメージ強化', 'Damage 強化'],
   ['ダメージ', 'Damage'],
   ['スピード', 'Speed'],
   ['要求レベル', '需求等級'],
@@ -168,6 +185,9 @@ const SOURCE_TERM_REPLACEMENTS = [
   ['オフェンス', '攻擊'],
   ['受流し', '招架'],
   ['反撃', '反擊'],
+  ['サブツリー', '副天賦樹'],
+  ['サブ Vestal', '副 Vestal'],
+  ['サブ Scion', '副 Scion'],
   ['サブ', '副手'],
   ['多数', '多數'],
   ['物理防御', '物理防禦'],
@@ -200,10 +220,15 @@ const SOURCE_TERM_REPLACEMENTS = [
   ['Socket付き', 'Socketed'],
   ['ソケット付き', 'Socketed'],
   ['付き', '附帶'],
+  ['ダメージの軽減', 'Damage 減免'],
   ['の軽減', '減免'],
   ['才能ツリー', '天賦樹'],
   ['ツリー', '樹'],
   ['装備', '裝備'],
+  ['片手鈍器(物)', '單手鈍器（物理）'],
+  ['片手鈍器(魔)', '單手鈍器（魔法）'],
+  ['両手鈍器(物)', '雙手鈍器（物理）'],
+  ['両手鈍器(魔)', '雙手鈍器（魔法）'],
   ['片手斬り', '單手斬擊'],
   ['両手斬り', '雙手斬擊'],
   ['片手鈍器', '單手鈍器'],
@@ -218,7 +243,7 @@ const SOURCE_TERM_REPLACEMENTS = [
   ['二刀流', '雙持'],
   ['回避', '閃避'],
   ['頭', '頭部'],
-  ['胴体', '胸甲'],
+  ['胴体', '胴體'],
   ['肩', '肩部'],
   ['腕', '護腕'],
   ['手', '手套'],
@@ -261,15 +286,33 @@ const SOURCE_TERM_REPLACEMENTS = [
   ['ヘルス', 'Health'],
   ['マナ', 'Mana'],
   ['スピリット', 'Spirit'],
+  ['ヒット時ヘルス回復', '命中時 Health 回復'],
+  ['ヒット時マナ回復', '命中時 Mana 回復'],
+  ['ヘルス リジェネ', 'Health 恢復速度'],
+  ['マナ リジェネ', 'Mana 恢復速度'],
+  ['スピリット リジェネ', 'Spirit 恢復速度'],
+  ['ヘルス キル時回復', 'Health 擊殺時恢復'],
+  ['マナ キル時回復', 'Mana 擊殺時恢復'],
+  ['スピリット キル時回復', 'Spirit 擊殺時恢復'],
   ['キル時回復', '擊殺時恢復'],
   ['ヒット時回復', '命中時恢復'],
+  ['被弾時', '受擊時'],
   ['被弾時回復', '受擊時恢復'],
+  ['ランダム タレント', '隨機天賦'],
+  ['ランダム 才能ツリー', '隨機天賦樹'],
+  ['ランダム スキル強化', '隨機 Skill 強化'],
+  ['ランダムスキル強化', '隨機 Skill 強化'],
+  ['ランダム属性耐性', '隨機屬性抗性'],
+  ['ランダム属性', '隨機屬性'],
   ['ランダム', '隨機'],
   ['増加', '增加'],
   ['強化', '強化'],
   ['削減', '降低'],
+  ['全属性耐性', '全屬性抗性'],
   ['全属性', '全屬性'],
+  ['全ステータス耐性', '全能力值抗性'],
   ['全ステータス', '全能力值'],
+  ['全パッシブスキル', '全 Passive Skill'],
   ['全パッシブ', '全 Passive'],
   ['すべての才能', '所有天賦'],
   ['低下', '降低'],
@@ -281,6 +324,9 @@ const SOURCE_TERM_REPLACEMENTS = [
   ['ボス', 'Boss'],
   ['武器', '武器'],
   ['防具', '防具'],
+  ['毒物耐性', '毒素抗性'],
+  ['沈黙耐性', '沉默抗性'],
+  ['沈黙', '沉默'],
   ['魔法', '魔法'],
   ['物理理', '物理'],
 ];
@@ -353,6 +399,7 @@ const POSTPROCESS_REPLACEMENTS = [
   ['右手套', '右手'],
   ['左手套', '左手'],
   ['副手套', '副手'],
+  ['冷靜時間', '冷卻時間'],
   ['狀態異常一覧', '狀態異常一覽'],
   ['装備収集', '裝備收集'],
   ['金銭効率', '金錢效率'],
@@ -364,6 +411,7 @@ const POSTPROCESS_REPLACEMENTS = [
   ['埴輪', 'Haniwa'],
   ['Haniwa舒莫奇', '雙持 Haniwa'],
   ['神秘典範', 'Cryptic Paragon'],
+  ['隱密典範', 'Cryptic Paragon'],
   ['仕様', '規則'],
   ['知恵', 'Intelligence'],
   ['カリスマ', 'Charisma'],
@@ -376,6 +424,24 @@ const POSTPROCESS_REPLACEMENTS = [
   ['受流し', '招架'],
   ['反撃', '反擊'],
   ['物理Damage', '物理 Damage'],
+  ['魔法Damage', '魔法 Damage'],
+  ['Damage強化', 'Damage 強化'],
+  ['PassiveSkill', 'Passive Skill'],
+  ['Skill強化', 'Skill 強化'],
+  ['Health回復', 'Health 回復'],
+  ['Mana回復', 'Mana 回復'],
+  ['Spirit回復', 'Spirit 回復'],
+  ['被弾時', '受擊時'],
+  ['沈黙', '沉默'],
+  ['隨機属性', '隨機屬性'],
+  ['全Spell Power', 'All Spell Power'],
+  ['全Spell Damage', 'All Spell Damage'],
+  ['毒素素', '毒素'],
+  ['職業 才能', '職業天賦'],
+  ['職業 天賦', '職業天賦'],
+  ['職業 Skill 強化', '職業 Skill 強化'],
+  ['職業 Skill強化', '職業 Skill 強化'],
+  ['頁內連結', '頁內索引'],
   ['Damage減免', 'Damage 減免'],
   ['Arcane抗性', 'Arcane 抗性'],
   ['攻撃能力', 'Attack Rating'],
@@ -402,8 +468,37 @@ const POSTPROCESS_REPLACEMENTS = [
   ['獨一無二', '獨特'],
   ['人才', '天賦'],
   ['自然能力', '天賦'],
+  ['獨奏表演', '單刷能力'],
+  ['獨奏', '單刷'],
+  ['單人轉', '單刷循環'],
+  ['布朗', 'Brawn'],
+  ['空手套', '空手'],
+  ['次要技術維斯塔', '副 Vestal'],
+  ['維斯塔下幔', '副 Vestal'],
+  ['Scion Vice Maneuve', '副 Scion'],
+  ['副手樹', '副天賦樹'],
+  ['神殿騎士', '聖殿騎士'],
+  ['readore', 'Rare Drop Rate'],
+  ['Readro', 'Rare Drop Rate'],
+  ['稀有抽獎', 'Rare Drop Rate'],
+  ['裂罅洞窟之王', 'King of Riven Grotto'],
+  ['反亡靈', '對不死生物'],
+  ['扎姆提爾', 'Zamtil'],
+  ['元帥手套罪孽', 'Marshal Gauntlets Iniquity'],
+  ['當你進入城堡時', '進入地城後'],
+  ['當你進入地城時', '進入地城後'],
+  ['進入城堡後', '進入地城後'],
+  ['禮品樹', '天賦樹'],
+  ['禮物樹', '天賦樹'],
+  ['禮品', '天賦'],
+  ['禮物', '天賦'],
   ['Talent 樹', '天賦樹'],
   ['Talent樹', '天賦樹'],
+  ['所有天賦+2枠', '所有天賦 +2 欄位'],
+  ['全才能+2枠', '所有天賦 +2 欄位'],
+  ['全才能+2, Judicator+3枠', '所有天賦 +2、Judicator +3 欄位'],
+  ['全才能+2, 天賦樹+3枠', '所有天賦 +2、天賦樹 +3 欄位'],
+  ['枠', '欄位'],
   ['精通', 'Mastery'],
   ['插座', 'Socket'],
   ['普通攻擊命中時', '普通攻擊命中時'],
@@ -412,8 +507,14 @@ const POSTPROCESS_REPLACEMENTS = [
   ['噩夢', '惡夢（Nightmare）'],
   ['英勇', '英雄（Heroic）'],
   ['以太', '乙太'],
+  ['如何選擇符號', '如何選擇符文'],
+  ['標誌/武器 DPS 計算器', '符文 / 武器 DPS 計算機'],
+  ['標誌/武器DPS計算器', '符文 / 武器 DPS 計算機'],
+  ['符號詞', '符文組'],
+  ['Fyrm 符號聲明', 'Fyrm 符文賦予'],
   ['符號文字', '符文'],
   ['符號文本', '符文'],
+  ['符號', '符文'],
   ['旋轉地牢', '周回地城'],
   ['旋轉地城', '周回地城'],
   ['地下城', '地城'],
@@ -435,6 +536,15 @@ const POSTPROCESS_REPLACEMENTS = [
 ];
 
 const MANUAL_TRANSLATIONS = {
+  レシピ: '配方',
+  ページ内リンク: '頁內索引',
+  胴体: '胴體',
+  '片手鈍器(物)': '單手鈍器（物理）',
+  '片手鈍器(魔)': '單手鈍器（魔法）',
+  '両手鈍器(物)': '雙手鈍器（物理）',
+  '両手鈍器(魔)': '雙手鈍器（魔法）',
+  '頭 / 胴体 / 片手斬り / 両手斬り / 片手鈍器(物) / 片手鈍器(魔) / 両手鈍器(物) / 両手鈍器(魔) / 刺突 / 盾 / 弓術':
+    '頭部 / 胴體 / 單手斬擊 / 雙手斬擊 / 單手鈍器（物理） / 單手鈍器（魔法） / 雙手鈍器（物理） / 雙手鈍器（魔法） / 刺擊 / 盾牌 / 弓術',
   'ナイトメア・ヘルではそれぞれModsが2・3個に増加するが、その内容はランダム。':
     '惡夢（Nightmare）和地獄（Hell）的 Mods 數量分別增加為 2 個與 3 個，但組合內容是隨機的。',
   'ノーマルで1個、ナイトメアで2個、ヘルで3個付与される。':
@@ -444,8 +554,162 @@ const MANUAL_TRANSLATIONS = {
   ヘル: '地獄（Hell）',
   ヒロイック: '英雄（Heroic）',
   クラス: '職業',
+  ルーン: '符文',
+  クラフト: '神話製作（Craft）',
+  基本: '基本',
+  作成方法: '製作方法',
+  素材: '素材',
+  灰字: '灰字',
+  ショップ: '商店',
+  製作: '製作',
+  ソケット: 'Socket',
+  素体準拠: '依素體繼承',
+  要求レベル: '需求等級',
+  スキルMod: '技能 Mod',
+  エーテル: '乙太',
+  '鍛冶屋のクラフトタブでミシカルアイテムを製作できる。ルーンワードとも。':
+    '可在鐵匠鋪的 Craft 分頁製作 Mythical 物品，也就是 Rune Word（符文組）系統。',
+  '素体となるアイテムと必要ルーンをインベントリ内に持ち、素体を選択して作成ボタンを押すことで製作。':
+    '背包中同時持有要作為素體的裝備與所需符文，選取素體後按下製作按鈕即可製作。',
+  '製作するにあたり、ソケット内にルーンを挿入する必要はない。':
+    '製作時不需要先把符文插進素體的 Socket。',
+  'Socketed アイテム（名前が灰色 / ソケット付きの白字）を素体に使用する。':
+    '以 Socketed 物品作為素體。這類物品的名稱通常是灰字；帶 Socket 的普通白裝則是白字。',
+  '要求ルーンと同数のソケット数が必要であり、ソケット数の過剰・未満は使用できない。たとえば要求ルーンが GRA と IZA であれば、ソケット数が2の物のみが使用でき、1や3は使用できない。':
+    'Socket 數量必須和要求符文數量相同；Socket 過多或不足都不能使用。例如要求符文是 Gra 與 Iza 時，只能使用 2 Socket 物品，1 Socket 或 3 Socket 都不行。',
+  'Socketed アイテムにはタレントやスキル強化が付与されているものがあり、これらは製作時に引き継がれる。':
+    '部分 Socketed 物品會帶有天賦或技能強化，這些詞綴會在製作後保留下來。',
+  'Socketed アイテムの中には名称の前部分に Superior と表記されたもの（画像右）があり、武器ならばダメージ強化が、防具ならば物理防御強化が追加で付与される。これらは製作後に加算される。':
+    '部分 Socketed 物品名稱前會標示 Superior（右圖）。武器會額外帶有 Damage 強化，防具會額外帶有物理防禦強化；這些數值會在製作完成後加算。',
+  'Socketed アイテムはダンジョンで拾う他に、薬屋・鍛冶屋・商人でも販売される。':
+    '除了從地城拾取，Socketed 物品也可能在藥劑師、鐵匠鋪、商人販售。',
+  '商品はキャラクターごとに変化し、更新タイミングは街もしくはオフライン状態で1時間経過？':
+    '商品會依角色而不同；更新時機推測是在城鎮中或離線狀態經過 1 小時。',
+  '製作したアイテムのソケットは消費され、エンチャントをすることはできない。':
+    '製作完成後，成品的 Socket 會被消耗，無法再進行 Enchant（附魔）。',
+  '製作に使用したルーンの効果がエンチャントされるということはない。':
+    '用於製作的符文效果不會以 Enchant（附魔）形式保留在成品上。',
+  'ダメージやスピード、物理防御といった基本的な性能は素体の数値を引き継ぐ。':
+    'Damage、Speed、物理防禦等基礎性能會繼承素體數值。',
+  '防具を製作した時の材質は素体準拠であり、素体が布ならば完成品も布になる。':
+    '製作防具時，材質也依素體決定；素體是布甲，成品也會是布甲。',
+  'ミシックの要求レベルは素体もしくはレシピの高い方の数値が優先される。':
+    'Mythic 物品的需求等級會採用素體與配方兩者之中較高的數值。',
+  'よってエリート素材の性能を持った、要求レベル9のような装備は製作できない。':
+    '因此無法用精英素材的性能做出需求等級 9 之類的裝備。',
+  '素体にタレントやスキル強化が付与されている場合、製作したアイテムのMod抽選はその職に固定されて行われる。':
+    '若素體帶有天賦或技能強化，成品的 Mod 抽選會固定在該職業池內進行。',
+  'すでに素体に付与されているタレントは、製作により追加されるタレントとは重複せず、抽選から省かれる。':
+    '素體已經帶有的天賦不會和製作新增的天賦重複，會從抽選池中排除。',
+  'すでに素体に付与されているスキル強化は、製作により追加されるスキル強化と重複する。':
+    '素體已經帶有的技能強化則可能和製作新增的技能強化重複。',
+  '素体にエーテルが付与されている場合は引き継ぐが、耐久度の回復などはなく据え置き。':
+    '若素體帶有乙太，成品會繼承乙太；但耐久度不會恢復，會維持原本數值。',
+  'ルーンの選び方': '如何選擇符文',
+  '関連性の高いページ： ルーン / 武器DPS計算機': '相關頁面：符文 / 武器 DPS 計算機',
+  '各難易度の Lord Szarthax の初回クリア時に王様から報酬をもらえ、この時キャラクターが一定のレベルを満たしているとルーンを確定で入手できます。レベルを満たしていない場合はルーンが消されるので注意。':
+    '各難度首次通關 Lord Szarthax 時，可以從國王那裡取得獎勵；若角色達到指定等級，會保證獲得符文。未達等級時符文會被移除，請注意。',
+  '持ち帰るアイテム': '值得帶回的物品',
+  '収集すべきアイテムや、金銭効率といった話。': '討論哪些物品值得撿回城鎮，以及賣價上的金錢效率。',
+  'クラフト関連は実装から間もないため、このページ内では触れていない。':
+    'Craft 相關系統實裝不久，本頁暫不討論。',
+  'レア等級以下': '稀有（Rare）等級以下',
+  '装備収集': '裝備收集',
+  '+2 すべての才能がついたレアネックレス（いちおうマジックにもつく）は非常に有用であり、筋力（最大+50）が同時につけば物理職で長く使うことができる。また+3 才能ツリーは特定職で有用であり、クルセイダーの Judicator やテンプラーの Visionary や Elementalist などはユニークを拾うまでの繋ぎになる。':
+    '帶有 +2 所有天賦的稀有（Rare）項鍊非常有用（Magic 也有機會出現）。如果同時帶力量（最高 +50），物理職業可以用很久。另外，+3 天賦樹對特定職業很有價值，例如十字軍的 Judicator、聖殿騎士的 Visionary / Elementalist，在撿到對應獨特裝備前都能當過渡裝。',
+  'またレアグローブにも+2 才能ツリーがつく。ウォーロックはレジェンダリーでしか+2がつかないし、テンプラーはレアでしか+2ができない。プレート職は Marshal Gauntlets Iniquity の目当ての才能ツリーを引くまでの繋ぎにもなりうる。ただし滅多に才能がつかないし、そこそこの代用品もあるのでそこまで重要でもない。':
+    '稀有（Rare）手套也可能出現 +2 天賦樹。術士只有傳奇（Legendary）能出 +2，聖殿騎士則只有稀有（Rare）能出 +2。板甲職業也可以把它當成抽到 Marshal Gauntlets Iniquity 目標天賦樹之前的過渡品。不過天賦詞綴非常少見，而且也有還可以的替代品，所以重要度沒有那麼高。',
+  '素の価格においては、プレートが最も高く、布が最も安くなる。また部位でいえば胴体が最も高く、見た目が重そうな装備ほど高い傾向にあると思う。加えて鑑定後のModによっては価格が加算され、才能や属性耐性が特に狙い目であり、それらが付与される部位を持ち帰るのが金銭効率的には正しい。':
+    '以基礎價格來看，板甲最高、布甲最低。以部位來說胴體最高；外觀看起來越重的裝備，價格通常也越高。鑑定後，某些 Mod 會讓價格增加，其中天賦與屬性抗性特別值得注意。把可能出現這些詞綴的部位帶回去，金錢效率會比較好。',
+  'レア魔法鈍器（片手・両手）＞胴体＞盾・頭・手・太腿・靴':
+    '稀有（Rare）魔法鈍器（單手 / 雙手） > 胴體 > 盾牌、頭部、手部、腿甲、靴子',
+  '優先順位としてはこんな感じになると思われる。': '大致上優先順序應該是這樣。',
+  '鈍器の物理と魔法の見分け方はアイコンを覚えるしかなく、慣れないうちはスクロールで鑑定して才能の有無を確認してもいいかもしれない。人を撲殺するために生まれてきたような形状をしたやつが物理鈍器。':
+    '物理鈍器和魔法鈍器只能靠圖示分辨；不熟時也可以用鑑定卷軸確認有沒有天賦。看起來像天生就是拿來敲人的那種，就是物理鈍器。',
+  '●片手魔法鈍器（フォーカス）': '● 單手魔法鈍器（Focus）',
+  '●両手魔法鈍器（ステイヴ）': '● 雙手魔法鈍器（Stave）',
+  '余談ではあるが、レアの物理両手はDPSが75を超えたあたりから売値が安定して高くなるので、覚えておけるなら覚えておくといい。':
+    '順帶一提，稀有（Rare）物理雙手鈍器在 DPS 超過 75 左右後，賣價會穩定偏高；如果記得住，建議記起來。',
+  'ユニーク等級以上': '獨特（Unique）等級以上',
+  '装備収集・金銭効率': '裝備收集 / 金錢效率',
+  'エクセプショナル以上であれば装備収集・金銭効率のどちらの面から見ても、すべて持ち帰っていい。':
+    '只要是優秀（Exceptional）以上，無論裝備留用或賣錢效率，基本上都可以全部帶回。',
+  '終盤であればノーマルは基本的に捨てて構わない。魔法両手鈍器はノーマルであっても全ての装備に才能がついているので良い値段で売れる。その他は才能や属性耐性がつくノーマルユニークを把握できているなら持ち帰る。':
+    '後期普通（Normal）裝備基本上可以丟掉沒關係。不過魔法雙手鈍器即使是普通（Normal），所有裝備都會帶天賦，所以能賣不錯的價格。其他普通（Normal）獨特裝備則看你是否記得哪些會出天賦或屬性抗性；能辨認的話就帶回。',
+  'また、ノーマルユニーク・セットの中には一部持ち帰るべき例外が弓にある。':
+    '此外，普通（Normal）獨特 / 套裝當中也有少數該帶回的例外，主要是弓。',
+  "Stormcaller Bow と Demetrium's Ballista の最大ソケットは最終装備に残りうるので、しっかり持ち帰ろう。":
+    "Stormcaller Bow 和 Demetrium's Ballista 的最大 Socket 數可能留到最終裝備，因此請務必帶回。",
+  '持ち帰ったユニークやセットの取捨選別に迷ったら、各職の代表スキル や 各職の厳選ユニーク、また各職のビルド紹介ページなどを参考にしてほしい。':
+    '如果不確定帶回的獨特或套裝該留還是該賣，可以參考各職代表技能、各職嚴選獨特裝備，以及各職 Build 介紹頁。',
   'ページ内リンク：ノーマル / ナイトメア / ヘル / ヒロイック':
     '頁內連結：普通（Normal） / 惡夢（Nightmare） / 地獄（Hell） / 英雄（Heroic）',
+  '対アンデッドに強力なダメージを叩き出し、回復や防御系バフもこなせるクラス。':
+    '能對不死生物打出強力傷害，同時也能負責治療與防禦系 Buff 的職業。',
+  'なんかもうこのゲームにヒーラーの概念なくて、こいつDPSでしょ感ある。ソロ性能も高い。':
+    '總覺得這遊戲到後期已經不太有純補師的概念；牧師更像能補的 DPS，單刷能力也很高。',
+  'アイコンは': '圖示為',
+  'で、クラスカラーは 黄色。': '，職業代表色是黃色。',
+  'オフェンス、ディフェンス、片手鈍器、素手、両手鈍器、二刀流、回避、Alteration、Conjuration、Evocation':
+    '攻擊、防禦、單手鈍器、空手、雙手鈍器、雙持、閃避、Alteration、Conjuration、Evocation',
+  'ラピッドアタック … 武器による自動攻撃が高速化する': 'Rapid Attack：武器自動攻擊會變快。',
+  '回復 ダメージ … 回復スキルをそのまま攻撃スキルに置き換える。味方をターゲットすれば回復のままとなる':
+    'Heal Damage：將治療技能直接轉為攻擊技能；若目標是隊友，效果仍會維持治療。',
+  'メインスキルである Condemnation を有するツリー。': '擁有主技能 Condemnation 的天賦樹。',
+  'Superior Condemnation は25でボーナスヒット+5となる。達成はそこまで難しくない。':
+    'Superior Condemnation 到 25 時會取得 bonus hit +5；達成難度不算太高。',
+  'ブラウンを5削る選択肢もあるかもしれないが、殴りダメージがそこまで悪くないので、これを削ってまで他を取る価値があるかは疑問。':
+    '也許可以選擇少點 5 點 Brawn，但普攻傷害其實不差；為了挪點數去拿別的東西是否值得，我覺得有疑問。',
+  'Mastery: 裁判官のランクを上げると 効果: Condemnation のクールタイムが減少するが、元が長すぎることもあり、15から25にしてもラピッド33振りが30振りになる程度で影響は小さく、取得する価値は感じなかった。':
+    '提高 Mastery: Judicator 等級會讓 Condemnation 的冷卻時間縮短；但原本冷卻太長，即使從 15 提到 25，也大概只是把 Rapid Attack 從 33 點降到 30 點，影響很小，我覺得不值得特地投入。',
+  'ヒールやバフ関係のタレントが集まったツリーで、パーティの安定に寄与することができる。':
+    'Vestal 是集中治療與 Buff 相關天賦的天賦樹，可以提升隊伍穩定度。',
+  '非難の詩篇を取得することで回復ダメージが追加され、味方をターゲットしていると回復に、敵をターゲットしているとダメージとなる。Condemnation のクール中を穴埋めする便利な攻撃スキルとなるが、回復したい時に攻撃したり、攻撃したい時に回復するといった操作ミスが出るのが難点か。':
+    '取得 Psalm of Condemnation 後會追加 Heal Damage：目標是隊友時會治療，目標是敵人時會造成傷害。它能在 Condemnation 冷卻期間補輸出，是方便的攻擊技能；缺點是容易發生操作失誤，例如想補血時打到敵人、想攻擊時補到隊友。',
+  '火力＋支援型（サブ Vestal ）と比べて、DPSが10～20k程度伸びる。ソロはこちらの方が回しやすい。':
+    '與火力＋支援型（副 Vestal）相比，DPS 約提升 10～20k；單刷時這邊的技能循環比較好操作。',
+  'Zealous Resolve の全体化が取得できないのと、テンプラーがいないと少し動きづらいのが難点か。':
+    '缺點是無法取得 Zealous Resolve 的全體化效果，而且沒有聖殿騎士時操作會稍微不順。',
+  '各スキルの回数増加タイミングは Deliverance が15、Holy Sanctuary が16、Sacred Revelation が16。':
+    '各技能的攻擊次數增加門檻分別是 Deliverance 15、Holy Sanctuary 16、Sacred Revelation 16。',
+  'Mastery: オーギュリーの効果: Deliverance のクールタイムはランク11で15.6s程度、ランク20で9.5s程度と長め。':
+    'Mastery: Augury 的效果會縮短 Deliverance 冷卻時間；Rank 11 約 15.6 秒，Rank 20 約 9.5 秒，仍然偏長。',
+  'King of Riven Grotto (ヒロイック) の周回を想定した対アンデッド装備。':
+    '以英雄（Heroic）King of Riven Grotto 周回為想定的對不死生物裝備。',
+  '才能ツリーは Arbiter を集め、スキルは Condemnation を集める。Superior Condemnation の回数増加はセットの才能を最高値で揃えれば自然と達成できる。':
+    '天賦樹目標是 Arbiter，技能加成目標是 Condemnation。只要把套裝上的天賦 roll 盡量湊到最高值，Superior Condemnation 的攻擊次數增加自然就能達成。',
+  'Fanatic 2セットはアンデッド15%を得られる。': 'Fanatic 2 件效果提供 +15% 對不死生物傷害。',
+  'レアドロを重視するなら適当な肩と50革靴 Trek of Glory を採用してもいいだろう。':
+    '如果重視 Rare Drop Rate，也可以把肩部換成合適替代品，靴子改用 50 級皮靴 Trek of Glory。',
+  'Zamtil 3セットはレアドロ33%、アーケイン強化13%を得られる。':
+    'Zamtil 3 件效果提供 33% Rare Drop Rate 與 13% Arcane 強化。',
+  '単体で見てもアーケイン系の優秀な装備が揃っており、バランスもいいのでおすすめ。':
+    '即使單件來看，這些也都是優秀的 Arcane 系裝備；整體平衡很好，因此推薦。',
+  'あるいは背中を Zamtil\'s Bluster とし、手を74プレート紫の Marshal Gauntlets Iniquity にするのもいい。':
+    "另一種選擇是背部改用 Zamtil's Bluster，手套改用 74 級板甲獨特 Marshal Gauntlets Iniquity。",
+  ダンジョンに入ったら: '進入地城後，先施放',
+  'Seal of Redemption と': 'Seal of Redemption 與',
+  'Zealous Resolve をキャストする。': 'Zealous Resolve。',
+  'Guardian Angel はタゲを集めやすいDPSにかけるとよく、ウィズやウォロといった布職が特におすすめ。':
+    'Guardian Angel 建議放在容易拉仇恨的 DPS 身上，特別推薦巫師、術士等布甲職。',
+  'Vestal サブのスキル回しは': '副 Vestal 的技能循環是：',
+  'Condemnation を使用したら、': '使用 Condemnation 後，',
+  'Circle of Prayer を使い、': '接 Circle of Prayer，',
+  'Divine Light を2～3回撃って、再び': '施放 Divine Light 2～3 次，接著回到',
+  'Condemnation のループ。': 'Condemnation 循環。',
+  'Scion サブのスキル回しは、開幕': '副 Scion 的技能循環開場為：',
+  'Deliverance のような感じ。': 'Deliverance，大致是這樣的循環。',
+  'Deliverance がスタン中の敵にダメージボーナスがあるため、このようになる。':
+    '之所以這樣安排，是因為 Deliverance 對眩暈中的敵人有傷害加成。',
+  'Sacred Revelation や': 'Sacred Revelation 或',
+  'Force of Glory は合間に使用したり、Rampage 対策に使用したりする。':
+    'Force of Glory 可以穿插使用，也可以當作 Rampage 對策。',
+  'Force of Glory はエンチャンターがいれば挟みやすいが、そうでない場合トドメのような使い方が便利。':
+    '有附魔師時，Force of Glory 比較容易穿插進循環；沒有附魔師時，拿來當收尾技能也很方便。',
+  'すべての才能+2枠': '所有天賦 +2 欄位',
+  '全才能+2枠': '所有天賦 +2 欄位',
+  '全才能+2, Judicator+3枠': '所有天賦 +2、Judicator +3 欄位',
+  '全才能+2, 才能ツリー+3枠': '所有天賦 +2、天賦樹 +3 欄位',
   'ゲームの最初の難易度であり、基本的なことを学ぶ。':
     '普通（Normal）是遊戲的第一個難度，你會在這裡學習基礎流程。',
   'なお余談ではあるが、ノーマル限定でAct.IVのボスを倒しても Ashenflow Peak のボスである Lord Szarthax まで全開放されない。だいたい Ashenflow Peak の半分くらいまで開放され、残りは進める必要がある。':
@@ -454,16 +718,40 @@ const MANUAL_TRANSLATIONS = {
     '推進路線可以自由選擇；如果是擁有不死族特攻的十字軍與牧師，通常會走 Salubrin Haven > Riven Grotto > Thule Crypt。',
   '運よく Gra ルーンを入手できたなら、ソケット付きの武器に鍛冶屋でエンチャントすれば楽ができる。':
     '如果幸運拿到 Gra 符文，可以到鐵匠鋪把它附到有插槽的武器上，推進會輕鬆很多。',
-  '+2 すべての才能がついたレアネックレス（いちおうマジックにもつく）は非常に有用であり、筋力（最大+50）が同時につけば物理職で長く使うことができる。また+3 才能ツリーは特定職で有用であり、クルセイダーの Judicator やテンプラーの Visionary や Elementalist などはユニークを拾うまでの繋ぎになる。':
-    '帶有 +2 所有天賦的稀有項鍊非常有用（魔法等級也可能出現）。如果同時附上力量（最高 +50），物理職業可以用很久。另外，+3 天賦樹對特定職業也很有價值，例如十字軍的 Judicator、聖殿騎士的 Visionary 或 Elementalist，都能作為撿到獨特裝備前的過渡品。',
-  'またレアグローブにも+2 才能ツリーがつく。ウォーロックはレジェンダリーでしか+2がつかないし、テンプラーはレアでしか+2ができない。プレート職は Marshal Gauntlets Iniquity の目当ての才能ツリーを引くまでの繋ぎにもなりうる。ただし滅多に才能がつかないし、そこそこの代用品もあるのでそこまで重要でもない。':
-    '稀有手套也可能出現 +2 天賦樹。術士只有傳奇裝備能出 +2，聖殿騎士則只有稀有裝備能出 +2。板甲職業也可以把它當成抽到 Marshal Gauntlets Iniquity 目標天賦樹前的過渡品。不過天賦詞綴很稀有，而且也有堪用替代品，所以重要度沒有那麼高。',
-  '終盤であればノーマルは基本的に捨てて構わない。魔法両手鈍器はノーマルであっても全ての装備に才能がついているので良い値段で売れる。その他は才能や属性耐性がつくノーマルユニークを把握できているなら持ち帰る。':
-    '到了遊戲後期，普通裝備基本上可以直接丟掉。不過魔法雙手鈍器即使是普通等級，也一定帶有天賦，因此能賣出不錯價格。其他部位則看你是否能辨認出帶天賦或屬性抗性的普通獨特裝備；能辨認的話就可以帶回家。',
-  'また、ノーマルユニーク・セットの中には一部持ち帰るべき例外が弓にある。':
-    '另外，普通獨特與套裝裡也有少數值得帶回家的例外，其中弓類特別需要留意。',
-  '持ち帰ったユニークやセットの取捨選別に迷ったら、各職の代表スキル や 各職の厳選ユニーク、また各職のビルド紹介ページなどを参考にしてほしい。':
-    '如果不確定帶回家的獨特或套裝該留還是該丟，可以參考各職代表技能、各職嚴選獨特裝備，以及各職業 Build 介紹頁。',
+  'ウォーリアーのレジェンダリー武器までの繋ぎとして優秀。 可能な限り高DPS、すべての才能+3、ソケット4を探したい。':
+    '很適合作為取得戰士傳奇武器前的過渡品。盡量找高 DPS、+3 所有天賦、4 插槽的版本。',
+  'アーケイン才能+2、才能ツリー+3。合計4でも繋ぎになる。 Gladewalker（ドル）や Demi Lich（ウォロ）がバフスイッチに採用。採用頻度は低いが Inveigler（エンチャ）、Judicator（クルセ）、Arbiter（クレ）などもキープしていいかも。':
+    'Arcane 天賦 +2、天賦樹 +3。合計 +4 也能當作過渡裝。Gladewalker（德魯伊）與 Demi Lich（術士）會拿它當 Buff 切換裝；採用頻率雖低，但 Inveigler（附魔師）、Judicator（十字軍）、Arbiter（牧師）等版本也可以考慮保留。',
+  ギャンブルのすすめ: '賭博建議',
+  仕様: '規則',
+  おすすめのアイテム: '推薦商品',
+  'アクセサリー類（エクセプ・エリート）': '飾品類（Exceptional / Elite）',
+  'ノーマル～エクセプの有用品': 'Normal～Exceptional 的實用品',
+  '特定のユニーク部位（エリート）': '特定獨特部位（Elite）',
+  '特定のセット部位（エリート）': '特定套裝部位（Elite）',
+  '特定のレジェンダリー（エリート）': '特定傳奇（Elite）',
+  'タウン右の商人で行えるギャンブルに関する解説。': '說明城鎮右側商人提供的 Gambling（賭博）功能。',
+  '基本的に銀行の拡張が落ち着くと、ゴールドが余るようになってしまう。':
+    '基本上，銀行擴充告一段落後，Gold 通常會開始溢出。',
+  'そんなあなたにはギャンブルがおすすめ。沼へようこそ。':
+    '這時就很適合開始 Gambling。歡迎來到泥沼。',
+  'ダンジョンに潜るか、リログするかで品揃えリセット': '進入地城或重新登入會刷新商品列表。',
+  '武器と防具のアイコンは固定されており、狙いと同じアイコンのものを購入する':
+    '武器與防具的圖示是固定的；請購買與目標圖示相同的品項。',
+  'チャーム・ネックレス・指輪のアイコンは非固定（ランダム）':
+    'Charm、Necklace、Ring 的圖示不是固定的（隨機）。',
+  'チャーム・ネックレス・指輪に茶枠や橙枠がないが、カーソルを合わせると ノーマル・エクセプショナル・エリートの判別が可能':
+    'Charm、Necklace、Ring 沒有棕框或橙框，但把游標移上去即可判斷 Normal / Exceptional / Elite。',
+  'レジェンダリーも出現する（数百回の試行が必要）':
+    '傳奇（Legendary）也會出現，但通常需要數百次嘗試。',
+  '数あるアイテムの中でも特に優先して購入した方がいいものを紹介':
+    '以下介紹眾多品項中特別值得優先購買的目標。',
+  '数あるアイテムの中でも特に優先して購入した方がいいものを紹介。':
+    '以下介紹眾多品項中特別值得優先購買的目標。',
+  'チャーム・ネックレス・指輪といったアクセサリー類のエクセプショナル・エリートはレア等級がなく ユニーク以上が確定する ので買い得といえる。逆に言えばこれ以外は金をドブに捨てるようなものである。 基本的にこれを購入しながら、おまけに他のを買っていく形となる。':
+    'Charm、Necklace、Ring 等飾品在 Exceptional / Elite 階級沒有 Rare 等級，因此會保證出獨特（Unique）以上，算是很划算。反過來說，其他品項多半像把 Gold 丟進水溝。基本上以購買這些飾品為主，其他品項當作順手加買。',
+  'ネックレスは才能が強い Shimmering Fragment、Sayanim Kaleidoscope が狙い目。 指輪はネックレスほど強くはないが、耐性に優れる Black Swan Band、Heaven\'s Wing が有用。 セット狙いとしても有効で、ネックレスは特にガチャの闇が深いので回数を稼ぎたい。':
+    "Necklace 目標是天賦很強的 Shimmering Fragment 與 Sayanim Kaleidoscope。Ring 雖然不像 Necklace 那麼強，但抗性優秀的 Black Swan Band、Heaven's Wing 很有用。這也能用來瞄準套裝；尤其 Necklace 的抽選池很深，需要多累積嘗試次數。",
   'シャコ（エリート）': "Charlatan's Crest（Shako, Elite）",
   'ユニークの Charlatan\'s Crest はすべての才能+2、属性ダメージ強化、高レアドロの3点が揃っている優秀な装備で、多くの職で採用される。ぜひ全属性ぶんを揃えたいところ。':
     "獨特裝備 Charlatan's Crest 同時具備 +2 所有天賦、屬性傷害強化與高 Rare Drop Rate 三個重點，適合許多職業採用。理想上可以為常用屬性傷害 roll 各準備一頂。",
@@ -474,6 +762,33 @@ const MANUAL_TRANSLATIONS = {
     '這一項主要是在瞄準獨特裝備 Cryptic Paragon。Haniwa 俗稱的價值在於 +2 所有天賦、隨機天賦、全屬性抗性、全 Spell Damage 與不死生物特攻都集中在同一件裝備上，法系職業很容易用得上；真正難的是找到天賦與技能 roll 都契合的那一把。',
   '参考：Haniwa 試行132回、レア127個、ユニーク5個（3.78%）':
     '參考：Haniwa 試行 132 次，稀有 127 個、獨特 5 個（3.78%）。',
+  "高レアドロップ率の Trek of Glory や、6ソケットの Demetrium's Ballista はいくつあってもいい。":
+    "高 Rare Drop Rate 的 Trek of Glory，以及 6 Socket 的 Demetrium's Ballista，多少都不嫌多。",
+  "EL革胴体の Courtier's Trunk や、ELプレート手のMarshal Gauntlets Iniquity は才能が優秀であり、複数のクラスで最終装備に組み込まれやすい狙い目のユニーク。":
+    "Elite 皮甲胴體 Courtier's Trunk、Elite 板甲手套 Marshal Gauntlets Iniquity 的天賦很優秀，是容易放進多職業畢業裝的獨特目標。",
+  'また Goliath Husk はレジェンダリーの Hide of the Hydra も同時に狙える。':
+    'Goliath Husk 也能同時瞄準傳奇 Hide of the Hydra。',
+  '才能やスキルダメージのより上を目指すなら、自身のセット装備と同じアイコンのものを購入してもいいだろう。':
+    '如果想追求更高的天賦或技能傷害，也可以購買與自身套裝裝備相同圖示的品項。',
+  '特にタレントガチャのある装備がおすすめで、エンチャ武器・テンプラー武器、レンジャー武器などが挙げられる。':
+    '特別推薦有隨機天賦抽選的裝備，例如附魔師武器、聖殿騎士武器、遊俠武器等。',
+  '参考：Eldritch Orb 試行125回、レア119個、ユニーク5個（4%）、セット1個（0.8%）':
+    '參考：Eldritch Orb 試行 125 次，稀有 119 個、獨特 5 個（4%）、套裝 1 個（0.8%）。',
+  '極めて不毛な旅となるが、熱意があるならレジェ狙いの購入も選択肢となる。':
+    '這會是相當漫長且容易空手而歸的旅程，但如果有熱情，也可以把購買目標放在傳奇。',
+  'どうやらレジェンダリーブーストが乗るようで、最近はわりと現実的になってきた。':
+    '看起來會套用 Legendary Boost，因此最近變得稍微實際一些。',
+  'Firmament Staff of the Crystal Sea や、Thoth Mindlink Staff などが強力なレジェンダリーだ。':
+    'Firmament Staff of the Crystal Sea、Thoth Mindlink Staff 等都是強力的傳奇裝備。',
+  "Zimri's Wisdom": "Zimri's Wisdom",
+  "Zimri's Wisdom Baroque Staff": "Zimri's Wisdom Baroque Staff",
+  "Zimri's Wisdom Baroque Staff [両手鈍器]": "Zimri's Wisdom Baroque Staff [雙手鈍器]",
+  'すべての才能+5のものに限る。 魔法用の両手鈍器だが魔法職では採用しない。両手鈍器を二刀流できるウォリで才能を稼ぐ便利な左手武器となる。':
+    '僅限保留 +5 所有天賦的版本。雖然分類是魔法用雙手鈍器，但不給魔法職業採用；戰士可以雙持雙手鈍器，所以能把它放在左手當作堆高天賦的過渡武器。',
+  '才能ツリー+3とタレント+3で最大6を目指せる特化用装備。 Cryptic Paragon より才能数は1多いものの総合力では劣るため、基本的には繋ぎ装備となる。各職の代表スキル の一致品はキープ。':
+    '特化用裝備，可透過 +3 天賦樹與 +3 隨機天賦，把目標天賦堆到最多 +6。雖然比 Cryptic Paragon 多 1 點天賦，但綜合能力較弱，所以基本上是過渡裝。若 roll 到符合各職代表技能的版本就保留。',
+  '才能ツリー+2とタレント+3がつく装備で、一致すると強い。 ウォロの疫病ブーストが足りない時、エンチャの特化装備、ウィズの Superior Lightning ブーストが足りない時などに採用可能。':
+    '帶有 +2 天賦樹與 +3 隨機天賦的裝備；兩者對上同一流派時很強。可在術士 Plague 加成不足、附魔師需要特化裝備、巫師 Superior Lightning 加成不足等情況採用。',
   '通称ハニワ。基本的には 各職の代表スキル を確認。 スキル一致だけでも優秀だが、タレント一致は非常に強い。 特にヤバいのはドルイドの Tornado、エンチャの Superior Enthrall、ウィズの Superior Lightning Boltあたり。':
     '俗稱 Haniwa。基本上請對照各職代表技能；只要技能 roll 命中就很優秀，若天賦也命中會非常強。特別誇張的是德魯伊 Tornado、附魔師 Superior Enthrall、巫師 Superior Lightning Bolt 等。',
   '通称シャコ。すべての才能+2は必須で、そこから属性ダメージ+16%、レアドロ+50%に近ければ近いほどいい。出血だけハズレ。':
@@ -492,10 +807,28 @@ const MANUAL_TRANSLATIONS = {
     '僅限隨機天賦為 Superior Lightning Bolt +3。巫師的 Elite Set 很優秀，但如果要雙持 Haniwa，常會因為天賦等級不夠而採用。其他布甲職業的特化配置也可能有用途。',
   'タレントが Superior Lightning Bolt +2～3のものに限る。 ウィズはエリートセットが優秀だが、ハニワ二刀流をする場合、とにかくタレント稼ぎが足りないので使うことがある。 他布職の特化構成としても使える可能性あるかも。':
     '僅限隨機天賦為 Superior Lightning Bolt +2～3。巫師的 Elite Set 很優秀，但如果要雙持 Haniwa，常會因為天賦等級不夠而採用。其他布甲職業的特化配置也可能有用途。',
-  '収集すべきアイテムや、金銭効率といった話。': '談哪些物品值得帶回，以及金錢效率。',
-  '装備収集・金銭効率': '裝備收集 / 金錢效率',
-  'エクセプショナル以上であれば装備収集・金銭効率のどちらの面から見ても、すべて持ち帰っていい。':
-    'Exceptional 以上的物品，無論從裝備收集還是金錢效率來看，基本上都可以帶回家。',
+  "ネックレスはすべての才能+2でもいいが、Mastery: アーケインの調整には気をつけたい。サブツリーを伸ばす恩恵が高くないため、レアの才能ツリー+3や雷の Syzygy Shard、氷の Dossam's Morning Star の方がやや優勢か。":
+    "項鍊用 +2 所有天賦也可以，但要注意 Mastery: Arcane 的調整。由於延伸副天賦樹的收益不高，稀有的 +3 天賦樹、雷屬 Syzygy Shard，或冰屬 Dossam's Morning Star 可能略勝一籌。",
+  '右手はポイズンショックのクールとPTメンバーに合わせて選択し、毎回発動するように調整。バードは20～30%、レンジャーは20%の加速。バフがある時の Cryptic Paragon と、バフがない時の1.5武器くらいは用意したい。':
+    '右手武器要依 Poison Shock 的冷卻時間與隊伍成員調整，目標是讓效果每次攻擊都能觸發。吟遊詩人可提供 20～30% 加速，遊俠可提供 20% 加速；有加速 Buff 時準備 Cryptic Paragon，沒有 Buff 時則準備 1.5 速度武器。',
+  '左手は火力重視なら二刀流になりそうだが、タゲを取りやすいので安定目的の盾にしている。':
+    '左手如果重視火力可以改成雙持，但這樣比較容易拉到仇恨；此配置為了穩定，左手採用盾牌。',
+  '胴体は Tyranid\'s Haunting もあり。レアドロを獲得する代わりにセット効果のヒューマン・ビースト特攻を失う。だが King of Riven Grotto で該当するのはたまに出るカブトムシくらいで、こいつは毒耐性持ちなのでどうせダメージが出ない。他には物理防御が350～400くらい減るのもデメリットか。':
+    "胴體也可以考慮 Tyranid's Haunting。優點是能取得 Rare Drop Rate；代價是失去套裝效果中的 Human / Beast 特攻。不過 King of Riven Grotto 裡符合這兩類的大多只是偶爾出現的甲蟲，而且甲蟲有毒素抗性，本來就不太打得出傷害。另一個缺點是物理防禦大約會少 350～400。",
+  '疫病ランクに余裕があれば、手を71布紫 Yon\'s Ephemeral Grasp にしてレアドロ稼ぐのもあり。':
+    "如果 Plague 等級還有餘裕，手套也可以改用 71 級布甲獨特 Yon's Ephemeral Grasp 來堆 Rare Drop Rate。",
+  'スピードが速く、基礎値の低い片手は加算である武器ダメージ（Cros）が最も強くなることが多い。':
+    '速度快、基礎值低的單手武器，通常加算型的 Weapon Damage（Cros）最強。',
+  'ただし片手であってもスピード2.5のような遅いものはあまり効率がよくない。':
+    '不過即使是單手武器，像速度 2.5 這種偏慢的武器，效率也不算好。',
+  '武器ダメージ（Cros）は希少であり、枚数を集めることが難しいため、繋ぎとしては全パッシブ（Targ）、次点で筋力（Gart）が選択肢となる。攻撃能力%（Rath）も優秀だが、片手に使うのは惜しい。':
+    'Weapon Damage（Cros）很稀有，也很難收集足夠數量；作為過渡選項，可以先用 All Passive（Targ），其次是力量（Gart）。Attack Rating%（Rath）也很優秀，但用在單手武器上有點可惜。',
+  'レンジャーの片手に攻撃能力%（Rath）を採用するのは良さそうだが、レンジャーと心中する覚悟が必要。':
+    '遊俠的單手武器採用 Attack Rating%（Rath）看起來不錯，但要有把資源押在遊俠身上的心理準備。',
+  'スピードが遅く、基礎値の高い両手は武器ダメージ（Cros）の効率が低く、全パッシブ（Targ）と同程度になりやすい。そのため攻撃能力%（Rath）が最も強い。ただし攻撃能力%（Rath）は希少であり、枚数も多く必要になるため、繋ぎとしては全パッシブ（Targ）、次点で筋力（Gart）が選択肢となる。':
+    '速度慢、基礎值高的雙手武器，Weapon Damage（Cros）效率較低，常會接近 All Passive（Targ）。因此 Attack Rating%（Rath）最強；但 Rath 很稀有，而且需要的數量也多，所以過渡選項可以先用 All Passive（Targ），其次是力量（Gart）。',
+  '例外として、武器による自動攻撃を重視する場合は武器ダメージ（Cros）が強い。最大値は全パッシブ（Targ）の方が高くなるが、Crosは最低値の底上げが高い。':
+    '例外是如果重視武器自動攻擊，Weapon Damage（Cros）會很強。All Passive（Targ）的最大值較高，但 Cros 對最低值的墊高效果較好。',
   キャラクターメイキングについて: '關於角色建立',
   'ラダーとエターナルの違い': '天梯與永久角色的差異',
   シーズンについて: '關於賽季',
@@ -1034,7 +1367,7 @@ function collectTexts(page) {
     } else if (block.type === 'list') {
       if (isRedundantHeadingList(page, block)) continue;
       for (const item of block.items) texts.push(...textFragmentsForTranslation(item));
-    } else if (!skipInteractiveDetails && block.type === 'table') {
+    } else if (!skipInteractiveDetails && block.type === 'table' && !shouldUseSourceOnlyTableCells(page)) {
       for (const row of block.rows) {
         for (const cell of row) {
           texts.push(...textFragmentsForTranslation(cell).filter(shouldTranslateTableCell));
@@ -1068,6 +1401,10 @@ function escapeMarkdownCell(value) {
 function shouldTranslateTableCell(value) {
   const text = String(value ?? '');
   return hasJapaneseKana(text);
+}
+
+function shouldUseSourceOnlyTableCells(page) {
+  return page.file === 'recipe.html';
 }
 
 function escapeMarkdownAlt(value) {
@@ -1110,7 +1447,10 @@ function renderImagesInText(value, page, imageByUrl) {
 }
 
 function tableCellText(value, translator, page, imageByUrl) {
-  const text = localizeClassOnlyText(shouldTranslateTableCell(value) ? translator.get(value) : translator.local(value));
+  const sourceOnly = shouldUseSourceOnlyTableCells(page);
+  const text = localizeClassOnlyText(
+    sourceOnly || !shouldTranslateTableCell(value) ? translator.local(value) : translator.get(value),
+  );
   return renderImagesInText(text, page, imageByUrl);
 }
 
@@ -1130,7 +1470,7 @@ function isRedundantHeadingList(page, block) {
   return matchingItems >= 4 && matchingItems / block.items.length >= 0.8;
 }
 
-function renderTable(rows, translator, page, imageByUrl) {
+function renderMarkdownTable(rows, translator, page, imageByUrl) {
   const maxColumns = Math.max(...rows.map((row) => row.length));
   const normalized = rows.map((row) => {
     const cells = row.map((cell) => tableCellText(cell, translator, page, imageByUrl));
@@ -1141,6 +1481,42 @@ function renderTable(rows, translator, page, imageByUrl) {
   const header = normalized[0].map((cell, index) => escapeMarkdownCell(cell || `欄位 ${index + 1}`));
   const body = normalized.slice(1).map((row) => `|${row.map(escapeMarkdownCell).join('|')}|`);
   return [`|${header.join('|')}|`, `|${header.map(() => '---').join('|')}|`, ...body].join('\n');
+}
+
+function hasLeadingRowspanImageColumn(rows) {
+  if (rows.length < 4) return false;
+  const maxColumns = Math.max(...rows.map((row) => row.length));
+  const header = rows[0] ?? [];
+  const firstDataRow = rows[1] ?? [];
+  if (maxColumns < 4 || !/^(?:画像|圖片|image)$/i.test(header[0] ?? '')) return false;
+  if (!hasImageToken(firstDataRow[0] ?? '')) return false;
+
+  const shiftedRows = rows
+    .slice(2)
+    .filter(
+      (row) =>
+        (row.length === maxColumns - 1 && !hasImageToken(row[0] ?? '')) ||
+        (row.length === maxColumns && !String(row[0] ?? '').trim() && !hasImageToken(row[0] ?? '')),
+    );
+  return shiftedRows.length >= 2 && shiftedRows.length / Math.max(rows.length - 2, 1) >= 0.6;
+}
+
+function tableWithoutLeadingRowspanImageColumn(rows) {
+  const maxColumns = Math.max(...rows.map((row) => row.length));
+  const header = rows[0].slice(1);
+  const firstDataRow = rows[1].slice(1);
+  const bodyRows = rows.slice(2).map((row) => (row.length === maxColumns - 1 ? row : row.slice(1)));
+  return [header, firstDataRow, ...bodyRows];
+}
+
+function renderTable(rows, translator, page, imageByUrl) {
+  if (hasLeadingRowspanImageColumn(rows)) {
+    const image = tableCellText(rows[1][0], translator, page, imageByUrl);
+    const table = renderMarkdownTable(tableWithoutLeadingRowspanImageColumn(rows), translator, page, imageByUrl);
+    return [image, table].filter(Boolean).join('\n\n');
+  }
+
+  return renderMarkdownTable(rows, translator, page, imageByUrl);
 }
 
 function renderPage(page, translator, imageByUrl) {

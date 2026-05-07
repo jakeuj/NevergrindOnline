@@ -7,8 +7,10 @@ description: Maintain the repo-local Astro Starlight Traditional Chinese Nevergr
 
 ## Repo Shape
 
-- Work from the repository root. In this machine it is `/Users/jakeuj/Documents/New project 4`.
-- Public docs live under `src/content/docs/` so `ngo.jakeuj.com` serves pages from root paths such as `/guide/` and `/fc2-general-reference/`.
+- Work from the current checkout's repository root, not from a hard-coded local path. Identify it with `git rev-parse --show-toplevel` or the current workspace directory before running scripts.
+- Upstream repository: `https://github.com/jakeuj/NevergrindOnline`.
+- Published site: `https://ngo.jakeuj.com/`.
+- Public docs live under `src/content/docs/` so `https://ngo.jakeuj.com/` serves pages from root paths such as `/guide/` and `/fc2-general-reference/`.
 - Do not place public docs under `src/content/docs/nevergrind-online/`; that would reintroduce the extra URL layer on the custom domain.
 - The canonical terminology table is `src/content/docs/terminology.md`.
 - The Starlight sidebar is data-driven from `src/data/sidebar.json`.
@@ -54,10 +56,16 @@ npm run build
 - Use `terminology.md` as the first source for Chinese names. In FC2 generated docs, prefer wording such as `可選職業` for class options and `種族加成` / `職業加成` for race or class bonus.
 - In generated FC2 public docs, keep player-facing wording Chinese-first for difficulties, classes, attributes, talents, rarity tiers, and runes: for example `地獄（Hell）`, `牧師`, `力量`, `天賦`, `獨特`, and `符文`.
 - Treat `周回` as farming / repeated runs, not rotation. Use `周回地城` or `刷地城` depending on context; never publish `旋轉地城` or `旋轉地牢`.
-- Use `地城` for `ダンジョン`, `乙太` for `エーテル`, and `符文` for `Rune / ルーン` in player-facing prose.
+- Use `地城` for `ダンジョン`, `乙太` for `エーテル`, and `符文` for `Rune / ルーン` in player-facing prose. Never publish `符號` or `標誌` for runes; use `符文組` for `Rune Word / ルーンワード`.
+- Translate `Recipe / レシピ` as `配方`, never `食譜`. On FC2 `recipe.html`, use `頁內索引`, `胴體`, `單手鈍器（物理）`, `單手鈍器（魔法）`, `雙手鈍器（物理）`, and `雙手鈍器（魔法）`.
+- For FC2 `mythical.html`, translate `クラフト / Craft` as `神話製作（Craft）`; preserve UI / lookup terms such as `Socket`, `Socketed`, `Superior`, `Enchant`, and `Mythical / Mythic`; use `素體`, `要求符文`, and `符文組` in prose. Never publish drift such as `文文組`, `基體`, `請求語句`, `請求碼`, `程式碼`, `附錄`, `印記`, `魔法師的影響`, or `乙醚`.
+- For FC2 `gambling.html`, use `賭博` or `Gambling（賭博）` by context; preserve lookup terms such as `Gold`, `Charm`, `Necklace`, `Ring`, `Normal / Exceptional / Elite`, `Rare`, `Unique`, `Set`, `Legendary`, and item names. Translate `アクセサリー類` as `飾品類`, `品揃え` as `商品列表`, and `金銭効率` as `金錢效率`; never publish drift such as `符咒、頭部和戒律`, `魅力、千行和戒律`, `項宗`, `進入城堡或進入新區域`, `EL板甲斗篷`, or `購買 Leger`.
 - Preserve English lookup terms for item names, skill names, bosses, maps, UI labels, and source metadata when those names are needed for in-game or FC2/wiki lookup.
 - Preserve item names in English even when surrounding prose is Chinese. Prefer headings such as `Charlatan's Crest（Shako, Elite）` and `Cryptic Paragon（Haniwa, Elite）`; never publish machine mistranslations such as `螳螂蝦`, `薩科`, `埴輪`, or `江湖之冠`.
+- Do not translate English fragments inside item names even if they look like stats or ordinary words, such as `Wisdom` in `Zimri's Wisdom`; add exact item names to `MANUAL_TRANSLATIONS` or improve table-cell handling when needed.
 - Translate `金銭効率` as `金錢效率`, never `金屬效率`; translate `周回ダンジョン` as `周回地城`, not `旋轉地城` or `旋轉地牢`.
+- Translate high-risk FC2 gameplay terms consistently: `すべての才能` as `所有天賦`, `才能ツリー` as `天賦樹`, `クール / クールタイム` as `冷卻時間`, `タゲ` as `仇恨` or `目標` by context, `右手 / 左手` equipment text as hand or weapon slots rather than cloak, `レアドロ` as `Rare Drop Rate`, `ソロ / solo` as `單刷` or `單刷能力`, `枠` as `欄位` or `候選欄位`, and `素手` as `空手`.
+- In class/build pages, preserve talent tree and skill lookup names such as `Arbiter`, `Judicator`, `Vestal`, `Scion`, `Augury`, `Brawn`, `Rapid Attack`, and `Heal Damage` in English unless `terminology.md` defines a stable Chinese-first form. Never publish drift such as `布朗`, `維斯塔`, `副手樹`, `空手套`, `恢復傷害`, `readore`, or `稀有抽獎`.
 - Keep stat names aligned with the terminology table: table headers should use `力量`, `耐力`, `敏捷`, `靈巧`, `智力`, `智慧`, and `魅力`.
 - Preserve all factual rows, columns, numbers, source URLs, and `Last-Modified` metadata.
 - Publish FC2 content images only through the local `/fc2-assets/ngo/` mirror. Do not publish FC2 CSS, JavaScript, counter images, tracking images, or unrelated external assets.
@@ -71,9 +79,17 @@ npm run build
 - Only hand-edit generated `fc2-*` Markdown for emergency hotfixes; then backport the rule into `scripts/build-fc2-docs.mjs`.
 - Keep generated table formatting Markdown-safe; escape pipes and underscores in table cells.
 - If translation output is poor, improve `SOURCE_TERM_REPLACEMENTS`, `POSTPROCESS_REPLACEMENTS`, `MANUAL_TRANSLATIONS`, `shouldTranslateTableCell`, or `tableCellText` in `scripts/build-fc2-docs.mjs`, then rerun the FC2 refresh workflow.
+- Treat dense FC2 data tables as high-risk for machine-translation drift. For `recipe.html`, keep `shouldUseSourceOnlyTableCells(page)` active so table cells are not sent to cached translation in `collectTexts`; render them with `translator.local` plus source and postprocess replacements so `Mods` rows remain factual and searchable.
+- When a generated Chinese sentence is hard to understand, first inspect the original source in `.cache/fc2/pages/<file>.json` or `.cache/fc2/html/<file>.html`; do not infer only from the bad generated Chinese.
+- For short, terminology-dense system pages such as `mythical.html`, prefer full-section exact `MANUAL_TRANSLATIONS` from the source cache over piecemeal postprocessing, then pair the fix with page-specific quality gates such as `FC2_MYTHICAL_TERMINOLOGY_PATTERNS`.
 - If a source sentence needs high-fidelity phrasing, add it to `MANUAL_TRANSLATIONS` rather than relying on cached machine translation. This is especially important for route advice, farming recommendations, class evaluations, and other FC2 player judgement text.
 - If `check:quality` flags terminology drift, fix the generator output or the term replacement source instead of patching only the generated Markdown.
 - When fixing a bad generated phrase or unusable imported block, add a matching `check:quality` pattern so reruns cannot reintroduce it.
+- Scope quality gates to the smallest safe surface. Use page-specific arrays such as `FC2_RECIPE_TERMINOLOGY_PATTERNS` when bad terms are only proven on one generated page; promote a pattern to global `FC2_TERMINOLOGY_PATTERNS` only after confirming it should fail every FC2 doc.
+- For core cross-page terms such as `Rune / ルーン`, update both broad replacements (`SOURCE_TERM_REPLACEMENTS` or `POSTPROCESS_REPLACEMENTS`) and exact source phrases in `MANUAL_TRANSLATIONS` for headings, related-page labels, and reward text; then add a `check:quality` pattern for the bad Chinese drift.
+- When a user points at a class heading such as `#fc2-cleric` and asks to check that block, inspect the whole source page section from `.cache/fc2/pages/<class>.json` or `.cache/fc2/html/<class>.html`, not just the selected sentence. Class pages often need section-level `MANUAL_TRANSLATIONS` plus quality patterns for talent names, rotations, equipment notes, and player judgement paragraphs.
+- When FC2 image tokens split a sentence, remember the translator handles text fragments around each image separately. Add manual translations for the fragments too, otherwise good full-sentence translations may not apply.
+- For class equipment examples where the source uses a leading portrait/equipment image with table `rowspan`, render the image above the Markdown table and keep the table columns aligned as `部位 / Lv / 名稱`. Markdown tables cannot preserve rowspans cleanly, so avoid leaving the image as the first row's table cell.
 - If an FC2 page starts with a non-clickable list that only repeats later headings, such as FAQ or class-build intro lists, skip that list in `collectTexts` and `renderPage` via `isRedundantHeadingList`; keep the actual sections and answers below it.
 - When changing generated page order, add a quality assertion such as `generalReferenceStartsWithIndex` so regenerated docs cannot drift back.
 - Keep sidebar labels Chinese-first and concise. Do not show raw `*.html` filenames or parenthesized English in the sidebar unless the user explicitly asks; source filenames belong in `fc2-link-index`, source tables, anchors, and frontmatter.

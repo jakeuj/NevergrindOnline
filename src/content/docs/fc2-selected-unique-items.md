@@ -6,14 +6,14 @@ sourcePages:
     title: "各職の厳選ユニーク | Nevergrind Online 攻略DB"
     url: "https://atelier3.web.fc2.com/ngo/selectlist2.html"
     lastModified: "Sun, 08 Jun 2025 10:52:22 GMT"
-reviewedAt: "2026-05-06"
+reviewedAt: "2026-05-07"
 sourceLastModified: "Sun, 08 Jun 2025 10:52:22 GMT"
 status: "FC2 原站高保真繁中化"
 ---
 
 本頁由 FC2 / atelier3 原站 HTML 重新擷取後繁中化，保留原頁段落、清單、表格欄位與數值；FC2 內容圖片已本地鏡像，CSS、JavaScript 與追蹤圖不搬入公開站。
 
-- 檢視日期：`2026-05-06`
+- 檢視日期：`2026-05-07`
 - FC2 來源頁數：1
 - 翻譯策略：職業、屬性、難度、天賦與符文採中文優先；英文 item / skill / boss / map 查詢詞按需保留。
 - 內容狀態：由 FC2 原站正文生成，不使用舊版摘要句。
@@ -60,15 +60,15 @@ status: "FC2 原站高保真繁中化"
 |![focus7.png](/fc2-assets/ngo/img/focus7.png)Cryptic Paragon Haniwa [單手鈍器]|75|魔法職業|俗稱 Haniwa。基本上請對照各職代表技能；只要技能 roll 命中就很優秀，若天賦也命中會非常強。特別誇張的是德魯伊 Tornado、附魔師 Superior Enthrall、巫師 Superior Lightning Bolt 等。|
 |![oneHandSlashers5.png](/fc2-assets/ngo/img/oneHandSlashers5.png)Gleaming Swiftblade Shinken [單手斬擊]|72|暗影騎士|暗影破壞 連續命中型暗影騎士所採用。必須具有 120 或更高的 DPS 以及血騎士天賦 +2。|
 |![oneHandSlashers7.png](/fc2-assets/ngo/img/oneHandSlashers7.png)Abyssal Shard Mythical Sword [單手斬擊]|75|暗影騎士|暗影破壞 連續命中型暗影騎士所採用。 DPS 120 或以上的不死族上限為 6%。如果影斷能相容技能強化就更好了。|
-|![twoHandBlunts2.png](/fc2-assets/ngo/img/twoHandBlunts2.png)Korelian Adamantite Maul Havoc Mallet [雙手鈍器]|67|戰士|非常適合作為戰士傳奇武器的連結。我想盡可能尋找高DPS、控球天賦+3和插槽4的。|
-|![staves4.png](/fc2-assets/ngo/img/staves4.png)Zimri's 智慧 Baroque Staff [雙手鈍器]|72|戰士|僅限擁有+5控球天賦的人。它是一種用於魔法的鈍器，但不用於魔法職業。它是一種有用的左手斗篷武器，可以用來為能夠持有鈍器的戰士贏得天賦。|
-|![shields4.png](/fc2-assets/ngo/img/shields4.png)Phadol's Barricade Artremian Defender [盾牌]|70|Arcane職業|奧術天賦+2，天賦樹+3。即使總共有4個，也是一個連結。 Gladewalker (Dokuroi) 和 Demi Lich (魔術師) 使用它作為增益開關。保留 Inveigler、Judicator、Arbiter 等可能是個好主意，儘管它們不經常使用。|
+|![twoHandBlunts2.png](/fc2-assets/ngo/img/twoHandBlunts2.png)Korelian Adamantite Maul Havoc Mallet [雙手鈍器]|67|戰士|很適合作為取得戰士傳奇武器前的過渡品。盡量找高 DPS、+3 所有天賦、4 插槽的版本。|
+|![staves4.png](/fc2-assets/ngo/img/staves4.png)Zimri's Wisdom Baroque Staff [雙手鈍器]|72|戰士|僅限保留 +5 所有天賦的版本。雖然分類是魔法用雙手鈍器，但不給魔法職業採用；戰士可以雙持雙手鈍器，所以能把它放在左手當作堆高天賦的過渡武器。|
+|![shields4.png](/fc2-assets/ngo/img/shields4.png)Phadol's Barricade Artremian Defender [盾牌]|70|Arcane職業|Arcane 天賦 +2、天賦樹 +3。合計 +4 也能當作過渡裝。Gladewalker（德魯伊）與 Demi Lich（術士）會拿它當 Buff 切換裝；採用頻率雖低，但 Inveigler（附魔師）、Judicator（十字軍）、Arbiter（牧師）等版本也可以考慮保留。|
 |![shields5.png](/fc2-assets/ngo/img/shields5.png)Dreadlord's Armament Fenwoven Shield [盾牌]|72|暗影騎士|所有能力最高10，所有被動最高5，攻擊等級最高80。保留暗影騎士天賦，如果技能強化中加入暗影碎裂就更好了。|
-|![shields6.png](/fc2-assets/ngo/img/shields6.png)Chaos Mirror Fahlnir Ward [盾牌]|73|多數|特殊裝備，可讓你透過禮品樹 +3 和禮品 +3 達到最多 6 個目標。雖然比隱密至尊多了一項天賦，但綜合實力較差，所以基本上只是作為連結裝備使用。保留與每個職業的代表性技能相符的物品。|
+|![shields6.png](/fc2-assets/ngo/img/shields6.png)Chaos Mirror Fahlnir Ward [盾牌]|73|多數|特化用裝備，可透過 +3 天賦樹與 +3 隨機天賦，把目標天賦堆到最多 +6。雖然比 Cryptic Paragon 多 1 點天賦，但綜合能力較弱，所以基本上是過渡裝。若 roll 到符合各職代表技能的版本就保留。|
 |![bows7.png](/fc2-assets/ngo/img/bows7.png)Stormcaller Bow Long War Bow [弓術]|39|十字軍 他|插槽最大 4。這是一把天賦+1 的弓，在天賦再增加 1 時，可以使用的次數就會增加的情況下非常有用。|
 |![bows5.png](/fc2-assets/ngo/img/bows5.png)Demetrium's Ballista Battle Bow [弓術]|29|弓術職業|Socket最大6。雖然它不是一個特殊的項目，而是一個套裝，但我將它包括在內，因為它非常重要。一把好用的弓，可以在所有可以裝備弓的職業中使用。|
 |![charms0.png](/fc2-assets/ngo/img/charms0.png)Fallen Construct Charm [副手]|62|武僧|攻擊等級最高100，插槽最高5。武僧不能裝備弓，只能透過符咒來增強火力。|
-|![charms1.png](/fc2-assets/ngo/img/charms1.png)Arctic Orb Charm [副手]|62|德魯伊|冰冷傷害高達 12%，讀取高達 16。我絕對想保留龍捲風附件。雖然較少被採用，但聖殿騎士的冰凍寶珠附件也被保留。薩滿類型是一種嗜好。|
+|![charms1.png](/fc2-assets/ngo/img/charms1.png)Arctic Orb Charm [副手]|62|德魯伊|冰冷傷害高達 12%，Readore 高達 16。我絕對想保留龍捲風附件。雖然較少被採用，但聖殿騎士的冰凍寶珠附件也被保留。薩滿類型是一種嗜好。|
 
 <a id="fc2-selectlist2-hdr2"></a>
 
@@ -77,20 +77,20 @@ status: "FC2 原站高保真繁中化"
 |物品名稱|等級|職業|備註|
 |---|---|---|---|
 |![helms6.png](/fc2-assets/ngo/img/helms6.png)Charlatan's Crest Shako [頭部] [布甲製]|72|多數|俗稱 Shako。+2 所有天賦是必備；屬性傷害越接近 +16%、Rare Drop Rate 越接近 +50% 越好。只有出血屬性比較不理想。|
-|![helms0.png](/fc2-assets/ngo/img/helms0.png)Chemosh's Hooded Shade Outrider Hood [頭部] [布甲製]|64|術士 附魔師 巫師|是禮物樹+2和禮物+3的裝備，搭配就很強。可在施法者瘟疫增幅不足、輔助法師專精裝備、薩滿超強閃電增幅不足等情況下使用。|
+|![helms0.png](/fc2-assets/ngo/img/helms0.png)Chemosh's Hooded Shade Outrider Hood [頭部] [布甲製]|64|術士 附魔師 巫師|帶有 +2 天賦樹與 +3 隨機天賦的裝備；兩者對上同一流派時很強。可在術士 Plague 加成不足、附魔師需要特化裝備、巫師 Superior Lightning 加成不足等情況採用。|
 |![helms2.png](/fc2-assets/ngo/img/helms2.png)Bodhidharma's Satori Nemes [頭部] [布甲製]|65|武僧|天賦是 Phoenix 或 Falcon +2，最好還帶 Dragon Punch 或 Hurricane Kicks。火力優先選這件；Rare Drop Rate 優先則選 Shako。|
-|![helms3.png](/fc2-assets/ngo/img/helms3.png)Ashtaroth's Guardian Dynasty Crown [頭部] [布甲製]|67|術士 附魔師 巫師|是禮物樹+2和禮物+3的裝備，搭配就很強。可在施法者瘟疫增幅不足、輔助法師專精裝備、薩滿超強閃電增幅不足等情況下使用。|
+|![helms3.png](/fc2-assets/ngo/img/helms3.png)Ashtaroth's Guardian Dynasty Crown [頭部] [布甲製]|67|術士 附魔師 巫師|帶有 +2 天賦樹與 +3 隨機天賦的裝備；兩者對上同一流派時很強。可在術士 Plague 加成不足、附魔師需要特化裝備、巫師 Superior Lightning 加成不足等情況採用。|
 |![helms5.png](/fc2-assets/ngo/img/helms5.png)Stormfeather's Eye Corona [頭部] [布甲製]|71|附魔師 巫師|Lightning 類天賦 +1～3，加上 Chaos Mage +1～2，合計 3 以上。巫師的 Elite Set 很優秀，但如果要雙持 Haniwa，常會因為天賦等級不夠而採用。附魔師 Psionicist、聖殿騎士 Visionary 也可作為火力特化裝備。|
 |![helms8.png](/fc2-assets/ngo/img/helms8.png)Tortoise Shell Helmet Shell Coif [頭部] [皮甲製]|48|德魯伊|隨機天賦是 Tornado，合計 3 以上。若沒有高度契合，通常只是 Shako 的下位替代；但當攻擊次數怎麼都不夠時可以採用。Tornado +6 真的會很強，聖殿騎士 Frozen Orb 也可能有趣。|
 |![helms1.png](/fc2-assets/ngo/img/helms1.png)Rephaim's Kepi Bashlyk [頭部] [皮甲製]|64|德魯伊|天賦是 Stormcaller、隨機天賦是 Tornado，合計 3 以上。若沒有高度契合，通常只是 Shako 的下位替代；但當攻擊次數怎麼都不夠時可以採用。|
 |![helms8.png](/fc2-assets/ngo/img/helms8.png)Hebron's Coif Lanfeld Cowl [頭部] [皮甲製]|67|德魯伊|天賦是 Stormcaller、隨機天賦是 Tornado，合計 3 以上。若沒有高度契合，通常只是 Shako 的下位替代；但當攻擊次數怎麼都不夠時可以採用。聖殿騎士 Elementalist + Frozen Orb 也可能有趣。|
 |![helms13.png](/fc2-assets/ngo/img/helms13.png)Uncle Herschel's Visage Shungite Helm [頭部] [板甲]|67|戰士|擁有天賦能力+2，能力最大55。保留戰士的主要技能強化補充，例如破裂。|
-|![chests8.png](/fc2-assets/ngo/img/chests8.png)Marionette's Vestment Cryptic Vestment [胸甲] [布甲製]|68|巫師|僅限隨機天賦為 Superior Lightning Bolt +3。巫師的 Elite Set 很優秀，但如果要雙持 Haniwa，常會因為天賦等級不夠而採用。其他布甲職業的特化配置也可能有用途。|
-|![chests9.png](/fc2-assets/ngo/img/chests9.png)Erghal's Panoply Shroud Abstruse Shroud [胸甲] [布甲製]|70|附魔師 他|有助於獲得抵抗力的胸甲。收集所有機器屬性傷害 13-17% 的幀可能是個好主意。推薦奧術和仙登，因為它們對魔法師特別有效。|
-|![chests11.png](/fc2-assets/ngo/img/chests11.png)Courtier's Trunk Goliath Husk [胸甲] [皮甲製]|71|武僧 聖殿騎士|天賦+3是前提，如果你有有用的技能就更好了。如果你是戰士武僧，鳳凰或獵鷹是不錯的天賦，如果你是神殿騎士，元素使或幻像是不錯的天賦。如果構圖好，甚至+2也能成為連結。|
-|![chests2.png](/fc2-assets/ngo/img/chests2.png)Fallen Angel Diamond Mail [胸甲] [皮甲製]|65|盜賊|降低火力和抵抗力的胸甲，用於高達 50% 的閱讀量。如果你擁有有用的技能，那麼僱用就會更容易。|
-|![chests13.png](/fc2-assets/ngo/img/chests13.png)Hellmourn Flesh Balrog Skin [胸甲] [皮甲製]|73|盜賊|由於我們以能力為目的進行招聘，因此越接近最大值 30 越好。我還想要閃擊和背刺增強。萊多羅去世。|
-|![chests15.png](/fc2-assets/ngo/img/chests15.png)Gwendolyn's Might Sacred Armor [胸甲] [皮甲製]|75|戰士 十字軍 SK|瞄準最多 25% 的雷德羅和最多 10% 的亡靈的胸甲。戰士和SK的目標是最大力量40，十字軍的目標是最大16%奧術。|
+|![chests8.png](/fc2-assets/ngo/img/chests8.png)Marionette's Vestment Cryptic Vestment [胴體] [布甲製]|68|巫師|僅限隨機天賦為 Superior Lightning Bolt +3。巫師的 Elite Set 很優秀，但如果要雙持 Haniwa，常會因為天賦等級不夠而採用。其他布甲職業的特化配置也可能有用途。|
+|![chests9.png](/fc2-assets/ngo/img/chests9.png)Erghal's Panoply Shroud Abstruse Shroud [胴體] [布甲製]|70|附魔師 他|有助於獲得抵抗力的胸甲。收集所有機器屬性傷害 13-17% 的幀可能是個好主意。推薦奧術和仙登，因為它們對魔法師特別有效。|
+|![chests11.png](/fc2-assets/ngo/img/chests11.png)Courtier's Trunk Goliath Husk [胴體] [皮甲製]|71|武僧 聖殿騎士|天賦+3是前提，如果你有有用的技能就更好了。如果你是戰士武僧，鳳凰或獵鷹是不錯的天賦，如果你是聖殿騎士，元素使或幻像是不錯的天賦。如果構圖好，甚至+2也能成為連結。|
+|![chests2.png](/fc2-assets/ngo/img/chests2.png)Fallen Angel Diamond Mail [胴體] [皮甲製]|65|盜賊|降低火力和抵抗力的胸甲，用於高達 50% 的閱讀量。如果你擁有有用的技能，那麼僱用就會更容易。|
+|![chests13.png](/fc2-assets/ngo/img/chests13.png)Hellmourn Flesh Balrog Skin [胴體] [皮甲製]|73|盜賊|由於我們以能力為目的進行招聘，因此越接近最大值 30 越好。我還想要閃擊和背刺增強。萊多羅去世。|
+|![chests15.png](/fc2-assets/ngo/img/chests15.png)Gwendolyn's Might Sacred Armor [胴體] [皮甲製]|75|戰士 十字軍 SK|瞄準最多 25% 的雷德羅和最多 10% 的亡靈的胸甲。戰士和SK的目標是最大力量40，十字軍的目標是最大16%奧術。|
 |![shoulders3.png](/fc2-assets/ngo/img/shoulders3.png)Attuned Shawl of the Forsaken Damask Shawl [肩部] [布甲製]|50|魔法職業|不死族高達7%。尤其是保留布甲職業的主要技能。很容易被錄用，因為肩膀不是很強壯。|
 |![bracers2.png](/fc2-assets/ngo/img/bracers2.png)Armbands of the Crypt Fenwoven Bindings [護腕] [布甲製]|67|魔法職業|Reado 高達 10%，Undead 高達 6%。尤其是保留布甲職業的主要技能。很容易被錄用，因為它沒有很強的防護裝備。|
 |![gloves10.png](/fc2-assets/ngo/img/gloves10.png)Adendu's Echelon Gauntlets Poplar Gauntlets [手套] [鎖甲]|52|遊俠|選擇的是下面的收穫絞殺者。我推薦Outrider，它只有+1天賦，而且是個隨心所欲的人。精心挑選，力量最大為24，攻擊等級為75，最高為35。|

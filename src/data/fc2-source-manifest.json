@@ -1,6 +1,6 @@
 {
   "base": "https://atelier3.web.fc2.com/ngo/index.html",
-  "crawledAt": "2026-05-06T08:29:13.721Z",
+  "crawledAt": "2026-05-07T09:03:44.682Z",
   "expectedCount": 106,
   "count": 106,
   "errors": [],
@@ -257,7 +257,7 @@
       "contentHash": "a11ea036d4d154b6fe6ebd78dface0bdf30cada22df521c2612bee18e76ea288",
       "blockCounts": {
         "heading": 11,
-        "paragraph": 32,
+        "paragraph": 38,
         "list": 1,
         "table": 3
       },
@@ -891,7 +891,7 @@
       "contentHash": "3eb98a43f2c50ca0b6b3cd5498215bb923bfb06c4378ea63605436e9f1ba19c5",
       "blockCounts": {
         "heading": 15,
-        "paragraph": 37,
+        "paragraph": 43,
         "list": 1,
         "table": 1
       },
@@ -1135,7 +1135,7 @@
       "contentHash": "3089bf54fd5cc12126fdf5d5745f033df80d79008e88ced0505fcb8a606903f6",
       "blockCounts": {
         "heading": 13,
-        "paragraph": 46,
+        "paragraph": 52,
         "list": 2,
         "table": 3
       },
@@ -1436,7 +1436,7 @@
       "contentHash": "faed8922386db01ca9723954338799f0e2f219a9bed93ac7ab5d16328e4b20e4",
       "blockCounts": {
         "heading": 9,
-        "paragraph": 26,
+        "paragraph": 29,
         "list": 1,
         "table": 1
       },
@@ -1660,7 +1660,7 @@
       "contentHash": "d1858c44b91a000680232c86f3f38cebbe41b65b61faa0ef3c4ec826ab780e95",
       "blockCounts": {
         "heading": 14,
-        "paragraph": 54,
+        "paragraph": 60,
         "list": 1,
         "table": 3
       },
@@ -2357,7 +2357,7 @@
       "contentHash": "1e2d78f75c537e53094a29e16ee41f4546842b09ce4eee87220a2ba4d1d582c6",
       "blockCounts": {
         "heading": 10,
-        "paragraph": 19,
+        "paragraph": 26,
         "list": 1
       },
       "imageCount": 8
@@ -3010,7 +3010,7 @@
       "contentHash": "e9af5c73fe403c2901a8af121e205fe673c31abc9d9a3e0df2d3a1c49a9aa117",
       "blockCounts": {
         "heading": 6,
-        "paragraph": 16
+        "paragraph": 21
       },
       "imageCount": 6
     },
@@ -3239,7 +3239,7 @@
       "contentType": "text/html",
       "contentHash": "00ba27cc15f7c97de9d3a7c6c45d910a078616a8116056b07b6f2eea757058a4",
       "blockCounts": {
-        "paragraph": 1,
+        "paragraph": 2,
         "heading": 5,
         "list": 5
       },
@@ -3451,7 +3451,7 @@
       "contentHash": "3f1f4f195a918b7b8deb59dbd3d4e0388c76a3b56380d17810d570fc2bd77f05",
       "blockCounts": {
         "heading": 8,
-        "paragraph": 29,
+        "paragraph": 32,
         "list": 2,
         "table": 1
       },
@@ -3527,7 +3527,7 @@
       "contentHash": "a8a1668cd3919bfd0477820be93d9a785238801d387fe7a2b44faed89b6bd05f",
       "blockCounts": {
         "heading": 13,
-        "paragraph": 19
+        "paragraph": 20
       },
       "imageCount": 2
     },
@@ -3793,7 +3793,7 @@
       "contentHash": "8ceae399644b66cd1b2288c2e71cb3c1eeccd28bde38baf477a5b4bdc4b6cceb",
       "blockCounts": {
         "heading": 9,
-        "paragraph": 30,
+        "paragraph": 33,
         "list": 1,
         "table": 1
       },
@@ -4072,7 +4072,7 @@
       "contentHash": "62d4b3df26ee32178ab9a2a4a4a420615312133722274affae1072b56c9450c6",
       "blockCounts": {
         "heading": 9,
-        "paragraph": 30,
+        "paragraph": 33,
         "list": 1,
         "table": 1
       },
@@ -4863,7 +4863,7 @@
       "contentHash": "9bdbcf2a5812399de0f3d4e23cea7902612e357353738893f050fd9d9468a8cb",
       "blockCounts": {
         "heading": 9,
-        "paragraph": 30,
+        "paragraph": 33,
         "list": 1,
         "table": 1
       },
@@ -5067,7 +5067,7 @@
       "contentHash": "df53452e796715131f2eec7fbfaf90e2282bf2c526915c5aad65921ca44ec650",
       "blockCounts": {
         "heading": 14,
-        "paragraph": 35,
+        "paragraph": 41,
         "list": 1,
         "table": 2
       },
@@ -5430,7 +5430,7 @@
       "contentHash": "86e30635de8aa234073cb6df925fb41a27f2e154547fb6a3e4c6e821b50f6576",
       "blockCounts": {
         "heading": 15,
-        "paragraph": 50,
+        "paragraph": 56,
         "list": 1,
         "table": 1
       },
@@ -7067,7 +7067,7 @@
       "contentHash": "03c1ca71cf80a8d7c668ae65f5e6d548fda1b538eae3795cf46f4f910ee58223",
       "blockCounts": {
         "heading": 7,
-        "paragraph": 16,
+        "paragraph": 20,
         "table": 1
       },
       "imageCount": 5
@@ -7726,7 +7726,7 @@
       "contentHash": "726e87995d5f4362528c1d9a4af807df1b9745dd39328634f7b369094978623e",
       "blockCounts": {
         "heading": 9,
-        "paragraph": 35,
+        "paragraph": 38,
         "list": 1,
         "table": 2
       },
@@ -7914,7 +7914,7 @@
       "contentHash": "bced9957537a70acc430a15186337137ad8d4c277d2e0f1f847927279fd9ed44",
       "blockCounts": {
         "heading": 9,
-        "paragraph": 29,
+        "paragraph": 32,
         "list": 2,
         "table": 1
       },
@@ -8122,7 +8122,7 @@
       "contentHash": "88bcfaac78701870d80209986c97be6ae4cb7a5c1068ab4a570e1ba889d18c9a",
       "blockCounts": {
         "heading": 14,
-        "paragraph": 41,
+        "paragraph": 47,
         "list": 1,
         "table": 3
       },

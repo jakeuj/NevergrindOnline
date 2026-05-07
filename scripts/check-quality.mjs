@@ -53,9 +53,19 @@ const FC2_TERMINOLOGY_PATTERNS = [
   /\bTalent\b/,
   /城鎮左側的欄|自然能力/,
   /屬性抗性Rune/,
+  /符號/,
+  /標誌\/武器\s*DPS\s*計算器|確定獲得標誌|Gra\s*標誌|符號詞/,
   /(?:職業|性別|種族|物理)紅利/,
   /螳螂蝦|薩科|江湖之冠|埴輪|Haniwa舒莫奇/,
   /金金屬效率|金屬效率/,
+  /帶回家的物品|工藝相關的項目|魔法等級也可能出現|稀有魔法鈍器（口袋、飛行手套）|地函魔法鈍器|龍斗篷魔鈍器|稀有物理風暴斗篷|棍棒打死|零件帶回家/,
+  /控球天賦|左手斗篷|正確的斗篷|贏得天賦|Zimri's 智慧/,
+  /禮[物品]|隱密至尊|連結裝備|作為連結|6\s*個目標/,
+  /獨奏|單人轉|布朗|枠|次要技術維斯塔|維斯塔下幔|Vice Maneuve|副手樹/,
+  /空手套|恢復傷害|譴責之樹|高級譴責|快速33|熱忱決心的概括|增幅時間/,
+  /反亡靈|readore|稀有抽獎|鑄就熱忱|收集目標的DPS|裝甲職業|發射神光|元帥手套罪孽/,
+  /\|(?:画像|圖片)\|部位\|Lv\|名稱\|/,
+  /^\|(?:Goliath|Blood Knight|Protector|Falcon|Vestal)\|\|(?:Rupture|Shadow Break|Zealous Slam|Hurricane Kicks|Circle of Prayer)/m,
   /旋轉地[城牢]|地下城|地牢|副本|绕行|绕过|繞行|繞過去/,
   /fc2-dpscalc-(輸入表格|計算結果)|輸入博物館值|從裝備中選擇/,
   /\|Strength\|Stamina\|Agility\|Dexterity\|Intelligence\|Wisdom\|Charisma\|/,
@@ -65,6 +75,29 @@ const FC2_TERMINOLOGY_PATTERNS = [
   /單手套|雙手套|右手套|左手套|副手套/,
   /スペルパワー|ディフェンス|オフェンス|ブロック率|受流し|反撃/,
   /攻撃|連続|単体では|状態異常の|組み合わさる|減少効果|全体攻撃|硬くなる/,
+  /隨機属性|沈黙|被弾時/,
+];
+
+const FC2_RECIPE_TERMINOLOGY_PATTERNS = [
+  /(?:^|\n)## 食譜/,
+  /掉落天賦|所有技能|法術強度魔法|投擲者技能強化|飛衣斬|飛喉斬|斗篷斬擊/,
+  /固有能力|總抗性|使用速度提升|命中率稀有掉落率|佔有天賦|敵敵抗性|對職業強化傷害/,
+  /金華|慶典焰|滴管天生能力|運輸船技能增強|伤害增强|射箭职业天赋|闪现抗性|闪现伤害/,
+  /毒素素|魔法Damage|Skill強化|Mana回復|Health回復|頁內連結/,
+  /單手鈍器\(物\)|單手鈍器\(魔\)|雙手鈍器\(物\)|雙手鈍器\(魔\)|### 胸甲/,
+];
+
+const FC2_MYTHICAL_TERMINOLOGY_PATTERNS = [
+  /(?:^|\n)## Craft/,
+  /文文組|將將|基體|請求語句|請求碼|Socket中插入程式碼|創建Socket/,
+  /創建的item|不能作為附錄|用於製作的印記|魔法師的影響|素体準拠|#### 乙醚/,
+];
+
+const FC2_GAMBLING_TERMINOLOGY_PATTERNS = [
+  /進入城堡或進入新區域|符咒、頭部和戒律|魅力、千行和戒律/,
+  /配件（例外\/精英）|護身符、帽子、戒律|項宗|薩彥萬花筒|黑天鵝樂隊|天之翼/,
+  /扭蛋特別暗|非常有用的物品|EL皮革胸甲|EL板甲斗篷|尤里武器|恐怖球/,
+  /購買 Leger|水晶海的蒼穹法杖|透特靈聯法杖/,
 ];
 
 function contentWithoutSourceTitleRows(content) {
@@ -215,6 +248,30 @@ for (const doc of docs) {
     for (const pattern of FC2_TERMINOLOGY_PATTERNS) {
       if (pattern.test(qualityContent)) {
         problems.push(`${doc} still contains FC2 terminology drift matching ${pattern}.`);
+      }
+    }
+
+    if (doc.endsWith('fc2-recipes.md')) {
+      for (const pattern of FC2_RECIPE_TERMINOLOGY_PATTERNS) {
+        if (pattern.test(qualityContent)) {
+          problems.push(`${doc} still contains FC2 recipe terminology drift matching ${pattern}.`);
+        }
+      }
+    }
+
+    if (doc.endsWith('fc2-rune-craft-reference.md')) {
+      for (const pattern of FC2_MYTHICAL_TERMINOLOGY_PATTERNS) {
+        if (pattern.test(qualityContent)) {
+          problems.push(`${doc} still contains FC2 Mythical Craft terminology drift matching ${pattern}.`);
+        }
+      }
+    }
+
+    if (doc.endsWith('fc2-general-reference.md')) {
+      for (const pattern of FC2_GAMBLING_TERMINOLOGY_PATTERNS) {
+        if (pattern.test(qualityContent)) {
+          problems.push(`${doc} still contains FC2 Gambling terminology drift matching ${pattern}.`);
+        }
       }
     }
 

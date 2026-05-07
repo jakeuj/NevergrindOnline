@@ -117,23 +117,77 @@ function hasBlockChildren($, element) {
   return $(element).children('h1,h2,h3,h4,h5,h6,p,ul,ol,table,div,section,article').length > 0;
 }
 
+function spanCount(value) {
+  const parsed = Number.parseInt(value ?? '1', 10);
+  return Number.isFinite(parsed) && parsed > 0 ? parsed : 1;
+}
+
+function hasImageToken(value) {
+  return /\{\{FC2_IMAGE_\d+\}\}/.test(String(value ?? ''));
+}
+
+function rowspanValue(value) {
+  return hasImageToken(value) ? '' : value;
+}
+
+function hasPendingRowspan(spans, start) {
+  return spans.some((span, index) => index >= start && span?.remaining > 0);
+}
+
+function appendPendingRowspan(cells, spans, column) {
+  const span = spans[column];
+  if (!span?.remaining) return false;
+
+  cells.push(span.text);
+  span.remaining -= 1;
+  if (span.remaining <= 0) {
+    spans[column] = null;
+  }
+  return true;
+}
+
 function tableRows($, element, state) {
   const rows = [];
+  const rowspans = [];
 
   $(element)
     .find('tr')
     .each((_, row) => {
       const cells = [];
+      let column = 0;
+
       $(row)
         .children('th,td')
         .each((__, cell) => {
-          const colspan = Number.parseInt($(cell).attr('colspan') ?? '1', 10) || 1;
+          while (appendPendingRowspan(cells, rowspans, column)) {
+            column += 1;
+          }
+
+          const colspan = spanCount($(cell).attr('colspan'));
+          const rowspan = spanCount($(cell).attr('rowspan'));
           const text = blockText($, cell, state);
-          cells.push(text);
-          for (let index = 1; index < colspan; index += 1) {
-            cells.push('');
+          for (let index = 0; index < colspan; index += 1) {
+            const cellText = index === 0 ? text : '';
+            cells.push(cellText);
+            if (rowspan > 1) {
+              rowspans[column] = {
+                text: rowspanValue(cellText),
+                remaining: rowspan - 1,
+              };
+            }
+            column += 1;
           }
         });
+
+      while (hasPendingRowspan(rowspans, column)) {
+        if (appendPendingRowspan(cells, rowspans, column)) {
+          column += 1;
+        } else {
+          cells.push('');
+          column += 1;
+        }
+      }
+
       if (cells.some(Boolean)) rows.push(cells);
     });
 
@@ -193,6 +247,16 @@ function extractBlocksFrom($, parent, blocks, state) {
       if (tag === 'p') {
         const text = blockText($, element, state);
         if (text) blocks.push({ type: 'paragraph', text });
+        return;
+      }
+
+      if (tag === 'img') {
+        const token = `{{FC2_IMAGE_${state.images.length}}}`;
+        const image = imageRecord($, element, state.pageUrl, token);
+        if (image) {
+          state.images.push(image);
+          blocks.push({ type: 'paragraph', text: token });
+        }
         return;
       }
 

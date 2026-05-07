@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-06T08:30:53.176Z",
+  "generatedAt": "2026-05-07T09:05:51.193Z",
   "source": "FC2 / atelier3 Nevergrind Online 攻略 DB",
   "publicRoot": "public/fc2-assets/ngo",
   "publicPathPrefix": "/fc2-assets/ngo",
@@ -3517,7 +3517,7 @@
         {
           "pageFile": "bard.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/bard.html",
-          "token": "{{FC2_IMAGE_10}}",
+          "token": "{{FC2_IMAGE_16}}",
           "source": "img/c/brd/1.png",
           "alt": "",
           "title": ""
@@ -3538,7 +3538,7 @@
         {
           "pageFile": "bard.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/bard.html",
-          "token": "{{FC2_IMAGE_7}}",
+          "token": "{{FC2_IMAGE_13}}",
           "source": "img/c/brd/10.png",
           "alt": "",
           "title": ""
@@ -3559,7 +3559,7 @@
         {
           "pageFile": "bard.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/bard.html",
-          "token": "{{FC2_IMAGE_4}}",
+          "token": "{{FC2_IMAGE_10}}",
           "source": "img/c/brd/11.png",
           "alt": "",
           "title": ""
@@ -3580,7 +3580,7 @@
         {
           "pageFile": "bard.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/bard.html",
-          "token": "{{FC2_IMAGE_8}}",
+          "token": "{{FC2_IMAGE_14}}",
           "source": "img/c/brd/3.png",
           "alt": "",
           "title": ""
@@ -3601,7 +3601,7 @@
         {
           "pageFile": "bard.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/bard.html",
-          "token": "{{FC2_IMAGE_9}}",
+          "token": "{{FC2_IMAGE_15}}",
           "source": "img/c/brd/4.png",
           "alt": "",
           "title": ""
@@ -3622,7 +3622,7 @@
         {
           "pageFile": "bard.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/bard.html",
-          "token": "{{FC2_IMAGE_3}}",
+          "token": "{{FC2_IMAGE_9}}",
           "source": "img/c/brd/5.png",
           "alt": "",
           "title": ""
@@ -3643,7 +3643,7 @@
         {
           "pageFile": "bard.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/bard.html",
-          "token": "{{FC2_IMAGE_2}}",
+          "token": "{{FC2_IMAGE_8}}",
           "source": "img/c/brd/6.png",
           "alt": "",
           "title": ""
@@ -3664,7 +3664,7 @@
         {
           "pageFile": "bard.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/bard.html",
-          "token": "{{FC2_IMAGE_6}}",
+          "token": "{{FC2_IMAGE_12}}",
           "source": "img/c/brd/8.png",
           "alt": "",
           "title": ""
@@ -3685,7 +3685,7 @@
         {
           "pageFile": "bard.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/bard.html",
-          "token": "{{FC2_IMAGE_5}}",
+          "token": "{{FC2_IMAGE_11}}",
           "source": "img/c/brd/9.png",
           "alt": "",
           "title": ""
@@ -3706,7 +3706,7 @@
         {
           "pageFile": "bard.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/bard.html",
-          "token": "{{FC2_IMAGE_1}}",
+          "token": "{{FC2_IMAGE_7}}",
           "source": "img/c/brd/i1.jpg",
           "alt": "",
           "title": ""
@@ -3727,7 +3727,7 @@
         {
           "pageFile": "bard.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/bard.html",
-          "token": "",
+          "token": "{{FC2_IMAGE_1}}",
           "source": "img/c/brd/t1.jpg",
           "alt": "",
           "title": ""
@@ -3748,7 +3748,7 @@
         {
           "pageFile": "bard.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/bard.html",
-          "token": "",
+          "token": "{{FC2_IMAGE_2}}",
           "source": "img/c/brd/t2.jpg",
           "alt": "",
           "title": ""
@@ -3769,7 +3769,7 @@
         {
           "pageFile": "bard.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/bard.html",
-          "token": "",
+          "token": "{{FC2_IMAGE_3}}",
           "source": "img/c/brd/t3.jpg",
           "alt": "",
           "title": ""
@@ -3790,7 +3790,7 @@
         {
           "pageFile": "bard.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/bard.html",
-          "token": "",
+          "token": "{{FC2_IMAGE_4}}",
           "source": "img/c/brd/t4.jpg",
           "alt": "",
           "title": ""
@@ -3811,7 +3811,7 @@
         {
           "pageFile": "bard.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/bard.html",
-          "token": "",
+          "token": "{{FC2_IMAGE_5}}",
           "source": "img/c/brd/t5.jpg",
           "alt": "",
           "title": ""
@@ -3832,7 +3832,7 @@
         {
           "pageFile": "bard.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/bard.html",
-          "token": "",
+          "token": "{{FC2_IMAGE_6}}",
           "source": "img/c/brd/t6.jpg",
           "alt": "",
           "title": ""
@@ -3853,7 +3853,7 @@
         {
           "pageFile": "cleric.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/cleric.html",
-          "token": "{{FC2_IMAGE_13}}",
+          "token": "{{FC2_IMAGE_19}}",
           "source": "img/c/clr/0.png",
           "alt": "",
           "title": ""
@@ -3874,7 +3874,7 @@
         {
           "pageFile": "cleric.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/cleric.html",
-          "token": "{{FC2_IMAGE_12}}",
+          "token": "{{FC2_IMAGE_18}}",
           "source": "img/c/clr/1.png",
           "alt": "",
           "title": ""
@@ -3882,7 +3882,7 @@
         {
           "pageFile": "cleric.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/cleric.html",
-          "token": "{{FC2_IMAGE_16}}",
+          "token": "{{FC2_IMAGE_22}}",
           "source": "img/c/clr/1.png",
           "alt": "",
           "title": ""
@@ -3890,7 +3890,7 @@
         {
           "pageFile": "cleric.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/cleric.html",
-          "token": "{{FC2_IMAGE_17}}",
+          "token": "{{FC2_IMAGE_23}}",
           "source": "img/c/clr/1.png",
           "alt": "",
           "title": ""
@@ -3911,7 +3911,7 @@
         {
           "pageFile": "cleric.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/cleric.html",
-          "token": "{{FC2_IMAGE_2}}",
+          "token": "{{FC2_IMAGE_8}}",
           "source": "img/c/clr/10.png",
           "alt": "",
           "title": ""
@@ -3932,7 +3932,7 @@
         {
           "pageFile": "cleric.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/cleric.html",
-          "token": "{{FC2_IMAGE_3}}",
+          "token": "{{FC2_IMAGE_9}}",
           "source": "img/c/clr/11.png",
           "alt": "",
           "title": ""
@@ -3953,23 +3953,7 @@
         {
           "pageFile": "cleric.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/cleric.html",
-          "token": "{{FC2_IMAGE_5}}",
-          "source": "img/c/clr/2.png",
-          "alt": "",
-          "title": ""
-        },
-        {
-          "pageFile": "cleric.html",
-          "pageUrl": "https://atelier3.web.fc2.com/ngo/cleric.html",
-          "token": "{{FC2_IMAGE_8}}",
-          "source": "img/c/clr/2.png",
-          "alt": "",
-          "title": ""
-        },
-        {
-          "pageFile": "cleric.html",
-          "pageUrl": "https://atelier3.web.fc2.com/ngo/cleric.html",
-          "token": "{{FC2_IMAGE_10}}",
+          "token": "{{FC2_IMAGE_11}}",
           "source": "img/c/clr/2.png",
           "alt": "",
           "title": ""
@@ -3978,6 +3962,22 @@
           "pageFile": "cleric.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/cleric.html",
           "token": "{{FC2_IMAGE_14}}",
+          "source": "img/c/clr/2.png",
+          "alt": "",
+          "title": ""
+        },
+        {
+          "pageFile": "cleric.html",
+          "pageUrl": "https://atelier3.web.fc2.com/ngo/cleric.html",
+          "token": "{{FC2_IMAGE_16}}",
+          "source": "img/c/clr/2.png",
+          "alt": "",
+          "title": ""
+        },
+        {
+          "pageFile": "cleric.html",
+          "pageUrl": "https://atelier3.web.fc2.com/ngo/cleric.html",
+          "token": "{{FC2_IMAGE_20}}",
           "source": "img/c/clr/2.png",
           "alt": "",
           "title": ""
@@ -3998,7 +3998,7 @@
         {
           "pageFile": "cleric.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/cleric.html",
-          "token": "{{FC2_IMAGE_11}}",
+          "token": "{{FC2_IMAGE_17}}",
           "source": "img/c/clr/3.png",
           "alt": "",
           "title": ""
@@ -4006,7 +4006,7 @@
         {
           "pageFile": "cleric.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/cleric.html",
-          "token": "{{FC2_IMAGE_18}}",
+          "token": "{{FC2_IMAGE_24}}",
           "source": "img/c/clr/3.png",
           "alt": "",
           "title": ""
@@ -4027,7 +4027,7 @@
         {
           "pageFile": "cleric.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/cleric.html",
-          "token": "{{FC2_IMAGE_9}}",
+          "token": "{{FC2_IMAGE_15}}",
           "source": "img/c/clr/4.png",
           "alt": "",
           "title": ""
@@ -4048,7 +4048,7 @@
         {
           "pageFile": "cleric.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/cleric.html",
-          "token": "{{FC2_IMAGE_15}}",
+          "token": "{{FC2_IMAGE_21}}",
           "source": "img/c/clr/5.png",
           "alt": "",
           "title": ""
@@ -4056,7 +4056,7 @@
         {
           "pageFile": "cleric.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/cleric.html",
-          "token": "{{FC2_IMAGE_19}}",
+          "token": "{{FC2_IMAGE_25}}",
           "source": "img/c/clr/5.png",
           "alt": "",
           "title": ""
@@ -4064,7 +4064,7 @@
         {
           "pageFile": "cleric.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/cleric.html",
-          "token": "{{FC2_IMAGE_20}}",
+          "token": "{{FC2_IMAGE_26}}",
           "source": "img/c/clr/5.png",
           "alt": "",
           "title": ""
@@ -4085,7 +4085,7 @@
         {
           "pageFile": "cleric.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/cleric.html",
-          "token": "{{FC2_IMAGE_4}}",
+          "token": "{{FC2_IMAGE_10}}",
           "source": "img/c/clr/7.png",
           "alt": "",
           "title": ""
@@ -4106,7 +4106,7 @@
         {
           "pageFile": "cleric.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/cleric.html",
-          "token": "{{FC2_IMAGE_7}}",
+          "token": "{{FC2_IMAGE_13}}",
           "source": "img/c/clr/8.png",
           "alt": "",
           "title": ""
@@ -4127,7 +4127,7 @@
         {
           "pageFile": "cleric.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/cleric.html",
-          "token": "{{FC2_IMAGE_6}}",
+          "token": "{{FC2_IMAGE_12}}",
           "source": "img/c/clr/9.png",
           "alt": "",
           "title": ""
@@ -4148,7 +4148,7 @@
         {
           "pageFile": "cleric.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/cleric.html",
-          "token": "{{FC2_IMAGE_1}}",
+          "token": "{{FC2_IMAGE_7}}",
           "source": "img/c/clr/i1.jpg",
           "alt": "",
           "title": ""
@@ -4169,7 +4169,7 @@
         {
           "pageFile": "cleric.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/cleric.html",
-          "token": "",
+          "token": "{{FC2_IMAGE_1}}",
           "source": "img/c/clr/t1.jpg",
           "alt": "",
           "title": ""
@@ -4190,7 +4190,7 @@
         {
           "pageFile": "cleric.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/cleric.html",
-          "token": "",
+          "token": "{{FC2_IMAGE_2}}",
           "source": "img/c/clr/t2.jpg",
           "alt": "",
           "title": ""
@@ -4211,7 +4211,7 @@
         {
           "pageFile": "cleric.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/cleric.html",
-          "token": "",
+          "token": "{{FC2_IMAGE_3}}",
           "source": "img/c/clr/t3.jpg",
           "alt": "",
           "title": ""
@@ -4232,7 +4232,7 @@
         {
           "pageFile": "cleric.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/cleric.html",
-          "token": "",
+          "token": "{{FC2_IMAGE_4}}",
           "source": "img/c/clr/t4.jpg",
           "alt": "",
           "title": ""
@@ -4253,7 +4253,7 @@
         {
           "pageFile": "cleric.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/cleric.html",
-          "token": "",
+          "token": "{{FC2_IMAGE_5}}",
           "source": "img/c/clr/t5.jpg",
           "alt": "",
           "title": ""
@@ -4274,7 +4274,7 @@
         {
           "pageFile": "cleric.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/cleric.html",
-          "token": "",
+          "token": "{{FC2_IMAGE_6}}",
           "source": "img/c/clr/t6.jpg",
           "alt": "",
           "title": ""
@@ -4295,7 +4295,7 @@
         {
           "pageFile": "crusader.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/crusader.html",
-          "token": "{{FC2_IMAGE_13}}",
+          "token": "{{FC2_IMAGE_19}}",
           "source": "img/c/cru/0.png",
           "alt": "",
           "title": ""
@@ -4316,7 +4316,7 @@
         {
           "pageFile": "crusader.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/crusader.html",
-          "token": "{{FC2_IMAGE_15}}",
+          "token": "{{FC2_IMAGE_21}}",
           "source": "img/c/cru/10.png",
           "alt": "",
           "title": ""
@@ -4337,7 +4337,7 @@
         {
           "pageFile": "crusader.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/crusader.html",
-          "token": "{{FC2_IMAGE_7}}",
+          "token": "{{FC2_IMAGE_10}}",
           "source": "img/c/cru/3.png",
           "alt": "",
           "title": ""
@@ -4345,7 +4345,7 @@
         {
           "pageFile": "crusader.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/crusader.html",
-          "token": "{{FC2_IMAGE_8}}",
+          "token": "{{FC2_IMAGE_11}}",
           "source": "img/c/cru/3.png",
           "alt": "",
           "title": ""
@@ -4353,7 +4353,7 @@
         {
           "pageFile": "crusader.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/crusader.html",
-          "token": "{{FC2_IMAGE_12}}",
+          "token": "{{FC2_IMAGE_18}}",
           "source": "img/c/cru/3.png",
           "alt": "",
           "title": ""
@@ -4374,7 +4374,7 @@
         {
           "pageFile": "crusader.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/crusader.html",
-          "token": "{{FC2_IMAGE_5}}",
+          "token": "{{FC2_IMAGE_8}}",
           "source": "img/c/cru/4.png",
           "alt": "",
           "title": ""
@@ -4395,14 +4395,6 @@
         {
           "pageFile": "crusader.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/crusader.html",
-          "token": "{{FC2_IMAGE_6}}",
-          "source": "img/c/cru/5.png",
-          "alt": "",
-          "title": ""
-        },
-        {
-          "pageFile": "crusader.html",
-          "pageUrl": "https://atelier3.web.fc2.com/ngo/crusader.html",
           "token": "{{FC2_IMAGE_9}}",
           "source": "img/c/cru/5.png",
           "alt": "",
@@ -4411,7 +4403,15 @@
         {
           "pageFile": "crusader.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/crusader.html",
-          "token": "{{FC2_IMAGE_16}}",
+          "token": "{{FC2_IMAGE_12}}",
+          "source": "img/c/cru/5.png",
+          "alt": "",
+          "title": ""
+        },
+        {
+          "pageFile": "crusader.html",
+          "pageUrl": "https://atelier3.web.fc2.com/ngo/crusader.html",
+          "token": "{{FC2_IMAGE_22}}",
           "source": "img/c/cru/5.png",
           "alt": "",
           "title": ""
@@ -4432,7 +4432,7 @@
         {
           "pageFile": "crusader.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/crusader.html",
-          "token": "{{FC2_IMAGE_4}}",
+          "token": "{{FC2_IMAGE_7}}",
           "source": "img/c/cru/6.png",
           "alt": "",
           "title": ""
@@ -4453,7 +4453,7 @@
         {
           "pageFile": "crusader.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/crusader.html",
-          "token": "{{FC2_IMAGE_3}}",
+          "token": "{{FC2_IMAGE_6}}",
           "source": "img/c/cru/7.png",
           "alt": "",
           "title": ""
@@ -4474,7 +4474,7 @@
         {
           "pageFile": "crusader.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/crusader.html",
-          "token": "{{FC2_IMAGE_2}}",
+          "token": "{{FC2_IMAGE_5}}",
           "source": "img/c/cru/8.png",
           "alt": "",
           "title": ""
@@ -4482,7 +4482,7 @@
         {
           "pageFile": "crusader.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/crusader.html",
-          "token": "{{FC2_IMAGE_11}}",
+          "token": "{{FC2_IMAGE_17}}",
           "source": "img/c/cru/8.png",
           "alt": "",
           "title": ""
@@ -4503,7 +4503,7 @@
         {
           "pageFile": "crusader.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/crusader.html",
-          "token": "{{FC2_IMAGE_14}}",
+          "token": "{{FC2_IMAGE_20}}",
           "source": "img/c/cru/9.png",
           "alt": "",
           "title": ""
@@ -4524,7 +4524,7 @@
         {
           "pageFile": "crusader.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/crusader.html",
-          "token": "{{FC2_IMAGE_1}}",
+          "token": "{{FC2_IMAGE_4}}",
           "source": "img/c/cru/i1.jpg",
           "alt": "",
           "title": ""
@@ -4545,7 +4545,7 @@
         {
           "pageFile": "crusader.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/crusader.html",
-          "token": "{{FC2_IMAGE_10}}",
+          "token": "{{FC2_IMAGE_16}}",
           "source": "img/c/cru/i2.jpg",
           "alt": "",
           "title": ""
@@ -4566,7 +4566,7 @@
         {
           "pageFile": "crusader.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/crusader.html",
-          "token": "",
+          "token": "{{FC2_IMAGE_1}}",
           "source": "img/c/cru/t1.jpg",
           "alt": "",
           "title": ""
@@ -4587,7 +4587,7 @@
         {
           "pageFile": "crusader.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/crusader.html",
-          "token": "",
+          "token": "{{FC2_IMAGE_2}}",
           "source": "img/c/cru/t2.jpg",
           "alt": "",
           "title": ""
@@ -4608,7 +4608,7 @@
         {
           "pageFile": "crusader.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/crusader.html",
-          "token": "",
+          "token": "{{FC2_IMAGE_3}}",
           "source": "img/c/cru/t3.jpg",
           "alt": "",
           "title": ""
@@ -4629,7 +4629,7 @@
         {
           "pageFile": "crusader.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/crusader.html",
-          "token": "",
+          "token": "{{FC2_IMAGE_13}}",
           "source": "img/c/cru/t4.jpg",
           "alt": "",
           "title": ""
@@ -4650,7 +4650,7 @@
         {
           "pageFile": "crusader.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/crusader.html",
-          "token": "",
+          "token": "{{FC2_IMAGE_14}}",
           "source": "img/c/cru/t5.jpg",
           "alt": "",
           "title": ""
@@ -4671,7 +4671,7 @@
         {
           "pageFile": "crusader.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/crusader.html",
-          "token": "",
+          "token": "{{FC2_IMAGE_15}}",
           "source": "img/c/cru/t6.jpg",
           "alt": "",
           "title": ""
@@ -4692,7 +4692,7 @@
         {
           "pageFile": "druid.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/druid.html",
-          "token": "{{FC2_IMAGE_2}}",
+          "token": "{{FC2_IMAGE_5}}",
           "source": "img/c/dru/10.png",
           "alt": "",
           "title": ""
@@ -4713,7 +4713,7 @@
         {
           "pageFile": "druid.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/druid.html",
-          "token": "{{FC2_IMAGE_3}}",
+          "token": "{{FC2_IMAGE_6}}",
           "source": "img/c/dru/11.png",
           "alt": "",
           "title": ""
@@ -4734,7 +4734,7 @@
         {
           "pageFile": "druid.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/druid.html",
-          "token": "{{FC2_IMAGE_6}}",
+          "token": "{{FC2_IMAGE_9}}",
           "source": "img/c/dru/2.png",
           "alt": "",
           "title": ""
@@ -4755,7 +4755,7 @@
         {
           "pageFile": "druid.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/druid.html",
-          "token": "{{FC2_IMAGE_7}}",
+          "token": "{{FC2_IMAGE_10}}",
           "source": "img/c/dru/3.png",
           "alt": "",
           "title": ""
@@ -4776,7 +4776,7 @@
         {
           "pageFile": "druid.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/druid.html",
-          "token": "{{FC2_IMAGE_5}}",
+          "token": "{{FC2_IMAGE_8}}",
           "source": "img/c/dru/7.png",
           "alt": "",
           "title": ""
@@ -4797,7 +4797,7 @@
         {
           "pageFile": "druid.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/druid.html",
-          "token": "{{FC2_IMAGE_8}}",
+          "token": "{{FC2_IMAGE_11}}",
           "source": "img/c/dru/8.png",
           "alt": "",
           "title": ""
@@ -4818,7 +4818,7 @@
         {
           "pageFile": "druid.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/druid.html",
-          "token": "{{FC2_IMAGE_4}}",
+          "token": "{{FC2_IMAGE_7}}",
           "source": "img/c/dru/9.png",
           "alt": "",
           "title": ""
@@ -4826,7 +4826,7 @@
         {
           "pageFile": "druid.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/druid.html",
-          "token": "{{FC2_IMAGE_9}}",
+          "token": "{{FC2_IMAGE_12}}",
           "source": "img/c/dru/9.png",
           "alt": "",
           "title": ""
@@ -4847,7 +4847,7 @@
         {
           "pageFile": "druid.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/druid.html",
-          "token": "{{FC2_IMAGE_1}}",
+          "token": "{{FC2_IMAGE_4}}",
           "source": "img/c/dru/i1.jpg",
           "alt": "",
           "title": ""
@@ -4868,7 +4868,7 @@
         {
           "pageFile": "druid.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/druid.html",
-          "token": "",
+          "token": "{{FC2_IMAGE_1}}",
           "source": "img/c/dru/t1.jpg",
           "alt": "",
           "title": ""
@@ -4889,7 +4889,7 @@
         {
           "pageFile": "druid.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/druid.html",
-          "token": "",
+          "token": "{{FC2_IMAGE_2}}",
           "source": "img/c/dru/t2.jpg",
           "alt": "",
           "title": ""
@@ -4910,7 +4910,7 @@
         {
           "pageFile": "druid.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/druid.html",
-          "token": "",
+          "token": "{{FC2_IMAGE_3}}",
           "source": "img/c/dru/t3.jpg",
           "alt": "",
           "title": ""
@@ -4931,7 +4931,7 @@
         {
           "pageFile": "enchanter.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/enchanter.html",
-          "token": "{{FC2_IMAGE_9}}",
+          "token": "{{FC2_IMAGE_15}}",
           "source": "img/c/enc/1.png",
           "alt": "",
           "title": ""
@@ -4952,7 +4952,7 @@
         {
           "pageFile": "enchanter.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/enchanter.html",
-          "token": "{{FC2_IMAGE_4}}",
+          "token": "{{FC2_IMAGE_10}}",
           "source": "img/c/enc/11.png",
           "alt": "",
           "title": ""
@@ -4973,7 +4973,7 @@
         {
           "pageFile": "enchanter.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/enchanter.html",
-          "token": "{{FC2_IMAGE_5}}",
+          "token": "{{FC2_IMAGE_11}}",
           "source": "img/c/enc/2.png",
           "alt": "",
           "title": ""
@@ -4981,7 +4981,7 @@
         {
           "pageFile": "enchanter.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/enchanter.html",
-          "token": "{{FC2_IMAGE_8}}",
+          "token": "{{FC2_IMAGE_14}}",
           "source": "img/c/enc/2.png",
           "alt": "",
           "title": ""
@@ -5002,7 +5002,7 @@
         {
           "pageFile": "enchanter.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/enchanter.html",
-          "token": "{{FC2_IMAGE_3}}",
+          "token": "{{FC2_IMAGE_9}}",
           "source": "img/c/enc/4.png",
           "alt": "",
           "title": ""
@@ -5023,7 +5023,7 @@
         {
           "pageFile": "enchanter.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/enchanter.html",
-          "token": "{{FC2_IMAGE_10}}",
+          "token": "{{FC2_IMAGE_16}}",
           "source": "img/c/enc/6.png",
           "alt": "",
           "title": ""
@@ -5044,7 +5044,7 @@
         {
           "pageFile": "enchanter.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/enchanter.html",
-          "token": "{{FC2_IMAGE_6}}",
+          "token": "{{FC2_IMAGE_12}}",
           "source": "img/c/enc/7.png",
           "alt": "",
           "title": ""
@@ -5065,7 +5065,7 @@
         {
           "pageFile": "enchanter.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/enchanter.html",
-          "token": "{{FC2_IMAGE_2}}",
+          "token": "{{FC2_IMAGE_8}}",
           "source": "img/c/enc/9.png",
           "alt": "",
           "title": ""
@@ -5086,7 +5086,7 @@
         {
           "pageFile": "enchanter.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/enchanter.html",
-          "token": "{{FC2_IMAGE_1}}",
+          "token": "{{FC2_IMAGE_7}}",
           "source": "img/c/enc/i1.jpg",
           "alt": "",
           "title": ""
@@ -5107,7 +5107,7 @@
         {
           "pageFile": "enchanter.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/enchanter.html",
-          "token": "",
+          "token": "{{FC2_IMAGE_1}}",
           "source": "img/c/enc/t1.jpg",
           "alt": "",
           "title": ""
@@ -5128,7 +5128,7 @@
         {
           "pageFile": "enchanter.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/enchanter.html",
-          "token": "",
+          "token": "{{FC2_IMAGE_2}}",
           "source": "img/c/enc/t2.jpg",
           "alt": "",
           "title": ""
@@ -5149,7 +5149,7 @@
         {
           "pageFile": "enchanter.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/enchanter.html",
-          "token": "",
+          "token": "{{FC2_IMAGE_3}}",
           "source": "img/c/enc/t3.jpg",
           "alt": "",
           "title": ""
@@ -5170,7 +5170,7 @@
         {
           "pageFile": "enchanter.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/enchanter.html",
-          "token": "",
+          "token": "{{FC2_IMAGE_4}}",
           "source": "img/c/enc/t4.jpg",
           "alt": "",
           "title": ""
@@ -5191,7 +5191,7 @@
         {
           "pageFile": "enchanter.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/enchanter.html",
-          "token": "",
+          "token": "{{FC2_IMAGE_5}}",
           "source": "img/c/enc/t5.jpg",
           "alt": "",
           "title": ""
@@ -5212,7 +5212,7 @@
         {
           "pageFile": "enchanter.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/enchanter.html",
-          "token": "",
+          "token": "{{FC2_IMAGE_6}}",
           "source": "img/c/enc/t6.jpg",
           "alt": "",
           "title": ""
@@ -5233,7 +5233,7 @@
         {
           "pageFile": "monk.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/monk.html",
-          "token": "{{FC2_IMAGE_2}}",
+          "token": "{{FC2_IMAGE_5}}",
           "source": "img/c/mnk/10.png",
           "alt": "",
           "title": ""
@@ -5254,7 +5254,7 @@
         {
           "pageFile": "monk.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/monk.html",
-          "token": "{{FC2_IMAGE_3}}",
+          "token": "{{FC2_IMAGE_6}}",
           "source": "img/c/mnk/11.png",
           "alt": "",
           "title": ""
@@ -5275,7 +5275,7 @@
         {
           "pageFile": "monk.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/monk.html",
-          "token": "{{FC2_IMAGE_4}}",
+          "token": "{{FC2_IMAGE_7}}",
           "source": "img/c/mnk/2.png",
           "alt": "",
           "title": ""
@@ -5283,15 +5283,7 @@
         {
           "pageFile": "monk.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/monk.html",
-          "token": "{{FC2_IMAGE_5}}",
-          "source": "img/c/mnk/2.png",
-          "alt": "",
-          "title": ""
-        },
-        {
-          "pageFile": "monk.html",
-          "pageUrl": "https://atelier3.web.fc2.com/ngo/monk.html",
-          "token": "{{FC2_IMAGE_6}}",
+          "token": "{{FC2_IMAGE_8}}",
           "source": "img/c/mnk/2.png",
           "alt": "",
           "title": ""
@@ -5300,6 +5292,14 @@
           "pageFile": "monk.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/monk.html",
           "token": "{{FC2_IMAGE_9}}",
+          "source": "img/c/mnk/2.png",
+          "alt": "",
+          "title": ""
+        },
+        {
+          "pageFile": "monk.html",
+          "pageUrl": "https://atelier3.web.fc2.com/ngo/monk.html",
+          "token": "{{FC2_IMAGE_12}}",
           "source": "img/c/mnk/2.png",
           "alt": "",
           "title": ""
@@ -5320,7 +5320,7 @@
         {
           "pageFile": "monk.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/monk.html",
-          "token": "{{FC2_IMAGE_12}}",
+          "token": "{{FC2_IMAGE_15}}",
           "source": "img/c/mnk/5.png",
           "alt": "",
           "title": ""
@@ -5341,7 +5341,7 @@
         {
           "pageFile": "monk.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/monk.html",
-          "token": "{{FC2_IMAGE_7}}",
+          "token": "{{FC2_IMAGE_10}}",
           "source": "img/c/mnk/6.png",
           "alt": "",
           "title": ""
@@ -5362,7 +5362,7 @@
         {
           "pageFile": "monk.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/monk.html",
-          "token": "{{FC2_IMAGE_8}}",
+          "token": "{{FC2_IMAGE_11}}",
           "source": "img/c/mnk/7.png",
           "alt": "",
           "title": ""
@@ -5370,7 +5370,7 @@
         {
           "pageFile": "monk.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/monk.html",
-          "token": "{{FC2_IMAGE_11}}",
+          "token": "{{FC2_IMAGE_14}}",
           "source": "img/c/mnk/7.png",
           "alt": "",
           "title": ""
@@ -5391,7 +5391,7 @@
         {
           "pageFile": "monk.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/monk.html",
-          "token": "{{FC2_IMAGE_1}}",
+          "token": "{{FC2_IMAGE_4}}",
           "source": "img/c/mnk/i1.jpg",
           "alt": "",
           "title": ""
@@ -5412,7 +5412,7 @@
         {
           "pageFile": "monk.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/monk.html",
-          "token": "",
+          "token": "{{FC2_IMAGE_1}}",
           "source": "img/c/mnk/t1.jpg",
           "alt": "",
           "title": ""
@@ -5433,7 +5433,7 @@
         {
           "pageFile": "monk.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/monk.html",
-          "token": "",
+          "token": "{{FC2_IMAGE_2}}",
           "source": "img/c/mnk/t2.jpg",
           "alt": "",
           "title": ""
@@ -5454,7 +5454,7 @@
         {
           "pageFile": "monk.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/monk.html",
-          "token": "",
+          "token": "{{FC2_IMAGE_3}}",
           "source": "img/c/mnk/t3.jpg",
           "alt": "",
           "title": ""
@@ -5475,7 +5475,7 @@
         {
           "pageFile": "ranger.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/ranger.html",
-          "token": "{{FC2_IMAGE_3}}",
+          "token": "{{FC2_IMAGE_6}}",
           "source": "img/c/rng/10.png",
           "alt": "",
           "title": ""
@@ -5496,7 +5496,7 @@
         {
           "pageFile": "ranger.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/ranger.html",
-          "token": "{{FC2_IMAGE_2}}",
+          "token": "{{FC2_IMAGE_5}}",
           "source": "img/c/rng/11.png",
           "alt": "",
           "title": ""
@@ -5504,7 +5504,7 @@
         {
           "pageFile": "ranger.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/ranger.html",
-          "token": "{{FC2_IMAGE_4}}",
+          "token": "{{FC2_IMAGE_7}}",
           "source": "img/c/rng/11.png",
           "alt": "",
           "title": ""
@@ -5525,14 +5525,6 @@
         {
           "pageFile": "ranger.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/ranger.html",
-          "token": "{{FC2_IMAGE_6}}",
-          "source": "img/c/rng/3.png",
-          "alt": "",
-          "title": ""
-        },
-        {
-          "pageFile": "ranger.html",
-          "pageUrl": "https://atelier3.web.fc2.com/ngo/ranger.html",
           "token": "{{FC2_IMAGE_9}}",
           "source": "img/c/rng/3.png",
           "alt": "",
@@ -5541,7 +5533,15 @@
         {
           "pageFile": "ranger.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/ranger.html",
-          "token": "{{FC2_IMAGE_10}}",
+          "token": "{{FC2_IMAGE_12}}",
+          "source": "img/c/rng/3.png",
+          "alt": "",
+          "title": ""
+        },
+        {
+          "pageFile": "ranger.html",
+          "pageUrl": "https://atelier3.web.fc2.com/ngo/ranger.html",
+          "token": "{{FC2_IMAGE_13}}",
           "source": "img/c/rng/3.png",
           "alt": "",
           "title": ""
@@ -5562,7 +5562,7 @@
         {
           "pageFile": "ranger.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/ranger.html",
-          "token": "{{FC2_IMAGE_8}}",
+          "token": "{{FC2_IMAGE_11}}",
           "source": "img/c/rng/4.png",
           "alt": "",
           "title": ""
@@ -5583,7 +5583,7 @@
         {
           "pageFile": "ranger.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/ranger.html",
-          "token": "{{FC2_IMAGE_7}}",
+          "token": "{{FC2_IMAGE_10}}",
           "source": "img/c/rng/6.png",
           "alt": "",
           "title": ""
@@ -5604,7 +5604,7 @@
         {
           "pageFile": "ranger.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/ranger.html",
-          "token": "{{FC2_IMAGE_5}}",
+          "token": "{{FC2_IMAGE_8}}",
           "source": "img/c/rng/9.png",
           "alt": "",
           "title": ""
@@ -5625,7 +5625,7 @@
         {
           "pageFile": "ranger.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/ranger.html",
-          "token": "{{FC2_IMAGE_1}}",
+          "token": "{{FC2_IMAGE_4}}",
           "source": "img/c/rng/i1.jpg",
           "alt": "",
           "title": ""
@@ -5646,7 +5646,7 @@
         {
           "pageFile": "ranger.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/ranger.html",
-          "token": "",
+          "token": "{{FC2_IMAGE_1}}",
           "source": "img/c/rng/t1.jpg",
           "alt": "",
           "title": ""
@@ -5667,7 +5667,7 @@
         {
           "pageFile": "ranger.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/ranger.html",
-          "token": "",
+          "token": "{{FC2_IMAGE_2}}",
           "source": "img/c/rng/t2.jpg",
           "alt": "",
           "title": ""
@@ -5688,7 +5688,7 @@
         {
           "pageFile": "ranger.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/ranger.html",
-          "token": "",
+          "token": "{{FC2_IMAGE_3}}",
           "source": "img/c/rng/t3.jpg",
           "alt": "",
           "title": ""
@@ -5709,7 +5709,7 @@
         {
           "pageFile": "rogue.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/rogue.html",
-          "token": "{{FC2_IMAGE_2}}",
+          "token": "{{FC2_IMAGE_5}}",
           "source": "img/c/rog/10.png",
           "alt": "",
           "title": ""
@@ -5717,7 +5717,7 @@
         {
           "pageFile": "rogue.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/rogue.html",
-          "token": "{{FC2_IMAGE_3}}",
+          "token": "{{FC2_IMAGE_6}}",
           "source": "img/c/rog/10.png",
           "alt": "",
           "title": ""
@@ -5738,7 +5738,7 @@
         {
           "pageFile": "rogue.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/rogue.html",
-          "token": "{{FC2_IMAGE_4}}",
+          "token": "{{FC2_IMAGE_7}}",
           "source": "img/c/rog/11.png",
           "alt": "",
           "title": ""
@@ -5759,7 +5759,7 @@
         {
           "pageFile": "rogue.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/rogue.html",
-          "token": "{{FC2_IMAGE_10}}",
+          "token": "{{FC2_IMAGE_13}}",
           "source": "img/c/rog/2.png",
           "alt": "",
           "title": ""
@@ -5780,7 +5780,7 @@
         {
           "pageFile": "rogue.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/rogue.html",
-          "token": "{{FC2_IMAGE_11}}",
+          "token": "{{FC2_IMAGE_14}}",
           "source": "img/c/rog/3.png",
           "alt": "",
           "title": ""
@@ -5801,7 +5801,7 @@
         {
           "pageFile": "rogue.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/rogue.html",
-          "token": "{{FC2_IMAGE_5}}",
+          "token": "{{FC2_IMAGE_8}}",
           "source": "img/c/rog/5.png",
           "alt": "",
           "title": ""
@@ -5809,7 +5809,7 @@
         {
           "pageFile": "rogue.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/rogue.html",
-          "token": "{{FC2_IMAGE_6}}",
+          "token": "{{FC2_IMAGE_9}}",
           "source": "img/c/rog/5.png",
           "alt": "",
           "title": ""
@@ -5830,7 +5830,7 @@
         {
           "pageFile": "rogue.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/rogue.html",
-          "token": "{{FC2_IMAGE_8}}",
+          "token": "{{FC2_IMAGE_11}}",
           "source": "img/c/rog/6.png",
           "alt": "",
           "title": ""
@@ -5851,7 +5851,7 @@
         {
           "pageFile": "rogue.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/rogue.html",
-          "token": "{{FC2_IMAGE_7}}",
+          "token": "{{FC2_IMAGE_10}}",
           "source": "img/c/rog/9.png",
           "alt": "",
           "title": ""
@@ -5859,7 +5859,7 @@
         {
           "pageFile": "rogue.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/rogue.html",
-          "token": "{{FC2_IMAGE_9}}",
+          "token": "{{FC2_IMAGE_12}}",
           "source": "img/c/rog/9.png",
           "alt": "",
           "title": ""
@@ -5880,7 +5880,7 @@
         {
           "pageFile": "rogue.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/rogue.html",
-          "token": "{{FC2_IMAGE_1}}",
+          "token": "{{FC2_IMAGE_4}}",
           "source": "img/c/rog/i1.jpg",
           "alt": "",
           "title": ""
@@ -5901,7 +5901,7 @@
         {
           "pageFile": "rogue.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/rogue.html",
-          "token": "",
+          "token": "{{FC2_IMAGE_1}}",
           "source": "img/c/rog/t1.jpg",
           "alt": "",
           "title": ""
@@ -5922,7 +5922,7 @@
         {
           "pageFile": "rogue.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/rogue.html",
-          "token": "",
+          "token": "{{FC2_IMAGE_2}}",
           "source": "img/c/rog/t2.jpg",
           "alt": "",
           "title": ""
@@ -5943,7 +5943,7 @@
         {
           "pageFile": "rogue.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/rogue.html",
-          "token": "",
+          "token": "{{FC2_IMAGE_3}}",
           "source": "img/c/rog/t3.jpg",
           "alt": "",
           "title": ""
@@ -5964,7 +5964,7 @@
         {
           "pageFile": "shadowknight.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/shadowknight.html",
-          "token": "{{FC2_IMAGE_6}}",
+          "token": "{{FC2_IMAGE_9}}",
           "source": "img/c/shd/0.png",
           "alt": "",
           "title": ""
@@ -5985,7 +5985,7 @@
         {
           "pageFile": "shadowknight.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/shadowknight.html",
-          "token": "{{FC2_IMAGE_3}}",
+          "token": "{{FC2_IMAGE_6}}",
           "source": "img/c/shd/10.png",
           "alt": "",
           "title": ""
@@ -6006,7 +6006,7 @@
         {
           "pageFile": "shadowknight.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/shadowknight.html",
-          "token": "{{FC2_IMAGE_4}}",
+          "token": "{{FC2_IMAGE_7}}",
           "source": "img/c/shd/11.png",
           "alt": "",
           "title": ""
@@ -6027,7 +6027,7 @@
         {
           "pageFile": "shadowknight.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/shadowknight.html",
-          "token": "{{FC2_IMAGE_5}}",
+          "token": "{{FC2_IMAGE_8}}",
           "source": "img/c/shd/6.png",
           "alt": "",
           "title": ""
@@ -6048,7 +6048,7 @@
         {
           "pageFile": "shadowknight.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/shadowknight.html",
-          "token": "{{FC2_IMAGE_1}}",
+          "token": "{{FC2_IMAGE_4}}",
           "source": "img/c/shd/i1.jpg",
           "alt": "",
           "title": ""
@@ -6069,7 +6069,7 @@
         {
           "pageFile": "shadowknight.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/shadowknight.html",
-          "token": "",
+          "token": "{{FC2_IMAGE_1}}",
           "source": "img/c/shd/t1.jpg",
           "alt": "",
           "title": ""
@@ -6090,7 +6090,7 @@
         {
           "pageFile": "shadowknight.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/shadowknight.html",
-          "token": "",
+          "token": "{{FC2_IMAGE_2}}",
           "source": "img/c/shd/t2.jpg",
           "alt": "",
           "title": ""
@@ -6111,7 +6111,7 @@
         {
           "pageFile": "shadowknight.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/shadowknight.html",
-          "token": "",
+          "token": "{{FC2_IMAGE_3}}",
           "source": "img/c/shd/t3.jpg",
           "alt": "",
           "title": ""
@@ -6132,7 +6132,7 @@
         {
           "pageFile": "shaman.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/shaman.html",
-          "token": "{{FC2_IMAGE_8}}",
+          "token": "{{FC2_IMAGE_14}}",
           "source": "img/c/shm/0.png",
           "alt": "",
           "title": ""
@@ -6153,7 +6153,7 @@
         {
           "pageFile": "shaman.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/shaman.html",
-          "token": "{{FC2_IMAGE_3}}",
+          "token": "{{FC2_IMAGE_9}}",
           "source": "img/c/shm/10.png",
           "alt": "",
           "title": ""
@@ -6174,7 +6174,7 @@
         {
           "pageFile": "shaman.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/shaman.html",
-          "token": "{{FC2_IMAGE_4}}",
+          "token": "{{FC2_IMAGE_10}}",
           "source": "img/c/shm/11.png",
           "alt": "",
           "title": ""
@@ -6195,7 +6195,7 @@
         {
           "pageFile": "shaman.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/shaman.html",
-          "token": "{{FC2_IMAGE_9}}",
+          "token": "{{FC2_IMAGE_15}}",
           "source": "img/c/shm/3.png",
           "alt": "",
           "title": ""
@@ -6216,7 +6216,7 @@
         {
           "pageFile": "shaman.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/shaman.html",
-          "token": "{{FC2_IMAGE_10}}",
+          "token": "{{FC2_IMAGE_16}}",
           "source": "img/c/shm/5.png",
           "alt": "",
           "title": ""
@@ -6237,7 +6237,7 @@
         {
           "pageFile": "shaman.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/shaman.html",
-          "token": "{{FC2_IMAGE_7}}",
+          "token": "{{FC2_IMAGE_13}}",
           "source": "img/c/shm/7.png",
           "alt": "",
           "title": ""
@@ -6258,7 +6258,7 @@
         {
           "pageFile": "shaman.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/shaman.html",
-          "token": "{{FC2_IMAGE_5}}",
+          "token": "{{FC2_IMAGE_11}}",
           "source": "img/c/shm/9.png",
           "alt": "",
           "title": ""
@@ -6266,7 +6266,7 @@
         {
           "pageFile": "shaman.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/shaman.html",
-          "token": "{{FC2_IMAGE_6}}",
+          "token": "{{FC2_IMAGE_12}}",
           "source": "img/c/shm/9.png",
           "alt": "",
           "title": ""
@@ -6287,7 +6287,7 @@
         {
           "pageFile": "shaman.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/shaman.html",
-          "token": "{{FC2_IMAGE_1}}",
+          "token": "{{FC2_IMAGE_7}}",
           "source": "img/c/shm/i1.jpg",
           "alt": "",
           "title": ""
@@ -6308,7 +6308,7 @@
         {
           "pageFile": "shaman.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/shaman.html",
-          "token": "",
+          "token": "{{FC2_IMAGE_1}}",
           "source": "img/c/shm/t1.jpg",
           "alt": "",
           "title": ""
@@ -6329,7 +6329,7 @@
         {
           "pageFile": "shaman.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/shaman.html",
-          "token": "",
+          "token": "{{FC2_IMAGE_2}}",
           "source": "img/c/shm/t2.jpg",
           "alt": "",
           "title": ""
@@ -6350,7 +6350,7 @@
         {
           "pageFile": "shaman.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/shaman.html",
-          "token": "",
+          "token": "{{FC2_IMAGE_3}}",
           "source": "img/c/shm/t3.jpg",
           "alt": "",
           "title": ""
@@ -6371,7 +6371,7 @@
         {
           "pageFile": "shaman.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/shaman.html",
-          "token": "",
+          "token": "{{FC2_IMAGE_4}}",
           "source": "img/c/shm/t4.jpg",
           "alt": "",
           "title": ""
@@ -6392,7 +6392,7 @@
         {
           "pageFile": "shaman.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/shaman.html",
-          "token": "",
+          "token": "{{FC2_IMAGE_5}}",
           "source": "img/c/shm/t5.jpg",
           "alt": "",
           "title": ""
@@ -6413,7 +6413,7 @@
         {
           "pageFile": "shaman.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/shaman.html",
-          "token": "",
+          "token": "{{FC2_IMAGE_6}}",
           "source": "img/c/shm/t6.jpg",
           "alt": "",
           "title": ""
@@ -6434,7 +6434,7 @@
         {
           "pageFile": "templar.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/templar.html",
-          "token": "{{FC2_IMAGE_12}}",
+          "token": "{{FC2_IMAGE_18}}",
           "source": "img/c/tmp/0.png",
           "alt": "",
           "title": ""
@@ -6455,7 +6455,7 @@
         {
           "pageFile": "templar.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/templar.html",
-          "token": "{{FC2_IMAGE_5}}",
+          "token": "{{FC2_IMAGE_11}}",
           "source": "img/c/tmp/1.png",
           "alt": "",
           "title": ""
@@ -6463,7 +6463,7 @@
         {
           "pageFile": "templar.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/templar.html",
-          "token": "{{FC2_IMAGE_8}}",
+          "token": "{{FC2_IMAGE_14}}",
           "source": "img/c/tmp/1.png",
           "alt": "",
           "title": ""
@@ -6484,7 +6484,7 @@
         {
           "pageFile": "templar.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/templar.html",
-          "token": "{{FC2_IMAGE_2}}",
+          "token": "{{FC2_IMAGE_8}}",
           "source": "img/c/tmp/11.png",
           "alt": "",
           "title": ""
@@ -6505,7 +6505,7 @@
         {
           "pageFile": "templar.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/templar.html",
-          "token": "{{FC2_IMAGE_10}}",
+          "token": "{{FC2_IMAGE_16}}",
           "source": "img/c/tmp/2.png",
           "alt": "",
           "title": ""
@@ -6526,7 +6526,7 @@
         {
           "pageFile": "templar.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/templar.html",
-          "token": "{{FC2_IMAGE_4}}",
+          "token": "{{FC2_IMAGE_10}}",
           "source": "img/c/tmp/3.png",
           "alt": "",
           "title": ""
@@ -6534,7 +6534,7 @@
         {
           "pageFile": "templar.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/templar.html",
-          "token": "{{FC2_IMAGE_18}}",
+          "token": "{{FC2_IMAGE_24}}",
           "source": "img/c/tmp/3.png",
           "alt": "",
           "title": ""
@@ -6555,7 +6555,7 @@
         {
           "pageFile": "templar.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/templar.html",
-          "token": "{{FC2_IMAGE_13}}",
+          "token": "{{FC2_IMAGE_19}}",
           "source": "img/c/tmp/4.png",
           "alt": "",
           "title": ""
@@ -6576,7 +6576,7 @@
         {
           "pageFile": "templar.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/templar.html",
-          "token": "{{FC2_IMAGE_19}}",
+          "token": "{{FC2_IMAGE_25}}",
           "source": "img/c/tmp/5.png",
           "alt": "",
           "title": ""
@@ -6597,7 +6597,7 @@
         {
           "pageFile": "templar.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/templar.html",
-          "token": "{{FC2_IMAGE_7}}",
+          "token": "{{FC2_IMAGE_13}}",
           "source": "img/c/tmp/7.png",
           "alt": "",
           "title": ""
@@ -6618,23 +6618,7 @@
         {
           "pageFile": "templar.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/templar.html",
-          "token": "{{FC2_IMAGE_6}}",
-          "source": "img/c/tmp/8.png",
-          "alt": "",
-          "title": ""
-        },
-        {
-          "pageFile": "templar.html",
-          "pageUrl": "https://atelier3.web.fc2.com/ngo/templar.html",
-          "token": "{{FC2_IMAGE_9}}",
-          "source": "img/c/tmp/8.png",
-          "alt": "",
-          "title": ""
-        },
-        {
-          "pageFile": "templar.html",
-          "pageUrl": "https://atelier3.web.fc2.com/ngo/templar.html",
-          "token": "{{FC2_IMAGE_11}}",
+          "token": "{{FC2_IMAGE_12}}",
           "source": "img/c/tmp/8.png",
           "alt": "",
           "title": ""
@@ -6643,6 +6627,22 @@
           "pageFile": "templar.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/templar.html",
           "token": "{{FC2_IMAGE_15}}",
+          "source": "img/c/tmp/8.png",
+          "alt": "",
+          "title": ""
+        },
+        {
+          "pageFile": "templar.html",
+          "pageUrl": "https://atelier3.web.fc2.com/ngo/templar.html",
+          "token": "{{FC2_IMAGE_17}}",
+          "source": "img/c/tmp/8.png",
+          "alt": "",
+          "title": ""
+        },
+        {
+          "pageFile": "templar.html",
+          "pageUrl": "https://atelier3.web.fc2.com/ngo/templar.html",
+          "token": "{{FC2_IMAGE_21}}",
           "source": "img/c/tmp/8.png",
           "alt": "",
           "title": ""
@@ -6663,7 +6663,7 @@
         {
           "pageFile": "templar.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/templar.html",
-          "token": "{{FC2_IMAGE_3}}",
+          "token": "{{FC2_IMAGE_9}}",
           "source": "img/c/tmp/9.png",
           "alt": "",
           "title": ""
@@ -6684,7 +6684,7 @@
         {
           "pageFile": "templar.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/templar.html",
-          "token": "{{FC2_IMAGE_1}}",
+          "token": "{{FC2_IMAGE_7}}",
           "source": "img/c/tmp/i1.jpg",
           "alt": "",
           "title": ""
@@ -6705,7 +6705,7 @@
         {
           "pageFile": "templar.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/templar.html",
-          "token": "",
+          "token": "{{FC2_IMAGE_1}}",
           "source": "img/c/tmp/t1.jpg",
           "alt": "",
           "title": ""
@@ -6726,7 +6726,7 @@
         {
           "pageFile": "templar.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/templar.html",
-          "token": "",
+          "token": "{{FC2_IMAGE_2}}",
           "source": "img/c/tmp/t2.jpg",
           "alt": "",
           "title": ""
@@ -6747,7 +6747,7 @@
         {
           "pageFile": "templar.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/templar.html",
-          "token": "",
+          "token": "{{FC2_IMAGE_3}}",
           "source": "img/c/tmp/t3.jpg",
           "alt": "",
           "title": ""
@@ -6768,7 +6768,7 @@
         {
           "pageFile": "templar.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/templar.html",
-          "token": "",
+          "token": "{{FC2_IMAGE_4}}",
           "source": "img/c/tmp/t4.jpg",
           "alt": "",
           "title": ""
@@ -6789,7 +6789,7 @@
         {
           "pageFile": "templar.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/templar.html",
-          "token": "",
+          "token": "{{FC2_IMAGE_5}}",
           "source": "img/c/tmp/t5.jpg",
           "alt": "",
           "title": ""
@@ -6810,7 +6810,7 @@
         {
           "pageFile": "templar.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/templar.html",
-          "token": "",
+          "token": "{{FC2_IMAGE_6}}",
           "source": "img/c/tmp/t6.jpg",
           "alt": "",
           "title": ""
@@ -6831,7 +6831,7 @@
         {
           "pageFile": "warrior.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/warrior.html",
-          "token": "{{FC2_IMAGE_7}}",
+          "token": "{{FC2_IMAGE_10}}",
           "source": "img/c/war/1.png",
           "alt": "",
           "title": ""
@@ -6839,7 +6839,7 @@
         {
           "pageFile": "warrior.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/warrior.html",
-          "token": "{{FC2_IMAGE_8}}",
+          "token": "{{FC2_IMAGE_11}}",
           "source": "img/c/war/1.png",
           "alt": "",
           "title": ""
@@ -6847,7 +6847,7 @@
         {
           "pageFile": "warrior.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/warrior.html",
-          "token": "{{FC2_IMAGE_13}}",
+          "token": "{{FC2_IMAGE_16}}",
           "source": "img/c/war/1.png",
           "alt": "",
           "title": ""
@@ -6868,7 +6868,7 @@
         {
           "pageFile": "warrior.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/warrior.html",
-          "token": "{{FC2_IMAGE_4}}",
+          "token": "{{FC2_IMAGE_7}}",
           "source": "img/c/war/10.png",
           "alt": "",
           "title": ""
@@ -6889,7 +6889,7 @@
         {
           "pageFile": "warrior.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/warrior.html",
-          "token": "{{FC2_IMAGE_9}}",
+          "token": "{{FC2_IMAGE_12}}",
           "source": "img/c/war/11.png",
           "alt": "",
           "title": ""
@@ -6910,7 +6910,7 @@
         {
           "pageFile": "warrior.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/warrior.html",
-          "token": "{{FC2_IMAGE_12}}",
+          "token": "{{FC2_IMAGE_15}}",
           "source": "img/c/war/2.png",
           "alt": "",
           "title": ""
@@ -6931,7 +6931,7 @@
         {
           "pageFile": "warrior.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/warrior.html",
-          "token": "{{FC2_IMAGE_10}}",
+          "token": "{{FC2_IMAGE_13}}",
           "source": "img/c/war/4.png",
           "alt": "",
           "title": ""
@@ -6939,7 +6939,7 @@
         {
           "pageFile": "warrior.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/warrior.html",
-          "token": "{{FC2_IMAGE_11}}",
+          "token": "{{FC2_IMAGE_14}}",
           "source": "img/c/war/4.png",
           "alt": "",
           "title": ""
@@ -6960,7 +6960,7 @@
         {
           "pageFile": "warrior.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/warrior.html",
-          "token": "{{FC2_IMAGE_2}}",
+          "token": "{{FC2_IMAGE_5}}",
           "source": "img/c/war/6.png",
           "alt": "",
           "title": ""
@@ -6968,7 +6968,7 @@
         {
           "pageFile": "warrior.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/warrior.html",
-          "token": "{{FC2_IMAGE_6}}",
+          "token": "{{FC2_IMAGE_9}}",
           "source": "img/c/war/6.png",
           "alt": "",
           "title": ""
@@ -6989,7 +6989,7 @@
         {
           "pageFile": "warrior.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/warrior.html",
-          "token": "{{FC2_IMAGE_3}}",
+          "token": "{{FC2_IMAGE_6}}",
           "source": "img/c/war/9.png",
           "alt": "",
           "title": ""
@@ -7010,7 +7010,7 @@
         {
           "pageFile": "warrior.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/warrior.html",
-          "token": "{{FC2_IMAGE_1}}",
+          "token": "{{FC2_IMAGE_4}}",
           "source": "img/c/war/i1.jpg",
           "alt": "",
           "title": ""
@@ -7031,7 +7031,7 @@
         {
           "pageFile": "warrior.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/warrior.html",
-          "token": "",
+          "token": "{{FC2_IMAGE_1}}",
           "source": "img/c/war/t1.jpg",
           "alt": "",
           "title": ""
@@ -7052,7 +7052,7 @@
         {
           "pageFile": "warrior.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/warrior.html",
-          "token": "",
+          "token": "{{FC2_IMAGE_2}}",
           "source": "img/c/war/t2.jpg",
           "alt": "",
           "title": ""
@@ -7073,7 +7073,7 @@
         {
           "pageFile": "warrior.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/warrior.html",
-          "token": "",
+          "token": "{{FC2_IMAGE_3}}",
           "source": "img/c/war/t3.jpg",
           "alt": "",
           "title": ""
@@ -7094,7 +7094,7 @@
         {
           "pageFile": "wizard.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/wizard.html",
-          "token": "{{FC2_IMAGE_7}}",
+          "token": "{{FC2_IMAGE_13}}",
           "source": "img/c/wiz/0.png",
           "alt": "",
           "title": ""
@@ -7115,7 +7115,7 @@
         {
           "pageFile": "wizard.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/wizard.html",
-          "token": "{{FC2_IMAGE_2}}",
+          "token": "{{FC2_IMAGE_8}}",
           "source": "img/c/wiz/10.png",
           "alt": "",
           "title": ""
@@ -7136,7 +7136,7 @@
         {
           "pageFile": "wizard.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/wizard.html",
-          "token": "{{FC2_IMAGE_10}}",
+          "token": "{{FC2_IMAGE_16}}",
           "source": "img/c/wiz/11.png",
           "alt": "",
           "title": ""
@@ -7157,7 +7157,7 @@
         {
           "pageFile": "wizard.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/wizard.html",
-          "token": "{{FC2_IMAGE_9}}",
+          "token": "{{FC2_IMAGE_15}}",
           "source": "img/c/wiz/2.png",
           "alt": "",
           "title": ""
@@ -7178,7 +7178,7 @@
         {
           "pageFile": "wizard.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/wizard.html",
-          "token": "{{FC2_IMAGE_6}}",
+          "token": "{{FC2_IMAGE_12}}",
           "source": "img/c/wiz/4.png",
           "alt": "",
           "title": ""
@@ -7199,7 +7199,7 @@
         {
           "pageFile": "wizard.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/wizard.html",
-          "token": "{{FC2_IMAGE_5}}",
+          "token": "{{FC2_IMAGE_11}}",
           "source": "img/c/wiz/7.png",
           "alt": "",
           "title": ""
@@ -7207,7 +7207,7 @@
         {
           "pageFile": "wizard.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/wizard.html",
-          "token": "{{FC2_IMAGE_8}}",
+          "token": "{{FC2_IMAGE_14}}",
           "source": "img/c/wiz/7.png",
           "alt": "",
           "title": ""
@@ -7228,7 +7228,7 @@
         {
           "pageFile": "wizard.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/wizard.html",
-          "token": "{{FC2_IMAGE_11}}",
+          "token": "{{FC2_IMAGE_17}}",
           "source": "img/c/wiz/8.png",
           "alt": "",
           "title": ""
@@ -7249,7 +7249,7 @@
         {
           "pageFile": "wizard.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/wizard.html",
-          "token": "{{FC2_IMAGE_3}}",
+          "token": "{{FC2_IMAGE_9}}",
           "source": "img/c/wiz/9.png",
           "alt": "",
           "title": ""
@@ -7257,7 +7257,7 @@
         {
           "pageFile": "wizard.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/wizard.html",
-          "token": "{{FC2_IMAGE_4}}",
+          "token": "{{FC2_IMAGE_10}}",
           "source": "img/c/wiz/9.png",
           "alt": "",
           "title": ""
@@ -7278,7 +7278,7 @@
         {
           "pageFile": "wizard.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/wizard.html",
-          "token": "{{FC2_IMAGE_1}}",
+          "token": "{{FC2_IMAGE_7}}",
           "source": "img/c/wiz/i1.jpg",
           "alt": "",
           "title": ""
@@ -7299,7 +7299,7 @@
         {
           "pageFile": "wizard.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/wizard.html",
-          "token": "",
+          "token": "{{FC2_IMAGE_1}}",
           "source": "img/c/wiz/t1.jpg",
           "alt": "",
           "title": ""
@@ -7320,7 +7320,7 @@
         {
           "pageFile": "wizard.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/wizard.html",
-          "token": "",
+          "token": "{{FC2_IMAGE_2}}",
           "source": "img/c/wiz/t2.jpg",
           "alt": "",
           "title": ""
@@ -7341,7 +7341,7 @@
         {
           "pageFile": "wizard.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/wizard.html",
-          "token": "",
+          "token": "{{FC2_IMAGE_3}}",
           "source": "img/c/wiz/t3.jpg",
           "alt": "",
           "title": ""
@@ -7362,7 +7362,7 @@
         {
           "pageFile": "wizard.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/wizard.html",
-          "token": "",
+          "token": "{{FC2_IMAGE_4}}",
           "source": "img/c/wiz/t4.jpg",
           "alt": "",
           "title": ""
@@ -7383,7 +7383,7 @@
         {
           "pageFile": "wizard.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/wizard.html",
-          "token": "",
+          "token": "{{FC2_IMAGE_5}}",
           "source": "img/c/wiz/t5.jpg",
           "alt": "",
           "title": ""
@@ -7404,7 +7404,7 @@
         {
           "pageFile": "wizard.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/wizard.html",
-          "token": "",
+          "token": "{{FC2_IMAGE_6}}",
           "source": "img/c/wiz/t6.jpg",
           "alt": "",
           "title": ""
@@ -7425,7 +7425,7 @@
         {
           "pageFile": "warlock.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/warlock.html",
-          "token": "{{FC2_IMAGE_11}}",
+          "token": "{{FC2_IMAGE_14}}",
           "source": "img/c/wlk/0.png",
           "alt": "",
           "title": ""
@@ -7446,7 +7446,7 @@
         {
           "pageFile": "warlock.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/warlock.html",
-          "token": "{{FC2_IMAGE_9}}",
+          "token": "{{FC2_IMAGE_12}}",
           "source": "img/c/wlk/1.png",
           "alt": "",
           "title": ""
@@ -7467,7 +7467,7 @@
         {
           "pageFile": "warlock.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/warlock.html",
-          "token": "{{FC2_IMAGE_4}}",
+          "token": "{{FC2_IMAGE_7}}",
           "source": "img/c/wlk/10.png",
           "alt": "",
           "title": ""
@@ -7488,7 +7488,7 @@
         {
           "pageFile": "warlock.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/warlock.html",
-          "token": "{{FC2_IMAGE_3}}",
+          "token": "{{FC2_IMAGE_6}}",
           "source": "img/c/wlk/11.png",
           "alt": "",
           "title": ""
@@ -7509,7 +7509,7 @@
         {
           "pageFile": "warlock.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/warlock.html",
-          "token": "{{FC2_IMAGE_5}}",
+          "token": "{{FC2_IMAGE_8}}",
           "source": "img/c/wlk/2.png",
           "alt": "",
           "title": ""
@@ -7530,7 +7530,7 @@
         {
           "pageFile": "warlock.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/warlock.html",
-          "token": "{{FC2_IMAGE_8}}",
+          "token": "{{FC2_IMAGE_11}}",
           "source": "img/c/wlk/3.png",
           "alt": "",
           "title": ""
@@ -7551,7 +7551,7 @@
         {
           "pageFile": "warlock.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/warlock.html",
-          "token": "{{FC2_IMAGE_7}}",
+          "token": "{{FC2_IMAGE_10}}",
           "source": "img/c/wlk/4.png",
           "alt": "",
           "title": ""
@@ -7572,7 +7572,7 @@
         {
           "pageFile": "warlock.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/warlock.html",
-          "token": "{{FC2_IMAGE_10}}",
+          "token": "{{FC2_IMAGE_13}}",
           "source": "img/c/wlk/6.png",
           "alt": "",
           "title": ""
@@ -7593,7 +7593,7 @@
         {
           "pageFile": "warlock.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/warlock.html",
-          "token": "{{FC2_IMAGE_6}}",
+          "token": "{{FC2_IMAGE_9}}",
           "source": "img/c/wlk/7.png",
           "alt": "",
           "title": ""
@@ -7614,7 +7614,7 @@
         {
           "pageFile": "warlock.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/warlock.html",
-          "token": "{{FC2_IMAGE_12}}",
+          "token": "{{FC2_IMAGE_15}}",
           "source": "img/c/wlk/8.png",
           "alt": "",
           "title": ""
@@ -7635,7 +7635,7 @@
         {
           "pageFile": "warlock.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/warlock.html",
-          "token": "{{FC2_IMAGE_2}}",
+          "token": "{{FC2_IMAGE_5}}",
           "source": "img/c/wlk/9.png",
           "alt": "",
           "title": ""
@@ -7656,7 +7656,7 @@
         {
           "pageFile": "warlock.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/warlock.html",
-          "token": "{{FC2_IMAGE_1}}",
+          "token": "{{FC2_IMAGE_4}}",
           "source": "img/c/wlk/i1.jpg",
           "alt": "",
           "title": ""
@@ -7677,7 +7677,7 @@
         {
           "pageFile": "warlock.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/warlock.html",
-          "token": "",
+          "token": "{{FC2_IMAGE_1}}",
           "source": "img/c/wlk/t1.jpg",
           "alt": "",
           "title": ""
@@ -7698,7 +7698,7 @@
         {
           "pageFile": "warlock.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/warlock.html",
-          "token": "",
+          "token": "{{FC2_IMAGE_2}}",
           "source": "img/c/wlk/t2.jpg",
           "alt": "",
           "title": ""
@@ -7719,7 +7719,7 @@
         {
           "pageFile": "warlock.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/warlock.html",
-          "token": "",
+          "token": "{{FC2_IMAGE_3}}",
           "source": "img/c/wlk/t3.jpg",
           "alt": "",
           "title": ""
@@ -10051,7 +10051,7 @@
         {
           "pageFile": "unimon.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/unimon.html",
-          "token": "",
+          "token": "{{FC2_IMAGE_3}}",
           "source": "img/d/boss.png",
           "alt": "",
           "title": ""
@@ -10072,7 +10072,7 @@
         {
           "pageFile": "unimon.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/unimon.html",
-          "token": "",
+          "token": "{{FC2_IMAGE_1}}",
           "source": "img/d/champion.png",
           "alt": "",
           "title": ""
@@ -10093,7 +10093,7 @@
         {
           "pageFile": "unimon.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/unimon.html",
-          "token": "",
+          "token": "{{FC2_IMAGE_0}}",
           "source": "img/d/peon.png",
           "alt": "",
           "title": ""
@@ -10114,7 +10114,7 @@
         {
           "pageFile": "unimon.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/unimon.html",
-          "token": "",
+          "token": "{{FC2_IMAGE_2}}",
           "source": "img/d/unique.png",
           "alt": "",
           "title": ""
@@ -10236,7 +10236,7 @@
         {
           "pageFile": "monk.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/monk.html",
-          "token": "{{FC2_IMAGE_10}}",
+          "token": "{{FC2_IMAGE_13}}",
           "source": "img/ENC.png",
           "alt": "",
           "title": ""
@@ -10268,7 +10268,7 @@
         {
           "pageFile": "shadowknight.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/shadowknight.html",
-          "token": "{{FC2_IMAGE_2}}",
+          "token": "{{FC2_IMAGE_5}}",
           "source": "img/ENC.png",
           "alt": "",
           "title": ""
@@ -10276,7 +10276,7 @@
         {
           "pageFile": "templar.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/templar.html",
-          "token": "{{FC2_IMAGE_14}}",
+          "token": "{{FC2_IMAGE_20}}",
           "source": "img/ENC.png",
           "alt": "",
           "title": ""
@@ -10284,7 +10284,7 @@
         {
           "pageFile": "templar.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/templar.html",
-          "token": "{{FC2_IMAGE_16}}",
+          "token": "{{FC2_IMAGE_22}}",
           "source": "img/ENC.png",
           "alt": "",
           "title": ""
@@ -10292,7 +10292,7 @@
         {
           "pageFile": "warrior.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/warrior.html",
-          "token": "{{FC2_IMAGE_5}}",
+          "token": "{{FC2_IMAGE_8}}",
           "source": "img/ENC.png",
           "alt": "",
           "title": ""
@@ -10751,7 +10751,7 @@
         {
           "pageFile": "gambling.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/gambling.html",
-          "token": "",
+          "token": "{{FC2_IMAGE_0}}",
           "source": "img/g/amulet.jpg",
           "alt": "",
           "title": ""
@@ -10772,7 +10772,7 @@
         {
           "pageFile": "gambling.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/gambling.html",
-          "token": "",
+          "token": "{{FC2_IMAGE_2}}",
           "source": "img/g/haniwa.jpg",
           "alt": "",
           "title": ""
@@ -10793,7 +10793,7 @@
         {
           "pageFile": "gambling.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/gambling.html",
-          "token": "",
+          "token": "{{FC2_IMAGE_6}}",
           "source": "img/g/leg.jpg",
           "alt": "",
           "title": ""
@@ -10814,7 +10814,7 @@
         {
           "pageFile": "gambling.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/gambling.html",
-          "token": "",
+          "token": "{{FC2_IMAGE_3}}",
           "source": "img/g/noex.jpg",
           "alt": "",
           "title": ""
@@ -10835,7 +10835,7 @@
         {
           "pageFile": "gambling.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/gambling.html",
-          "token": "",
+          "token": "{{FC2_IMAGE_5}}",
           "source": "img/g/set.jpg",
           "alt": "",
           "title": ""
@@ -10856,7 +10856,7 @@
         {
           "pageFile": "gambling.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/gambling.html",
-          "token": "",
+          "token": "{{FC2_IMAGE_1}}",
           "source": "img/g/shako.jpg",
           "alt": "",
           "title": ""
@@ -10877,7 +10877,7 @@
         {
           "pageFile": "gambling.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/gambling.html",
-          "token": "",
+          "token": "{{FC2_IMAGE_4}}",
           "source": "img/g/uni.jpg",
           "alt": "",
           "title": ""
@@ -12644,7 +12644,7 @@
         {
           "pageFile": "loot.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/loot.html",
-          "token": "",
+          "token": "{{FC2_IMAGE_4}}",
           "source": "img/i/bow.jpg",
           "alt": "",
           "title": ""
@@ -12665,7 +12665,7 @@
         {
           "pageFile": "loot.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/loot.html",
-          "token": "",
+          "token": "{{FC2_IMAGE_2}}",
           "source": "img/i/focus.png",
           "alt": "",
           "title": ""
@@ -12686,7 +12686,7 @@
         {
           "pageFile": "loot.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/loot.html",
-          "token": "",
+          "token": "{{FC2_IMAGE_1}}",
           "source": "img/i/hand.jpg",
           "alt": "",
           "title": ""
@@ -12707,7 +12707,7 @@
         {
           "pageFile": "loot.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/loot.html",
-          "token": "",
+          "token": "{{FC2_IMAGE_0}}",
           "source": "img/i/neck.jpg",
           "alt": "",
           "title": ""
@@ -12728,7 +12728,7 @@
         {
           "pageFile": "loot.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/loot.html",
-          "token": "",
+          "token": "{{FC2_IMAGE_3}}",
           "source": "img/i/stave.png",
           "alt": "",
           "title": ""
@@ -12749,7 +12749,7 @@
         {
           "pageFile": "mythical.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/mythical.html",
-          "token": "",
+          "token": "{{FC2_IMAGE_0}}",
           "source": "img/i/white.jpg",
           "alt": "",
           "title": ""
@@ -19923,7 +19923,7 @@
         {
           "pageFile": "enchanter.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/enchanter.html",
-          "token": "{{FC2_IMAGE_7}}",
+          "token": "{{FC2_IMAGE_13}}",
           "source": "img/TMP.png",
           "alt": "",
           "title": ""
@@ -19955,7 +19955,7 @@
         {
           "pageFile": "shaman.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/shaman.html",
-          "token": "{{FC2_IMAGE_2}}",
+          "token": "{{FC2_IMAGE_8}}",
           "source": "img/TMP.png",
           "alt": "",
           "title": ""
@@ -21194,7 +21194,7 @@
         {
           "pageFile": "templar.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/templar.html",
-          "token": "{{FC2_IMAGE_17}}",
+          "token": "{{FC2_IMAGE_23}}",
           "source": "img/WIZ.png",
           "alt": "",
           "title": ""
@@ -21693,7 +21693,7 @@
         {
           "pageFile": "menu.html",
           "pageUrl": "https://atelier3.web.fc2.com/ngo/menu.html",
-          "token": "",
+          "token": "{{FC2_IMAGE_0}}",
           "source": "//media.fc2.com/counter_img.php?id=50",
           "alt": "inserted by FC2 system",
           "title": ""
