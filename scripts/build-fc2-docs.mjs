@@ -500,6 +500,20 @@ const POSTPROCESS_REPLACEMENTS = [
   ['反亡靈', '對不死生物'],
   ['扎姆提爾', 'Zamtil'],
   ['元帥手套罪孽', 'Marshal Gauntlets Iniquity'],
+  ['雷德羅', 'Rare Drop Rate'],
+  ['稀有抽籤', 'Rare Drop Rate'],
+  ['Lair Dro', 'Rare Drop Rate'],
+  ['輔助魔法師', '附魔師'],
+  ['服務員', '附魔師'],
+  ['向京', '項鍊'],
+  ['保護臂', '護腕'],
+  ['防護臂', '護腕'],
+  ['江湖騙子紋章', "Charlatan's Crest"],
+  ['黑天鵝樂團', 'Black Swan Band'],
+  ['Readore', 'Rare Drop Rate'],
+  ['稀有多羅', 'Rare Drop Rate'],
+  ['貓布斯', '貓巴士'],
+  ['黨員', '隊員'],
   ['當你進入城堡時', '進入地城後'],
   ['當你進入地城時', '進入地城後'],
   ['進入城堡後', '進入地城後'],
@@ -868,6 +882,183 @@ const MANUAL_TRANSLATIONS = {
   'また、Bloodlusted など危険な敵が残りそうな場合は':
     '另外，如果場上可能留下 Bloodlusted 等危險敵人，就用',
   'Stasis Field で敵を凍結させよう。': 'Stasis Field 凍結敵人。',
+  '強力なバッファーでPTに安定を寄与することができる。でも正直やってて眠くなる。':
+    '具備強力 Buff，能提升隊伍穩定度。不過老實說，玩起來很容易想睡。',
+  '殴りビルドにすると通常攻撃で火力職並のDPSを出しながらバフを回すイカレキャラになる。':
+    '做成普攻型 build 時，會變成一邊維持 Buff、一邊用普通攻擊打出火力職業等級 DPS 的怪物。',
+  '支援型は Maestro（Battle Hymn）か Dynamo（Righteous Rhapsody）を伸ばすか、思い切って全身レアドロ装備にするかとなる。殴り型は Composer / Master: バッテリーを集め、残った部位はステータス（体力＞賢さ＞知恵＝カリスマ）を集めてリソースダメージの火力を伸ばすか、レアドロを集めるかの選択。':
+    '支援型可強化 Maestro（Battle Hymn）或 Dynamo（Righteous Rhapsody），或乾脆全身改用 Rare Drop Rate 裝備。普攻型則收集 Composer / Master: Battery，剩餘部位選擇堆能力值（耐力 > 智慧 > 智力 = 魅力）來提高 Resource Damage 火力，或改堆 Rare Drop Rate。',
+  '才能ツリーは Stormcaller を集め、スキルは Tornade を集める。属性強化は 氷ダメージやアーケインダメージを中心に揃えよう。もし Ashenflow Peak 前半の周回を想定するならヒューマノイド装備を意識しよう。':
+    '天賦樹加成以 Stormcaller 為主，技能加成收集 Tornado。屬性強化以冰冷 Damage 與 Arcane Damage 為主；如果想周回 Ashenflow Peak 前半，也要留意對 Humanoid 裝備。',
+  "肩はエクセプショナルセットの Starcaller's Aurora も悪くなく、50布紫の Attuned Shawl of the Forsaken もアンデッド強化+7%がついており優秀。肩・太腿・指輪あたりでテンプラーセットの Jibekn を採用すれば2セットで氷ダメージ・3セットで雷ダメージがつくが、耐性確保が難しくなる。":
+    "肩部方面，Exceptional Set 的 Starcaller's Aurora 不差，50 級布甲獨特 Attuned Shawl of the Forsaken 也帶有 +7% 對不死生物傷害，很優秀。若在肩部、腿甲、戒指附近採用聖殿騎士套裝 Jibekn，2 件可拿冰冷 Damage、3 件可拿 Lightning Damage，但抗性會比較難補。",
+  "腕はアンデッドダンジョン以外なら テンプラエクセプセットの Falzain Mercy に氷削減があり使える。":
+    "護腕方面，如果不是周回不死生物地城，聖殿騎士 Exceptional Set 的 Falzain's Mercy 帶有冰冷抗性降低，可以使用。",
+  "指輪は自由枠であり耐性にあてることが多い。Ubar's Fallacy も優秀なのでおすすめ。":
+    "戒指是自由欄位，多半用來補抗性。Ubar's Fallacy 也很優秀，值得推薦。",
+  'ここからタレントの Tornado を+1する必要があり、そこが壁となりやすい。':
+    '接下來需要把天賦 Tornado 再補 +1，這裡容易成為門檻。',
+  '左手の Cryptic Paragon やセットネックレスにつけば、スマートに解決できる。':
+    '如果出在左手 Cryptic Paragon 或 Set 項鍊上，就能漂亮解決。',
+  '才能ツリー Phoenix とスキル Dragon Punch を集める。次点で Hurricane Kicks や Hadoken が優秀。':
+    '天賦樹加成收集 Phoenix，技能加成收集 Dragon Punch；次要候選是 Hurricane Kicks 與 Hadoken。',
+  "頭はレアドロを優先するなら72布紫の Charlatan's Crest の炎ダメージを装備する。":
+    "頭部若優先 Rare Drop Rate，就裝備 72 級布甲獨特 Charlatan's Crest 的火焰 Damage 版本。",
+  '靴は火力を優先するなら70革紫 Gukta Hunting Boots がおすすめ。':
+    '靴子若優先火力，推薦 70 級皮甲獨特 Gukta Hunting Boots。',
+  "指輪は炎ダメージがついていれば Black Swan Band が優秀だが、所持していないなら53紫の Circle of Death などを採用。レアドロが欲しいならウォリエクセプセットの Stockade's Insignia などもいいだろう。":
+    "戒指若 Black Swan Band 帶火焰 Damage 會很優秀；沒有的話可採用 53 級獨特 Circle of Death 等。若想要 Rare Drop Rate，戰士 Exceptional Set 的 Stockade's Insignia 也不錯。",
+  'エンチャンターと組んで、Shadow Break をひたすら連打する型。':
+    '這是和附魔師組隊，專心連打 Shadow Break 的類型。',
+  まず: '首先',
+  'エンチャンターを確保しましょう。': '請先確保附魔師。',
+  'Affliction は別に弱くはないのだが、エンチャンターがいなければ使い勝手が悪いのと、パーティが強くなってくるとダメージを回収しきれない点がどうしても評価を落とす。':
+    'Affliction 並不是特別弱，但沒有附魔師時手感很差；而隊伍變強後，傷害也常常來不及完整回收，這些因素讓評價難免下降。',
+  'エクセプショナルセットの Falzain は腕を足すだけで3セット効果のレアドロ45%を獲得できる。':
+    'Exceptional Set 的 Falzain 只要加上護腕，就能取得 3 件效果的 45% Rare Drop Rate。',
+  '背中は各エリートセットがどれも優秀で、ダメージ・耐性・レアドロ・クリティカルの観点から好きに選ぶ。':
+    '背部方面，各 Elite Set 都很優秀，可依 Damage、抗性、Rare Drop Rate、暴擊等需求自由選擇。',
+  'Superior Venom Bolt と Superior Panic Strike は回数増加の19調整にしてある。':
+    'Superior Venom Bolt 與 Superior Panic Strike 都調整到 Rank 19，取得攻擊次數增加。',
+  'Engulfing Darkness のポイントは他に割り振ってもよく、Superior Venom Bolt の29を踏めそうなら、Venom Bolt に軸を置いてもいいだろう。また Panic Strike のポイントも自由枠。':
+    'Engulfing Darkness 的點數也可以分配到其他地方；如果看起來能把 Superior Venom Bolt 撐到 29，也可以改以 Venom Bolt 為核心。另外 Panic Strike 的點數也是自由欄位。',
+  '才能ツリーは Plaguebearer を集め、スキルは Venom Bolt や Engulfing Darkness を集める。':
+    '天賦樹加成收集 Plaguebearer，技能加成收集 Venom Bolt 與 Engulfing Darkness。',
+  PTにエンチャンターがいるなら: '如果隊伍裡有附魔師，',
+  'Explosive Plague や': 'Explosive Plague 和',
+  'Curse of Shadows の使い勝手がいいのでばらまくといい。その後はそこに':
+    'Curse of Shadows 會很好用，可以先鋪開；之後對那些敵人',
+  'Venom Bolt を連打する。': '連打 Venom Bolt。',
+  'Yizeren セットは両手武器が弱すぎるため、フルセット効果である全才能+3を手放す必要がある。':
+    'Yizeren Set 的雙手武器太弱，因此需要放棄 Full Set 效果的 +3 所有天賦。',
+  'そのうえで Superior Lightning Bolt や Mastery: 破壊のランクを満たさねばならず、主に Cryptic Paragon やネックレス・指輪で+4を集める。なお Yizeren 5セットのレアドロ65が強いので、これ以上崩すことは少ない。':
+    '在這個前提下，還必須滿足 Superior Lightning Bolt 與 Mastery: Destruction 的 Rank，主要靠 Cryptic Paragon、項鍊與戒指湊 +4。另外 Yizeren 5 件的 65 Rare Drop Rate 很強，所以很少再拆更多部位。',
+  '雷型は火力が高いが、テンプラー依存度が非常に高い。そのため火力を出す環境が作りにくい。':
+    'Lightning 型火力很高，但非常依賴聖殿騎士，因此不容易穩定打造出輸出環境。',
+  '雷中心のツリーであり、高DPSである Lightning Bolt を保有する。':
+    '這是以 Lightning 為核心的天賦樹，擁有高 DPS 的 Lightning Bolt。',
+  'Superior Lightning Bolt のボーナスヒット増加はランク19/29であり、ランク29を達成するまでは火力が低い。':
+    'Superior Lightning Bolt 的 bonus hit 增加門檻是 Rank 19 / 29；在達到 Rank 29 前火力偏低。',
+  'Mastery: オーバードライブは強化全属性を持つほか、効果: Lightning Bolt のクールタイムに影響を与える。':
+    'Mastery: Overdrive 除了提供強化全屬性，也會影響效果：Lightning Bolt 的冷卻時間。',
+  ＯＤランク: 'Overdrive Rank',
+  '順当に装備を集めたうえでM振りするとランクは23となる。この状態でも十分に強くはあるが、Superior Lightning Bolt のブーストが十分であり、かつ装備部位に余裕があれば+1で最速の1.5秒となる。':
+    '正常收集裝備並把 Mastery 點滿後，Rank 會到 23。這個狀態已經足夠強，但如果 Superior Lightning Bolt 加成足夠、裝備部位也有餘裕，再補 +1 就能達到最快的 1.5 秒。',
+  'クールタイム1.5以降は効果のグローバルクールタイム1.5に引っかかるため、それ以上縮むことはない。':
+    '冷卻時間到 1.5 秒後會卡到效果本身的 1.5 秒 global cooldown，因此無法再縮短。',
+  'その状態でクールタイムと同じ（もしくは遅い）スピードの武器を装備し、毎振り Lightning Bolt を発動させる。':
+    '在這個狀態下，裝備速度等於或慢於冷卻時間的武器，讓每次揮擊都觸發 Lightning Bolt。',
+  '炎中心のツリーであり、範囲ダメージに優れる。':
+    '這是以火焰為核心的天賦樹，範圍傷害很優秀。',
+  'サブツリーを Pyromancer ではなく Ice Mage にして Deep Freeze を厚めに取得するのも選択肢。火力は落ちるが、凍結による安定感が増す。ソロ時やパーティが弱い時に有効。':
+    '副天賦樹不選 Pyromancer，改選 Ice Mage 並多投入 Deep Freeze 也是選項。火力會下降，但凍結帶來的穩定度會提高，單刷或隊伍偏弱時有效。',
+  '炎型は範囲ダメージが主力なため、敵の多い序盤こそ高いDPSを誇るが、敵が少なくなってきた終盤には萎む。':
+    '火焰型以範圍傷害為主，因此敵人多的戰鬥前段 DPS 很高；但到了敵人變少的後段，火力會下滑。',
+  'そのため雷型ほどDPSが安定せず、火力面ではいくらか劣る。ただ雷型と違ってテンプラー依存度は低めで、代わりにヒット率を高める攻撃能力バフを持ったローグやレンジャー依存度が高め。':
+    '因此它的 DPS 不像 Lightning 型那麼穩定，火力也略遜一點。不過和 Lightning 型不同，它對聖殿騎士的依賴較低，反而比較依賴能提高命中率、提供 Attack Rating Buff 的盜賊或遊俠。',
+  '炎型は Mastery: 破壊で獲得できる、効果: Meteor を短い間隔で何度も発動することを目的とする。':
+    '火焰型的目標，是透過 Mastery: Destruction 取得效果：Meteor，並以短間隔反覆觸發。',
+  破壊ランク: 'Destruction Rank',
+  '破壊ランクの目標は28もしくは29であり、装備で+3～4ブースト必要になる。':
+    'Destruction Rank 的目標是 28 或 29，因此需要靠裝備補 +3～4。',
+  'その状態でクールタイムと同じ（もしくは遅い）スピードの武器を装備し、毎振り Meteor を発動させる。':
+    '在這個狀態下，裝備速度等於或慢於冷卻時間的武器，讓每次揮擊都觸發 Meteor。',
+  'Meteor に振ったポイントの余りでサブ火力の Fire Bolt と Fireballを伸ばす。':
+    '投入 Meteor 後剩下的點數，用來提高副輸出的 Fire Bolt 與 Fireball。',
+  'Superior Fire Bolt / Fireball のボーナスヒット増加は19/29。':
+    'Superior Fire Bolt / Fireball 的 bonus hit 增加門檻是 19 / 29。',
+  '雷中心のツリーであるが、炎型では Mirror Image と Mastery: オーバードライブの回収が目的。':
+    '這雖然是以 Lightning 為核心的天賦樹，但火焰型主要是為了取得 Mirror Image 與 Mastery: Overdrive。',
+  '画像では Lightning Bolt を取得しているが、別になんでもいい。':
+    '圖中有取得 Lightning Bolt，但這裡其實可以換成其他選擇。',
+  '雷型なら Chaos Mage / Lightning Bolt、炎型なら Pyromancer / Meteor を収集する。':
+    'Lightning 型收集 Chaos Mage / Lightning Bolt；火焰型收集 Pyromancer / Meteor。',
+  '右手武器は雷型であれば、雷才能+2のついた65紫 Stormslicer スピード1.5～1.7を使用。Mastery: オーバードライブのランクが23の場合は、スピード1.7のものを厳選する必要がある。':
+    '右手武器方面，Lightning 型使用帶 Lightning 天賦 +2 的 65 級獨特 Stormslicer，速度 1.5～1.7。若 Mastery: Overdrive Rank 是 23，需要嚴選速度 1.7 的版本。',
+  '炎型であれば、炎才能+2のついた 68紫 Skewer of the Forsaken スピード1.7～1.8を使用。才能ブーストが必要ないほどに余裕があるなら、64紫 Hellspike がアンデッド特攻つきのスピード1.5（1.4は×）で優秀。':
+    '火焰型則使用帶火焰天賦 +2 的 68 級獨特 Skewer of the Forsaken，速度 1.7～1.8。如果天賦加成已足夠，不需要再靠武器補，64 級獨特 Hellspike 速度 1.5 且帶不死生物特攻，也很優秀；速度 1.4 的版本不適合。',
+  'なおこれはソロ・もしくは速度バフのない状態を想定した装備であり、PTにバード（速度+20～30%）やレンジャー（+20%）がいる場合は Cryptic Paragon スピード2.3～2.6への左右持ち替え、もしくは二刀流で対応する。':
+    '這套裝備是假設單刷，或隊伍沒有速度 Buff。若隊伍裡有吟遊詩人（速度 +20～30%）或遊俠（+20%），可用左右手切換速度 2.3～2.6 的 Cryptic Paragon，或改用雙持來對應。',
+  'Alderon 4セットはレアドロ50を獲得でき、スキル強化が一致すればバランスのいい装備となる。':
+    'Alderon 4 件可取得 50 Rare Drop Rate；若技能強化也對上，會是平衡不錯的裝備。',
+  '腰は68布紫の Shadow Silk Mesh であればスキル強化を得られるがレアドロが消える。64布紫の Tresta\'s Jade Cord もタレント次第では採用の余地あり。':
+    "腰帶若使用 68 級布甲獨特 Shadow Silk Mesh，可以取得技能強化，但會失去 Rare Drop Rate。64 級布甲獨特 Tresta's Jade Cord 也可依天賦情況考慮。",
+  '太腿と靴は耐性を優先した。太腿は雷ならこのままでも強いが、炎は70布紫の Shining Metallic Leggings がある。靴については耐性を犠牲にレアドロを得られる50革紫の Trek of Glory や 65布紫の Consortium Slippers など。':
+    '腿甲與靴子優先補抗性。腿甲如果是 Lightning 型，照這套也很強；火焰型則有 70 級布甲獨特 Shining Metallic Leggings。靴子方面，可考慮用抗性換 Rare Drop Rate 的 50 級皮甲獨特 Trek of Glory，或 65 級布甲獨特 Consortium Slippers。',
+  'Mana Shell と': 'Mana Shell 和',
+  'Mirror Image をキャストする。': 'Mirror Image。',
+  'Mirror Image の属性強化はシールドが残っている間のみ適用なので、以降クールが明けるごとに使用する。':
+    'Mirror Image 的屬性強化只會在護盾仍存在時生效，因此之後每次冷卻結束都要使用。',
+  '戦闘は敵がまとまっているところに': '戰鬥時，對敵人聚集處使用',
+  'Meteor と': 'Meteor 和',
+  'Fireball を使用し、クールが明けるまで': 'Fireball，冷卻期間就',
+  'Fire Boltを連打するだけ。雷型は': '連打 Fire Bolt。Lightning 型則在',
+  'Meteor 打ったら、': '施放 Meteor 後，',
+  'Lightning Bold を連打するだけ。': '連打 Lightning Bolt。',
+  'Rampage や Bloodlusted といった危険な敵には': '對 Rampage 或 Bloodlusted 這類危險敵人，',
+  'Deep Freeze の凍結が有効。': 'Deep Freeze 的凍結很有效。',
+  '自身のヘルスが危険な状態になったら': '自身 Health 進入危險狀態時，',
+  'Frozen Barrier で回復しよう。': '用 Frozen Barrier 回復。',
+  'タンク職らしいタンク職だが現在はタンク需要が薄く、火力を出しながらついでにタンクする感じ。':
+    '這是很像 Tank 的 Tank 職業，但目前隊伍對純 Tank 的需求較低，實際上比較像一邊輸出一邊順手坦住。',
+  '両手武器の二刀流が唯一できる職であり、レジェンダリー装備の恩恵を大きく受ける。':
+    '這是唯一能雙持雙手武器的職業，因此能大幅受益於傳奇裝備。',
+  'で、クラスカラーは 茶色。': '，職業代表色是棕色。',
+  'アヌカリ、バーバリアン、ダークエルフ、ドワーフ、ノーム、ハーフエルフ、ハーフリング、ヒューマン、ネコバス、オーガ、オーク、ウッドエルフ':
+    '阿努卡里、野蠻人、黑暗精靈、矮人、侏儒、半精靈、半身人、人類、貓巴士、食人魔、獸人、木精靈',
+  'エンチャンターがいない状況を想定して Frenzy を厚めに取得しているが、安定してエンチャンターとパーティを組める状況であれば Frenzy を1まで削って、Furious Cleave に振るといいだろう。Frenzy には戦闘終了後のクソデカリジェネ効果があるので、エンチャンターの存在により持続を伸ばすメリットが皆無になるわけではない。':
+    '這個配置假設沒有附魔師，所以 Frenzy 投得比較多；如果能穩定和附魔師組隊，可以把 Frenzy 削到 1，改投 Furious Cleave。不過 Frenzy 在戰鬥結束後有非常大的再生效果，因此有附魔師時，延長持續時間也不是完全沒有價值。',
+  'Rupture : ランク10 / 15 / 23 / 31': 'Rupture：Rank 10 / 15 / 23 / 31',
+  'Whirlwind : ランク14 / 20 / 28': 'Whirlwind：Rank 14 / 20 / 28',
+  'Double Throw : ランク19 / 29': 'Double Throw：Rank 19 / 29',
+  'Furious Cleave : ランク18 / 24 / 32': 'Furious Cleave：Rank 18 / 24 / 32',
+  '装備の才能ブースト数に合わせてポイントの割り振りを調整する。':
+    '依裝備提供的天賦加成數調整點數分配。',
+  '余ったポイントは Furious Cleave や Double Throw に回そう。':
+    '多出的點數可以投入 Furious Cleave 或 Double Throw。',
+  'Mastery: タイタンには効果: Whirlwind が付属するが、M振りでもクールが9秒近くあり使い勝手が悪い。よって Whirlwind の評価は低い。Jump Strike はキーを押す価値がない。':
+    'Mastery: Titan 會附帶效果：Whirlwind；但即使點滿，冷卻時間也接近 9 秒，手感不佳。因此 Whirlwind 評價偏低，Jump Strike 也不值得手動按。',
+  自職セット驚異の0個: '本職套裝驚人的 0 件。',
+  '自職セット驚異の0個。': '本職套裝驚人的 0 件。',
+  '才能ツリーは Goliath を中心に集め、スキルは Rupture や Furious Cleave、Double Throw を収集。':
+    '天賦樹加成以 Goliath 為主，技能加成則收集 Rupture、Furious Cleave 與 Double Throw。',
+  '右手に Korelian Adamantite Maul を採用しているうちはソケットに Gra ルーンを1個つけると快適になる。':
+    '右手使用 Korelian Adamantite Maul 期間，在 Socket 裡鑲 1 顆 Gra 符文會比較順。',
+  'レジェンダリー武器には最初からヒット時マナ回復がついていることが多いため、レジェンダリーに移行できれば必要なくなることが多い。またレジェンダリーに移行できないうちはレアドロが低くなりやすい。':
+    '傳奇武器通常一開始就帶有命中時 Mana 回復，因此能換成傳奇武器後，多半不再需要 Gra 符文。另一方面，在還不能換傳奇武器的階段，Rare Drop Rate 往往也容易偏低。',
+  '頭はシャドウナイトセットの Spinalzz\'s Vigil も優秀であり、Rupture 強化などがつかないうちはそちらでいい。':
+    "頭部也可以用暗影騎士套裝的 Spinalzz's Vigil；在沒有拿到 Rupture 強化等詞綴前，用它就很好。",
+  '胴体はレジェンダリーとなるが Olivia\'s Chains of Fealty がノーマルであるにも関わらず非常に強い。':
+    "胴體雖然是傳奇裝備欄位，但普通（Normal）的 Olivia's Chains of Fealty 非常強。",
+  '手は Rule of the Tyrant が繋ぎとして優秀なので、こちらも同時に探すといいだろう。':
+    '手套方面，Rule of the Tyrant 作為過渡裝很優秀，可以一起找。',
+  'Daahoud セット は3セットでレアドロ30%と攻撃能力125を獲得できる優秀な（モンク）セット。':
+    'Daahoud 套裝是很優秀的武僧套裝，3 件效果可提供 30% Rare Drop Rate 與 125 Attack Rating。',
+  '火力特化の場合は Behemoth Mantle や Deathly Usher\'s Bracers といった筋力装備が勝ると思うが、ユニーク武器採用時はレアドロが低くなりがちなので、別の部位で少しでも盛っておきたい。':
+    "如果追求火力特化，Behemoth Mantle 或 Deathly Usher's Bracers 這類力量裝應該更強；但採用獨特武器時 Rare Drop Rate 容易偏低，所以希望在其他部位盡量補一點。",
+  '弓は Demetrium\'s Ballista の6ソケットが非常に強く、才能を稼ぎたい場合は Stormcaller Bow も有用だろう。':
+    "弓方面，Demetrium's Ballista 的 6 Socket 非常強；如果想補天賦，Stormcaller Bow 也很有用。",
+  'ネックレスはすべての才能+2がついたレアを採用、筋力（最大50）やパッシブやクリティカルがあるとなおよい。':
+    '項鍊採用帶有 +2 所有天賦的稀有（Rare）項鍊；如果同時有力量（最高 50）、Passive 或暴擊會更好。',
+  '指輪は筋力装備である Circle of Death がやや優勢だが、別に同じものを両方つけても構わない。エクセプセットである Stockade\'s Insignia に主要スキルの強化がつけば、少しの火力と引き換えにレアドロのバランスがよくなる。':
+    "戒指方面，力量裝 Circle of Death 略占優勢，但兩顆都戴同一種也沒問題。如果 Exceptional Set 的 Stockade's Insignia 有主力技能強化，就能用少量火力換取更好的 Rare Drop Rate 平衡。",
+  戦闘に入る前に: '戰鬥前先施放',
+  'Frenzy と': 'Frenzy、',
+  'Bulwark と': 'Bulwark、',
+  'Intrepid Shout をキャストする。': 'Intrepid Shout。',
+  PTに: '隊伍中如果有',
+  エンチャンターがいるなら: '附魔師，',
+  'Frenzy は必要ない。': 'Frenzy 就不需要。',
+  'Rupture を連打するのが基本で、': '基本上連打 Rupture；',
+  'Rupture の出血を入れて物理ダメージボーナスを発生させてから、':
+    '先上 Rupture 的出血，觸發物理傷害加成後，',
+  'Furious Cleave や': '再用 Furious Cleave 或',
+  'Double Throw で攻撃する。': 'Double Throw 攻擊。',
+  'Double Throw は後列の敵に80%のダメージボーナスがあり、前列を殲滅した後でも後列ボーナスは維持される。':
+    'Double Throw 對後排敵人有 80% 傷害加成；即使前排已被殲滅，後排加成仍會維持。',
+  'Whirlwind は': 'Whirlwind 的傷害',
+  'Rupture 以下のダメージなので手動で押す必要はなく、自動発動にのみ任せる。':
+    '不如 Rupture，所以不需要手動按，交給自動觸發即可。',
   '対アンデッドに強力なダメージを叩き出し、回復や防御系バフもこなせるクラス。':
     '能對不死生物打出強力傷害，同時也能負責治療與防禦系 Buff 的職業。',
   'なんかもうこのゲームにヒーラーの概念なくて、こいつDPSでしょ感ある。ソロ性能も高い。':

@@ -6,14 +6,14 @@ sourcePages:
     title: "各職の厳選ユニーク | Nevergrind Online 攻略DB"
     url: "https://atelier3.web.fc2.com/ngo/selectlist2.html"
     lastModified: "Sun, 08 Jun 2025 10:52:22 GMT"
-reviewedAt: "2026-05-08"
+reviewedAt: "2026-05-09"
 sourceLastModified: "Sun, 08 Jun 2025 10:52:22 GMT"
 status: "FC2 原站高保真繁中化"
 ---
 
 本頁由 FC2 / atelier3 原站 HTML 重新擷取後繁中化，保留原頁段落、清單、表格欄位與數值；FC2 內容圖片已本地鏡像，CSS、JavaScript 與追蹤圖不搬入公開站。
 
-- 檢視日期：`2026-05-08`
+- 檢視日期：`2026-05-09`
 - FC2 來源頁數：1
 - 翻譯策略：職業、屬性、難度、天賦與符文採中文優先；英文 item / skill / boss / map 查詢詞按需保留。
 - 內容狀態：由 FC2 原站正文生成，不使用舊版摘要句。
@@ -49,7 +49,7 @@ status: "FC2 原站高保真繁中化"
 
 （不過，確實，即使賣了也很容易拿回錢。）
 
-頁面連接：武器/防具/配件
+內頁索引：武器/盔甲/配件
 
 <a id="fc2-selectlist2-hdr1"></a>
 
@@ -68,7 +68,7 @@ status: "FC2 原站高保真繁中化"
 |![bows7.png](/fc2-assets/ngo/img/bows7.png)Stormcaller Bow Long War Bow [弓術]|39|十字軍 他|插槽最大 4。這是一把天賦+1 的弓，在天賦再增加 1 時，可以使用的次數就會增加的情況下非常有用。|
 |![bows5.png](/fc2-assets/ngo/img/bows5.png)Demetrium's Ballista Battle Bow [弓術]|29|弓術職業|Socket最大6。雖然它不是一個特殊的項目，而是一個套裝，但我將它包括在內，因為它非常重要。一把好用的弓，可以在所有可以裝備弓的職業中使用。|
 |![charms0.png](/fc2-assets/ngo/img/charms0.png)Fallen Construct Charm [副手]|62|武僧|攻擊等級最高100，插槽最高5。武僧不能裝備弓，只能透過符咒來增強火力。|
-|![charms1.png](/fc2-assets/ngo/img/charms1.png)Arctic Orb Charm [副手]|62|德魯伊|冰冷傷害高達 12%，Readore 高達 16。我絕對想保留龍捲風附件。雖然較少被採用，但聖殿騎士的冰凍寶珠附件也被保留。薩滿類型是一種嗜好。|
+|![charms1.png](/fc2-assets/ngo/img/charms1.png)Arctic Orb Charm [副手]|62|德魯伊|冰冷傷害高達 12%，Rare Drop Rate 高達 16。我絕對想保留龍捲風附件。雖然較少被採用，但聖殿騎士的冰凍寶珠附件也被保留。薩滿類型是一種嗜好。|
 
 <a id="fc2-selectlist2-hdr2"></a>
 
@@ -86,11 +86,11 @@ status: "FC2 原站高保真繁中化"
 |![helms8.png](/fc2-assets/ngo/img/helms8.png)Hebron's Coif Lanfeld Cowl [頭部] [皮甲製]|67|德魯伊|天賦是 Stormcaller、隨機天賦是 Tornado，合計 3 以上。若沒有高度契合，通常只是 Shako 的下位替代；但當攻擊次數怎麼都不夠時可以採用。聖殿騎士 Elementalist + Frozen Orb 也可能有趣。|
 |![helms13.png](/fc2-assets/ngo/img/helms13.png)Uncle Herschel's Visage Shungite Helm [頭部] [板甲]|67|戰士|擁有天賦能力+2，能力最大55。保留戰士的主要技能強化補充，例如破裂。|
 |![chests8.png](/fc2-assets/ngo/img/chests8.png)Marionette's Vestment Cryptic Vestment [胴體] [布甲製]|68|巫師|僅限隨機天賦為 Superior Lightning Bolt +3。巫師的 Elite Set 很優秀，但如果要雙持 Haniwa，常會因為天賦等級不夠而採用。其他布甲職業的特化配置也可能有用途。|
-|![chests9.png](/fc2-assets/ngo/img/chests9.png)Erghal's Panoply Shroud Abstruse Shroud [胴體] [布甲製]|70|附魔師 他|有助於獲得抵抗力的胸甲。收集所有機器屬性傷害 13-17% 的幀可能是個好主意。推薦奧術和仙登，因為它們對魔法師特別有效。|
+|![chests9.png](/fc2-assets/ngo/img/chests9.png)Erghal's Panoply Shroud Abstruse Shroud [胴體] [布甲製]|70|附魔師 他|獲得抵抗力的有用軀幹。收集所有機械傷害 13-17% 的幀可能是個好主意。推薦奧術和仙登，因為它們對魔法師特別有效。|
 |![chests11.png](/fc2-assets/ngo/img/chests11.png)Courtier's Trunk Goliath Husk [胴體] [皮甲製]|71|武僧 聖殿騎士|天賦+3是前提，如果你有有用的技能就更好了。如果你是戰士武僧，鳳凰或獵鷹是不錯的天賦，如果你是聖殿騎士，元素使或幻像是不錯的天賦。如果構圖好，甚至+2也能成為連結。|
-|![chests2.png](/fc2-assets/ngo/img/chests2.png)Fallen Angel Diamond Mail [胴體] [皮甲製]|65|盜賊|降低火力和抵抗力的胸甲，用於高達 50% 的閱讀量。如果你擁有有用的技能，那麼僱用就會更容易。|
+|![chests2.png](/fc2-assets/ngo/img/chests2.png)Fallen Angel Diamond Mail [胴體] [皮甲製]|65|盜賊|降低火力和抵抗力的軀幹，最多可用於Rare Drop Rate 50%的目的。如果你擁有有用的技能，那麼僱用就會更容易。|
 |![chests13.png](/fc2-assets/ngo/img/chests13.png)Hellmourn Flesh Balrog Skin [胴體] [皮甲製]|73|盜賊|由於我們以能力為目的進行招聘，因此越接近最大值 30 越好。我還想要閃擊和背刺增強。萊多羅去世。|
-|![chests15.png](/fc2-assets/ngo/img/chests15.png)Gwendolyn's Might Sacred Armor [胴體] [皮甲製]|75|戰士 十字軍 SK|瞄準最多 25% 的雷德羅和最多 10% 的亡靈的胸甲。戰士和SK的目標是最大力量40，十字軍的目標是最大16%奧術。|
+|![chests15.png](/fc2-assets/ngo/img/chests15.png)Gwendolyn's Might Sacred Armor [胴體] [皮甲製]|75|戰士 十字軍 SK|瞄準最多 25% 的Rare Drop Rate和最多 10% 的亡靈的軀幹。戰士和SK的目標是最大力量40，十字軍的目標是最大16%奧術。|
 |![shoulders3.png](/fc2-assets/ngo/img/shoulders3.png)Attuned Shawl of the Forsaken Damask Shawl [肩部] [布甲製]|50|魔法職業|不死族高達7%。尤其是保留布甲職業的主要技能。很容易被錄用，因為肩膀不是很強壯。|
 |![bracers2.png](/fc2-assets/ngo/img/bracers2.png)Armbands of the Crypt Fenwoven Bindings [護腕] [布甲製]|67|魔法職業|Reado 高達 10%，Undead 高達 6%。尤其是保留布甲職業的主要技能。很容易被錄用，因為它沒有很強的防護裝備。|
 |![gloves10.png](/fc2-assets/ngo/img/gloves10.png)Adendu's Echelon Gauntlets Poplar Gauntlets [手套] [鎖甲]|52|遊俠|選擇的是下面的收穫絞殺者。我推薦Outrider，它只有+1天賦，而且是個隨心所欲的人。精心挑選，力量最大為24，攻擊等級為75，最高為35。|
@@ -104,7 +104,7 @@ status: "FC2 原站高保真繁中化"
 |![belts15.png](/fc2-assets/ngo/img/belts15.png)Hulking Storm Belt Shungite Girdle [腰帶] [板甲]|73|戰士|最大威力為50。技能強化與主技能的匹配尤為重要。|
 |![legs7.png](/fc2-assets/ngo/img/legs7.png)Rheinhart's Leggings Hipposkin Leggings [腿甲] [皮甲製]|70|武僧|技能中帶有龍拳或颶風踢的物品是最好的物品，同時目標能力最大為48。|
 |![legs13.png](/fc2-assets/ngo/img/legs13.png)Dwarven Zeal Legplates Zealot Legplates [腿甲] [板甲]|68|十字軍|不死族高達7%。物理職業很難施展，因為亡靈特攻效果較弱。甚至牧師也可以被雇用，儘管他們的級別要低一級。我用一個盒子贏得了祝福悍馬。|
-|![boots7.png](/fc2-assets/ngo/img/boots7.png)Trek of Glory Viperskin Boots [靴子] [皮甲製]|50|多數|你可以獲得最多 50% 的 Readore 和最多 10% 的 Reindori。無論如何，就業機會很多，所以有多少並不重要。|
+|![boots7.png](/fc2-assets/ngo/img/boots7.png)Trek of Glory Viperskin Boots [靴子] [皮甲製]|50|多數|你可以獲得最多 50% 的 Rare Drop Rate 和最多 10% 的 Reindori。無論如何，就業機會很多，所以有多少並不重要。|
 
 <a id="fc2-selectlist2-hdr3"></a>
 

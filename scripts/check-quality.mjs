@@ -94,6 +94,21 @@ const FC2_ENCHANTER_TERMINOLOGY_PATTERNS = [
   /\bEnthral\b|Senkou|身體活動|靜止力場凍結你的敵人/,
 ];
 
+const FC2_WARRIOR_TERMINOLOGY_PATTERNS = [
+  /坦克工作|飛行斗篷|輔助魔法師|服務員|狂亂|瘋狂|破裂|旋風斬|雙擲|狂暴順劈/,
+  /Mastery：泰坦|M擲骰|跳躍攻擊不值得按鍵|自然之樹|歌利亞|右邊斗篷|科雷利亞精金槌/,
+  /格拉標誌|稀有抽籤|Spinalzz的Vigil|奧莉薇亞的忠誠之鍊|暴君法則|德米特里姆的弩砲/,
+  /向京|佔有天賦|指揮手指|例外設定|柵欄徽章|雷德羅|死亡之環是一種強力武器/,
+  /基本上，反覆擊中|添加破裂|狂怒劈砍|由於傷害低於破裂/,
+];
+
+const FC2_CLASS_BUILD_INDEX_TERMINOLOGY_PATTERNS = [
+  /拳打造型|瘋狂的角色|真正的無人機設備|輔助魔法師|服務員/,
+  /雷德羅|稀有抽籤|Lair Dro|向京|分散斗篷|附身天賦/,
+  /防護臂|保護臂|亡靈土堡|法爾贊(?:·天使)?|江湖騙子紋章|黑天鵝樂團/,
+  /毒液箭|高級閃電和Mastery|Mastery：毀滅|突擊等角度/,
+];
+
 const FC2_RECIPE_TERMINOLOGY_PATTERNS = [
   /(?:^|\n)## 食譜/,
   /掉落天賦|所有技能|法術強度魔法|投擲者技能強化|飛衣斬|飛喉斬|斗篷斬擊/,
@@ -310,6 +325,12 @@ for (const doc of docs) {
     }
 
     if (docName === 'fc2-class-build-index.md') {
+      for (const pattern of FC2_CLASS_BUILD_INDEX_TERMINOLOGY_PATTERNS) {
+        if (pattern.test(qualityContent)) {
+          problems.push(`${doc} still contains FC2 class-build terminology drift matching ${pattern}.`);
+        }
+      }
+
       const crusaderContent = sectionBetween(
         qualityContent,
         '<a id="fc2-crusader"></a>',
@@ -329,6 +350,17 @@ for (const doc of docs) {
       for (const pattern of FC2_ENCHANTER_TERMINOLOGY_PATTERNS) {
         if (pattern.test(enchanterContent)) {
           problems.push(`${doc} still contains FC2 Enchanter terminology drift matching ${pattern}.`);
+        }
+      }
+
+      const warriorContent = sectionBetween(
+        qualityContent,
+        '<a id="fc2-warrior"></a>',
+        '<a id="fc2-wizard"></a>',
+      );
+      for (const pattern of FC2_WARRIOR_TERMINOLOGY_PATTERNS) {
+        if (pattern.test(warriorContent)) {
+          problems.push(`${doc} still contains FC2 Warrior terminology drift matching ${pattern}.`);
         }
       }
     }
