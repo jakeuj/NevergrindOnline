@@ -116,6 +116,21 @@ const FC2_GAMBLING_TERMINOLOGY_PATTERNS = [
   /購買 Leger|水晶海的蒼穹法杖|透特靈聯法杖/,
 ];
 
+const FC2_CHART_TERMINOLOGY_PATTERNS = [
+  /吟游诗人|总抵抗力|大大增加生命值|请注意|敌人的等级|精英装备|围绕该区域运行/,
+  /神社騎士|薩摩男|隨從法師|魔法師有增加毒素抗性/,
+  /敵方暗影騎士使用的伤害之触|伤害之触|抗流血能力/,
+  /寄生、接收設備|瞄準賭博領域的精英地位|賭博配件|有關更多信息|購買成本/,
+  /讓我們用精神來對抗元素吧/,
+  /屬性抗性降低到|元素抗性降低到/,
+];
+
+const FC2_UNIMON_TERMINOLOGY_PATTERNS = [
+  /苦工怪物|飛行員|加強地位\/抵抗力|前往城堡途中|指定角色|第一個mod|第二個和第三個是mod/,
+  /保證掉落\s*[12]\s*件或更好的魔法物品|它的名字是|這個名字是一個紅色背景/,
+  /整個過程中都會使用火焰箭|冰箭將在整個過程中使用|閃電箭將全程使用|他對一切事物都使用毒箭|抵抗力低/,
+];
+
 function contentWithoutSourceTitleRows(content) {
   return content
     .split('\n')
@@ -335,9 +350,13 @@ for (const doc of docs) {
     }
 
     if (docName === 'fc2-general-reference.md') {
-      for (const pattern of FC2_GAMBLING_TERMINOLOGY_PATTERNS) {
+      for (const pattern of [
+        ...FC2_GAMBLING_TERMINOLOGY_PATTERNS,
+        ...FC2_CHART_TERMINOLOGY_PATTERNS,
+        ...FC2_UNIMON_TERMINOLOGY_PATTERNS,
+      ]) {
         if (pattern.test(qualityContent)) {
-          problems.push(`${doc} still contains FC2 Gambling terminology drift matching ${pattern}.`);
+          problems.push(`${doc} still contains FC2 general-reference terminology drift matching ${pattern}.`);
         }
       }
     }

@@ -53,6 +53,17 @@
   vertical-align: -0.2em;
 }
 
+.sl-markdown-content img[src^="/fc2-assets/ngo/img/d/"][src$=".png"],
+.sl-markdown-content p img[src^="/fc2-assets/ngo/img/d/"][src$=".png"] {
+  display: block;
+  width: min(100%, 34rem);
+  max-width: 100%;
+  max-height: none;
+  height: auto;
+  margin: 0.75rem 0;
+  object-fit: contain;
+}
+
 .sl-markdown-content img[src^="/fc2-assets/ngo/"][src$=".jpg"],
 .sl-markdown-content img[src^="/fc2-assets/ngo/"][src$=".jpeg"] {
   display: block;
