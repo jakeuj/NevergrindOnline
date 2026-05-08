@@ -45,6 +45,7 @@ const FC2_TERMINOLOGY_PATTERNS = [
   /老闆總結/,
   /正常為|惡夢為/,
   /Normal的|Nightmare的|Nightmare中|Hell為/,
+  /In particular, Mastery|effect: skill name|written skill will be automatically activated|另一個衣缽/,
   /《惡夢》和《Hell》/,
   /普通模式下|上級和Mastery/,
   /惡夢減少|惡夢最高|Hell減少|Hell最高/,
@@ -167,6 +168,24 @@ function generalReferenceStartsWithIndex(content) {
   const indexStart = content.indexOf('<a id="fc2-index"></a>');
   const chartStart = content.indexOf('<a id="fc2-chart"></a>');
   return indexStart >= 0 && chartStart >= 0 && indexStart < chartStart;
+}
+
+function generalReferenceFollowsSidebarOrder(content) {
+  const anchors = [
+    'fc2-index',
+    'fc2-chart',
+    'fc2-faq',
+    'fc2-charamake',
+    'fc2-statuseffect',
+    'fc2-unimon',
+    'fc2-boss',
+    'fc2-english',
+    'fc2-dpscalc',
+    'fc2-loot',
+    'fc2-gambling',
+  ];
+  const positions = anchors.map((anchor) => content.indexOf(`<a id="${anchor}"></a>`));
+  return positions.every((position) => position >= 0) && positions.every((position, index) => index === 0 || positions[index - 1] < position);
 }
 
 async function markdownFiles(dir) {
@@ -338,6 +357,10 @@ for (const doc of docs) {
 
     if (docName === 'fc2-general-reference.md' && !generalReferenceStartsWithIndex(qualityContent)) {
       problems.push(`${doc} should render the FC2 source homepage index.html before chart.html.`);
+    }
+
+    if (docName === 'fc2-general-reference.md' && !generalReferenceFollowsSidebarOrder(qualityContent)) {
+      problems.push(`${doc} should render FC2 source sections in sidebar/menu order.`);
     }
   }
 

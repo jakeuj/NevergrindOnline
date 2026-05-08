@@ -14,7 +14,19 @@ const TOPIC_MAP_PATH = join(DATA_DIR, 'fc2-topic-map.json');
 const FC2_GENERATED_PREFIX = 'fc2-';
 const FC2_LINK_INDEX = 'fc2-link-index.md';
 const OUTPUT_PAGE_ORDER_OVERRIDES = {
-  'fc2-general-reference.md': ['index.html'],
+  'fc2-general-reference.md': [
+    'index.html',
+    'chart.html',
+    'faq.html',
+    'charamake.html',
+    'statuseffect.html',
+    'unimon.html',
+    'boss.html',
+    'english.html',
+    'dpscalc.html',
+    'loot.html',
+    'gambling.html',
+  ],
 };
 const TRANSLATE_ENDPOINT = 'https://translate.googleapis.com/translate_a/single';
 const TRANSLATE_DELAY_MS = 120;
@@ -30,7 +42,7 @@ const TOPIC_META = {
   },
   'fc2-general-reference.md': {
     title: 'Nevergrind Online FC2 一般攻略全量參考',
-    description: '整合 FC2 的流程、FAQ、角色建立、英文縮寫、掉寶、賭博、Boss、特殊怪物與狀態異常頁。',
+    description: '整合 FC2 首頁、流程、FAQ、角色建立、地城資料、英文縮寫、掉寶與賭博頁。',
   },
   'fc2-legendary-table.md': {
     title: 'Nevergrind Online FC2 Legendary 全量表',
@@ -90,7 +102,9 @@ const SOURCE_TERM_REPLACEMENTS = [
   ['種族ボーナス', '種族加成'],
   ['全クラス', '所有職業'],
   ['サポートクラス', '輔助職業'],
-  ['ボスまとめ', 'Boss 總表'],
+  ['ボスまとめ', '首領總表'],
+  ['キャラメイク関連', '角色建立相關'],
+  ['英語・略語など', '英文與略語'],
   ['状態異常一覧', '狀態異常一覽'],
   ['装備収集', '裝備收集'],
   ['金銭効率', '金錢效率'],
@@ -385,7 +399,8 @@ const POSTPROCESS_REPLACEMENTS = [
     '普通（Normal）為 1 個、惡夢（Nightmare）為 2 個、地獄（Hell）為 3 個。',
   ],
   ['夢魘', '惡夢（Nightmare）'],
-  ['老闆總結', 'Boss 總表'],
+  ['老闆總結', '首領總表'],
+  ['Boss 總表', '首領總表'],
   ['可選課程', '可選職業'],
   ['所有課程', '所有職業'],
   ['職業業', '職業'],
@@ -549,6 +564,20 @@ const MANUAL_TRANSLATIONS = {
     '惡夢（Nightmare）和地獄（Hell）的 Mods 數量分別增加為 2 個與 3 個，但組合內容是隨機的。',
   'ノーマルで1個、ナイトメアで2個、ヘルで3個付与される。':
     '普通（Normal）為 1 個、惡夢（Nightmare）為 2 個、地獄（Hell）為 3 個。',
+  'このあたりで一度アカデミーでタレントをリセットし、ひとつのツリーに絞ってポイントを振るといい。':
+    '到了這個階段，建議先到學院重置天賦，集中把點數投入同一條天賦樹。',
+  'ツリー内で21ポイント使用すると、Superior タレントを取得できるようになり、スキルが大きく強化される。':
+    '在同一條天賦樹投入 21 點後，就能取得 Superior 天賦，技能會獲得大幅強化。',
+  'その後、Superior タレントを伸ばしていくか、再び別ツリーに手を出していくかは好み。':
+    '之後要繼續提高 Superior 天賦，或改投資另一條天賦樹，就看你的偏好。',
+  'このあたりで再びアカデミーでタレントをリセットすることを考えてもいい。':
+    '到了這個階段，也可以考慮再次到學院重置天賦。',
+  'ツリー内で41ポイント使用すると、一番下にある Mastery を取得できるようになる。特に『効果：スキル名』と書かれている Mastery が優秀であり、通常攻撃ヒット時に表記されたスキルが自動発動するようになる。':
+    '在同一條天賦樹投入 41 點後，就能取得最下方的 Mastery。特別是寫著「效果：技能名稱」的 Mastery 很優秀，普通攻擊命中時會自動觸發標示的技能。',
+  'Act.IVでは任意のエリアを制覇した後、Galeblast Fortress（氷山）のボス Matron Maelentia を倒す必要がある。':
+    'Act IV 中，任一區域通關後，還需要擊敗 Galeblast Fortress（冰山）的 Boss Matron Maelentia。',
+  'これを倒すことで Ashenflow Peak（火山）のボス Lord Szarthax の開放条件を満たし、挑戦できるようになる。':
+    '擊敗她後，才會滿足 Ashenflow Peak（火山）Boss Lord Szarthax 的解鎖條件，並可以開始挑戰。',
   ノーマル: '普通（Normal）',
   ナイトメア: '惡夢（Nightmare）',
   ヘル: '地獄（Hell）',
@@ -556,6 +585,9 @@ const MANUAL_TRANSLATIONS = {
   クラス: '職業',
   ルーン: '符文',
   クラフト: '神話製作（Craft）',
+  ボスまとめ: '首領總表',
+  キャラメイク関連: '角色建立相關',
+  '英語・略語など': '英文與略語',
   基本: '基本',
   作成方法: '製作方法',
   素材: '素材',

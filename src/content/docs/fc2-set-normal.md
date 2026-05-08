@@ -90,14 +90,14 @@ sourcePages:
     title: "セット/Zak | Nevergrind Online 攻略DB"
     url: "https://atelier3.web.fc2.com/ngo/zak.html"
     lastModified: "Sat, 21 Jun 2025 21:58:04 GMT"
-reviewedAt: "2026-05-07"
+reviewedAt: "2026-05-08"
 sourceLastModified: "Mon, 07 Jul 2025 16:12:31 GMT"
 status: "FC2 原站高保真繁中化"
 ---
 
 本頁由 FC2 / atelier3 原站 HTML 重新擷取後繁中化，保留原頁段落、清單、表格欄位與數值；FC2 內容圖片已本地鏡像，CSS、JavaScript 與追蹤圖不搬入公開站。
 
-- 檢視日期：`2026-05-07`
+- 檢視日期：`2026-05-08`
 - FC2 來源頁數：22
 - 翻譯策略：職業、屬性、難度、天賦與符文採中文優先；英文 item / skill / boss / map 查詢詞按需保留。
 - 內容狀態：由 FC2 原站正文生成，不使用舊版摘要句。
@@ -228,12 +228,12 @@ status: "FC2 原站高保真繁中化"
 
 |名稱|Damage|Speed|DPS|需求等級|Mods|
 |---|---|---|---|---|---|
-|![bows1.png](/fc2-assets/ngo/img/bows1.png)Aradune's Vault Hunting Bow [弓術]|18-34 ～ 21-39|3.1|8.4 ～ 9.7|13|+160～200% Damage 強化 +1 全屬性 遊俠 才能 +11～15 靈巧 +7～10 智力 +10～13 暴擊 +4～6 命中時 Health 回復 +6～9 火焰 Damage 近戰 +7% 麻痺抗性 +4～6% Damage 強化 vs Beast +7～9% 鎖甲職業 Skill 強化 不滅 Socketed (2～4)|
+|![bows1.png](/fc2-assets/ngo/img/bows1.png)Aradune's Vault Hunting Bow [弓術]|18-34 ～ 21-39|3.1|8.4 ～ 9.7|13|+160～200% Damage 強化 +1 全屬性 遊俠 才能 +11～15 靈巧 +7～10 智力 +10～13 暴擊 +4～6 命中時Health 回復 +6～9 火焰 Damage 近戰 +7% 麻痺抗性 +4～6% Damage 強化 vs Beast +7～9% 鎖甲職業 Skill 強化 不滅 Socketed (2～4)|
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
-|![cloaks2.png](/fc2-assets/ngo/img/cloaks2.png)Aradune's Scroll Woven Cloak [背部] [布甲製]|3 ～ 6|14|+25 Health +4～6 火焰 Spell Power +3～5 Spirit 恢復速度 +3～5 命中時 Mana 回復 +5～8% Damage 強化 vs Humanoid +5～7% 鎖甲職業 Skill 強化|
-|![amulets0.png](/fc2-assets/ngo/img/amulets0.png)Aradune's Heart Amulet [項鍊]|0|9|+8～12 力量 +8～12 耐力 +9～14 閃電 Spell Power +1～2 攻擊 +2～4 命中時 Health 回復 +2～4 出血 Damage 近戰 +6～8% 鎖甲職業 Skill 強化|
+|![cloaks2.png](/fc2-assets/ngo/img/cloaks2.png)Aradune's Scroll Woven Cloak [背部] [布甲製]|3 ～ 6|14|+25 Health +4～6 火焰 Spell Power +3～5 Spirit 恢復速度 +3～5 命中時Mana 回復 +5～8% Damage 強化 vs Humanoid +5～7% 鎖甲職業 Skill 強化|
+|![amulets0.png](/fc2-assets/ngo/img/amulets0.png)Aradune's Heart Amulet [項鍊]|0|9|+8～12 力量 +8～12 耐力 +9～14 閃電 Spell Power +1～2 攻擊 +2～4 命中時Health 回復 +2～4 出血 Damage 近戰 +6～8% 鎖甲職業 Skill 強化|
 
 <a id="fc2-bishop"></a>
 
@@ -250,13 +250,13 @@ status: "FC2 原站高保真繁中化"
 
 |名稱|Damage|Speed|DPS|需求等級|Mods|
 |---|---|---|---|---|---|
-|![twoHandSlashers3.png](/fc2-assets/ngo/img/twoHandSlashers3.png)Bishop's Justice Bastard Sword [雙手斬擊]|58-125 ～ 63-137|4.2|21.8 ～ 23.8|23|+220~250% 傷害增強 +7~9% 所有抗性 +5 風暴斗篷斬 +4~6 雙重攻擊 +7 斥力 +2~4 擊中時恢復生命值 +25~32 奧術傷害親屬 +7~9% 十字軍技能增強效果：解除不死體奧術插槽 [175+Lv*2.251+|
+|![twoHandSlashers3.png](/fc2-assets/ngo/img/twoHandSlashers3.png)Bishop's Justice Bastard Sword [雙手斬擊]|58-125 ～ 63-137|4.2|21.8 ～ 23.8|23|+220~250% 傷害增強 +7~9% 所有抗性 +5 風暴披風斬 +4~6 雙重攻擊 +7 斥力 +2~4 擊中時恢復生命值 +25~32 奧術傷害近畿 +7~9% 十字軍技能增強效果：解散不死體奧術 [175+Lv*2.25]|
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
 |![belts14.png](/fc2-assets/ngo/img/belts14.png)Bishop's Purity Monarch Belt [腰帶] [板甲]|38 ～ 45|31|+65～79% 物理防禦強化 +4～6% Arcane 抗性 +4～6% 火焰抗性 +2 Conjuration +5～8 Arcane Damage 近戰 魔法 Damage 減免 2～4 +7～10% 麻痺抗性 +5～6% 十字軍 Skill 強化|
 |![legs13.png](/fc2-assets/ngo/img/legs13.png)Bishop's Merit Iron Legplates [腿甲] [板甲]|94 ～ 115|23|+44～55% 物理防禦強化 +6～8 全能力值 +20～30 Mana +30～40 Spirit +8～12% 毒素抗性 +3～5 Mana 恢復速度 +3 Spirit 擊殺時恢復 +6～7% 十字軍 Skill 強化|
-|![rings1.png](/fc2-assets/ngo/img/rings1.png)Bishop's Faith Ring [戒指]|0|37|+1 全 Passive Skill +9～12% Arcane 抗性 +5～7 Alteration +3～5 命中時 Mana 回復 +10～12% 沉默抗性 +4～5% 十字軍 Skill 強化|
+|![rings1.png](/fc2-assets/ngo/img/rings1.png)Bishop's Faith Ring [戒指]|0|37|+1 全 Passive Skill +9～12% Arcane 抗性 +5～7 Alteration +3～5 命中時Mana 回復 +10～12% 沉默抗性 +4～5% 十字軍 Skill 強化|
 
 <a id="fc2-chancellor"></a>
 
@@ -299,7 +299,7 @@ status: "FC2 原站高保真繁中化"
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
-|![gloves10.png](/fc2-assets/ngo/img/gloves10.png)Demetrium's Agony Kusari Gauntlets [手套] [鎖甲]|65 ～ 76|28|+75～90% 物理防禦強化 +15～20 靈巧 +12～16 暴擊 +3 Mana 恢復速度 +2～4 命中時 Health 回復 +2～4 命中時 Mana 回復 +6～9 毒素 Damage 近戰 +7～9% 鎖甲職業 Skill 強化|
+|![gloves10.png](/fc2-assets/ngo/img/gloves10.png)Demetrium's Agony Kusari Gauntlets [手套] [鎖甲]|65 ～ 76|28|+75～90% 物理防禦強化 +15～20 靈巧 +12～16 暴擊 +3 Mana 恢復速度 +2～4 命中時Health 回復 +2～4 命中時Mana 回復 +6～9 毒素 Damage 近戰 +7～9% 鎖甲職業 Skill 強化|
 |![boots9.png](/fc2-assets/ngo/img/boots9.png)Demetrium's Stride Scaled Boots [靴子] [鎖甲]|43 ～ 55|23|+85～110% 物理防禦強化 +12 敏捷 +9 智慧 +25 Health +7% 出血抗性 +7% 冰冷抗性 +1～2 攻擊 +7% 麻痺抗性 +8～10% 鎖甲職業 Skill 強化|
 
 <a id="fc2-emissary"></a>
@@ -313,7 +313,7 @@ status: "FC2 原站高保真繁中化"
 |---|---|
 |2套|+40 魅力|
 |3套|+10% 全屬性抗性|
-|4套|+5% 全屬性 Spell Damage +75 Mana +1 全屬性 吟遊詩人 才能|
+|4套|+5% 所有法術傷害 +75 法力 +1 所有吟遊詩人天賦|
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
@@ -331,23 +331,23 @@ status: "FC2 原站高保真繁中化"
 
 |套數|效果|
 |---|---|
-|2套|+7 命中時 Health 回復|
-|3套|+7命中時 Mana 回復 +30 Mana|
+|2套|+7 命中時Health 回復|
+|3套|+7命中時Mana 回復 +30 Mana|
 |4套|+15 Spirit 擊殺時恢復 +30 Health|
 |5套|+5% 最大 Mana +30 Spirit|
 |6套|+10% 最大 Health|
 
 |名稱|Damage|Speed|DPS|需求等級|Mods|
 |---|---|---|---|---|---|
-|![oneHandBlunts5.png](/fc2-assets/ngo/img/oneHandBlunts5.png)Furor's Decree Scepter [單手鈍器]|24-106 ～ 28-120|3.4|19.1 ～ 21.8|29|+120～150% Damage 強化 +1 所有天賦 +12～20 魅力 +20～25 Attack Rating +2～3 命中時 Health 回復 +4～5 命中時 Mana 回復 +8～11 出血 Damage 近戰 +2～3% Damage 強化 vs Humanoid +5～8% Damage 強化 vs Dragonkin +6～8% 板甲職業 Skill 強化 效果: Planar Defiler單體毒素[25+Lv*1]Damage不滅 Socketed (1～2)|
+|![oneHandBlunts5.png](/fc2-assets/ngo/img/oneHandBlunts5.png)Furor's Decree Scepter [單手鈍器]|24-106 ～ 28-120|3.4|19.1 ～ 21.8|29|+120～150% Damage 強化 +1 所有天賦 +12～20 魅力 +20～25 Attack Rating +2～3 命中時Health 回復 +4～5 命中時Mana 回復 +8～11 出血 Damage 近戰 +2～3% Damage 強化 vs Humanoid +5～8% Damage 強化 vs Dragonkin +6～8% 板甲職業 Skill 強化 效果: Planar Defiler單體毒素[25+Lv*1]Damage不滅 Socketed (1～2)|
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
 |![shields4.png](/fc2-assets/ngo/img/shields4.png)Furor's Order Gothic Shield [左手]|90 ～ 129|28|格擋率: 18% +70～95% 物理防禦強化 +1 所有天賦 +1～2 全 Passive Skill +10～13 靈巧 +13～16 智慧 +5% 全屬性抗性 物理 Damage 減免 3～5 +8～12% 恐怖抗性 +6～8% 板甲職業 Skill 強化 Socketed (1)|
 |![helms5.png](/fc2-assets/ngo/img/helms5.png)Furor's Avarice Coronet [頭部] [布甲製]|20 ～ 42|32|+95～110% 物理防禦強化 +30 Mana +15% Arcane 抗性 +8～12 Attack Rating +3～4 防禦 +6～8% 板甲職業 Skill 強化 Socketed (1)|
-|![chests14.png](/fc2-assets/ngo/img/chests14.png)Furor's Bellow Gothic Plate [胴體] [板甲]|232 ～ 321|34|+90～110% 物理防禦強化 +1 所有天賦 +1 全 Passive Skill +15～20 力量 +15～20 耐力 +10 Spirit +4～6% 全屬性抗性 +7～9% 板甲職業 Skill 強化 不滅 Socketed (1)|
+|![chests14.png](/fc2-assets/ngo/img/chests14.png)Furor's Bellow Gothic Plate [胸甲] [板甲]|232 ～ 321|34|+90～110% 物理防禦強化 +1 所有天賦 +1 全 Passive Skill +15～20 力量 +15～20 耐力 +10 Spirit +4～6% 全屬性抗性 +7～9% 板甲職業 Skill 強化 不滅 Socketed (1)|
 |![shoulders15.png](/fc2-assets/ngo/img/shoulders15.png)Furor's Pardon Monarch Pauldrons [肩部] [板甲]|64 ～ 96|38|+45～60% 物理防禦強化 +10～15 耐力 +10～15 智力 +5% 出血抗性 +5% 毒素抗性 +2 Alteration +2 Evocation +5～6% 板甲職業 Skill 強化|
-|![gloves13.png](/fc2-assets/ngo/img/gloves13.png)Furor's Mandate Ornate Gauntlets [手套] [板甲]|55 ～ 70|22|+40～60% 物理防禦強化 +12～16 力量 +7～12 靈巧 +8～12 Mana +5～8 Attack Rating +2～3 命中時 Health 回復 +4～6 火焰 Damage 近戰 +5～6% 板甲職業 Skill 強化|
+|![gloves13.png](/fc2-assets/ngo/img/gloves13.png)Furor's Mandate Ornate Gauntlets [手套] [板甲]|55 ～ 70|22|+40～60% 物理防禦強化 +12～16 力量 +7～12 靈巧 +8～12 Mana +5～8 Attack Rating +2～3 命中時Health 回復 +4～6 火焰 Damage 近戰 +5～6% 板甲職業 Skill 強化|
 
 <a id="fc2-golem"></a>
 
@@ -360,15 +360,15 @@ status: "FC2 原站高保真繁中化"
 |---|---|
 |2套|魔法 Damage 減免: 7|
 |3套|+7% Damage 強化 対 Humanoid|
-|4套|+10 命中時 Health 回復 +120 物理防禦 +1 全屬性 暗影騎士 才能|
+|4套|+10 命中時Health 回復 +120 物理防禦 +1 全屬性 暗影騎士 才能|
 
 |名稱|Damage|Speed|DPS|需求等級|Mods|
 |---|---|---|---|---|---|
-|![twoHandBlunts5.png](/fc2-assets/ngo/img/twoHandBlunts5.png)Golem's Crag Sledgehammer [雙手鈍器]|77-199 ～ 81-211|4.1|33.7 ～ 35.6|29|+155~170% 傷害增強 +1~2 所有被動技能 +25~30 智慧 +25 生命值 +35 魔力 +5~8% 毒素抗性 +9~12% 閃電抗性 +10~15 奧術力量 +5~7 擊中時回復魔力 +12~17 光傷害 金凍光技能強化效果：污泥融合體內毒素 DoT 傷害 + 緩慢不朽插入 (2~4)|
+|![twoHandBlunts5.png](/fc2-assets/ngo/img/twoHandBlunts5.png)Golem's Crag Sledgehammer [雙手鈍器]|77-199 ～ 81-211|4.1|33.7 ～ 35.6|29|+155~170% 傷害增強 +1~2 所有被動技能 +25~30 智慧 +25 生命值 +35 魔力 +5~8% 毒素抗性 +9~12% 閃電抗性 +10~15 奧術力量 +5~7 擊中時恢復魔力 +12~17 傷害 金華影傷害 18%技能強化效果：污泥融合體內毒素點傷害 + 緩慢不朽插入 (2~4)|
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
-|![chests15.png](/fc2-assets/ngo/img/chests15.png)Golem's Ore Archon Plate [胴體] [板甲]|334 ～ 428|38|+99～114% 物理防禦強化 +1 全 Passive Skill +24～30 耐力 +33 Mana +20% 毒素抗性 +3～5 命中時 Health 回復 +2～4% 出血 Damage +2% Arcane Damage +7～8% 暗影騎士 Skill 強化 不滅 Socketed (1)|
+|![chests15.png](/fc2-assets/ngo/img/chests15.png)Golem's Ore Archon Plate [胸甲] [板甲]|334 ～ 428|38|+99～114% 物理防禦強化 +1 全 Passive Skill +24～30 耐力 +33 Mana +20% 毒素抗性 +3～5 命中時Health 回復 +2～4% 出血 Damage +2% Arcane Damage +7～8% 暗影騎士 Skill 強化 不滅 Socketed (1)|
 |![shoulders14.png](/fc2-assets/ngo/img/shoulders14.png)Golem's Shelf Sode [肩部] [板甲]|64 ～ 108|32|+88～104% 物理防禦強化 +21～28 Mana +15% Arcane 抗性 +3～5 雙手鈍器 +3～5 Conjuration +2～4 出血 Damage 近戰 +4～6% 暗影騎士 Skill 強化|
 |![legs14.png](/fc2-assets/ngo/img/legs14.png)Golem's Crust Mithril Legplates [腿甲] [板甲]|134 ～ 162|30|+72～86% 物理防禦強化 +2～3 全 Passive Skill +25 Health +12～20 Attack Rating +2～4 Alteration +15～20% 眩暈抗性 +9～12% 麻痺抗性 +6～7% 暗影騎士 Skill 強化|
 
@@ -410,11 +410,11 @@ status: "FC2 原站高保真繁中化"
 
 |名稱|Damage|Speed|DPS|需求等級|Mods|
 |---|---|---|---|---|---|
-|![piercers7.png](/fc2-assets/ngo/img/piercers7.png)Martyr's Shiv Stiletto [刺擊]|46-99 ～ 55-117|2.3|31.5 ～ 37.4|39|+120～160% Damage 強化 +25～30 Spirit +4～7 命中時 Health 回復 +24～32 毒素 Damage 近戰 物理 Damage 減免 3～5 魔法 Damage 減免 2～4 +7～14% 恐怖抗性 +8～10% 盜賊 Skill 強化 效果: Tainted Blood單體出血DoT DamageSocketed (1～2)|
+|![piercers7.png](/fc2-assets/ngo/img/piercers7.png)Martyr's Shiv Stiletto [刺擊]|46-99 ～ 55-117|2.3|31.5 ～ 37.4|39|+120～160% Damage 強化 +25～30 Spirit +4～7 命中時Health 回復 +24～32 毒素 Damage 近戰 物理 Damage 減免 3～5 魔法 Damage 減免 2～4 +7～14% 恐怖抗性 +8～10% 盜賊 Skill 強化 效果: Tainted Blood單體出血DotDamageSocketed (1～2)|
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
-|![bracers10.png](/fc2-assets/ngo/img/bracers10.png)Martyr's Agony Splinted Bracers [護腕] [鎖甲]|23 ～ 33|30|+65～85% 物理防禦強化 +13 靈巧 +12 Health +9 Spirit +3～4 雙持 +3 命中時 Health 回復 +10% 眩暈抗性 +4～5% 盜賊 Skill 強化|
+|![bracers10.png](/fc2-assets/ngo/img/bracers10.png)Martyr's Agony Splinted Bracers [護腕] [鎖甲]|23 ～ 33|30|+65～85% 物理防禦強化 +13 靈巧 +12 Health +9 Spirit +3～4 雙持 +3 命中時Health 回復 +10% 眩暈抗性 +4～5% 盜賊 Skill 強化|
 |![belts5.png](/fc2-assets/ngo/img/belts5.png)Martyr's Ideal Splinted Belt [腰帶] [鎖甲]|26 ～ 31|29|+35～48% 物理防禦強化 +15 力量 +12 敏捷 +14～20% 毒素抗性 +5～8% 火焰抗性 +2～4 Health 恢復速度 魔法 Damage 減免 3～5 +4～6% 盜賊 Skill 強化|
 |![legs9.png](/fc2-assets/ngo/img/legs9.png)Martyr's Destiny Chausses [腿甲] [鎖甲]|73 ～ 94|22|+55～70% 物理防禦強化 +4～6% 毒素抗性 +5～8% Arcane 抗性 +4～6% 冰冷抗性 +2～3 攻擊 +7～10 暴擊 +5～8% 恐怖抗性 +5～7 Health 擊殺時恢復 +6～9 Spirit 擊殺時恢復 +7～8% 盜賊 Skill 強化|
 
@@ -460,7 +460,7 @@ status: "FC2 原站高保真繁中化"
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
 |![bracers0.png](/fc2-assets/ngo/img/bracers0.png)Miranda's Tempest Wraps [護腕] [布甲製]|2 ～ 4|9|+50～75% 物理防禦強化 +20 Health +12 Mana +26～35% 恐怖抗性 +16～25% 沉默抗性 +4～5% 布甲製職業 Skill 強化|
-|![amulets6.png](/fc2-assets/ngo/img/amulets6.png)Miranda's Locket Amulet [項鍊]|0|17|+1 所有天賦 +1 隨機天賦 +5 智力 +5 智慧 +9～12 魅力 +3～6 Arcane Spell Power +3～5 命中時 Mana 回復 +10% 沉默抗性 +5～7% 隨機 Skill 強化|
+|![amulets6.png](/fc2-assets/ngo/img/amulets6.png)Miranda's Locket Amulet [項鍊]|0|17|+1 所有天賦 +1 隨機 天賦 +5 智力 +5 智慧 +9～12 魅力 +3～6 Arcane Spell Power +3～5 命中時Mana 回復 +10% 沉默抗性 +5～7% 隨機 Skill 強化|
 
 <a id="fc2-orator"></a>
 
@@ -524,9 +524,9 @@ status: "FC2 原站高保真繁中化"
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
-|![chests2.png](/fc2-assets/ngo/img/chests2.png)Samurai's Duty Chain Mail [胴體] [鎖甲]|46 ～ 102|14|+190～220% 物理防禦強化 +26～35 Health +15～21 Spirit +3～5% 全屬性抗性 +7～12 火焰 Spell Power +3～4 閃避 +3～4 招架 +3～4 反擊 +6～8% 遊俠 Skill 強化 Socketed (1)|
+|![chests2.png](/fc2-assets/ngo/img/chests2.png)Samurai's Duty Chain Mail [胸甲] [鎖甲]|46 ～ 102|14|+190～220% 物理防禦強化 +26～35 Health +15～21 Spirit +3～5% 全屬性抗性 +7～12 火焰 Spell Power +3～4 閃避 +3～4 招架 +3～4 反擊 +6～8% 遊俠 Skill 強化 Socketed (1)|
 |![cloaks6.png](/fc2-assets/ngo/img/cloaks6.png)Samurai's Ardor Regal Shroud [背部] [布甲製]|6 ～ 15|23|+4～6 全能力值 +12 Health +7～9% 火焰抗性 +7～9% 冰冷抗性 +15 暴擊 +10～15% 麻痺抗性 +5～6% 遊俠 Skill 強化|
-|![rings2.png](/fc2-assets/ngo/img/rings2.png)Samurai's Fidelity Ring [戒指]|0|31|+20 Mana +12～15% 閃電抗性 +12～15% 冰冷抗性 +3～5 命中時 Health 回復 +2～4 命中時 Mana 回復 +5 Spirit 擊殺時恢復 +5～6% 遊俠 Skill 強化|
+|![rings2.png](/fc2-assets/ngo/img/rings2.png)Samurai's Fidelity Ring [戒指]|0|31|+20 Mana +12～15% 閃電抗性 +12～15% 冰冷抗性 +3～5 命中時Health 回復 +2～4 命中時Mana 回復 +5 Spirit 擊殺時恢復 +5～6% 遊俠 Skill 強化|
 
 <a id="fc2-sarvida"></a>
 
@@ -547,7 +547,7 @@ status: "FC2 原站高保真繁中化"
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
 |![helms0.png](/fc2-assets/ngo/img/helms0.png)Sarvida's Shawl Hood [布甲製]|1 ～ 5|9|+22～33% 物理防禦強化 +1 全 Passive Skill +7 敏捷 +7 靈巧 +7 智慧 +12 Health +5～8% 火焰抗性 +2～4 Mana 恢復速度 +6～8% 布甲製職業 Skill 強化|
-|![gloves1.png](/fc2-assets/ngo/img/gloves1.png)Sarvida's Scorn Cloth Gloves [布甲製]|7 ～ 13|13|+45～60% 物理防禦強化 +15 Health +4～6 命中時 Mana 回復 +2～4 Spirit 受擊時 +2～3% All Spell Damage +20% 沉默抗性 +3～5% 最大 Mana +5～6% 布甲製職業 Skill 強化|
+|![gloves1.png](/fc2-assets/ngo/img/gloves1.png)Sarvida's Scorn Cloth Gloves [布甲製]|7 ～ 13|13|+45~60% 物理防禦增強 +15 生命 +4~6 擊中時恢復魔力 +2~4 精神 擊中時 +2~3% 所有法術傷害 +20% 沉默抗性 +3~5% 最大魔力 +5~6% 布甲職業技能增強|
 
 <a id="fc2-servant"></a>
 
@@ -565,7 +565,7 @@ status: "FC2 原站高保真繁中化"
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
 |![shields5.png](/fc2-assets/ngo/img/shields5.png)Servant's Faith Crown Shield [左手]|127 ～ 168|29|格擋率: 20% +90～115% 物理防禦強化 +1 牧師 天賦 +12～15% 出血抗性 +12～15% 毒素抗性 +3～5 防禦 +8% 眩暈抗性 +8～10 Mana 擊殺時恢復 +5～8 Spirit 擊殺時恢復 +9～12% Damage 強化 vs Undead +4～6% Damage 強化 vs Demon +6～8% 牧師 Skill 強化 Socketed (1)|
-|![chests7.png](/fc2-assets/ngo/img/chests7.png)Servant's Righteousness Cuirass [胴體] [板甲]|169 ～ 297|21|+160～200% 物理防禦強化 +1～2 全 Passive Skill +35～50 Health +35～50 Mana +7～10% 全屬性抗性 +12～16 Arcane Spell Power +3～5 Spirit 恢復速度 +7～8% 牧師 Skill 強化 Socketed (1)|
+|![chests7.png](/fc2-assets/ngo/img/chests7.png)Servant's Righteousness Cuirass [胸甲] [板甲]|169 ～ 297|21|+160～200% 物理防禦強化 +1～2 全 Passive Skill +35～50 Health +35～50 Mana +7～10% 全屬性抗性 +12～16 Arcane Spell Power +3～5 Spirit 恢復速度 +7～8% 牧師 Skill 強化 Socketed (1)|
 |![belts15.png](/fc2-assets/ngo/img/belts15.png)Servant's Truth Mithril Belt [腰帶] [板甲]|53 ～ 62|34|+90～105% 物理防禦強化 +1～2 全 Passive Skill +21～30 Health 物理 Damage 減免 3～5 魔法 Damage 減免 7～9 +3～5% Arcane Damage +5～6% 牧師 Skill 強化|
 |![boots12.png](/fc2-assets/ngo/img/boots12.png)Servant's Peace Steel Boots [靴子] [板甲]|60 ～ 75|14|+140～160% 物理防禦強化 +20～25 魅力 +12～16% 出血抗性 +8～12% 毒素抗性 +2 Alteration +4～7 Mana 受擊時 +12% 恐怖抗性 +5～7% 牧師 Skill 強化|
 
@@ -603,15 +603,15 @@ status: "FC2 原站高保真繁中化"
 
 |套數|效果|
 |---|---|
-|2套|+8 命中時 Mana 回復|
+|2套|+8 命中時Mana 回復|
 |3套|+75 Attack Rating|
 |4套|+25 閃電 Damage 近戰 +25 力量 +1 全屬性 武僧 才能|
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
 |![gloves5.png](/fc2-assets/ngo/img/gloves5.png)Vagabond's Survey Drakescale Gloves [手套] [皮甲製]|22 ～ 32|17|+70～90% 物理防禦強化 +16～20 力量 +12 敏捷 +2 空手 +3 閃避 +4～7 火焰 Damage 近戰 +20% 眩暈抗性 +5～6% 武僧 Skill 強化|
-|![belts3.png](/fc2-assets/ngo/img/belts3.png)Vagabond's Cinch Heavy Belt [腰帶] [皮甲製]|13 ～ 18|23|+30～50% 物理防禦強化 +13 靈巧 +15～20 Spirit +9% 火焰抗性 +3 Double Attack +3～5 命中時 Health 回復 魔法 Damage 減免 2～4 +5～7% 武僧 Skill 強化|
-|![boots4.png](/fc2-assets/ngo/img/boots4.png)Vagabond's Voyage Heavy Boots [靴子] [皮甲製]|10 ～ 16|13|+40～60% 物理防禦強化 +3～5 全能力值 +5 敏捷 +12～15 Spirit +3～5% 全屬性抗性 +2～4 命中時 Mana 回復 +9% 恐怖抗性 +6～7% 武僧 Skill 強化|
+|![belts3.png](/fc2-assets/ngo/img/belts3.png)Vagabond's Cinch Heavy Belt [腰帶] [皮甲製]|13 ～ 18|23|+30～50% 物理防禦強化 +13 靈巧 +15～20 Spirit +9% 火焰抗性 +3 Double Attack +3～5 命中時Health 回復 魔法 Damage 減免 2～4 +5～7% 武僧 Skill 強化|
+|![boots4.png](/fc2-assets/ngo/img/boots4.png)Vagabond's Voyage Heavy Boots [靴子] [皮甲製]|10 ～ 16|13|+40～60% 物理防禦強化 +3～5 全能力值 +5 敏捷 +12～15 Spirit +3～5% 全屬性抗性 +2～4 命中時Mana 回復 +9% 恐怖抗性 +6～7% 武僧 Skill 強化|
 |![rings0.png](/fc2-assets/ngo/img/rings0.png)Vagabond's Seal Ring [戒指]|0|24|+20～24 力量 +25 Health +9～12% 冰冷抗性 +5 攻擊 +2～3 空手 +2～3 招架 +6～7% 武僧 Skill 強化|
 
 <a id="fc2-vagrant"></a>
@@ -678,7 +678,7 @@ status: "FC2 原站高保真繁中化"
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
-|![shields1.png](/fc2-assets/ngo/img/shields1.png)Zak's Crest Small Shield|14 ～ 30|13|格擋率: 32% +20% 格擋率增加 +35～50% 物理防禦強化 +1 所有天賦 +1 隨機天賦 +1 全 Passive Skill +10～16 Health +10～16 Mana +10～16 Spirit +7～8% 隨機 Skill 強化 Socketed (1)|
+|![shields1.png](/fc2-assets/ngo/img/shields1.png)Zak's Crest Small Shield|14 ～ 30|13|格擋率: 32% +20% 格擋率增加 +35～50% 物理防禦強化 +1 所有天賦 +1 隨機 天賦 +1 全 Passive Skill +10～16 Health +10～16 Mana +10～16 Spirit +7～8% 隨機 Skill 強化 Socketed (1)|
 |![charms3.png](/fc2-assets/ngo/img/charms3.png)Zak's Memento Charm|0|9|+1～5% 全屬性抗性 +15% 恐怖抗性 +12% 麻痺抗性 +6～10 Spirit 擊殺時恢復 +4～5% Charm職業 Skill 強化 Socketed (1～2)|
 
 ---
