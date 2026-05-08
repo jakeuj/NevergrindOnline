@@ -47,7 +47,7 @@ npm run build
 - Do not add `/nevergrind-online/` to sidebar links, Markdown links, generated topic-map slugs, README examples, or GitHub Pages config.
 - Keep `astro.config.mjs` using `@astrojs/sitemap` with a filter that excludes legacy `/nevergrind-online/` paths from `dist/sitemap*.xml`.
 - When checking an FC2 source file, find its target with `src/data/fc2-topic-map.json`; the public section is `https://ngo.jakeuj.com/<slug>/#fc2-<source-file-stem>`, for example `chart.html` maps to `/fc2-general-reference/#fc2-chart`.
-- In `fc2-general-reference.md`, render the FC2 source homepage `index.html` before `chart.html`; keep this in `OUTPUT_PAGE_ORDER_OVERRIDES` rather than hand-moving generated Markdown.
+- In `fc2-general-reference.md`, render sections in sidebar / FC2 menu order via `OUTPUT_PAGE_ORDER_OVERRIDES`: `index.html`, `chart.html`, `faq.html`, `charamake.html`, `statuseffect.html`, `unimon.html`, `boss.html`, `english.html`, `dpscalc.html`, `loot.html`, `gambling.html`. Do not hand-move generated Markdown.
 - If changing the custom-domain route strategy, update `src/content/docs/`, `src/data/sidebar.json`, `src/data/fc2-topic-map.json`, redirect pages, sitemap filtering, README, this skill, and GitHub Actions together.
 
 ## Terminology And Content Rules
@@ -60,6 +60,7 @@ npm run build
 - Translate `Recipe / レシピ` as `配方`, never `食譜`. On FC2 `recipe.html`, use `頁內索引`, `胴體`, `單手鈍器（物理）`, `單手鈍器（魔法）`, `雙手鈍器（物理）`, and `雙手鈍器（魔法）`.
 - For FC2 `mythical.html`, translate `クラフト / Craft` as `神話製作（Craft）`; preserve UI / lookup terms such as `Socket`, `Socketed`, `Superior`, `Enchant`, and `Mythical / Mythic`; use `素體`, `要求符文`, and `符文組` in prose. Never publish drift such as `文文組`, `基體`, `請求語句`, `請求碼`, `程式碼`, `附錄`, `印記`, `魔法師的影響`, or `乙醚`.
 - For FC2 `gambling.html`, use `賭博` or `Gambling（賭博）` by context; preserve lookup terms such as `Gold`, `Charm`, `Necklace`, `Ring`, `Normal / Exceptional / Elite`, `Rare`, `Unique`, `Set`, `Legendary`, and item names. Translate `アクセサリー類` as `飾品類`, `品揃え` as `商品列表`, and `金銭効率` as `金錢效率`; never publish drift such as `符咒、頭部和戒律`, `魅力、千行和戒律`, `項宗`, `進入城堡或進入新區域`, `EL板甲斗篷`, or `購買 Leger`.
+- For FC2 `chart.html`, treat progression, route, and talent advice as high-risk prose. Preserve lookup terms such as `Superior` and `Mastery`, but translate the sentence naturally around them; never publish mixed cached translation such as `In particular, Mastery`, `effect: skill name`, or `written skill will be automatically activated`.
 - Preserve English lookup terms for item names, skill names, bosses, maps, UI labels, and source metadata when those names are needed for in-game or FC2/wiki lookup.
 - Preserve item names in English even when surrounding prose is Chinese. Prefer headings such as `Charlatan's Crest（Shako, Elite）` and `Cryptic Paragon（Haniwa, Elite）`; never publish machine mistranslations such as `螳螂蝦`, `薩科`, `埴輪`, or `江湖之冠`.
 - Do not translate English fragments inside item names even if they look like stats or ordinary words, such as `Wisdom` in `Zimri's Wisdom`; add exact item names to `MANUAL_TRANSLATIONS` or improve table-cell handling when needed.
@@ -83,6 +84,7 @@ npm run build
 - When a generated Chinese sentence is hard to understand, first inspect the original source in `.cache/fc2/pages/<file>.json` or `.cache/fc2/html/<file>.html`; do not infer only from the bad generated Chinese.
 - For short, terminology-dense system pages such as `mythical.html`, prefer full-section exact `MANUAL_TRANSLATIONS` from the source cache over piecemeal postprocessing, then pair the fix with page-specific quality gates such as `FC2_MYTHICAL_TERMINOLOGY_PATTERNS`.
 - If a source sentence needs high-fidelity phrasing, add it to `MANUAL_TRANSLATIONS` rather than relying on cached machine translation. This is especially important for route advice, farming recommendations, class evaluations, and other FC2 player judgement text.
+- If a generated paragraph unexpectedly contains English prose from the translation cache, inspect the exact Japanese source and replace the full sentence with `MANUAL_TRANSLATIONS`; then add a `check:quality` pattern for the English fragment so the cache cannot reintroduce it.
 - If `check:quality` flags terminology drift, fix the generator output or the term replacement source instead of patching only the generated Markdown.
 - When fixing a bad generated phrase or unusable imported block, add a matching `check:quality` pattern so reruns cannot reintroduce it.
 - Scope quality gates to the smallest safe surface. Use page-specific arrays such as `FC2_RECIPE_TERMINOLOGY_PATTERNS` when bad terms are only proven on one generated page; promote a pattern to global `FC2_TERMINOLOGY_PATTERNS` only after confirming it should fail every FC2 doc.
@@ -91,7 +93,7 @@ npm run build
 - When FC2 image tokens split a sentence, remember the translator handles text fragments around each image separately. Add manual translations for the fragments too, otherwise good full-sentence translations may not apply.
 - For class equipment examples where the source uses a leading portrait/equipment image with table `rowspan`, render the image above the Markdown table and keep the table columns aligned as `部位 / Lv / 名稱`. Markdown tables cannot preserve rowspans cleanly, so avoid leaving the image as the first row's table cell.
 - If an FC2 page starts with a non-clickable list that only repeats later headings, such as FAQ or class-build intro lists, skip that list in `collectTexts` and `renderPage` via `isRedundantHeadingList`; keep the actual sections and answers below it.
-- When changing generated page order, add a quality assertion such as `generalReferenceStartsWithIndex` so regenerated docs cannot drift back.
+- When changing generated page order, add quality assertions such as `generalReferenceStartsWithIndex` and `generalReferenceFollowsSidebarOrder` so regenerated docs cannot drift back.
 - Keep sidebar labels Chinese-first and concise. Do not show raw `*.html` filenames or parenthesized English in the sidebar unless the user explicitly asks; source filenames belong in `fc2-link-index`, source tables, anchors, and frontmatter.
 - Keep FC2 original-source navigation separate from user-facing supplemental guides. Use the FC2 section for source-aligned entries and the supplemental section for non-FC2 pages.
 - After route, sidebar, or topic-map changes, search for accidental public nested paths with `rg -n 'nevergrind-online/' src/content/docs src/data README.md scripts .github/workflows .agents/skills/maintain-nevergrind-docs -S`. Allow only intentional legacy redirect code, sitemap filtering, and external source URLs.
