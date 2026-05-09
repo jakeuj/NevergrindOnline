@@ -102,6 +102,13 @@ const FC2_WARRIOR_TERMINOLOGY_PATTERNS = [
   /基本上，反覆擊中|添加破裂|狂怒劈砍|由於傷害低於破裂/,
 ];
 
+const FC2_ROGUE_TERMINOLOGY_PATTERNS = [
+  /精神消耗|薩摩|浩劫軸|Mastery：(?:比刺繡|歷史)|進階閃擊|閃擊的爽度|魔法師/,
+  /右手斗篷|真正的多羅|墮落天使|巨獸斗篷|大洋的武士殿|Exepset|向鵬/,
+  /你可以使用任一指令|相同的指令|黑天鵝樂隊|背叛護符|警車|地函/,
+  /褪色打擊|狂怒崛起|開發時|吞下藥水|力量1/,
+];
+
 const FC2_CLASS_BUILD_INDEX_TERMINOLOGY_PATTERNS = [
   /拳打造型|瘋狂的角色|真正的無人機設備|輔助魔法師|服務員/,
   /雷德羅|稀有抽籤|Lair Dro|向京|分散斗篷|附身天賦/,
@@ -350,6 +357,17 @@ for (const doc of docs) {
       for (const pattern of FC2_ENCHANTER_TERMINOLOGY_PATTERNS) {
         if (pattern.test(enchanterContent)) {
           problems.push(`${doc} still contains FC2 Enchanter terminology drift matching ${pattern}.`);
+        }
+      }
+
+      const rogueContent = sectionBetween(
+        qualityContent,
+        '<a id="fc2-rogue"></a>',
+        '<a id="fc2-shadowknight"></a>',
+      );
+      for (const pattern of FC2_ROGUE_TERMINOLOGY_PATTERNS) {
+        if (pattern.test(rogueContent)) {
+          problems.push(`${doc} still contains FC2 Rogue terminology drift matching ${pattern}.`);
         }
       }
 
