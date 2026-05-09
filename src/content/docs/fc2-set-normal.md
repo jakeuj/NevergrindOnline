@@ -221,14 +221,20 @@ status: "FC2 原站高保真繁中化"
 - FC2 file：[aradune.html](https://atelier3.web.fc2.com/ngo/aradune.html)
 - 原站 Last-Modified：`Tue, 25 Mar 2025 15:28:00 GMT`
 
+### 套裝效果
+
 |套數|效果|
 |---|---|
 |2套|+35 敏捷 +100 物理防禦|
 |3套|+3 全 Passive Skill +50 Health|
 
+### 武器
+
 |名稱|Damage|Speed|DPS|需求等級|Mods|
 |---|---|---|---|---|---|
 |![bows1.png](/fc2-assets/ngo/img/bows1.png)Aradune's Vault Hunting Bow [弓術]|18-34 ～ 21-39|3.1|8.4 ～ 9.7|13|+160～200% Damage 強化 +1 全屬性 遊俠 才能 +11～15 靈巧 +7～10 智力 +10～13 暴擊 +4～6 命中時 Health 回復 +6～9 火焰 Damage 近戰 +7% 麻痺抗性 +4～6% Damage 強化 vs Beast +7～9% 鎖甲職業 Skill 強化 不滅 Socketed (2～4)|
+
+### 防具
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
@@ -242,15 +248,21 @@ status: "FC2 原站高保真繁中化"
 - FC2 file：[bishop.html](https://atelier3.web.fc2.com/ngo/bishop.html)
 - 原站 Last-Modified：`Wed, 25 Jun 2025 16:14:24 GMT`
 
+### 套裝效果
+
 |套數|效果|
 |---|---|
 |2套|+7% Damage 強化 対 Undead|
 |3套|+20 Arcane Damage 近戰|
 |4套|+12 雙手斬擊 +120 物理防禦 +1 全屬性 十字軍 才能|
 
+### 武器
+
 |名稱|Damage|Speed|DPS|需求等級|Mods|
 |---|---|---|---|---|---|
 |![twoHandSlashers3.png](/fc2-assets/ngo/img/twoHandSlashers3.png)Bishop's Justice Bastard Sword [雙手斬擊]|58-125 ～ 63-137|4.2|21.8 ～ 23.8|23|+220~250% 傷害增強 +7~9% 所有抗性 +5 風暴斗篷斬 +4~6 雙重攻擊 +7 斥力 +2~4 擊中時恢復生命值 +25~32 奧術傷害親屬 +7~9% 十字軍技能增強效果：解除不死體奧術插槽 [175+Lv*2.251+|
+
+### 防具
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
@@ -265,15 +277,21 @@ status: "FC2 原站高保真繁中化"
 - FC2 file：[chancellor.html](https://atelier3.web.fc2.com/ngo/chancellor.html)
 - 原站 Last-Modified：`Tue, 08 Oct 2024 19:32:25 GMT`
 
+### 套裝效果
+
 |套數|效果|
 |---|---|
 |2套|+10 Conjuration|
 |3套|+9% Damage 強化 対 Mystical|
 |4套|+75 Health +75 Mana +75 Spirit +1 全屬性 聖殿騎士 才能|
 
+### 武器
+
 |名稱|Damage|Speed|DPS|需求等級|Mods|
 |---|---|---|---|---|---|
 |![focus1.png](/fc2-assets/ngo/img/focus1.png)Chancellor's Bias Dark Orb [單手鈍器]|5-14|3.5|2.7|13|+125～140% Damage 強化 +55 Health +40 Mana +15 Spirit +28～38 毒素 Spell Power +37～55 閃電 Spell Power +4～6 Spirit 恢復速度 +12% 沉默抗性 +8～15 Mana 擊殺時恢復 +6～8% 聖殿騎士 Skill 強化 Socketed (1)|
+
+### 防具
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
@@ -288,14 +306,20 @@ status: "FC2 原站高保真繁中化"
 - FC2 file：[demetrium.html](https://atelier3.web.fc2.com/ngo/demetrium.html)
 - 原站 Last-Modified：`Mon, 23 Jun 2025 21:33:37 GMT`
 
+### 套裝效果
+
 |套數|效果|
 |---|---|
 |2套|+10 出血 Damage 近戰 +40 Mana|
 |3套|+2 全 Passive Skill +75 Health|
 
+### 武器
+
 |名稱|Damage|Speed|DPS|需求等級|Mods|
 |---|---|---|---|---|---|
 |![bows5.png](/fc2-assets/ngo/img/bows5.png)Demetrium's Ballista Battle Bow [副手]|65-151 ～ 70-164|3.5|30.9 ～ 33.4|29|+140～160% Damage 強化 +1～2 遊俠 天賦樹 +32～40 Mana +20～25 Attack Rating +2～3 弓術 +3～5 出血 Damage 近戰 +2～4 Arcane Damage 近戰 +3～5 火焰 Damage 近戰 +5～8% 恐怖抗性 +3～5% Damage 強化 vs Demon +10～12% 弓術職業 Skill 強化 效果: Fire Blast單體火焰[99+Lv*1]Damage不滅 Socketed (1～6)|
+
+### 防具
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
@@ -309,11 +333,15 @@ status: "FC2 原站高保真繁中化"
 - FC2 file：[emissary.html](https://atelier3.web.fc2.com/ngo/emissary.html)
 - 原站 Last-Modified：`Fri, 25 Oct 2024 20:44:10 GMT`
 
+### 套裝效果
+
 |套數|效果|
 |---|---|
 |2套|+40 魅力|
 |3套|+10% 全屬性抗性|
 |4套|+5% 全屬性 Spell Damage +75 Mana +1 全屬性 吟遊詩人 才能|
+
+### 防具
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
@@ -329,6 +357,8 @@ status: "FC2 原站高保真繁中化"
 - FC2 file：[furor.html](https://atelier3.web.fc2.com/ngo/furor.html)
 - 原站 Last-Modified：`Mon, 07 Jul 2025 16:12:31 GMT`
 
+### 套裝效果
+
 |套數|效果|
 |---|---|
 |2套|+7 命中時 Health 回復|
@@ -337,9 +367,13 @@ status: "FC2 原站高保真繁中化"
 |5套|+5% 最大 Mana +30 Spirit|
 |6套|+10% 最大 Health|
 
+### 武器
+
 |名稱|Damage|Speed|DPS|需求等級|Mods|
 |---|---|---|---|---|---|
 |![oneHandBlunts5.png](/fc2-assets/ngo/img/oneHandBlunts5.png)Furor's Decree Scepter [單手鈍器]|24-106 ～ 28-120|3.4|19.1 ～ 21.8|29|+120～150% Damage 強化 +1 所有天賦 +12～20 魅力 +20～25 Attack Rating +2～3 命中時 Health 回復 +4～5 命中時 Mana 回復 +8～11 出血 Damage 近戰 +2～3% Damage 強化 vs Humanoid +5～8% Damage 強化 vs Dragonkin +6～8% 板甲職業 Skill 強化 效果: Planar Defiler單體毒素[25+Lv*1]Damage不滅 Socketed (1～2)|
+
+### 防具
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
@@ -356,15 +390,21 @@ status: "FC2 原站高保真繁中化"
 - FC2 file：[golem.html](https://atelier3.web.fc2.com/ngo/golem.html)
 - 原站 Last-Modified：`Tue, 25 Mar 2025 15:28:01 GMT`
 
+### 套裝效果
+
 |套數|效果|
 |---|---|
 |2套|魔法 Damage 減免: 7|
 |3套|+7% Damage 強化 対 Humanoid|
 |4套|+10 命中時 Health 回復 +120 物理防禦 +1 全屬性 暗影騎士 才能|
 
+### 武器
+
 |名稱|Damage|Speed|DPS|需求等級|Mods|
 |---|---|---|---|---|---|
 |![twoHandBlunts5.png](/fc2-assets/ngo/img/twoHandBlunts5.png)Golem's Crag Sledgehammer [雙手鈍器]|77-199 ～ 81-211|4.1|33.7 ～ 35.6|29|+155~170% 傷害增強 +1~2 所有被動技能 +25~30 智慧 +25 生命值 +35 魔力 +5~8% 毒素抗性 +9~12% 閃電抗性 +10~15 奧術力量 +5~7 擊中時回復魔力 +12~17 光傷害 金凍光技能強化效果：污泥融合體內毒素 DoT 傷害 + 緩慢不朽插入 (2~4)|
+
+### 防具
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
@@ -379,15 +419,21 @@ status: "FC2 原站高保真繁中化"
 - FC2 file：[magnate.html](https://atelier3.web.fc2.com/ngo/magnate.html)
 - 原站 Last-Modified：`Mon, 23 Jun 2025 21:55:42 GMT`
 
+### 套裝效果
+
 |套數|效果|
 |---|---|
 |2套|+7 全屬性抗性|
 |3套|+12 Mana 恢復速度 +50 Mana|
 |4套|+20 全屬性 Spell Power +80 Health +1 全屬性 巫師 才能|
 
+### 武器
+
 |名稱|Damage|Speed|DPS|需求等級|Mods|
 |---|---|---|---|---|---|
 |![focus6.png](/fc2-assets/ngo/img/focus6.png)Magnate's Sapphire Emblazoned Orb [單手鈍器]|22-70 ～ 23-76|3.6|12.8 ～ 13.8|34|+95～110% Damage 強化 +30～50 Health +40～60 Mana +4～8 All Spell Power +18～24 暴擊 +2～4 Mana 恢復速度 +6～9% 巫師 Skill 強化 效果: Chilling Sapphire單體冰冷[149+Lv*1]Damage＋冷卻Socketed (1)|
+
+### 防具
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
@@ -402,15 +448,21 @@ status: "FC2 原站高保真繁中化"
 - FC2 file：[martyr.html](https://atelier3.web.fc2.com/ngo/martyr.html)
 - 原站 Last-Modified：`Tue, 08 Oct 2024 19:32:25 GMT`
 
+### 套裝效果
+
 |套數|效果|
 |---|---|
 |2套|+35 靈巧|
 |3套|+12 毒素 Damage 近戰|
 |4套|+35 暴擊 +8 恐怖抗性 +1 全屬性 盜賊 才能|
 
+### 武器
+
 |名稱|Damage|Speed|DPS|需求等級|Mods|
 |---|---|---|---|---|---|
 |![piercers7.png](/fc2-assets/ngo/img/piercers7.png)Martyr's Shiv Stiletto [刺擊]|46-99 ～ 55-117|2.3|31.5 ～ 37.4|39|+120～160% Damage 強化 +25～30 Spirit +4～7 命中時 Health 回復 +24～32 毒素 Damage 近戰 物理 Damage 減免 3～5 魔法 Damage 減免 2～4 +7～14% 恐怖抗性 +8～10% 盜賊 Skill 強化 效果: Tainted Blood單體出血DoT DamageSocketed (1～2)|
+
+### 防具
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
@@ -425,15 +477,21 @@ status: "FC2 原站高保真繁中化"
 - FC2 file：[minotaur.html](https://atelier3.web.fc2.com/ngo/minotaur.html)
 - 原站 Last-Modified：`Mon, 23 Jun 2025 21:57:30 GMT`
 
+### 套裝效果
+
 |套數|效果|
 |---|---|
 |2套|+10 防禦|
 |3套|+30% 眩暈抗性|
 |4套|物理 Damage 減免: 12 +150 物理防禦 +1 全屬性戰士 才能|
 
+### 武器
+
 |名稱|Damage|Speed|DPS|需求等級|Mods|
 |---|---|---|---|---|---|
 |![oneHandSlashers2.png](/fc2-assets/ngo/img/oneHandSlashers2.png)Minotaur's Gore Axe [單手斬擊]|15-36 ～ 17-41|2.9|8.8 ～ 10.0|18|+200～240% Damage 強化 +15～21 力量 +15% 閃電抗性 +15～21 暴擊 +12～16 閃電 Damage 近戰 +3～5% Damage 強化 vs Humanoid +6～8% 戰士 Skill 強化 效果: Gore Charge單體Arcane[40+Lv*0.5]Damage＋眩暈Socketed (1)|
+
+### 防具
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
@@ -448,14 +506,20 @@ status: "FC2 原站高保真繁中化"
 - FC2 file：[miranda.html](https://atelier3.web.fc2.com/ngo/miranda.html)
 - 原站 Last-Modified：`Fri, 21 Mar 2025 05:12:59 GMT`
 
+### 套裝效果
+
 |套數|效果|
 |---|---|
 |2套|+20 魅力 +5 Spirit 恢復速度|
 |3套|+12 沉默抗性 +50 Mana|
 
+### 武器
+
 |名稱|Damage|Speed|DPS|需求等級|Mods|
 |---|---|---|---|---|---|
 |![piercers1.png](/fc2-assets/ngo/img/piercers1.png)Miranda's Billhook Dirk [刺擊]|8-15 ～ 9-18|2.0|5.8 ～ 6.8|13|+150～200% Damage 強化 +5% 出血抗性 +5% 毒素抗性 +2～3 Mana 恢復速度 +2～4 Spirit 恢復速度 +4～7 冰冷 Damage 近戰 +3 Spirit 擊殺時恢復 +6～8% 刺擊職業 Skill 強化 Socketed (1)|
+
+### 防具
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
@@ -469,11 +533,15 @@ status: "FC2 原站高保真繁中化"
 - FC2 file：[orator.html](https://atelier3.web.fc2.com/ngo/orator.html)
 - 原站 Last-Modified：`Tue, 08 Oct 2024 19:32:25 GMT`
 
+### 套裝效果
+
 |套數|效果|
 |---|---|
 |2套|+5% Damage 強化 対 Dragonkin|
 |3套|+45 魅力|
 |4套|+10% 強化 Arcane Damage +20 Arcane 抗性 +1 全屬性 附魔師 才能|
+
+### 防具
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
@@ -489,15 +557,21 @@ status: "FC2 原站高保真繁中化"
 - FC2 file：[sage.html](https://atelier3.web.fc2.com/ngo/sage.html)
 - 原站 Last-Modified：`Sun, 13 Oct 2024 22:23:13 GMT`
 
+### 套裝效果
+
 |套數|效果|
 |---|---|
 |2套|+7 Conjuration|
 |3套|+40 冰冷 Spell Power|
 |4套|+150 Spirit +3% 最大 Health +1 全屬性 薩滿 才能|
 
+### 武器
+
 |名稱|Damage|Speed|DPS|需求等級|Mods|
 |---|---|---|---|---|---|
 |![oneHandBlunts2.png](/fc2-assets/ngo/img/oneHandBlunts2.png)Sage's Wit Flail [單手鈍器]|15-46 ～ 16-52|3.4|9.0 ～ 10.0|18|+190～225% Damage 強化 +8～10 智慧 +10～12 魅力 +15 Spirit +2～4 Mana 恢復速度 +10% 眩暈抗性 +15% 沉默抗性 +5 Mana 擊殺時恢復 +6～8% 薩滿 Skill 強化 Socketed (1)|
+
+### 防具
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
@@ -512,15 +586,21 @@ status: "FC2 原站高保真繁中化"
 - FC2 file：[samurai.html](https://atelier3.web.fc2.com/ngo/samurai.html)
 - 原站 Last-Modified：`Mon, 23 Jun 2025 21:58:23 GMT`
 
+### 套裝效果
+
 |套數|效果|
 |---|---|
 |2套|+8 火焰 Damage 近戰|
 |3套|+10 弓術 +15 智力|
 |4套|+15 攻擊 +8 冰冷 Damage 近戰 +4% Damage 強化 対 Demon +1 全屬性 遊俠 才能|
 
+### 武器
+
 |名稱|Damage|Speed|DPS|需求等級|Mods|
 |---|---|---|---|---|---|
 |![oneHandSlashers3.png](/fc2-assets/ngo/img/oneHandSlashers3.png)Samurai's Mark Claws [單手斬擊]|22-43 ～ 25-49|2.4|13.5 ～ 15.4|23|+210～250% Damage 強化 +20～25 靈巧 +5～12 閃電 Damage 近戰 +3～6 火焰 Damage 近戰 +15% 恐怖抗性 +3～5% Damage 強化 vs Demon +5～7% Damage 強化 vs Dragonkin +7～9% 遊俠 Skill 強化 效果: Ruptured Slice單體出血[75+Lv*1]DamageSocketed (1)|
+
+### 防具
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
@@ -535,14 +615,20 @@ status: "FC2 原站高保真繁中化"
 - FC2 file：[sarvida.html](https://atelier3.web.fc2.com/ngo/sarvida.html)
 - 原站 Last-Modified：`Mon, 23 Jun 2025 22:00:15 GMT`
 
+### 套裝效果
+
 |套數|效果|
 |---|---|
 |2套|+5 Evocation|
 |3套|+7 全屬性 Spell Power +30 Mana +30 Spirit|
 
+### 武器
+
 |名稱|Damage|Speed|DPS|需求等級|Mods|
 |---|---|---|---|---|---|
 |![staves4.png](/fc2-assets/ngo/img/staves4.png)Sarvida's Screed Cosmic Staff [雙手鈍器]|58-159 ～ 64-176|4.2|25.8 ～ 28.6|29|+121～145% Damage 強化 +1～2 所有天賦 +3～5 全 Passive Skill +15～88 Health +5% 全屬性抗性 +20～30 Arcane Spell Power +25～50 火焰 Spell Power +25～50 冰冷 Spell Power +70 Attack Rating +5～8% Damage 強化 vs Beast +4～6% Damage 強化 vs Undead +9～12% 布甲製職業 Skill 強化 效果: Antarctic Shell單體冰冷[112+Lv*1.5]Damage＋凍結Socketed (2)|
+
+### 防具
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
@@ -556,11 +642,15 @@ status: "FC2 原站高保真繁中化"
 - FC2 file：[servant.html](https://atelier3.web.fc2.com/ngo/servant.html)
 - 原站 Last-Modified：`Tue, 08 Oct 2024 19:32:26 GMT`
 
+### 套裝效果
+
 |套數|效果|
 |---|---|
 |2套|+25 Spirit 擊殺時恢復|
 |3套|+4 Spirit 受擊時|
 |4套|+60 Arcane Spell Power +3% 最大 Mana +1 全屬性 牧師 才能|
+
+### 防具
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
@@ -576,6 +666,8 @@ status: "FC2 原站高保真繁中化"
 - FC2 file：[tigole.html](https://atelier3.web.fc2.com/ngo/tigole.html)
 - 原站 Last-Modified：`Mon, 23 Jun 2025 22:01:23 GMT`
 
+### 套裝效果
+
 |套數|效果|
 |---|---|
 |2套|+15 耐力 +15 智力|
@@ -583,9 +675,13 @@ status: "FC2 原站高保真繁中化"
 |4套|+7% Damage 強化 対 Beast +60 Mana|
 |5套|+10 全屬性抗性 +5 全 Passive Skill|
 
+### 武器
+
 |名稱|Damage|Speed|DPS|需求等級|Mods|
 |---|---|---|---|---|---|
 |![staves1.png](/fc2-assets/ngo/img/staves1.png)Tigole's Vow Runic Staff [雙手鈍器]|18-40 ～ 20-45|4.4|6.6 ～ 7.4|14|+150～180% Damage 強化 +1～2 所有天賦 +35～50 Health +35～50 Mana +35～50 Spirit +7～10% 閃電抗性 +7～10% 火焰抗性 +7～10% 冰冷抗性 +12～20 All Spell Power +20～26 毒素 Spell Power +18～24 Attack Rating +10～15 Arcane Damage 近戰 +10～12% 皮甲製職業 Skill 強化 效果: Firebrand單體火焰[85+Lv*1.5]Damage不滅 Socketed (2～3)|
+
+### 防具
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
@@ -601,11 +697,15 @@ status: "FC2 原站高保真繁中化"
 - FC2 file：[vagabond.html](https://atelier3.web.fc2.com/ngo/vagabond.html)
 - 原站 Last-Modified：`Tue, 08 Oct 2024 19:32:25 GMT`
 
+### 套裝效果
+
 |套數|效果|
 |---|---|
 |2套|+8 命中時 Mana 回復|
 |3套|+75 Attack Rating|
 |4套|+25 閃電 Damage 近戰 +25 力量 +1 全屬性 武僧 才能|
+
+### 防具
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
@@ -621,15 +721,21 @@ status: "FC2 原站高保真繁中化"
 - FC2 file：[vagrant.html](https://atelier3.web.fc2.com/ngo/vagrant.html)
 - 原站 Last-Modified：`Mon, 14 Oct 2024 05:03:29 GMT`
 
+### 套裝效果
+
 |套數|效果|
 |---|---|
 |2套|+25 智力|
 |3套|+10 全屬性抗性|
 |4套|+5 全 Passive Skill +35 Health +1 全屬性 德魯伊 才能|
 
+### 武器
+
 |名稱|Damage|Speed|DPS|需求等級|Mods|
 |---|---|---|---|---|---|
 |![oneHandBlunts3.png](/fc2-assets/ngo/img/oneHandBlunts3.png)Vagrant's Branch Spiked Club [單手鈍器]|20-78 ～ 23-88|3.8|12.9 ～ 14.6|23|+190～225% Damage 強化 +9～12 智力 +15 智慧 +18～24 暴擊 +3～5 Spirit 恢復速度 +12～16 火焰 Damage 近戰 +3～5% 冰冷 Damage +5～7% 德魯伊 Skill 強化 Socketed (1)|
+
+### 防具
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
@@ -644,15 +750,21 @@ status: "FC2 原站高保真繁中化"
 - FC2 file：[wyvern.html](https://atelier3.web.fc2.com/ngo/wyvern.html)
 - 原站 Last-Modified：`Tue, 08 Oct 2024 19:32:25 GMT`
 
+### 套裝效果
+
 |套數|效果|
 |---|---|
 |2套|+40 智慧|
 |3套|+7% Damage 強化 対 Humanoid|
 |4套|+60 毒素 Spell Power +15 出血抗性 +1 全屬性 術士 才能|
 
+### 武器
+
 |名稱|Damage|Speed|DPS|需求等級|Mods|
 |---|---|---|---|---|---|
 |![focus4.png](/fc2-assets/ngo/img/focus4.png)Wyvern's Eye Crystal Ball [單手鈍器]|17-59 ～ 19-65|3.7|10.3 ～ 11.4|28|+144～169% Damage 強化 +20 Health +50 Mana +9～16 出血 Spell Power +28～36 毒素 Spell Power +3～5 Mana 恢復速度 +6～9 Mana 擊殺時恢復 +6～8% 術士 Skill 強化 Socketed (1)|
+
+### 防具
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
@@ -667,14 +779,20 @@ status: "FC2 原站高保真繁中化"
 - FC2 file：[zak.html](https://atelier3.web.fc2.com/ngo/zak.html)
 - 原站 Last-Modified：`Sat, 21 Jun 2025 21:58:04 GMT`
 
+### 套裝效果
+
 |套數|效果|
 |---|---|
 |2套|+30 靈巧 +15 敏捷|
 |3套|+12 Double Attack +100 Health|
 
+### 武器
+
 |名稱|Damage|Speed|DPS|需求等級|Mods|
 |---|---|---|---|---|---|
 |![oneHandSlashers1.png](/fc2-assets/ngo/img/oneHandSlashers1.png)Zak's Shade Scimitar [單手斬擊]|7-19 ～ 8-21|2.5|5.2 ～ 5.8|13|+135～160% Damage 強化 +7～10 靈巧 +5% 出血抗性 +5% Arcane 抗性 +1～2 單手斬擊 +3～5 Arcane Damage 近戰 +3～5% Damage 強化 vs Undead +2～4% Damage 強化 vs Mystical +6～8% 單手斬擊職業 Skill 強化 Socketed (1)|
+
+### 防具
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|

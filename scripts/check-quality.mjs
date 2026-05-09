@@ -116,6 +116,13 @@ const FC2_CLASS_BUILD_INDEX_TERMINOLOGY_PATTERNS = [
   /毒液箭|高級閃電和Mastery|Mastery：毀滅|突擊等角度/,
 ];
 
+const FC2_PROCYON_TERMINOLOGY_PATTERNS = [
+  /南河三號|Procyon's セット|対 Humanoid/,
+  /盜賊\s+(?:才能|天賦|天賦樹)/,
+  /吸收\s+(?:毒素|閃電|冰冷|Arcane)/,
+  /效果:Chilling Flux|Damage＋冷卻Socketed|單體冰冷\[724\+Lv\*4\]Damage/,
+];
+
 const FC2_RECIPE_TERMINOLOGY_PATTERNS = [
   /(?:^|\n)## 食譜/,
   /掉落天賦|所有技能|法術強度魔法|投擲者技能強化|飛衣斬|飛喉斬|斗篷斬擊/,
@@ -388,6 +395,22 @@ for (const doc of docs) {
         if (pattern.test(qualityContent)) {
           problems.push(`${doc} still contains FC2 recipe terminology drift matching ${pattern}.`);
         }
+      }
+    }
+
+    if (docName === 'fc2-set-elite.md') {
+      const procyonContent = sectionBetween(
+        qualityContent,
+        '<a id="fc2-procyon"></a>',
+        '<a id="fc2-sinifay"></a>',
+      );
+      for (const pattern of FC2_PROCYON_TERMINOLOGY_PATTERNS) {
+        if (pattern.test(procyonContent)) {
+          problems.push(`${doc} still contains FC2 Procyon set terminology drift matching ${pattern}.`);
+        }
+      }
+      if (!/### 套裝效果[\s\S]*### 武器[\s\S]*### 防具/.test(procyonContent)) {
+        problems.push(`${doc} should label the FC2 Procyon set tables as 套裝效果 / 武器 / 防具.`);
       }
     }
 

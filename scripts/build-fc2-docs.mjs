@@ -592,6 +592,20 @@ const MANUAL_TRANSLATIONS = {
     'Act IV 中，任一區域通關後，還需要擊敗 Galeblast Fortress（冰山）的 Boss Matron Maelentia。',
   'これを倒すことで Ashenflow Peak（火山）のボス Lord Szarthax の開放条件を満たし、挑戦できるようになる。':
     '擊敗她後，才會滿足 Ashenflow Peak（火山）Boss Lord Szarthax 的解鎖條件，並可以開始挑戰。',
+  "Procyon's セット": 'Procyon Set',
+  '+24 出血 ダメージ 近接 +16% ダメージ強化 対 ヒューマノイド':
+    '+24 出血 Damage 近戰 +16% Damage 強化 vs Humanoid',
+  '物理ダメージの軽減: 35 +3 全属性 ローグ 才能': '物理 Damage 減免: 35 +3 全屬性 盜賊天賦',
+  '+105～117% ダメージ強化 +16～20% 攻撃速度増加 +2～3 ローグ 才能ツリー +15～20 筋力 +24～30 器用 +55～68 マナ +31～40% 毒物耐性 +7～10% 吸収する 毒 +4～6 オフェンス +5～7 刺突 +7～9 ヒット時ヘルス回復 +10～13 ヒット時マナ回復 +11～15 毒 ダメージ 近接 +13～19 雷 ダメージ 近接 +16～20% 全ステータス耐性 +5～7% ダメージ強化 vs ヒューマノイド +9～13% ダメージ強化 vs ビースト +8～10% ローグ スキル強化 効果:Chilling Flux単体氷[724+Lv*4]ダメージ＋冷却ソケット付き (2)':
+    '+105～117% Damage 強化 +16～20% 攻擊速度增加 +2～3 盜賊天賦樹 +15～20 力量 +24～30 靈巧 +55～68 Mana +31～40% 毒素抗性 +7～10% 毒素吸收 +4～6 攻擊 +5～7 刺擊 +7～9 命中時 Health 回復 +10～13 命中時 Mana 回復 +11～15 毒素 Damage 近戰 +13～19 閃電 Damage 近戰 +16～20% 全能力值抗性 +5～7% Damage 強化 vs Humanoid +9～13% Damage 強化 vs Beast +8～10% 盜賊 Skill 強化 效果: Chilling Flux 單體冰冷 [724 + Lv * 4] Damage + 冷卻 Socketed (2)',
+  '+96～110% 物理防御強化 +1～2 ローグ 才能ツリー +8～12 全ステータス +21～25% アーケイン耐性 +21～25% 炎耐性 +5～7 回避 +6～8 ヒット時ヘルス回復 +9～12 ヒット時マナ回復 +21～25 毒 ダメージ 近接 +4～6 マナ 被弾時 +12～16% スタン耐性 +8～12% 恐怖耐性 +6～9% ダメージ強化 vs アンデッド +6～9% ダメージ強化 vs デーモン +7～9% ローグ スキル強化':
+    '+96～110% 物理防禦強化 +1～2 盜賊天賦樹 +8～12 全能力值 +21～25% Arcane 抗性 +21～25% 火焰抗性 +5～7 閃避 +6～8 命中時 Health 回復 +9～12 命中時 Mana 回復 +21～25 毒素 Damage 近戰 +4～6 Mana 受擊時 +12～16% 眩暈抗性 +8～12% 恐怖抗性 +6～9% Damage 強化 vs Undead +6～9% Damage 強化 vs Demon +7～9% 盜賊 Skill 強化',
+  '+110～124% 物理防御強化 +1 全属性 ローグ 才能 +2～4 全パッシブスキル +10～15 全ステータス +22～29% 雷耐性 +13～16% 炎耐性 +6～8% 物理耐性 +8～12% 吸収する 雷 魔法ダメージの軽減 9～12 +9～13% 恐怖耐性 +15～20% 麻痺耐性 +7～15% ゴールド獲得率 +13～25% レアドロップ率 +9～12% ローグ スキル強化':
+    '+110～124% 物理防禦強化 +1 全屬性 盜賊天賦 +2～4 全 Passive Skill +10～15 全能力值 +22～29% 閃電抗性 +13～16% 火焰抗性 +6～8% 物理抗性 +8～12% 閃電吸收 魔法 Damage 減免 9～12 +9～13% 恐怖抗性 +15～20% 麻痺抗性 +7～15% Gold 取得率 +13～25% Rare Drop Rate +9～12% 盜賊 Skill 強化',
+  '+107～121% 物理防御強化 +25～30 筋力 +38～44 体力 +47～53 敏捷 +21～25 器用 +20～25% 出血耐性 +12～16% アーケイン耐性 +24～32% 氷耐性 +3～5% 物理耐性 +4～7% 吸収する 氷 +6～9 回避 +9～14% スタン耐性 +13～18% 麻痺耐性 +12～16 ヘルス キル時回復 +13～16% ローグ スキル強化':
+    '+107～121% 物理防禦強化 +25～30 力量 +38～44 耐力 +47～53 敏捷 +21～25 靈巧 +20～25% 出血抗性 +12～16% Arcane 抗性 +24～32% 冰冷抗性 +3～5% 物理抗性 +4～7% 冰冷吸收 +6～9 閃避 +9～14% 眩暈抗性 +13～18% 麻痺抗性 +12～16 Health 擊殺時恢復 +13～16% 盜賊 Skill 強化',
+  '+1～2 ローグ タレント +24～30 筋力 +21～25 体力 +31～40 敏捷 +19～24% 全属性耐性 +6～8% 吸収する アーケイン +5～8 オフェンス +50～60 クリティカルヒット +8～12 出血 ダメージ 近接 +16～20% 移動速度 +5～7% ダメージ強化 vs ヒューマノイド +5～7% ダメージ強化 vs ビースト +7～9% ローグ スキル強化 (1) +5～7% ローグ スキル強化 (2) (50%)':
+    '+1～2 盜賊天賦 +24～30 力量 +21～25 耐力 +31～40 敏捷 +19～24% 全屬性抗性 +6～8% Arcane 吸收 +5～8 攻擊 +50～60 暴擊 +8～12 出血 Damage 近戰 +16～20% 移動速度 +5～7% Damage 強化 vs Humanoid +5～7% Damage 強化 vs Beast +7～9% 盜賊 Skill 強化 (1) +5～7% 盜賊 Skill 強化 (2) (50%)',
   ノーマル: '普通（Normal）',
   ナイトメア: '惡夢（Nightmare）',
   ヘル: '地獄（Hell）',
@@ -2054,6 +2068,20 @@ function renderTable(rows, translator, page, imageByUrl) {
   return renderMarkdownTable(rows, translator, page, imageByUrl);
 }
 
+function isSetDetailPage(page) {
+  return String(page.title ?? '').startsWith('セット/');
+}
+
+function setDetailTableHeading(rows, page) {
+  if (!isSetDetailPage(page) || rows.length === 0) return '';
+  const header = rows[0].map((cell) => String(cell ?? '').trim());
+  if (header[0] === 'セット数' && header[1] === '効果') return '套裝效果';
+  if (header[0] !== '名前' || !header.includes('Mods')) return '';
+  if (header.includes('ダメージ') || header.includes('スピード') || header.includes('DPS')) return '武器';
+  if (header.includes('物理防御')) return '防具';
+  return '';
+}
+
 function renderPage(page, translator, imageByUrl) {
   const lines = [
     `<a id="fc2-${fileStem(page.file)}"></a>`,
@@ -2118,7 +2146,11 @@ function renderPage(page, translator, imageByUrl) {
     }
 
     if (block.type === 'table') {
-      if (block.rows.length > 0) lines.push(renderTable(block.rows, translator, page, imageByUrl), '');
+      if (block.rows.length > 0) {
+        const tableHeading = setDetailTableHeading(block.rows, page);
+        if (tableHeading) lines.push(`### ${tableHeading}`, '');
+        lines.push(renderTable(block.rows, translator, page, imageByUrl), '');
+      }
     }
   }
 

@@ -102,6 +102,8 @@ status: "FC2 原站高保真繁中化"
 - FC2 file：[daahoud.html](https://atelier3.web.fc2.com/ngo/daahoud.html)
 - 原站 Last-Modified：`Fri, 06 Jun 2025 02:48:07 GMT`
 
+### 套裝效果
+
 |套數|效果|
 |---|---|
 |2套|+15 招架|
@@ -110,9 +112,13 @@ status: "FC2 原站高保真繁中化"
 |5套|+15 吸收 火焰 +95 暴擊|
 |6套|+65 火焰 Damage 近戰 +3 全屬性 武僧 才能|
 
+### 武器
+
 |名稱|Damage|Speed|DPS|需求等級|Mods|
 |---|---|---|---|---|---|
 |![twoHandBlunts6.png](/fc2-assets/ngo/img/twoHandBlunts6.png)Daahoud's Tranquil Staff Tartarian Hammer|475-841 ～ 504-892|3.7 ～ 3.8|173.2 ～ 188.6|73|+133～147% Damage 強化 +13～16% 攻擊速度增加 +2～3 全屬性 武僧 才能 +8～12 全 Passive Skill +25～30 全能力值 +9～12% 吸收 Arcane +80～120 暴擊 +51～70 閃電 Damage 近戰 +11～13% Arcane Damage +11～13% 火焰 Damage +20～30% 全能力值抗性 +5～8% 經驗值取得率 +20～40% Rare Drop Rate +15～20% Damage 強化 vs Demon +11～15% Damage 強化 vs Dragonkin +7～9% 武僧 Skill 強化 (1) +10～13% 武僧 Skill 強化 (2) 效果: Tranquil Jolt單體閃電[1569+Lv*8]DamageSocketed (2～3)|
+
+### 防具
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
@@ -129,6 +135,8 @@ status: "FC2 原站高保真繁中化"
 - FC2 file：[edarion.html](https://atelier3.web.fc2.com/ngo/edarion.html)
 - 原站 Last-Modified：`Fri, 06 Jun 2025 02:48:45 GMT`
 
+### 套裝效果
+
 |套數|效果|
 |---|---|
 |2套|+12 Spirit 恢復速度|
@@ -137,9 +145,13 @@ status: "FC2 原站高保真繁中化"
 |5套|+25% Damage 強化 対 Demon +25% Damage 強化 対 Undead|
 |6套|+80 Rare Drop Rate +3 全屬性 十字軍 才能|
 
+### 武器
+
 |名稱|Damage|Speed|DPS|需求等級|Mods|
 |---|---|---|---|---|---|
 |![twoHandBlunts7.png](/fc2-assets/ngo/img/twoHandBlunts7.png)Edarion's Soulfury Karelian Hammer|449-818 ～ 477-870|3.7 ～ 3.9|162.4 ～ 182.0|75|+121～135% Damage 強化 +11～15% 攻擊速度增加 +2～3 全屬性 十字軍 才能 +41～50 智力 +55～65 魅力 +20～30% 全屬性抗性 +60～80 Attack Rating +9～11 雙手鈍器 +7～10 Alteration +81～100 暴擊 +9～13 命中時 Health 回復 +21～25 命中時 Mana 回復 +25～30 火焰 Damage 近戰 +18～24% Arcane Damage +31～50% 麻痺抗性 +6～8% 十字軍 Skill 強化 (1) +9～12% 十字軍 Skill 強化 (2) 效果: Soulfire單體Arcane[1499+Lv*7]DamageSocketed (1～4)|
+
+### 防具
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
@@ -156,6 +168,8 @@ status: "FC2 原站高保真繁中化"
 - FC2 file：[fansy.html](https://atelier3.web.fc2.com/ngo/fansy.html)
 - 原站 Last-Modified：`Fri, 06 Jun 2025 02:55:05 GMT`
 
+### 套裝效果
+
 |套數|效果|
 |---|---|
 |2套|+13 閃避|
@@ -164,9 +178,13 @@ status: "FC2 原站高保真繁中化"
 |5套|+24 命中時 Mana 回復 魔法 Damage 減免: 22|
 |6套|+24 全能力值 +3 全屬性 吟遊詩人 才能|
 
+### 武器
+
 |名稱|Damage|Speed|DPS|需求等級|Mods|
 |---|---|---|---|---|---|
 |![piercers1.png](/fc2-assets/ngo/img/piercers1.png)Fansy's Euphony Mithril Point|122-178 ～ 130-191|1.5 ～ 1.6|93.8 ～ 107.0|65|+96～110% Damage 強化 +21～25% 攻擊速度增加 +1～2 吟遊詩人 天賦樹 +3～5 全 Passive Skill +21～25 靈巧 +26～30 魅力 +11～15% Arcane 抗性 +11～15% 閃電抗性 +21～25 Arcane Damage 近戰 +6～10% All Spell Damage +9～12% 全能力值抗性 +5～8% Damage 強化 vs Beast +5～8% Damage 強化 vs Demon +5～8% Damage 強化 vs Mystical +9～12% 吟遊詩人 Skill 強化 效果: Symphony單體Arcane[567+Lv*3]DamageSocketed (1)|
+
+### 防具
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
@@ -183,6 +201,8 @@ status: "FC2 原站高保真繁中化"
 - FC2 file：[jibekn.html](https://atelier3.web.fc2.com/ngo/jibekn.html)
 - 原站 Last-Modified：`Sat, 30 Nov 2024 05:02:57 GMT`
 
+### 套裝效果
+
 |套數|效果|
 |---|---|
 |2套|+9% 強化 冰冷 Damage|
@@ -191,9 +211,13 @@ status: "FC2 原站高保真繁中化"
 |5套|+64 全屬性 Spell Power +10% 經驗值取得率|
 |6套|+120 耐力 +3 全屬性 聖殿騎士 才能|
 
+### 武器
+
 |名稱|Damage|Speed|DPS|需求等級|Mods|
 |---|---|---|---|---|---|
 |![focus4.png](/fc2-assets/ngo/img/focus4.png)Jibekn's Oddity Dimensional Shard|156-267 ～ 170-290|3.7|57.2 ～ 62.2|70|+130～150% Damage 強化 +1～2 聖殿騎士 天賦樹 +1～3 聖殿騎士 天賦 (1) +1～3 聖殿騎士 天賦 (2) +1～3 聖殿騎士 天賦 (3) +7～10 全 Passive Skill +9～12 全能力值 +20～40 閃電 Spell Power +20～40 冰冷 Spell Power +16～20 Mana 恢復速度 +21～25 Spirit 恢復速度 +33～55 火焰 Damage 近戰 +14～18% All Spell Damage +13～17% 眩暈抗性 +20～25% 沉默抗性 +3～5% 經驗值取得率 +10～25% Rare Drop Rate +7～9% Damage 強化 vs Undead +8～12% Damage 強化 vs Demon +14～21% 聖殿騎士 Skill 強化|
+
+### 防具
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
@@ -210,6 +234,8 @@ status: "FC2 原站高保真繁中化"
 - FC2 file：[noik.html](https://atelier3.web.fc2.com/ngo/noik.html)
 - 原站 Last-Modified：`Sat, 30 Nov 2024 05:02:57 GMT`
 
+### 套裝效果
+
 |套數|效果|
 |---|---|
 |2套|+55 Health|
@@ -218,9 +244,13 @@ status: "FC2 原站高保真繁中化"
 |5套|+21% Damage 強化 対 Humanoid +17% Damage 強化 対 Beast|
 |6套|+20% 強化 全屬性 +3 全屬性 術士 才能|
 
+### 武器
+
 |名稱|Damage|Speed|DPS|需求等級|Mods|
 |---|---|---|---|---|---|
 |![staves4.png](/fc2-assets/ngo/img/staves4.png)Noik's Pariah Baroque Staff|273-505 ～ 292-541|4.2|92.6 ～ 99.2|72|+115～130% Damage 強化 +1～2 術士 天賦樹 +1～3 術士 天賦 (1) +1～3 術士 天賦 (2) +1～3 術士 天賦 (3) +66～80 智慧 +48～55 施法速度增加 +30～40 All Spell Power +80～100 暴擊 +7～9 Health 恢復速度 +13～17 Mana 恢復速度 +11～14 Spirit 恢復速度 +55～75 出血 Damage 近戰 +25～35 冰冷 Damage 近戰 +16～20% All Spell Damage +50～60% 恐怖抗性 +9～12% 最大 Mana +20～25 Mana 擊殺時恢復 +13～16 Spirit 擊殺時恢復 +24～30% 術士 Skill 強化 (1) +14～21% 術士 Skill 強化 (2) Socketed (2～4)|
+
+### 防具
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
@@ -237,6 +267,8 @@ status: "FC2 原站高保真繁中化"
 - FC2 file：[nylith.html](https://atelier3.web.fc2.com/ngo/nylith.html)
 - 原站 Last-Modified：`Sat, 30 Nov 2024 05:02:57 GMT`
 
+### 套裝效果
+
 |套數|效果|
 |---|---|
 |2套|+25 耐力|
@@ -245,9 +277,13 @@ status: "FC2 原站高保真繁中化"
 |5套|+40 施法速度增加 +16 吸收 閃電|
 |6套|+20% 降低 冰冷抗性 +3 全屬性 德魯伊 才能|
 
+### 武器
+
 |名稱|Damage|Speed|DPS|需求等級|Mods|
 |---|---|---|---|---|---|
 |![oneHandBlunts6.png](/fc2-assets/ngo/img/oneHandBlunts6.png)Nylith's Crook Jawbone Club|178-366 ～ 184-380|2.4 ～ 2.7|100.7 ～ 117.5|73|+83～90% Damage 強化 +26～33% 攻擊速度增加 +1～2 德魯伊 天賦樹 +5～7 全 Passive Skill +33～44 智力 +5～8% 吸收 閃電 +16～24 施法速度增加 +16～20 火焰 Damage 近戰 +7～9% 火焰 Damage +9～12% 冰冷 Damage +12～16% 沉默抗性 +8～12 Mana 擊殺時恢復 +11～15 Spirit 擊殺時恢復 +9～13% Damage 強化 vs Mystical +8～12% 德魯伊 Skill 強化 Socketed (1～2)|
+
+### 防具
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
@@ -259,30 +295,36 @@ status: "FC2 原站高保真繁中化"
 
 <a id="fc2-procyon"></a>
 
-## 南河三號套裝
+## Procyon Set
 
 - FC2 file：[procyon.html](https://atelier3.web.fc2.com/ngo/procyon.html)
 - 原站 Last-Modified：`Fri, 06 Jun 2025 02:54:19 GMT`
+
+### 套裝效果
 
 |套數|效果|
 |---|---|
 |2套|+12 Gold 取得率|
 |3套|+42 靈巧 +20 閃避|
-|4套|+24 出血 Damage 近戰 +16% Damage 強化 対 Humanoid|
+|4套|+24 出血 Damage 近戰 +16% Damage 強化 vs Humanoid|
 |5套|+50 毒素 Damage 近戰 +105 敏捷|
-|6套|物理 Damage 減免: 35 +3 全屬性 盜賊 才能|
+|6套|物理 Damage 減免: 35 +3 全屬性 盜賊天賦|
+
+### 武器
 
 |名稱|Damage|Speed|DPS|需求等級|Mods|
 |---|---|---|---|---|---|
-|![piercers7.png](/fc2-assets/ngo/img/piercers7.png)Procyon's Fragment Oni|139-258 ～ 148-273|1.8 ～ 1.9|104.5 ～ 116.9|75|+105～117% Damage 強化 +16～20% 攻擊速度增加 +2～3 盜賊 天賦樹 +15～20 力量 +24～30 靈巧 +55～68 Mana +31～40% 毒素抗性 +7～10% 吸收 毒素 +4～6 攻擊 +5～7 刺擊 +7～9 命中時 Health 回復 +10～13 命中時 Mana 回復 +11～15 毒素 Damage 近戰 +13～19 閃電 Damage 近戰 +16～20% 全能力值抗性 +5～7% Damage 強化 vs Humanoid +9～13% Damage 強化 vs Beast +8～10% 盜賊 Skill 強化 效果:Chilling Flux單體冰冷[724+Lv*4]Damage＋冷卻Socketed (2)|
+|![piercers7.png](/fc2-assets/ngo/img/piercers7.png)Procyon's Fragment Oni|139-258 ～ 148-273|1.8 ～ 1.9|104.5 ～ 116.9|75|+105～117% Damage 強化 +16～20% 攻擊速度增加 +2～3 盜賊天賦樹 +15～20 力量 +24～30 靈巧 +55～68 Mana +31～40% 毒素抗性 +7～10% 毒素吸收 +4～6 攻擊 +5～7 刺擊 +7～9 命中時 Health 回復 +10～13 命中時 Mana 回復 +11～15 毒素 Damage 近戰 +13～19 閃電 Damage 近戰 +16～20% 全能力值抗性 +5～7% Damage 強化 vs Humanoid +9～13% Damage 強化 vs Beast +8～10% 盜賊 Skill 強化 效果: Chilling Flux 單體冰冷 [724 + Lv * 4] Damage + 冷卻 Socketed (2)|
+
+### 防具
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
 |![bracers10.png](/fc2-assets/ngo/img/bracers10.png)Procyon's Doldrums Redoubt Bracers|118 ～ 156|71|+84～98% 物理防禦強化 +16～20 敏捷 +31～40 Health +15～20 Mana +15～20 Spirit +16～20% 全屬性抗性 +3～5 閃避 +4～6 招架 +7～10 毒素 Damage 近戰 +9～12% 麻痺抗性 +5～10% Gold 取得率 +7～12% Rare Drop Rate +7～9% 盜賊 Skill 強化|
-|![gloves9.png](/fc2-assets/ngo/img/gloves9.png)Procyon's Woe Vambraces|261 ～ 334|68|+96～110% 物理防禦強化 +1～2 盜賊 天賦樹 +8～12 全能力值 +21～25% Arcane 抗性 +21～25% 火焰抗性 +5～7 閃避 +6～8 命中時 Health 回復 +9～12 命中時 Mana 回復 +21～25 毒素 Damage 近戰 +4～6 Mana 受擊時 +12～16% 眩暈抗性 +8～12% 恐怖抗性 +6～9% Damage 強化 vs Undead +6～9% Damage 強化 vs Demon +7～9% 盜賊 Skill 強化|
-|![belts4.png](/fc2-assets/ngo/img/belts4.png)Procyon's Gloam Stygian Belt|130 ～ 166|65|+110～124% 物理防禦強化 +1 全屬性 盜賊 才能 +2～4 全 Passive Skill +10～15 全能力值 +22～29% 閃電抗性 +13～16% 火焰抗性 +6～8% 物理抗性 +8～12% 吸收 閃電 魔法 Damage 減免 9～12 +9～13% 恐怖抗性 +15～20% 麻痺抗性 +7～15% Gold 取得率 +13～25% Rare Drop Rate +9～12% 盜賊 Skill 強化|
-|![legs8.png](/fc2-assets/ngo/img/legs8.png)Procyon's Sorrow Legion Legs|426 ～ 544|65|+107～121% 物理防禦強化 +25～30 力量 +38～44 耐力 +47～53 敏捷 +21～25 靈巧 +20～25% 出血抗性 +12～16% Arcane 抗性 +24～32% 冰冷抗性 +3～5% 物理抗性 +4～7% 吸收 冰冷 +6～9 閃避 +9～14% 眩暈抗性 +13～18% 麻痺抗性 +12～16 Health 擊殺時恢復 +13～16% 盜賊 Skill 強化|
-|![cloaks15.png](/fc2-assets/ngo/img/cloaks15.png)Procyon's Chagrin Doomsday Pall|79 ～ 99|75|+1～2 盜賊 天賦 +24～30 力量 +21～25 耐力 +31～40 敏捷 +19～24% 全屬性抗性 +6～8% 吸收 Arcane +5～8 攻擊 +50～60 暴擊 +8～12 出血 Damage 近戰 +16～20% 移動速度 +5～7% Damage 強化 vs Humanoid +5～7% Damage 強化 vs Beast +7～9% 盜賊 Skill 強化 (1) +5～7% 盜賊 Skill 強化 (2) (50%)|
+|![gloves9.png](/fc2-assets/ngo/img/gloves9.png)Procyon's Woe Vambraces|261 ～ 334|68|+96～110% 物理防禦強化 +1～2 盜賊天賦樹 +8～12 全能力值 +21～25% Arcane 抗性 +21～25% 火焰抗性 +5～7 閃避 +6～8 命中時 Health 回復 +9～12 命中時 Mana 回復 +21～25 毒素 Damage 近戰 +4～6 Mana 受擊時 +12～16% 眩暈抗性 +8～12% 恐怖抗性 +6～9% Damage 強化 vs Undead +6～9% Damage 強化 vs Demon +7～9% 盜賊 Skill 強化|
+|![belts4.png](/fc2-assets/ngo/img/belts4.png)Procyon's Gloam Stygian Belt|130 ～ 166|65|+110～124% 物理防禦強化 +1 全屬性 盜賊天賦 +2～4 全 Passive Skill +10～15 全能力值 +22～29% 閃電抗性 +13～16% 火焰抗性 +6～8% 物理抗性 +8～12% 閃電吸收 魔法 Damage 減免 9～12 +9～13% 恐怖抗性 +15～20% 麻痺抗性 +7～15% Gold 取得率 +13～25% Rare Drop Rate +9～12% 盜賊 Skill 強化|
+|![legs8.png](/fc2-assets/ngo/img/legs8.png)Procyon's Sorrow Legion Legs|426 ～ 544|65|+107～121% 物理防禦強化 +25～30 力量 +38～44 耐力 +47～53 敏捷 +21～25 靈巧 +20～25% 出血抗性 +12～16% Arcane 抗性 +24～32% 冰冷抗性 +3～5% 物理抗性 +4～7% 冰冷吸收 +6～9 閃避 +9～14% 眩暈抗性 +13～18% 麻痺抗性 +12～16 Health 擊殺時恢復 +13～16% 盜賊 Skill 強化|
+|![cloaks15.png](/fc2-assets/ngo/img/cloaks15.png)Procyon's Chagrin Doomsday Pall|79 ～ 99|75|+1～2 盜賊天賦 +24～30 力量 +21～25 耐力 +31～40 敏捷 +19～24% 全屬性抗性 +6～8% Arcane 吸收 +5～8 攻擊 +50～60 暴擊 +8～12 出血 Damage 近戰 +16～20% 移動速度 +5～7% Damage 強化 vs Humanoid +5～7% Damage 強化 vs Beast +7～9% 盜賊 Skill 強化 (1) +5～7% 盜賊 Skill 強化 (2) (50%)|
 
 <a id="fc2-sinifay"></a>
 
@@ -290,6 +332,8 @@ status: "FC2 原站高保真繁中化"
 
 - FC2 file：[sinifay.html](https://atelier3.web.fc2.com/ngo/sinifay.html)
 - 原站 Last-Modified：`Fri, 06 Jun 2025 02:44:08 GMT`
+
+### 套裝效果
 
 |套數|效果|
 |---|---|
@@ -299,11 +343,15 @@ status: "FC2 原站高保真繁中化"
 |5套|+48 閃電 Damage 近戰 +50 移動速度|
 |6套|+25 吸收 火焰 +3 全屬性 遊俠 才能|
 
+### 武器
+
 |名稱|Damage|Speed|DPS|需求等級|Mods|
 |---|---|---|---|---|---|
 |![oneHandSlashers1.png](/fc2-assets/ngo/img/oneHandSlashers1.png)Sinifay's Glinthium Tulwar|173-261 ～ 183-275|2.1 ～ 2.2|98.6 ～ 109.0|65|+137～150% Damage 強化 +12～15% 攻擊速度增加 +1～2 遊俠 天賦樹 +17～21 靈巧 +21～25 智力 +24～30 魅力 +5～7% 吸收 閃電 +16～20 命中時 Mana 回復 +18～22 閃電 Damage 近戰 +14～18% 閃電 Damage +15% 麻痺抗性 +11～20% Rare Drop Rate +9～13% Damage 強化 vs Mystical +8～10% 遊俠 Skill 強化 效果: Chill Shock單體冰冷[699+Lv*4]Damage＋冷卻Socketed (1～2)|
 |![oneHandSlashers4.png](/fc2-assets/ngo/img/oneHandSlashers4.png)Sinifay's Aurorthas Ataghan|152-253 ～ 157-262|2.0 ～ 2.1|96.4 ～ 104.8|70|+87～94% Damage 強化 +26～30% 攻擊速度增加 +1 所有天賦 +3 遊俠 天賦 +2～4 全 Passive Skill +18～24 力量 +18～20 耐力 +24～30 敏捷 +16～20% 冰冷抗性 +13～16 命中時 Health 回復 +15～20 冰冷 Damage 近戰 +6～8% All Spell Damage +12～16% 眩暈抗性 +17～24% 恐怖抗性 +7～9% Damage 強化 vs Dragonkin +10～12% 遊俠 Skill 強化 效果: Aurora Burst單體閃電[888+Lv*5]DamageSocketed (1～2)|
 |![bows6.png](/fc2-assets/ngo/img/bows6.png)Sinifay's Golden Harrier Dogwood Bow|270-453 ～ 289-485|2.1 ～ 2.2|164.3 ～ 184.3|73|+118～133% Damage 強化 +17～21% 攻擊速度增加 +1～2 全屬性 遊俠 才能 +1～3 遊俠 天賦 (1) +1～3 遊俠 天賦 (2) +41～50 敏捷 +24～30 靈巧 +21～25 智力 +17～24 Arcane Spell Power +5～8 弓術 +5～8 Evocation +9～13 命中時 Health 回復 +18～24 出血 Damage 近戰 +12～16% 閃電 Damage +13～18% 全能力值抗性 +16～25% Rare Drop Rate +7～10% Damage 強化 vs Beast +5～8% Damage 強化 vs Dragonkin +11～16% 遊俠 Skill 強化 效果: Sonic Harrier單體閃電[1049+Lv*8]DamageSocketed (2～3)|
+
+### 防具
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
@@ -318,6 +366,8 @@ status: "FC2 原站高保真繁中化"
 - FC2 file：[spinalzz.html](https://atelier3.web.fc2.com/ngo/spinalzz.html)
 - 原站 Last-Modified：`Thu, 26 Jun 2025 00:14:31 GMT`
 
+### 套裝效果
+
 |套數|效果|
 |---|---|
 |2套|+8 Health 恢復速度|
@@ -326,9 +376,13 @@ status: "FC2 原站高保真繁中化"
 |5套|+12% 降低 出血抗性 +55 全屬性 Spell Power|
 |6套|+125 暴擊 +3 全屬性 暗影騎士 才能|
 
+### 武器
+
 |名稱|Damage|Speed|DPS|需求等級|Mods|
 |---|---|---|---|---|---|
 |![twoHandSlashers4.png](/fc2-assets/ngo/img/twoHandSlashers4.png)Spinalzz's Fatal Edge Regal Axe|404-635 ～ 428-673|3.2 ～ 3.4|152.8 ～ 172.0|70|+103~115% 傷害增強 +18~24% 攻擊速度增加 +2~3 所有能力 暗影騎士天賦 +15~20 所有能力 +55~65% 抗流血 +8~12% 吸血流血 +9~12 攻擊力 +9~13 擊中時回復生命值 +23332 17~12 攻擊力 +9~13 擊中時回復生命值 +23332 130%法力+18~24% 恐懼抗性 +21~28% 麻痺抗性 +8~11% 對人型傷害強化 +6~8% 對龍族傷害強化 +7~9% 暗影騎士技能強化 (1) +12~16% 暗影騎士技能強化 (2) 效果：致命切片 身體出血 [1449+16%*7+ (3v76)|
+
+### 防具
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
@@ -345,6 +399,8 @@ status: "FC2 原站高保真繁中化"
 - FC2 file：[swiftraven.html](https://atelier3.web.fc2.com/ngo/swiftraven.html)
 - 原站 Last-Modified：`Sun, 08 Jun 2025 23:21:25 GMT`
 
+### 套裝效果
+
 |套數|效果|
 |---|---|
 |2套|+60 出血 Spell Power|
@@ -353,9 +409,13 @@ status: "FC2 原站高保真繁中化"
 |5套|+27 Mana 恢復速度 +16 吸收 冰冷|
 |6套|+24% 強化 Arcane Damage +3 全屬性 薩滿 才能|
 
+### 武器
+
 |名稱|Damage|Speed|DPS|需求等級|Mods|
 |---|---|---|---|---|---|
 |![piercers5.png](/fc2-assets/ngo/img/piercers5.png)Swiftraven's Bloodletter Spetum|144-239 ～ 152-252|1.7 ～ 1.8|106.4 ～ 118.8|72|+76～85% Damage 強化 +30～36% 攻擊速度增加 +1～2 全屬性 薩滿 才能 +24～30 靈巧 +16～20 智力 +41～50% 出血抗性 +5～7% 吸收 出血 +15～20 施法速度增加 +4～6 Conjuration +6～8 Mana 恢復速度 +7～10 Spirit 恢復速度 +11～14 命中時 Mana 回復 +26～34 出血 Damage 近戰 +5～7% Damage 強化 vs Humanoid +9～13% Damage 強化 vs Beast +9～12% 薩滿 Skill 強化 效果: Massacre單體出血[924+Lv*4]DamageSocketed (2～3)|
+
+### 防具
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
@@ -372,6 +432,8 @@ status: "FC2 原站高保真繁中化"
 - FC2 file：[tsubodai.html](https://atelier3.web.fc2.com/ngo/tsubodai.html)
 - 原站 Last-Modified：`Sun, 08 Jun 2025 23:48:07 GMT`
 
+### 套裝效果
+
 |套數|效果|
 |---|---|
 |2套|魔法 Damage 減免: 9|
@@ -380,9 +442,13 @@ status: "FC2 原站高保真繁中化"
 |5套|+20% Damage 強化 対 Beast +22 命中時 Mana 回復|
 |6套|+56 Arcane Damage 近戰 +3 全屬性 戰士 才能|
 
+### 武器
+
 |名稱|Damage|Speed|DPS|需求等級|Mods|
 |---|---|---|---|---|---|
 |![oneHandSlashers6.png](/fc2-assets/ngo/img/oneHandSlashers6.png)Tsubodai's Armament Decapitator|191-361 ～ 205-387|2.6 ～ 2.7|102.2 ～ 113.8|73|+110～125% Damage 強化 +16～20% 攻擊速度增加 +2～3 戰士 天賦樹 +21～25 力量 +16～20 靈巧 +5～7% 吸收 Arcane +4～6 單手斬擊 +7～9 命中時 Health 回復 +8～12 命中時 Mana 回復 +11～15 閃電 Damage 近戰 +21～25% 麻痺抗性 +8～15% Rare Drop Rate +9～13 Spirit 擊殺時恢復 +6～8% Damage 強化 vs Humanoid +8～12% 戰士 Skill 強化 效果: Burning Rage單體火焰[849+Lv*5]DamageSocketed (2～3)|
+
+### 防具
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
@@ -399,6 +465,8 @@ status: "FC2 原站高保真繁中化"
 - FC2 file：[tunso.html](https://atelier3.web.fc2.com/ngo/tunso.html)
 - 原站 Last-Modified：`Sat, 30 Nov 2024 05:02:57 GMT`
 
+### 套裝效果
+
 |套數|效果|
 |---|---|
 |2套|物理 Damage 減免: 8|
@@ -407,9 +475,13 @@ status: "FC2 原站高保真繁中化"
 |5套|+30% Damage 強化 対 Undead +24 Spirit 恢復速度|
 |6套|+100 智力 +3 全屬性 牧師 才能|
 
+### 武器
+
 |名稱|Damage|Speed|DPS|需求等級|Mods|
 |---|---|---|---|---|---|
 |![oneHandBlunts7.png](/fc2-assets/ngo/img/oneHandBlunts7.png)Tunso's Atonement Pernach|181-402 ～ 198-439|2.8 ～ 2.9|100.5 ～ 113.8|75|+106～125% Damage 強化 +12～16% 攻擊速度增加 +1 所有天賦 +25～30 智力 +18～22 智慧 +22～25 魅力 +15～20% Arcane 抗性 +15～20% 閃電抗性 +5～7% 吸收 火焰 +16～21 施法速度增加 +40～60 Attack Rating +14～17% Arcane Damage +10～13% 全能力值抗性 +9～13% Damage 強化 vs Undead +8～12% 牧師 Skill 強化 Socketed (1～2)|
+
+### 防具
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
@@ -426,6 +498,8 @@ status: "FC2 原站高保真繁中化"
 - FC2 file：[yizeren.html](https://atelier3.web.fc2.com/ngo/yizeren.html)
 - 原站 Last-Modified：`Fri, 01 Nov 2024 04:56:01 GMT`
 
+### 套裝效果
+
 |套數|效果|
 |---|---|
 |2套|+30 暴擊|
@@ -434,9 +508,13 @@ status: "FC2 原站高保真繁中化"
 |5套|+21 Conjuration +65 Rare Drop Rate|
 |6套|+100 全屬性 Spell Power +3 全屬性 巫師才能|
 
+### 武器
+
 |名稱|Damage|Speed|DPS|需求等級|Mods|
 |---|---|---|---|---|---|
 |![staves1.png](/fc2-assets/ngo/img/staves1.png)Yizaren's Revelation Mystical Staff|305-457 ～ 320-479|4.4|86.6 ～ 90.8|65|+124～135% Damage 強化 +1～2 巫師 天賦樹 +1～3 巫師 天賦 (1) +1～3 巫師 天賦 (2) +1～3 巫師 天賦 (3) +27～34 耐力 +44～58 智慧 +26～30% 毒素抗性 +36～55% 火焰抗性 +12～16% 吸收 火焰 +51～65 施法速度增加 +31～40 Arcane Spell Power +9～12 Evocation +5～7% 閃電Damage +10～13% 火焰Damage +5～7% 冰冷Damage +41～50% 恐怖抗性 +16～20% 沉默抗性 +18～24% 巫師 Skill 強化 Socketed (3～5)|
+
+### 防具
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
@@ -453,6 +531,8 @@ status: "FC2 原站高保真繁中化"
 - FC2 file：[zamtil.html](https://atelier3.web.fc2.com/ngo/zamtil.html)
 - 原站 Last-Modified：`Sat, 30 Nov 2024 05:02:57 GMT`
 
+### 套裝效果
+
 |套數|效果|
 |---|---|
 |2套|+12 Alteration|
@@ -461,9 +541,13 @@ status: "FC2 原站高保真繁中化"
 |5套|+15% 降低 Arcane 抗性 +25% 強化 閃電 Damage|
 |6套|+35% Damage 強化 対 Humanoid +3 全屬性 附魔師 才能|
 
+### 武器
+
 |名稱|Damage|Speed|DPS|需求等級|Mods|
 |---|---|---|---|---|---|
 |![focus1.png](/fc2-assets/ngo/img/focus1.png)Zamtil's Prism Eldritch Orb|147-218 ～ 168-248|3.5|52.1 ～ 59.4|65|+120～150% Damage 強化 +1～2 附魔師 天賦樹 +2～4 附魔師 天賦 (1) +1～3 附魔師 天賦 (2) +45～70 敏捷 +33～44 智慧 +16～20% 全屬性抗性 +5～8% 吸收 Arcane +19～25 施法速度增加 +21～40 毒素 Spell Power +7～10 Alteration +5～8 Conjuration +35～45 閃電 Damage 近戰 +7～9% Arcane Damage +7～9% 閃電 Damage +31～40% 沉默抗性 +13～18% 附魔師 Skill 強化 Socketed (1)|
+
+### 防具
 
 |名稱|物理防禦|需求等級|Mods|
 |---|---|---|---|
