@@ -299,6 +299,10 @@
                 "slug": "equipment-collection"
               },
               {
+                "label": "職業畢業裝清單",
+                "slug": "fc2-class-build-gear-keeper-list"
+              },
+              {
                 "label": "鑑定",
                 "slug": "identification"
               },
