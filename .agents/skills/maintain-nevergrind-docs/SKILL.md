@@ -1,6 +1,6 @@
 ---
 name: maintain-nevergrind-docs
-description: Maintain the repo-local Astro Starlight Traditional Chinese Nevergrind Online guide site, especially FC2 / atelier3 source-driven ingestion, zh-TW Markdown generation, terminology consistency, sidebar organization, coverage and quality gates, GitHub Pages publishing, and CNAME/domain-safe deployment. Use when Codex works in this repository on Nevergrind Online docs, FC2 HTML refreshes, placeholder cleanup, source URL coverage, translation quality, terminology drift, sidebar/menu changes, Starlight build issues, or pushing site updates.
+description: Maintain the repo-local Astro Starlight Traditional Chinese Nevergrind Online guide site, especially FC2 / atelier3 source-driven ingestion, supplemental FC2 keeper lists, zh-TW Markdown generation, terminology consistency, sidebar organization, coverage and quality gates, GitHub Pages publishing, and CNAME/domain-safe deployment. Use when Codex works in this repository on Nevergrind Online docs, FC2 HTML refreshes, placeholder cleanup, source URL coverage, translation quality, terminology drift, sidebar/menu changes, Starlight build issues, or pushing site updates.
 ---
 
 # Maintain Nevergrind Docs
@@ -64,6 +64,7 @@ npm run build
 - For FC2 `unimon.html`, treat monster type and Mods descriptions as high-risk prose. Translate `ピオンモンスター` as `小兵怪物（Peon）`, `チャンピオンモンスター` as `冠軍怪物（Champion）`, `ユニークモンスター` as `獨特怪物（Unique）`, and `ボスモンスター` as `首領怪物（Boss）`; never publish drift such as `苦工怪物`, `飛行員`, `加強地位/抵抗力`, `它的名字是`, or `保證掉落 1 件或更好的魔法物品`.
 - Preserve English lookup terms for item names, skill names, bosses, maps, UI labels, and source metadata when those names are needed for in-game or FC2/wiki lookup.
 - Preserve item names in English even when surrounding prose is Chinese. Prefer headings such as `Charlatan's Crest（Shako, Elite）` and `Cryptic Paragon（Haniwa, Elite）`; never publish machine mistranslations such as `螳螂蝦`, `薩科`, `埴輪`, or `江湖之冠`.
+- Prefer verified in-game item names over FC2 table spelling when they conflict, especially in supplemental keeper lists. Known keeper-list correction: use `Yizeren`, not `Yizaren`, for the wizard set pieces (`Yizeren's Apocalypse`, `Yizeren's Censer`, `Yizeren's Decimation`, `Yizeren's Majesty`, `Yizeren's Prestige`).
 - Do not translate English fragments inside item names even if they look like stats or ordinary words, such as `Wisdom` in `Zimri's Wisdom`; add exact item names to `MANUAL_TRANSLATIONS` or improve table-cell handling when needed.
 - Translate `金銭効率` as `金錢效率`, never `金屬效率`; translate `周回ダンジョン` as `周回地城`, not `旋轉地城` or `旋轉地牢`.
 - Translate high-risk FC2 gameplay terms consistently: `すべての才能` as `所有天賦`, `才能ツリー` as `天賦樹`, `クール / クールタイム` as `冷卻時間`, `タゲ` as `仇恨` or `目標` by context, `右手 / 左手` equipment text as hand or weapon slots rather than cloak, `レアドロ` as `Rare Drop Rate`, `ソロ / solo` as `單刷` or `單刷能力`, `枠` as `欄位` or `候選欄位`, and `素手` as `空手`.
@@ -99,6 +100,7 @@ npm run build
 - When changing generated page order, add quality assertions such as `generalReferenceStartsWithIndex` and `generalReferenceFollowsSidebarOrder` so regenerated docs cannot drift back.
 - Keep sidebar labels Chinese-first and concise. Do not show raw `*.html` filenames or parenthesized English in the sidebar unless the user explicitly asks; source filenames belong in `fc2-link-index`, source tables, anchors, and frontmatter.
 - Keep FC2 original-source navigation separate from user-facing supplemental guides. Use the FC2 section for source-aligned entries and the supplemental section for non-FC2 pages.
+- For `fc2-class-build-gear-keeper-list.md`, keep equipment sections in FC2 item-category order: `頭部`, `弓術`, `副手 / Charm`, `肩部`, `項鍊`, `背部`, `單手斬擊`, `單手鈍器（物理）`, `雙手鈍器（物理）`, `刺擊`, `雙手鈍器（魔法）`, `單手鈍器（魔法）`, `胴體`, `盾牌 / 左手`, `護腕`, `腰帶`, `手套`, `戒指`, `腿甲`, `靴子`. Do not add empty `雙手斬擊` or `Rune` sections unless keeper rows exist; keep rows within each section sorted by rarity, tier, Lv, and name.
 - After route, sidebar, or topic-map changes, search for accidental public nested paths with `rg -n 'nevergrind-online/' src/content/docs src/data README.md scripts .github/workflows .agents/skills/maintain-nevergrind-docs -S`. Allow only intentional legacy redirect code, sitemap filtering, and external source URLs.
 - After `npm run build`, `rg -n '<loc>[^<]*/nevergrind-online/' dist/sitemap*.xml` should return nothing.
 - For local route checks, root pages such as `http://127.0.0.1:4322/guide/` should render directly, while legacy pages such as `http://127.0.0.1:4322/nevergrind-online/guide/#x` should redirect to `/guide/#x`.
