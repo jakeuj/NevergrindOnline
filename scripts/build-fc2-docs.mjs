@@ -420,6 +420,8 @@ const POSTPROCESS_REPLACEMENTS = [
   ['金銭効率', '金錢效率'],
   ['金金屬效率', '金錢效率'],
   ['金屬效率', '金錢效率'],
+  ['該職業的代表色是', '，職業代表色是'],
+  ['職業的代表色是', '，職業代表色是'],
   ['螳螂蝦', 'Shako'],
   ['薩科', 'Shako'],
   ['江湖之冠', "Charlatan's Crest"],
@@ -731,7 +733,7 @@ const MANUAL_TRANSLATIONS = {
     'Rank 27 時，開始有機會對應吟遊詩人 1 點 Superior Battle Hymn 或遊俠 Spirit of the Hunter 這類 20% 速度 Buff；Rank 28 時可完整對應。Rank 29 時，則能看到對應滿點 Battle Hymn（30%～）的可能性。',
   首: '項鍊',
   'King of Riven Grotto (ヒロイック) の周回を想定した対アンデッド装備。':
-    '以英雄（Heroic）King of Riven Grotto 周回為想定的對不死生物裝備。',
+    '這是以周回英雄（Heroic）King of Riven Grotto 為假想目標的對不死生物裝備。',
   '才能ツリーは Judicator を集め、スキルは Blessed Hummer を集める。':
     '天賦樹加成以 Judicator 為目標，技能加成則以 Blessed Hammer 為目標。',
   'まずは Superior Blessed Hummer 29を踏むことが目標となるが、Edarion 指輪でブーストできるかが鍵となる。':
@@ -980,6 +982,37 @@ const MANUAL_TRANSLATIONS = {
   'エンチャンターを確保しましょう。': '請先確保附魔師。',
   'Affliction は別に弱くはないのだが、エンチャンターがいなければ使い勝手が悪いのと、パーティが強くなってくるとダメージを回収しきれない点がどうしても評価を落とす。':
     'Affliction 並不是特別弱，但沒有附魔師時手感很差；而隊伍變強後，傷害也常常來不及完整回收，這些因素讓評價難免下降。',
+  'PTメンバーが勝手に回復しているタイプのヒーラーで、他に筋力・体力・氷耐性などのバフを持つ。':
+    '薩滿是隊伍成員會自動被補血的治療職，另外也有力量、耐力、冰冷抗性等 Buff。',
+  '火力・バフ・デバフのどれもが悪くなく、飛び抜けるほどではないが悪くない職。':
+    '輸出、Buff、Debuff 都不差；不到特別突出，但整體表現穩定。',
+  'アイコンは {{FC2_IMAGE_0}} で、クラスカラーは 暗い青色。':
+    '圖示是 {{FC2_IMAGE_0}}，職業代表色是深藍色。',
+  'Devouring Swarm は Mastery: スワームコーラーを取得することで優秀な自動ヒールとなるため、手動ヒールを削って多めにポイントを振っている。また回転が悪いスキルでもあるので、Superior でクールを極力減らしたい。':
+    '取得 Mastery: Swarmcaller 後，Devouring Swarm 會變成很優秀的自動治療，所以這裡削減手動治療，改把點數多投入它。它本身循環效率也不佳，因此最好用 Superior 盡量壓低冷卻時間。',
+  'Mastery: スワームコーラーは自身の属性強化が伸びると同時に、耐性削減デバフとなった Devouring Swarm が強化されていく。PT全体で見るならスワームコーラーも優秀なタレントだ。':
+    'Mastery: Swarmcaller 會提高自己的屬性強化，同時也會強化變成抗性降低 Debuff 的 Devouring Swarm。從整個隊伍角度來看，Swarmcaller 也是很優秀的天賦。',
+  'ツリー内に Boreal Talisman がある関係上、毒型より氷型の方がバフが強くなる。':
+    '因為這條天賦樹有 Boreal Talisman，冰冷型的 Buff 會比毒素型更強。',
+  'ひたすら Frost Rift を連打する型なので、ポイントもそこに特化。Superior Frost Rift は29で回数増加、セット装備を維持するなら+1で達成できるが、セットを崩す場合は+4必要になる。':
+    '這是專心連打 Frost Rift 的類型，所以點數也集中投在這裡。Superior Frost Rift 在 Rank 29 會增加攻擊次數；如果維持套裝，只要再補 +1 就能達成，但拆套裝時需要補 +4。',
+  'Superior Boreal Talisman はPTメンバーに氷ダメージ強化のバフをつけられるが、+30%に対して実ダメージは+5%程度である。また氷属性が不遇気味なのも微妙な点である。':
+    'Superior Boreal Talisman 可以給隊友冰冷 Damage 強化 Buff，但標示 +30% 時，實際傷害大約只增加 +5%。再加上冰冷屬性本身偏不吃香，這點也有些微妙。',
+  'Mastery: フロストゴーレムは氷強化と氷削減を同時に伸ばせる強力なタレントでポイントを入れやすい。ただランク20から削減の増加が鈍るので、スワームコーラーとの選択になる。どっちでもいいと思う。':
+    'Mastery: Frost Golem 是能同時提高冰冷強化與冰冷抗性降低的強力天賦，很值得投點。不過從 Rank 20 開始，抗性降低的成長會變慢，因此會和 Swarmcaller 形成取捨；我認為兩邊都可以。',
+  '効果: Glacial Shard はクールタイムが長めで、そちらの短縮目的として伸ばすのは微妙。':
+    '效果：Glacial Shard 的冷卻時間偏長；如果只是為了縮短它的冷卻而投點，評價比較微妙。',
+  'Frost Rift が詠唱2秒に対して、Poison Bolt は詠唱1.7秒程度となり回転率が良く、氷型より火力が伸びやすい。':
+    'Frost Rift 的施法時間是 2 秒，Poison Bolt 約 1.7 秒，循環效率更好，因此比冰冷型更容易拉高輸出。',
+  'ひたすら Poison Bolt を連打する型なので、ポイントもそこに特化。Superior Poison Bolt は29で回数増加、セット装備を維持するなら+1で達成できるが、セットを崩す場合は+4必要になる。':
+    '這是專心連打 Poison Bolt 的類型，所以點數也集中投在這裡。Superior Poison Bolt 在 Rank 29 會增加攻擊次數；如果維持套裝，只要再補 +1 就能達成，但拆套裝時需要補 +4。',
+  'Mastery: 災難にポイントを注ぎ込むと、強化毒が伸びるほか効果: Poison Nova のクールタイムが縮む。':
+    '把點數投入 Mastery: Calamity 後，除了會提高毒素強化，也會縮短效果：Poison Nova 的冷卻時間。',
+  災難ランク: 'Calamity Rank',
+  '効果全体を管理するグローバルクールタイム1.5秒に引っかかるので、24以降は縮まない。':
+    '因為會卡到整體效果共用的 1.5 秒 global cooldown，所以 Rank 24 之後不會再縮短。',
+  '非常に回転率がいいのでランク23～24までは推奨。Poison Nova にリソースを集めるのも面白いと思う。':
+    '因為循環效率非常好，建議至少撐到 Rank 23～24。把資源集中到 Poison Nova 也會很有趣。',
   'エクセプショナルセットの Falzain は腕を足すだけで3セット効果のレアドロ45%を獲得できる。':
     'Exceptional Set 的 Falzain 只要加上護腕，就能取得 3 件效果的 45% Rare Drop Rate。',
   '背中は各エリートセットがどれも優秀で、ダメージ・耐性・レアドロ・クリティカルの観点から好きに選ぶ。':
@@ -1057,16 +1090,30 @@ const MANUAL_TRANSLATIONS = {
     "第二顆戒指是自由欄位；如果撿到不錯的 Noik's Pact，就裝上去。",
   'ダンジョンに入ったら {{FC2_IMAGE_5}} Lich Form と {{FC2_IMAGE_6}} Profane Spirit をキャストする。この時、面倒でなければバフ前に Superior Lich Form ブースト装備に付け替えておき、バフ後に普段の装備に戻すことで、通常攻撃の火力が1.5倍くらいになり大きくDPSを稼げる。':
     '進入地城後，先施放 {{FC2_IMAGE_5}} Lich Form 與 {{FC2_IMAGE_6}} Profane Spirit。若不嫌麻煩，可以在 Buff 前換上 Superior Lich Form 加成裝，Buff 後再切回平常裝備；普通攻擊火力大約能提高 1.5 倍，DPS 會明顯增加。',
+  'Lich Form と': 'Lich Form 與',
+  'Profane Spirit をキャストする。この時、面倒でなければバフ前に Superior Lich Form ブースト装備に付け替えておき、バフ後に普段の装備に戻すことで、通常攻撃の火力が1.5倍くらいになり大きくDPSを稼げる。':
+    'Profane Spirit。若不嫌麻煩，可以在 Buff 前換上 Superior Lich Form 加成裝，Buff 後再切回平常裝備；普通攻擊火力大約能提高 1.5 倍，DPS 會明顯增加。',
   '戦闘が始まったら、誰より先に敵中央へと {{FC2_IMAGE_7}} Engulfing Darkness を叩き込み、ポイズンショックを狙おう。':
     '戰鬥開始後，搶先往敵群中央打入 {{FC2_IMAGE_7}} Engulfing Darkness，瞄準 Poison Shock 觸發。',
+  '戦闘が始まったら、誰より先に敵中央へと': '戰鬥開始後，搶先往敵群中央打入',
+  'Engulfing Darkness を叩き込み、ポイズンショックを狙おう。':
+    'Engulfing Darkness，瞄準 Poison Shock 觸發。',
   'その後、チャンピオンモンスターなど耐久の多い敵がまとまっているところに狙いを変えつつ、デバフをかける。':
     '接著把目標轉向 Champion 等高耐久敵人聚集的位置，順手套上減益。',
   'PTに物理職がいるならや {{FC2_IMAGE_8}} Blood Fire を使い、耐久に不安があるなら {{FC2_IMAGE_9}} Panic Strike や {{FC2_IMAGE_10}} Haunting Vision で恐怖をかける。 {{FC2_IMAGE_11}} Demonic Pact の物理ダメージボーナスは効果が低く微妙。':
     '如果隊伍裡有物理職，使用 {{FC2_IMAGE_8}} Blood Fire；如果生存壓力大，就用 {{FC2_IMAGE_9}} Panic Strike 或 {{FC2_IMAGE_10}} Haunting Vision 施加恐懼。{{FC2_IMAGE_11}} Demonic Pact 的物理 Damage 加成效果偏低，評價微妙。',
+  PTに物理職がいるならや: '如果隊伍裡有物理職，使用',
+  'Blood Fire を使い、耐久に不安があるなら': 'Blood Fire；如果生存壓力大，就用',
+  'Panic Strike や': 'Panic Strike 或',
+  'Haunting Vision で恐怖をかける。': 'Haunting Vision 施加恐懼。',
+  'Demonic Pact の物理ダメージボーナスは効果が低く微妙。':
+    'Demonic Pact 的物理 Damage 加成效果偏低，評價微妙。',
   'PTにエンチャンターがいるなら {{FC2_IMAGE_12}} Explosive Plague や {{FC2_IMAGE_13}} Curse of Shadows の使い勝手がいいのでばらまくといい。その後はそこに {{FC2_IMAGE_14}} Venom Bolt を連打する。':
     '如果隊伍裡有附魔師，{{FC2_IMAGE_12}} Explosive Plague 與 {{FC2_IMAGE_13}} Curse of Shadows 都很好用，可以先散布出去；之後再對那些敵人連打 {{FC2_IMAGE_14}} Venom Bolt。',
   '自身のヘルスが危なくなったら {{FC2_IMAGE_15}} Drain Soul で全回復できる。':
     '自己 Health 危險時，可以用 {{FC2_IMAGE_15}} Drain Soul 完全回復。',
+  自身のヘルスが危なくなったら: '自己 Health 危險時，可以用',
+  'Drain Soul で全回復できる。': 'Drain Soul 完全回復。',
   PTにエンチャンターがいるなら: '如果隊伍裡有附魔師，',
   'Explosive Plague や': 'Explosive Plague 和',
   'Curse of Shadows の使い勝手がいいのでばらまくといい。その後はそこに':
@@ -1233,7 +1280,44 @@ const MANUAL_TRANSLATIONS = {
   'Mastery: オーギュリーの効果: Deliverance のクールタイムはランク11で15.6s程度、ランク20で9.5s程度と長め。':
     'Mastery: Augury 的效果會縮短 Deliverance 冷卻時間；Rank 11 約 15.6 秒，Rank 20 約 9.5 秒，仍然偏長。',
   'King of Riven Grotto (ヒロイック) の周回を想定した対アンデッド装備。':
-    '以英雄（Heroic）King of Riven Grotto 周回為想定的對不死生物裝備。',
+    '這是以周回英雄（Heroic）King of Riven Grotto 為假想目標的對不死生物裝備。',
+  '氷型なら Frostreaver / Frost Rift、毒型なら Witch Doctor / Poison Bolt で揃える。':
+    '冰冷型就湊 Frostreaver / Frost Rift，毒素型就湊 Witch Doctor / Poison Bolt。',
+  'シャーマンは火力が低いので、少しでも補うためにセットを崩し、アンデッド特攻を持つ Cryptic Paragon 二刀流にしている。この状態での Superior Frost Rift / Poison Bolt のランク29維持（+4）を目指す。':
+    '薩滿本身輸出偏低，所以這裡為了稍微補強火力，拆掉套裝並改成雙持帶不死生物特攻的 Cryptic Paragon。目標是在這個狀態下維持 Superior Frost Rift / Poison Bolt Rank 29（需要 +4）。',
+  '29維持に使う部位は武器・ネックレス・指輪であり、腰の72メイル紫 Spectral Nether Strap を採用するのもいい。':
+    '用來維持 Rank 29 的部位是武器、項鍊與戒指；腰帶也可以考慮 72 級鎖甲獨特 Spectral Nether Strap。',
+  '毒型の場合、右手武器は効果: Poison Nova のクールに合わせて選択し、毎振り効果が発動するようにする。':
+    '毒素型時，右手武器要配合效果：Poison Nova 的冷卻時間挑選，讓每次揮擊都能觸發效果。',
+  'パーティに速度バフを持つバード（+20～30%）やレンジャー（+20%）がいるならスピード2.3～2.6の Cryptic Paragon のままでいいが、いないならスピード1.7の自職セット武器 Swiftraven\'s Bloodletter をつけるといい。':
+    "如果隊伍裡有帶速度 Buff 的吟遊詩人（+20～30%）或遊俠（+20%），維持速度 2.3～2.6 的 Cryptic Paragon 即可；如果沒有，建議改用速度 1.7 的本職套裝武器 Swiftraven's Bloodletter。",
+  '耐性が低くなるため、腕と太腿は耐性目的でウォーロックセットの Noik\'s Graft と、エンチャンターセットの Zamtil\'s Plenitude を採用している。Noik\'s Graft は毒削減がついているので毒型には嬉しい。':
+    "因為抗性會偏低，護腕與腿甲採用術士套裝的 Noik's Graft、附魔師套裝的 Zamtil's Plenitude 來補抗性。Noik's Graft 帶毒素抗性降低，對毒素型也很有幫助。",
+  '火力に寄せるなら、腕は67布紫の Armbands of the Crypt、太腿は33メイル紫の Haunted Wail や49メイル紫の Favor of Fortune にアンデッド強化がついているため、そちらもオススメ。':
+    "如果想更偏輸出，護腕推薦 67 級布甲獨特 Armbands of the Crypt；腿甲則可用帶不死生物強化的 33 級鎖甲獨特 Haunted Wail 或 49 級鎖甲獨特 Favor of Fortune。",
+  'スキル強化が一致すれば73メイル紫の Vaillanrathe Legplates も太腿でレアドロが稼げて良い感じ。':
+    '如果技能強化剛好對上，73 級鎖甲獨特 Vaillanrathe Legplates 也能在腿甲部位補 Rare Drop Rate，感覺不錯。',
+  '自身が火力を出そうと思うと': '自身若要打出傷害，',
+  'テンプラーが必要となるが、バフは物理職と相性がいい。':
+    '會需要聖殿騎士支援；不過薩滿的 Buff 與物理職業相性很好。',
+  ダンジョンに入ったらまず: '進入地城後，先施放',
+  'Vampiric Allure と': 'Vampiric Allure 與',
+  'Boreal Talisman をキャストし、後に': 'Boreal Talisman，之後再施放',
+  'Mystical Glow をキャストする。以後': 'Mystical Glow。之後',
+  'Mystical Glow は戦闘終了毎にキャストしておくとよい。':
+    'Mystical Glow 建議每場戰鬥結束後補一次。',
+  戦闘は: '戰鬥時',
+  'Devouring Swarm をかけたら、あとは': 'Devouring Swarm，之後只要連打',
+  'Frost Rift もしくは': 'Frost Rift 或',
+  'Poison Bolt を連打するだけ。': 'Poison Bolt。',
+  'Rampage や Bloodlusted といった強力なモンスター相手には':
+    '面對 Rampage 或 Bloodlusted 等強力怪物時，',
+  'Glacial Shard の凍結が有効だ。': 'Glacial Shard 的凍結很有效。',
+  '詠唱速度を高速化させるバフが特徴的で、いろんなことができるけど器用貧乏とも言える。':
+    '聖殿騎士的特色是能提高施法速度的 Buff；能做的事情很多，但也可以說是萬能但不專精。',
+  '魔法職との相性がいいが自身の火力は控えめ。エンチャンターがいれば物理職との相性も悪くない。':
+    '和魔法職業相性很好，但自身火力偏低；如果隊伍裡有附魔師，和物理職業搭配也不差。',
+  'で、クラスカラーは オレンジ色。': '，職業代表色是橙色。',
   '才能ツリーは Arbiter を集め、スキルは Condemnation を集める。Superior Condemnation の回数増加はセットの才能を最高値で揃えれば自然と達成できる。':
     '天賦樹目標是 Arbiter，技能加成目標是 Condemnation。只要把套裝上的天賦 roll 盡量湊到最高值，Superior Condemnation 的攻擊次數增加自然就能達成。',
   'Fanatic 2セットはアンデッド15%を得られる。': 'Fanatic 2 件效果提供 +15% 對不死生物傷害。',

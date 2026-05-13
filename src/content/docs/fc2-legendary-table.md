@@ -6,14 +6,14 @@ sourcePages:
     title: "レジェンダリー | Nevergrind Online 攻略DB"
     url: "https://atelier3.web.fc2.com/ngo/legendary.html"
     lastModified: "Sun, 19 Apr 2026 22:30:01 GMT"
-reviewedAt: "2026-05-09"
+reviewedAt: "2026-05-13"
 sourceLastModified: "Sun, 19 Apr 2026 22:30:01 GMT"
 status: "FC2 原站高保真繁中化"
 ---
 
 本頁由 FC2 / atelier3 原站 HTML 重新擷取後繁中化，保留原頁段落、清單、表格欄位與數值；FC2 內容圖片已本地鏡像，CSS、JavaScript 與追蹤圖不搬入公開站。
 
-- 檢視日期：`2026-05-09`
+- 檢視日期：`2026-05-13`
 - FC2 來源頁數：1
 - 翻譯策略：職業、屬性、難度、天賦與符文採中文優先；英文 item / skill / boss / map 查詢詞按需保留。
 - 內容狀態：由 FC2 原站正文生成，不使用舊版摘要句。
