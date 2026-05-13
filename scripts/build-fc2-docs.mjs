@@ -984,6 +984,21 @@ const MANUAL_TRANSLATIONS = {
     'Exceptional Set 的 Falzain 只要加上護腕，就能取得 3 件效果的 45% Rare Drop Rate。',
   '背中は各エリートセットがどれも優秀で、ダメージ・耐性・レアドロ・クリティカルの観点から好きに選ぶ。':
     '背部方面，各 Elite Set 都很優秀，可依 Damage、抗性、Rare Drop Rate、暴擊等需求自由選擇。',
+  'クマになるやつ。高い火力を出しながらクールタイム0のヒールまで回せる優秀なクラス。':
+    '會變成熊的那位。能一邊打出高火力，一邊使用 0 冷卻時間的治療，是很優秀的職業。',
+  '殴りが地味に強く、それに加えてスペルの短クール・高速キャストによりDPSを稼ぎやすい。':
+    '普攻其實相當強，再加上法術冷卻短、施法快，很容易堆出 DPS。',
+  'で、クラスカラーは 明るい黄緑色。': '，職業代表色是明亮的黃綠色。',
+  'Superior Lightning Blast / Blizzard はターゲット増加の19調整。':
+    'Superior Lightning Blast / Blizzard 調整到 Rank 19，取得目標數增加。',
+  'Mastery 前提となる41までは Lightning Blast に振った。氷とはいえ Blizzard の伸びは微妙そうだった。':
+    '到取得 Mastery 前置所需的 41 點為止，我把點數投到 Lightning Blast。Blizzard 雖然是冰冷技能，但成長看起來比較微妙。',
+  'Tornado は29でボーナスヒットが+4、39で+5となる。':
+    'Tornado 在 Rank 29 時 bonus hit +4，Rank 39 時 bonus hit +5。',
+  'Tornado は Superior ではなく、通常の方に回数増加があるので注意。':
+    '請注意，Tornado 不是 Superior 版本，而是普通版本會增加攻擊次數。',
+  '以降のポイントは Mastery: コディアック スピリットに入れていく。':
+    '之後的點數投入 Mastery: Kodiak Spirit。',
   '死神になるやつ。ポイズンショックによる割合ダメージが強力で、デバフや恐怖付与も優秀。':
     '會變成死神的那一位。Poison Shock 的百分比傷害很強，減益與恐懼效果也很優秀。',
   '戦闘の前半に大きくダメージを稼ぐことが得意で、ヘルスの高いモンスターならより効果的。':
@@ -1015,6 +1030,23 @@ const MANUAL_TRANSLATIONS = {
     '這個 build 主要適合 5 人 PT 的 Heroic；如果敵人數量少、敵人 Health 偏低，或 Plague 等級嚴重不足，改以 Demi Lich 的 Death Toll 為核心會比較好。',
   '才能ツリーは Plaguebearer を集め、スキルは Venom Bolt や Engulfing Darkness を集める。':
     '天賦樹加成收集 Plaguebearer，技能加成收集 Venom Bolt 與 Engulfing Darkness。',
+  '他には Stormcaller +3の盾や、頭でいえば48革紫 Tortoise Shell Helmet、64革紫 Rephaim\'s Kepi、67革紫 Hebron\'s Coifなど。腰では 65革紫 Thotthi\'s Sash などで達成できる。':
+    "其他可用 Stormcaller +3 盾牌；頭部則有 48 級皮甲獨特 Tortoise Shell Helmet、64 級皮甲獨特 Rephaim's Kepi、67 級皮甲獨特 Hebron's Coif 等。腰帶則可用 65 級皮甲獨特 Thotthi's Sash 等來達成。",
+  'Synthesize と': 'Synthesize 與',
+  'Branch Spirit をキャストし、落ち着いたくらいのタイミングで': 'Branch Spirit，等節奏穩定後再施放',
+  'Moss Breath をキャストしよう。この時、面倒でなければバフ前に Superior Branch Spirit ブースト装備に付け替えておき、バフ後に普段の装備に戻すことで、通常攻撃の火力が1.5倍くらいになり大きくDPSを稼げる。':
+    'Moss Breath。若不嫌麻煩，可以在 Buff 前換上 Superior Branch Spirit 加成裝，Buff 後再切回平常裝備；普通攻擊火力大約能提高 1.5 倍，DPS 會明顯增加。',
+  戦闘中は: '戰鬥中依序使用',
+  'Tornado、': 'Tornado、',
+  'Lightning Blast、': 'Lightning Blast、',
+  'Blizzardをクールタイムが明けた順に押していくだけ。': 'Blizzard，哪個冷卻結束就先按哪個。',
+  'クマパンチもけっこう良いダメージを出すので、なるべく前衛から倒していこう。':
+    '熊拳也能打出相當不錯的傷害，所以盡量從前排敵人開始處理。',
+  '攻撃の合間に HP が減った味方に': '攻擊空檔，對 HP 降低的隊友施放',
+  "Nature's Touch をかけて回復。忙しい時はほぼ画面下だけ見て殴ってる。":
+    "Nature's Touch 回復。忙的時候幾乎只看畫面下方血條，一邊補一邊打。",
+  戦闘が終わったら: '戰鬥結束後施放',
+  'Moss Breath をキャストして、次の戦闘に備える。': 'Moss Breath，為下一場戰鬥做準備。',
   '1.5武器のおすすめは64紫刺突の Hellspike。ただしスピード1.4のものは採用できないので厳選が必要。':
     '推薦的 1.5 速度武器是 64 級獨特刺擊 Hellspike。不過速度 1.4 的版本不能用，需仔細挑選。',
   '20%バフ時はスピード1.9武器が理想で、Procyon\'s Fragment が該当する。':
@@ -1174,7 +1206,7 @@ const MANUAL_TRANSLATIONS = {
     '能對不死生物打出強力傷害，同時也能負責治療與防禦系 Buff 的職業。',
   'なんかもうこのゲームにヒーラーの概念なくて、こいつDPSでしょ感ある。ソロ性能も高い。':
     '總覺得這遊戲到後期已經不太有純補師的概念；牧師更像能補的 DPS，單刷能力也很高。',
-  'アイコンは': '圖示為',
+  'アイコンは': '圖示是',
   'で、クラスカラーは 黄色。': '，職業代表色是黃色。',
   'オフェンス、ディフェンス、片手鈍器、素手、両手鈍器、二刀流、回避、Alteration、Conjuration、Evocation':
     '攻擊、防禦、單手鈍器、空手、雙手鈍器、雙持、閃避、Alteration、Conjuration、Evocation',

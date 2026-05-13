@@ -629,11 +629,11 @@ Set 戒指理想上要有 Mastery: Herald +2；如果可能，兩枚戒指都希
 - FC2 file：[druid.html](https://atelier3.web.fc2.com/ngo/druid.html)
 - 原站 Last-Modified：`Fri, 11 Apr 2025 10:10:16 GMT`
 
-那個會變成熊的。一個優秀的職業，可以用於0冷卻時間的治療，同時產生高火力。
+會變成熊的那位。能一邊打出高火力，一邊使用 0 冷卻時間的治療，是很優秀的職業。
 
-他的拳頭相當強勁，而且他的法術冷卻時間短，施法速度快，容易獲得DPS。
+普攻其實相當強，再加上法術冷卻短、施法快，很容易堆出 DPS。
 
-圖示為![DRU.png](/fc2-assets/ngo/img/DRU.png)該職業的代表色是明亮的黃綠色。
+圖示是 ![DRU.png](/fc2-assets/ngo/img/DRU.png)，職業代表色是明亮的黃綠色。
 
 Set 裝備：Vagrant / Starcaller / Nylith
 
@@ -675,15 +675,15 @@ Rapid Attack：武器自動攻擊會變快。
 
 ![t3.jpg](/fc2-assets/ngo/img/c/dru/t3.jpg)
 
-高級閃電衝擊/暴雪有 19 個目標增加調整。
+Superior Lightning Blast / Blizzard 調整到 Rank 19，取得目標數增加。
 
-高達41，這是Mastery的先決條件，是在閃電衝擊上施放的。雖然天寒地凍，但暴雪的成長卻顯得微弱。
+到取得 Mastery 前置所需的 41 點為止，我把點數投到 Lightning Blast。Blizzard 雖然是冰冷技能，但成長看起來比較微妙。
 
-龍捲風在 29 時額外命中 +4，在 39 時額外命中 +5。
+Tornado 在 Rank 29 時 bonus hit +4，Rank 39 時 bonus hit +5。
 
-請注意，龍捲風並不高級，但次數增加，屬正常現象。
+請注意，Tornado 不是 Superior 版本，而是普通版本會增加攻擊次數。
 
-以下幾點將被納入Mastery：科迪亞克精神。
+之後的點數投入 Mastery: Kodiak Spirit。
 
 <a id="fc2-druid-hdl3"></a>
 
@@ -723,21 +723,21 @@ Rapid Attack：武器自動攻擊會變快。
 
 如果出在左手 Cryptic Paragon 或 Set 項鍊上，就能漂亮解決。
 
-其他包括風暴召喚者 +3 盾牌、48 龜甲頭盔、64 龜甲利菲姆的科皮和 67 龜甲希伯倫的頭巾。對於腰帶，這可以透過 65 Thotthi's Sash 等物品來實現。
+其他可用 Stormcaller +3 盾牌；頭部則有 48 級皮甲獨特 Tortoise Shell Helmet、64 級皮甲獨特 Rephaim's Kepi、67 級皮甲獨特 Hebron's Coif 等。腰帶則可用 65 級皮甲獨特 Thotthi's Sash 等來達成。
 
 <a id="fc2-druid-hdl4"></a>
 
 ### 操作與打法
 
-進入地城後，先施放![10.png](/fc2-assets/ngo/img/c/dru/10.png)合成和![11.png](/fc2-assets/ngo/img/c/dru/11.png)我施放了枝之靈，當我平靜下來時，![9.png](/fc2-assets/ngo/img/c/dru/9.png)施展苔蘚呼吸。這時候如果不麻煩的話，可以在buff之前換成上級枝靈增幅裝備，在buff之後再變回普通裝備，普通攻擊的火力會增加1.5倍左右，可以獲得大量的DPS。
+進入地城後，先施放 ![10.png](/fc2-assets/ngo/img/c/dru/10.png) Synthesize 與 ![11.png](/fc2-assets/ngo/img/c/dru/11.png) Branch Spirit，等節奏穩定後再施放 ![9.png](/fc2-assets/ngo/img/c/dru/9.png) Moss Breath。若不嫌麻煩，可以在 Buff 前換上 Superior Branch Spirit 加成裝，Buff 後再切回平常裝備；普通攻擊火力大約能提高 1.5 倍，DPS 會明顯增加。
 
-戰鬥中![7.png](/fc2-assets/ngo/img/c/dru/7.png)Tornado、![2.png](/fc2-assets/ngo/img/c/dru/2.png)Lightning Blast、![3.png](/fc2-assets/ngo/img/c/dru/3.png)只需按照冷卻時間結束的順序按暴雪即可。
+戰鬥中依序使用 ![7.png](/fc2-assets/ngo/img/c/dru/7.png) Tornado、![2.png](/fc2-assets/ngo/img/c/dru/2.png) Lightning Blast、![3.png](/fc2-assets/ngo/img/c/dru/3.png) Blizzard，哪個冷卻結束就先按哪個。
 
-熊拳也能造成相當不錯的傷害，所以盡量從前線擊敗它。
+熊拳也能打出相當不錯的傷害，所以盡量從前排敵人開始處理。
 
-對於攻擊之間 HP 減少的盟友。![8.png](/fc2-assets/ngo/img/c/dru/8.png)應用自然之觸來恢復。當我很忙的時候，我大多只是看著螢幕底部然後打卡。
+攻擊空檔，對 HP 降低的隊友施放 ![8.png](/fc2-assets/ngo/img/c/dru/8.png) Nature's Touch 回復。忙的時候幾乎只看畫面下方血條，一邊補一邊打。
 
-當戰鬥結束時![9.png](/fc2-assets/ngo/img/c/dru/9.png)施展苔蘚吐息，為下一場戰鬥做好準備。
+戰鬥結束後施放 ![9.png](/fc2-assets/ngo/img/c/dru/9.png) Moss Breath，為下一場戰鬥做準備。
 
 <a id="fc2-enchanter"></a>
 

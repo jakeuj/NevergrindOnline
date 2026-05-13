@@ -118,6 +118,12 @@ const FC2_CLASS_BUILD_INDEX_TERMINOLOGY_PATTERNS = [
   /持久敵人|如果PT有物理專業|恐慌罷工|鬼魂幻象|健康受到威脅|施放褻瀆之靈/,
 ];
 
+const FC2_DRUID_TERMINOLOGY_PATTERNS = [
+  /0冷卻時間的治療|他的拳頭|高級閃電衝擊|高達41|天寒地凍|科迪亞克/,
+  /龜甲頭盔|利菲姆的科皮|希伯倫的頭巾|合成和|枝之靈|苔蘚呼吸|苔蘚吐息/,
+  /上級枝靈|冷卻時間結束的順序按暴雪|前線擊敗|螢幕底部然後打卡/,
+];
+
 const FC2_PROCYON_TERMINOLOGY_PATTERNS = [
   /南河三號|Procyon's セット|対 Humanoid/,
   /盜賊\s+(?:才能|天賦|天賦樹)/,
@@ -355,6 +361,17 @@ for (const doc of docs) {
       for (const pattern of FC2_CRUSADER_TERMINOLOGY_PATTERNS) {
         if (pattern.test(crusaderContent)) {
           problems.push(`${doc} still contains FC2 class-build terminology drift matching ${pattern}.`);
+        }
+      }
+
+      const druidContent = sectionBetween(
+        qualityContent,
+        '<a id="fc2-druid"></a>',
+        '<a id="fc2-enchanter"></a>',
+      );
+      for (const pattern of FC2_DRUID_TERMINOLOGY_PATTERNS) {
+        if (pattern.test(druidContent)) {
+          problems.push(`${doc} still contains FC2 druid terminology drift matching ${pattern}.`);
         }
       }
 
