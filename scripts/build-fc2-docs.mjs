@@ -984,12 +984,57 @@ const MANUAL_TRANSLATIONS = {
     'Exceptional Set 的 Falzain 只要加上護腕，就能取得 3 件效果的 45% Rare Drop Rate。',
   '背中は各エリートセットがどれも優秀で、ダメージ・耐性・レアドロ・クリティカルの観点から好きに選ぶ。':
     '背部方面，各 Elite Set 都很優秀，可依 Damage、抗性、Rare Drop Rate、暴擊等需求自由選擇。',
+  '死神になるやつ。ポイズンショックによる割合ダメージが強力で、デバフや恐怖付与も優秀。':
+    '會變成死神的那一位。Poison Shock 的百分比傷害很強，減益與恐懼效果也很優秀。',
+  '戦闘の前半に大きくダメージを稼ぐことが得意で、ヘルスの高いモンスターならより効果的。':
+    '擅長在戰鬥前半段打出大量傷害，對高 Health 怪物特別有效。',
+  'アイコンは {{FC2_IMAGE_0}} で、クラスカラーは 暗い紫色。':
+    '圖示是 {{FC2_IMAGE_0}}，職業代表色是深紫色。',
+  'ポイズンショック … 円状に並んだ5体の対象に対して、現在のヘルスの20%ぶんの割合毒ダメージを与える':
+    'Poison Shock：對圓形範圍內排列的 5 個目標，造成相當於目前 Health 20% 的毒素比例傷害。',
+  'クレセントストライク … Lich Form 使用時、通常攻撃が円状に並んだ対象に多段ヒットする近接攻撃に変化する':
+    'Crescent Strike：使用 Lich Form 時，普通攻擊會變成近戰攻擊，對圓形範圍內的多個目標連續命中。',
+  'まず最も重要である Mastery: 疫病に関して解説する。':
+    '先說明最重要的 Mastery: Plague。',
+  '疫病に含まれるポイズンショックはクールタイムが明けると確定で発動する効果であり、ランクをあげるにつれクールタイムが減少する。このクールタイムと右手武器のスピードを調整し、ポイズンショックが毎振り発動する状態を目指すことがウォーロックの基本となる。':
+    'Plague 內建的 Poison Shock 是冷卻結束後就會保證觸發的效果；Rank 越高，冷卻時間越短。術士的基本思路，是調整這個冷卻時間與右手武器速度，讓 Poison Shock 每次揮擊都能觸發。',
+  疫病ランク: 'Plague Rank',
+  'おそらく効果のグローバルクールタイムが1.5に設定されており、25以上にしても効果がない。':
+    '推測效果本身的 global cooldown 是 1.5 秒，因此 Plague 提到 25 以上也不會再縮短。',
+  'そんなわけで基本的に疫病は25あればよく、メイン武器を速度優先の刺突に換えた場合に才能が-2されるため、それに備えた27が調整の目安となる。これを超えるようなら疫病のポイントは削ってもよい。':
+    '所以 Plague 基本上有 25 就夠；若把主武器換成速度優先的刺擊武器，天賦會少 2 點，因此以 27 作為調整基準。超過這個門檻時，可以把 Plague 點數挪到別處。',
   'Superior Venom Bolt と Superior Panic Strike は回数増加の19調整にしてある。':
     'Superior Venom Bolt 與 Superior Panic Strike 都調整到 Rank 19，取得攻擊次數增加。',
   'Engulfing Darkness のポイントは他に割り振ってもよく、Superior Venom Bolt の29を踏めそうなら、Venom Bolt に軸を置いてもいいだろう。また Panic Strike のポイントも自由枠。':
     'Engulfing Darkness 的點數也可以分配到其他地方；如果看起來能把 Superior Venom Bolt 撐到 29，也可以改以 Venom Bolt 為核心。另外 Panic Strike 的點數也是自由欄位。',
+  'この後のポイントは Icing Death 2種に1ずつ（好み）、残りを体力がおすすめ。':
+    '之後剩餘點數建議 Icing Death 兩種各點 1（依喜好），其餘投入耐力。',
+  'Mastery: 死神の通行料の効果: Icing Death はポイズンショックの毎振り調整ができていると、左ツリー優先発動の法則で発動しなくなる。なのでそこまで Icing Death の価値は高くない。':
+    'Mastery: Death Toll 的效果：Icing Death，在 Poison Shock 已調整到每次揮擊都會觸發時，會因左側天賦樹優先觸發規則而不再觸發。因此 Icing Death 的價值沒有那麼高。',
+  'なおこのビルドが活きるのは5人PTヒロイックであり、敵の数が少なかったり敵のヘルスが少ない、あとは疫病レベルが大きく不足している場合などはDemi Lichの死神の通行料を軸にした方がいい。':
+    '這個 build 主要適合 5 人 PT 的 Heroic；如果敵人數量少、敵人 Health 偏低，或 Plague 等級嚴重不足，改以 Demi Lich 的 Death Toll 為核心會比較好。',
   '才能ツリーは Plaguebearer を集め、スキルは Venom Bolt や Engulfing Darkness を集める。':
     '天賦樹加成收集 Plaguebearer，技能加成收集 Venom Bolt 與 Engulfing Darkness。',
+  '1.5武器のおすすめは64紫刺突の Hellspike。ただしスピード1.4のものは採用できないので厳選が必要。':
+    '推薦的 1.5 速度武器是 64 級獨特刺擊 Hellspike。不過速度 1.4 的版本不能用，需仔細挑選。',
+  '20%バフ時はスピード1.9武器が理想で、Procyon\'s Fragment が該当する。':
+    "有 20% 速度 Buff 時，理想是速度 1.9 武器，Procyon's Fragment 正好符合。",
+  '太腿と靴は耐性稼ぎ。耐性に余裕があれば靴は50革紫の Trek of Glory でレアドロ。手と靴をドルイドセットの Nylith 2セットにするのも面白く、耐性・レアドロのバランスがいいまま体力を大きく稼げる。':
+    '腿甲與靴子用來補抗性。抗性足夠時，靴子可換 50 級皮甲獨特 Trek of Glory 來補 Rare Drop Rate。手套與靴子也可以考慮德魯伊套裝 Nylith 2 件，能在維持抗性與 Rare Drop Rate 平衡的同時，大幅補耐力。',
+  '2つ目の指輪は自由枠。いい感じの Noik\'s Pact を拾えたらつけよう。':
+    "第二顆戒指是自由欄位；如果撿到不錯的 Noik's Pact，就裝上去。",
+  'ダンジョンに入ったら {{FC2_IMAGE_5}} Lich Form と {{FC2_IMAGE_6}} Profane Spirit をキャストする。この時、面倒でなければバフ前に Superior Lich Form ブースト装備に付け替えておき、バフ後に普段の装備に戻すことで、通常攻撃の火力が1.5倍くらいになり大きくDPSを稼げる。':
+    '進入地城後，先施放 {{FC2_IMAGE_5}} Lich Form 與 {{FC2_IMAGE_6}} Profane Spirit。若不嫌麻煩，可以在 Buff 前換上 Superior Lich Form 加成裝，Buff 後再切回平常裝備；普通攻擊火力大約能提高 1.5 倍，DPS 會明顯增加。',
+  '戦闘が始まったら、誰より先に敵中央へと {{FC2_IMAGE_7}} Engulfing Darkness を叩き込み、ポイズンショックを狙おう。':
+    '戰鬥開始後，搶先往敵群中央打入 {{FC2_IMAGE_7}} Engulfing Darkness，瞄準 Poison Shock 觸發。',
+  'その後、チャンピオンモンスターなど耐久の多い敵がまとまっているところに狙いを変えつつ、デバフをかける。':
+    '接著把目標轉向 Champion 等高耐久敵人聚集的位置，順手套上減益。',
+  'PTに物理職がいるならや {{FC2_IMAGE_8}} Blood Fire を使い、耐久に不安があるなら {{FC2_IMAGE_9}} Panic Strike や {{FC2_IMAGE_10}} Haunting Vision で恐怖をかける。 {{FC2_IMAGE_11}} Demonic Pact の物理ダメージボーナスは効果が低く微妙。':
+    '如果隊伍裡有物理職，使用 {{FC2_IMAGE_8}} Blood Fire；如果生存壓力大，就用 {{FC2_IMAGE_9}} Panic Strike 或 {{FC2_IMAGE_10}} Haunting Vision 施加恐懼。{{FC2_IMAGE_11}} Demonic Pact 的物理 Damage 加成效果偏低，評價微妙。',
+  'PTにエンチャンターがいるなら {{FC2_IMAGE_12}} Explosive Plague や {{FC2_IMAGE_13}} Curse of Shadows の使い勝手がいいのでばらまくといい。その後はそこに {{FC2_IMAGE_14}} Venom Bolt を連打する。':
+    '如果隊伍裡有附魔師，{{FC2_IMAGE_12}} Explosive Plague 與 {{FC2_IMAGE_13}} Curse of Shadows 都很好用，可以先散布出去；之後再對那些敵人連打 {{FC2_IMAGE_14}} Venom Bolt。',
+  '自身のヘルスが危なくなったら {{FC2_IMAGE_15}} Drain Soul で全回復できる。':
+    '自己 Health 危險時，可以用 {{FC2_IMAGE_15}} Drain Soul 完全回復。',
   PTにエンチャンターがいるなら: '如果隊伍裡有附魔師，',
   'Explosive Plague や': 'Explosive Plague 和',
   'Curse of Shadows の使い勝手がいいのでばらまくといい。その後はそこに':

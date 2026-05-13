@@ -114,6 +114,8 @@ const FC2_CLASS_BUILD_INDEX_TERMINOLOGY_PATTERNS = [
   /雷德羅|稀有抽籤|Lair Dro|向京|分散斗篷|附身天賦/,
   /防護臂|保護臂|亡靈土堡|法爾贊(?:·天使)?|江湖騙子紋章|黑天鵝樂團/,
   /毒液箭|高級閃電和Mastery|Mastery：毀滅|突擊等角度/,
+  /聖擊牧師|毒震|魔法師的基礎就是調整右手披風|冰死|Mastery：死神降臨|半巫妖的死神之災/,
+  /持久敵人|如果PT有物理專業|恐慌罷工|鬼魂幻象|健康受到威脅|施放褻瀆之靈/,
 ];
 
 const FC2_PROCYON_TERMINOLOGY_PATTERNS = [
