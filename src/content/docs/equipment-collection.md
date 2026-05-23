@@ -97,6 +97,7 @@ Nevergrind Online 的裝備收集不是只把顏色往上換，而是把「稀�
 | `Charlatan's Crest` / Shako | `All Talents`、屬性傷害與高 MF 類 farm 頭部目標 | [Unique Items](./unique-items/#unique-keywords) |
 | `Demetrium's Ballista` | FC2 set 頁列為 `Socketed (1-6)`；若 roll 到高 sockets，即使低等也可能成為物理職 ranged slot 工具裝 | [Set Items](./set-items/#set-notable-pieces) |
 | `Stormcaller Bow` | FC2 loot 頁把最高 socket roll 的 `Stormcaller Bow` 列為 Normal unique / set bow 裡值得帶回的例外；若剛好補 talents 或 rune space，先比較再賣 | [Unique Items](./unique-items/) |
+| FC2 倉庫保留清單 | 依職業 build 裝備例整理固定裝備名，另有低階優先速查，方便先找 Normal / Exceptional 中容易被誤賣的工具裝與過渡件 | [FC2 職業畢業裝倉庫保留清單](./fc2-class-build-gear-keeper-list/#低階優先保留速查) |
 | FC2 嚴選 Unique 速查 | FC2 `各職の厳選ユニーク` 頁整理了各職值得先留的 Unique / 特殊單件，包含 weapon breakpoint、class talent、skill enhancement、rare drop、主屬性與抗性用途 | [FC2 各職嚴選 Unique 裝備速查](./fc2-selected-unique-items/) |
 | Elite amulet / ring / charm | gambling、跨職業與長期保留價值高 | [賭博（Gambling）指南](./gambling/) |
 | Superior / Ethereal socketed base | Mythical / Rune Words 的核心素材 | [素材選擇優先級](./blacksmith-crafting-recipe-research/#crafting-base-selection) |
