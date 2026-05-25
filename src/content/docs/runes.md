@@ -6,16 +6,16 @@ sourcePages:
     title: "ルーンの選び方 | Nevergrind Online 攻略DB"
     url: "https://atelier3.web.fc2.com/ngo/runeselect.html"
     lastModified: "Mon, 19 May 2025 15:41:38 GMT"
-reviewedAt: "2026-05-05"
+reviewedAt: "2026-05-26"
 sourceLastModified: "Mon, 19 May 2025 15:41:38 GMT"
 status: "整理改寫"
 ---
 
 `Runes` 是 Nevergrind Online 後期裝備客製化的核心：有 sockets 的裝備可以透過 [鐵匠鋪（Blacksmith）](./blacksmith/) 的 enchanting / crafting 相關功能加入 rune bonus，把「好裝」推成更明確服務於 build 的核心裝。鑲嵌前先想清楚這件裝備會穿多久，因為符文通常不是拿來補一件很快會被換掉的過渡裝。
 
-- 檢視日期：`2026-05-05`
+- 檢視日期：`2026-05-26`
 - 前置閱讀：[Nevergrind Online 物品與戰利品總覽](./items-loot/)
-- 資料來源：來源摘要、SteamDB patch notes、Nevergrind Online 日文 wiki rune list、FC2 / atelier3 攻略 DB rune、rune select、craft、set 與 unique 頁
+- 資料來源：來源摘要、SteamDB patch notes、Nevergrind Online 日文 wiki rune list、FC2 / atelier3 攻略 DB rune、rune select、craft、set 與 unique 頁、遊戲內 `Thex Rune` tooltip 截圖
 - 版本提醒：符文效果、可鑲嵌部位、是否可取下、是否可升級，可能會隨 crafting 系統更新；點確認前請以目前遊戲內 UI 和 tooltip 為準
 
 > **快速重點**
@@ -127,19 +127,20 @@ FC2 的 `Demetrium` set 頁把 `Demetrium's Ballista` 列為 `Socketed (1-6)`。
 
 ## 跨職業經驗值升級套裝
 
-如果要做一套給分身輪流穿的經驗值升級裝，核心不是追單件裝備名稱，而是找「多職業可穿、sockets 夠多、等級需求合理」的 base，再放入 `Thex`。FC2 rune 表列出 `Thex` 的武器效果是 `+10% 經驗值取得率`；同表也註明兩手武器套用武器數值時會加倍，弓視為兩手武器，盾牌視為防具。因此實際加成要以目前裝備 tooltip 為準，不要用所有 socket 都乘上 10% 來硬算。
+如果要做一套給分身輪流穿的經驗值升級裝，核心不是追單件裝備名稱，而是找「多職業可穿、sockets 夠多、等級需求合理」的 weapon / `Charm` base，再放入 `Thex`。遊戲內 `Thex Rune` tooltip 顯示，單手武器與 `Charm`（護身符）是 `+10% 經驗值取得率`，雙手武器是 `+20% 經驗值取得率`，但盾牌套用的是防具效果 `+15% 最大法力`。因此盾牌不能當經驗值加成來源；實際加成也要以目前裝備 tooltip 為準，不要用所有 socket 都乘上 10% 來硬算。
 
 | 部位 / 目標 | 優先 base | 讀法 |
 | ------ | ------ | ------ |
 | 主手 | 高 sockets 單手鈍器（`1h Blunt`） | [職業裝備可用性速查](./classes/#職業裝備可用性速查)顯示所有職業都能使用單手鈍器，是最穩的共享主手方向；低等單手武器常見 socket 上限仍有限，要看實際 roll |
-| 副手 | 盾牌、可雙持時的第二把單手鈍器，或 caster off-hand | 盾牌全職業可用且適合 Lv1 過渡，但 `Thex` 在盾牌會走防具效果，重點是生存而不是 XP；若要副手也提供 XP，需確認該職業當下能雙持武器或使用對應 off-hand |
+| 副手 XP 來源 | 可雙持時的第二把單手鈍器、可用的 caster off-hand，或 `Charm`（護身符） | 只有能吃到 weapon / `Charm` tooltip 的副手才適合投入 `Thex`；若是盾牌，`Thex` 只給最大法力，不提供 XP |
+| Lv1 過渡副手 | 盾牌 | 盾牌全職業可用且適合補生存，但不屬於經驗值升級裝的加成來源；不要為了 XP 把高價 `Thex` 塞進盾牌 |
 | Ranged / sub slot | 高 socket bow，特別是 `Demetrium's Ballista` | FC2 `Demetrium` set 頁列為 level 29、`Socketed (1-6)`；若 roll 到高 sockets，物理職可把它當經驗值或打寶工具欄，但不代表每把都 6 sockets |
 | 法系 / 武僧替代 | Charm、caster off-hand、可用的單手鈍器 | 無法使用 bow 的職業要改看自己可裝備的 off-hand 與 charm；socket 數通常比 `Demetrium's Ballista` 保守，實際價值看 roll |
 
 實務順序可以這樣抓：
 
 1. 先準備一把高 socket 單手鈍器，讓最多職業能從主手吃到 `Thex` 的武器效果。
-2. Lv1 或雙持條件未滿前，副手先用盾牌補生存；不要把盾牌上的 `Thex` 當作經驗值加成來源。
+2. Lv1 或雙持條件未滿前，副手可以先用盾牌補生存，但不要把 `Thex` 塞進盾牌期待經驗加成。
 3. 具備雙持或可用 caster off-hand 後，再比較第二把單手武器 / 法器 / charm 是否值得投入 `Thex`。
 4. 物理職若能裝 `Demetrium's Ballista`，高 socket roll 可作為 ranged / sub slot 的經驗值工具裝；武僧和多數施法職要另外找 charm 或可用 off-hand。
 5. 鑲嵌前先檢查 required level、屬性需求、是否會被下一件裝很快替換，以及 `Thex` 的成本是否值得投入這件 base。
