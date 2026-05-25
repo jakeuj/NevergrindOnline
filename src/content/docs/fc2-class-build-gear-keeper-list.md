@@ -29,6 +29,166 @@ status: "整理改寫"
 | 高 socket 工具 | 套裝 / 獨特 / 傳說 | Normal～Exceptional | Demetrium's Ballista、Stormcaller Bow、Olivia's Chains of Fealty | 低等不代表沒用；socket、All Talents 或分身過渡價值比階級更重要。 |
 | Yizeren | 套裝（Set） | 菁英（Elite） | Yizeren's Apocalypse、Censer、Decimation、Majesty、Prestige | 以遊戲內 Yizeren 拼法為準；巫師套裝可先留齊。 |
 
+## 低階優先保留速查
+
+這張表把下方完整清單中的固定裝備名重新排序，方便先掃 `Normal` / `Exceptional` 這類容易被低估的保留候選；Rare 條件裝仍維持在後面的條件欄位。排序依序為階級、稀有度、種類 / 基底、Lv 與名稱。
+
+| 階級 | 稀有度 | Lv | 名稱 | 種類 / 基底 | 使用職業 | 保留重點 |
+| --- | --- | --- | --- | --- | --- | --- |
+| 普通（Normal） | 獨特（Unique） | 39 | Stormcaller Bow | 弓術 / Long War Bow | 十字軍（副手）、暗影騎士（副手） | 低等 bow；高 socket roll 才是主要保留理由。 |
+| 普通（Normal） | 套裝（Set） | 29 | Demetrium's Ballista | 弓術 / Battle Bow | 十字軍（副手）、盜賊（副手）、戰士（副手） | 低等套裝弓術；若 socket roll 高，是 ranged slot / rune space 工具候選。 |
+| 普通（Normal；依等級分段） | 傳說（Legendary） | 30 | Demonslayer | 弓術 / War Bow | 十字軍（副手/弓術；正文替代候選） | 正文替代候選；有目標職或高 roll 再留重複品。 |
+| 普通（Normal；依等級分段） | 傳說（Legendary） | 12 | Olivia's Chains of Fealty | 胴體 / Ring Mail | 戰士（胴體；正文替代候選） | 低等 Legendary 胴體；All Talents、全抗與 Rare Drop Rate 讓它有分身 / 過渡價值。 |
+| 特殊（Exceptional） | 獨特（Unique） | 62 | Fallen Construct | 副手 / Charm | 武僧（副手） | Unique 候選；替代品齊後再清低 roll 重複品。 |
+| 特殊（Exceptional） | 獨特（Unique） | 50 | Attuned Shawl of the Forsaken | 肩部 / Damask Shawl | 德魯伊（肩部；正文替代候選）、附魔師（肩部）、薩滿（肩部）、術士（肩部） | 正文替代候選；有目標職或高 roll 再留重複品。 |
+| 特殊（Exceptional） | 獨特（Unique） | 52 | Adendu's Echelon Gauntlets | 手套 / Poplar Gauntlets | 遊俠（手套） | Unique 候選；替代品齊後再清低 roll 重複品。 |
+| 特殊（Exceptional） | 獨特（Unique） | 53 | Circle of Death | 戒指 | 十字軍（戒指）、遊俠（戒指）、盜賊（戒指）、暗影騎士（戒指）、戰士（戒指） | 跨多職業核心候選；先留高 roll，重複品再比較。 |
+| 特殊（Exceptional） | 獨特（Unique） | 60 | Serpentine Tamga | 戒指 | 術士（戒指） | Unique 候選；替代品齊後再清低 roll 重複品。 |
+| 特殊（Exceptional） | 獨特（Unique） | 61 | Girded Everliving Golem | 戒指 | 武僧（戒指）、遊俠（戒指）、盜賊（戒指）、戰士（戒指） | 三職以上共用；至少先留 1 件，高 roll / 高 socket 優先。 |
+| 特殊（Exceptional） | 獨特（Unique） | 50 | Trek of Glory | 靴子 / Viperskin Boots | 附魔師（靴子）、武僧（靴子）、盜賊（靴子） | 三職以上共用；至少先留 1 件，高 roll / 高 socket 優先。 |
+| 特殊（Exceptional） | 套裝（Set） | 51 | Volaki's Vibrato | 頭部 / Viking Helm | 吟遊詩人（頭部；正文特化候選） | 特化候選；只服務特定 build，確認需求後再長留。 |
+| 特殊（Exceptional） | 套裝（Set） | 48 | Tyranid's Crystal | 副手 / Charm | 術士（副手） | 中期 set / 混搭件；有目標職或 bonus 才留。 |
+| 特殊（Exceptional） | 套裝（Set） | 50 | Falzain's Megiddon | 副手 / Charm | 聖殿騎士（副手） | 中期 set / 混搭件；有目標職或 bonus 才留。 |
+| 特殊（Exceptional） | 套裝（Set） | 51 | Daiyo's Temple | 肩部 / Chamois Shoulders | 盜賊（肩部；正文替代候選） | 正文替代候選；有目標職或高 roll 再留重複品。 |
+| 特殊（Exceptional） | 套裝（Set） | 52 | Fanatic's Gambrel | 肩部 / Cordana Spaulders | 牧師（肩部）、十字軍（肩部） | 中期 set / 混搭件；有目標職或 bonus 才留。 |
+| 特殊（Exceptional） | 套裝（Set） | 50 | Alderon's Dynamo | 肩部 / Damask Shawl | 巫師（肩部） | 中期 set / 混搭件；有目標職或 bonus 才留。 |
+| 特殊（Exceptional） | 套裝（Set） | 50 | Starcaller's Aurora | 肩部 / Nomadic Shoulders | 德魯伊（肩部；正文替代候選） | 正文替代候選；有目標職或高 roll 再留重複品。 |
+| 特殊（Exceptional） | 套裝（Set） | 45 | Sidey's Subtlety | 肩部 / Xenovian Mantle | 盜賊（肩部） | 中期 set / 混搭件；有目標職或 bonus 才留。 |
+| 特殊（Exceptional） | 套裝（Set） | 55 | Alderon's Luster | 背部 / Harmony Pall | 巫師（背部） | 中期 set / 混搭件；有目標職或 bonus 才留。 |
+| 特殊（Exceptional） | 套裝（Set） | 51 | Zarth's Glimmersong | 背部 / Rutland Cloak | 遊俠（背部） | 中期 set / 混搭件；有目標職或 bonus 才留。 |
+| 特殊（Exceptional） | 套裝（Set） | 50 | Scourge's Shade | 背部 / Tulip Chlamys | 牧師（背部）、十字軍（背部）、術士（背部） | 三職以上共用；至少先留 1 件，高 roll / 高 socket 優先。 |
+| 特殊（Exceptional） | 套裝（Set） | 50 | Tyranid's Haunting | 胴體 / Noble Robe | 術士（胴體；正文替代候選） | 正文替代候選；有目標職或高 roll 再留重複品。 |
+| 特殊（Exceptional） | 套裝（Set） | 45 | Scryer's Grimweave | 胴體 / Sharktooth Mail | 薩滿（胴體） | 中期 set / 混搭件；有目標職或 bonus 才留。 |
+| 特殊（Exceptional） | 套裝（Set） | 49 | Fanatic's Sanctuary | 胴體 / Templar Coat | 十字軍（胴體） | 中期 set / 混搭件；有目標職或 bonus 才留。 |
+| 特殊（Exceptional） | 套裝（Set） | 47 | Falzain's Mercy | 護腕 / Drolvarg Bracers | 聖殿騎士（護腕） | 中期 set / 混搭件；有目標職或 bonus 才留。 |
+| 特殊（Exceptional） | 套裝（Set） | 53 | Zarth's Rainglade | 護腕 / Rampart Bracers | 遊俠（護腕） | 中期 set / 混搭件；有目標職或 bonus 才留。 |
+| 特殊（Exceptional） | 套裝（Set） | 48 | Alderon's Ignition | 護腕 / Sendal Bindings | 巫師（護腕） | 中期 set / 混搭件；有目標職或 bonus 才留。 |
+| 特殊（Exceptional） | 套裝（Set） | 44 | Ubar's Sophistry | 腰帶 / Marceline Cord | 附魔師（腰帶） | 中期 set / 混搭件；有目標職或 bonus 才留。 |
+| 特殊（Exceptional） | 套裝（Set） | 53 | Scryer's Refrain | 腰帶 / Verdant Girdle | 薩滿（腰帶） | 中期 set / 混搭件；有目標職或 bonus 才留。 |
+| 特殊（Exceptional） | 套裝（Set） | 53 | Tyranid's Menace | 手套 / Cambric Gloves | 術士（手套） | 中期 set / 混搭件；有目標職或 bonus 才留。 |
+| 特殊（Exceptional） | 套裝（Set） | 50 | Falzain's Bustle | 手套 / Midland Gloves | 聖殿騎士（手套） | 中期 set / 混搭件；有目標職或 bonus 才留。 |
+| 特殊（Exceptional） | 套裝（Set） | 46 | Ubar's Fallacy | 戒指 | 德魯伊（戒指；正文替代候選） | 正文替代候選；有目標職或高 roll 再留重複品。 |
+| 特殊（Exceptional） | 套裝（Set） | 49 | Alderon's Halo | 戒指 | 巫師（戒指） | 中期 set / 混搭件；有目標職或 bonus 才留。 |
+| 特殊（Exceptional） | 套裝（Set） | 51 | Scryer's Omen | 戒指 | 薩滿（戒指） | 中期 set / 混搭件；有目標職或 bonus 才留。 |
+| 特殊（Exceptional） | 套裝（Set） | 52 | Stockade's Insignia | 戒指 | 武僧（戒指；正文替代候選） | 正文替代候選；有目標職或高 roll 再留重複品。 |
+| 特殊（Exceptional） | 套裝（Set） | 53 | Asaph's Allure | 戒指 | 牧師（戒指）、十字軍（戒指）、附魔師（戒指） | 三職以上共用；至少先留 1 件，高 roll / 高 socket 優先。 |
+| 特殊（Exceptional） | 套裝（Set） | 45 | Zarth's Flameward | 腿甲 / Loricated Leggings | 遊俠（腿甲） | 中期 set / 混搭件；有目標職或 bonus 才留。 |
+| 特殊（Exceptional） | 套裝（Set） | 50 | Fanatic's Expedition | 靴子 / Despot Sabatons | 牧師（靴子） | 中期 set / 混搭件；有目標職或 bonus 才留。 |
+| 菁英（Elite） | 獨特（Unique） | 65 | Bodhidharma's Satori | 頭部 / Nemes | 武僧（頭部） | Elite unique；有使用職業或高 roll 先留，重複低 roll 可賣。 |
+| 菁英（Elite） | 獨特（Unique） | 72 | Charlatan's Crest | 頭部 / Shako | 吟遊詩人（頭部）、十字軍（頭部）、德魯伊（頭部）、附魔師（頭部）、盜賊（頭部）、薩滿（頭部）、聖殿騎士（頭部） | Shako 類頭部；跨多職業 farm / talents 候選。 |
+| 菁英（Elite） | 獨特（Unique） | 69 | Uncle Herschel's Visage | 頭部 / Shungite Helm | 十字軍（頭部）、戰士（頭部） | Elite unique；有使用職業或高 roll 先留，重複低 roll 可賣。 |
+| 菁英（Elite） | 獨特（Unique） | 67 | Arctic Orb | 副手 / Charm | 德魯伊（副手） | Elite unique；有使用職業或高 roll 先留，重複低 roll 可賣。 |
+| 菁英（Elite） | 獨特（Unique） | 69 | Oasis Shroulderguards of Kardis | 肩部 / Greenthorn Shoulders | 德魯伊（肩部） | Elite unique；有使用職業或高 roll 先留，重複低 roll 可賣。 |
+| 菁英（Elite） | 獨特（Unique） | 65 | Behemoth Mantle | 肩部 / Refuge Shoulders | 十字軍（肩部）、遊俠（肩部） | Elite unique；有使用職業或高 roll 先留，重複低 roll 可賣。 |
+| 菁英（Elite） | 獨特（Unique） | 68 | Dossam's Morning Star | 項鍊 | 聖殿騎士（項鍊；正文替代候選） | 正文替代候選；有目標職或高 roll 再留重複品。 |
+| 菁英（Elite） | 獨特（Unique） | 75 | Abyssal Shard | 單手斬擊 / Mythical Sword | 暗影騎士（右手） | Elite unique；有使用職業或高 roll 先留，重複低 roll 可賣。 |
+| 菁英（Elite） | 獨特（Unique） | 67 | Korelian Adamantite Maul | 雙手鈍器（物理） / Havoc Mallet | 戰士（右手） | Elite unique；有使用職業或高 roll 先留，重複低 roll 可賣。 |
+| 菁英（Elite） | 獨特（Unique） | 64 | Hellspike | 刺擊 / Bone Knife | 巫師（右手/刺擊；正文替代候選） | 正文替代候選；有目標職或高 roll 再留重複品。 |
+| 菁英（Elite） | 獨特（Unique） | 68 | Skewer of the Forsaken | 刺擊 / Legend Spike | 巫師（右手/刺擊；正文替代候選） | 正文替代候選；有目標職或高 roll 再留重複品。 |
+| 菁英（Elite） | 獨特（Unique） | 65 | Stormslicer | 刺擊 / Mithril Point | 巫師（右手/刺擊；正文替代候選） | 正文替代候選；有目標職或高 roll 再留重複品。 |
+| 菁英（Elite） | 獨特（Unique） | 72 | Zimri's Wisdom | 雙手鈍器（魔法） / Baroque Staff | 戰士（左手） | Elite unique；有使用職業或高 roll 先留，重複低 roll 可賣。 |
+| 菁英（Elite） | 獨特（Unique） | 75 | Cryptic Paragon | 單手鈍器（魔法） / Haniwa | 德魯伊（左手）、附魔師（右手）、薩滿（右手 / 左手）、術士（右手）、巫師（左手） | Haniwa 類 caster / support 長期目標；跨多職業使用。 |
+| 菁英（Elite） | 獨特（Unique） | 70 | Erghal's Panoply Shroud | 胴體 / Abstruse Shroud | 附魔師（胴體）、聖殿騎士（胴體；正文替代候選） | 正文替代候選；有目標職或高 roll 再留重複品。 |
+| 菁英（Elite） | 獨特（Unique） | 73 | Hellmourn Flesh | 胴體 / Balrog Skin | 盜賊（胴體） | Elite unique；有使用職業或高 roll 先留，重複低 roll 可賣。 |
+| 菁英（Elite） | 獨特（Unique） | 71 | Courtier's Trunk | 胴體 / Goliath Husk | 武僧（胴體）、聖殿騎士（胴體） | Elite unique；有使用職業或高 roll 先留，重複低 roll 可賣。 |
+| 菁英（Elite） | 獨特（Unique） | 75 | Gwendolyn's Might | 胴體 / Sacred Armor | 十字軍（胴體）、暗影騎士（胴體）、戰士（胴體） | 三職以上共用；至少先留 1 件，高 roll / 高 socket 優先。 |
+| 菁英（Elite） | 獨特（Unique） | 64 | Leviathan's Shell | 胴體 / Wyrmhide | 聖殿騎士（胴體；正文替代候選） | 正文替代候選；有目標職或高 roll 再留重複品。 |
+| 菁英（Elite） | 獨特（Unique） | 75 | Ender's Zeitgeist | 盾牌 / 左手 / Ancient Monarch | 暗影騎士（左手）、術士（左手） | Elite unique；有使用職業或高 roll 先留，重複低 roll 可賣。 |
+| 菁英（Elite） | 獨特（Unique） | 67 | Armbands of the Crypt | 護腕 / Fenwoven Bindings | 德魯伊（護腕）、附魔師（護腕） | Elite unique；有使用職業或高 roll 先留，重複低 roll 可賣。 |
+| 菁英（Elite） | 獨特（Unique） | 71 | Deathly Usher's Bracers | 護腕 / Patriarch Bracers | 暗影騎士（護腕） | Elite unique；有使用職業或高 roll 先留，重複低 roll 可賣。 |
+| 菁英（Elite） | 獨特（Unique） | 64 | Tresta's Jade Cord | 腰帶 / Cashmere Sash | 巫師（腰帶；正文替代候選） | 正文替代候選；有目標職或高 roll 再留重複品。 |
+| 菁英（Elite） | 獨特（Unique） | 67 | String of Kunzar | 腰帶 / Eldritch Belt | 德魯伊（腰帶）、聖殿騎士（腰帶）、巫師（腰帶） | 三職以上共用；至少先留 1 件，高 roll / 高 socket 優先。 |
+| 菁英（Elite） | 獨特（Unique） | 65 | Thotthi's Sash | 腰帶 / Greenthorn Belt | 德魯伊（腰帶；正文替代候選） | 正文替代候選；有目標職或高 roll 再留重複品。 |
+| 菁英（Elite） | 獨特（Unique） | 73 | Hulking Storm Belt | 腰帶 / Shungite Girdle | 戰士（腰帶） | Elite unique；有使用職業或高 roll 先留，重複低 roll 可賣。 |
+| 菁英（Elite） | 獨特（Unique） | 65 | Desolation Death Belt | 腰帶 / Stygian Belt | 遊俠（腰帶） | Elite unique；有使用職業或高 roll 先留，重複低 roll 可賣。 |
+| 菁英（Elite） | 獨特（Unique） | 68 | Shadow Silk Mesh | 腰帶 / Taffeta Sash | 巫師（腰帶；正文替代候選） | 正文替代候選；有目標職或高 roll 再留重複品。 |
+| 菁英（Elite） | 獨特（Unique） | 68 | Tarfug's Gout Breakers | 手套 / Orc Gauntlets | 吟遊詩人（背部；正文特化候選） | 特化候選；只服務特定 build，確認需求後再長留。 |
+| 菁英（Elite） | 獨特（Unique） | 71 | Yon's Ephemeral Grasp | 手套 / Phantom Gloves | 術士（手套；正文替代候選） | 正文替代候選；有目標職或高 roll 再留重複品。 |
+| 菁英（Elite） | 獨特（Unique） | 68 | Harvest Stranglers | 手套 / Vambraces | 薩滿（手套） | Elite unique；有使用職業或高 roll 先留，重複低 roll 可賣。 |
+| 菁英（Elite） | 獨特（Unique） | 74 | Marshal Gauntlets Iniquity（表內別名：Marshal Gauntlets of Iniquity） | 手套 / Zealot Gauntlets | 吟遊詩人（手套）、暗影騎士（手套）、戰士（手套） | 三職以上共用；至少先留 1 件，高 roll / 高 socket 優先。 |
+| 菁英（Elite） | 獨特（Unique） | 69 | Black Swan Band | 戒指 | 德魯伊（戒指）、武僧（戒指）、暗影騎士（戒指） | 三職以上共用；至少先留 1 件，高 roll / 高 socket 優先。 |
+| 菁英（Elite） | 獨特（Unique） | 70 | Heaven's Wing | 戒指 | 德魯伊（戒指） | Elite unique；有使用職業或高 roll 先留，重複低 roll 可賣。 |
+| 菁英（Elite） | 獨特（Unique） | 70 | Shining Metallic Leggings | 腿甲 / Arachnid Leggings | 巫師（腿甲；正文替代候選） | 正文替代候選；有目標職或高 roll 再留重複品。 |
+| 菁英（Elite） | 獨特（Unique） | 71 | Grezzlon's Legplates | 腿甲 / Cabalist Legplates | 十字軍（腿甲）、戰士（腿甲） | Elite unique；有使用職業或高 roll 先留，重複低 roll 可賣。 |
+| 菁英（Elite） | 獨特（Unique） | 70 | Rheinhart's Leggings | 腿甲 / Hipposkin Leggings | 武僧（腿甲） | Elite unique；有使用職業或高 roll 先留，重複低 roll 可賣。 |
+| 菁英（Elite） | 獨特（Unique） | 68 | Dwarven Zeal Legplates | 腿甲 / Zealot Legplates | 十字軍（腿甲） | Elite unique；有使用職業或高 roll 先留，重複低 roll 可賣。 |
+| 菁英（Elite） | 獨特（Unique） | 65 | Consortium Slippers | 靴子 / Bastille Slippers | 巫師（靴子；正文替代候選） | 正文替代候選；有目標職或高 roll 再留重複品。 |
+| 菁英（Elite） | 獨特（Unique） | 70 | Gukta Hunting Boots | 靴子 / Rhinoskin Boots | 武僧（靴子；正文替代候選） | 正文替代候選；有目標職或高 roll 再留重複品。 |
+| 菁英（Elite） | 套裝（Set） | 70 | Noik's Ruse | 頭部 / Amice Cowl | 術士（頭部） | Elite set 件；先留目標職 1 件，再比較 roll / socket / set bonus。 |
+| 菁英（Elite） | 套裝（Set） | 71 | Yizeren's Prestige | 頭部 / Corona | 巫師（頭部） | 巫師 Yizeren 5 件保留 Rare Drop Rate。 |
+| 菁英（Elite） | 套裝（Set） | 65 | Tunso's Renown | 頭部 / Giant Conch | 牧師（頭部） | Elite set 件；先留目標職 1 件，再比較 roll / socket / set bonus。 |
+| 菁英（Elite） | 套裝（Set） | 65 | Sinifay's Bosk | 頭部 / Hydraskull | 遊俠（頭部） | Elite set 件；先留目標職 1 件，再比較 roll / socket / set bonus。 |
+| 菁英（Elite） | 套裝（Set） | 72 | Spinalzz's Vigil | 頭部 / Stygian Dome | 暗影騎士（頭部） | Elite set 件；先留目標職 1 件，再比較 roll / socket / set bonus。 |
+| 菁英（Elite） | 套裝（Set） | 73 | Sinifay's Golden Harrier | 弓術 / Dogwood Bow | 遊俠（副手） | Elite set 件；先留目標職 1 件，再比較 roll / socket / set bonus。 |
+| 菁英（Elite） | 套裝（Set） | 59 | Zamtil's Residue | 副手 / Charm | 牧師（副手）、附魔師（副手） | Elite set 件；先留目標職 1 件，再比較 roll / socket / set bonus。 |
+| 菁英（Elite） | 套裝（Set） | 65 | Swiftraven's Malificence | 副手 / Charm | 薩滿（副手） | Elite set 件；先留目標職 1 件，再比較 roll / socket / set bonus。 |
+| 菁英（Elite） | 套裝（Set） | 66 | Yizeren's Censer | 副手 / Charm | 巫師（副手） | 巫師 Yizeren 5 件保留 Rare Drop Rate。 |
+| 菁英（Elite） | 套裝（Set） | 68 | Fansy's Resonance | 副手 / Charm | 吟遊詩人（副手） | Elite set 件；先留目標職 1 件，再比較 roll / socket / set bonus。 |
+| 菁英（Elite） | 套裝（Set） | 65 | Spinalzz's Ordination | 肩部 / Infinity Spaulders | 暗影騎士（肩部） | Elite set 件；先留目標職 1 件，再比較 roll / socket / set bonus。 |
+| 菁英（Elite） | 套裝（Set） | 65 | Daahoud's Solace | 肩部 / Refuge Shoulders | 武僧（肩部）、戰士（肩部） | Elite set 件；先留目標職 1 件，再比較 roll / socket / set bonus。 |
+| 菁英（Elite） | 套裝（Set） | 73 | Fansy's Verve | 肩部 / Sacred Spaulders | 吟遊詩人（肩部） | Elite set 件；先留目標職 1 件，再比較 roll / socket / set bonus。 |
+| 菁英（Elite） | 套裝（Set） | 67 | Jibekn's Estate | 肩部 / Thrynn Shoulders | 聖殿騎士（肩部） | Elite set 件；先留目標職 1 件，再比較 roll / socket / set bonus。 |
+| 菁英（Elite） | 套裝（Set） | 57 | Nylith's Reserve | 項鍊 | 德魯伊（項鍊） | Elite set 件；先留目標職 1 件，再比較 roll / socket / set bonus。 |
+| 菁英（Elite） | 套裝（Set） | 62 | Zamtil's Temptation | 項鍊 | 附魔師（項鍊） | Elite set 件；先留目標職 1 件，再比較 roll / socket / set bonus。 |
+| 菁英（Elite） | 套裝（Set） | 63 | Yizeren's Apocalypse | 項鍊 | 巫師（項鍊） | 巫師 Yizeren 5 件保留 Rare Drop Rate。 |
+| 菁英（Elite） | 套裝（Set） | 66 | Fansy's Cantor | 項鍊 | 吟遊詩人（項鍊） | Elite set 件；先留目標職 1 件，再比較 roll / socket / set bonus。 |
+| 菁英（Elite） | 套裝（Set） | 69 | Swiftraven's Phylactery | 項鍊 | 薩滿（項鍊） | Elite set 件；先留目標職 1 件，再比較 roll / socket / set bonus。 |
+| 菁英（Elite） | 套裝（Set） | 75 | Procyon's Chagrin | 背部 / Doomsday Pall | 盜賊（背部）、暗影騎士（背部） | Elite set 件；先留目標職 1 件，再比較 roll / socket / set bonus。 |
+| 菁英（Elite） | 套裝（Set） | 71 | Swiftraven's Temerity | 背部 / Lustrous Chlamys | 薩滿（背部） | Elite set 件；先留目標職 1 件，再比較 roll / socket / set bonus。 |
+| 菁英（Elite） | 套裝（Set） | 66 | Zamtil's Bluster | 背部 / Lustrous Cloak | 附魔師（背部）、聖殿騎士（背部） | Elite set 件；先留目標職 1 件，再比較 roll / socket / set bonus。 |
+| 菁英（Elite） | 套裝（Set） | 70 | Nylith's Thicket | 背部 / Sylph Shroud | 吟遊詩人（背部）、德魯伊（背部） | Elite set 件；先留目標職 1 件，再比較 roll / socket / set bonus。 |
+| 菁英（Elite） | 套裝（Set） | 69 | Daahoud's Amity | 背部 / Vagabond Cloak | 十字軍（背部）、武僧（背部）、戰士（背部） | 三職以上共用；至少先留 1 件，高 roll / 高 socket 優先。 |
+| 菁英（Elite） | 套裝（Set） | 70 | Sinifay's Aurorthas | 單手斬擊 / Ataghan | 遊俠（右手） | Elite set 件；先留目標職 1 件，再比較 roll / socket / set bonus。 |
+| 菁英（Elite） | 套裝（Set） | 65 | Sinifay's Glinthium | 單手斬擊 / Tulwar | 遊俠（左手） | Elite set 件；先留目標職 1 件，再比較 roll / socket / set bonus。 |
+| 菁英（Elite） | 套裝（Set） | 73 | Nylith's Crook | 單手鈍器（物理） / Jawbone Club | 德魯伊（右手） | Elite set 件；先留目標職 1 件，再比較 roll / socket / set bonus。 |
+| 菁英（Elite） | 套裝（Set） | 75 | Tunso's Atonement | 單手鈍器（物理） / Pernach | 牧師（右手） | Elite set 件；先留目標職 1 件，再比較 roll / socket / set bonus。 |
+| 菁英（Elite） | 套裝（Set） | 75 | Edarion's Soulfury | 雙手鈍器（物理） / Karelian Hammer | 十字軍（右手） | Elite set 件；先留目標職 1 件，再比較 roll / socket / set bonus。 |
+| 菁英（Elite） | 套裝（Set） | 73 | Daahoud's Tranquil Staff | 雙手鈍器（物理） / Tartarian Hammer | 武僧（右手） | Elite set 件；先留目標職 1 件，再比較 roll / socket / set bonus。 |
+| 菁英（Elite） | 套裝（Set） | 65 | Fansy's Euphony | 刺擊 / Mithril Point | 吟遊詩人（右手 / 左手） | Elite set 件；先留目標職 1 件，再比較 roll / socket / set bonus。 |
+| 菁英（Elite） | 套裝（Set） | 75 | Procyon's Fragment | 刺擊 / Oni | 盜賊（右手 / 左手） | Elite set 件；先留目標職 1 件，再比較 roll / socket / set bonus。 |
+| 菁英（Elite） | 套裝（Set） | 70 | Jibekn's Oddity | 單手鈍器（魔法） / Dimensional Shard | 聖殿騎士（右手） | Elite set 件；先留目標職 1 件，再比較 roll / socket / set bonus。 |
+| 菁英（Elite） | 套裝（Set） | 65 | Zamtil's Prism | 單手鈍器（魔法） / Eldritch Orb | 附魔師（左手） | Elite set 件；先留目標職 1 件，再比較 roll / socket / set bonus。 |
+| 菁英（Elite） | 套裝（Set） | 71 | Sinifay's Timberland | 胴體 / Boneweave | 遊俠（胴體） | Elite set 件；先留目標職 1 件，再比較 roll / socket / set bonus。 |
+| 菁英（Elite） | 套裝（Set） | 64 | Yizeren's Majesty | 胴體 / Cryosilk Robe | 巫師（胴體） | 巫師 Yizeren 5 件保留 Rare Drop Rate。 |
+| 菁英（Elite） | 套裝（Set） | 68 | Noik's Bane | 胴體 / Cryptic Vestment | 術士（胴體） | Elite set 件；先留目標職 1 件，再比較 roll / socket / set bonus。 |
+| 菁英（Elite） | 套裝（Set） | 65 | Fansy's Chorus | 胴體 / Great Hauberk | 吟遊詩人（胴體） | Elite set 件；先留目標職 1 件，再比較 roll / socket / set bonus。 |
+| 菁英（Elite） | 套裝（Set） | 75 | Tunso's Reproach | 胴體 / Sacred Armor | 牧師（胴體） | Elite set 件；先留目標職 1 件，再比較 roll / socket / set bonus。 |
+| 菁英（Elite） | 套裝（Set） | 67 | Nylith's Thistle | 胴體 / Scarab Husk | 德魯伊（胴體） | Elite set 件；先留目標職 1 件，再比較 roll / socket / set bonus。 |
+| 菁英（Elite） | 套裝（Set） | 75 | Jibekn's Legacy | 盾牌 / 左手 / Ancient Monarch | 聖殿騎士（左手） | Elite set 件；先留目標職 1 件，再比較 roll / socket / set bonus。 |
+| 菁英（Elite） | 套裝（Set） | 68 | Tunso's Asylum | 盾牌 / 左手 / Hyperion | 牧師（左手） | Elite set 件；先留目標職 1 件，再比較 roll / socket / set bonus。 |
+| 菁英（Elite） | 套裝（Set） | 64 | Noik's Graft | 護腕 / Arcaline Wraps | 吟遊詩人（護腕）、薩滿（護腕）、術士（護腕） | 三職以上共用；至少先留 1 件，高 roll / 高 socket 優先。 |
+| 菁英（Elite） | 套裝（Set） | 67 | Edarion's Feat | 護腕 / Citadel Bracers | 十字軍（護腕） | Elite set 件；先留目標職 1 件，再比較 roll / socket / set bonus。 |
+| 菁英（Elite） | 套裝（Set） | 74 | Tunso's Repentance | 護腕 / Fortress Bracers | 牧師（護腕） | Elite set 件；先留目標職 1 件，再比較 roll / socket / set bonus。 |
+| 菁英（Elite） | 套裝（Set） | 68 | Daahoud's Devotion | 護腕 / Gargoyle Bracers | 武僧（護腕）、戰士（護腕） | Elite set 件；先留目標職 1 件，再比較 roll / socket / set bonus。 |
+| 菁英（Elite） | 套裝（Set） | 71 | Procyon's Doldrums | 護腕 / Redoubt Bracers | 盜賊（護腕） | Elite set 件；先留目標職 1 件，再比較 roll / socket / set bonus。 |
+| 菁英（Elite） | 套裝（Set） | 74 | Spinalzz's Repine | 腰帶 / Darksteel Belt | 暗影騎士（腰帶） | Elite set 件；先留目標職 1 件，再比較 roll / socket / set bonus。 |
+| 菁英（Elite） | 套裝（Set） | 71 | Daahoud's Unity | 腰帶 / Eventide Sash | 武僧（腰帶） | Elite set 件；先留目標職 1 件，再比較 roll / socket / set bonus。 |
+| 菁英（Elite） | 套裝（Set） | 65 | Edarion's Testimony | 腰帶 / Patriarch Girdle | 吟遊詩人（腰帶）、牧師（腰帶）、十字軍（腰帶） | 三職以上共用；至少先留 1 件，高 roll / 高 socket 優先。 |
+| 菁英（Elite） | 套裝（Set） | 64 | Noik's Bondage | 腰帶 / Rift Cord | 術士（腰帶） | Elite set 件；先留目標職 1 件，再比較 roll / socket / set bonus。 |
+| 菁英（Elite） | 套裝（Set） | 65 | Procyon's Gloam | 腰帶 / Stygian Belt | 盜賊（腰帶） | Elite set 件；先留目標職 1 件，再比較 roll / socket / set bonus。 |
+| 菁英（Elite） | 套裝（Set） | 64 | Yizeren's Decimation | 手套 / Cryosilk Gloves | 巫師（手套） | 巫師 Yizeren 5 件保留 Rare Drop Rate。 |
+| 菁英（Elite） | 套裝（Set） | 68 | Nylith's Sprig | 手套 / Ether Gloves | 德魯伊（手套） | Elite set 件；先留目標職 1 件，再比較 roll / socket / set bonus。 |
+| 菁英（Elite） | 套裝（Set） | 71 | Zamtil's Sleight | 手套 / Phantom Gloves | 牧師（手套）、附魔師（手套） | Elite set 件；先留目標職 1 件，再比較 roll / socket / set bonus。 |
+| 菁英（Elite） | 套裝（Set） | 68 | Procyon's Woe | 手套 / Vambraces | 盜賊（手套） | Elite set 件；先留目標職 1 件，再比較 roll / socket / set bonus。 |
+| 菁英（Elite） | 套裝（Set） | 66 | Daahoud's Grit | 手套 / Vampirebone Gloves | 武僧（手套） | Elite set 件；先留目標職 1 件，再比較 roll / socket / set bonus。 |
+| 菁英（Elite） | 套裝（Set） | 74 | Edarion's Embrace | 手套 / Zealot Gauntlets | 十字軍（手套） | Elite set 件；先留目標職 1 件，再比較 roll / socket / set bonus。 |
+| 菁英（Elite） | 套裝（Set） | 63 | Edarion's Bravado | 戒指 | 十字軍（戒指） | Elite set 件；先留目標職 1 件，再比較 roll / socket / set bonus。 |
+| 菁英（Elite） | 套裝（Set） | 65 | Jibekn's Dowry | 戒指 | 聖殿騎士（戒指） | Elite set 件；先留目標職 1 件，再比較 roll / socket / set bonus。 |
+| 菁英（Elite） | 套裝（Set） | 67 | Fansy's Concord | 戒指 | 吟遊詩人（戒指） | Elite set 件；先留目標職 1 件，再比較 roll / socket / set bonus。 |
+| 菁英（Elite） | 套裝（Set） | 70 | Tunso's Remorse | 戒指 | 牧師（戒指） | Elite set 件；先留目標職 1 件，再比較 roll / socket / set bonus。 |
+| 菁英（Elite） | 套裝（Set） | 71 | Noik's Pact | 戒指 | 術士（戒指） | Elite set 件；先留目標職 1 件，再比較 roll / socket / set bonus。 |
+| 菁英（Elite） | 套裝（Set） | 65 | Zamtil's Plenitude | 腿甲 / Abyss Pants | 吟遊詩人（腿甲）、牧師（腿甲）、德魯伊（腿甲）、附魔師（腿甲）、薩滿（腿甲）、術士（腿甲）、巫師（腿甲） | 法系與支援常用腿甲；跨多職業抗性 / 生存候選。 |
+| 菁英（Elite） | 套裝（Set） | 71 | Spinalzz's Desolation | 腿甲 / Cabalist Legplates | 暗影騎士（腿甲） | Elite set 件；先留目標職 1 件，再比較 roll / socket / set bonus。 |
+| 菁英（Elite） | 套裝（Set） | 65 | Procyon's Sorrow | 腿甲 / Legion Legs | 盜賊（腿甲） | Elite set 件；先留目標職 1 件，再比較 roll / socket / set bonus。 |
+| 菁英（Elite） | 套裝（Set） | 69 | Jibekn's Heritage | 腿甲 / Stingray Leggings | 聖殿騎士（腿甲） | Elite set 件；先留目標職 1 件，再比較 roll / socket / set bonus。 |
+| 菁英（Elite） | 套裝（Set） | 65 | Swiftraven's Charge | 靴子 / Phantom Boots | 薩滿（靴子） | Elite set 件；先留目標職 1 件，再比較 roll / socket / set bonus。 |
+| 菁英（Elite） | 套裝（Set） | 73 | Sinifay's Weald | 靴子 / Rearden Boots | 遊俠（靴子） | Elite set 件；先留目標職 1 件，再比較 roll / socket / set bonus。 |
+| 菁英（Elite） | 套裝（Set） | 65 | Jibekn's Patrimony | 靴子 / Scarabshell Boots | 德魯伊（靴子；正文替代候選）、聖殿騎士（靴子）、術士（靴子）、巫師（靴子） | 正文替代候選；有目標職或高 roll 再留重複品。 |
+| 菁英（Elite） | 套裝（Set） | 69 | Edarion's Gallop | 靴子 / Thyrium Boots | 十字軍（靴子）、暗影騎士（靴子）、戰士（靴子） | 三職以上共用；至少先留 1 件，高 roll / 高 socket 優先。 |
+| 菁英（Elite） | 套裝（Set） | 67 | Nylith's Marsh | 靴子 / Wolverine Boots | 吟遊詩人（靴子）、德魯伊（靴子） | Elite set 件；先留目標職 1 件，再比較 roll / socket / set bonus。 |
+| 菁英（Elite；依等級分段） | 傳說（Legendary） | 72 | Firmament Staff of the Crystal Sea | 雙手鈍器（魔法） / Baroque Staff | 十字軍（雙手鈍器（魔法）；正文傳奇候選） | 傳說候選；回 tooltip 比較 roll、socket 與技能方向。 |
+| 菁英（Elite；依等級分段） | 傳說（Legendary） | 64 | Thoth Mindlink Staff | 雙手鈍器（魔法） / Shillelagh | 十字軍（雙手鈍器（魔法）；正文傳奇候選） | 傳說候選；回 tooltip 比較 roll、socket 與技能方向。 |
+
 ## 依部位整理的完整清單
 
 圖示取自 FC2 物品表第一欄的小物品 icon。同名裝備若出現在職業頁與 FC2 物品表的拼字不同，主名沿用職業頁，並在名稱後補 `表內名稱` 或 `表內別名` 方便搜尋。章節順序依 FC2 物品分類選單排列；各分類內的列仍依稀有度、階級、Lv 與名稱穩定排序。
