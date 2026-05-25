@@ -1,15 +1,15 @@
 ---
 title: "Nevergrind Online 裝備收集路線"
-description: "Nevergrind Online 的裝備收集不是只把顏色往上換，而是把「稀有度、品質階級、詞綴 roll、掉落來源、金幣投資、銀行保存與鐵匠強化」串成長期路線。新手先學會保留能補洞的藍黃裝，中期開始追 unique、set 與高價部位，後期再把 sockets、runes、craft base、Ethereal / Indestructible 放進同一個"
+description: "Nevergrind Online 的裝備收集不是只把顏色往上換，而是把「稀有度、品質階級、詞綴 roll、掉落來源、金幣投資、銀行保存與鐵匠強化」串成長期路線。新手先學會保留能補洞的藍黃裝，中期開始追 unique、set 與高價部位，後期再把 sockets、runes、符合 recipe 的 craft base、Ethereal / Indestructible 放進同一個"
 sourcePages: []
-reviewedAt: "2026-05-05"
+reviewedAt: "2026-05-25"
 sourceLastModified: "N/A"
 status: "整理改寫"
 ---
 
-Nevergrind Online 的裝備收集不是只把顏色往上換，而是把「稀有度、品質階級、詞綴 roll、掉落來源、金幣投資、銀行保存與鐵匠強化」串成長期路線。新手先學會保留能補洞的藍黃裝，中期開始追 unique、set 與高價部位，後期再把 sockets、runes、craft base、Ethereal / Indestructible 放進同一個收集計畫。
+Nevergrind Online 的裝備收集不是只把顏色往上換，而是把「稀有度、品質階級、詞綴 roll、掉落來源、金幣投資、銀行保存與鐵匠強化」串成長期路線。新手先學會保留能補洞的藍黃裝，中期開始追 unique、set 與高價部位，後期再把 sockets、runes、符合 recipe 的 craft base、Ethereal / Indestructible 放進同一個收集計畫。
 
-- 檢視日期：`2026-05-05`
+- 檢視日期：`2026-05-25`
 - 分類：[Nevergrind Online 物品與戰利品總覽](./items-loot/)
 - 延伸閱讀：[FC2 各職代表技能速查](./fc2-signature-skills/)、[FC2 各職嚴選 Unique 裝備速查](./fc2-selected-unique-items/)、[金錢效率與賣裝策略](./money-efficiency/)、[賭博（Gambling）指南](./gambling/)、[鐵匠鋪製作與配方（Blacksmith Crafting / Recipe）深度筆記](./blacksmith-crafting-recipe-research/)
 - 資料來源：來源摘要、既有 Nevergrind 筆記、Fandom Loot / Items / Races、Nevergrind Wiki、FC2 / atelier3 攻略 DB 與 SteamDB patch notes
@@ -18,7 +18,7 @@ Nevergrind Online 的裝備收集不是只把顏色往上換，而是把「稀�
 > **快速重點**
 > 收集裝備時先問「這件補哪個 build 缺口」，再問「它是什麼顏色」。
 > Magic / Rare 不是純過渡；高抗性藍裝、好詞綴黃裝、rare amulet / gloves 都可能撐很久。
-> 後期收藏重點會轉向 unique / set / legendary、high socket 工具裝、Ethereal + Indestructible、以及可做 Mythical / Rune Words 的好 base。
+> 後期收藏重點會轉向 unique / set / legendary、high socket 工具裝、Ethereal + Indestructible、以及 socket 數剛好符合 Mythical / Rune Words recipe 的好 base。
 
 ## 先建立收集層級
 
@@ -99,7 +99,7 @@ Nevergrind Online 的裝備收集不是只把顏色往上換，而是把「稀�
 | `Stormcaller Bow` | FC2 loot 頁把最高 socket roll 的 `Stormcaller Bow` 列為 Normal unique / set bow 裡值得帶回的例外；若剛好補 talents 或 rune space，先比較再賣 | [Unique Items](./unique-items/) |
 | FC2 嚴選 Unique 速查 | FC2 `各職の厳選ユニーク` 頁整理了各職值得先留的 Unique / 特殊單件，包含 weapon breakpoint、class talent、skill enhancement、rare drop、主屬性與抗性用途 | [FC2 各職嚴選 Unique 裝備速查](./fc2-selected-unique-items/) |
 | Elite amulet / ring / charm | gambling、跨職業與長期保留價值高 | [賭博（Gambling）指南](./gambling/) |
-| Superior / Ethereal socketed base | Mythical / Rune Words 的核心素材 | [素材選擇優先級](./blacksmith-crafting-recipe-research/#crafting-base-selection) |
+| Superior / Ethereal socketed base | Mythical / Rune Words 的核心素材；先確認是否符合 recipe socket count | [Mythical 素體保留篩選表](./blacksmith-crafting-recipe-research/#crafting-base-keeper-checklist) |
 
 <a id="fc2-loot-carry-priority"></a>
 
@@ -158,7 +158,7 @@ FC2 的 [持ち帰るアイテム](https://atelier3.web.fc2.com/ngo/loot.html) �
 | 它能補目前短板嗎 | 高抗性、高 HP、資源恢復、armor、命中或 threat / sustain 工具 |
 | 它能改變 rotation 嗎 | `All Talents`、特定技能、cooldown、haste、bonus hit / proc 相關 |
 | 它能服務多角色嗎 | 飾品、泛用 unique、set 件、高 resist 裝、MF / Gold Find 裝 |
-| 它是好 base 嗎 | 正確 quality、socket count、Superior、Ethereal、職業詞綴或 skill enhancement |
+| 它是好 base 嗎 | 正確 quality、socket count、Superior、Ethereal、職業詞綴或 skill enhancement；高成本 craft 優先對照 [素體保留篩選表](./blacksmith-crafting-recipe-research/#crafting-base-keeper-checklist) |
 | 它有交易價值嗎 | 常見高需求關鍵字、好 roll、好部位、稀有狀態或終局材料 |
 
 如果一件裝備不能穿、不能賣好價、不能交易、不能給分身、不能當 craft base，也沒有特殊紀念價值，就不要讓它長期佔銀行格。

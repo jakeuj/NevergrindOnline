@@ -6,16 +6,20 @@ sourcePages:
     title: "クラフト | Nevergrind Online 攻略DB"
     url: "https://atelier3.web.fc2.com/ngo/mythical.html"
     lastModified: "Thu, 26 Jun 2025 00:26:03 GMT"
-reviewedAt: "2026-05-03"
-sourceLastModified: "Thu, 26 Jun 2025 00:26:03 GMT"
+  - file: "recipe.html"
+    title: "レシピ | Nevergrind Online 攻略DB"
+    url: "https://atelier3.web.fc2.com/ngo/recipe.html"
+    lastModified: "Wed, 02 Jul 2025 14:10:19 GMT"
+reviewedAt: "2026-05-25"
+sourceLastModified: "Wed, 02 Jul 2025 14:10:19 GMT"
 status: "整理改寫"
 ---
 
 Nevergrind Online 的鐵匠鋪製作（Blacksmith crafting）不是單一版本一次完成的功能，而是從 Season 2 的 runes、socketed items、ethereal / indestructible 裝備開始鋪路，再逐步啟用 enchanting counter、Craft tab、Mythical items / Rune Words、rune upgrade 與 Season 3 全配方。實務上，玩家應該先理解「已公開的規則」與「尚未公開的精確配方」之間的界線，再決定哪些 socketed base 值得留下來做 Mythical 裝備。
 
-- 檢視日期：`2026-05-03`
+- 檢視日期：`2026-05-25`
 - 前置閱讀：[鐵匠鋪（Blacksmith）指南](./blacksmith/)、[符文（Runes）指南](./runes/)
-- 資料來源：使用者提供的研究報告摘要、SteamDB patch notes、[Nevergrind Online 攻略DB：クラフト](https://atelier3.web.fc2.com/ngo/mythical.html)
+- 資料來源：使用者提供的研究報告摘要、SteamDB patch notes、[Nevergrind Online 攻略DB：クラフト](https://atelier3.web.fc2.com/ngo/mythical.html)、[Nevergrind Online 攻略DB：レシピ](https://atelier3.web.fc2.com/ngo/recipe.html)
 - 版本提醒：crafting recipes、rune upgrade、socket 上限、UI 成本顯示與可 craft 底材，仍可能隨版本更新；投入稀有 rune 前請再看當前遊戲內 UI
 
 > **快速重點**
@@ -130,6 +134,45 @@ Crafting 系統讓灰色 / socketed base 的價值被重新定義。SteamDB patc
 > **提醒**
 > 來源摘要提到巫師（Wizard）雷型可能會依 internal cooldown 追特定 weapon speed，例如 1.5 到 1.7 區間的 piercing weapon。這類建議很吃版本與流派，寫成「速度匹配原則」比寫死某一把武器更安全。
 
+<a id="crafting-base-keeper-checklist"></a>
+
+## Mythical 素體保留篩選表
+
+若倉庫空間有限，Mythical craft base 可以用一句話先篩：後期高成本配方只認真留下 `Elite`、正確 socket count、`Superior`，或帶核心技能 / 關鍵天賦的 socketed base。`Normal` / `Exceptional` 不是完全沒用，但多半是測 recipe、過渡 craft、工具裝或分身用途，不應吃掉最稀有的 rune。
+
+通用檢查順序如下：
+
+| 優先順序 | 保留訊號 | 丟棄或降級處理 |
+| ------ | ------ | ------ |
+| 1 | 符合目前 recipe 的 base type 與 socket count | socket 多一孔或少一孔都不能用在該 recipe；先改當一般 rune socketing 候選或賣店 |
+| 2 | `Elite` 底材，且基礎 damage / armor、速度、材質適合目標職業 | 非 Elite 後期通常只當過渡；除非有高 sockets、特殊用途或神 roll 詞綴 |
+| 3 | `Superior` 武器 / 防具 | 非 Superior 仍可測試或過渡，但畢業 craft 會少掉無法補回的 base 加成 |
+| 4 | 正確職業的 talent tree、specific skill enhancement 或 special properties | 錯職詞綴可能把 craft mod 池鎖到不需要的方向 |
+| 5 | 核心技能加成命中 `+3`，或關鍵天賦命中高 roll | 命中錯技能時只保留高價部位、分身需求或交易候選 |
+| 6 | `Ethereal` 且同時有可靠耐久解法，例如 `Indestructible` | 乙太會繼承但 craft 不修耐久；沒有耐久解法時不要投入珍貴 rune |
+
+常見值得特別看的 skill / talent 方向包括 `Tornado`、`Lightning Bolt`、`Shadow Break`、`Rupture`、`Backstab`、`Condemnation`、`Blessed Hammer` 等。這些不是固定 BiS 清單，而是玩家 meta 中常用來追 Rank 19 / 29 / 34 等技能次數或 bonus hit 門檻的例子；實際仍要回角色目前 build 和技能 tooltip 比較。
+
+### 依 FC2 Recipe 表校正 socket 上限
+
+FC2 `recipe.html` 快照中的高階配方以「要求 rune 數」決定素體 socket 數。下面列的是目前公開表格裡各類別最高需求，不等於所有 socketed item 的掉落上限；若遊戲內 Craft tab 顯示不同，永遠以當前 UI 為準。
+
+| Recipe 類別 | 目前公開最高 rune / socket 數 | 後期保留重點 |
+| ------ | ------ | ------ |
+| 頭部 | 3 | 優先看 `Elite`、`Superior` 防禦，以及 `+3` 核心技能或關鍵天賦；頭部常是技能門檻補點位 |
+| 胴體 | 4 | 一定要先選對材質：板甲 / 鎖甲 / 皮甲 / 布甲會隨素體繼承；`Superior` 物理防禦很重要 |
+| 單手斬擊 | 5 | 物理職看 `Elite`、`Superior`、速度與職業 skill enhancement；目前 FC2 recipe 表不是 6 socket |
+| 雙手斬擊 | 6 | 戰士（Warrior）等可用雙手武器的職業特別值得看；高 DPS、`Superior`、核心技能 / 被動都會影響上限 |
+| 單手鈍器（物理） | 6 | 十字軍（Crusader）、聖殿騎士（Templar）、牧師（Cleric）、戰士（Warrior）等常見候選；若命中 `Condemnation` 或 `Blessed Hammer` 更值得留 |
+| 單手鈍器（魔法） / Focus | 6 | 施法職與支援職的高價素體；同時看 `Superior`、施法節奏、降抗 / spell power 與核心技能 |
+| 雙手鈍器（物理） | 6 | 物理雙手鈍器與混合職候選；高 DPS、速度與職業詞綴優先 |
+| 雙手鈍器（魔法） / Stave | 6 | 施法 / 支援向畢業素材；若帶 `Tornado`、`Lightning Bolt` 或職業核心技能更值得留 |
+| 刺擊 | 5 | 盜賊（Rogue）、遊俠（Ranger）、吟遊詩人（Bard）與部分 caster 可用；目前 FC2 recipe 表最高為 5 socket |
+| 盾牌 | 4 | 坦向與支援向看 `Elite`、`Superior`、格擋、防禦、抗性與職業詞綴；目前 FC2 recipe 表最高為 4 socket |
+| 弓術 | 5 | 遊俠（Ranger）主看高階 bow base；其他物理職也可能把 bow / ranged slot 當工具欄 |
+
+這張表也能修正常見誤判：`6 socket` 本身不是保證可 Craft。若 6 socket 弓、盾牌、刺擊或單手斬擊出現，它可能仍是珍貴的 rune socketing 工具裝，或代表當前版本 / 未來 recipe 有變動；但在公開 FC2 recipe 表的脈絡下，不能直接當成現有 Mythical recipe 的合格素體。
+
 <a id="crafting-inheritance"></a>
 
 ## 屬性繼承規則
@@ -230,7 +273,7 @@ Crafting 相關 patch notes 顯示，系統上線後修過不少 UI、成本、t
 
 1. 規則看官方 patch notes 與當前遊戲內 UI。
 2. 目標成品可以參考攻略DB / 社群資料庫，但不要把未公開 recipe 寫成定論。
-3. 灰色 / socketed base 只要帶有 special properties、Superior、Ethereal 或職業詞綴，就值得暫存比較。
+3. 灰色 / socketed base 只要帶有 special properties、Superior、Ethereal、正確 socket count 或職業詞綴，就值得暫存比較。
 4. 高階 rune 不要投入測試用 base；先用便宜素材確認 UI 邏輯。
 5. 多人、Heroic Hell、rune shrine、armor / weapon shrine 都應納入 crafting 素材農法。
 
