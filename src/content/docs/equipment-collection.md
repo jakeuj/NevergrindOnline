@@ -95,7 +95,10 @@ Nevergrind Online 的裝備收集不是只把顏色往上換，而是把「稀�
 | `Cryptic Paragon` / Haniwa | 施法職 / 支援 / 牧師（Cleric）常追的 `All Talents`、全抗、全法術傷與隨機技能武器 | [Haniwa 指南](./cryptic-paragon-haniwa/) |
 | `Zamtil's Plenitude` | FC2 多個施法 / 支援職裝備例反覆採用的 elite 太腿部位；主要價值是補高難度地城所需的耐性與控場抗性，而不是只看 Enchanter 套裝歸屬 | [Set Items](./set-items/#zamtils-plenitude) |
 | `Charlatan's Crest` / Shako | `All Talents`、屬性傷害與高 MF 類 farm 頭部目標 | [Unique Items](./unique-items/#unique-keywords) |
-| `Demetrium's Ballista` | FC2 set 頁列為 `Socketed (1-6)`；若 roll 到高 sockets，即使低等也可能成為物理職 ranged slot 工具裝 | [Set Items](./set-items/#set-notable-pieces) |
+| `Demetrium's Ballista` / 低等 6-slot bow | FC2 set 頁列為 `Socketed (1-6)`；若 roll 到高 sockets，可讓遊俠、戰士、十字軍、暗影騎士、盜賊、吟遊詩人當 `+60%` XP 或 stat stick 副手工具 | [Set Items](./set-items/#set-notable-pieces) |
+| 低等 6-slot `1h Blunt` | 單手鈍器 14 職業都可用；最好留兩把，雙持後可用 12 顆 `Thex` 組成 `+120%` 的最通用傳家核心 | [符文（Runes）指南](./runes/#跨職業經驗值升級套裝) |
+| 低等 6-slot `2h Blunt` / `Stave` | 雙手武器吃 `Thex` 的雙倍經驗值效果；單件 6 顆 `Thex` 就是 `+120%`，戰士可評估雙持雙手搭 bow 的 `+300%` 極限，但不是吟遊詩人 / 盜賊通用 | [符文（Runes）指南](./runes/#跨職業經驗值升級套裝) |
+| 低等高 socket `Charm`（護石 / 查姆） | Charm 14 職業都可用；5 slots 先按 `+50%` XP 計算，不能用 bow 的職業尤其需要，若看到疑似 6-slot Charm 先截圖複核 tooltip | [符文（Runes）指南](./runes/#跨職業經驗值升級套裝) |
 | `Stormcaller Bow` | FC2 loot 頁把最高 socket roll 的 `Stormcaller Bow` 列為 Normal unique / set bow 裡值得帶回的例外；若剛好補 talents 或 rune space，先比較再賣 | [Unique Items](./unique-items/) |
 | FC2 倉庫保留清單 | 依職業 build 裝備例整理固定裝備名，另有低階優先速查，方便先找 Normal / Exceptional 中容易被誤賣的工具裝與過渡件 | [FC2 職業畢業裝倉庫保留清單](./fc2-class-build-gear-keeper-list/#低階優先保留速查) |
 | FC2 嚴選 Unique 速查 | FC2 `各職の厳選ユニーク` 頁整理了各職值得先留的 Unique / 特殊單件，包含 weapon breakpoint、class talent、skill enhancement、rare drop、主屬性與抗性用途 | [FC2 各職嚴選 Unique 裝備速查](./fc2-selected-unique-items/) |
@@ -116,7 +119,7 @@ FC2 的 [持ち帰るアイテム](https://atelier3.web.fc2.com/ngo/loot.html) �
 | Rare magic blunt / `Focus` / `Stave` | FC2 把 rare 魔法鈍器排在高價帶回優先級最前面，因為鑑定後 talents / caster mods 可能帶來自用或售價價值 | 背包快滿時，focus / stave 這類施法武器比很多低價小部位更值得鑑定 |
 | Exceptional 以上 unique / set | FC2 建議從裝備收集與金錢效率兩面看，原則上都可以帶回 | 先帶回再整理；是否進銀行、交易或賣店，回城後看 roll 與部位決定 |
 | Normal unique / set | 後期多數可以丟棄，但若會出 talents、元素抗性或是已知高 socket 例外，仍值得帶回 | 不要用「Normal = 一律垃圾」；已知工具裝或特定詞綴裝例外處理 |
-| `Stormcaller Bow`、`Demetrium's Ballista` | FC2 特別點名最高 socket roll 可能留下來當終局工具裝 | 低等 bow 若 roll 到高 sockets，價值在 ranged slot 與 rune space，不在基礎傷害 |
+| `Stormcaller Bow`、`Demetrium's Ballista` | FC2 特別點名最高 socket roll 可能留下來當終局工具裝 | 低等 bow 若 roll 到高 sockets，價值在 ranged slot 與 rune space，不在基礎傷害；只標給具備弓術的六個職業 |
 
 ## 背包 / 銀行爆倉時的清理順序
 
@@ -132,7 +135,7 @@ FC2 的 [持ち帰るアイテム](https://atelier3.web.fc2.com/ngo/loot.html) �
 | ------ | ------ |
 | 明確長期候選 | `Charlatan's Crest`、`Cryptic Paragon`、`Marshal Gauntlets Iniquity`、高 roll unique / set、Ethereal + Indestructible、正確 sockets 的 craft base，通常先進銀行 |
 | Rare 飾品 / 手套 | `All Talents +2` amulet、命中核心 talent tree 的 amulet / gloves、高主屬性 + 抗性組合，先留；其餘低 roll rare 可賣 |
-| 高 socket 工具裝 | `Demetrium's Ballista` 若 roll 到接近上限 sockets，可當物理職 ranged slot / rune space 工具；不是每把都等於 6 sockets |
+| 高 socket 工具裝 | 低等 6-slot `1h Blunt` 至少留兩把；`Demetrium's Ballista` 類 bow 只給六個 Archery 職業當 `+60%` 副手工具；低等 6-slot `2h Blunt` / `Stave` 是 `+120%` 高倍率工具；高洞 `Charm` 全職業可用 |
 | 普通過渡裝 | 只補一點 armor 或小數值、沒有 talents / 抗性 / sockets / 分身需求的 Normal magic / rare，後期優先換 gold |
 | 高價賣店品 | rare magic blunt、`Focus` / `Stave`、胴體、plate / mail、shield、head、gloves、legs、boots，背包滿時比低價 cloth / leather 更值得帶回鑑定 |
 

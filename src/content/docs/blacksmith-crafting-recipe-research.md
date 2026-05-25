@@ -173,6 +173,8 @@ FC2 `recipe.html` 快照中的高階配方以「要求 rune 數」決定素體 s
 
 這張表也能修正常見誤判：`6 socket` 本身不是保證可 Craft。若 6 socket 弓、盾牌、刺擊或單手斬擊出現，它可能仍是珍貴的 rune socketing 工具裝，或代表當前版本 / 未來 recipe 有變動；但在公開 FC2 recipe 表的脈絡下，不能直接當成現有 Mythical recipe 的合格素體。
 
+`Charm`（護石 / 查姆）同樣要分開判斷：目前公開 Mythical recipe families 沒有把 Charm 列為 craft base，因此高 socket Charm 應先視為 Thex / Marr / Targ 等一般鑲符文工具，而不是神話素體。低等 5-slot Charm 仍值得保留；若看到 6-slot Charm，先以現版本 tooltip 複核再更新上限判斷。
+
 <a id="crafting-inheritance"></a>
 
 ## 屬性繼承規則
