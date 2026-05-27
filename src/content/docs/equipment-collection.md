@@ -1,6 +1,6 @@
 ---
 title: "Nevergrind Online 裝備收集路線"
-description: "Nevergrind Online 的裝備收集不是只把顏色往上換，而是把「稀有度、品質階級、詞綴 roll、掉落來源、金幣投資、銀行保存與鐵匠強化」串成長期路線。新手先學會保留能補洞的藍黃裝，中期開始追 unique、set 與高價部位，後期再把 sockets、runes、符合 recipe 的 craft base、Ethereal / Indestructible 放進同一個"
+description: "Nevergrind Online 裝備收集路線，整理稀有度、品質階級、詞綴 roll、掉落來源、金幣投資、銀行保存、runes 與 crafting base 的長期判斷。"
 sourcePages: []
 reviewedAt: "2026-05-25"
 sourceLastModified: "N/A"

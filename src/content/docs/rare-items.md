@@ -1,6 +1,6 @@
 ---
 title: "Nevergrind Online 稀有裝備（Rare Items）指南"
-description: "Nevergrind Online 的黃色 Rare 裝備代表稀有物品，核心特色是 2 到 6 個隨機 mods。它不像 unique 那樣有固定詞綴方向，也不像 set 那樣靠多件 bonus 成形；rare 的價值來自高度 RNG，一旦詞綴剛好命中 build，某些部位甚至可以成為中後期長期裝備。"
+description: "Nevergrind Online 稀有裝備（Rare Items）指南，整理黃色 rare 的 2 到 6 個隨機 mods、部位價值、詞綴命中與中後期保留判斷。"
 sourcePages: []
 reviewedAt: "2026-05-27"
 sourceLastModified: "N/A"

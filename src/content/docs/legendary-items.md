@@ -1,6 +1,6 @@
 ---
 title: "Nevergrind Online 傳奇裝備（Legendary Items）清單筆記"
-description: "這份 Legendary Items 筆記把玩家整理的試算表當成查裝索引：先用 Quality、Slot、Proficiency、Level 篩出角色真的能穿的裝備，再看 All Talents、Tree Talents、Specific Talent、Specific Skill % 與核心攻防詞綴。資料表目前整理 65 件 legendary，分成 No"
+description: "Legendary Items 筆記，整理玩家試算表中的 Quality、Slot、Proficiency、Level、All Talents、Tree Talents 與核心攻防詞綴，方便查傳奇裝備。"
 sourcePages: []
 reviewedAt: "2026-05-05"
 sourceLastModified: "N/A"

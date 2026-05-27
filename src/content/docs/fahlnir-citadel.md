@@ -1,6 +1,6 @@
 ---
 title: "Nevergrind Online Fahlnir Citadel（法爾尼爾城堡）敵人與刷寶筆記"
-description: "Fahlnir Citadel（法爾尼爾城堡）可以當成 Act IV 的高壓進階區域來看：敵人混合 undead、demon、mystical、giant 與 dragonkin，掉落目標也開始指向 70 級以上裝備。對牧師（Cleric）來說，它不是最舒服的新手刷點，而是技能循環、抗性、資源回復與裝備都成形後，用 undead / demon 特攻去換高階"
+description: "Fahlnir Citadel（法爾尼爾城堡）刷寶筆記，整理 undead、demon、mystical、giant 與 dragonkin 敵人壓力，以及牧師進階 farm 前的抗性與循環需求。"
 sourcePages: []
 reviewedAt: "2026-05-03"
 sourceLastModified: "N/A"

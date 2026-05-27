@@ -1,6 +1,6 @@
 ---
 title: "Nevergrind Online 地城冒險與任務攻略"
-description: "Nevergrind Online 的地城冒險可以看成一條循環：從 Edenburg（伊登堡）的 nevergrind-online-tavern.md 選任務，進入隨機生成的地城，依怪物 traits、站位與 aggro 控制戰鬥，打倒 boss 後再回城鑑定、整理與投資下一輪裝備。"
+description: "Nevergrind Online 地城冒險指南，整理 Edenburg 接任務、進入隨機地城、判讀 traits 與 aggro、擊殺 boss、回城鑑定整理的完整循環。"
 sourcePages: []
 reviewedAt: "2026-05-06"
 sourceLastModified: "N/A"

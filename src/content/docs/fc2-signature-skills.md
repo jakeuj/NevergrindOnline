@@ -1,6 +1,6 @@
 ---
 title: "Nevergrind Online FC2 各職代表技能速查"
-description: "FC2 各職代表技能表的繁中化版本，用於判斷其他職業裝備與天賦 / Skill 價值。"
+description: "FC2 各職代表技能表繁中化版本，整理職業招牌技能、天賦 / Skill 價值與來源資訊，方便判斷跨職裝備詞綴是否值得保留、保留理由與查表索引。"
 sourcePages:
   - file: "selectlist.html"
     title: "各職の代表スキル | Nevergrind Online 攻略DB"

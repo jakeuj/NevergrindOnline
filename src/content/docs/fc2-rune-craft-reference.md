@@ -1,6 +1,6 @@
 ---
 title: "Nevergrind Online FC2 符文 / 神話製作 / Item Mods 全量參考"
-description: "整合 FC2 符文、Rune Select、神話製作（Mythical Craft）與 Item Mods 頁面，保留配置建議與數值表。"
+description: "整合 FC2 符文、Rune Select、神話製作（Mythical Craft）與 Item Mods 頁面，保留配置建議、效果數值、來源資訊與繁中術語對照。"
 sourcePages:
   - file: "itemmods.html"
     title: "装備Mods | Nevergrind Online 攻略DB"
@@ -476,7 +476,7 @@ Mythic 物品的需求等級會採用素體與配方兩者之中較高的數值�
 - FC2 file：[runeselect.html](https://atelier3.web.fc2.com/ngo/runeselect.html)
 - 原站 Last-Modified：`Mon, 19 May 2025 15:41:38 GMT`
 
-這是臨時的，將來內容可能會改變。
+本頁為暫定內容，日後可能改寫。
 
 相關頁面：符文 / 武器 DPS 計算機
 
@@ -488,23 +488,23 @@ Mythic 物品的需求等級會採用素體與配方兩者之中較高的數值�
 
 #### 物理（單手）
 
-武器Damage（Cros）＞全 Passive（Targ）＞力量（Gart）
+Weapon Damage（Cros）＞All Passive（Targ）＞力量（Gart）
 
-速度快、基礎值低的單手武器，通常加算型的 Weapon Damage（Cros）最強。
+速度快、基礎值低的單手武器，多半最適合加算型的 Weapon Damage（Cros）。
 
-不過即使是單手武器，像速度 2.5 這種偏慢的武器，效率也不算好。
+不過即使是單手武器，若速度像 2.5 這樣偏慢，效率也不太好。
 
-Weapon Damage（Cros）很稀有，也很難收集足夠數量；作為過渡選項，可以先用 All Passive（Targ），其次是力量（Gart）。Attack Rating%（Rath）也很優秀，但用在單手武器上有點可惜。
+Weapon Damage（Cros）很稀有，也很難收集足夠顆數；過渡選項可以先用 All Passive（Targ），其次是力量（Gart）。Attack Rating%（Rath）也很優秀，但用在單手武器上有點可惜。
 
-遊俠的單手武器採用 Attack Rating%（Rath）看起來不錯，但要有把資源押在遊俠身上的心理準備。
+遊俠的單手武器採用 Attack Rating%（Rath）看起來不錯，但要有長期投資遊俠的心理準備。
 
 <a id="fc2-runeselect-物理-雙手"></a>
 
 #### 物理（雙手）
 
-Attack Rating%（Rath）＞全 Passive（Targ）＞力量（Gart）
+Attack Rating%（Rath）＞All Passive（Targ）＞力量（Gart）
 
-速度慢、基礎值高的雙手武器，Weapon Damage（Cros）效率較低，常會接近 All Passive（Targ）。因此 Attack Rating%（Rath）最強；但 Rath 很稀有，而且需要的數量也多，所以過渡選項可以先用 All Passive（Targ），其次是力量（Gart）。
+速度慢、基礎值高的雙手武器，Weapon Damage（Cros）效率較低，常會接近 All Passive（Targ）。因此 Attack Rating%（Rath）最強；但 Rath 很稀有，而且需要的顆數也多，所以過渡選項可以先用 All Passive（Targ），其次是力量（Gart）。
 
 例外是如果重視武器自動攻擊，Weapon Damage（Cros）會很強。All Passive（Targ）的最大值較高，但 Cros 對最低值的墊高效果較好。
 
@@ -512,43 +512,43 @@ Attack Rating%（Rath）＞全 Passive（Targ）＞力量（Gart）
 
 #### 遊俠弓
 
-武器傷害 (Cros)、武器速度 (Rok) > 所有被動 (Targ) > 力量 (Gart)
+Weapon Damage（Cros）、Weapon Speed（Rok）＞All Passive（Targ）＞力量（Gart）
 
-自由流弓較特殊，其效率受武器的基本速度和弓孔數量影響。
+遊俠弓比較特殊，效率會受武器基礎速度與 Socket 數量影響。
 
-Sinifay的金鷂是精英套裝，擁有最好的武器傷害（Cros），武器速度（Rok）與所有被動（Targ）的效率大致相同，但在快速Reito Doku等的情況下，武器速度（Rok）超過了第三個插槽的武器傷害（Cros）效率。有關更多信息，請參閱武器 DPS 計算器。
+Elite Set 的 Sinifay's Golden Harrier 以 Weapon Damage（Cros）最優秀；Weapon Speed（Rok）的效率與 All Passive（Targ）大致相同。不過像 Reito Doku 這類速度快的弓，從第 3 個 Socket 開始，Weapon Speed（Rok）會超過 Weapon Damage（Cros）。詳情請看武器 DPS 計算機。
 
-<a id="fc2-runeselect-弓-魅惑-適用於勇利以外的實體職業"></a>
+<a id="fc2-runeselect-非遊俠物理職業的弓-或-charm"></a>
 
-#### 弓（魅惑）適用於勇利以外的實體職業
+#### 非遊俠物理職業的弓（或 Charm）
 
-Attack Rating%（Rath）＞全 Passive（Targ）＞力量（Gart）
+Attack Rating%（Rath）＞All Passive（Targ）＞力量（Gart）
 
-可以用與物理學相同的方式來思考它。
+可以用和物理雙手武器相同的方式思考。
 
-然而，由於戰士武僧無法裝備弓，所以它變成了魅惑，而魅惑的攻擊率%（Rath）被視為護甲，所以所有被動（Targ）都排在了前面。另外，技能速度（Phar）成為魅力中的護甲效果，因此戰士僧侶無法從中受益。我為你感到難過。
+不過武僧不能裝備弓，因此要改用 Charm；而 Charm 上的 Attack Rating%（Rath）會套用防具效果，所以 All Passive（Targ）會排到最優先。另外 Skill Speed（Phar）在 Charm 上也會變成防具效果，因此武僧吃不到這個收益。很苦。
 
 <a id="fc2-runeselect-魔法"></a>
 
 #### 魔法
 
-抗性降低（Mael）＞属性Damage≒暴擊（Tae）
+Resistance Reduction（Mael）＞屬性 Damage ≒ 暴擊（Tae）
 
-與物理不同，諸如智慧（Ruck）和智慧（Nag）之類的地位系統極其脆弱。
+與物理不同，智慧（Ruck）與智力（Nag）這類能力值符文非常弱。
 
-由於Mael很難獲得，因此Tae似乎是最安全的火力選擇。
+Resistance Reduction（Mael）很難取得，因此若目標是輸出，暴擊（Tae）應該最穩妥。
 
-我認為提高稀有掉落率（Marr）也是一個不錯的選擇，因為魔法咒語不能像物理咒語那樣增加火力。
+魔法符文不像物理符文那樣能大幅拉高火力，因此提高 Rare Drop Rate（Marr）也算不錯的選項。
 
-另外，由於環境中的聖殿騎士很少，所以準備具有執行速度的武器（Skar）也很方便。
+另外，目前環境中的聖殿騎士不多，準備一把帶施法速度（Skar）的武器也很方便。
 
 <a id="fc2-runeselect-命中率"></a>
 
 #### 命中率
 
-Attack Rating%（Rath）＞全 Passive（Targ）＞Attack Rating（Shir）＞力量（Gart）
+Attack Rating%（Rath）＞All Passive（Targ）＞Attack Rating（Shir）＞力量（Gart）
 
-沒有增加攻擊等級能力的魔法職業（尤其是薩滿）的命中率比較困難，所以用符文提高命中率也是提高觸發攻擊率的一個選擇。基本上，攻擊等級%（Rath）很優秀，但根據手冊只有0.5%左右的差異，所以考慮到稀有性，全被動（Targ）更安全。另請注意，攻擊等級％（Rath）是魅力中的護甲效果。過程：如果目標是提高射速，使用武器速度（Rok）調整速度也是一種選擇。
+沒有提升 Attack Rating 天賦的魔法職業（特別是巫師）命中率會比較吃緊。為了提高 Proc 觸發率，也可以用符文補命中率。基本上 Attack Rating%（Rath）很優秀，但以單手武器基準來看差距只有約 0.5%，考量稀有度，All Passive（Targ）更穩。另外要注意，Attack Rating%（Rath）在 Charm 上會套用防具效果。若目標是提高 Proc 觸發率，用 Weapon Speed（Rok）調整攻速也可以納入選項。
 
 <a id="fc2-runeselect-mana-回復"></a>
 
@@ -556,7 +556,7 @@ Attack Rating%（Rath）＞全 Passive（Targ）＞Attack Rating（Shir）＞力
 
 命中時 Mana 回復（Gra）
 
-對於消耗大量法力的職業，例如戰士僧侶和十字軍，擁有擊中時恢復法力（Gra）的輔助斗篷將使即使隊伍中沒有吟遊詩人時也更容易移動。
+武僧、十字軍等 Mana 消耗很重的職業，可以準備一件鑲了命中時 Mana 回復（Gra）的備用副裝備；隊伍裡沒有吟遊詩人時也會比較好運轉。
 
 <a id="fc2-runeselect-防具"></a>
 
@@ -568,7 +568,7 @@ Attack Rating%（Rath）＞全 Passive（Targ）＞Attack Rating（Shir）＞力
 
 全能力值（Rath）、Rare Drop Rate（Marr）
 
-火力方面，所有增加力量的能力（拉斯）都很優秀，但是裝甲上沒有消耗拉斯的空間，我會說這太奢侈了。如果你的抵抗力極為匱乏，屬性抗性符文當然有用。
+就火力而言，能提高力量的全能力值（Rath）很優秀，但把 Rath 消耗在防具上通常太奢侈，基本上沒有餘裕。如果某個抗性極端缺乏，屬性抗性符文當然也有用。
 
 <a id="fc2-runeselect-魔法-2"></a>
 
@@ -576,9 +576,9 @@ Attack Rating%（Rath）＞全 Passive（Targ）＞Attack Rating（Shir）＞力
 
 Rare Drop Rate（Marr）
 
-由於沒有放入任何東西，因此通過消除法變成稀有掉落率（Marr）。也就是說，馬爾非常罕見，所以你需要對放入其中的設備進行選擇性。我們推薦諸如莫斯比的古代王冠之類的物品，因為它們可以與各種角色一起使用。
+可放的東西不多，因此用消去法會選 Rare Drop Rate（Marr）。不過 Marr 也算稀有，所以要嚴選要鑲的裝備。像 Mosby's Ancient Crown 這類能在多個角色間共用的裝備很推薦。
 
-和物理類似，如果抵抗力極度缺乏，就加入屬性抵抗符文。
+和物理一樣，如果某個抗性極端缺乏，就鑲屬性抗性符文。
 
 ---
 

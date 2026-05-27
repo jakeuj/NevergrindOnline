@@ -38,55 +38,55 @@ const IMAGE_TOKEN_PATTERN = /\{\{FC2_IMAGE_(\d+)\}\}/g;
 const TOPIC_META = {
   'fc2-class-build-index.md': {
     title: 'Nevergrind Online FC2 職業 Build 全量參考',
-    description: '整合 FC2 的 14 個職業頁，保留職業定位、天賦範例、裝備例、操作與表格數值。',
+    description: '整合 FC2 的 14 個職業頁，保留職業定位、天賦範例、裝備例、操作建議與表格數值，方便繁中玩家查 build、職業定位、原站資料與中文索引。',
   },
   'fc2-general-reference.md': {
     title: 'Nevergrind Online FC2 一般攻略全量參考',
-    description: '整合 FC2 首頁、流程、FAQ、角色建立、地城資料、英文縮寫、掉寶與賭博頁。',
+    description: '整合 FC2 首頁、遊戲流程、FAQ、角色建立、狀態異常、特殊怪物、Boss、英文縮寫、掉寶與賭博頁，保留原站段落、數值、攻略脈絡與頁內索引。',
   },
   'fc2-legendary-table.md': {
     title: 'Nevergrind Online FC2 Legendary 全量表',
-    description: 'FC2 Legendary 裝備表的繁中化版本，保留名稱、需求等級、DPS、防禦與 Mods 數值。',
+    description: 'FC2 Legendary 裝備表繁中化版本，保留名稱、需求等級、DPS、防禦、Mods 數值與來源資訊，方便查傳奇裝備、掉落用途與部位價值。',
   },
   'fc2-recipes.md': {
     title: 'Nevergrind Online FC2 配方全量表',
-    description: 'FC2 配方表格的繁中化版本，保留裝備欄位、需求等級、符文與 Mods。',
+    description: 'FC2 配方表格繁中化版本，保留裝備欄位、需求等級、要求符文、Mods 與來源資訊，方便查 Mythical 製作、符文組、後期素材與查表索引。',
   },
   'fc2-rune-craft-reference.md': {
     title: 'Nevergrind Online FC2 符文 / 神話製作 / Item Mods 全量參考',
-    description: '整合 FC2 符文、Rune Select、神話製作（Mythical Craft）與 Item Mods 頁面，保留配置建議與數值表。',
+    description: '整合 FC2 符文、Rune Select、神話製作（Mythical Craft）與 Item Mods 頁面，保留配置建議、效果數值、來源資訊與繁中術語對照。',
   },
   'fc2-selected-unique-items.md': {
     title: 'Nevergrind Online FC2 嚴選獨特裝備速查',
-    description: 'FC2 嚴選獨特裝備速查頁的繁中化版本，用於快速判斷值得保留的獨特裝備。',
+    description: 'FC2 嚴選獨特裝備速查繁中化版本，整理各職值得保留的 unique 候選、使用情境與來源資訊，方便快速判斷倉庫保留價值、賣裝取捨與保留理由。',
   },
   'fc2-set-elite.md': {
     title: 'Nevergrind Online FC2 Elite Set 全量表',
-    description: 'FC2 Elite Set 明細頁的繁中化版本，保留 set bonus、裝備名稱與 Mods。',
+    description: 'FC2 Elite Set 明細頁繁中化版本，保留套裝名稱、set bonus、裝備名稱、需求等級、Mods 與來源資訊，方便查高階套裝價值。',
   },
   'fc2-set-exceptional.md': {
     title: 'Nevergrind Online FC2 Exceptional Set 全量表',
-    description: 'FC2 Exceptional Set 明細頁的繁中化版本，保留 set bonus、裝備名稱與 Mods。',
+    description: 'FC2 Exceptional Set 明細頁繁中化版本，保留套裝名稱、set bonus、裝備名稱、需求等級、Mods 與來源資訊，方便查中階套裝價值。',
   },
   'fc2-set-normal.md': {
     title: 'Nevergrind Online FC2 Normal Set 全量表',
-    description: 'FC2 Normal Set 明細頁的繁中化版本，保留 set bonus、裝備名稱與 Mods。',
+    description: 'FC2 Normal Set 明細頁繁中化版本，保留套裝名稱、set bonus、裝備名稱、需求等級、Mods 與來源資訊，方便查前期套裝價值。',
   },
   'fc2-signature-skills.md': {
     title: 'Nevergrind Online FC2 各職代表技能速查',
-    description: 'FC2 各職代表技能表的繁中化版本，用於判斷其他職業裝備與天賦 / Skill 價值。',
+    description: 'FC2 各職代表技能表繁中化版本，整理職業招牌技能、天賦 / Skill 價值與來源資訊，方便判斷跨職裝備詞綴是否值得保留、保留理由與查表索引。',
   },
   'fc2-unique-accessories.md': {
     title: 'Nevergrind Online FC2 獨特飾品全量表',
-    description: 'FC2 獨特 Charm、Amulet、Ring 頁面的繁中化版本，保留 Mods 與需求等級。',
+    description: 'FC2 獨特 Charm、Amulet、Ring 頁面繁中化版本，保留 Mods、需求等級、來源資訊與飾品用途，方便比較飾品掉落價值與保留價值。',
   },
   'fc2-unique-armor.md': {
     title: 'Nevergrind Online FC2 獨特防具全量表',
-    description: 'FC2 獨特防具頁面的繁中化版本，保留防禦、需求等級與 Mods。',
+    description: 'FC2 獨特防具全量表繁中化版本，保留部位、防禦、需求等級、Mods、來源資訊與裝備名稱，方便查 unique armor 掉落價值與部位保留價值。',
   },
   'fc2-unique-weapons.md': {
     title: 'Nevergrind Online FC2 獨特武器全量表',
-    description: 'FC2 獨特武器與盾牌頁面的繁中化版本，保留傷害、DPS、需求等級與 Mods。',
+    description: 'FC2 獨特武器與盾牌全量表繁中化版本，保留傷害、DPS、需求等級、Mods、來源資訊與裝備名稱，方便查 unique weapon 價值。',
   },
 };
 
@@ -1492,18 +1492,64 @@ const MANUAL_TRANSLATIONS = {
     "胴體也可以考慮 Tyranid's Haunting。優點是能取得 Rare Drop Rate；代價是失去套裝效果中的 Human / Beast 特攻。不過 King of Riven Grotto 裡符合這兩類的大多只是偶爾出現的甲蟲，而且甲蟲有毒素抗性，本來就不太打得出傷害。另一個缺點是物理防禦大約會少 350～400。",
   '疫病ランクに余裕があれば、手を71布紫 Yon\'s Ephemeral Grasp にしてレアドロ稼ぐのもあり。':
     "如果 Plague 等級還有餘裕，手套也可以改用 71 級布甲獨特 Yon's Ephemeral Grasp 來堆 Rare Drop Rate。",
+  '暫定的なものであり、今後内容を書き換える可能性あり。':
+    '本頁為暫定內容，日後可能改寫。',
+  '物理（片手）': '物理（單手）',
+  '武器ダメージ（Cros）＞全パッシブ（Targ）＞筋力（Gart）':
+    'Weapon Damage（Cros）＞All Passive（Targ）＞力量（Gart）',
   'スピードが速く、基礎値の低い片手は加算である武器ダメージ（Cros）が最も強くなることが多い。':
-    '速度快、基礎值低的單手武器，通常加算型的 Weapon Damage（Cros）最強。',
+    '速度快、基礎值低的單手武器，多半最適合加算型的 Weapon Damage（Cros）。',
   'ただし片手であってもスピード2.5のような遅いものはあまり効率がよくない。':
-    '不過即使是單手武器，像速度 2.5 這種偏慢的武器，效率也不算好。',
+    '不過即使是單手武器，若速度像 2.5 這樣偏慢，效率也不太好。',
   '武器ダメージ（Cros）は希少であり、枚数を集めることが難しいため、繋ぎとしては全パッシブ（Targ）、次点で筋力（Gart）が選択肢となる。攻撃能力%（Rath）も優秀だが、片手に使うのは惜しい。':
-    'Weapon Damage（Cros）很稀有，也很難收集足夠數量；作為過渡選項，可以先用 All Passive（Targ），其次是力量（Gart）。Attack Rating%（Rath）也很優秀，但用在單手武器上有點可惜。',
+    'Weapon Damage（Cros）很稀有，也很難收集足夠顆數；過渡選項可以先用 All Passive（Targ），其次是力量（Gart）。Attack Rating%（Rath）也很優秀，但用在單手武器上有點可惜。',
   'レンジャーの片手に攻撃能力%（Rath）を採用するのは良さそうだが、レンジャーと心中する覚悟が必要。':
-    '遊俠的單手武器採用 Attack Rating%（Rath）看起來不錯，但要有把資源押在遊俠身上的心理準備。',
+    '遊俠的單手武器採用 Attack Rating%（Rath）看起來不錯，但要有長期投資遊俠的心理準備。',
+  '物理（両手）': '物理（雙手）',
+  '攻撃能力%（Rath）＞全パッシブ（Targ）＞筋力（Gart）':
+    'Attack Rating%（Rath）＞All Passive（Targ）＞力量（Gart）',
   'スピードが遅く、基礎値の高い両手は武器ダメージ（Cros）の効率が低く、全パッシブ（Targ）と同程度になりやすい。そのため攻撃能力%（Rath）が最も強い。ただし攻撃能力%（Rath）は希少であり、枚数も多く必要になるため、繋ぎとしては全パッシブ（Targ）、次点で筋力（Gart）が選択肢となる。':
-    '速度慢、基礎值高的雙手武器，Weapon Damage（Cros）效率較低，常會接近 All Passive（Targ）。因此 Attack Rating%（Rath）最強；但 Rath 很稀有，而且需要的數量也多，所以過渡選項可以先用 All Passive（Targ），其次是力量（Gart）。',
+    '速度慢、基礎值高的雙手武器，Weapon Damage（Cros）效率較低，常會接近 All Passive（Targ）。因此 Attack Rating%（Rath）最強；但 Rath 很稀有，而且需要的顆數也多，所以過渡選項可以先用 All Passive（Targ），其次是力量（Gart）。',
   '例外として、武器による自動攻撃を重視する場合は武器ダメージ（Cros）が強い。最大値は全パッシブ（Targ）の方が高くなるが、Crosは最低値の底上げが高い。':
     '例外是如果重視武器自動攻擊，Weapon Damage（Cros）會很強。All Passive（Targ）的最大值較高，但 Cros 對最低值的墊高效果較好。',
+  レンジャー弓: '遊俠弓',
+  '武器ダメージ（Cros）、武器の速度（Rok）＞全パッシブ（Targ）＞筋力（Gart）':
+    'Weapon Damage（Cros）、Weapon Speed（Rok）＞All Passive（Targ）＞力量（Gart）',
+  'レンジャー弓は特殊であり、武器の基礎スピードとソケット数で効率が左右される。':
+    '遊俠弓比較特殊，效率會受武器基礎速度與 Socket 數量影響。',
+  "エリートセットである Sinifay's Golden Harrier は武器ダメージ（Cros）が最も優秀で、武器の速度（Rok）は全パッシブ（Targ）と同程度の効率であるが、スピードの速い Reito Doku などは3ソケット目から武器の速度（Rok）が武器ダメージ（Cros）の効率を抜く。詳細は 武器DPS計算機 で。":
+    "Elite Set 的 Sinifay's Golden Harrier 以 Weapon Damage（Cros）最優秀；Weapon Speed（Rok）的效率與 All Passive（Targ）大致相同。不過像 Reito Doku 這類速度快的弓，從第 3 個 Socket 開始，Weapon Speed（Rok）會超過 Weapon Damage（Cros）。詳情請看武器 DPS 計算機。",
+  'レンジャー以外の物理職の弓（チャーム）': '非遊俠物理職業的弓（或 Charm）',
+  '物理（両手）と同じ考えでいい。': '可以用和物理雙手武器相同的方式思考。',
+  'ただしモンクは弓を装備できないためチャームとなり、チャームは攻撃能力%（Rath）が防具扱いとなってしまうため全パッシブ（Targ）が一番上にくる。またスキル速度（Phar）もチャームでは防具効果となってしまうため、モンクは恩恵を受けられない。かわいそう。':
+    '不過武僧不能裝備弓，因此要改用 Charm；而 Charm 上的 Attack Rating%（Rath）會套用防具效果，所以 All Passive（Targ）會排到最優先。另外 Skill Speed（Phar）在 Charm 上也會變成防具效果，因此武僧吃不到這個收益。很苦。',
+  '耐性削減（Mael）＞属性ダメージ≒クリティカル（Tae）':
+    'Resistance Reduction（Mael）＞屬性 Damage ≒ 暴擊（Tae）',
+  '物理とは違って、賢さ（Ruck）や知恵（Nag）といったステータス系は非常に弱い。':
+    '與物理不同，智慧（Ruck）與智力（Nag）這類能力值符文非常弱。',
+  '耐性削減（Mael）は入手が難しいため、火力目的ならクリティカル（Tae）が最も無難だと思われる。':
+    'Resistance Reduction（Mael）很難取得，因此若目標是輸出，暴擊（Tae）應該最穩妥。',
+  '魔法ルーンは物理ほど火力の上昇が見込めないため、レアドロップ率（Marr）を高めるのも良い選択肢だと思う。':
+    '魔法符文不像物理符文那樣能大幅拉高火力，因此提高 Rare Drop Rate（Marr）也算不錯的選項。',
+  'また環境にテンプラーが少ないため、詠唱速度（Skar）をつけた武器を用意しておくと便利。':
+    '另外，目前環境中的聖殿騎士不多，準備一把帶施法速度（Skar）的武器也很方便。',
+  ヒット率: '命中率',
+  '攻撃能力%（Rath）＞全パッシブ（Targ）＞攻撃能力（Shir）＞筋力（Gart）':
+    'Attack Rating%（Rath）＞All Passive（Targ）＞Attack Rating（Shir）＞力量（Gart）',
+  '攻撃能力が上昇するタレントを持たない魔法職（特にウィザード）はヒット率が厳しく、Proc 発動率を高めるためにルーンでヒット率を上げるのも選択肢となる。基本的には攻撃能力%（Rath）が優秀だが、片手基準で0.5%程度の差しかないので、希少性を鑑みれば全パッシブ（Targ）の方が無難。また攻撃能力%（Rath）はチャームでは防具効果となる点は注意。Proc 発動率を目的とするなら、武器の速度（Rok）によるスピード調整も選択肢に入る。':
+    '沒有提升 Attack Rating 天賦的魔法職業（特別是巫師）命中率會比較吃緊。為了提高 Proc 觸發率，也可以用符文補命中率。基本上 Attack Rating%（Rath）很優秀，但以單手武器基準來看差距只有約 0.5%，考量稀有度，All Passive（Targ）更穩。另外要注意，Attack Rating%（Rath）在 Charm 上會套用防具效果。若目標是提高 Proc 觸發率，用 Weapon Speed（Rok）調整攻速也可以納入選項。',
+  マナ回復: 'Mana 回復',
+  'ヒット時マナ回復（Gra）': '命中時 Mana 回復（Gra）',
+  'モンクやクルセイダーといったマナの消費が激しい職は、ヒット時マナ回復（Gra）をいれたサブ装備を持っておくとパーティにバードがいない時でも動きやすくなる。':
+    '武僧、十字軍等 Mana 消耗很重的職業，可以準備一件鑲了命中時 Mana 回復（Gra）的備用副裝備；隊伍裡沒有吟遊詩人時也會比較好運轉。',
+  '全ステータス（Rath）、レアドロップ率（Marr）': '全能力值（Rath）、Rare Drop Rate（Marr）',
+  '火力でいえば筋力の上がる全ステータス（Rath）が優秀だが、防具に Rath を消費する余裕はなく、あまりに贅沢であるとは言っておく。極端に欠けた耐性があれば、属性耐性ルーンももちろん有用だ。':
+    '就火力而言，能提高力量的全能力值（Rath）很優秀，但把 Rath 消耗在防具上通常太奢侈，基本上沒有餘裕。如果某個抗性極端缺乏，屬性抗性符文當然也有用。',
+  'レアドロップ率（Marr）': 'Rare Drop Rate（Marr）',
+  "入れるものがないので消去法でレアドロップ率（Marr）となる。とはいえ Marr はそれなりに希少ではあるので、入れる装備は厳選したい。Mosby's Ancient Crown などは様々なキャラで使い回せるのでオススメ。":
+    "可放的東西不多，因此用消去法會選 Rare Drop Rate（Marr）。不過 Marr 也算稀有，所以要嚴選要鑲的裝備。像 Mosby's Ancient Crown 這類能在多個角色間共用的裝備很推薦。",
+  '物理と同様、極端に欠けた耐性があれば属性耐性ルーンをつける。':
+    '和物理一樣，如果某個抗性極端缺乏，就鑲屬性抗性符文。',
   キャラクターメイキングについて: '關於角色建立',
   'ラダーとエターナルの違い': '天梯與永久角色的差異',
   シーズンについて: '關於賽季',

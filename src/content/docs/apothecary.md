@@ -1,6 +1,6 @@
 ---
 title: "Nevergrind Online 藥劑店（Apothecary）指南"
-description: "Nevergrind Online 的藥劑店（Apothecary），也可能在部分資料中被稱為 Alchemist，是 Edenburg（伊登堡）裡支撐冒險續航的補給站，也是施法職 / 治療者常回頭檢查裝備的法系商店。出發前買好藥水與 Identify Scrolls，回城後用 Identify All 類服務處理戰利品，再檢查 cloth armor、fo"
+description: "Nevergrind Online 藥劑店（Apothecary）指南，整理藥水、Identify Scrolls、Identify All、法系裝備檢查與回城補給節奏，幫玩家穩定續航。"
 sourcePages: []
 reviewedAt: "2026-05-03"
 sourceLastModified: "N/A"

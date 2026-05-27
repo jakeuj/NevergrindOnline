@@ -1,6 +1,6 @@
 ---
 title: "Nevergrind Online Cryptic Paragon（Haniwa）指南"
-description: "Cryptic Paragon，日系社群常稱 Haniwa / ハニワ / 哈尼瓦，是 Nevergrind Online 裡法系與支援職會長期追逐的高階 unique 武器。它的價值不只在單一傷害數字，而是同時提供施法節奏、全抗、全法術傷害、對不死生物加成與隨機技能 / 天賦 roll，讓一把武器能服務多種施法職流派。"
+description: "Cryptic Paragon（Haniwa）指南，整理這把高階 unique 武器的施法節奏、全抗、法術傷害、不死生物加成與隨機技能 / 天賦 roll 價值。"
 sourcePages: []
 reviewedAt: "2026-05-03"
 sourceLastModified: "N/A"

@@ -1,6 +1,6 @@
 ---
 name: maintain-nevergrind-docs
-description: Maintain the repo-local Astro Starlight Traditional Chinese Nevergrind Online guide site, especially FC2 / atelier3 source-driven ingestion, supplemental FC2 keeper lists, low-tier-first keeper quick tables, zh-TW Markdown generation, terminology consistency, sidebar organization, coverage and quality gates, GitHub Pages publishing, and CNAME/domain-safe deployment. Use when Codex works in this repository on Nevergrind Online docs, FC2 HTML refreshes, placeholder cleanup, source URL coverage, translation quality, terminology drift, sidebar/menu changes, Starlight build issues, or pushing site updates.
+description: Maintain the repo-local Astro Starlight Traditional Chinese Nevergrind Online guide site, especially FC2 / atelier3 source-driven ingestion, supplemental FC2 keeper lists, low-tier-first keeper quick tables, zh-TW Markdown generation, terminology consistency, sidebar organization, Google Search SEO metadata, robots.txt, JSON-LD, coverage and quality gates, GitHub Pages publishing, and CNAME/domain-safe deployment. Use when Codex works in this repository on Nevergrind Online docs, FC2 HTML refreshes, placeholder cleanup, source URL coverage, translation quality, terminology drift, sidebar/menu changes, Starlight build issues, search optimization, Search Console readiness, or pushing site updates.
 ---
 
 # Maintain Nevergrind Docs
@@ -18,6 +18,7 @@ description: Maintain the repo-local Astro Starlight Traditional Chinese Nevergr
 - FC2 content images are mirrored under `public/fc2-assets/ngo/`; CSS, JavaScript, counter images, tracking images, and external non-`/ngo/` assets are not published.
 - FC2 source snapshots are generated under `.cache/fc2/` and are intentionally ignored.
 - The public site targets GitHub Pages and the custom domain `ngo.jakeuj.com`.
+- Google Search metadata is handled by `src/components/SeoHead.astro`, `public/robots.txt`, `@astrojs/sitemap`, and `scripts/check-seo.mjs`.
 - Legacy `/nevergrind-online/...` compatibility pages live only in `src/pages/nevergrind-online/`; keep them `noindex`, `data-pagefind-ignore`, hash-preserving, and excluded from the sitemap.
 
 ## FC2 Refresh Workflow
@@ -39,6 +40,7 @@ npm run build
 - `build:fc2-docs` regenerates the source-driven `fc2-*` Markdown pages from `.cache/fc2/pages` into `src/content/docs/`.
 - `check:coverage` verifies every FC2 URL is routed and appears in frontmatter.
 - `check:quality` blocks old placeholder text, leaked translation guard tokens, missing render coverage, terminology drift, stale machine-translation phrases, and large untranslated Japanese fragments. It may intentionally ignore FC2 source-title rows where the Japanese original title is metadata.
+- After a production-style build with `SITE=https://ngo.jakeuj.com` and `BASE_PATH=/`, `check:seo` verifies robots, sitemap URLs, canonical host, JSON-LD, legacy noindex behavior, and frontmatter description length.
 - Do not use `import:writerside` for FC2 pages. It is intentionally disabled by default because the old Writerside seed can overwrite source-driven FC2 docs with placeholder summaries.
 
 ## Routes And Source Lookup
@@ -49,6 +51,14 @@ npm run build
 - When checking an FC2 source file, find its target with `src/data/fc2-topic-map.json`; the public section is `https://ngo.jakeuj.com/<slug>/#fc2-<source-file-stem>`, for example `chart.html` maps to `/fc2-general-reference/#fc2-chart`.
 - In `fc2-general-reference.md`, render sections in sidebar / FC2 menu order via `OUTPUT_PAGE_ORDER_OVERRIDES`: `index.html`, `chart.html`, `faq.html`, `charamake.html`, `statuseffect.html`, `unimon.html`, `boss.html`, `english.html`, `dpscalc.html`, `loot.html`, `gambling.html`. Do not hand-move generated Markdown.
 - If changing the custom-domain route strategy, update `src/content/docs/`, `src/data/sidebar.json`, `src/data/fc2-topic-map.json`, redirect pages, sitemap filtering, README, this skill, and GitHub Actions together.
+
+## SEO And Search Output
+
+- Keep `public/robots.txt` crawl-friendly and advertise `Sitemap: https://ngo.jakeuj.com/sitemap-index.xml`; do not block legacy paths there because legacy pages rely on `noindex` for crawlers to see the directive.
+- Keep `src/components/SeoHead.astro` as the Starlight `Head` override. It must render Starlight's default head first, then add conservative JSON-LD for `WebSite`, `WebPage`, and non-home `BreadcrumbList`.
+- Keep docs frontmatter `description` unique, natural zh-TW, and roughly 70-150 characters. Remove raw `.md` filenames, truncated fragments, and `nevergrind-online-*` legacy filename references.
+- For generated FC2 page descriptions, update `TOPIC_META` in `scripts/build-fc2-docs.mjs` as well as the generated Markdown so reruns do not regress SEO snippets.
+- After Search-related changes, run `SITE=https://ngo.jakeuj.com BASE_PATH=/ npm run build` and `npm run check:seo`. Search Console submission remains a manual post-deploy step for `https://ngo.jakeuj.com/sitemap-index.xml`.
 
 ## Terminology And Content Rules
 
@@ -106,15 +116,16 @@ npm run build
 - For `fc2-class-build-gear-keeper-list.md`, keep equipment sections in FC2 item-category order: `頭部`, `弓術`, `副手 / Charm`, `肩部`, `項鍊`, `背部`, `單手斬擊`, `單手鈍器（物理）`, `雙手鈍器（物理）`, `刺擊`, `雙手鈍器（魔法）`, `單手鈍器（魔法）`, `胴體`, `盾牌 / 左手`, `護腕`, `腰帶`, `手套`, `戒指`, `腿甲`, `靴子`. Do not add empty `雙手斬擊` or `Rune` sections unless keeper rows exist; keep rows within each section sorted by rarity, tier, Lv, and name.
 - In `fc2-class-build-gear-keeper-list.md`, keep `## 低階優先保留速查` immediately after `## 優先保留速查`. Derive it from fixed equipment rows only (`| ![...] |` rows), exclude Rare condition rows, omit icons, and use columns `階級 / 稀有度 / Lv / 名稱 / 種類 / 基底 / 使用職業 / 保留重點`. Sort by Normal -> Exceptional -> Elite, then Unique -> Set -> Legendary, then the FC2 item-category order above, base, Lv, and name. Recheck row counts when the full keeper list changes.
 - After route, sidebar, or topic-map changes, search for accidental public nested paths with `rg -n 'nevergrind-online/' src/content/docs src/data README.md scripts .github/workflows .agents/skills/maintain-nevergrind-docs -S`. Allow only intentional legacy redirect code, sitemap filtering, and external source URLs.
-- After `npm run build`, `rg -n '<loc>[^<]*/nevergrind-online/' dist/sitemap*.xml` should return nothing.
+- After `npm run build`, `rg -n '<loc>[^<]*/nevergrind-online/' dist -g 'sitemap*.xml'` should return nothing. `npm run check:seo` also enforces this.
 - For local route checks, root pages such as `http://127.0.0.1:4322/guide/` should render directly, while legacy pages such as `http://127.0.0.1:4322/nevergrind-online/guide/#x` should redirect to `/guide/#x`.
-- Before committing, run `git diff --check` and confirm `.cache/`, `.astro/`, `dist/`, and `.idea/` are not staged. `public/fc2-assets/ngo/` is an intended tracked asset mirror.
+- Before committing, run `git diff --check` and confirm `.cache/`, `.astro/`, `dist/`, and `.idea/` are not staged. `public/fc2-assets/ngo/` is an intended tracked asset mirror; `public/robots.txt` is source and should be tracked.
 
 ## Deploy Workflow
 
 - Commit source files and generated Markdown, not `.cache/`, `.astro/`, `dist/`, or `.idea/`.
 - Keep `public/CNAME` set to `ngo.jakeuj.com` for the GitHub Pages custom domain.
-- Keep GitHub Actions publishing with `SITE=https://ngo.jakeuj.com` and `BASE_PATH=/` so the custom domain serves root paths.
+- Keep GitHub Actions publishing with `SITE=https://ngo.jakeuj.com` and `BASE_PATH=/` so the custom domain serves root paths. The workflow should run `npm run check:seo` after `npm run build`.
 - Push `main` to `https://github.com/jakeuj/NevergrindOnline.git`.
 - GitHub Actions builds Pages from source. After deploy, expected canonical URLs look like `https://ngo.jakeuj.com/guide/`, not `https://ngo.jakeuj.com/nevergrind-online/guide/`.
+- After deploy, use Google Search Console URL Inspection on `/`, `/guide/`, `/fc2-rune-craft-reference/`, and `/nevergrind-online/guide/`, and submit `https://ngo.jakeuj.com/sitemap-index.xml` if needed.
 - If checking locally, use `npm run dev -- --port 4322` and open `http://127.0.0.1:4322/`.

@@ -1,6 +1,6 @@
 ---
 title: "Nevergrind Online FC2 獨特武器全量表"
-description: "FC2 獨特武器與盾牌頁面的繁中化版本，保留傷害、DPS、需求等級與 Mods。"
+description: "FC2 獨特武器與盾牌全量表繁中化版本，保留傷害、DPS、需求等級、Mods、來源資訊與裝備名稱，方便查 unique weapon 價值。"
 sourcePages:
   - file: "unique.html"
     title: "ユニーク | Nevergrind Online 攻略DB"

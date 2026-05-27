@@ -154,6 +154,12 @@ const FC2_RUNE_TERMINOLOGY_PATTERNS = [
   /毒素Damage|閃電Damage|冰冷Damage|火焰Damage|ArcaneDamage/,
 ];
 
+const FC2_RUNESELECT_TERMINOLOGY_PATTERNS = [
+  /魅惑|勇利|實體職業|物理學|戰士武僧|戰士僧侶|輔助斗篷/,
+  /自由流弓|金鷂|莫斯比|地位系統|魔法咒語|執行速度|消除法/,
+  /攻擊等級|屬性Damage|属性Damage|薩滿|拉斯|裝甲上沒有消耗/,
+];
+
 const FC2_GAMBLING_TERMINOLOGY_PATTERNS = [
   /進入城堡或進入新區域|符咒、頭部和戒律|魅力、千行和戒律/,
   /配件（例外\/精英）|護身符、帽子、戒律|項宗|薩彥萬花筒|黑天鵝樂隊|天之翼/,
@@ -452,6 +458,17 @@ for (const doc of docs) {
       for (const pattern of FC2_RUNE_TERMINOLOGY_PATTERNS) {
         if (pattern.test(runeContent)) {
           problems.push(`${doc} still contains FC2 Rune terminology drift matching ${pattern}.`);
+        }
+      }
+
+      const runeSelectContent = sectionBetween(
+        qualityContent,
+        '<a id="fc2-runeselect"></a>',
+        '\n---\n\n> **版本提醒**',
+      );
+      for (const pattern of FC2_RUNESELECT_TERMINOLOGY_PATTERNS) {
+        if (pattern.test(runeSelectContent)) {
+          problems.push(`${doc} still contains FC2 Rune Select terminology drift matching ${pattern}.`);
         }
       }
     }

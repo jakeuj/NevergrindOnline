@@ -1,6 +1,6 @@
 ---
 title: "Nevergrind Online 進度路線與 FC2 攻略讀法"
-description: "Nevergrind Online 的成長不要只從「哪個職業最強」或「哪件裝備顏色最高」開始看。比較穩的讀法是先抓住幾個節點：前期把續航與背包空間做起來，Lv25 左右集中單一天賦樹拿到 Superior，Lv45 左右再重置拿 Mastery，進 Nightmare / Hell 前先補抗性與生存，真正進入 Heroic 後才開始追固定刷圖與畢業散件。"
+description: "Nevergrind Online 進度路線，整理前期續航、Lv25 Superior、Lv45 Mastery、Nightmare / Hell 抗性檢查與 Heroic 後期 farm 節點。"
 sourcePages: []
 reviewedAt: "2026-05-03"
 sourceLastModified: "N/A"

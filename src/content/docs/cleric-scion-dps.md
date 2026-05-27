@@ -1,6 +1,6 @@
 ---
 title: "Nevergrind Online 牧師（Scion）輸出指南"
-description: "Scion 牧師的核心不是把牧師（Cleric）當純補，而是用 Condemnation、Deliverance、Sacred Revelation、Holy Sanctuary、Smite 與 Force of Glory 串出高頻率爆發。這套玩法適合單刷、farm undead / demon 區域，或在隊伍安全時把牧師轉成高火力施法職。"
+description: "Scion 牧師輸出指南，整理 Condemnation、Deliverance、Sacred Revelation、Holy Sanctuary、Smite 與 Force of Glory 的爆發循環，適合單刷與隊伍轉火力。"
 sourcePages: []
 reviewedAt: "2026-05-06"
 sourceLastModified: "N/A"

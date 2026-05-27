@@ -1,6 +1,6 @@
 ---
 title: Nevergrind Online 攻略 DB 繁中版
-description: FC2 / atelier3 Nevergrind Online 攻略 DB 的台灣繁體中文整理版入口。
+description: FC2 / atelier3 Nevergrind Online 攻略 DB 的台灣繁體中文入口，整理職業、裝備、符文、配方、地城與來源索引，方便玩家查攻略與對照原站資料。
 sourcePages: []
 reviewedAt: "2026-05-05"
 sourceLastModified: "N/A"

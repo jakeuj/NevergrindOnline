@@ -1,0 +1,66 @@
+---
+import StarlightHead from '@astrojs/starlight/components/Head.astro';
+
+const SITE_URL = 'https://ngo.jakeuj.com/';
+const SITE_NAME = 'Nevergrind Online 攻略 DB 繁中版';
+
+const { starlightRoute } = Astro.locals;
+const data = starlightRoute.entry.data;
+const canonicalEntry = starlightRoute.head.find(
+  (entry) => entry.tag === 'link' && entry.attrs?.rel === 'canonical',
+);
+const canonicalUrl =
+  typeof canonicalEntry?.attrs?.href === 'string'
+    ? canonicalEntry.attrs.href
+    : new URL(Astro.url.pathname, SITE_URL).href;
+const isHome = canonicalUrl === SITE_URL;
+
+const webSite = {
+  '@type': 'WebSite',
+  '@id': `${SITE_URL}#website`,
+  url: SITE_URL,
+  name: SITE_NAME,
+  inLanguage: 'zh-TW',
+};
+
+const webPage = {
+  '@type': 'WebPage',
+  '@id': `${canonicalUrl}#webpage`,
+  url: canonicalUrl,
+  name: data.title,
+  description: data.description,
+  inLanguage: 'zh-TW',
+  isPartOf: { '@id': webSite['@id'] },
+  dateModified: data.reviewedAt,
+};
+
+const breadcrumb = isHome
+  ? undefined
+  : {
+      '@type': 'BreadcrumbList',
+      '@id': `${canonicalUrl}#breadcrumb`,
+      itemListElement: [
+        {
+          '@type': 'ListItem',
+          position: 1,
+          name: SITE_NAME,
+          item: SITE_URL,
+        },
+        {
+          '@type': 'ListItem',
+          position: 2,
+          name: data.title,
+          item: canonicalUrl,
+        },
+      ],
+    };
+
+const graph = [webSite, webPage, ...(breadcrumb ? [breadcrumb] : [])];
+const structuredData = JSON.stringify({
+  '@context': 'https://schema.org',
+  '@graph': graph,
+});
+---
+
+<StarlightHead />
+<script type="application/ld+json" set:html={structuredData}></script>

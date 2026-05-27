@@ -1,6 +1,6 @@
 ---
 title: "Nevergrind Online 金錢效率與賣裝策略"
-description: "Nevergrind Online 的 gold 不是單純的商店貨幣，而是技能升級、背包擴張、補給鑑定、item upgrades、gambling 與 crafting 的共同燃料。金錢效率的核心不是「把每件裝備都撿回來」，而是在有限背包裡優先帶回高價值部位，透過鑑定提高售價，再把 gold 投入最能提升下一趟地城效率的地方。"
+description: "Nevergrind Online 金錢效率指南，整理技能升級、背包擴張、補給鑑定、item upgrades、gambling 與 crafting 之間的 gold 投資順序。"
 sourcePages: []
 reviewedAt: "2026-05-05"
 sourceLastModified: "N/A"

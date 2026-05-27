@@ -1,6 +1,6 @@
 ---
 title: "Nevergrind Online FC2 Legendary 全量表"
-description: "FC2 Legendary 裝備表的繁中化版本，保留名稱、需求等級、DPS、防禦與 Mods 數值。"
+description: "FC2 Legendary 裝備表繁中化版本，保留名稱、需求等級、DPS、防禦、Mods 數值與來源資訊，方便查傳奇裝備、掉落用途與部位價值。"
 sourcePages:
   - file: "legendary.html"
     title: "レジェンダリー | Nevergrind Online 攻略DB"

@@ -1,6 +1,6 @@
 ---
 title: "Nevergrind Online 十字軍（Crusader / Paladin）坦克與神聖混合指南"
-description: "十字軍（Crusader / Paladin）在 Tank 脈絡裡不是單純的高防禦職，而是把板甲、盾牌 threat、暈眩、自補、短暫無敵與神聖 / arcane 範圍傷害放在同一個角色裡。新手可以先把它理解成「能承傷的功能型前排」；進入中後期後，再依隊伍需求切向物理型續航、魔法型 AoE，或 undead / demon 特攻路線。"
+description: "十字軍（Crusader / Paladin）指南，整理板甲、盾牌 threat、暈眩、自補、短暫無敵與神聖 / arcane 範圍傷害，協助選擇坦克或 AoE 路線。"
 sourcePages: []
 reviewedAt: "2026-05-05"
 sourceLastModified: "N/A"

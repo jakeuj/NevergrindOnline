@@ -1,6 +1,6 @@
 ---
 title: "Nevergrind Online FC2 職業 Build 全量參考"
-description: "整合 FC2 的 14 個職業頁，保留職業定位、天賦範例、裝備例、操作與表格數值。"
+description: "整合 FC2 的 14 個職業頁，保留職業定位、天賦範例、裝備例、操作建議與表格數值，方便繁中玩家查 build、職業定位、原站資料與中文索引。"
 sourcePages:
   - file: "bard.html"
     title: "クラス/バード | Nevergrind Online 攻略DB"

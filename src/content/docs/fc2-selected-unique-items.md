@@ -1,6 +1,6 @@
 ---
 title: "Nevergrind Online FC2 嚴選獨特裝備速查"
-description: "FC2 嚴選獨特裝備速查頁的繁中化版本，用於快速判斷值得保留的獨特裝備。"
+description: "FC2 嚴選獨特裝備速查繁中化版本，整理各職值得保留的 unique 候選、使用情境與來源資訊，方便快速判斷倉庫保留價值、賣裝取捨與保留理由。"
 sourcePages:
   - file: "selectlist2.html"
     title: "各職の厳選ユニーク | Nevergrind Online 攻略DB"

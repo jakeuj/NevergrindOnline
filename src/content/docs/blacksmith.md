@@ -1,6 +1,6 @@
 ---
 title: "Nevergrind Online 鐵匠鋪（Blacksmith）指南"
-description: "Nevergrind Online 的鐵匠鋪（Blacksmith） / 鐵匠位於 Edenburg（伊登堡）右側，是重裝武庫，也是後期裝備客製化的工坊。想買 plate / mail armor、重型近戰武器、處理裝備升級，或把 runes 放進 socketed items，都會回到這裡；真正要投入高價符文前，先確認裝備會穿很久、roll 夠好、sock"
+description: "Nevergrind Online 鐵匠鋪（Blacksmith）指南，整理重裝與武器購買、裝備升級、sockets、runes、crafting 投入時機與高價素材判斷。"
 sourcePages: []
 reviewedAt: "2026-05-03"
 sourceLastModified: "N/A"

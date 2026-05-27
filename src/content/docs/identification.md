@@ -1,6 +1,6 @@
 ---
 title: "Nevergrind Online 鑑定（Identification）指南"
-description: "Nevergrind Online 的 Identification 鑑定不是單純的背包手續，而是把「未知戰利品」轉成「角色戰力」或「金幣收入」的關鍵流程。撿到未鑑定裝備後，先用部位、等級、職業可用性和潛在詞綴價值篩選，再用 Identify Scrolls 或城鎮 nevergrind-online-apothecary.md 的 Identify All"
+description: "Nevergrind Online 鑑定（Identification）指南，整理未鑑定裝備篩選、Identify Scrolls、Identify All、詞綴價值與賣裝收入判斷。"
 sourcePages: []
 reviewedAt: "2026-05-03"
 sourceLastModified: "N/A"

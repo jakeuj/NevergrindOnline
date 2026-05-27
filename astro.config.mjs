@@ -29,6 +29,9 @@ export default defineConfig({
         minHeadingLevel: 2,
         maxHeadingLevel: 3,
       },
+      components: {
+        Head: './src/components/SeoHead.astro',
+      },
       customCss: ['./src/styles/custom.css'],
       head: [
         {

@@ -1,6 +1,6 @@
 ---
 title: "Nevergrind Online FC2 配方全量表"
-description: "FC2 配方表格的繁中化版本，保留裝備欄位、需求等級、符文與 Mods。"
+description: "FC2 配方表格繁中化版本，保留裝備欄位、需求等級、要求符文、Mods 與來源資訊，方便查 Mythical 製作、符文組、後期素材與查表索引。"
 sourcePages:
   - file: "recipe.html"
     title: "レシピ | Nevergrind Online 攻略DB"

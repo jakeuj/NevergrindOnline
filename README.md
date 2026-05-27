@@ -31,13 +31,16 @@ src/data/fc2-source-manifest.json    FC2 來源 manifest
 src/data/fc2-image-manifest.json     FC2 內容圖片 manifest
 src/data/fc2-topic-map.json          FC2 URL 到本地 topic 的對應
 src/data/sidebar.json                Starlight 左側導覽
+src/components/SeoHead.astro         Starlight head override 與 JSON-LD
 public/fc2-assets/ngo/               FC2 內容圖片本地鏡像
 scripts/crawl-fc2.mjs                FC2 crawler
 scripts/sync-fc2-images.mjs          FC2 圖片同步器
 scripts/build-fc2-docs.mjs           FC2 HTML 到繁中 Markdown 產生器
 scripts/check-coverage.mjs           106 頁來源覆蓋檢查
 scripts/check-quality.mjs            內容品質與占位文字檢查
+scripts/check-seo.mjs                Google Search SEO 輸出檢查
 public/CNAME                         GitHub Pages custom domain
+public/robots.txt                    Google crawler 與 sitemap 入口
 ```
 
 `.cache/fc2/`、`.astro/` 與 `dist/` 是本機產物，不應提交。
@@ -83,7 +86,8 @@ npm run build
 npm run check:coverage
 npm run check:quality
 npm run lint:md
-npm run build
+$env:SITE="https://ngo.jakeuj.com"; $env:BASE_PATH="/"; npm run build
+npm run check:seo
 git diff --check
 ```
 
@@ -91,6 +95,27 @@ git diff --check
 `check:quality` 會阻擋摘要占位文字、舊式機器翻譯片語、名詞漂移、
 缺少來源頁、表格資料遺失與未翻譯日文外洩；這個檢查用來提示「需要完整翻譯」，
 不是要求刪除原站攻略內容。
+`check:seo` 會在正式網域 build 後檢查 `robots.txt`、sitemap/canonical 網域、
+JSON-LD、legacy `noindex`、以及 frontmatter description 長度與禁用片段。
+
+macOS / Linux shell 可用：
+
+```bash
+SITE=https://ngo.jakeuj.com BASE_PATH=/ npm run build
+npm run check:seo
+```
+
+## SEO 與搜尋收錄
+
+- `src/components/SeoHead.astro` 保留 Starlight 預設 head，並額外輸出
+  `WebSite`、`WebPage` 與非首頁 `BreadcrumbList` JSON-LD。
+- `public/robots.txt` 允許全站爬取並宣告
+  `https://ngo.jakeuj.com/sitemap-index.xml`。
+- 文件 frontmatter 的 `description` 應保持唯一、自然繁中、約 70-150 字，
+  不要留下 `.md` 檔名或舊 `/nevergrind-online/` 檔名片段。
+- 部署後可在 Google Search Console 驗證 `ngo.jakeuj.com`，提交 sitemap，
+  並用 URL Inspection 抽查首頁、`/guide/`、`/fc2-rune-craft-reference/`
+  與 legacy `/nevergrind-online/guide/`。
 
 ## GitHub Pages
 
@@ -100,7 +125,8 @@ GitHub Actions 會在 push 到 `main` 時執行：
 2. `npm run check:coverage`
 3. `npm run lint:md`
 4. `npm run build`
-5. 上傳 `dist/` 到 GitHub Pages
+5. `npm run check:seo`
+6. 上傳 `dist/` 到 GitHub Pages
 
 正式站使用 `public/CNAME` 中的 `ngo.jakeuj.com`。GitHub Pages 設定應選
 `GitHub Actions` 作為 Build and deployment source。

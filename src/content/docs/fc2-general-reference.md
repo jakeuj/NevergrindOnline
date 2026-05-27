@@ -1,6 +1,6 @@
 ---
 title: "Nevergrind Online FC2 一般攻略全量參考"
-description: "整合 FC2 首頁、流程、FAQ、角色建立、地城資料、英文縮寫、掉寶與賭博頁。"
+description: "整合 FC2 首頁、遊戲流程、FAQ、角色建立、狀態異常、特殊怪物、Boss、英文縮寫、掉寶與賭博頁，保留原站段落、數值、攻略脈絡與頁內索引。"
 sourcePages:
   - file: "index.html"
     title: "Nevergrind Online 攻略DB"

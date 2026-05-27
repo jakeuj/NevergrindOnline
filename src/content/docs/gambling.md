@@ -1,6 +1,6 @@
 ---
 title: "Nevergrind Online 賭博（Gambling）指南"
-description: "Nevergrind Online 的 Gambling 賭博是後期金幣出口：技能、背包與基本補給穩定後，玩家可以在 Edenburg（伊登堡）的 Merchant 用 gold 鎖定特定部位，嘗試取得 unique、set、legendary 或其他高價值裝備。它不是新手的第一筆投資，而是「已經知道自己要追哪個部位」之後，用多餘金幣換裝備機會的長線玩法。"
+description: "Nevergrind Online 賭博（Gambling）指南，整理 Merchant 花 gold 鎖定部位、追 unique / set / legendary 的時機、成本感與後期金幣出口。"
 sourcePages: []
 reviewedAt: "2026-05-05"
 sourceLastModified: "N/A"

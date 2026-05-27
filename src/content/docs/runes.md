@@ -1,6 +1,6 @@
 ---
 title: "Nevergrind Online 符文（Runes）指南"
-description: "Runes 是 Nevergrind Online 後期裝備客製化的核心：有 sockets 的裝備可以透過 nevergrind-online-blacksmith.md 的 enchanting / crafting 相關功能加入 rune bonus，把「好裝」推成更明確服務於 build 的核心裝。鑲嵌前先想清楚這件裝備會穿多久，因為符文通常不是拿來"
+description: "Nevergrind Online 符文（Runes）指南，整理 sockets、Blacksmith 鑲嵌、rune bonus、裝備壽命、Thex 經驗值與後期 build 客製化判斷。"
 sourcePages:
   - file: "runeselect.html"
     title: "ルーンの選び方 | Nevergrind Online 攻略DB"

@@ -1,6 +1,6 @@
 ---
 title: "Nevergrind Online Fandom Wiki 連結索引"
-description: "Fandom 的 Nevergrind Online Wiki 適合查英文名詞、基礎系統、職業頁、城鎮、loot 顏色、chat commands 與 general mechanics。這篇只整理「Fandom 哪個頁面查什麼」與本地筆記對應位置，不複製 wiki 原文；技能、物品、掉落、賽季或指令是否仍有效，仍要回目前遊戲內 tooltip、/help "
+description: "Fandom Wiki 連結索引，整理 Nevergrind Online 英文名詞、基礎系統、職業、城鎮、loot 顏色、chat commands 與站內攻略對應位置。"
 sourcePages: []
 reviewedAt: "2026-05-04"
 sourceLastModified: "N/A"

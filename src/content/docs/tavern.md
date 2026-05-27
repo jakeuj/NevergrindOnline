@@ -1,6 +1,6 @@
 ---
 title: "Nevergrind Online 酒館（Tavern）指南"
-description: "Nevergrind Online 的酒館（Tavern）是 Edenburg（伊登堡）裡把玩家送進冒險的核心入口：想接任務、進地城、確認任務掉落偏好、查看排行榜或讀新手 tips，都會回到這裡。出發前先在酒館確認任務目標、隊伍 ready 狀態與 farm 方向，比只盯著下一場地城更能穩定推進角色成長。"
+description: "Nevergrind Online 酒館（Tavern）指南，整理 Edenburg 接任務、進地城、任務掉落偏好、排行榜、新手 tips 與出發前 farm 方向確認。"
 sourcePages: []
 reviewedAt: "2026-05-06"
 sourceLastModified: "N/A"

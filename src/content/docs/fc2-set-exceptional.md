@@ -1,6 +1,6 @@
 ---
 title: "Nevergrind Online FC2 Exceptional Set 全量表"
-description: "FC2 Exceptional Set 明細頁的繁中化版本，保留 set bonus、裝備名稱與 Mods。"
+description: "FC2 Exceptional Set 明細頁繁中化版本，保留套裝名稱、set bonus、裝備名稱、需求等級、Mods 與來源資訊，方便查中階套裝價值。"
 sourcePages:
   - file: "alderon.html"
     title: "セット/Alderon | Nevergrind Online 攻略DB"

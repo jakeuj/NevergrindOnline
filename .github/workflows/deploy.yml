@@ -45,6 +45,9 @@ jobs:
           SITE: https://ngo.jakeuj.com
           BASE_PATH: /
 
+      - name: Check SEO output
+        run: npm run check:seo
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v5
         with:

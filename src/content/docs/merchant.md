@@ -1,6 +1,6 @@
 ---
 title: "Nevergrind Online 商人（Merchant）指南"
-description: "Nevergrind Online 的商人（Merchant）是 Edenburg（伊登堡）裡的後勤中心：它不只賣部分輕型裝備與隨機商品，更重要的是提供背包空間擴張。初期金幣常在技能、補給與背包之間拉扯；如果你常在地城裡滿包，就該把商人（Merchant）的 inventory upgrade 當成提升刷寶效率的長期投資。"
+description: "Nevergrind Online 商人（Merchant）指南，整理 Edenburg 輕型裝備、隨機商品、背包擴張、gold 投資順序與刷寶效率提升判斷。"
 sourcePages: []
 reviewedAt: "2026-05-03"
 sourceLastModified: "N/A"

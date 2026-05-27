@@ -1,6 +1,6 @@
 ---
 title: "Nevergrind Online 牧師技能參考（Twloli）"
-description: "這份筆記把 Twloli 牧師技能表整理成可公開查閱的 Nevergrind Online 牧師（Cleric）快速參考：先用熱鍵找技能，再看冷卻、施法時間、資源、中文名稱與戰術用途。要打 Scion 輸出循環時，最重要的是記住 Sacred Revelation / Force of Glory 製造 stun window，接 Deliverance，再"
+description: "Twloli 牧師技能參考，整理熱鍵、冷卻、施法時間、資源消耗、中文名稱與 Scion 輸出循環重點，方便對照遊戲內技能列、戰術用途與隊伍定位。"
 sourcePages: []
 reviewedAt: "2026-05-03"
 sourceLastModified: "N/A"

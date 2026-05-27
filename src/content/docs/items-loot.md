@@ -1,6 +1,6 @@
 ---
 title: "Nevergrind Online 物品與戰利品總覽"
-description: "Nevergrind Online 的物品系統是遊戲長期黏著度的核心：你不是只在換更高等級的裝備，而是在一件件隨機掉落、商店刷新、boss 掉落、套裝與 unique 裡，尋找剛好符合自己 build 的詞綴組合。新手先學會看稀有度與詞綴，中期開始理解 magic find、首通、組隊與 boss 掉落，後期再用符文與 crafting 把好裝備推成核心裝。"
+description: "Nevergrind Online 物品與戰利品總覽，整理稀有度、詞綴、magic find、boss 掉落、套裝、unique、runes 與 crafting 的裝備成長路線。"
 sourcePages: []
 reviewedAt: "2026-05-03"
 sourceLastModified: "N/A"
