@@ -12,6 +12,7 @@ status: "整理改寫"
 - 檢視日期：`2026-05-06`
 - 前置閱讀：[Nevergrind Online 牧師（Cleric）指南](/cleric/)
 - 技能速查：[Nevergrind Online 牧師技能參考（Twloli）](/cleric-skills-twloli/)
+- 單刷比較：[終局單刷職業與流派總覽](/endgame-solo-classes/)
 - 資料來源：來源摘要、FC2 牧師裝備範例、Nevergrind Wiki 牧師（Cleric）頁、Fandom 牧師（Cleric）頁、Xackery class list
 - 版本提醒：本文的 rank 目標來自 來源摘要，屬於 build 方向，不是永久固定數值；實際點法請以遊戲內 tooltip、目前 patch 與裝備加成後的 breakpoints 為準
 
@@ -19,6 +20,7 @@ status: "整理改寫"
 > 這套配法比較像 `Scion` 核心加上 `Arbiter` 的 `Condemnation`，不是完全只點單一天賦樹。
 > 爆發窗口是 stun 目標後接 `Deliverance`，並用 `Condemnation` 處理 cone / 多目標與 undead / demon。
 > 裝備先補 all talents / 牧師（Cleric） skill、casting haste、spirit / mana sustain；追高火力前要先解決資源和 aggro。
+> 若你是在比較終局單刷職業，牧師屬於高推薦但需要資源與控場管理的選項，可先看 [終局單刷職業與流派總覽](/endgame-solo-classes/)。
 
 ## 這套流派（build）在追什麼
 

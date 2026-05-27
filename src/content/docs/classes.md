@@ -11,7 +11,7 @@ Nevergrind Online 的職業系統可以先用「坦克、治療、物理輸出�
 
 - 檢視日期：`2026-05-05`
 - 本文整理來源：官方 Steam 頁、Nevergrind Wiki、Fandom 職業頁與 FC2 / atelier3 攻略 DB 職業頁
-- 延伸閱讀：[FC2 職業 Build 摘要](./fc2-class-build-index/)、[FC2 各職代表技能速查](./fc2-signature-skills/)、[FC2 各職嚴選 Unique 裝備速查](./fc2-selected-unique-items/)
+- 延伸閱讀：[終局單刷職業與流派總覽](./endgame-solo-classes/)、[FC2 職業 Build 摘要](./fc2-class-build-index/)、[FC2 各職代表技能速查](./fc2-signature-skills/)、[FC2 各職嚴選 Unique 裝備速查](./fc2-selected-unique-items/)
 - 版本提醒：職業名稱、技能與天賦可能因版本或 wiki 更新不同而有差異，實際名稱以遊戲內與官方 wiki 為準
 
 > **快速重點**
@@ -109,7 +109,8 @@ Tank 和其他定位的關係很緊：治療會製造威脅值，輸出開場大
 | ------ | ------ | ------ |
 | 牧師（Cleric） | 仍是直接治療核心，但遇到不死 / 惡魔類敵人時，也可能靠神聖傷害與控制打出高輸出 | 看隊伍是否需要你抬血、補增益，還是能切到輸出節奏 |
 | 天騎士（Templar） / 魔法支援類資料 | 雖常被放在魔法輸出，但實戰上更像支援、加速、輔助與局部治療的混合角色 | 先對照遊戲內技能組，不要只看職業名稱 |
-| 戰士（Warrior） | 純坦仍有價值，但高難度刷圖常需要同時追一定輸出 | 只撐防禦但清怪太慢時，裝備要補武器、攻擊能力與續航 |
+| 戰士（Warrior） | 純坦仍有價值，但高難度刷圖常需要同時追一定輸出；頂裝 `Goliath` 可看 [戰士終局單刷指南](./warrior-goliath-solo/) | 只撐防禦但清怪太慢時，裝備要補武器、攻擊能力與續航 |
+| 德魯伊（Druid） / 術士（Warlock） | 都具備明確單刷潛力：德魯伊靠邊打邊補，術士靠 `Lich Form`、恐懼與吸血 | 兩者都要理解循環、抗性與裝備門檻；可看 [德魯伊單刷](./druid-stormcaller-solo/) 與 [術士單刷](./warlock-lich-solo/) |
 | 吟遊詩人（Bard） / 恩路者、幻術師（Enchanter） | 表面輸出可能不是最高，但能大幅放大隊伍加速、資源、控制與安全性 | 看整隊總輸出與穩定度，不只看個人傷害 |
 
 所以新手可以先用定位選職業；進入中後期後，真正要問的是「我的隊伍現在缺承傷、補血、加速、控制、資源，還是傷害」。
@@ -145,6 +146,8 @@ FC2 的 [各職の代表スキル](https://atelier3.web.fc2.com/ngo/selectlist.h
 | ------ | ------ | ------ |
 | 戰士（Warrior） | `Rupture`、`Shield Bash` 類流血、嘲諷與高威脅值技能 | 用來穩住怪與建立前線，不只是打傷害 |
 | 十字軍（Crusader） / 聖騎士（Paladin） | `Zealous Slam`、`Rebuke`、`Consecrate`、`Holy Wrath`、`Seal of Sanctuary` 類高威脅值、無敵、暈眩、自我治療與 undead / demon 特攻 | 混合坦與神聖工具，適合處理危險窗口；可接著看 [十字軍（Crusader）指南](./crusader/) |
+| 德魯伊（Druid） | `Tornado`、`Nature's Touch`、`Branch Spirit` 類元素輸出與治療工具 | 後期可走 [Stormcaller 單刷](./druid-stormcaller-solo/)，一邊輸出一邊補血 |
+| 術士（Warlock） | `Lich Form`、`Drain Soul`、`Poison Shock`、恐懼與 debuff | 自給自足能力強，但要處理武器速度、仇恨與防禦取捨；可看 [術士單刷](./warlock-lich-solo/) |
 | 武僧（Monk） | `Dragon Punch`、`Hurricane Kicks` 類高節奏物理技 | 很吃攻速、資源與命中，續航要搭裝備 |
 | 遊俠（Ranger） | `Spread Shot`、`Spirit of the Hunter` 類遠程 / 隊伍工具 | 弓術、後排處理與隊伍增益都要一起看 |
 | 巫師（Wizard） | `Meteor`、`Lightning Bolt` 類元素爆發 | 依火、冰、雷或抗性削減調整技能與裝備 |
@@ -245,6 +248,8 @@ NGO 的職業系統不是 14 個人在各打各的，而是看誰能把別人的
 - [FC2 攻略 DB：各職の代表スキル](https://atelier3.web.fc2.com/ngo/selectlist.html)
 - [FC2 攻略 DB：Crusader](https://atelier3.web.fc2.com/ngo/crusader.html)
 - [FC2 攻略 DB：Warrior](https://atelier3.web.fc2.com/ngo/warrior.html)
+- [FC2 攻略 DB：Druid](https://atelier3.web.fc2.com/ngo/druid.html)
+- [FC2 攻略 DB：Warlock](https://atelier3.web.fc2.com/ngo/warlock.html)
 
 ---
 

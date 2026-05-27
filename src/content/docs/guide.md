@@ -25,6 +25,7 @@ Nevergrind Online 可以先當成「短場次、重刷寶、重組隊協作」�
 | 先抓住 NGO 的整體循環 | [系統總覽與核心架構](./core-structure/) |
 | 想知道從新手到 `Hell` / `Heroic` 的順序 | [進度路線與 FC2 攻略讀法](./progression-roadmap/) |
 | 想選職業或理解隊伍定位 | [職業系統與裝備可用性總覽](./classes/) |
+| 想比較終局單刷職業與流派 | [終局單刷職業與流派總覽](./endgame-solo-classes/) |
 | 想知道進地城後怎麼選任務、看怪、控場 | [地城冒險與任務攻略](./dungeons/) |
 | 想看怪物強度顏色（con）、物種（species）、特性（traits）與擊殺順序 | [怪物分類與 Traits 指南](./monsters/) |
 | 想整理城鎮補給、升技能、鑑定與背包 | [Edenburg（伊登堡）城鎮設施總覽](./edenburg/) |
@@ -51,7 +52,7 @@ Nevergrind Online 可以先當成「短場次、重刷寶、重組隊協作」�
 
 | 系統 | 這裡先記住 | 詳細頁面 |
 | ------ | ------ | ------ |
-| 職業與隊伍 | 職業不是死板標籤；後期強度會被技能循環、天賦、裝備詞綴與隊伍需求改寫 | [職業系統與裝備可用性總覽](./classes/)、[治療者總覽](./healers/) |
+| 職業與隊伍 | 職業不是死板標籤；後期強度會被技能循環、天賦、裝備詞綴與隊伍需求改寫 | [職業系統與裝備可用性總覽](./classes/)、[終局單刷職業與流派](./endgame-solo-classes/)、[治療者總覽](./healers/) |
 | 地城與怪物 | 進場前先看任務目標，開打前先讀怪物強度顏色（con）、階級、物種（species）、特性（traits）和前後排 | [地城冒險與任務攻略](./dungeons/)、[怪物分類與 Traits 指南](./monsters/) |
 | 城鎮與資源 | 每場地城後都回到 Edenburg（伊登堡），把掉落轉成技能、背包、補給、銀行與裝備投資 | [Edenburg（伊登堡）城鎮設施總覽](./edenburg/) |
 | 物品與刷寶 | 不要只追顏色；部位、詞綴、技能加成、抗性、插槽（sockets）、符文（runes）和流派（build）缺口更重要 | [物品與戰利品總覽](./items-loot/)、[裝備收集路線](./equipment-collection/) |
@@ -88,6 +89,7 @@ FC2 本地鏡像已拆成多個全量參考頁；首頁只保留入口，避免�
 | ------ | ------ |
 | 完成矩陣與原站連結 | [FC2 攻略 DB 連結索引](./fc2-link-index/#fc2-completion-matrix) |
 | 職業 build | [FC2 職業 Build 摘要](./fc2-class-build-index/) |
+| 終局單刷補充 | [終局單刷職業與流派總覽](./endgame-solo-classes/) |
 | Unique 裝備 | [Unique 武器](./fc2-unique-weapons/)、[Unique 防具](./fc2-unique-armor/)、[Unique 飾品](./fc2-unique-accessories/) |
 | Set 裝備 | [Set Normal](./fc2-set-normal/)、[Set Exceptional](./fc2-set-exceptional/)、[Set Elite](./fc2-set-elite/) |
 | Legendary / Recipe / Rune / Craft | [Legendary 全量表](./fc2-legendary-table/)、[Recipe 全量表](./fc2-recipes/)、[Rune / Craft 參考](./fc2-rune-craft-reference/) |

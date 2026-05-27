@@ -11,6 +11,7 @@ Nevergrind Online 的治療者不是只站在後排補血的角色。牧師（Cl
 
 - 檢視日期：`2026-05-03`
 - 前置閱讀：[Nevergrind Online 職業系統總覽](./classes/)
+- 終局單刷：[終局單刷職業與流派總覽](./endgame-solo-classes/)、[德魯伊（Stormcaller）終局單刷指南](./druid-stormcaller-solo/)
 - 版本提醒：本文以 Nevergrind Wiki 與 來源摘要整理方向；實際技能數值請以遊戲內 tooltip 為準
 
 > **快速重點**
@@ -53,6 +54,8 @@ Nevergrind Online 的治療者不是只站在後排補血的角色。牧師（Cl
 - 想靠 tracking 找 rare monsters，提高刷寶節奏。
 
 來源摘要把德魯伊（Druid）的強項放在 regeneration、直接治療與短冷卻爆發。這個方向可以理解成：德魯伊不是只把血補滿，而是用傷害與控制縮短危險時間。
+
+若目標是終局單刷，德魯伊可進一步看 [德魯伊（Stormcaller）終局單刷指南](./druid-stormcaller-solo/)；那篇會把 `Tornado`、`Nature's Touch`、`Branch Spirit` 與 `Nylith` 裝備方向整理成單刷循環。
 
 ## 薩滿（Shaman）：減益與續航型治療者
 

@@ -73,15 +73,16 @@ FC2 攻略DB 的優點是細：職業、技能、天賦、裝備、符文、地�
 
 | 職業 / 流派方向 | 核心觀念 | 新手提醒 |
 | ------ | ------ | ------ |
-| 戰士（Warrior） | 不只是坦，後期也能成為物理核心；`Rupture`、防禦 buff 與高價值武器很關鍵 | 先學會穩定開場與控仇恨，再追輸出 |
+| 戰士（Warrior） | 不只是坦，後期也能成為物理核心；`Rupture`、防禦 buff 與高價值武器很關鍵；頂裝路線可看 [戰士（Goliath）終局單刷](./warrior-goliath-solo/) | 先學會穩定開場與控仇恨，再追輸出 |
 | 暗影騎士（Shadow Knight） | 高火力坦，常靠特定技能 spam 與隊友 haste / support 起飛 | 沒有足夠盾牌、生存與支援時，不要把自己當純 DPS |
 | 武僧（Monk） | 終局輸出很漂亮，但不少配置吃裝；前中期可先走較穩的續航路線 | 不要直接照抄滿裝 cooldown build |
 | 遊俠（Ranger） | 物理 DPS 之外，也能提供很強的隊伍 buff / debuff；弓術與多 hit 斷點重要 | 保留強力套裝 bonus，但必要時用散件補主屬與命中 |
 | 巫師（Wizard） | 上限高，但很吃 skill rank、施法節奏與隊友支援 | 前中期可用較穩的元素路線過渡，不必一開始就追最高上限 |
-| 牧師（Cleric） / 德魯伊（Druid） / 薩滿（Shaman） | 治療與抗性支援在 Hell 過線時很有價值 | 不要只用單人傷害判斷補職價值 |
+| 牧師（Cleric） / 德魯伊（Druid） / 薩滿（Shaman） | 治療與抗性支援在 Hell 過線時很有價值；德魯伊後期可走 [Stormcaller 單刷](./druid-stormcaller-solo/) | 不要只用單人傷害判斷補職價值 |
+| 術士（Warlock） | `Lich Form`、`Drain Soul`、恐懼與 `Poison Shock` 讓它有明確單刷潛力 | 要先理解武器速度與仇恨控制，細節可看 [術士終局單刷](./warlock-lich-solo/) |
 | 吟遊詩人（Bard） / 恩路者 / 幻術師（Enchanter） | 團隊節奏、haste、控制與 buff 是核心價值 | 組隊時常比面板最高 DPS 更能改變整場效率 |
 
-如果要看職業定位、裝甲階級與可用武器，回到 [職業系統總覽](./classes/)。若你正在玩牧師，可以接著看 [牧師（Cleric）](./cleric/) 與 [牧師（Scion）輸出](./cleric-scion-dps/)。
+如果要看職業定位、裝甲階級與可用武器，回到 [職業系統總覽](./classes/)。若你想比較終局單刷職業，接著看 [終局單刷職業與流派總覽](./endgame-solo-classes/)。若你正在玩牧師，可以接著看 [牧師（Cleric）](./cleric/) 與 [牧師（Scion）輸出](./cleric-scion-dps/)。
 
 <a id="farming-route-principles"></a>
 
@@ -146,6 +147,7 @@ FC2 攻略會混用日文、英文技能名與機翻詞。下面先整理最常�
 ## 延伸閱讀
 
 - [核心架構心智圖](./core-structure/)
+- [終局單刷職業與流派總覽](./endgame-solo-classes/)
 - [FC2 攻略 DB 連結索引](./fc2-link-index/)
 - [公開來源判讀與疑難排解](./public-source-notes/)
 - [職業系統總覽](./classes/)

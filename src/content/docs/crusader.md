@@ -11,7 +11,7 @@ status: "整理改寫"
 
 - 檢視日期：`2026-05-05`
 - 分類：[Nevergrind Online 職業系統總覽](./classes/)
-- 延伸閱讀：[進度路線與 FC2 攻略讀法](./progression-roadmap/)、[Set Items](./set-items/)、[Zamtil's Plenitude](./set-items/#zamtils-plenitude)
+- 延伸閱讀：[終局單刷職業與流派總覽](./endgame-solo-classes/)、[進度路線與 FC2 攻略讀法](./progression-roadmap/)、[Set Items](./set-items/)、[Zamtil's Plenitude](./set-items/#zamtils-plenitude)
 - 資料來源：Nevergrind Wiki `Paladin`、Fandom `Crusader` / `Classes` / `Races` / `General Game Mechanics`、FC2 / atelier3 `Crusader` 職業頁
 - 版本提醒：`Crusader` 與 `Paladin` 名稱在來源間可能不一致；種族加成、技能名稱、threat 數值、rank 斷點與裝備例請以目前遊戲內 tooltip 為準
 
@@ -19,6 +19,7 @@ status: "整理改寫"
 > Fandom 把 `Crusader` 列為 Tank，並描述為可穿 plate armor、混合 melee skills 與 spells 的職業。
 > Nevergrind Wiki 的 `Paladin` 說法也接近：defensive hybrid melee、plate armor、stuns、healing，以及對 undead 的強化。
 > 種族上可選 `Dwarf`、`Half Elf`、`High Elf`、`Human`、`Seraph`；高階 build 常在魔法型 Judicator 與物理型 Herald / Protector 之間取捨。
+> 若目標是比較終局單刷職業，先看 [終局單刷職業與流派總覽](./endgame-solo-classes/)；本頁負責展開十字軍本身的機制與配裝讀法。
 
 <a id="crusader-tank-context"></a>
 

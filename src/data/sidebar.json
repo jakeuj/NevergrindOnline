@@ -258,8 +258,16 @@
                 "slug": "classes"
               },
               {
+                "label": "終局單刷",
+                "slug": "endgame-solo-classes"
+              },
+              {
                 "label": "十字軍",
                 "slug": "crusader"
+              },
+              {
+                "label": "戰士單刷",
+                "slug": "warrior-goliath-solo"
               },
               {
                 "label": "治療者總覽",
@@ -280,6 +288,14 @@
               {
                 "label": "牧師刷區域",
                 "slug": "cleric-farming-zones"
+              },
+              {
+                "label": "德魯伊單刷",
+                "slug": "druid-stormcaller-solo"
+              },
+              {
+                "label": "術士單刷",
+                "slug": "warlock-lich-solo"
               },
               {
                 "label": "法爾尼爾城堡",
