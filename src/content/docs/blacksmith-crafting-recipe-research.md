@@ -158,8 +158,8 @@ Crafting 系統讓灰色 / socketed base 的價值被重新定義。SteamDB patc
 
 | 條件 | 符合訊號 | 適用 / 例子 |
 | ------ | ------ | ------ |
-| A | `Elite` + `Superior` + 6 sockets | `PIERCERS`（刺擊）、`oneHandSlashers`（單手斬擊）、`2h Slash`（雙手斬擊）、`Staves` / `2h Blunt`（法杖 / 雙手鈍器）、`FOCUS`（法器）。 |
-| B | `Elite` + 6 sockets + 核心技能 `+3` | 即使沒有 `Superior`，只要命中 `Tornado`、`Lightning Bolt`、`Shadow Break` 等核心技能，仍視為頂級素材。 |
+| A | `Elite` + `Superior` + 最高級神話需求 sockets | 6 sockets 優先看 `twoHandSlashers`（雙手斬擊）、`twoHandBlunts`（雙手鈍器）、`oneHandBlunts`（單手鈍器）、`Focus`（法器）、`Staves`（法杖）；5 sockets 優先看 `PIERCERS`（刺擊）、`oneHandSlashers`（單手斬擊）、`bows`（弓）。 |
+| B | `Elite` + 最高級神話需求 sockets + 核心技能 `+3` | 即使沒有 `Superior`，只要命中 `Tornado`、`Lightning Bolt`、`Shadow Break` 等核心技能，仍視為頂級素材。 |
 | C | `Elite` + `Superior` + 4 sockets chest + 關鍵天賦 `+2` | 胴體若命中 `Goliath`、`Blood Knight` 這類後期關鍵天賦，可從等級 2 提升到等級 1。 |
 
 ### 等級 2：頂級畢業底材
@@ -168,7 +168,7 @@ Crafting 系統讓灰色 / socketed base 的價值被重新定義。SteamDB patc
 
 | 條件 | 符合訊號 | 適用 / 例子 |
 | ------ | ------ | ------ |
-| A：武器 / 法器 | `Elite` + `Superior` + 對應 sockets | 5 sockets 優先看 `oneHandBlunts`（單手鈍器）與 `bows`（弓）。6 sockets 若符合等級 1 清單，直接用等級 1 處理。 |
+| A：武器 / 法器 | `Elite` + `Superior` + 對應 sockets | 6 sockets 優先看 `twoHandSlashers`、`twoHandBlunts`、`oneHandBlunts`、`Focus`、`Staves`；5 sockets 優先看 `PIERCERS`、`oneHandSlashers`、`bows`。 |
 | B：胴體 | `Elite` + `Superior` + 4 sockets | 後期衣服畢業底材。先確認材質與職業可穿性，因為 cloth / leather / mail / plate 會隨素體繼承。 |
 | C：盾牌 | `Elite` + `Superior` + 4 sockets | 坦向與支援向看格擋、防禦、抗性與職業詞綴；若遇到極罕見 6 sockets shield，先帶回並以當前 tooltip 複核用途。 |
 
@@ -190,15 +190,32 @@ Crafting 系統讓灰色 / socketed base 的價值被重新定義。SteamDB patc
 | A：重練工具 | 品質階級 `Normal` + 6 sockets + `Staves` / 雙手鈍器 | 可鑲 6 顆 `Thex`，做成跨職業練功用的 `+120% EXP` 工具武器。 |
 | B：武僧副手 | `Elite` + 5 sockets + `Charm`（護石 / 查姆） | 武僧（Monk）少數副手多插槽選擇，例如 `Fallen Construct` 方向；非武僧也可先當一般 rune 工具候選。 |
 
+### 最高級神話部位 / 等級 / Slots
+
+這張表只看各部位最高級 Mythical 配方的需求 sockets，用來決定「看到幾槽才值得先帶回」。若同一個部位同時可作低階或過渡 craft，仍可依角色需求降格保留。
+
+| 部位類別 | 最高神話等級 | 需求 Slots | 拾取建議與邏輯 |
+| ------ | ------: | ------: | ------ |
+| `twoHandSlashers`（雙手斬擊） | 72 | 6 | 戰士（Warrior）與雙手斬擊流派的頂級畢業底材。 |
+| `twoHandBlunts`（雙手鈍器） | 71 | 6 | 包含雙手錘等重型物理武器；高 DPS、`Superior`、正確職業詞綴優先。 |
+| `oneHandBlunts`（單手鈍器） | 70 | 6 | 修正：最高級需求為 6 槽，不是 5 槽。 |
+| `Focus`（法器） | 65 | 6 | 魔法職追求極致降抗、spell damage 或核心技能補點的底材。 |
+| `Staves`（法杖） | 62 | 6 | 魔法兩手鈍器類別；若 FC2 recipe 的「雙手鈍器（魔法）」表與遊戲內 Staves 分類顯示不同，最後以 Craft tab / tooltip 為準。 |
+| `PIERCERS`（刺擊 / 匕首） | 67 | 5 | 修正：最高級需求為 5 槽，不是 6 槽。 |
+| `oneHandSlashers`（單手斬擊） | 62 | 5 | 修正：最高級需求為 5 槽，不是 6 槽。 |
+| `bows`（弓） | 63 | 5 | 遊俠（Ranger）製作神話弓專用；其他可裝弓職業也可作工具欄判斷。 |
+| `shields`（盾牌） | 62 | 4 | 修正：最高級需求為 4 槽；6 槽盾若出現，先視為特殊工具或版本差異候選。 |
+| `chests`（胸甲 / 胴體） | 58 | 4 | 製作時需注意 cloth / leather / mail / plate 材質會隨素體繼承。 |
+| `helms`（頭盔） | 58 | 3 | 若帶核心技能 `+3`，通常優先級極高，尤其是追技能次數 / bonus hit 門檻。 |
+
 ### Socket 速查
 
-| 優先用途 | Socket 數 | 優先底材 |
-| ------ | ------ | ------ |
-| 神級武器 / 法器素體 | 6 | `PIERCERS`、`oneHandSlashers`、`2h Slash`、`Staves` / `2h Blunt`、`FOCUS`。 |
-| 標準畢業武器底材 | 5 | `oneHandBlunts`、`bows`。 |
-| 胴體 / 盾牌底材 | 4 | `chests`、`shields`；盾牌若遇到 6 sockets，先帶回複核。 |
-| 頭部技能補點 | 3 | `helms`，重點是核心技能 `+3`。 |
-| 工具裝 | 5 到 6 | 5 sockets `Charm`、6 sockets `Staves` / 雙手鈍器。 |
+| 需求 Slots | 優先底材 | 判斷 |
+| ------: | ------ | ------ |
+| 6 | `twoHandSlashers`、`twoHandBlunts`、`oneHandBlunts`、`Focus`、`Staves` | 最高階武器 / 法器底材；`Elite` + `Superior` 或核心技能 `+3` 先帶回。 |
+| 5 | `PIERCERS`、`oneHandSlashers`、`bows`、`Charm` | 前三者是最高級 Mythical 素體需求；5-slot `Charm` 主要是工具 / 武僧副手候選。 |
+| 4 | `chests`、`shields` | 後期胴體與盾牌的標準畢業底材。 |
+| 3 | `helms` | 頭部技能補點位，核心技能 `+3` 比 `Superior` 更容易讓價值跳級。 |
 
 FC2 `recipe.html` 快照仍是很好的配方表來源，但它反映的是原站資料與當時表格整理；若玩家拾取規則與 FC2 表格不同，先把高價底材留下，再用遊戲內 UI 判斷是否能 Craft、要不要改作 rune socketing 工具或交易候選。
 
