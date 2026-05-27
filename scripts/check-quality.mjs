@@ -148,6 +148,12 @@ const FC2_MYTHICAL_TERMINOLOGY_PATTERNS = [
   /創建的item|不能作為附錄|用於製作的印記|魔法師的影響|素体準拠|#### 乙醚/,
 ];
 
+const FC2_RUNE_TERMINOLOGY_PATTERNS = [
+  /斗篷|披風|護身符|盔甲|劍斗篷|盾斗篷|魅力/,
+  /全能力值抗性|完整性降低|被Damage時回復/,
+  /毒素Damage|閃電Damage|冰冷Damage|火焰Damage|ArcaneDamage/,
+];
+
 const FC2_GAMBLING_TERMINOLOGY_PATTERNS = [
   /進入城堡或進入新區域|符咒、頭部和戒律|魅力、千行和戒律/,
   /配件（例外\/精英）|護身符、帽子、戒律|項宗|薩彥萬花筒|黑天鵝樂隊|天之翼/,
@@ -439,6 +445,13 @@ for (const doc of docs) {
       for (const pattern of FC2_MYTHICAL_TERMINOLOGY_PATTERNS) {
         if (pattern.test(qualityContent)) {
           problems.push(`${doc} still contains FC2 Mythical Craft terminology drift matching ${pattern}.`);
+        }
+      }
+
+      const runeContent = sectionBetween(qualityContent, '<a id="fc2-rune"></a>', '<a id="fc2-runeselect"></a>');
+      for (const pattern of FC2_RUNE_TERMINOLOGY_PATTERNS) {
+        if (pattern.test(runeContent)) {
+          problems.push(`${doc} still contains FC2 Rune terminology drift matching ${pattern}.`);
         }
       }
     }

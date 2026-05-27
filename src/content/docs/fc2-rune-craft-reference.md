@@ -18,14 +18,14 @@ sourcePages:
     title: "ルーンの選び方 | Nevergrind Online 攻略DB"
     url: "https://atelier3.web.fc2.com/ngo/runeselect.html"
     lastModified: "Mon, 19 May 2025 15:41:38 GMT"
-reviewedAt: "2026-05-13"
+reviewedAt: "2026-05-27"
 sourceLastModified: "Thu, 26 Jun 2025 00:26:03 GMT"
 status: "FC2 原站高保真繁中化"
 ---
 
 本頁由 FC2 / atelier3 原站 HTML 重新擷取後繁中化，保留原頁段落、清單、表格欄位與數值；FC2 內容圖片已本地鏡像，CSS、JavaScript 與追蹤圖不搬入公開站。
 
-- 檢視日期：`2026-05-13`
+- 檢視日期：`2026-05-27`
 - FC2 來源頁數：4
 - 翻譯策略：職業、屬性、難度、天賦與符文採中文優先；英文 item / skill / boss / map 查詢詞按需保留。
 - 內容狀態：由 FC2 原站正文生成，不使用舊版摘要句。
@@ -423,22 +423,22 @@ Mythic 物品的需求等級會採用素體與配方兩者之中較高的數值�
 - FC2 file：[rune.html](https://atelier3.web.fc2.com/ngo/rune.html)
 - 原站 Last-Modified：`Mon, 23 Jun 2025 23:50:00 GMT`
 
-可以連接到頭部和軀幹插槽上的物品，包括斗篷武器、飛行斗篷武器、弓、護身符、盾牌以及頭部和軀幹。
+符文可鑲嵌在單手武器、雙手武器、弓、Charm（護石）、盾牌、頭部與胴體等裝備的 Socket 中。
 
-弓被視為斗篷武器，護身符被視為斗篷武器（只有部分是盔甲），盾牌被視為盔甲。
+弓視為雙手武器；Charm（護石）視為單手武器，部分效果則視為防具；盾牌視為防具。
 
 各難度首次通關 Lord Szarthax 時，可以從國王那裡取得獎勵；若角色達到指定等級，會保證獲得符文。未達等級時符文會被移除，請注意。
 
-- 普通（Normal）：角色 Lv25 以上；低 Lv 符文？已確認 Lv45 符文。
-- 惡夢（Nightmare）：角色 Lv50 以上；已確認 Lv25 到 Lv59 符文。
-- 地獄（Hell）：角色 Lv90 以上；Lv39 到 Lv61。
+- 普通（Normal）：角色 Lv25 以上；來源另註「低 Lv 符文？」並確認 Lv45 符文。
+- 惡夢（Nightmare）：角色 Lv50 以上；已確認 Lv25～Lv59 符文。
+- 地獄（Hell）：角色 Lv90 以上；符文範圍 Lv39～Lv61。
 
-|名稱|需求等級|劍斗篷武器（盾斗篷數值x2）|防具|
+|名稱|需求等級|單手武器（雙手武器數值 x2）|防具|
 |---|---|---|---|
 |![1.png](/fc2-assets/ngo/img/rune/1.png)Val|11|+7 攻擊|+7 防禦|
 |![2.png](/fc2-assets/ngo/img/rune/2.png)Shir|11|+50 Attack Rating|+8 Health 擊殺時恢復|
 |![3.png](/fc2-assets/ngo/img/rune/3.png)Gra|13|+10 命中時 Mana 回復|+8 Mana 擊殺時恢復|
-|![4.png](/fc2-assets/ngo/img/rune/4.png)Naz|13|+12 命中時 Health 回復|+7% 全能力值抗性|
+|![4.png](/fc2-assets/ngo/img/rune/4.png)Naz|13|+12 命中時 Health 回復|+7% 全狀態異常抗性|
 |![5.png](/fc2-assets/ngo/img/rune/5.png)Gaj|15|+15 All Spell Power|+7% 全屬性抗性|
 |![6.png](/fc2-assets/ngo/img/rune/6.png)Iza|15|+12 出血 Damage 近戰|+30% 出血抗性|
 |![7.png](/fc2-assets/ngo/img/rune/7.png)Dorn|17|+15 Arcane Damage 近戰|+30% Arcane 抗性|
@@ -449,24 +449,24 @@ Mythic 物品的需求等級會採用素體與配方兩者之中較高的數值�
 |![12.png](/fc2-assets/ngo/img/rune/12.png)Gart|27|+30 力量|+20 Health 恢復速度|
 |![13.png](/fc2-assets/ngo/img/rune/13.png)Ruck|29|+30 智慧|+15 Mana 恢復速度|
 |![14.png](/fc2-assets/ngo/img/rune/14.png)Nag|31|+30 智力|+12 Spirit 恢復速度|
-|![15.png](/fc2-assets/ngo/img/rune/15.png)Rok|33|-0.07 武器速度 *魅力適用於護甲效果|+30 靈巧|
+|![15.png](/fc2-assets/ngo/img/rune/15.png)Rok|33|-0.07 武器速度 ※Charm 套用防具效果|+30 靈巧|
 |![16.png](/fc2-assets/ngo/img/rune/16.png)Vox|35|+20% 移動速度|+30 耐力|
-|![17.png](/fc2-assets/ngo/img/rune/17.png)Skar|37|+20 施法速度增加|+12 被Damage時回復 Mana|
-|![18.png](/fc2-assets/ngo/img/rune/18.png)Targ|39|+15 全 Passive Skill|+12 被Damage時回復 Spirit|
-|![19.png](/fc2-assets/ngo/img/rune/19.png)Tae|41|+50 暴擊|+15% 全能力值抗性|
-|![20.png](/fc2-assets/ngo/img/rune/20.png)Rath|43|+10% 攻擊力 *魅力由護甲效果施加|+12 全能力值|
+|![17.png](/fc2-assets/ngo/img/rune/17.png)Skar|37|+20 施法速度增加|+12 Mana 受擊時恢復|
+|![18.png](/fc2-assets/ngo/img/rune/18.png)Targ|39|+15 全 Passive Skill|+12 Spirit 受擊時恢復|
+|![19.png](/fc2-assets/ngo/img/rune/19.png)Tae|41|+50 暴擊|+15% 全狀態異常抗性|
+|![20.png](/fc2-assets/ngo/img/rune/20.png)Rath|43|+10% Attack Rating ※Charm 套用防具效果|+12 全能力值|
 |![21.png](/fc2-assets/ngo/img/rune/21.png)Thex|45|+10% 經驗值取得率|+15% 最大 Mana|
 |![22.png](/fc2-assets/ngo/img/rune/22.png)Marr|47|+30% Rare Drop Rate|+25% Rare Drop Rate|
-|![23.png](/fc2-assets/ngo/img/rune/23.png)Cros|49|+20 武器傷害 *魅力由護甲效果施加|+15% 全屬性抗性|
-|![24.png](/fc2-assets/ngo/img/rune/24.png)Fael|51|+10% 出血 Damage|+10% 吸收 出血|
-|![25.png](/fc2-assets/ngo/img/rune/25.png)Mir|53|+10% 毒素Damage|+10% 吸收 毒素|
-|![26.png](/fc2-assets/ngo/img/rune/26.png)Karg|55|+10% 閃電Damage|+10% 吸收 閃電|
-|![27.png](/fc2-assets/ngo/img/rune/27.png)Vis|57|+10% 冰冷Damage|+10% 吸收 冰冷|
-|![28.png](/fc2-assets/ngo/img/rune/28.png)Hosh|59|+10% 火焰Damage|+10% 吸收 火焰|
-|![29.png](/fc2-assets/ngo/img/rune/29.png)Nex|61|+10% ArcaneDamage|+10% 吸收 Arcane|
-|![30.png](/fc2-assets/ngo/img/rune/30.png)Phar|63|+6% 技能速度 *魅力由護甲效果施加|+8% 物理抗性|
-|![31.png](/fc2-assets/ngo/img/rune/31.png)Goz|65|+7% 強化 全屬性|+20% 最大 Health|
-|![32.png](/fc2-assets/ngo/img/rune/32.png)Mael|67|-5% 完整性降低|+5% 吸收 全屬性|
+|![23.png](/fc2-assets/ngo/img/rune/23.png)Cros|49|+20 Weapon Damage ※Charm 套用防具效果|+15% 全屬性抗性|
+|![24.png](/fc2-assets/ngo/img/rune/24.png)Fael|51|+10% 出血 Damage|+10% 出血吸收|
+|![25.png](/fc2-assets/ngo/img/rune/25.png)Mir|53|+10% 毒素 Damage|+10% 毒素吸收|
+|![26.png](/fc2-assets/ngo/img/rune/26.png)Karg|55|+10% 閃電 Damage|+10% 閃電吸收|
+|![27.png](/fc2-assets/ngo/img/rune/27.png)Vis|57|+10% 冰冷 Damage|+10% 冰冷吸收|
+|![28.png](/fc2-assets/ngo/img/rune/28.png)Hosh|59|+10% 火焰 Damage|+10% 火焰吸收|
+|![29.png](/fc2-assets/ngo/img/rune/29.png)Nex|61|+10% Arcane Damage|+10% Arcane 吸收|
+|![30.png](/fc2-assets/ngo/img/rune/30.png)Phar|63|+6% Skill Speed ※Charm 套用防具效果|+8% 物理抗性|
+|![31.png](/fc2-assets/ngo/img/rune/31.png)Goz|65|+7% 全屬性強化|+20% 最大 Health|
+|![32.png](/fc2-assets/ngo/img/rune/32.png)Mael|67|-5% 敵人全屬性抗性|+5% 全屬性吸收|
 |![33.png](/fc2-assets/ngo/img/rune/33.png)Fyrm|69|不滅|不滅|
 
 <a id="fc2-runeselect"></a>
