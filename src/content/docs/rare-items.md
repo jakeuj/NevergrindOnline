@@ -2,7 +2,7 @@
 title: "Nevergrind Online 稀有裝備（Rare Items）指南"
 description: "Nevergrind Online 的黃色 Rare 裝備代表稀有物品，核心特色是 2 到 6 個隨機 mods。它不像 unique 那樣有固定詞綴方向，也不像 set 那樣靠多件 bonus 成形；rare 的價值來自高度 RNG，一旦詞綴剛好命中 build，某些部位甚至可以成為中後期長期裝備。"
 sourcePages: []
-reviewedAt: "2026-05-05"
+reviewedAt: "2026-05-27"
 sourceLastModified: "N/A"
 status: "整理改寫"
 ---
@@ -53,6 +53,22 @@ FC2 loot 頁還補了一個很實用的讀法：`Tree Talents +3` amulet 不一�
 
 > **提醒**
 > FC2 對 rare gloves 的說法帶有職業與裝備池前提，例如 Warlock / Templar 的 +2 tree 來源需要分開看。公開筆記保留「命中核心 tree 的 rare gloves 值得比較」這個原則；實際可 roll 的職業、品質與數值請以目前遊戲內 tooltip 為準。
+
+## Rare amulet：`All Talents +2` 與 `Tree Talents +3`
+
+後期項鍊不是「沒有 `All Talents +2` 就一定丟」，但 `All Talents +2` 確實是判斷一條項鍊是否接近畢業級的核心訊號。原因是它同時抬高主動技能、被動技能與 talent tree，對多數 build 都有泛用價值。
+
+掃 Rare amulet 時可用下面的順序判斷：
+
+| 條件 | 保留判斷 |
+| ------ | ------ |
+| `All Talents +2` + 高主屬性 | 物理職特別看力量（Strength），最高可到 +50；如果同時有 critical、attack 或 survivability，通常先留。 |
+| `All Talents +2` + 抗性 / MF | 全屬性抗性、重要元素抗性、Rare Drop Rate 或 Gold Find 命中時，有機會勝過普通 roll 的 unique amulet。 |
+| 核心 `Tree Talents +3` | 不是二等品；如果命中 `Judicator`、`Visionary`、`Chaos Mage` 等 build 核心 tree，常可作為拿到理想 unique 前的強力過渡。 |
+| 技能門檻差 1 級 | 若 `Condemnation`、`Blessed Hammer` 這類核心技能快到 bonus hit / 次數增加門檻，命中核心 tree 的 +3 項鍊可能比泛用 `All Talents +2` 更有即戰力。 |
+| 詞綴方向分散 | 只有 talent 但主屬性、抗性、critical、資源與技能強化都沒補到需求時，先降為待比較，不要自動長留。 |
+
+Unique amulet 則看固定方向：`Sayanim Kaleidoscope` 的價值在於穩定的 `All Talents` 與高抗性，`Shimmering Fragment` 要看隨機職業天賦與隨機天賦是否命中，`Syzygy Shard` / `Dossam's Morning Star` 這類屬性 talent 項鍊則偏向特定元素 build。完整數值可回 [FC2 獨特飾品表](./fc2-unique-accessories/#fc2-uamulet) 查。
 
 ## 鑑定與取捨
 

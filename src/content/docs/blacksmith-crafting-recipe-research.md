@@ -1,6 +1,6 @@
 ---
 title: "Nevergrind Online 鐵匠鋪製作與配方（Blacksmith Crafting / Recipe）深度筆記"
-description: "Nevergrind Online 的鐵匠鋪製作（Blacksmith crafting）不是單一版本一次完成的功能，而是從 Season 2 的 runes、socketed items、ethereal / indestructible 裝備開始鋪路，再逐步啟用 enchanting counter、Craft tab、Mythical items / "
+description: "Nevergrind Online 鐵匠鋪製作、Mythical craft、socketed base、rune recipe 與後期素體拾取優先度整理。"
 sourcePages:
   - file: "mythical.html"
     title: "クラフト | Nevergrind Online 攻略DB"
@@ -10,14 +10,14 @@ sourcePages:
     title: "レシピ | Nevergrind Online 攻略DB"
     url: "https://atelier3.web.fc2.com/ngo/recipe.html"
     lastModified: "Wed, 02 Jul 2025 14:10:19 GMT"
-reviewedAt: "2026-05-25"
+reviewedAt: "2026-05-27"
 sourceLastModified: "Wed, 02 Jul 2025 14:10:19 GMT"
 status: "整理改寫"
 ---
 
 Nevergrind Online 的鐵匠鋪製作（Blacksmith crafting）不是單一版本一次完成的功能，而是從 Season 2 的 runes、socketed items、ethereal / indestructible 裝備開始鋪路，再逐步啟用 enchanting counter、Craft tab、Mythical items / Rune Words、rune upgrade 與 Season 3 全配方。實務上，玩家應該先理解「已公開的規則」與「尚未公開的精確配方」之間的界線，再決定哪些 socketed base 值得留下來做 Mythical 裝備。
 
-- 檢視日期：`2026-05-25`
+- 檢視日期：`2026-05-27`
 - 前置閱讀：[鐵匠鋪（Blacksmith）指南](./blacksmith/)、[符文（Runes）指南](./runes/)
 - 資料來源：使用者提供的研究報告摘要、SteamDB patch notes、[Nevergrind Online 攻略DB：クラフト](https://atelier3.web.fc2.com/ngo/mythical.html)、[Nevergrind Online 攻略DB：レシピ](https://atelier3.web.fc2.com/ngo/recipe.html)
 - 版本提醒：crafting recipes、rune upgrade、socket 上限、UI 成本顯示與可 craft 底材，仍可能隨版本更新；投入稀有 rune 前請再看當前遊戲內 UI
@@ -138,42 +138,86 @@ Crafting 系統讓灰色 / socketed base 的價值被重新定義。SteamDB patc
 
 ## Mythical 素體保留篩選表
 
-若倉庫空間有限，Mythical craft base 可以用一句話先篩：後期高成本配方只認真留下 `Elite`、正確 socket count、`Superior`，或帶核心技能 / 關鍵天賦的 socketed base。`Normal` / `Exceptional` 不是完全沒用，但多半是測 recipe、過渡 craft、工具裝或分身用途，不應吃掉最稀有的 rune。
+若倉庫空間有限，Mythical craft base 可以先用這句話篩掉大半雜物：後期高成本配方預設只看 `Elite`、白色 `Normal` 或灰色 `Socketed` 名稱、正確 socket count、`Superior`，以及核心技能 / 關鍵天賦。`Normal` / `Exceptional` 階級多半不進後期素體名單，只有等級 4 的工具裝例外。
 
-通用檢查順序如下：
+> **版本提醒**
+> 下面是實戰拾取優先度，不是逐件 recipe 公式。真正投入高階 rune 前，仍要回目前遊戲內 Craft tab / tooltip 確認 base type、socket count、職業鎖定與要求等級。
 
-| 優先順序 | 保留訊號 | 丟棄或降級處理 |
+### 全局過濾器
+
+| 檢查 | 保留口徑 |
+| ------ | ------ |
+| 裝備階級 | 預設只處理 `Elite`。非 `Elite` 除非符合等級 4 工具需求，否則不佔倉庫。 |
+| 名稱顏色 | 只掃白色 `Normal` 或灰色 `Socketed` 名稱的裝備；不要和品質階級 `Normal` 混淆。 |
+| Socket 數 | 必須符合目標用途。Craft base 看 recipe；工具裝看 rune socketing 目的。 |
+| 額外詞綴 | `Superior`、核心技能 `+3`、關鍵天賦高 roll、`Ethereal` + `Indestructible` 都可能讓素材跳級。 |
+
+### 等級 1：神級素體
+
+這一級是必撿底材，價值最高，通常同時滿足物理 / 防禦基礎加成、最高階配方需求與技能繼承價值。
+
+| 條件 | 符合訊號 | 適用 / 例子 |
 | ------ | ------ | ------ |
-| 1 | 符合目前 recipe 的 base type 與 socket count | socket 多一孔或少一孔都不能用在該 recipe；先改當一般 rune socketing 候選或賣店 |
-| 2 | `Elite` 底材，且基礎 damage / armor、速度、材質適合目標職業 | 非 Elite 後期通常只當過渡；除非有高 sockets、特殊用途或神 roll 詞綴 |
-| 3 | `Superior` 武器 / 防具 | 非 Superior 仍可測試或過渡，但畢業 craft 會少掉無法補回的 base 加成 |
-| 4 | 正確職業的 talent tree、specific skill enhancement 或 special properties | 錯職詞綴可能把 craft mod 池鎖到不需要的方向 |
-| 5 | 核心技能加成命中 `+3`，或關鍵天賦命中高 roll | 命中錯技能時只保留高價部位、分身需求或交易候選 |
-| 6 | `Ethereal` 且同時有可靠耐久解法，例如 `Indestructible` | 乙太會繼承但 craft 不修耐久；沒有耐久解法時不要投入珍貴 rune |
+| A | `Elite` + `Superior` + 最高級神話需求 sockets | 6 sockets 優先看 `twoHandSlashers`（雙手斬擊）、`twoHandBlunts`（雙手鈍器）、`oneHandBlunts`（單手鈍器）、`Focus`（法器）、`Staves`（法杖）；5 sockets 優先看 `PIERCERS`（刺擊）、`oneHandSlashers`（單手斬擊）、`bows`（弓）。 |
+| B | `Elite` + 最高級神話需求 sockets + 核心技能 `+3` | 即使沒有 `Superior`，只要命中 `Tornado`、`Lightning Bolt`、`Shadow Break` 等核心技能，仍視為頂級素材。 |
+| C | `Elite` + `Superior` + 4 sockets chest + 關鍵天賦 `+2` | 胴體若命中 `Goliath`、`Blood Knight` 這類後期關鍵天賦，可從等級 2 提升到等級 1。 |
 
-常見值得特別看的 skill / talent 方向包括 `Tornado`、`Lightning Bolt`、`Shadow Break`、`Rupture`、`Backstab`、`Condemnation`、`Blessed Hammer` 等。這些不是固定 BiS 清單，而是玩家 meta 中常用來追 Rank 19 / 29 / 34 等技能次數或 bonus hit 門檻的例子；實際仍要回角色目前 build 和技能 tooltip 比較。
+### 等級 2：頂級畢業底材
 
-### 依 FC2 Recipe 表校正 socket 上限
+這一級是多數主流 Mythical / Rune Words 後期製作會用到的標準底材，原則上高優先級帶回城。
 
-FC2 `recipe.html` 快照中的高階配方以「要求 rune 數」決定素體 socket 數。下面列的是目前公開表格裡各類別最高需求，不等於所有 socketed item 的掉落上限；若遊戲內 Craft tab 顯示不同，永遠以當前 UI 為準。
-
-| Recipe 類別 | 目前公開最高 rune / socket 數 | 後期保留重點 |
+| 條件 | 符合訊號 | 適用 / 例子 |
 | ------ | ------ | ------ |
-| 頭部 | 3 | 優先看 `Elite`、`Superior` 防禦，以及 `+3` 核心技能或關鍵天賦；頭部常是技能門檻補點位 |
-| 胴體 | 4 | 一定要先選對材質：板甲 / 鎖甲 / 皮甲 / 布甲會隨素體繼承；`Superior` 物理防禦很重要 |
-| 單手斬擊 | 5 | 物理職看 `Elite`、`Superior`、速度與職業 skill enhancement；目前 FC2 recipe 表不是 6 socket |
-| 雙手斬擊 | 6 | 戰士（Warrior）等可用雙手武器的職業特別值得看；高 DPS、`Superior`、核心技能 / 被動都會影響上限 |
-| 單手鈍器（物理） | 6 | 十字軍（Crusader）、聖殿騎士（Templar）、牧師（Cleric）、戰士（Warrior）等常見候選；若命中 `Condemnation` 或 `Blessed Hammer` 更值得留 |
-| 單手鈍器（魔法） / Focus | 6 | 施法職與支援職的高價素體；同時看 `Superior`、施法節奏、降抗 / spell power 與核心技能 |
-| 雙手鈍器（物理） | 6 | 物理雙手鈍器與混合職候選；高 DPS、速度與職業詞綴優先 |
-| 雙手鈍器（魔法） / Stave | 6 | 施法 / 支援向畢業素材；若帶 `Tornado`、`Lightning Bolt` 或職業核心技能更值得留 |
-| 刺擊 | 5 | 盜賊（Rogue）、遊俠（Ranger）、吟遊詩人（Bard）與部分 caster 可用；目前 FC2 recipe 表最高為 5 socket |
-| 盾牌 | 4 | 坦向與支援向看 `Elite`、`Superior`、格擋、防禦、抗性與職業詞綴；目前 FC2 recipe 表最高為 4 socket |
-| 弓術 | 5 | 遊俠（Ranger）主看高階 bow base；其他物理職也可能把 bow / ranged slot 當工具欄 |
+| A：武器 / 法器 | `Elite` + `Superior` + 對應 sockets | 6 sockets 優先看 `twoHandSlashers`、`twoHandBlunts`、`oneHandBlunts`、`Focus`、`Staves`；5 sockets 優先看 `PIERCERS`、`oneHandSlashers`、`bows`。 |
+| B：胴體 | `Elite` + `Superior` + 4 sockets | 後期衣服畢業底材。先確認材質與職業可穿性，因為 cloth / leather / mail / plate 會隨素體繼承。 |
+| C：盾牌 | `Elite` + `Superior` + 4 sockets | 坦向與支援向看格擋、防禦、抗性與職業詞綴；若遇到極罕見 6 sockets shield，先帶回並以當前 tooltip 複核用途。 |
 
-這張表也能修正常見誤判：`6 socket` 本身不是保證可 Craft。若 6 socket 弓、盾牌、刺擊或單手斬擊出現，它可能仍是珍貴的 rune socketing 工具裝，或代表當前版本 / 未來 recipe 有變動；但在公開 FC2 recipe 表的脈絡下，不能直接當成現有 Mythical recipe 的合格素體。
+### 等級 3：關鍵技能補位
 
-`Charm`（護石 / 查姆）同樣要分開判斷：目前公開 Mythical recipe families 沒有把 Charm 列為 craft base，因此高 socket Charm 應先視為 Thex / Marr / Targ 等一般鑲符文工具，而不是神話素體。低等 5-slot Charm 仍值得保留；若看到 6-slot Charm，先以現版本 tooltip 複核再更新上限判斷。
+這一級不強制要求 `Superior`，核心價值是把特定技能推過 Rank 19 / 29 / 34 等次數增加或 bonus hit 門檻。
+
+| 條件 | 符合訊號 | 適用 / 例子 |
+| ------ | ------ | ------ |
+| A：頭部 | `Elite` + 3 sockets + 核心技能 `+3` | 優先看 `Tornado`（德魯伊）、`Lightning Bolt`（巫師）、`Condemnation`（牧師）。 |
+| B：其他部位 | `Elite` + 對應最高 sockets + 核心技能 `+3` | 即使沒有 `Superior`，只要 skill roll 正確且 socket 數正確，就先視為高價值補位素材。 |
+
+### 等級 4：特殊功能 / 工具類
+
+這一級不一定是 Mythical craft base，而是特定角色或分身練功會用到的高 socket 工具。
+
+| 條件 | 符合訊號 | 用途 |
+| ------ | ------ | ------ |
+| A：重練工具 | 品質階級 `Normal` + 6 sockets + `Staves` / 雙手鈍器 | 可鑲 6 顆 `Thex`，做成跨職業練功用的 `+120% EXP` 工具武器。 |
+| B：武僧副手 | `Elite` + 5 sockets + `Charm`（護石 / 查姆） | 武僧（Monk）少數副手多插槽選擇，例如 `Fallen Construct` 方向；非武僧也可先當一般 rune 工具候選。 |
+
+### 最高級神話部位 / 等級 / Slots
+
+這張表只看各部位最高級 Mythical 配方的需求 sockets，用來決定「看到幾槽才值得先帶回」。若同一個部位同時可作低階或過渡 craft，仍可依角色需求降格保留。
+
+| 部位類別 | 最高神話等級 | 需求 Slots | 拾取建議與邏輯 |
+| ------ | ------: | ------: | ------ |
+| `twoHandSlashers`（雙手斬擊） | 72 | 6 | 戰士（Warrior）與雙手斬擊流派的頂級畢業底材。 |
+| `twoHandBlunts`（雙手鈍器） | 71 | 6 | 包含雙手錘等重型物理武器；高 DPS、`Superior`、正確職業詞綴優先。 |
+| `oneHandBlunts`（單手鈍器） | 70 | 6 | 修正：最高級需求為 6 槽，不是 5 槽。 |
+| `Focus`（法器） | 65 | 6 | 魔法職追求極致降抗、spell damage 或核心技能補點的底材。 |
+| `Staves`（法杖） | 62 | 6 | 魔法兩手鈍器類別；若 FC2 recipe 的「雙手鈍器（魔法）」表與遊戲內 Staves 分類顯示不同，最後以 Craft tab / tooltip 為準。 |
+| `PIERCERS`（刺擊 / 匕首） | 67 | 5 | 修正：最高級需求為 5 槽，不是 6 槽。 |
+| `oneHandSlashers`（單手斬擊） | 62 | 5 | 修正：最高級需求為 5 槽，不是 6 槽。 |
+| `bows`（弓） | 63 | 5 | 遊俠（Ranger）製作神話弓專用；其他可裝弓職業也可作工具欄判斷。 |
+| `shields`（盾牌） | 62 | 4 | 修正：最高級需求為 4 槽；6 槽盾若出現，先視為特殊工具或版本差異候選。 |
+| `chests`（胸甲 / 胴體） | 58 | 4 | 製作時需注意 cloth / leather / mail / plate 材質會隨素體繼承。 |
+| `helms`（頭盔） | 58 | 3 | 若帶核心技能 `+3`，通常優先級極高，尤其是追技能次數 / bonus hit 門檻。 |
+
+### Socket 速查
+
+| 需求 Slots | 優先底材 | 判斷 |
+| ------: | ------ | ------ |
+| 6 | `twoHandSlashers`、`twoHandBlunts`、`oneHandBlunts`、`Focus`、`Staves` | 最高階武器 / 法器底材；`Elite` + `Superior` 或核心技能 `+3` 先帶回。 |
+| 5 | `PIERCERS`、`oneHandSlashers`、`bows`、`Charm` | 前三者是最高級 Mythical 素體需求；5-slot `Charm` 主要是工具 / 武僧副手候選。 |
+| 4 | `chests`、`shields` | 後期胴體與盾牌的標準畢業底材。 |
+| 3 | `helms` | 頭部技能補點位，核心技能 `+3` 比 `Superior` 更容易讓價值跳級。 |
+
+FC2 `recipe.html` 快照仍是很好的配方表來源，但它反映的是原站資料與當時表格整理；若玩家拾取規則與 FC2 表格不同，先把高價底材留下，再用遊戲內 UI 判斷是否能 Craft、要不要改作 rune socketing 工具或交易候選。
 
 <a id="crafting-inheritance"></a>
 

@@ -2,7 +2,7 @@
 title: "Nevergrind Online FC2 職業畢業裝倉庫保留清單"
 description: "依裝備部位整理 FC2 職業 Build 頁提到的畢業裝、替代候選與條件欄位，補上需求等級、階級、稀有度與保留判斷，方便倉庫清理與賣裝取捨。"
 sourcePages: []
-reviewedAt: "2026-05-12"
+reviewedAt: "2026-05-27"
 sourceLastModified: "Sun, 19 Apr 2026 22:30:01 GMT"
 status: "整理改寫"
 ---
@@ -257,6 +257,12 @@ status: "整理改寫"
 | ![amulets2.png](/fc2-assets/ngo/img/amulets2.png) | Swiftraven's Phylactery | 套裝（Set） | 菁英（Elite） | 69 | 項鍊 | 優先撿：Elite Set 項鍊 | 薩滿（項鍊） | Elite set 件；先留目標職 1 件，再比較 roll / socket / set bonus。 |
 | ![amulets0.png](/fc2-assets/ngo/img/amulets0.png) | Dossam's Morning Star | 獨特（Unique） | 菁英（Elite） | 68 | 項鍊 | 優先撿：Elite Unique 項鍊 | 聖殿騎士（項鍊；正文替代候選） | 正文替代候選；有目標職或高 roll 再留重複品。 |
 
+#### Rare / Unique 項鍊補充判斷
+
+`All Talents +2` 不是項鍊唯一保留條件，但它仍是判斷 Rare amulet 是否接近畢業級的第一訊號；若同時有高力量（物理職最高可看 +50）、全屬性抗性、critical 或 Rare Drop Rate，先留再比較。命中核心 `Tree Talents +3` 的項鍊也值得保留，尤其是還差 1 級就能讓 `Condemnation`、`Blessed Hammer` 等技能跨過 bonus hit / 次數增加門檻時，`Judicator +3`、`Visionary +3` 或其他核心 tree roll 可能比泛用 `All Talents +2` 更有即戰力。
+
+固定 unique 方面，`Sayanim Kaleidoscope` 是穩定 `All Talents` 與高抗性候選；`Shimmering Fragment` 要看隨機天賦是否命中職業；`Syzygy Shard`、`Dossam's Morning Star` 則偏向雷 / 冰屬性特化。完整 mods 請回 [FC2 獨特飾品表](./fc2-unique-accessories/#fc2-uamulet) 對照。
+
 ### 背部
 
 | 圖示 | 名稱 | 稀有度 | 階級 | Lv | 種類 / 基底 | 掉落提示 | 使用職業 | 倉庫判斷 |
@@ -452,9 +458,9 @@ status: "整理改寫"
 
 | 條件 | 稀有度 | 階級 | Lv | 種類 / 基底 | 掉落提示 | 職業 / 部位 | 倉庫判斷 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 所有天賦 +2 欄位 | 稀有條件（Rare condition） | 依實物 | 依實物 | 項鍊 / Rare amulet | 先撿 Rare 項鍊 | 牧師（項鍊）、十字軍（項鍊）、武僧（項鍊）、遊俠（項鍊）、盜賊（項鍊）、暗影騎士（項鍊）、術士（項鍊）、戰士（項鍊） | Rare 項鍊候選；優先留 All Talents +2，若同時有核心天賦樹 / 主屬性 / 抗性更好。 |
-| 所有天賦 +2、天賦樹 +3 欄位 | 稀有條件（Rare condition） | 依實物 | 依實物 | 項鍊 / Rare amulet | 先撿 Rare 項鍊 | 聖殿騎士（項鍊） | Rare 項鍊候選；優先留 All Talents +2，若同時有核心天賦樹 / 主屬性 / 抗性更好。 |
-| 所有天賦 +2、Judicator +3 欄位 | 稀有條件（Rare condition） | 依實物 | 依實物 | 項鍊 / Rare amulet | 先撿 Rare 項鍊 | 十字軍（項鍊） | Rare 項鍊候選；優先留 All Talents +2，若同時有核心天賦樹 / 主屬性 / 抗性更好。 |
+| 所有天賦 +2 欄位 | 稀有條件（Rare condition） | 依實物 | 依實物 | 項鍊 / Rare amulet | 先撿 Rare 項鍊 | 牧師（項鍊）、十字軍（項鍊）、武僧（項鍊）、遊俠（項鍊）、盜賊（項鍊）、暗影騎士（項鍊）、術士（項鍊）、戰士（項鍊） | Rare 項鍊候選；`All Talents +2` 是畢業級核心訊號，若同時有主屬性、抗性、critical 或 Rare Drop Rate 更優先。 |
+| 所有天賦 +2、天賦樹 +3 欄位 | 稀有條件（Rare condition） | 依實物 | 依實物 | 項鍊 / Rare amulet | 先撿 Rare 項鍊 | 聖殿騎士（項鍊） | Rare 項鍊候選；若核心 tree +3 能補到技能門檻或元素特化，不一定輸給泛用 `All Talents +2`。 |
+| 所有天賦 +2、Judicator +3 欄位 | 稀有條件（Rare condition） | 依實物 | 依實物 | 項鍊 / Rare amulet | 先撿 Rare 項鍊 | 十字軍（項鍊） | Rare 項鍊候選；`Judicator +3` 可用來撐 `Blessed Hammer` / 十字軍核心門檻，先留再和 unique、set 比較。 |
 | Speed1.5～1.8刺擊 | 稀有條件（Rare condition） | 依實物 | 依實物 | 刺擊 / Speed 1.5-1.8 | 先撿 Rare 刺擊 / Speed 1.5-1.8 | 巫師（右手） | 不是固定裝備名，依速度與詞綴條件保留。 |
 
 ## Set 系列對照
