@@ -148,6 +148,17 @@ const FC2_MYTHICAL_TERMINOLOGY_PATTERNS = [
   /創建的item|不能作為附錄|用於製作的印記|魔法師的影響|素体準拠|#### 乙醚/,
 ];
 
+const FC2_ITEMMODS_TERMINOLOGY_PATTERNS = [
+  /分配給設備|設備上顯示|傷害增強\/增加攻擊速度|增加攻擊速度\/增加攻擊速度/,
+  /盾牌方塊|盾牌瓷磚|折舊率|盾牌瓷磚|掉落率是|這個數字只是命中率/,
+  /副斗篷|副披風|軀幹|項圈|戒律|天然樹|完整性 職業名稱|培養各行各業/,
+  /暴力破解|靈技|狂暴攻擊率|每攻擊50次|斗篷武器|風暴斗篷|蠻力極低/,
+  /受到處罰|能力全開|眼前一片漆黑|體術|退化強度|退化敵人|物理阻力|總阻力/,
+  /城堡內的移動速度|成功率|每次獲取率|掉落加倍|基於點的效果|造成濫用/,
+  /就算不打也能打|不朽|永生|副披風|佩戴|擦除|布甲製|皮甲製/,
+  /属性抗性|属性Damage|Damage近戰|降低 敵 抗性/,
+];
+
 const FC2_RUNE_TERMINOLOGY_PATTERNS = [
   /斗篷|披風|護身符|盔甲|劍斗篷|盾斗篷|魅力/,
   /全能力值抗性|完整性降低|被Damage時回復/,
@@ -448,6 +459,13 @@ for (const doc of docs) {
     }
 
     if (docName === 'fc2-rune-craft-reference.md') {
+      const itemModsContent = sectionBetween(qualityContent, '<a id="fc2-itemmods"></a>', '<a id="fc2-mythical"></a>');
+      for (const pattern of FC2_ITEMMODS_TERMINOLOGY_PATTERNS) {
+        if (pattern.test(itemModsContent)) {
+          problems.push(`${doc} still contains FC2 Item Mods terminology drift matching ${pattern}.`);
+        }
+      }
+
       for (const pattern of FC2_MYTHICAL_TERMINOLOGY_PATTERNS) {
         if (pattern.test(qualityContent)) {
           problems.push(`${doc} still contains FC2 Mythical Craft terminology drift matching ${pattern}.`);
