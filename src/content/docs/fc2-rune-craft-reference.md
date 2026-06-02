@@ -18,14 +18,14 @@ sourcePages:
     title: "ルーンの選び方 | Nevergrind Online 攻略DB"
     url: "https://atelier3.web.fc2.com/ngo/runeselect.html"
     lastModified: "Mon, 19 May 2025 15:41:38 GMT"
-reviewedAt: "2026-05-27"
+reviewedAt: "2026-06-02"
 sourceLastModified: "Thu, 26 Jun 2025 00:26:03 GMT"
 status: "FC2 原站高保真繁中化"
 ---
 
 本頁由 FC2 / atelier3 原站 HTML 重新擷取後繁中化，保留原頁段落、清單、表格欄位與數值；FC2 內容圖片已本地鏡像，CSS、JavaScript 與追蹤圖不搬入公開站。
 
-- 檢視日期：`2026-05-27`
+- 檢視日期：`2026-06-02`
 - FC2 來源頁數：4
 - 翻譯策略：職業、屬性、難度、天賦與符文採中文優先；英文 item / skill / boss / map 查詢詞按需保留。
 - 內容狀態：由 FC2 原站正文生成，不使用舊版摘要句。
@@ -427,11 +427,11 @@ Mythic 物品的需求等級會採用素體與配方兩者之中較高的數值�
 
 弓視為雙手武器；Charm（護石）視為單手武器，部分效果則視為防具；盾牌視為防具。
 
-各難度首次通關 Lord Szarthax 時，可以從國王那裡取得獎勵；若角色達到指定等級，會保證獲得符文。未達等級時符文會被移除，請注意。
+各難度首次通關 Lord Szarthax 後可向國王領取 King’s Reward；達到最低等級時會取得 1 顆免費符文。官方公告沒有公開普通（Normal）/ 惡夢（Nightmare）/ 地獄（Hell）各自的固定符文池；下列範圍是 FC2 玩家觀測，請以目前 Ladder 角色與遊戲內 UI 為準。
 
-- 普通（Normal）：角色 Lv25 以上；來源另註「低 Lv 符文？」並確認 Lv45 符文。
-- 惡夢（Nightmare）：角色 Lv50 以上；已確認 Lv25～Lv59 符文。
-- 地獄（Hell）：角色 Lv90 以上；符文範圍 Lv39～Lv61。
+- 普通（Normal）：King’s Reward 最低 Lv25；官方公告沒有公開固定符文池，FC2 玩家觀測另註低 Lv 符文與 Lv45 符文。
+- 惡夢（Nightmare）：King’s Reward 最低 Lv50；官方公告沒有公開固定符文池，FC2 玩家觀測到 Lv25～Lv59 符文。
+- 地獄（Hell）：King’s Reward 最低 Lv90；1.2.24 已把 Hell 門檻提高到 Lv90，1.2.29 仍保留 Lv90，並限制 Hell King reward 最高為 Nex rune。FC2 玩家觀測範圍為 Lv39～Lv61。
 
 |名稱|需求等級|單手武器（雙手武器數值 x2）|防具|
 |---|---|---|---|

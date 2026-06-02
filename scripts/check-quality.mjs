@@ -478,6 +478,15 @@ for (const doc of docs) {
           problems.push(`${doc} still contains FC2 Rune terminology drift matching ${pattern}.`);
         }
       }
+      if (!/官方公告沒有公開普通（Normal）\/ 惡夢（Nightmare）\/ 地獄（Hell）各自的固定符文池/.test(runeContent)) {
+        problems.push(`${doc} should clarify that official announcements do not publish fixed King’s Reward rune pools by difficulty.`);
+      }
+      if (!/地獄（Hell）：King’s Reward 最低 Lv90/.test(runeContent) || !/Hell King reward 最高為 Nex rune/.test(runeContent)) {
+        problems.push(`${doc} should keep the post-1.2.24 Hell King’s Reward Lv90 requirement and 1.2.29 Nex rune cap.`);
+      }
+      if (/地獄（Hell）：角色 Lv80 以上|地獄（Hell）：角色 Lv90 以上；符文範圍/.test(runeContent)) {
+        problems.push(`${doc} still presents stale FC2 King’s Reward difficulty lines without the official-version override.`);
+      }
 
       const runeSelectContent = sectionBetween(
         qualityContent,
