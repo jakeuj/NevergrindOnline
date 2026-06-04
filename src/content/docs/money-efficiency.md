@@ -12,7 +12,7 @@ Nevergrind Online 的 gold 不是單純的商店貨幣，而是技能升級、�
 - 檢視日期：`2026-06-04`
 - 分類：[Nevergrind Online 物品與戰利品總覽](./items-loot/)
 - 延伸閱讀：[裝備收集路線](./equipment-collection/)、[鑑定（Identification）指南](./identification/)、[商人（Merchant）指南](./merchant/)、[賭博（Gambling）指南](./gambling/)
-- 資料來源：來源摘要、既有 Nevergrind 筆記、Fandom General Game Mechanics / Races、Nevergrind Wiki Item Upgrades、FC2 / atelier3 loot 頁與相關來源整理
+- 資料來源：來源摘要、既有 Nevergrind 筆記、Fandom General Game Mechanics / Races、Nevergrind Wiki Item Upgrades、FC2 / atelier3 charamake、loot 頁與相關來源整理
 - 版本提醒：物品售價、背包上限、gold bonus、`/players` 類指令、商店刷新與 gambling 池可能隨版本調整；實際操作請以目前遊戲內 UI、tooltip、`/help` 與 vendor price 為準
 
 > **快速重點**
@@ -109,11 +109,11 @@ Fandom mechanics 資料提到隊伍越大，風險、magic find、經驗與 gold
 
 ## 種族與長期經營
 
-來源摘要提到 `Anukari` 有 gold gain 方向優勢。Fandom Races 頁的敘述也說 Anukari 具有比其他種族更容易發現額外 gold 的能力，但同頁的 race bonus 表並未把這點穩定列成明確百分比。因此比較安全的寫法是：若你要為 gold efficiency min-max，先回遊戲內 race tooltip 確認是否仍有 gold bonus，以及具體數值。
+FC2 / atelier3 的角色建立（charamake）來源在阿努卡里（Anukari）種族加成列出 `+10% 金幣獲得率`；Fandom Races 頁也用「較容易發現額外 gold」描述同一方向。這個加成可用來理解冒險中獲得 Gold 的收益期待，例如怪物掉落、寶箱，以及 Heroic / 組隊 farm 帶來的總體 gold 期待；但公開資料沒有說明精確疊加公式，也不能延伸成 vendor value、商店 / crafting 成本或 gambling 機率加成。若要為 gold efficiency min-max，仍要以目前遊戲內 race tooltip 顯示的數值為準。
 
 | 策略 | 什麼時候值得 |
 | ------ | ------ |
-| 選擇具 gold bonus 的種族 | 你確定要長期用該角色 farming，且目前 tooltip 明確顯示 gold bonus |
+| 選阿努卡里（Anukari）長期刷金 | 你確定會用同一角色長期 farming，且目前 race tooltip 仍顯示 `+10% 金幣獲得率`；短期收益不應蓋過職業相性、生存與隊伍需求 |
 | 高等角色 farm，分身使用 | 共享銀行讓高等角色能把裝備、套裝、抗性裝或高價物留給 alts |
 | 分身賣裝或穿裝 | 若版本與交易 / 銀行規則允許，可以把不適合本尊的裝備轉成分身資源 |
 | 銀行分類 | 把「自用」、「出售」、「分身」、「交易」、「craft base」分開，避免高價品被誤賣 |
