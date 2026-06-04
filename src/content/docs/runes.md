@@ -6,7 +6,7 @@ sourcePages:
     title: "ルーンの選び方 | Nevergrind Online 攻略DB"
     url: "https://atelier3.web.fc2.com/ngo/runeselect.html"
     lastModified: "Mon, 19 May 2025 15:41:38 GMT"
-reviewedAt: "2026-05-26"
+reviewedAt: "2026-06-02"
 sourceLastModified: "Mon, 19 May 2025 15:41:38 GMT"
 status: "整理改寫"
 ---
@@ -44,6 +44,22 @@ SteamDB 的 2024 Season 2 patch note 提到 [鐵匠鋪（Blacksmith）](./blacks
 
 > **注意**
 > 來源摘要把 rune 鑲嵌視為永久且不可逆；但 2025 patch note 已提到 rune upgrade via crafting。實務上請先把「已鑲嵌到裝備上的 rune」和「放在背包中當 recipe 素材的 rune」分開看，並在遊戲內確認目前 crafting counter 的實際規則。
+
+<a id="king-reward-runes"></a>
+
+## King’s Reward 與 Ladder 限制
+
+公開 patch notes 目前只能確認「King’s Reward 會給免費 rune」與各難度最低等級門檻；官方沒有公開普通（Normal）/ 惡夢（Nightmare）/ 地獄（Hell）各自的固定 rune pool。FC2 的 rune 頁列出的等級範圍可當玩家觀測樣本，但不要寫成官方保證表。
+
+| 難度 | 領 King’s Reward 等級門檻 | 符文獎勵重點 |
+| ------ | ------ | ------ |
+| 普通（Normal） | Lv25+ | 通關後可領 King’s Reward；公開公告只確認會給 1 顆免費 rune，沒有公布固定池 |
+| 惡夢（Nightmare） | Lv50+ | 通關後可領 King’s Reward；FC2 玩家觀測到 Lv25～Lv59 rune，但仍需回遊戲內驗證 |
+| 地獄（Hell） | Lv90+ | 通關後可領 King’s Reward；1.2.29 公告把 Hell King reward 最高 rune 限為 `Nex`，更高 rune 需從寶箱或怪物取得 |
+
+版本脈絡要分清楚：1.2.18 公告列出 King reward 最低等級為 25 / 50 / 75；1.2.22 把 Hell 門檻從 75 提高到 80，並曾對 Hell Ashenflow Peak / Lord Szarthax 任務櫃台加入 Lv85 特殊限制；但 1.2.24 已把 Hell King’s Reward 門檻提高到 Lv90，1.2.29 又移除 Hell Ashenflow Peak 的 Lv85 加入限制，同時保留 Lv90 King’s Reward 門檻。
+
+符文掉落也要用 Ladder 角色判斷。Steam 討論區中 Neverworks Games 回覆過「runes only drop in ladder mode」；因此 Eternal / 非賽季角色不要拿來測 rune 掉落、King’s Reward rune 或寶箱 / 怪物掉落率。
 
 ## 符文名稱與資料來源
 
@@ -260,8 +276,15 @@ FC2 的 rune、rune select、craft 與 item mods 頁已整理到 [FC2 Rune、Cra
 
 ## 參考資料
 
+- [SteamDB: Season 2 Preview Patch](https://steamdb.info/patchnotes/15803867/)
 - [SteamDB: Enchanting With Runes Enabled](https://steamdb.info/patchnotes/16172899/)
+- [SteamDB: Rune party bonus and King reward minimum levels](https://steamdb.info/patchnotes/16195469/)
+- [SteamDB: Rune adjustments and King’s Reward adjustments](https://steamdb.info/patchnotes/16246708/)
+- [SteamDB: Hell King’s Reward level 90 adjustment](https://steamdb.info/patchnotes/16368977/)
+- [SteamDB: Hell King reward Nex cap and Ashenflow Peak Lv85 rule removal](https://steamdb.info/patchnotes/16585712/)
+- [SteamDB: Rune boost and rarity adjustment](https://steamdb.info/patchnotes/17493546/)
 - [SteamDB: Added ability to upgrade runes via crafting](https://steamdb.info/patchnotes/18527675/)
+- [Steam Community: Gems/Runes](https://steamcommunity.com/app/853450/discussions/0/7413579240792506440/)
 - [Nevergrind Online 日本語 Wiki: ルーン](https://wikiwiki.jp/ngowiki/%E3%83%AB%E3%83%BC%E3%83%B3)
 - [FC2 攻略 DB：Rune](https://atelier3.web.fc2.com/ngo/rune.html)
 - [FC2 攻略 DB：Rune Select](https://atelier3.web.fc2.com/ngo/runeselect.html)
