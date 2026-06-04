@@ -26,6 +26,7 @@ Nevergrind Online 可以先當成「短場次、重刷寶、重組隊協作」�
 | 想知道從新手到 `Hell` / `Heroic` 的順序 | [進度路線與 FC2 攻略讀法](./progression-roadmap/) |
 | 想選職業或理解隊伍定位 | [職業系統與裝備可用性總覽](./classes/) |
 | 想比較終局單刷職業與流派 | [終局單刷職業與流派總覽](./endgame-solo-classes/) |
+| 想組 Heroic 五人隊伍 | [Heroic 終局五人隊伍協同指南](./heroic-party-comps/) |
 | 想知道進地城後怎麼選任務、看怪、控場 | [地城冒險與任務攻略](./dungeons/) |
 | 想看怪物強度顏色（con）、物種（species）、特性（traits）與擊殺順序 | [怪物分類與 Traits 指南](./monsters/) |
 | 想整理城鎮補給、升技能、鑑定與背包 | [Edenburg（伊登堡）城鎮設施總覽](./edenburg/) |
@@ -52,7 +53,7 @@ Nevergrind Online 可以先當成「短場次、重刷寶、重組隊協作」�
 
 | 系統 | 這裡先記住 | 詳細頁面 |
 | ------ | ------ | ------ |
-| 職業與隊伍 | 職業不是死板標籤；後期強度會被技能循環、天賦、裝備詞綴與隊伍需求改寫 | [職業系統與裝備可用性總覽](./classes/)、[終局單刷職業與流派](./endgame-solo-classes/)、[治療者總覽](./healers/) |
+| 職業與隊伍 | 職業不是死板標籤；後期強度會被技能循環、天賦、裝備詞綴與隊伍需求改寫 | [職業系統與裝備可用性總覽](./classes/)、[終局單刷職業與流派](./endgame-solo-classes/)、[Heroic 終局五人隊伍](./heroic-party-comps/)、[治療者總覽](./healers/) |
 | 地城與怪物 | 進場前先看任務目標，開打前先讀怪物強度顏色（con）、階級、物種（species）、特性（traits）和前後排 | [地城冒險與任務攻略](./dungeons/)、[怪物分類與 Traits 指南](./monsters/) |
 | 城鎮與資源 | 每場地城後都回到 Edenburg（伊登堡），把掉落轉成技能、背包、補給、銀行與裝備投資 | [Edenburg（伊登堡）城鎮設施總覽](./edenburg/) |
 | 物品與刷寶 | 不要只追顏色；部位、詞綴、技能加成、抗性、插槽（sockets）、符文（runes）和流派（build）缺口更重要 | [物品與戰利品總覽](./items-loot/)、[裝備收集路線](./equipment-collection/) |

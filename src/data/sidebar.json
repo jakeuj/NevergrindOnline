@@ -262,6 +262,10 @@
                 "slug": "endgame-solo-classes"
               },
               {
+                "label": "終局五人隊伍",
+                "slug": "heroic-party-comps"
+              },
+              {
                 "label": "十字軍",
                 "slug": "crusader"
               },

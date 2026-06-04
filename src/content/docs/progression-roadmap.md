@@ -82,13 +82,15 @@ FC2 攻略DB 的優點是細：職業、技能、天賦、裝備、符文、地�
 | 術士（Warlock） | `Lich Form`、`Drain Soul`、恐懼與 `Poison Shock` 讓它有明確單刷潛力 | 要先理解武器速度與仇恨控制，細節可看 [術士終局單刷](./warlock-lich-solo/) |
 | 吟遊詩人（Bard） / 恩路者 / 幻術師（Enchanter） | 團隊節奏、haste、控制與 buff 是核心價值 | 組隊時常比面板最高 DPS 更能改變整場效率 |
 
-如果要看職業定位、裝甲階級與可用武器，回到 [職業系統總覽](./classes/)。若你想比較終局單刷職業，接著看 [終局單刷職業與流派總覽](./endgame-solo-classes/)。若你正在玩牧師，可以接著看 [牧師（Cleric）](./cleric/) 與 [牧師（Scion）輸出](./cleric-scion-dps/)。
+如果要看職業定位、裝甲階級與可用武器，回到 [職業系統總覽](./classes/)。若你想比較終局單刷職業，接著看 [終局單刷職業與流派總覽](./endgame-solo-classes/)；若目標是 Heroic 滿隊周回，則看 [Heroic 終局五人隊伍協同指南](./heroic-party-comps/)。若你正在玩牧師，可以接著看 [牧師（Cleric）](./cleric/) 與 [牧師（Scion）輸出](./cleric-scion-dps/)。
 
 <a id="farming-route-principles"></a>
 
 ## 刷圖與刷寶路線
 
 刷圖不要只記「某張圖最好」。更耐版本變動的判斷是把 mission 長度、怪物 species、元素傷害、traits、隊伍組成、掉落偏好與你正在追的部位放在一起看。
+
+Heroic 滿隊時，隊伍協同比單一角色強度更重要。物理核心、魔法隊、`Nimble`、`Armored` 與 undead 路線的取捨，可搭配 [Heroic 終局五人隊伍協同指南](./heroic-party-comps/) 一起判斷。
 
 | 路線方向 | 來源整理出的用途 | 判斷重點 |
 | ------ | ------ | ------ |
