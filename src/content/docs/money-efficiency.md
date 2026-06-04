@@ -2,14 +2,14 @@
 title: "Nevergrind Online 金錢效率與賣裝策略"
 description: "Nevergrind Online 金錢效率指南，整理技能升級、背包擴張、補給鑑定、item upgrades、gambling 與 crafting 之間的 gold 投資順序。"
 sourcePages: []
-reviewedAt: "2026-05-05"
+reviewedAt: "2026-06-04"
 sourceLastModified: "N/A"
 status: "整理改寫"
 ---
 
 Nevergrind Online 的 gold 不是單純的商店貨幣，而是技能升級、背包擴張、補給鑑定、item upgrades、gambling 與 crafting 的共同燃料。金錢效率的核心不是「把每件裝備都撿回來」，而是在有限背包裡優先帶回高價值部位，透過鑑定提高售價，再把 gold 投入最能提升下一趟地城效率的地方。
 
-- 檢視日期：`2026-05-05`
+- 檢視日期：`2026-06-04`
 - 分類：[Nevergrind Online 物品與戰利品總覽](./items-loot/)
 - 延伸閱讀：[裝備收集路線](./equipment-collection/)、[鑑定（Identification）指南](./identification/)、[商人（Merchant）指南](./merchant/)、[賭博（Gambling）指南](./gambling/)
 - 資料來源：來源摘要、既有 Nevergrind 筆記、Fandom General Game Mechanics / Races、Nevergrind Wiki Item Upgrades、FC2 / atelier3 loot 頁與相關來源整理
@@ -77,6 +77,21 @@ FC2 loot 頁對 unique / set 的建議可以整理成「階級先行，Normal �
 | 留意 talents / res | 裝備看似不適合目前角色時 | 可能給分身、交易或高價出售 |
 
 完整操作可看 [鑑定（Identification）指南](./identification/) 與 [藥劑店（Apothecary）指南](./apothecary/)。
+
+## 鑑定後的保留與出售基準
+
+背包和共享銀行都有限，所以「帶回城」不等於「一定存倉」。比較穩的做法是先把高價候選帶回，回城後用 `Identify All` 揭示 mods，再用下面的基準決定要留、要給分身，還是賣掉換 gold。
+
+| 類型 | 先保留的訊號 | 可以賣掉的情況 |
+| ------ | ------ | ------ |
+| Rare / Magic amulet | `All Talents +2`、核心 `Tree Talents +3`、`Judicator +3`、高力量加 critical / 抗性 / Rare Drop Rate | 鑑定後沒有 talents、核心 tree 或明確主屬性組合時，不要為了「金項鍊」這個部位硬存倉 |
+| Rare gloves | 命中核心 talent tree，或能當刷到 `Marshal Gauntlets Iniquity` 前的過渡品 | 沒有 talent tree、抗性或職業過渡價值時，多半只是賣店品 |
+| Rare `Focus` / `Stave` | talents、caster mods、資源詞綴、casting 相關詞綴或高 vendor value | 沒有法系詞綴或 build 價值時，帶回鑑定後賣掉即可 |
+| Exceptional 以上 unique / set | 全帳號會用、能湊 set bonus、roll / socket 夠好、交易或分身價值明確 | 對照 keeper 清單後沒有使用職業、沒有好 roll，且不是高需求裝時，可以轉 gold |
+| Normal unique / set | `Stormcaller Bow`、`Demetrium's Ballista` 高 socket、Normal magic two-hand blunt 等例外 | 後期大多數 Normal unique / set 不必長期佔銀行格 |
+| 高價防具與武器 | chest、plate / mail、shield、head、高等 weapon base 鑑定後有 talents、抗性或高價 mods | 沒有自用 / 分身 / 交易價值時，賣掉支援下一輪技能、補給或 gambling |
+
+核心判斷是：一件裝備要進銀行，最好能回答「誰會用、補哪個缺口、是否有交易或 craft/rune 價值」。回答不出來，又不是高 socket 工具裝或已知 keeper，就讓它回到 gold 循環。
 
 ## 難度、隊伍與金幣倍率
 
