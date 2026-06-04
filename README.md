@@ -76,6 +76,7 @@ npm run build
 - `sync:fc2-images` 只鏡像 FC2 `/ngo/` 內容圖，排除 counter / tracking 圖。
 - `build:fc2-docs` 由 `.cache/fc2/pages` 重新產生 `fc2-*` 文件。
 - 若翻譯或名詞不穩，優先修 `scripts/build-fc2-docs.mjs`，再重跑產生流程。
+- `charamake.html` 的種族短字串容易被翻譯快取誤譯；`オーガ` 應為食人魔，`オーク` 應為獸人。
 - 不要用舊的 Writerside seed 覆蓋 FC2 生成文件。
 - 名詞以 `src/content/docs/terminology.md` 為準。
 - `fc2-class-build-gear-keeper-list.md` 是補充整理頁，應保留玩家校正過的遊戲內裝備正名與 FC2 物品分類順序。
@@ -95,6 +96,8 @@ git diff --check
 `check:quality` 會阻擋摘要占位文字、舊式機器翻譯片語、名詞漂移、
 缺少來源頁、表格資料遺失與未翻譯日文外洩；這個檢查用來提示「需要完整翻譯」，
 不是要求刪除原站攻略內容。
+其中 `fc2-general-reference.md` 會額外檢查角色建立頁的種族名稱漂移，避免
+食人魔 / 獸人再次被誤譯為不自然詞。
 `check:seo` 會在正式網域 build 後檢查 `robots.txt`、sitemap/canonical 網域、
 JSON-LD、legacy `noindex`、以及 frontmatter description 長度與禁用片段。
 

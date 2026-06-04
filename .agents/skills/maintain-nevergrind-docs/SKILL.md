@@ -65,6 +65,8 @@ npm run build
 - Write in Taiwan Traditional Chinese.
 - Use `terminology.md` as the first source for Chinese names. In FC2 generated docs, prefer wording such as `可選職業` for class options and `種族加成` / `職業加成` for race or class bonus.
 - In generated FC2 public docs, keep player-facing wording Chinese-first for difficulties, classes, attributes, talents, rarity tiers, and runes: for example `地獄（Hell）`, `牧師`, `力量`, `天賦`, `獨特`, and `符文`.
+- For FC2 `charamake.html`, treat race names as high-risk short strings. Preserve `オーガ` as `食人魔` and `オーク` as `獸人`; never publish drift such as `螺旋鑽` or `橡木`. Add exact `MANUAL_TRANSLATIONS` and a `check:quality` gate when fixing cached race-name drift.
+- When writing supplemental race advice, treat FC2 `charamake` race bonuses as a player meta snapshot and keep the current game tooltip as final authority. For Anukari, present `+10% 金幣獲得率` as its long-term economy value, while `+10 防禦`、`+45 物理防禦` and `+1~8 物理傷害減免` are small survivability padding rather than endgame tank-defining bonuses. Mention Ogre's `+25% 眩暈抗性` only as a control-resistance comparison, not as absolute BiS.
 - Treat `周回` as farming / repeated runs, not rotation. Use `周回地城` or `刷地城` depending on context; never publish `旋轉地城` or `旋轉地牢`.
 - Use `地城` for `ダンジョン`, `乙太` for `エーテル`, and `符文` for `Rune / ルーン` in player-facing prose. Never publish `符號` or `標誌` for runes; use `符文組` for `Rune Word / ルーンワード`.
 - In rune docs, keep `Charm` / 護石 / 查姆 distinct from `Amulet` / 項鍊. For `Thex`, one-hand weapons, bow, and `Charm` give XP, two-hand weapons give doubled XP, and shields use the armor effect `+15% 最大法力`; never present shields as an XP source.
