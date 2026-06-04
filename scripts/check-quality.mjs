@@ -193,6 +193,10 @@ const FC2_UNIMON_TERMINOLOGY_PATTERNS = [
   /整個過程中都會使用火焰箭|冰箭將在整個過程中使用|閃電箭將全程使用|他對一切事物都使用毒箭|抵抗力低/,
 ];
 
+const FC2_CHARAMAKE_TERMINOLOGY_PATTERNS = [
+  /螺旋鑽|橡木/,
+];
+
 function contentWithoutSourceTitleRows(content) {
   return content
     .split('\n')
@@ -501,6 +505,13 @@ for (const doc of docs) {
     }
 
     if (docName === 'fc2-general-reference.md') {
+      const charamakeContent = sectionBetween(qualityContent, '<a id="fc2-charamake"></a>', '<a id="fc2-statuseffect"></a>');
+      for (const pattern of FC2_CHARAMAKE_TERMINOLOGY_PATTERNS) {
+        if (pattern.test(charamakeContent)) {
+          problems.push(`${doc} still contains FC2 charamake race terminology drift matching ${pattern}.`);
+        }
+      }
+
       for (const pattern of [
         ...FC2_GAMBLING_TERMINOLOGY_PATTERNS,
         ...FC2_CHART_TERMINOLOGY_PATTERNS,

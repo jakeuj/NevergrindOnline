@@ -729,7 +729,7 @@ Rapid Attack 會讓武器自動攻擊加速。有些職業可以透過天賦底�
 
 <a id="fc2-charamake-t11"></a>
 
-#### 螺旋鑽
+#### 食人魔
 
 <a id="fc2-charamake-狀態-11"></a>
 
@@ -753,7 +753,7 @@ Rapid Attack 會讓武器自動攻擊加速。有些職業可以透過天賦底�
 
 <a id="fc2-charamake-t12"></a>
 
-#### 橡木
+#### 獸人
 
 <a id="fc2-charamake-狀態-12"></a>
 
