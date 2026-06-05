@@ -1,4 +1,5 @@
 import { readFileSync } from 'node:fs';
+import { copyFile } from 'node:fs/promises';
 import { defineConfig } from 'astro/config';
 import sitemap from '@astrojs/sitemap';
 import starlight from '@astrojs/starlight';
@@ -9,6 +10,18 @@ const site = process.env.SITE ?? (owner ? `https://${owner}.github.io` : 'http:/
 const base = process.env.BASE_PATH ?? (process.env.GITHUB_ACTIONS && repo ? `/${repo}` : '/');
 const withBase = (path) => `${base.replace(/\/$/, '')}/${path.replace(/^\//, '')}`;
 const sidebar = JSON.parse(readFileSync(new URL('./src/data/sidebar.json', import.meta.url), 'utf8'));
+
+function sitemapCompatibilityAlias() {
+  return {
+    name: 'sitemap-compatibility-alias',
+    hooks: {
+      'astro:build:done': async ({ dir, logger }) => {
+        await copyFile(new URL('./sitemap-index.xml', dir), new URL('./sitemap.xml', dir));
+        logger.info('`sitemap.xml` compatibility alias created.');
+      },
+    },
+  };
+}
 
 export default defineConfig({
   site,
@@ -80,5 +93,6 @@ export default defineConfig({
     sitemap({
       filter: (page) => !new URL(page).pathname.startsWith('/nevergrind-online/'),
     }),
+    sitemapCompatibilityAlias(),
   ],
 });

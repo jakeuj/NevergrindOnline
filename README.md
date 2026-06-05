@@ -99,7 +99,8 @@ git diff --check
 其中 `fc2-general-reference.md` 會額外檢查角色建立頁的種族名稱漂移，避免
 食人魔 / 獸人再次被誤譯為不自然詞。
 `check:seo` 會在正式網域 build 後檢查 `robots.txt`、sitemap/canonical 網域、
-JSON-LD、legacy `noindex`、以及 frontmatter description 長度與禁用片段。
+`/sitemap.xml` 相容入口、JSON-LD、legacy `noindex`、以及 frontmatter
+description 長度與禁用片段。
 
 macOS / Linux shell 可用：
 
@@ -114,6 +115,8 @@ npm run check:seo
   `WebSite`、`WebPage` 與非首頁 `BreadcrumbList` JSON-LD。
 - `public/robots.txt` 允許全站爬取並宣告
   `https://ngo.jakeuj.com/sitemap-index.xml`。
+- Build 產物同時提供 `https://ngo.jakeuj.com/sitemap.xml` 作為相容入口，
+  內容與 `sitemap-index.xml` 相同。
 - 文件 frontmatter 的 `description` 應保持唯一、自然繁中、約 70-150 字，
   不要留下 `.md` 檔名或舊 `/nevergrind-online/` 檔名片段。
 - 部署後可在 Google Search Console 驗證 `ngo.jakeuj.com`，提交 sitemap，

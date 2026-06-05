@@ -10,6 +10,7 @@ const DIST_ROOT = join(ROOT, 'dist');
 const PUBLIC_ROOT = join(ROOT, 'public');
 const SITE_URL = 'https://ngo.jakeuj.com';
 const SITEMAP_URL = `${SITE_URL}/sitemap-index.xml`;
+const SITEMAP_ALIAS_URL = `${SITE_URL}/sitemap.xml`;
 const DESCRIPTION_MIN = 70;
 const DESCRIPTION_MAX = 150;
 
@@ -122,6 +123,24 @@ if (!existsSync(DIST_ROOT)) {
     problems.push('Missing dist sitemap XML files.');
   }
 
+  const sitemapIndexPath = join(DIST_ROOT, 'sitemap-index.xml');
+  const sitemapAliasPath = join(DIST_ROOT, 'sitemap.xml');
+  if (!existsSync(sitemapIndexPath)) {
+    problems.push('Missing dist/sitemap-index.xml.');
+  }
+  if (!existsSync(sitemapAliasPath)) {
+    problems.push('Missing dist/sitemap.xml compatibility alias.');
+  }
+  if (existsSync(sitemapIndexPath) && existsSync(sitemapAliasPath)) {
+    const [sitemapIndex, sitemapAlias] = await Promise.all([
+      readFile(sitemapIndexPath, 'utf8'),
+      readFile(sitemapAliasPath, 'utf8'),
+    ]);
+    if (sitemapAlias !== sitemapIndex) {
+      problems.push('dist/sitemap.xml must match dist/sitemap-index.xml.');
+    }
+  }
+
   for (const file of sitemapFiles) {
     const xml = await readFile(file, 'utf8');
     if (/localhost|http:\/\/127\.0\.0\.1/i.test(xml)) {
@@ -188,6 +207,7 @@ console.log(
       descriptions: descriptionByText.size,
       site: SITE_URL,
       sitemap: SITEMAP_URL,
+      sitemapAlias: SITEMAP_ALIAS_URL,
       status: 'ok',
     },
     null,

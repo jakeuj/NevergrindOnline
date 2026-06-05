@@ -18,7 +18,7 @@ description: Maintain the repo-local Astro Starlight Traditional Chinese Nevergr
 - FC2 content images are mirrored under `public/fc2-assets/ngo/`; CSS, JavaScript, counter images, tracking images, and external non-`/ngo/` assets are not published.
 - FC2 source snapshots are generated under `.cache/fc2/` and are intentionally ignored.
 - The public site targets GitHub Pages and the custom domain `ngo.jakeuj.com`.
-- Google Search metadata is handled by `src/components/SeoHead.astro`, `public/robots.txt`, `@astrojs/sitemap`, and `scripts/check-seo.mjs`.
+- Google Search metadata is handled by `src/components/SeoHead.astro`, `public/robots.txt`, `@astrojs/sitemap`, the `sitemap.xml` compatibility alias in `astro.config.mjs`, and `scripts/check-seo.mjs`.
 - Legacy `/nevergrind-online/...` compatibility pages live only in `src/pages/nevergrind-online/`; keep them `noindex`, `data-pagefind-ignore`, hash-preserving, and excluded from the sitemap.
 
 ## FC2 Refresh Workflow
@@ -55,6 +55,7 @@ npm run build
 ## SEO And Search Output
 
 - Keep `public/robots.txt` crawl-friendly and advertise `Sitemap: https://ngo.jakeuj.com/sitemap-index.xml`; do not block legacy paths there because legacy pages rely on `noindex` for crawlers to see the directive.
+- Keep `/sitemap.xml` published as a compatibility alias with the same XML as `/sitemap-index.xml`, so tools or users that try the conventional sitemap URL do not hit a 404.
 - Keep `src/components/SeoHead.astro` as the Starlight `Head` override. It must render Starlight's default head first, then add conservative JSON-LD for `WebSite`, `WebPage`, and non-home `BreadcrumbList`.
 - Keep docs frontmatter `description` unique, natural zh-TW, and roughly 70-150 characters. Remove raw `.md` filenames, truncated fragments, and `nevergrind-online-*` legacy filename references.
 - For generated FC2 page descriptions, update `TOPIC_META` in `scripts/build-fc2-docs.mjs` as well as the generated Markdown so reruns do not regress SEO snippets.
