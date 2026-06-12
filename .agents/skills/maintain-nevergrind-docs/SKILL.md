@@ -1,6 +1,6 @@
 ---
 name: maintain-nevergrind-docs
-description: Maintain the repo-local Astro Starlight Traditional Chinese Nevergrind Online guide site, especially FC2 / atelier3 source-driven ingestion, supplemental FC2 keeper lists, low-tier-first keeper quick tables, zh-TW Markdown generation, terminology consistency, sidebar organization, Google Search SEO metadata, robots.txt, JSON-LD, coverage and quality gates, GitHub Pages publishing, and CNAME/domain-safe deployment. Use when Codex works in this repository on Nevergrind Online docs, FC2 HTML refreshes, placeholder cleanup, source URL coverage, translation quality, terminology drift, sidebar/menu changes, Starlight build issues, search optimization, Search Console readiness, or pushing site updates.
+description: Maintain the repo-local Astro Starlight Traditional Chinese Nevergrind Online guide site, especially FC2 / atelier3 source-driven ingestion, supplemental FC2 keeper lists, low-tier-first keeper quick tables, local weapon DPS calculator, zh-TW Markdown generation, terminology consistency, sidebar organization, Google Search SEO metadata, robots.txt, JSON-LD, coverage and quality gates, GitHub Pages publishing, and CNAME/domain-safe deployment. Use when Codex works in this repository on Nevergrind Online docs, FC2 HTML refreshes, placeholder cleanup, source URL coverage, translation quality, terminology drift, sidebar/menu changes, Starlight build issues, search optimization, Search Console readiness, local interactive tools, or pushing site updates.
 ---
 
 # Maintain Nevergrind Docs
@@ -14,6 +14,8 @@ description: Maintain the repo-local Astro Starlight Traditional Chinese Nevergr
 - Do not place public docs under `src/content/docs/nevergrind-online/`; that would reintroduce the extra URL layer on the custom domain.
 - The canonical terminology table is `src/content/docs/terminology.md`.
 - The Starlight sidebar is data-driven from `src/data/sidebar.json`.
+- The standalone local weapon DPS calculator is served from `/weapon-dps-calculator/` via `src/pages/weapon-dps-calculator.astro`, `src/components/WeaponDpsCalculator.astro`, `src/lib/weapon-dps-calculator.ts`, and `src/data/weapon-dps-presets.ts`.
+- Weapon DPS formula and preset snapshot coverage lives in `tests/weapon-dps-calculator.test.mjs`; run it whenever calculator code, preset data, or FC2 `dpscalc.html` notes change.
 - FC2 routing lives in `src/data/fc2-topic-map.json`; crawl metadata lives in `src/data/fc2-source-manifest.json`; image mirror metadata lives in `src/data/fc2-image-manifest.json`.
 - FC2 content images are mirrored under `public/fc2-assets/ngo/`; CSS, JavaScript, counter images, tracking images, and external non-`/ngo/` assets are not published.
 - FC2 source snapshots are generated under `.cache/fc2/` and are intentionally ignored.
@@ -31,6 +33,7 @@ npm run sync:fc2-images
 npm run build:fc2-docs
 npm run check:coverage
 npm run check:quality
+npm run test:weapon-dps
 npm run lint:md
 npm run build
 ```
@@ -40,6 +43,7 @@ npm run build
 - `build:fc2-docs` regenerates the source-driven `fc2-*` Markdown pages from `.cache/fc2/pages` into `src/content/docs/`.
 - `check:coverage` verifies every FC2 URL is routed and appears in frontmatter.
 - `check:quality` blocks old placeholder text, leaked translation guard tokens, missing render coverage, terminology drift, stale machine-translation phrases, and large untranslated Japanese fragments. It may intentionally ignore FC2 source-title rows where the Japanese original title is metadata.
+- `test:weapon-dps` verifies the local `/weapon-dps-calculator/` formula contract and FC2 preset snapshot examples.
 - After a production-style build with `SITE=https://ngo.jakeuj.com` and `BASE_PATH=/`, `check:seo` verifies robots, sitemap URLs, canonical host, JSON-LD, legacy noindex behavior, and frontmatter description length.
 - Do not use `import:writerside` for FC2 pages. It is intentionally disabled by default because the old Writerside seed can overwrite source-driven FC2 docs with placeholder summaries.
 
@@ -48,6 +52,7 @@ npm run build
 - Public links, sidebar `slug` values, and `src/data/fc2-topic-map.json` targets must use root routes such as `guide`, `fc2-general-reference`, and `/fc2-general-reference/#fc2-chart`.
 - Do not add `/nevergrind-online/` to sidebar links, Markdown links, generated topic-map slugs, README examples, or GitHub Pages config.
 - Keep `astro.config.mjs` using `@astrojs/sitemap` with a filter that excludes legacy `/nevergrind-online/` paths from `dist/sitemap*.xml`.
+- Keep `/weapon-dps-calculator/` as a user-facing supplemental tool route in the sidebar, not as an FC2 source document route. The FC2 `dpscalc.html` section in `fc2-general-reference.md` should point to the local tool and keep the original FC2 source link for attribution.
 - When checking an FC2 source file, find its target with `src/data/fc2-topic-map.json`; the public section is `https://ngo.jakeuj.com/<slug>/#fc2-<source-file-stem>`, for example `chart.html` maps to `/fc2-general-reference/#fc2-chart`.
 - In `fc2-general-reference.md`, render sections in sidebar / FC2 menu order via `OUTPUT_PAGE_ORDER_OVERRIDES`: `index.html`, `chart.html`, `faq.html`, `charamake.html`, `statuseffect.html`, `unimon.html`, `boss.html`, `english.html`, `dpscalc.html`, `loot.html`, `gambling.html`. Do not hand-move generated Markdown.
 - If changing the custom-domain route strategy, update `src/content/docs/`, `src/data/sidebar.json`, `src/data/fc2-topic-map.json`, redirect pages, sitemap filtering, README, this skill, and GitHub Actions together.
@@ -59,6 +64,7 @@ npm run build
 - Keep `src/components/SeoHead.astro` as the Starlight `Head` override. It must render Starlight's default head first, then add conservative JSON-LD for `WebSite`, `WebPage`, and non-home `BreadcrumbList`.
 - Keep docs frontmatter `description` unique, natural zh-TW, and roughly 70-150 characters. Remove raw `.md` filenames, truncated fragments, and `nevergrind-online-*` legacy filename references.
 - For generated FC2 page descriptions, update `TOPIC_META` in `scripts/build-fc2-docs.mjs` as well as the generated Markdown so reruns do not regress SEO snippets.
+- For custom Starlight-wrapped pages outside `src/content/docs/`, such as `/weapon-dps-calculator/`, keep sitemap `lastmod` handling in `astro.config.mjs` aligned with the page's reviewed / data snapshot date.
 - After Search-related changes, run `SITE=https://ngo.jakeuj.com BASE_PATH=/ npm run build` and `npm run check:seo`. Search Console submission remains a manual post-deploy step for `https://ngo.jakeuj.com/sitemap-index.xml`.
 
 ## Terminology And Content Rules
@@ -89,7 +95,8 @@ npm run build
 - Preserve all factual rows, columns, numbers, source URLs, and `Last-Modified` metadata.
 - Publish FC2 content images only through the local `/fc2-assets/ngo/` mirror. Do not publish FC2 CSS, JavaScript, counter images, tracking images, or unrelated external assets.
 - Do not assume every FC2 `.png` is an inline icon. The `public/fc2-assets/ngo/img/d/*.png` monster-type images are 540x250 content screenshots and should render as responsive block images, while small item / stat / class PNGs can remain inline icons.
-- For FC2 pages whose main value is JavaScript or form interaction, such as `dpscalc.html`, do not render unusable static form tables. Add the page to `INTERACTIVE_TOOL_PAGE_NOTES` in `scripts/build-fc2-docs.mjs`, keep a concise purpose summary and original source link, and skip translating/rendering tool-only tables.
+- For FC2 pages whose main value is JavaScript or form interaction, do not render unusable static form tables. `dpscalc.html` has a local zh-TW rebuild at `/weapon-dps-calculator/`; keep its `INTERACTIVE_TOOL_PAGE_NOTES` entry in `scripts/build-fc2-docs.mjs` pointing to that tool, preserve the original source link and `Last-Modified`, and skip translating/rendering source tool-only tables.
+- When FC2 `dpscalc.html` or `js/dpscalc.js` changes, update `src/data/weapon-dps-presets.ts`, `src/lib/weapon-dps-calculator.ts` if formulas changed, the reviewed / source metadata on `src/pages/weapon-dps-calculator.astro`, and `tests/weapon-dps-calculator.test.mjs` together.
 - Do not drop FC2 gameplay text because of source-policy wording. Translate or faithfully localize the full source gameplay content into zh-TW, keeping original Japanese only where it is source metadata such as titles.
 - Treat FC2 as a player meta snapshot. Keep or add version reminders that current game tooltip / UI should be final authority.
 
@@ -97,6 +104,7 @@ npm run build
 
 - Prefer changing the generator or crawler when a problem would recur after regeneration.
 - Only hand-edit generated `fc2-*` Markdown for emergency hotfixes; then backport the rule into `scripts/build-fc2-docs.mjs`.
+- For the weapon DPS calculator, keep calculation logic in `src/lib/weapon-dps-calculator.ts` so it remains unit-testable outside Astro. Keep FC2 preset data in `src/data/weapon-dps-presets.ts` as a local, reviewable snapshot rather than importing or embedding original-site JavaScript.
 - Keep generated table formatting Markdown-safe; escape pipes and underscores in table cells.
 - If translation output is poor, improve `SOURCE_TERM_REPLACEMENTS`, `POSTPROCESS_REPLACEMENTS`, `MANUAL_TRANSLATIONS`, `shouldTranslateTableCell`, or `tableCellText` in `scripts/build-fc2-docs.mjs`, then rerun the FC2 refresh workflow.
 - Treat dense FC2 data tables as high-risk for machine-translation drift. For `recipe.html`, keep `shouldUseSourceOnlyTableCells(page)` active so table cells are not sent to cached translation in `collectTexts`; render them with `translator.local` plus source and postprocess replacements so `Mods` rows remain factual and searchable.
@@ -120,7 +128,8 @@ npm run build
 - In `fc2-class-build-gear-keeper-list.md`, keep `## 低階優先保留速查` immediately after `## 優先保留速查`. Derive it from fixed equipment rows only (`| ![...] |` rows), exclude Rare condition rows, omit icons, and use columns `階級 / 稀有度 / Lv / 名稱 / 種類 / 基底 / 使用職業 / 保留重點`. Sort by Normal -> Exceptional -> Elite, then Unique -> Set -> Legendary, then the FC2 item-category order above, base, Lv, and name. Recheck row counts when the full keeper list changes.
 - After route, sidebar, or topic-map changes, search for accidental public nested paths with `rg -n 'nevergrind-online/' src/content/docs src/data README.md scripts .github/workflows .agents/skills/maintain-nevergrind-docs -S`. Allow only intentional legacy redirect code, sitemap filtering, and external source URLs.
 - After `npm run build`, `rg -n '<loc>[^<]*/nevergrind-online/' dist -g 'sitemap*.xml'` should return nothing. `npm run check:seo` also enforces this.
-- For local route checks, root pages such as `http://127.0.0.1:4322/guide/` should render directly, while legacy pages such as `http://127.0.0.1:4322/nevergrind-online/guide/#x` should redirect to `/guide/#x`.
+- For local route checks, root pages such as `http://127.0.0.1:4322/guide/` and `http://127.0.0.1:4322/weapon-dps-calculator/` should render directly, while legacy pages such as `http://127.0.0.1:4322/nevergrind-online/guide/#x` should redirect to `/guide/#x`.
+- Before finishing changes that touch the calculator route, formulas, data, sidebar entry, or generated `dpscalc.html` note, run `npm run test:weapon-dps`, `SITE=https://ngo.jakeuj.com BASE_PATH=/ npm run build`, and `SITE=https://ngo.jakeuj.com BASE_PATH=/ npm run check:seo`.
 - Before committing, run `git diff --check` and confirm `.cache/`, `.astro/`, `dist/`, and `.idea/` are not staged. `public/fc2-assets/ngo/` is an intended tracked asset mirror; `public/robots.txt` is source and should be tracked.
 
 ## Deploy Workflow

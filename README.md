@@ -8,6 +8,7 @@
 內容以 FC2 / atelier3 原站資料為主要來源，完整保留攻略資訊、段落結構、
 表格、數值、來源連結、檢視日期與 `Last-Modified`。公開頁面以繁中翻譯
 與整理改寫呈現；FC2 內容圖片會本地鏡像，CSS、JavaScript 與追蹤圖不搬入。
+互動工具若需要保留使用體驗，採本地可審核的重製版本，不直接搬原站 JS。
 
 ## 內容範圍
 
@@ -16,6 +17,7 @@
 - 14 職業頁、代表技能、職業 Build 與裝備判斷。
 - 職業畢業裝倉庫保留清單，依 FC2 物品分類整理保留優先度與使用職業。
 - Unique、Set、Legendary、Recipe、Rune、Craft 與 Item Mods 表格。
+- 本地武器 DPS 計算機，重製 FC2 `dpscalc.html` 的可互動試算流程。
 - 繁中補充攻略與中英名詞對照表。
 
 FC2 內容是玩家攻略快照。Nevergrind Online 的技能、裝備、掉落與配方可能
@@ -31,7 +33,12 @@ src/data/fc2-source-manifest.json    FC2 來源 manifest
 src/data/fc2-image-manifest.json     FC2 內容圖片 manifest
 src/data/fc2-topic-map.json          FC2 URL 到本地 topic 的對應
 src/data/sidebar.json                Starlight 左側導覽
+src/data/weapon-dps-presets.ts       武器 DPS 計算機預設資料快照
 src/components/SeoHead.astro         Starlight head override 與 JSON-LD
+src/components/WeaponDpsCalculator.astro
+                                       武器 DPS 計算機互動介面
+src/lib/weapon-dps-calculator.ts      武器 DPS 計算公式與輸入正規化
+src/pages/weapon-dps-calculator.astro 本地武器 DPS 計算機頁面
 public/fc2-assets/ngo/               FC2 內容圖片本地鏡像
 scripts/crawl-fc2.mjs                FC2 crawler
 scripts/sync-fc2-images.mjs          FC2 圖片同步器
@@ -39,6 +46,7 @@ scripts/build-fc2-docs.mjs           FC2 HTML 到繁中 Markdown 產生器
 scripts/check-coverage.mjs           106 頁來源覆蓋檢查
 scripts/check-quality.mjs            內容品質與占位文字檢查
 scripts/check-seo.mjs                Google Search SEO 輸出檢查
+tests/weapon-dps-calculator.test.mjs 武器 DPS 公式與預設驗證
 public/CNAME                         GitHub Pages custom domain
 public/robots.txt                    Google crawler 與 sitemap 入口
 ```
@@ -66,6 +74,7 @@ npm run sync:fc2-images
 npm run build:fc2-docs
 npm run check:coverage
 npm run check:quality
+npm run test:weapon-dps
 npm run lint:md
 npm run build
 ```
@@ -75,6 +84,9 @@ npm run build
 - `crawl:fc2` 應維持 106 個 HTML 且沒有 crawler error。
 - `sync:fc2-images` 只鏡像 FC2 `/ngo/` 內容圖，排除 counter / tracking 圖。
 - `build:fc2-docs` 由 `.cache/fc2/pages` 重新產生 `fc2-*` 文件。
+- `dpscalc.html` 已重製為 `/weapon-dps-calculator/`；若原站公式或資料改變，
+  同步更新 `src/lib/weapon-dps-calculator.ts`、`src/data/weapon-dps-presets.ts`
+  與 `tests/weapon-dps-calculator.test.mjs`。
 - 若翻譯或名詞不穩，優先修 `scripts/build-fc2-docs.mjs`，再重跑產生流程。
 - `charamake.html` 的種族短字串容易被翻譯快取誤譯；`オーガ` 應為食人魔，`オーク` 應為獸人。
 - 不要用舊的 Writerside seed 覆蓋 FC2 生成文件。
@@ -86,6 +98,7 @@ npm run build
 ```bash
 npm run check:coverage
 npm run check:quality
+npm run test:weapon-dps
 npm run lint:md
 $env:SITE="https://ngo.jakeuj.com"; $env:BASE_PATH="/"; npm run build
 npm run check:seo
@@ -98,6 +111,8 @@ git diff --check
 不是要求刪除原站攻略內容。
 其中 `fc2-general-reference.md` 會額外檢查角色建立頁的種族名稱漂移，避免
 食人魔 / 獸人再次被誤譯為不自然詞。
+`test:weapon-dps` 會檢查 FC2 武器 DPS 公式契約、rounding、乙太、Cros/Rok
+符文與本地預設資料範例。
 `check:seo` 會在正式網域 build 後檢查 `robots.txt`、sitemap/canonical 網域、
 `/sitemap.xml` 相容入口、JSON-LD、legacy `noindex`、以及 frontmatter
 description 長度與禁用片段。
@@ -119,6 +134,9 @@ npm run check:seo
   內容與 `sitemap-index.xml` 相同。
 - 文件 frontmatter 的 `description` 應保持唯一、自然繁中、約 70-150 字，
   不要留下 `.md` 檔名或舊 `/nevergrind-online/` 檔名片段。
+- 自訂 Starlight 包裝頁（例如 `/weapon-dps-calculator/`）若不在
+  `src/content/docs/` 內，需在 `astro.config.mjs` 保持 sitemap `lastmod`
+  與頁面 reviewed / 資料快照日期一致。
 - 部署後可在 Google Search Console 驗證 `ngo.jakeuj.com`，提交 sitemap，
   並用 URL Inspection 抽查首頁、`/guide/`、`/fc2-rune-craft-reference/`
   與 legacy `/nevergrind-online/guide/`。
