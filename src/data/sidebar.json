@@ -323,6 +323,10 @@
                 "slug": "fc2-class-build-gear-keeper-list"
               },
               {
+                "label": "武器 DPS 計算機",
+                "link": "/weapon-dps-calculator/"
+              },
+              {
                 "label": "鑑定",
                 "slug": "identification"
               },

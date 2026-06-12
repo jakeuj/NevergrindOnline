@@ -1,0 +1,67 @@
+---
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+import WeaponDpsCalculator from '../components/WeaponDpsCalculator.astro';
+import { WEAPON_DPS_SOURCE } from '../data/weapon-dps-presets';
+
+const frontmatter = {
+  title: '武器 DPS 計算機',
+  description:
+    'Nevergrind Online 武器 DPS 計算機繁中重製版，可試算乙太、Damage 強化、攻擊速度、Cros 與 Rok 符文後的帳面 DPS。',
+  sourcePages: [
+    {
+      file: 'dpscalc.html',
+      title: '武器DPS計算機 | Nevergrind Online 攻略DB',
+      url: WEAPON_DPS_SOURCE.htmlUrl,
+      lastModified: WEAPON_DPS_SOURCE.htmlLastModified,
+    },
+    {
+      file: 'js/dpscalc.js',
+      title: '武器DPS計算機 JavaScript',
+      url: WEAPON_DPS_SOURCE.scriptUrl,
+      lastModified: WEAPON_DPS_SOURCE.scriptLastModified,
+    },
+  ],
+  reviewedAt: WEAPON_DPS_SOURCE.reviewedAt,
+  sourceLastModified: WEAPON_DPS_SOURCE.htmlLastModified,
+  status: 'FC2 原站公式本地重製',
+};
+
+const headings = [
+  { depth: 2, slug: 'calculator', text: '計算器' },
+  { depth: 2, slug: 'formula', text: '算法對照' },
+  { depth: 2, slug: 'source', text: '來源與限制' },
+];
+---
+
+<StarlightPage frontmatter={frontmatter} headings={headings}>
+  <p>
+    這個工具用來試算武器套用乙太與符文後的帳面 Damage、Speed 與 DPS。原站的粗略換算是：
+    <strong>DPS 7 ≒ 力量 30 ≒ 全 Passive 15 ≒ Attack Rating 100</strong>。
+  </p>
+
+  <h2 id="calculator">計算器</h2>
+  <WeaponDpsCalculator />
+
+  <h2 id="formula">算法對照</h2>
+  <ul>
+    <li>乙太：先將最小與最大 Damage 各自乘以 <code>1.33</code>，再向下取整。</li>
+    <li>Damage 強化：乘以 <code>1 + Damage 強化 / 100</code>，先四捨五入到 1 位小數，再四捨五入到整數。</li>
+    <li>Weapon Damage（Cros）：單手每顆加 <code>20</code>，雙手每顆加 <code>40</code>。</li>
+    <li>攻擊速度增加：<code>Speed * ((100 - 攻擊速度增加) / 100)</code>，四捨五入到 1 位小數。</li>
+    <li>Weapon Speed（Rok）：單手每顆減 <code>0.07</code>，雙手每顆減 <code>0.14</code>，最後四捨五入到 2 位小數。</li>
+    <li>DPS：<code>((最小 Damage + 最大 Damage) / 2) / Speed</code>，四捨五入到 1 位小數。</li>
+  </ul>
+
+  <h2 id="source">來源與限制</h2>
+  <p>
+    內建裝備預設是本站依 FC2 原站 JavaScript 建立的審核快照；顯示名稱會修正截斷名稱與已知拼字差異，
+    但計算數值保持來源快照。這是玩家攻略站的武器帳面 DPS 估算，不等同於遊戲伺服器完整戰鬥公式。
+  </p>
+  <p>
+    來源：
+    <a href={WEAPON_DPS_SOURCE.htmlUrl}>dpscalc.html</a>
+    與
+    <a href={WEAPON_DPS_SOURCE.scriptUrl}>js/dpscalc.js</a>。
+  </p>
+</StarlightPage>
+

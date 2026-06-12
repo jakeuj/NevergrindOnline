@@ -1389,8 +1389,8 @@ You're Welcome 的縮寫，意思是不客氣。
 粗略換算：DPS 7 ≒ 力量 30 ≒ 全 Passive 15 ≒ Attack Rating 100。
 
 > **原站互動工具**
-> 這個來源頁是 FC2 原站的 JavaScript / 表單計算機。本站不搬原站 JavaScript，也尚未重製可操作版本，因此不把輸入表單與計算結果表格轉成靜態 Markdown。
-> 要實際試算武器 DPS，請直接開啟原站計算器。
+> 這個來源頁是 FC2 原站的 JavaScript / 表單計算機；本站已依原站公式重製可操作的繁中工具：[武器 DPS 計算機](/weapon-dps-calculator/)。
+> 此處仍不把原站輸入表單與計算結果表格轉成靜態 Markdown，以免下次同步時產生無法操作的假表格。
 > 原站連結：[武器DPS計算機](https://atelier3.web.fc2.com/ngo/dpscalc.html)。
 
 <a id="fc2-loot"></a>

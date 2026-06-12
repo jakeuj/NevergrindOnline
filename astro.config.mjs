@@ -50,6 +50,10 @@ const sitemapLastmodByPath = new Map(
     return [routePathFromDocFile(file), reviewedAtToLastmod(parsed.data.reviewedAt, file)];
   }),
 );
+sitemapLastmodByPath.set(
+  '/weapon-dps-calculator/',
+  reviewedAtToLastmod('2026-06-12', 'src/pages/weapon-dps-calculator.astro'),
+);
 
 function sitemapCompatibilityAlias() {
   return {
