@@ -55,6 +55,10 @@ function locsFromXml(xml) {
   return [...xml.matchAll(/<loc>([^<]+)<\/loc>/g)].map((match) => match[1]);
 }
 
+function lastmodsFromXml(xml) {
+  return [...xml.matchAll(/<lastmod>([^<]+)<\/lastmod>/g)].map((match) => match[1]);
+}
+
 const problems = [];
 
 const publicRobotsPath = join(PUBLIC_ROOT, 'robots.txt');
@@ -154,6 +158,18 @@ if (!existsSync(DIST_ROOT)) {
         problems.push(`${rel(file)} has non-canonical loc: ${loc}`);
       }
     }
+    if (xml.includes('<urlset')) {
+      const locs = locsFromXml(xml);
+      const lastmods = lastmodsFromXml(xml);
+      if (lastmods.length !== locs.length) {
+        problems.push(`${rel(file)} must include one <lastmod> for each sitemap URL.`);
+      }
+      for (const lastmod of lastmods) {
+        if (Number.isNaN(Date.parse(lastmod))) {
+          problems.push(`${rel(file)} has invalid lastmod: ${lastmod}`);
+        }
+      }
+    }
   }
 
   const htmlFiles = await filesWithExtension(DIST_ROOT, '.html');
@@ -208,6 +224,7 @@ console.log(
       site: SITE_URL,
       sitemap: SITEMAP_URL,
       sitemapAlias: SITEMAP_ALIAS_URL,
+      sitemapLastmod: 'ok',
       status: 'ok',
     },
     null,
