@@ -7,7 +7,7 @@ sourceLastModified: "Sun, 19 Apr 2026 22:30:01 GMT"
 status: "整理改寫"
 ---
 
-來源：[FC2 職業 Build 全量參考](./fc2-class-build-index/)、[FC2 獨特裝備表](./fc2-unique-weapons/)、[FC2 Normal Set 表](./fc2-set-normal/)、[FC2 Exceptional Set 表](./fc2-set-exceptional/)、[FC2 Elite Set 表](./fc2-set-elite/) 與 [FC2 Legendary 表](./fc2-legendary-table/)。
+來源：[FC2 職業 Build 全量參考](/fc2-class-build-index/)、[FC2 獨特裝備表](/fc2-unique-weapons/)、[FC2 Normal Set 表](/fc2-set-normal/)、[FC2 Exceptional Set 表](/fc2-set-exceptional/)、[FC2 Elite Set 表](/fc2-set-elite/) 與 [FC2 Legendary 表](/fc2-legendary-table/)。
 
 範圍：以各職 `裝備範例` 表格為主，並補上同頁正文中明確寫成替代、特化或 Legendary 候選的精確英文裝備名。技能名、地城名、模糊翻譯名與不是裝備的條件描述不列入主清單。
 
@@ -261,7 +261,7 @@ status: "整理改寫"
 
 `All Talents +2` 不是項鍊唯一保留條件，但它仍是判斷 Rare amulet 是否接近畢業級的第一訊號；若同時有高力量（物理職最高可看 +50）、全屬性抗性、critical 或 Rare Drop Rate，先留再比較。命中核心 `Tree Talents +3` 的項鍊也值得保留，尤其是還差 1 級就能讓 `Condemnation`、`Blessed Hammer` 等技能跨過 bonus hit / 次數增加門檻時，`Judicator +3`、`Visionary +3` 或其他核心 tree roll 可能比泛用 `All Talents +2` 更有即戰力。
 
-固定 unique 方面，`Sayanim Kaleidoscope` 是穩定 `All Talents` 與高抗性候選；`Shimmering Fragment` 要看隨機天賦是否命中職業；`Syzygy Shard`、`Dossam's Morning Star` 則偏向雷 / 冰屬性特化。完整 mods 請回 [FC2 獨特飾品表](./fc2-unique-accessories/#fc2-uamulet) 對照。
+固定 unique 方面，`Sayanim Kaleidoscope` 是穩定 `All Talents` 與高抗性候選；`Shimmering Fragment` 要看隨機天賦是否命中職業；`Syzygy Shard`、`Dossam's Morning Star` 則偏向雷 / 冰屬性特化。完整 mods 請回 [FC2 獨特飾品表](/fc2-unique-accessories/#fc2-uamulet) 對照。
 
 ### 背部
 

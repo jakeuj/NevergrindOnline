@@ -10,8 +10,8 @@ status: "整理改寫"
 Nevergrind Online 的 gold 不是單純的商店貨幣，而是技能升級、背包擴張、補給鑑定、item upgrades、gambling 與 crafting 的共同燃料。金錢效率的核心不是「把每件裝備都撿回來」，而是在有限背包裡優先帶回高價值部位，透過鑑定提高售價，再把 gold 投入最能提升下一趟地城效率的地方。
 
 - 檢視日期：`2026-06-04`
-- 分類：[Nevergrind Online 物品與戰利品總覽](./items-loot/)
-- 延伸閱讀：[裝備收集路線](./equipment-collection/)、[鑑定（Identification）指南](./identification/)、[商人（Merchant）指南](./merchant/)、[賭博（Gambling）指南](./gambling/)
+- 分類：[Nevergrind Online 物品與戰利品總覽](/items-loot/)
+- 延伸閱讀：[裝備收集路線](/equipment-collection/)、[鑑定（Identification）指南](/identification/)、[商人（Merchant）指南](/merchant/)、[賭博（Gambling）指南](/gambling/)
 - 資料來源：來源摘要、既有 Nevergrind 筆記、Fandom General Game Mechanics / Races、Nevergrind Wiki Item Upgrades、FC2 / atelier3 charamake、loot 頁與相關來源整理
 - 版本提醒：物品售價、背包上限、gold bonus、`/players` 類指令、商店刷新與 gambling 池可能隨版本調整；實際操作請以目前遊戲內 UI、tooltip、`/help` 與 vendor price 為準
 
@@ -76,7 +76,7 @@ FC2 loot 頁對 unique / set 的建議可以整理成「階級先行，Normal �
 | 優先鑑定高價部位 | focus / stave、plate、chest、shield、head、high-level base | 最有機會把鑑定成本轉成額外售價 |
 | 留意 talents / res | 裝備看似不適合目前角色時 | 可能給分身、交易或高價出售 |
 
-完整操作可看 [鑑定（Identification）指南](./identification/) 與 [藥劑店（Apothecary）指南](./apothecary/)。
+完整操作可看 [鑑定（Identification）指南](/identification/) 與 [藥劑店（Apothecary）指南](/apothecary/)。
 
 ## 鑑定後的保留與出售基準
 
@@ -129,9 +129,9 @@ FC2 / atelier3 的角色建立（charamake）來源在阿努卡里（Anukari）�
 
 | 系統 | 投入時機 | 注意 |
 | ------ | ------ | ------ |
-| [賭博（Gambling）](./gambling/) | 已知道要追 elite 飾品、Haniwa、Shako 或特定部位 | 高風險，先確認 quality 與圖示 |
-| [符文（Runes）](./runes/) | 裝備會穿很久，或高 socket 工具裝已確定用途 | 一般鑲嵌通常視為不可逆 |
-| [製作（Crafting）](./blacksmith-crafting-recipe-research/) | 已有正確 socketed base、runes 與 recipe 方向 | base、socket count、required level 都要符合 |
+| [賭博（Gambling）](/gambling/) | 已知道要追 elite 飾品、Haniwa、Shako 或特定部位 | 高風險，先確認 quality 與圖示 |
+| [符文（Runes）](/runes/) | 裝備會穿很久，或高 socket 工具裝已確定用途 | 一般鑲嵌通常視為不可逆 |
+| [製作（Crafting）](/blacksmith-crafting-recipe-research/) | 已有正確 socketed base、runes 與 recipe 方向 | base、socket count、required level 都要符合 |
 | Item upgrades | 裝備不會很快被替換 | Nevergrind Wiki 描述升級可穩定補強，但成本會增加 |
 
 來源摘要特別看重 Exceptional / Elite 的 ring、amulet、charm gambling，因為這些部位可能更容易導向 unique 以上候選。這條策略很有價值，但仍應放在版本檢查後使用：投入前先 hover quality，看目前 商人（Merchant） UI 是否支援你想追的池。
@@ -148,10 +148,10 @@ FC2 / atelier3 的角色建立（charamake）來源在阿努卡里（Anukari）�
 
 ## 參考資料
 
-- [裝備收集路線](./equipment-collection/)
-- [鑑定（Identification）指南](./identification/)
-- [商人（Merchant）指南](./merchant/)
-- [賭博（Gambling）指南](./gambling/)
+- [裝備收集路線](/equipment-collection/)
+- [鑑定（Identification）指南](/identification/)
+- [商人（Merchant）指南](/merchant/)
+- [賭博（Gambling）指南](/gambling/)
 - [Nevergrind Online Wiki: General Game Mechanics](https://nevergrind-online.fandom.com/wiki/General_Game_Mechanics)
 - [Nevergrind Online Wiki: Races](https://nevergrind-online.fandom.com/wiki/Races)
 - [Nevergrind Wiki: Item Upgrades](https://nevergrind.com/wiki/index.php?title=Item_Upgrades)

@@ -10,8 +10,8 @@ status: "整理改寫"
 `Edenburg`（伊登堡）是 Nevergrind Online 每場冒險之間的整備中心：玩家在這裡接任務、補給、升技能、鑑定裝備、擴背包、管理銀行、處理 guild 與社交互動。把 Edenburg（伊登堡）的七大建築用熟，會比只知道「回城賣裝」更能穩定推進角色成長。
 
 - 檢視日期：`2026-05-03`
-- 分類：[Nevergrind Online（絕不刷怪）遊戲指南](./guide/)
-- 相關速查：[熱鍵與聊天指令速查](./hotkeys-commands/)
+- 分類：[Nevergrind Online（絕不刷怪）遊戲指南](/guide/)
+- 相關速查：[熱鍵與聊天指令速查](/hotkeys-commands/)
 - 資料來源：來源摘要、來源資料整理與既有 Nevergrind Online 城鎮設施筆記
 - 版本提醒：Edenburg（伊登堡）的 UI 位置、建築名稱、賽季規則、背包上限、guild 功能與快捷操作可能因版本或語系調整；實際操作請以目前遊戲內 UI、`/help` 與 tooltip 為準
 
@@ -24,11 +24,11 @@ status: "整理改寫"
 
 | 建築 | 核心功能 | 什麼時候去 |
 | ------ | ------ | ------ |
-| [酒館（Tavern）](./tavern/) | `Missions`、地城入口、leaderboards、tips | 出發前選任務、看掉落偏好、查 tips、確認隊伍 ready |
+| [酒館（Tavern）](/tavern/) | `Missions`、地城入口、leaderboards、tips | 出發前選任務、看掉落偏好、查 tips、確認隊伍 ready |
 | 學院（Academy） | 學習 / 升級技能、重置 talents | 核心 rotation 不順、拿到新技能、想調整 build 時 |
-| [藥劑店（Apothecary）](./apothecary/) | 藥水、`Identify Scrolls`、`Identify All`、cloth / focus / stave | 出發前補給，回城後批量鑑定，caster / healer 補裝 |
-| [商人（Merchant）](./merchant/) | 背包擴張、leather armor、一般商品、gambling | 滿包、清戰利品、補輕型裝、後期用 gold 追特定部位 |
-| [鐵匠鋪（Blacksmith）](./blacksmith/) | plate / mail、重型武器、item upgrades、runes / crafting | 重裝職業補裝，或準備把 rune 投進長期裝備 |
+| [藥劑店（Apothecary）](/apothecary/) | 藥水、`Identify Scrolls`、`Identify All`、cloth / focus / stave | 出發前補給，回城後批量鑑定，caster / healer 補裝 |
+| [商人（Merchant）](/merchant/) | 背包擴張、leather armor、一般商品、gambling | 滿包、清戰利品、補輕型裝、後期用 gold 追特定部位 |
+| [鐵匠鋪（Blacksmith）](/blacksmith/) | plate / mail、重型武器、item upgrades、runes / crafting | 重裝職業補裝，或準備把 rune 投進長期裝備 |
 | 銀行（Bank） | 帳號共享倉庫 | 存 set、unique、分身裝、抗性裝、高價交易品 |
 | 公會大廳（Guild Hall） | 建立 / 管理公會與 guild 狀態 | 固定團、社群聊天、長期玩家關係 |
 
@@ -45,7 +45,7 @@ status: "整理改寫"
 - `Leaderboards`：查看等級、ladder 或賽季競爭狀態。
 - `Tips`：新手優先看的知識入口，包含快捷鍵、基礎教學與聊天 / 組隊提示。
 
-完整流程可看 [酒館（Tavern）指南](./tavern/)。
+完整流程可看 [酒館（Tavern）指南](/tavern/)。
 
 > **提醒**
 > 來源摘要提到 ladder / season 可能約三個月一輪。這類營運週期很容易調整，正式衝榜前請先看遊戲內公告與 leaderboard 說明。
@@ -74,7 +74,7 @@ status: "整理改寫"
 - 提供 `Identify All` 類批量鑑定服務。
 - 販售 cloth armor 與 focus / stave 類法系鈍器。
 
-對 healer 來說，spirit 補給直接關係到能不能撐完整場；對刷寶玩家來說，`Identify All` 則是把未知掉落轉成金幣或裝備判斷的捷徑。完整細節可看 [藥劑店（Apothecary）指南](./apothecary/) 與 [鑑定（Identification）指南](./identification/)。
+對 healer 來說，spirit 補給直接關係到能不能撐完整場；對刷寶玩家來說，`Identify All` 則是把未知掉落轉成金幣或裝備判斷的捷徑。完整細節可看 [藥劑店（Apothecary）指南](/apothecary/) 與 [鑑定（Identification）指南](/identification/)。
 
 ## 商人（Merchant）：背包、買賣與賭博（Gambling）
 
@@ -85,9 +85,9 @@ status: "整理改寫"
 - 擴張 inventory，讓每趟地城能帶回更多戰利品與補給。
 - 販售 leather armor、一般商品與隨機裝備。
 - 清理低價值戰利品，把掉落轉成 gold。
-- 後期使用 [賭博（Gambling）](./gambling/) 追 unique、set、legendary 或特定部位。
+- 後期使用 [賭博（Gambling）](/gambling/) 追 unique、set、legendary 或特定部位。
 
-對剛開始 farming 的角色來說，背包擴張往往比多買一件過渡裝更有長期收益。完整策略可看 [商人（Merchant）指南](./merchant/)。
+對剛開始 farming 的角色來說，背包擴張往往比多買一件過渡裝更有長期收益。完整策略可看 [商人（Merchant）指南](/merchant/)。
 
 ## 鐵匠鋪（Blacksmith）：重裝武庫與後期強化
 
@@ -99,7 +99,7 @@ status: "整理改寫"
 - 處理 item upgrades、rune / crafting 類後期強化。
 - 讓 socketed items 透過 runes 補強 build 需要的屬性。
 
-來源摘要提醒，rune 鑲嵌通常要慎重看待，因為投入後可能無法輕易取回。不要把高價 rune 塞進很快會換掉的裝備；先確認 roll、sockets、build 契合度與使用壽命。完整流程可看 [鐵匠鋪（Blacksmith）指南](./blacksmith/) 與 [符文（Runes）指南](./runes/)。
+來源摘要提醒，rune 鑲嵌通常要慎重看待，因為投入後可能無法輕易取回。不要把高價 rune 塞進很快會換掉的裝備；先確認 roll、sockets、build 契合度與使用壽命。完整流程可看 [鐵匠鋪（Blacksmith）指南](/blacksmith/) 與 [符文（Runes）指南](/runes/)。
 
 ## 銀行（Bank）：帳號共享財產庫
 
@@ -141,7 +141,7 @@ Edenburg（伊登堡）也承擔社交大廳的角色。來源摘要把它的聊
 - `/camp` 或左上角 `Camp` 類按鈕：快速回到角色選擇畫面。
 - 右鍵點擊玩家頭像或名稱：若目前 UI 支援，可進行邀請、私訊或其他互動。
 
-更多按鍵與指令可以看 [熱鍵與聊天指令速查](./hotkeys-commands/)。如果舊攻略和目前 UI 不一致，以遊戲內 `/help` 與 `Esc` > `Hotkeys` 為準。
+更多按鍵與指令可以看 [熱鍵與聊天指令速查](/hotkeys-commands/)。如果舊攻略和目前 UI 不一致，以遊戲內 `/help` 與 `Esc` > `Hotkeys` 為準。
 
 ## 每趟地城後的整理順序
 
@@ -158,11 +158,11 @@ Edenburg（伊登堡）也承擔社交大廳的角色。來源摘要把它的聊
 
 ## 參考資料
 
-- [酒館（Tavern）指南](./tavern/)
-- [藥劑店（Apothecary）指南](./apothecary/)
-- [商人（Merchant）指南](./merchant/)
-- [鐵匠鋪（Blacksmith）指南](./blacksmith/)
-- [Nevergrind Online 熱鍵與聊天指令速查](./hotkeys-commands/)
+- [酒館（Tavern）指南](/tavern/)
+- [藥劑店（Apothecary）指南](/apothecary/)
+- [商人（Merchant）指南](/merchant/)
+- [鐵匠鋪（Blacksmith）指南](/blacksmith/)
+- [Nevergrind Online 熱鍵與聊天指令速查](/hotkeys-commands/)
 
 ---
 

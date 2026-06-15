@@ -7,10 +7,10 @@ sourceLastModified: "N/A"
 status: "整理改寫"
 ---
 
-Nevergrind Online 的 `Identification` 鑑定不是單純的背包手續，而是把「未知戰利品」轉成「角色戰力」或「金幣收入」的關鍵流程。撿到未鑑定裝備後，先用部位、等級、職業可用性和潛在詞綴價值篩選，再用 `Identify Scrolls` 或城鎮 [藥劑店（Apothecary）](./apothecary/) 的 `Identify All` 類服務揭示 mods，會比把每件裝備都無腦鑑定更有效率。
+Nevergrind Online 的 `Identification` 鑑定不是單純的背包手續，而是把「未知戰利品」轉成「角色戰力」或「金幣收入」的關鍵流程。撿到未鑑定裝備後，先用部位、等級、職業可用性和潛在詞綴價值篩選，再用 `Identify Scrolls` 或城鎮 [藥劑店（Apothecary）](/apothecary/) 的 `Identify All` 類服務揭示 mods，會比把每件裝備都無腦鑑定更有效率。
 
 - 檢視日期：`2026-05-03`
-- 分類：[Nevergrind Online 物品與戰利品總覽](./items-loot/)
+- 分類：[Nevergrind Online 物品與戰利品總覽](/items-loot/)
 - 資料來源：來源摘要、Swiftyhorn / 高階玩家指南相關來源摘要、公開 wiki 相關頁面整理
 - 版本提醒：鑑定 UI、按鈕名稱、販售價格加成與掉落狀態可能因版本調整；實際操作請以目前遊戲內 tooltip 與城鎮 UI 為準
 
@@ -27,8 +27,8 @@ NGO 的物品系統保留了老派 RPG 的未知感：掉落時你先看到稀�
 
 - 裝備是否有 `Talents`、`All Talents`、才能樹加成或特定技能詞綴。
 - 抗性、生命、資源、haste、attack、critical、magic find 等 mods 是否補到 build 缺口。
-- [Unique Items](./unique-items/) 的固定詞綴實際 roll 值是否夠好。
-- [Set Items](./set-items/) 是否值得湊 bonus，或只是暫時保留。
+- [Unique Items](/unique-items/) 的固定詞綴實際 roll 值是否夠好。
+- [Set Items](/set-items/) 是否值得湊 bonus，或只是暫時保留。
 - 裝備販售價格是否因高價值 mods 明顯提高。
 
 換句話說，鑑定不是在回答「這件是什麼顏色」，而是在回答「這件到底值不值得留下、穿上、賣掉、交易或給分身」。
@@ -40,7 +40,7 @@ NGO 的物品系統保留了老派 RPG 的未知感：掉落時你先看到稀�
 | 方式 | 適合情境 | 使用重點 |
 | ------ | ------ | ------ |
 | `Identify Scrolls` | 地城中背包快滿、需要立刻決定去留 | 適合用在高價部位、可能升級當前裝備的掉落，或你不想帶回城的疑似低價物 |
-| [藥劑店（Apothecary）](./apothecary/) 的 `Identify All` 類服務 | 回城後背包有大量未鑑定裝備 | 適合地城結束後一次處理，省去逐件點卷軸的操作 |
+| [藥劑店（Apothecary）](/apothecary/) 的 `Identify All` 類服務 | 回城後背包有大量未鑑定裝備 | 適合地城結束後一次處理，省去逐件點卷軸的操作 |
 
 > **提醒**
 > 不同版本或語系的按鈕名稱可能顯示為 `Identify All`、全部鑑定、全て鑑定或近似文字。這篇以來源摘要中的功能概念整理，實際名稱請以目前 UI 為準。
@@ -61,7 +61,7 @@ NGO 的物品系統保留了老派 RPG 的未知感：掉落時你先看到稀�
 
 - 等級或 quality tier 太低，且沒有特殊部位價值。
 - 職業不能用，分身也沒有需求。
-- 部位已經有明顯更好的 [Magic Items](./magic-items/)、[Rare Items](./rare-items/)、unique 或 set 候選。
+- 部位已經有明顯更好的 [Magic Items](/magic-items/)、[Rare Items](/rare-items/)、unique 或 set 候選。
 - 背包空間不足，而這件裝備不是高價部位也不補當前缺口。
 
 ## 鑑定與金錢效率
@@ -97,9 +97,9 @@ NGO 的物品系統保留了老派 RPG 的未知感：掉落時你先看到稀�
 
 1. 地城中先撿高稀有度、缺口部位與高價部位。
 2. 背包快滿時，用 `Identify Scrolls` 處理最有可能升級或最高價的未鑑定裝。
-3. 回城後先補給，再找 [藥劑店（Apothecary）](./apothecary/) 使用 `Identify All` 類服務。
+3. 回城後先補給，再找 [藥劑店（Apothecary）](/apothecary/) 使用 `Identify All` 類服務。
 4. 依照自用、分身、交易、出售四類整理。
-5. 對可能投入 [符文](./runes/) 或升級的裝備，再多檢查 quality tier、sockets、roll 與長期替代品。
+5. 對可能投入 [符文](/runes/) 或升級的裝備，再多檢查 quality tier、sockets、roll 與長期替代品。
 
 鑑定真正好玩的地方，是它把掉落物從「看起來可能有用」變成可比較的具體選擇。這也是 NGO 刷寶節奏很老派、但仍能讓玩家一直期待下一件掉落的原因。
 

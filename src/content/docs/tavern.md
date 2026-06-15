@@ -10,7 +10,7 @@ status: "整理改寫"
 Nevergrind Online 的酒館（Tavern）是 Edenburg（伊登堡）裡把玩家送進冒險的核心入口：想接任務、進地城、確認任務掉落偏好、查看排行榜或讀新手 tips，都會回到這裡。出發前先在酒館確認任務目標、隊伍 ready 狀態與 farm 方向，比只盯著下一場地城更能穩定推進角色成長。
 
 - 檢視日期：`2026-05-03`
-- 分類：[Nevergrind Online（絕不刷怪）遊戲指南](./guide/)
+- 分類：[Nevergrind Online（絕不刷怪）遊戲指南](/guide/)
 - 資料來源：來源摘要、來源資料整理與公開 wiki / 社群指南相關摘要
 - 版本提醒：酒館位置、任務數量、leaderboard / ladder 規則、賽季週期與 UI 分頁可能因版本調整；實際入口與名稱請以目前遊戲內 UI 為準
 
@@ -40,7 +40,7 @@ Edenburg（伊登堡）是每場地城前後的整理台，而 `Tavern` 則是�
 選任務時不要只看等級。比較實用的判斷順序是：
 
 1. 這個任務等級是否符合角色與隊伍強度。
-2. 這個環境的怪物類型是否適合你的職業，例如 牧師（Cleric）偏好 undead / demon 場景時，可以搭配 [牧師刷區域指南](./cleric-farming-zones/) 評估。
+2. 這個環境的怪物類型是否適合你的職業，例如 牧師（Cleric）偏好 undead / demon 場景時，可以搭配 [牧師刷區域指南](/cleric-farming-zones/) 評估。
 3. 任務偏好的掉落裝備類型，是否符合目前想 farm 的部位。
 4. boss 與地城危險度，是否值得為首通、magic find 或掉落期待承擔。
 5. 隊伍是否已經補給、鑑定、修整與 ready。
@@ -60,7 +60,7 @@ FC2 chart 的整理提到，擊敗地獄（Hell）難度的 `Lord Szarthax` 後�
 2. 角色或隊伍已能穩定處理同區域的地獄（Hell）壓力。
 3. 抗性、補給、控制、治療與背包空間都已準備好。
 
-完整的 Hell / Heroic 差異可看 [地城冒險與任務攻略](./dungeons/#世界難度英雄模式與隊伍倍率)。
+完整的 Hell / Heroic 差異可看 [地城冒險與任務攻略](/dungeons/#世界難度英雄模式與隊伍倍率)。
 
 ## 排行榜（Leaderboards）與天梯（Ladder）
 
@@ -88,7 +88,7 @@ FC2 chart 的整理提到，擊敗地獄（Hell）難度的 `Lord Szarthax` 後�
 - 背包、商店、補給、鑑定或回城整理的注意事項。
 - 其他遊戲內 `help` 或 tips 入口。
 
-如果你正在學社交與組隊流程，也可以搭配 [熱鍵與聊天指令速查](./hotkeys-commands/) 裡的 [常用聊天指令](./hotkeys-commands/#ngo-chat-command-quick-reference) 一起看。
+如果你正在學社交與組隊流程，也可以搭配 [熱鍵與聊天指令速查](/hotkeys-commands/) 裡的 [常用聊天指令](/hotkeys-commands/#ngo-chat-command-quick-reference) 一起看。
 
 ## 組隊出發流程
 

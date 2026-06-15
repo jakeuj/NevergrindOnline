@@ -10,9 +10,9 @@ status: "整理改寫"
 `Fahlnir Citadel`（法爾尼爾城堡）可以當成 Act IV 的高壓進階區域來看：敵人混合 undead、demon、mystical、giant 與 dragonkin，掉落目標也開始指向 70 級以上裝備。對牧師（Cleric）來說，它不是最舒服的新手刷點，而是技能循環、抗性、資源回復與裝備都成形後，用 undead / demon 特攻去換高階收益的地方。
 
 - 檢視日期：`2026-05-03`
-- 分類：[Nevergrind Online 牧師刷區域指南](./cleric-farming-zones/)
-- 相關流派：[牧師（Scion）輸出指南](./cleric-scion-dps/)
-- 相關裝備：[Cryptic Paragon（Haniwa）](./cryptic-paragon-haniwa/)、[獨特裝備（Unique Items）指南](./unique-items/)
+- 分類：[Nevergrind Online 牧師刷區域指南](/cleric-farming-zones/)
+- 相關流派：[牧師（Scion）輸出指南](/cleric-scion-dps/)
+- 相關裝備：[Cryptic Paragon（Haniwa）](/cryptic-paragon-haniwa/)、[獨特裝備（Unique Items）指南](/unique-items/)
 - 資料來源：來源摘要、來源資料整理、Nevergrind Wiki monster mechanics 與既有裝備資料整理
 - 版本提醒：區域 boss 名稱、traits、掉落等級與任務配置可能因版本或資料來源不同；實際 farm 前請以遊戲內任務列表、怪物 tooltip 與當前交易市場為準
 
@@ -28,7 +28,7 @@ status: "整理改寫"
 | 線索 | 代表意義 |
 | ------ | ------ |
 | `Chaos Mirror` / `Fahlnir Ward` 類高階裝備被整理為約 level 73 | 區域掉落與 boss 強度已進入後期裝備帶 |
-| [Cryptic Paragon（Haniwa）](./cryptic-paragon-haniwa/) 在來源摘要中被列為 level 75 候選 | 牧師（Cleric） / 施法職追逐的高階 weapon 目標與此階段 farm 期待接近 |
+| [Cryptic Paragon（Haniwa）](/cryptic-paragon-haniwa/) 在來源摘要中被列為 level 75 候選 | 牧師（Cleric） / 施法職追逐的高階 weapon 目標與此階段 farm 期待接近 |
 | Act IV 區域定位 | Normal 下就不算早期地圖；Nightmare / Hell 會進一步放大 traits 與資源壓力 |
 | 高等玩家與 endgame 紀錄 | 不代表 Fahlnir Normal 固定到 90 級以上，而是提醒難度與角色等級上限會讓同區域有不同壓力 |
 
@@ -83,17 +83,17 @@ Fahlnir Citadel 值得刷，是因為它和高階裝備期待綁在一起，但�
 可以留意這幾類目標：
 
 - `Chaos Mirror` / `Fahlnir Ward` 類 unique / shield 方向，適合研究特定技能強化或防禦配置。
-- [Cryptic Paragon（Haniwa）](./cryptic-paragon-haniwa/) 這類 caster / support 長期目標，實際取得方式與等級請以當前版本為準。
+- [Cryptic Paragon（Haniwa）](/cryptic-paragon-haniwa/) 這類 caster / support 長期目標，實際取得方式與等級請以當前版本為準。
 - 高 resist、spirit / mana sustain、casting haste、all talents / skill bonus 的 rare / magic 候選。
 - 高階 set / unique / legendary 候選，尤其是能補牧師 burst、資源或 Hell 生存缺口的部位。
 
-如果只是想穩定 undead farm，先回 [牧師刷區域指南](./cleric-farming-zones/) 比較 `Riven Grotto`、crypt 系區域與 Fahlnir 的風險。Fahlnir 的定位比較像「成形後追高階收益」，不是「最穩最無腦」。
+如果只是想穩定 undead farm，先回 [牧師刷區域指南](/cleric-farming-zones/) 比較 `Riven Grotto`、crypt 系區域與 Fahlnir 的風險。Fahlnir 的定位比較像「成形後追高階收益」，不是「最穩最無腦」。
 
 ## 參考資料
 
-- [Nevergrind Online 牧師刷區域指南](./cleric-farming-zones/)
-- [Nevergrind Online 牧師（Scion）輸出指南](./cleric-scion-dps/)
-- [Nevergrind Online Cryptic Paragon（Haniwa）指南](./cryptic-paragon-haniwa/)
+- [Nevergrind Online 牧師刷區域指南](/cleric-farming-zones/)
+- [Nevergrind Online 牧師（Scion）輸出指南](/cleric-scion-dps/)
+- [Nevergrind Online Cryptic Paragon（Haniwa）指南](/cryptic-paragon-haniwa/)
 - [Nevergrind Wiki: Monsters](https://nevergrind.com/wiki/index.php?title=Monsters)
 - [Nevergrind Wiki: Main Page](https://nevergrind.com/wiki/index.php?title=Main_Page)
 

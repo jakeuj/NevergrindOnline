@@ -10,8 +10,8 @@ status: "整理改寫"
 術士（Warlock）終局單刷的核心是自給自足：`Lich Form` 讓普通攻擊變成多目標近戰語言，`Plaguebearer` / `Poison Shock` 提供高 Health 目標的前段壓力，恐懼與 debuff 能降低被打崩的風險，`Drain Soul` 則是血線危險時的關鍵回血按鍵。
 
 - 檢視日期：`2026-05-27`
-- 分類：[終局單刷職業與流派總覽](./endgame-solo-classes/)
-- 前置閱讀：[職業系統總覽](./classes/)、[套裝指南](./set-items/)、[Cryptic Paragon（Haniwa）](./cryptic-paragon-haniwa/)
+- 分類：[終局單刷職業與流派總覽](/endgame-solo-classes/)
+- 前置閱讀：[職業系統總覽](/classes/)、[套裝指南](/set-items/)、[Cryptic Paragon（Haniwa）](/cryptic-paragon-haniwa/)
 - 資料來源：FC2 / atelier3 `Warlock` 職業頁、站內職業總覽、套裝與 unique 裝備整理
 - 版本提醒：本頁的 `Plague` rank、武器速度與 `Poison Shock` 觸發讀法來自 FC2 / 玩家 meta snapshot；實際效果請以目前遊戲內 tooltip 為準
 
@@ -112,10 +112,10 @@ FC2 術士例以 `King of Riven Grotto` 英雄周回為想定，天賦樹加成�
 
 - [FC2 攻略 DB：Warlock](https://atelier3.web.fc2.com/ngo/warlock.html)
 - [Nevergrind Online Wiki: Warlock](https://nevergrind-online.fandom.com/wiki/Warlock)
-- [FC2 職業 Build 摘要：術士](./fc2-class-build-index/#fc2-warlock)
-- [套裝（Set Items）指南](./set-items/)
-- [Cryptic Paragon（Haniwa）](./cryptic-paragon-haniwa/)
-- [嚴選獨特裝備速查](./fc2-selected-unique-items/#fc2-selectlist2)
+- [FC2 職業 Build 摘要：術士](/fc2-class-build-index/#fc2-warlock)
+- [套裝（Set Items）指南](/set-items/)
+- [Cryptic Paragon（Haniwa）](/cryptic-paragon-haniwa/)
+- [嚴選獨特裝備速查](/fc2-selected-unique-items/#fc2-selectlist2)
 
 ---
 

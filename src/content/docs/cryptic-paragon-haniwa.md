@@ -10,7 +10,7 @@ status: "整理改寫"
 `Cryptic Paragon`，日系社群常稱 `Haniwa` / `ハニワ` / 哈尼瓦，是 Nevergrind Online 裡法系與支援職會長期追逐的高階 unique 武器。它的價值不只在單一傷害數字，而是同時提供施法節奏、全抗、全法術傷害、對不死生物加成與隨機技能 / 天賦 roll，讓一把武器能服務多種施法職流派。
 
 - 檢視日期：`2026-05-03`
-- 分類：[Nevergrind Online 物品與戰利品總覽](./items-loot/)
+- 分類：[Nevergrind Online 物品與戰利品總覽](/items-loot/)
 - 資料來源：來源摘要、Nevergrind Online 日文 wiki、SteamDB elite 1H blunt patch note
 - 版本提醒：公開日文 wiki 與 來源摘要的等級和詞綴描述不同；實際數值、等級需求、掉落來源與 gambling 圖示請以目前遊戲內 tooltip 為準
 
@@ -71,11 +71,11 @@ status: "整理改寫"
 | 薩滿（Shaman） | 補基礎火力、DoT / spell damage、資源與技能等級；雙持玩法要看版本與 proficiency |
 | 吟遊詩人（Bard） | 看歌曲、support skill、magic find 與 all talents / all skills 是否支援目前定位 |
 
-對 [牧師（Scion）輸出](./cleric-scion-dps/) 來說，Haniwa 的價值在於同時補輸出、節奏與 undead farm；對 [牧師刷區域](./cleric-farming-zones/) 來說，它則是把 undead 特攻路線推到更高效率的候選裝備。
+對 [牧師（Scion）輸出](/cleric-scion-dps/) 來說，Haniwa 的價值在於同時補輸出、節奏與 undead farm；對 [牧師刷區域](/cleric-farming-zones/) 來說，它則是把 undead 特攻路線推到更高效率的候選裝備。
 
 ## 取得方式
 
-來源摘要提到兩個方向：地城掉落與 [gambling](./gambling/)。公開 Fandom Loot 頁能確認 merchants 會依角色等級販售裝備並定期 restock，但未明確列出 Haniwa gambling 規則；因此 gambling 細節先當社群實測資訊處理。
+來源摘要提到兩個方向：地城掉落與 [gambling](/gambling/)。公開 Fandom Loot 頁能確認 merchants 會依角色等級販售裝備並定期 restock，但未明確列出 Haniwa gambling 規則；因此 gambling 細節先當社群實測資訊處理。
 
 整理如下：
 
@@ -102,7 +102,7 @@ status: "整理改寫"
 
 ## 配裝與符文方向
 
-Haniwa 這類高價值 weapon 通常值得認真規劃 [符文](./runes/)，但前提是 roll 夠好。
+Haniwa 這類高價值 weapon 通常值得認真規劃 [符文](/runes/)，但前提是 roll 夠好。
 
 常見方向：
 

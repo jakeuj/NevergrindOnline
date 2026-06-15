@@ -7,11 +7,11 @@ sourceLastModified: "N/A"
 status: "整理改寫"
 ---
 
-Nevergrind Online 的地城冒險可以看成一條循環：從 Edenburg（伊登堡）的 [酒館（Tavern）](./tavern/) 選任務，進入隨機生成的地城，依怪物 traits、站位與 aggro 控制戰鬥，打倒 boss 後再回城鑑定、整理與投資下一輪裝備。
+Nevergrind Online 的地城冒險可以看成一條循環：從 Edenburg（伊登堡）的 [酒館（Tavern）](/tavern/) 選任務，進入隨機生成的地城，依怪物 traits、站位與 aggro 控制戰鬥，打倒 boss 後再回城鑑定、整理與投資下一輪裝備。
 
 - 檢視日期：`2026-05-03`
-- 分類：[Nevergrind Online（絕不刷怪）遊戲指南](./guide/)
-- 延伸閱讀：[怪物分類與 Traits](./monsters/)、[物品與戰利品總覽](./items-loot/)、[熱鍵與聊天指令速查](./hotkeys-commands/)
+- 分類：[Nevergrind Online（絕不刷怪）遊戲指南](/guide/)
+- 延伸閱讀：[怪物分類與 Traits](/monsters/)、[物品與戰利品總覽](/items-loot/)、[熱鍵與聊天指令速查](/hotkeys-commands/)
 - 資料來源：來源摘要、來源資料整理、Nevergrind Wiki、Fandom game mechanics 與既有筆記交叉整理
 - 版本提醒：任務數量、難度名稱、掉落偏好、`/players` 類指令與 boss 圖示可能因版本不同而改變；實際操作請以目前遊戲內 酒館（Tavern）、地圖 UI、tooltip 與 `/help` 為準
 
@@ -69,7 +69,7 @@ FC2 chart 的整理提到，擊敗地獄（Hell）難度的 `Lord Szarthax` 後�
 - 點擊 minimap 上的下一個房間：讓角色往目標房間前進。
 - 長按滑鼠左鍵或右鍵：在地城中持續向前。
 - `Mouse Wheel`：縮放地圖，找路、看遠端房間或檢查可能的隱藏房。
-- `Z`：若目前 keybind 支援，可用於 autorun；詳細可看 [熱鍵與聊天指令速查](./hotkeys-commands/)。
+- `Z`：若目前 keybind 支援，可用於 autorun；詳細可看 [熱鍵與聊天指令速查](/hotkeys-commands/)。
 
 地圖圖示也值得注意：
 
@@ -95,7 +95,7 @@ FC2 chart 的整理提到，擊敗地獄（Hell）難度的 `Lord Szarthax` 後�
 | Species / type | Undead、Demon、Dragonkin 等會影響特攻詞綴與技能加成 | 牧師（Cleric）、特攻裝與 farming route 會特別在意 |
 | Mods / traits | Rampage、Bloodlusted、Armored、Drain、Enchanted 等會改變整場戰鬥 | 依 trait 改變擊殺順序與控制 |
 
-完整怪物階級、con、species 與 traits 可看 [怪物分類與 Traits](./monsters/)。
+完整怪物階級、con、species 與 traits 可看 [怪物分類與 Traits](/monsters/)。
 
 ## 團隊戰鬥節奏
 
@@ -159,10 +159,10 @@ FC2 chart 的整理提到，擊敗地獄（Hell）難度的 `Lord Szarthax` 後�
 打完 boss 後：
 
 - 背包滿時，若目前版本允許，可回城清理、鑑定，再回地城撿剩餘掉落；實際行為請以目前任務與地城保留規則為準。
-- 到 [藥劑店（Apothecary）](./apothecary/) 使用 `Identify All` 類服務處理未鑑定裝。
+- 到 [藥劑店（Apothecary）](/apothecary/) 使用 `Identify All` 類服務處理未鑑定裝。
 - 把高價 set、unique、craft base、抗性裝、分身裝放銀行。
-- 到 [商人（Merchant）](./merchant/) 清理低價物、升背包，或把多餘 gold 留給 [賭博（Gambling）](./gambling/)。
-- 對長期裝才考慮 [符文（Runes）](./runes/) 或 [鐵匠鋪（Blacksmith） crafting](./blacksmith-crafting-recipe-research/)。
+- 到 [商人（Merchant）](/merchant/) 清理低價物、升背包，或把多餘 gold 留給 [賭博（Gambling）](/gambling/)。
+- 對長期裝才考慮 [符文（Runes）](/runes/) 或 [鐵匠鋪（Blacksmith） crafting](/blacksmith-crafting-recipe-research/)。
 
 ## 新手地城檢查表
 
@@ -177,14 +177,14 @@ FC2 chart 的整理提到，擊敗地獄（Hell）難度的 `Lord Szarthax` 後�
 
 ## FC2 一般攻略全量參考
 
-FC2 的流程、Boss、特殊怪物、狀態異常與 FAQ 等頁面已集中在 [FC2 一般攻略全量參考](./fc2-general-reference/)。地城路線可先讀本文，再用全量參考查原站表格。
+FC2 的流程、Boss、特殊怪物、狀態異常與 FAQ 等頁面已集中在 [FC2 一般攻略全量參考](/fc2-general-reference/)。地城路線可先讀本文，再用全量參考查原站表格。
 
 ## 參考資料
 
-- [酒館（Tavern）指南](./tavern/)
-- [怪物分類與 Traits](./monsters/)
-- [熱鍵與聊天指令速查](./hotkeys-commands/)
-- [物品與戰利品總覽](./items-loot/)
+- [酒館（Tavern）指南](/tavern/)
+- [怪物分類與 Traits](/monsters/)
+- [熱鍵與聊天指令速查](/hotkeys-commands/)
+- [物品與戰利品總覽](/items-loot/)
 - [Nevergrind Wiki: Monsters](https://nevergrind.com/wiki/index.php?title=Monsters)
 - [Nevergrind Online Wiki: General Game Mechanics](https://nevergrind-online.fandom.com/wiki/General_Game_Mechanics)
 

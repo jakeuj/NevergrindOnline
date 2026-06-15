@@ -10,8 +10,8 @@ status: "整理改寫"
 Nevergrind Online 的攻略資料分散在官方 Steam 頁、Steam 公告、Fandom、FC2 日文攻略 DB、Steam 討論與中文社群心得。閱讀時先把來源分層：官方資料用來確認版本、模式與系統是否存在；社群 wiki 用來理解基礎機制；FC2 與玩家心得則用來補 build、刷圖、裝備與開荒體感。
 
 - 檢視日期：`2026-05-03`
-- 分類：[Nevergrind Online（絕不刷怪）遊戲指南](./guide/)
-- 相關閱讀：[進度路線與 FC2 攻略讀法](./progression-roadmap/)、[FC2 攻略 DB 連結索引](./fc2-link-index/)、[Fandom Wiki 連結索引](./fandom-link-index/)、[職業系統總覽](./classes/)、[地城冒險與任務攻略](./dungeons/)
+- 分類：[Nevergrind Online（絕不刷怪）遊戲指南](/guide/)
+- 相關閱讀：[進度路線與 FC2 攻略讀法](/progression-roadmap/)、[FC2 攻略 DB 連結索引](/fc2-link-index/)、[Fandom Wiki 連結索引](/fandom-link-index/)、[職業系統總覽](/classes/)、[地城冒險與任務攻略](/dungeons/)
 - 版本提醒：本文只記錄本次查核能公開對上的資訊；Steam update history、遊戲內 tooltip 與官方公告仍是版本敏感內容的最終依據
 
 > **快速重點**
@@ -31,7 +31,7 @@ Nevergrind Online 的攻略資料分散在官方 Steam 頁、Steam 公告、Fand
 | FC2 / atelier3 攻略DB | 終局 build、裝備方向、符文、crafting、技能斷點 | 很有操作價值，但不少建議默認已有裝備基礎 |
 | 中文與 Steam 玩家心得 | 開荒體感、單刷職業、前中期資源取捨 | 當成經驗值，不要當成官方公式 |
 
-FC2 站內每個 NGO 內部頁面已另整理在 [FC2 攻略 DB 連結索引](./fc2-link-index/)；Fandom 主命名空間頁面則整理在 [Fandom Wiki 連結索引](./fandom-link-index/)。需要查「哪一頁對應職業、物品、套裝、rune 或英文基礎機制」時先看索引；需要判斷資料能不能採信時再回到本文。
+FC2 站內每個 NGO 內部頁面已另整理在 [FC2 攻略 DB 連結索引](/fc2-link-index/)；Fandom 主命名空間頁面則整理在 [Fandom Wiki 連結索引](/fandom-link-index/)。需要查「哪一頁對應職業、物品、套裝、rune 或英文基礎機制」時先看索引；需要判斷資料能不能採信時再回到本文。
 
 <a id="verified-public-facts"></a>
 
@@ -77,7 +77,7 @@ FC2 站內每個 NGO 內部頁面已另整理在 [FC2 攻略 DB 連結索引](./
 | 較吃裝備或熟練度 | 巫師（Wizard）、戰士（Warrior） | 上限很高，但更常需要技能 rank、裝備、隊友或防禦資源支撐 |
 | 建議熟悉系統後再開 | 盜賊（Rogue） | 後期可有定位，但前期若缺 AoE、自補或資源，單刷體感可能偏硬 |
 
-想看完整職業、裝甲階級與技能機制，回到 [職業系統總覽](./classes/)。想看從新手走到 `Hell` / `Heroic` 的資源順序，回到 [進度路線與 FC2 攻略讀法](./progression-roadmap/)。
+想看完整職業、裝甲階級與技能機制，回到 [職業系統總覽](/classes/)。想看從新手走到 `Hell` / `Heroic` 的資源順序，回到 [進度路線與 FC2 攻略讀法](/progression-roadmap/)。
 
 <a id="technical-troubleshooting"></a>
 

@@ -10,11 +10,11 @@ status: "整理改寫"
 Fandom 的 Nevergrind Online Wiki 適合查英文名詞、基礎系統、職業頁、城鎮、loot 顏色、chat commands 與 general mechanics。這篇只整理「Fandom 哪個頁面查什麼」與本地筆記對應位置，不複製 wiki 原文；技能、物品、掉落、賽季或指令是否仍有效，仍要回目前遊戲內 tooltip、`/help` 與官方公告確認。
 
 - 檢視日期：`2026-05-04`
-- 分類：[Nevergrind Online（絕不刷怪）遊戲指南](./guide/)
+- 分類：[Nevergrind Online（絕不刷怪）遊戲指南](/guide/)
 - 來源首頁：[Nevergrind Online Wiki](https://nevergrind-online.fandom.com/wiki/Nevergrind_Online_Wiki)
 - 抓取範圍：使用 Fandom / MediaWiki `All Pages` 與頁面 sections 查主命名空間頁面；排除登入、圖片、討論、社群與 Fandom 系統頁
 - 收錄數量：37 個主命名空間頁面；其中 `Main Page` 轉向 `Nevergrind Online Wiki`，`Templer` 轉向 `Templar`
-- 版本提醒：Fandom 是社群 wiki，適合確認英文頁面名稱與基礎規則；若和 FC2、Steam 或遊戲內 UI 衝突，優先依 [公開來源判讀與疑難排解](./public-source-notes/) 的來源順序處理
+- 版本提醒：Fandom 是社群 wiki，適合確認英文頁面名稱與基礎規則；若和 FC2、Steam 或遊戲內 UI 衝突，優先依 [公開來源判讀與疑難排解](/public-source-notes/) 的來源順序處理
 
 > **快速重點**
 > 新手從 Fandom 讀起時，先看 Intro / Starter Guide、[General Game Mechanics](https://nevergrind-online.fandom.com/wiki/General_Game_Mechanics)、[Classes](https://nevergrind-online.fandom.com/wiki/Classes)、[Races](https://nevergrind-online.fandom.com/wiki/Races)、[Edenburg](https://nevergrind-online.fandom.com/wiki/Edenburg) 與 [Loot](https://nevergrind-online.fandom.com/wiki/Loot)。
@@ -25,11 +25,11 @@ Fandom 的 Nevergrind Online Wiki 適合查英文名詞、基礎系統、職業�
 
 | Fandom 資料類型 | 本地應補位置 | 讀法 |
 | ------ | ------ | ------ |
-| 入門、Gameplay、General Mechanics | [系統總覽與核心架構](./core-structure/)、[進度路線與 FC2 攻略讀法](./progression-roadmap/) | 用來補基礎循環、con、aggro、grouping、haste、map 等概念 |
-| Classes、各職業頁、Races | [職業系統總覽](./classes/)、[中英名詞對照](./terminology/) | 用來對齊英文職業、種族、proficiency、skills / spells sections |
-| Edenburg、Chat Commands、Custom Portrait | [Edenburg 城鎮設施](./edenburg/)、[熱鍵與聊天指令](./hotkeys-commands/) | 用來補城鎮設施、指令與 UI / QoL 主題 |
-| Loot、Items、Unique / Set lists | [物品與戰利品總覽](./items-loot/)、[裝備收集路線](./equipment-collection/) | 用來補顏色、rarity、loot source 與 item list 查詢入口 |
-| Common Terms、Negative Status Effects | [中英名詞對照](./terminology/)、[怪物分類與特性](./monsters/) | 用來補英文縮寫、debuff / status effect 對照 |
+| 入門、Gameplay、General Mechanics | [系統總覽與核心架構](/core-structure/)、[進度路線與 FC2 攻略讀法](/progression-roadmap/) | 用來補基礎循環、con、aggro、grouping、haste、map 等概念 |
+| Classes、各職業頁、Races | [職業系統總覽](/classes/)、[中英名詞對照](/terminology/) | 用來對齊英文職業、種族、proficiency、skills / spells sections |
+| Edenburg、Chat Commands、Custom Portrait | [Edenburg 城鎮設施](/edenburg/)、[熱鍵與聊天指令](/hotkeys-commands/) | 用來補城鎮設施、指令與 UI / QoL 主題 |
+| Loot、Items、Unique / Set lists | [物品與戰利品總覽](/items-loot/)、[裝備收集路線](/equipment-collection/) | 用來補顏色、rarity、loot source 與 item list 查詢入口 |
+| Common Terms、Negative Status Effects | [中英名詞對照](/terminology/)、[怪物分類與特性](/monsters/) | 用來補英文縮寫、debuff / status effect 對照 |
 
 ## 首頁可見入口
 
@@ -106,10 +106,10 @@ Fandom 的 Nevergrind Online Wiki 適合查英文名詞、基礎系統、職業�
 ## 更新本地筆記時的注意事項
 
 - 若只需要「Fandom 哪頁查什麼」，連回本文即可，不要在攻略首頁重複 37 筆清單。
-- 若要補職業或種族頁，保留英文名和本地中文化名稱，並和 [中英名詞對照](./terminology/) 同步。
+- 若要補職業或種族頁，保留英文名和本地中文化名稱，並和 [中英名詞對照](/terminology/) 同步。
 - 若要補 mechanics，優先整理概念和本地讀法，不搬完整 wiki 段落。
 - 若要補 item / loot，優先引用 page role、rarity / tier 和查表方向；具體數值以遊戲內 tooltip 為準。
-- 若 Fandom、FC2、Steam 或遊戲內資料互相衝突，回到 [公開來源判讀與疑難排解](./public-source-notes/) 的來源優先順序。
+- 若 Fandom、FC2、Steam 或遊戲內資料互相衝突，回到 [公開來源判讀與疑難排解](/public-source-notes/) 的來源優先順序。
 
 ---
 

@@ -45,6 +45,9 @@ jobs:
           SITE: https://ngo.jakeuj.com
           BASE_PATH: /
 
+      - name: Check internal links
+        run: npm run check:links
+
       - name: Check SEO output
         run: npm run check:seo
 

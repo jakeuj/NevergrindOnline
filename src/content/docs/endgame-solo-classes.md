@@ -10,8 +10,8 @@ status: "整理改寫"
 終局單刷不是單純問「哪個職業最強」，而是問這個角色能不能自己處理輸出、生存、資源、控制、地城 traits 與裝備斷點。依目前站內 FC2 職業頁、Fandom / wiki 基礎機制與既有補充攻略整理，十字軍（Crusader）是最穩的第一梯隊；牧師（Cleric）與頂級裝備成形後的戰士（Warrior）也很適合投入；德魯伊（Druid）與術士（Warlock）則屬於操作與配裝更有要求、但單刷能力明確的進階選項。
 
 - 檢視日期：`2026-05-27`
-- 分類：[Nevergrind Online 職業系統總覽](./classes/)
-- 前置閱讀：[進度路線與 FC2 攻略讀法](./progression-roadmap/)、[十字軍指南](./crusader/)、[牧師（Scion）輸出指南](./cleric-scion-dps/)
+- 分類：[Nevergrind Online 職業系統總覽](/classes/)
+- 前置閱讀：[進度路線與 FC2 攻略讀法](/progression-roadmap/)、[十字軍指南](/crusader/)、[牧師（Scion）輸出指南](/cleric-scion-dps/)
 - 資料來源：FC2 / atelier3 職業 build 頁、站內職業與治療者補充頁、Fandom / Nevergrind Wiki 職業與基礎機制頁
 - 版本提醒：本頁是 FC2 / 玩家 meta snapshot 加上站內機制推論，不是官方永久 tier list；技能 rank、裝備 roll、武器速度與 tooltip 請以目前遊戲內顯示為準
 
@@ -36,15 +36,15 @@ status: "整理改寫"
 
 魔法型 `Judicator` 是優先推薦，原因是它比物理型更不依賴 Enchanter 支援。核心目標是先讓 `Superior Blessed Hammer` 達到 FC2 提到的 Rank 29 bonus hit 門檻，再補 `Mastery: Disciple`、arcane damage、抗性與資源。`Seal of Sanctuary` 則是高壓 boss、`Rampage` 或 traits 組合危險時的容錯核心。
 
-延伸閱讀：[十字軍（Crusader / Paladin）坦克與神聖混合指南](./crusader/)
+延伸閱讀：[十字軍（Crusader / Paladin）坦克與神聖混合指南](/crusader/)
 
 ## 牧師適合追求安全輸出的玩家
 
-牧師不是只能補血。FC2 牧師頁把後期牧師描述成能補的 DPS，站內 [牧師（Scion）輸出指南](./cleric-scion-dps/) 也把它整理成 `Arbiter` 的 `Condemnation` 搭配 `Scion` burst window 的玩法。
+牧師不是只能補血。FC2 牧師頁把後期牧師描述成能補的 DPS，站內 [牧師（Scion）輸出指南](/cleric-scion-dps/) 也把它整理成 `Arbiter` 的 `Condemnation` 搭配 `Scion` burst window 的玩法。
 
 單刷時，牧師的價值在於板甲、治療、stun、`Condemnation` cone / 多目標傷害，以及對 undead / demon 的加成。它不像十字軍那樣有無敵按鍵當免死牌，但它能把安全、恢復與輸出放在同一套循環裡；在 `Riven Grotto` 這類 undead 密集路線尤其好發揮。
 
-延伸閱讀：[牧師（Scion）輸出指南](./cleric-scion-dps/)、[牧師刷區域指南](./cleric-farming-zones/)
+延伸閱讀：[牧師（Scion）輸出指南](/cleric-scion-dps/)、[牧師刷區域指南](/cleric-farming-zones/)
 
 ## 戰士是頂裝後的物理上限選項
 
@@ -52,7 +52,7 @@ status: "整理改寫"
 
 單刷戰士要把 `Frenzy`、`Bulwark`、`Intrepid Shout` 當成開戰前核心，戰鬥中用 `Rupture` 開出血與物理傷害加成，再接 `Furious Cleave` 或 `Double Throw`。它的缺點是裝備門檻高，一旦武器、抗性或資源不穩，就容易變成「能扛但清太慢」或「有傷害但吃不住」。
 
-延伸閱讀：[戰士（Goliath）終局單刷指南](./warrior-goliath-solo/)
+延伸閱讀：[戰士（Goliath）終局單刷指南](/warrior-goliath-solo/)
 
 ## 德魯伊與術士是進階單刷選項
 
@@ -62,7 +62,7 @@ status: "整理改寫"
 
 術士的優勢是前半段爆發、恐懼與吸血。`Lich Form` 讓普攻變成多目標近戰語言，`Plaguebearer` 的 `Poison Shock` 依 FC2 說法會隨 `Plague` rank 縮短冷卻，搭配正確武器速度可以把觸發節奏做得很密；`Drain Soul` 則是單刷時重要的回血按鍵。
 
-延伸閱讀：[德魯伊（Stormcaller）終局單刷指南](./druid-stormcaller-solo/)、[術士（Lich / Plaguebearer）終局單刷指南](./warlock-lich-solo/)
+延伸閱讀：[德魯伊（Stormcaller）終局單刷指南](/druid-stormcaller-solo/)、[術士（Lich / Plaguebearer）終局單刷指南](/warlock-lich-solo/)
 
 ## 怎麼選
 

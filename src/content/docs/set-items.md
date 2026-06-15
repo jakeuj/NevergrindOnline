@@ -14,7 +14,7 @@ status: "整理改寫"
 Nevergrind Online 的套裝物品以綠色文字顯示，單件通常有預設詞綴，穿上同一套裝的多個部位後會啟用額外的 `Set Bonus`。看套裝時不要只看單件數值；真正的價值常在 2 件、3 件或特定部位組合能不能補上 build 的關鍵缺口。
 
 - 檢視日期：`2026-05-05`
-- 分類：[Nevergrind Online 物品與戰利品總覽](./items-loot/)
+- 分類：[Nevergrind Online 物品與戰利品總覽](/items-loot/)
 - 資料來源：Swiftyhorn / 高階玩家指南相關來源摘要、FC2 / atelier3 攻略 DB set、unique、loot、gambling 與職業頁
 - 版本提醒：套裝名稱、bonus、部位與數值可能因版本不同而調整；交易、賭博或投入 rune 前，請先用目前遊戲內 tooltip 核對
 
@@ -48,7 +48,7 @@ Nevergrind Online 的套裝物品以綠色文字顯示，單件通常有預設�
 
 ## 職業套裝列表
 
-來源資料把每個職業的核心套裝分成 Normal、Exceptional、Elite 三階。這裡沿用來源中的職業名稱；若和官方 wiki 名稱不同，請搭配 [職業系統總覽](./classes/) 的名詞對照一起看。
+來源資料把每個職業的核心套裝分成 Normal、Exceptional、Elite 三階。這裡沿用來源中的職業名稱；若和官方 wiki 名稱不同，請搭配 [職業系統總覽](/classes/) 的名詞對照一起看。
 
 | 職業 | Normal | Exceptional | Elite |
 | ------ | ------ | ------ | ------ |
@@ -134,7 +134,7 @@ FC2 的 `set.html` 除了 14 職的三階職業套裝外，還列了 7 個沒有
 
 ## 拆套與取捨
 
-高階玩家通常不會只問「這套能不能穿滿」，而是問「這個件數 bonus 值不值得犧牲其他部位」。套裝提供穩定、可預期的 bonus；[unique](./unique-items/) / legendary 則可能提供更強的單件效果、特殊觸發、技能 roll 或更好的 weapon base。
+高階玩家通常不會只問「這套能不能穿滿」，而是問「這個件數 bonus 值不值得犧牲其他部位」。套裝提供穩定、可預期的 bonus；[unique](/unique-items/) / legendary 則可能提供更強的單件效果、特殊觸發、技能 roll 或更好的 weapon base。
 
 常見取捨：
 
@@ -152,7 +152,7 @@ FC2 的 `set.html` 除了 14 職的三階職業套裝外，還列了 7 個沒有
 | `Daahoud` 3 件 | monk elite set bonus | 不是只有武僧才值得看；若物理職缺 attack ability 或想兼顧 rare drop，可以把它當成部位成本問題來比較 |
 | `Demetrium's Ballista` | low-level set bow | FC2 loot 頁點名為 Normal bow 例外；價值在高 socket roll 與 ranged slot 工具性，不在 level 29 的基礎傷害 |
 
-來源摘要提到一個典型例子：`Yizeren` elite 套裝雖然全套 6 件 bonus 可能提供很高的 `All Talents`，但若套裝兩手武器性能不符合當前施法職流派，玩家可能會拆成 5 件保留 magic find，然後改用 [Cryptic Paragon（Haniwa）](./cryptic-paragon-haniwa/) 這類更適合 rotation 的單手武器。
+來源摘要提到一個典型例子：`Yizeren` elite 套裝雖然全套 6 件 bonus 可能提供很高的 `All Talents`，但若套裝兩手武器性能不符合當前施法職流派，玩家可能會拆成 5 件保留 magic find，然後改用 [Cryptic Paragon（Haniwa）](/cryptic-paragon-haniwa/) 這類更適合 rotation 的單手武器。
 
 > **提示**
 > 評估 set bonus 時，把它當成一個「部位成本」問題：多穿一件套裝，代表你少穿一件其他裝備。只有當 bonus 補到關鍵缺口，或明顯提高 farm 效率時，這個成本才值得。
@@ -160,9 +160,9 @@ FC2 的 `set.html` 除了 14 職的三階職業套裝外，還列了 7 個沒有
 ## 收集與整理小提示
 
 - 屬性波動：同名裝備仍可能有不同數值 roll；追求 perfect roll 是後期長線目標。
-- Gambling：FC2 gambling 頁提到城鎮右側 `Merchant` 可用 gold gambling；武器 / 防具圖示較固定，飾品圖示較隨機但可 hover 看 `Normal`、`Exceptional`、`Elite`。若追套裝缺件、Shako、Haniwa 或高 socket 工具裝，完整策略可看 [賭博（Gambling）指南](./gambling/)。
+- Gambling：FC2 gambling 頁提到城鎮右側 `Merchant` 可用 gold gambling；武器 / 防具圖示較固定，飾品圖示較隨機但可 hover 看 `Normal`、`Exceptional`、`Elite`。若追套裝缺件、Shako、Haniwa 或高 socket 工具裝，完整策略可看 [賭博（Gambling）指南](/gambling/)。
 - 首通獎勵：第一次完成地城或 boss 時，來源摘要提到會有額外 magic find 方向的加成，適合順手追求 set / unique 掉落。
-- 鑑定：撿到大量裝備後，可回城找 `Apothecary` 使用 `Identify All` 類功能；完整流程可看 [鑑定（Identification）指南](./identification/)，實際按鈕名稱以目前 UI 為準。
+- 鑑定：撿到大量裝備後，可回城找 `Apothecary` 使用 `Identify All` 類功能；完整流程可看 [鑑定（Identification）指南](/identification/)，實際按鈕名稱以目前 UI 為準。
 - 銀行共享：帳號內共享銀行很適合存其他職業套裝，留給分身角色或未來 build。
 - 不要只追滿套：如果 2 件或 3 件 bonus 已經達成目標，剩餘部位可以留給 unique、legendary 或高 socket 裝。
 
@@ -170,9 +170,9 @@ FC2 的 `set.html` 除了 14 職的三階職業套裝外，還列了 7 個沒有
 
 套裝的價值常和其他系統綁在一起：
 
-- 要先理解綠裝與 set bonus 的定位，可以回到 [物品與戰利品總覽](./items-loot/)。
-- 若套裝部位有 sockets，接著看 [符文（Runes）指南](./runes/)，判斷是否值得投入 rune。
-- 若要比較同部位高階裝，可以搭配 [傳奇裝備（Legendary Items）清單筆記](./legendary-items/) 查候選裝備。
+- 要先理解綠裝與 set bonus 的定位，可以回到 [物品與戰利品總覽](/items-loot/)。
+- 若套裝部位有 sockets，接著看 [符文（Runes）指南](/runes/)，判斷是否值得投入 rune。
+- 若要比較同部位高階裝，可以搭配 [傳奇裝備（Legendary Items）清單筆記](/legendary-items/) 查候選裝備。
 - 牧師（Cleric）或施法職流派若提到 `Tunso`、`Zamtil`、`Falzain` 這類名字，先確認 bonus 是否真的服務於目前 rotation。
 
 <a id="fc2-set-full-tables"></a>
@@ -181,9 +181,9 @@ FC2 的 `set.html` 除了 14 職的三階職業套裝外，還列了 7 個沒有
 
 FC2 的 `set.html` 與 49 個 set 明細頁已依階級拆成三個中文查表頁：
 
-- [FC2 Set Normal 全量表](./fc2-set-normal/)
-- [FC2 Set Exceptional 全量表](./fc2-set-exceptional/)
-- [FC2 Set Elite 全量表](./fc2-set-elite/)
+- [FC2 Set Normal 全量表](/fc2-set-normal/)
+- [FC2 Set Exceptional 全量表](/fc2-set-exceptional/)
+- [FC2 Set Elite 全量表](/fc2-set-elite/)
 
 ## 參考資料
 

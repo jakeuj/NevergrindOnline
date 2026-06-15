@@ -11,10 +11,10 @@ sourceLastModified: "Mon, 19 May 2025 15:41:38 GMT"
 status: "整理改寫"
 ---
 
-`Runes` 是 Nevergrind Online 後期裝備客製化的核心：有 sockets 的裝備可以透過 [鐵匠鋪（Blacksmith）](./blacksmith/) 的 enchanting / crafting 相關功能加入 rune bonus，把「好裝」推成更明確服務於 build 的核心裝。鑲嵌前先想清楚這件裝備會穿多久，因為符文通常不是拿來補一件很快會被換掉的過渡裝。
+`Runes` 是 Nevergrind Online 後期裝備客製化的核心：有 sockets 的裝備可以透過 [鐵匠鋪（Blacksmith）](/blacksmith/) 的 enchanting / crafting 相關功能加入 rune bonus，把「好裝」推成更明確服務於 build 的核心裝。鑲嵌前先想清楚這件裝備會穿多久，因為符文通常不是拿來補一件很快會被換掉的過渡裝。
 
 - 檢視日期：`2026-05-26`
-- 前置閱讀：[Nevergrind Online 物品與戰利品總覽](./items-loot/)
+- 前置閱讀：[Nevergrind Online 物品與戰利品總覽](/items-loot/)
 - 資料來源：來源摘要、SteamDB patch notes、Nevergrind Online 日文 wiki rune list、FC2 / atelier3 攻略 DB rune、rune select、craft、set 與 unique 頁、遊戲內 `Thex Rune` tooltip 截圖
 - 版本提醒：符文效果、可鑲嵌部位、是否可取下、是否可升級，可能會隨 crafting 系統更新；點確認前請以目前遊戲內 UI 和 tooltip 為準
 
@@ -25,7 +25,7 @@ status: "整理改寫"
 
 ## 基本規則
 
-SteamDB 的 2024 Season 2 patch note 提到 [鐵匠鋪（Blacksmith）](./blacksmith/) 的 enchanting counter 已啟用，可以用 runes 強化 socketed items；2025 patch note 又提到 crafting counter 加入 rune upgrade。另一方面，[Nevergrind Online 攻略DB 的 Craft 頁](https://atelier3.web.fc2.com/ngo/mythical.html) 把鐵匠鋪（Blacksmith）的 `Craft` tab 描述成製作 Mythical / Rune Words 類裝備的入口。這代表 rune 系統至少要分成兩種情境：一般 socketing 是把 rune bonus 放進裝備，Mythical crafting 則是用 base item 和 runes 觸發 recipe。
+SteamDB 的 2024 Season 2 patch note 提到 [鐵匠鋪（Blacksmith）](/blacksmith/) 的 enchanting counter 已啟用，可以用 runes 強化 socketed items；2025 patch note 又提到 crafting counter 加入 rune upgrade。另一方面，[Nevergrind Online 攻略DB 的 Craft 頁](https://atelier3.web.fc2.com/ngo/mythical.html) 把鐵匠鋪（Blacksmith）的 `Craft` tab 描述成製作 Mythical / Rune Words 類裝備的入口。這代表 rune 系統至少要分成兩種情境：一般 socketing 是把 rune bonus 放進裝備，Mythical crafting 則是用 base item 和 runes 觸發 recipe。
 
 | 情境 | 需要什麼 | 結果 | 注意 |
 | ------ | ------ | ------ | ------ |
@@ -40,7 +40,7 @@ SteamDB 的 2024 Season 2 patch note 提到 [鐵匠鋪（Blacksmith）](./blacks
 - 鑲嵌是否不可逆，或目前版本是否有取下 / 覆蓋 / 升級機制。
 - 裝備是否值得長期穿到你投入高階 rune。
 - 這個 rune 是補 build 核心，還是只是看起來數字漂亮。
-- 你現在做的是一般 socketing，還是 [鐵匠鋪（Blacksmith）的 Mythical / Rune Words crafting](./blacksmith/#crafting-mythical-rune-words)。
+- 你現在做的是一般 socketing，還是 [鐵匠鋪（Blacksmith）的 Mythical / Rune Words crafting](/blacksmith/#crafting-mythical-rune-words)。
 
 > **注意**
 > 來源摘要把 rune 鑲嵌視為永久且不可逆；但 2025 patch note 已提到 rune upgrade via crafting。實務上請先把「已鑲嵌到裝備上的 rune」和「放在背包中當 recipe 素材的 rune」分開看，並在遊戲內確認目前 crafting counter 的實際規則。
@@ -65,7 +65,7 @@ SteamDB 的 2024 Season 2 patch note 提到 [鐵匠鋪（Blacksmith）](./blacks
 
 日文 wiki 目前列出一批 rune 名稱與等級，例如 `Gra`、`Gart`、`Ruck`、`Nag`、`Rok`、`Skar`、`Targ`、`Tae`、`Rath`、`Marr`、`Cros`、`Mael` 等。來源摘要則進一步整理了這些符文在不同職業與部位上的使用方向。
 
-本文把它們當成 build 策略筆記，不把每個 rune 的數值寫死。若要查逐顆 required level、升級 recipe 與鑲嵌效果，可看 [符文升級與效果表](./rune-upgrades/)；真正要鑲嵌前，仍要看當前 tooltip。
+本文把它們當成 build 策略筆記，不把每個 rune 的數值寫死。若要查逐顆 required level、升級 recipe 與鑲嵌效果，可看 [符文升級與效果表](/rune-upgrades/)；真正要鑲嵌前，仍要看當前 tooltip。
 
 <a id="rune-fc2-selection"></a>
 
@@ -229,7 +229,7 @@ FC2 craft 頁把 socketed item 描述為名稱灰色，或白字但帶 sockets �
 | Mythical / Rune Words craft | base + recipe runes + gold；runes 在背包即可，不需要先插入 base | 以為 craft 會同時吃到 rune tooltip bonus |
 | Superior socketed base | FC2 craft 頁說 Superior 武器 / 防具加成會在製作後加算 | 只因 sockets 多就投入稀有 rune，卻忽略 base tier、roll 與職業詞綴 |
 
-Socketed base 可以從地城掉落，也可能出現在藥劑店（Apothecary）、鐵匠鋪（Blacksmith）或商人（Merchant）。既有商店筆記把 restock 寫成來源摘要中的約 1 小時節奏，但實際仍要以目前 UI 為準。完整 base 選擇與 Superior / Ethereal 繼承規則可看 [鐵匠鋪製作與配方深度筆記](./blacksmith-crafting-recipe-research/#crafting-base-selection)。
+Socketed base 可以從地城掉落，也可能出現在藥劑店（Apothecary）、鐵匠鋪（Blacksmith）或商人（Merchant）。既有商店筆記把 restock 寫成來源摘要中的約 1 小時節奏，但實際仍要以目前 UI 為準。完整 base 選擇與 Superior / Ethereal 繼承規則可看 [鐵匠鋪製作與配方深度筆記](/blacksmith-crafting-recipe-research/#crafting-base-selection)。
 
 <a id="rune-tactical-uses"></a>
 
@@ -272,7 +272,7 @@ Socketed base 可以從地城掉落，也可能出現在藥劑店（Apothecary�
 
 ## FC2 Rune / Craft 全量參考
 
-FC2 的 rune、rune select、craft 與 item mods 頁已整理到 [FC2 Rune、Craft 與 Item Mods 全量參考](./fc2-rune-craft-reference/)。本文保留符文策略；逐顆升級 recipe 與目前觀測到的 rune effect 可搭配 [符文升級與效果表](./rune-upgrades/) 查表。
+FC2 的 rune、rune select、craft 與 item mods 頁已整理到 [FC2 Rune、Craft 與 Item Mods 全量參考](/fc2-rune-craft-reference/)。本文保留符文策略；逐顆升級 recipe 與目前觀測到的 rune effect 可搭配 [符文升級與效果表](/rune-upgrades/) 查表。
 
 ## 參考資料
 

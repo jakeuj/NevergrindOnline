@@ -10,7 +10,7 @@ status: "整理改寫"
 這份速查把 Nevergrind Online 常用的地城移動、戰鬥技能、介面、物品操作與聊天指令集中在一頁。剛開始玩時先記住 `WASD`、`Spacebar`、技能列 `1` 到 `=`、`Ctrl + Left Click`、`/who`、`/tell`、`/camp` 與遊戲內 `/help`，就能少很多操作卡頓。
 
 - 檢視日期：`2026-05-03`
-- 分類：[Nevergrind Online（絕不刷怪）遊戲指南](./guide/)
+- 分類：[Nevergrind Online（絕不刷怪）遊戲指南](/guide/)
 - 資料來源：來源摘要、來源資料整理、遊戲內 tips / hotkeys / help 相關摘要
 - 版本提醒：熱鍵、銀行操作、商店快捷鍵與聊天指令可能因版本、平台或自訂 keybind 改變；找不到時先看 `Esc` > `Hotkeys` 與遊戲內 `/help`
 
@@ -95,7 +95,7 @@ status: "整理改寫"
 4. 回城後用 `Shift` 比較裝備，再用 `Ctrl + Left Click` 清理商店買賣。
 5. 組隊或交易前先熟悉 `/who`、`/tell`、`/join`、`R` 與 `Up Arrow`。
 
-操作熟了以後，可以接著看 [酒館（Tavern）指南](./tavern/) 了解出發與 ready 流程，或看 [商人（Merchant）指南](./merchant/) 整理背包、買賣與 gambling 的後勤節奏。
+操作熟了以後，可以接著看 [酒館（Tavern）指南](/tavern/) 了解出發與 ready 流程，或看 [商人（Merchant）指南](/merchant/) 整理背包、買賣與 gambling 的後勤節奏。
 
 ---
 

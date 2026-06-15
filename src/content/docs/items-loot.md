@@ -43,18 +43,18 @@ NGO 的裝備與道具系統可以想成一個循環：地城給你未知掉落�
 
 | 顏色 / 類型 | 常見意義 | 看裝重點 |
 | ------ | ------ | ------ |
-| 藍色 `Magic` | 1 到 2 個隨機詞綴 | 單一詞綴可能很高，適合補抗性、資源或特定缺口；可看 [魔法裝備（Magic Items）指南](./magic-items/) |
-| 黃色 `Rare` | 2 到 6 個隨機詞綴 | 詞綴組合對了，可能比固定裝更適合當前 build；可看 [稀有裝備（Rare Items）指南](./rare-items/) |
-| 紫色 `Unique` | 固定詞綴種類，但數值可能波動 | 看固定效果、技能加成、部位與數值 roll；可看 [獨特裝備（Unique Items）指南](./unique-items/) |
-| 綠色 `Set` | 固定詞綴與套裝 bonus | 單件未必最強，多件 bonus 才是重點；可看 [套裝（Set Items）指南](./set-items/) |
-| 橙色 `Legendary` | 來源摘要提到的極稀有頂級掉落 | 看是否有足以改變 rotation、技能或 farming 方向的特殊效果；可用 [傳奇裝備（Legendary Items）清單筆記](./legendary-items/) 查候選名稱 |
-| `Mythical` / Rune Words | 透過 鐵匠鋪（Blacksmith） crafting 產生的高階製作品 | 不只看 rune，也要看 socketed base、recipe、繼承詞綴與 required level；可看 [製作與配方（Crafting / Recipe）深度筆記](./blacksmith-crafting-recipe-research/) |
+| 藍色 `Magic` | 1 到 2 個隨機詞綴 | 單一詞綴可能很高，適合補抗性、資源或特定缺口；可看 [魔法裝備（Magic Items）指南](/magic-items/) |
+| 黃色 `Rare` | 2 到 6 個隨機詞綴 | 詞綴組合對了，可能比固定裝更適合當前 build；可看 [稀有裝備（Rare Items）指南](/rare-items/) |
+| 紫色 `Unique` | 固定詞綴種類，但數值可能波動 | 看固定效果、技能加成、部位與數值 roll；可看 [獨特裝備（Unique Items）指南](/unique-items/) |
+| 綠色 `Set` | 固定詞綴與套裝 bonus | 單件未必最強，多件 bonus 才是重點；可看 [套裝（Set Items）指南](/set-items/) |
+| 橙色 `Legendary` | 來源摘要提到的極稀有頂級掉落 | 看是否有足以改變 rotation、技能或 farming 方向的特殊效果；可用 [傳奇裝備（Legendary Items）清單筆記](/legendary-items/) 查候選名稱 |
+| `Mythical` / Rune Words | 透過 鐵匠鋪（Blacksmith） crafting 產生的高階製作品 | 不只看 rune，也要看 socketed base、recipe、繼承詞綴與 required level；可看 [製作與配方（Crafting / Recipe）深度筆記](/blacksmith-crafting-recipe-research/) |
 
 舊 Fandom 頁特別提醒，magic 物品雖然詞綴少，但單一詞綴可能比同等級 rare 還高。這在補極端短板時很重要：你不一定要等完美黃裝，早期一件高抗性藍裝就能救你一條命。換句話說，紫色、綠色或橙色通常代表更明確的 build 方向，但一件神 roll 的藍裝或黃裝仍可能在特定場合更好用。
 
 ## 品質階級與特殊狀態
 
-顏色 rarity 之外，裝備還有基礎性能階級。來源資料把它整理成 `Normal`、`Exceptional`、`Elite` 三段；同名或同類型裝備若底材階級不同，基礎 armor、damage、level requirement 和可升級價值也會不同。這點在 gambling、查 [Legendary Items](./legendary-items/)、比較 set / unique 時都很重要。
+顏色 rarity 之外，裝備還有基礎性能階級。來源資料把它整理成 `Normal`、`Exceptional`、`Elite` 三段；同名或同類型裝備若底材階級不同，基礎 armor、damage、level requirement 和可升級價值也會不同。這點在 gambling、查 [Legendary Items](/legendary-items/)、比較 set / unique 時都很重要。
 
 | 品質階級 | 常見意義 | 看裝重點 |
 | ------ | ------ | ------ |
@@ -75,7 +75,7 @@ NGO 的裝備與道具系統可以想成一個循環：地城給你未知掉落�
 
 NGO 的 loot 設計比較接近老派 dungeon crawler：商店刷新、地城掉落、boss、chest、未鑑定裝備都可能出現驚喜。Fandom 入門頁也把它描述成「社交、管理裝備與技能、出任務、殺怪、拿 loot」的核心循環。
 
-如果想把「該留什麼、該賣什麼、該放銀行什麼」整理成長期路線，可以直接接著看 [裝備收集路線](./equipment-collection/)。那篇會把 Magic / Rare / Unique / Set / Legendary、socketed base、Ethereal / Indestructible 與高價關鍵字放在同一張收集地圖裡。
+如果想把「該留什麼、該賣什麼、該放銀行什麼」整理成長期路線，可以直接接著看 [裝備收集路線](/equipment-collection/)。那篇會把 Magic / Rare / Unique / Set / Legendary、socketed base、Ethereal / Indestructible 與高價關鍵字放在同一張收集地圖裡。
 
 判斷一件裝備時，順序可以這樣抓：
 
@@ -83,7 +83,7 @@ NGO 的 loot 設計比較接近老派 dungeon crawler：商店刷新、地城掉
 2. 詞綴是否支援目前 build。
 3. 是否補上抗性、生命、armor、mana / spirit、haste 或命中。
 4. unique / set 的固定效果是否能改變 rotation。
-5. 是否有 sockets，可以接 [符文](./runes/) 做後期強化。
+5. 是否有 sockets，可以接 [符文](/runes/) 做後期強化。
 6. 是否值得花金幣升級、鑲嵌或留給分身。
 
 ## 尋寶率（Magic Find）與掉落機制
@@ -116,11 +116,11 @@ NGO 的 loot 設計比較接近老派 dungeon crawler：商店刷新、地城掉
 - act boss 通常比 zone boss 更硬，也更值得期待掉落。
 - 怪物名稱顏色，也就是 con，能幫你判斷風險和獎勵是否值得。
 
-如果你在 farm 特定部位，不要只打一條路線。Fandom 入門頁提到任務可能有偏好的掉落物品類型，因此你可以用任務目標與 boss 類型來提高特定裝備的期待值；實際選任務時可回到 [酒館（Tavern）指南](./tavern/) 的任務流程。
+如果你在 farm 特定部位，不要只打一條路線。Fandom 入門頁提到任務可能有偏好的掉落物品類型，因此你可以用任務目標與 boss 類型來提高特定裝備的期待值；實際選任務時可回到 [酒館（Tavern）指南](/tavern/) 的任務流程。
 
 ## 鑑定與整理
 
-地城裡撿到的裝備常需要回城鑑定。來源摘要提到可以用 identify scroll，也可以到城鎮的 [藥劑店（Apothecary）](./apothecary/) 用全部鑑定類功能；這類便利操作請以目前 UI 為準。完整的卷軸、`Identify All`、高價部位與販售價格判斷，可看 [鑑定（Identification）指南](./identification/)。
+地城裡撿到的裝備常需要回城鑑定。來源摘要提到可以用 identify scroll，也可以到城鎮的 [藥劑店（Apothecary）](/apothecary/) 用全部鑑定類功能；這類便利操作請以目前 UI 為準。完整的卷軸、`Identify All`、高價部位與販售價格判斷，可看 [鑑定（Identification）指南](/identification/)。
 
 鑑定的價值不只在「看能不能穿」，也會影響 gold income。來源摘要特別提到，帶有 talents、高額 resistance 或高價 base 的裝備，鑑定後販售價格可能明顯提高；plate、focus / stave、胴體、盾牌、頭盔與高等級 weapon base 通常比雜散小件更值得佔背包格。
 
@@ -128,33 +128,33 @@ NGO 的 loot 設計比較接近老派 dungeon crawler：商店刷新、地城掉
 | ------ | ------ | ------ |
 | `Identify Scrolls` | 地城中背包快滿時，能立刻決定去留 | 優先用在高價部位、可能升級當前裝備的掉落 |
 | `Identify All` | 回城後批量揭示 mods，省掉逐件操作 | 到藥劑店（Apothecary）先處理整包未鑑定裝 |
-| 背包空間 | 影響每趟地城能帶回多少候選與補給 | 透過 [商人（Merchant）](./merchant/) 逐步擴張；來源摘要提到可從 8 格擴到 40 格 |
+| 背包空間 | 影響每趟地城能帶回多少候選與補給 | 透過 [商人（Merchant）](/merchant/) 逐步擴張；來源摘要提到可從 8 格擴到 40 格 |
 | 銀行 | 帳號內角色共享，適合分身、套裝與交易品 | 把跨職業 set、抗性裝、craft base、rare 高價候選分門別類 |
 
 整理原則：
 
 - 早期不要每件都留，先看部位、等級、職業可用性與主詞綴。
-- 背包空間很值錢，Fandom 入門頁提到起始 bag space 很少，後續可透過 [商人（Merchant）](./merchant/) 用金幣擴充。
+- 背包空間很值錢，Fandom 入門頁提到起始 bag space 很少，後續可透過 [商人（Merchant）](/merchant/) 用金幣擴充。
 - 銀行適合放分身裝、特定抗性裝、套裝件與高價交易品。
 - 未鑑定裝備如果部位和等級不對，不一定值得帶回。
 
 ## 金幣與商店策略
 
-商店不是只買藥水。Fandom Loot 頁提到 merchants 會依角色等級提供裝備並定期 restock；不同商人偏好的裝備類型也不同，例如 [藥劑店（Apothecary） / Alchemist](./apothecary/) 偏 caster / cloth，[鐵匠鋪（Blacksmith）](./blacksmith/) 偏 mail / plate 與重武器，[商人（Merchant）](./merchant/) 則負責背包、皮甲與一般商品。
+商店不是只買藥水。Fandom Loot 頁提到 merchants 會依角色等級提供裝備並定期 restock；不同商人偏好的裝備類型也不同，例如 [藥劑店（Apothecary） / Alchemist](/apothecary/) 偏 caster / cloth，[鐵匠鋪（Blacksmith）](/blacksmith/) 偏 mail / plate 與重武器，[商人（Merchant）](/merchant/) 則負責背包、皮甲與一般商品。
 
-更完整的賣裝優先順序、鑑定溢價、背包滿時的取捨、隊伍 / Heroic gold 期待與後期 gold sink，可以看 [金錢效率與賣裝策略](./money-efficiency/)。
+更完整的賣裝優先順序、鑑定溢價、背包滿時的取捨、隊伍 / Heroic gold 期待與後期 gold sink，可以看 [金錢效率與賣裝策略](/money-efficiency/)。
 
 金幣花法建議：
 
 1. 先買必要補給、鑑定、技能升級與背包。
 2. 中期開始檢查商店刷新，尤其是缺特定部位時。
-3. 有餘裕後再碰 [賭博（Gambling）](./gambling/) 或高風險投資；來源摘要特別看重 elite 飾品、Haniwa、Shako 這類可定向追的高價候選。
-4. 值錢裝備優先帶回，例如 來源摘要提到的 focus / stave、板甲、高等級 weapon base；重甲與重武器可接著看 [鐵匠鋪（Blacksmith）指南](./blacksmith/)。
+3. 有餘裕後再碰 [賭博（Gambling）](/gambling/) 或高風險投資；來源摘要特別看重 elite 飾品、Haniwa、Shako 這類可定向追的高價候選。
+4. 值錢裝備優先帶回，例如 來源摘要提到的 focus / stave、板甲、高等級 weapon base；重甲與重武器可接著看 [鐵匠鋪（Blacksmith）指南](/blacksmith/)。
 5. 鑲嵌符文前，先確認這件裝備值得長期穿。
 
 ## 最佳裝備（BiS）與關鍵物品
 
-來源摘要提到 [Cryptic Paragon（Haniwa）](./cryptic-paragon-haniwa/)、`Charlatan's Crest` 這類社群常討論的高價值裝備，也在牧師（Cleric） / 施法職流派中反覆出現。若要理解紫色 unique 的固定 mods、數值 roll 與套裝取捨，可以先看 [獨特裝備（Unique Items）指南](./unique-items/)；若要用試算表快速查 legendary item 名稱、品質、部位與詞綴方向，可以接著看 [傳奇裝備（Legendary Items）清單筆記](./legendary-items/)。這類名字值得記，但不要只靠名字判斷強度。
+來源摘要提到 [Cryptic Paragon（Haniwa）](/cryptic-paragon-haniwa/)、`Charlatan's Crest` 這類社群常討論的高價值裝備，也在牧師（Cleric） / 施法職流派中反覆出現。若要理解紫色 unique 的固定 mods、數值 roll 與套裝取捨，可以先看 [獨特裝備（Unique Items）指南](/unique-items/)；若要用試算表快速查 legendary item 名稱、品質、部位與詞綴方向，可以接著看 [傳奇裝備（Legendary Items）清單筆記](/legendary-items/)。這類名字值得記，但不要只靠名字判斷強度。
 
 看高階裝時，至少確認：
 
@@ -170,7 +170,7 @@ NGO 的 loot 設計比較接近老派 dungeon crawler：商店刷新、地城掉
 後期把裝備推到下一層，常靠三件事：
 
 - Item upgrades：官方 wiki 提到裝備可以在城鎮升級，提升防具或武器相關性能。
-- Runes：Season 2 patch note 顯示 [鐵匠鋪（Blacksmith）](./blacksmith/) 的 enchanting counter 已啟用，可用 runes 強化 socketed items。
+- Runes：Season 2 patch note 顯示 [鐵匠鋪（Blacksmith）](/blacksmith/) 的 enchanting counter 已啟用，可用 runes 強化 socketed items。
 - Crafting：2025 patch note 顯示 crafting counter 後續加入 rune upgrade 與 crafting UI 改良。
 
 | 強化方式 | 核心材料 | 最重要的風險 |
@@ -181,7 +181,7 @@ NGO 的 loot 設計比較接近老派 dungeon crawler：商店刷新、地城掉
 
 前面提到的 ethereal / indestructible 類特殊狀態，也會直接影響後期客製化判斷。若 ethereal 的基礎性能提升存在於目前版本，耐久風險、是否同時有 indestructible、以及裝備本身 socket / roll 是否夠好，都會影響它值不值得投入符文。
 
-如果目標是 鐵匠鋪（Blacksmith） crafting，下一步不是先找最稀有的 rune，而是先確認 base：它是否是正確 type、正確 socket count、是否帶 `Superior` / `Ethereal` / `Indestructible`，以及 talents 或 skill enhancements 是否能被成品繼承。完整規則可看 [Crafting 屬性繼承規則](./blacksmith-crafting-recipe-research/#crafting-inheritance)。
+如果目標是 鐵匠鋪（Blacksmith） crafting，下一步不是先找最稀有的 rune，而是先確認 base：它是否是正確 type、正確 socket count、是否帶 `Superior` / `Ethereal` / `Indestructible`，以及 talents 或 skill enhancements 是否能被成品繼承。完整規則可看 [Crafting 屬性繼承規則](/blacksmith-crafting-recipe-research/#crafting-inheritance)。
 
 <a id="keep-or-sell-checklist"></a>
 

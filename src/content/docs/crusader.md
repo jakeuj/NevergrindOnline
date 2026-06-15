@@ -10,8 +10,8 @@ status: "整理改寫"
 十字軍（Crusader / Paladin）在 Tank 脈絡裡不是單純的高防禦職，而是把板甲、盾牌 threat、暈眩、自補、短暫無敵與神聖 / arcane 範圍傷害放在同一個角色裡。新手可以先把它理解成「能承傷的功能型前排」；進入中後期後，再依隊伍需求切向物理型續航、魔法型 AoE，或 undead / demon 特攻路線。
 
 - 檢視日期：`2026-05-05`
-- 分類：[Nevergrind Online 職業系統總覽](./classes/)
-- 延伸閱讀：[終局單刷職業與流派總覽](./endgame-solo-classes/)、[進度路線與 FC2 攻略讀法](./progression-roadmap/)、[Set Items](./set-items/)、[Zamtil's Plenitude](./set-items/#zamtils-plenitude)
+- 分類：[Nevergrind Online 職業系統總覽](/classes/)
+- 延伸閱讀：[終局單刷職業與流派總覽](/endgame-solo-classes/)、[進度路線與 FC2 攻略讀法](/progression-roadmap/)、[Set Items](/set-items/)、[Zamtil's Plenitude](/set-items/#zamtils-plenitude)
 - 資料來源：Nevergrind Wiki `Paladin`、Fandom `Crusader` / `Classes` / `Races` / `General Game Mechanics`、FC2 / atelier3 `Crusader` 職業頁
 - 版本提醒：`Crusader` 與 `Paladin` 名稱在來源間可能不一致；種族加成、技能名稱、threat 數值、rank 斷點與裝備例請以目前遊戲內 tooltip 為準
 
@@ -19,7 +19,7 @@ status: "整理改寫"
 > Fandom 把 `Crusader` 列為 Tank，並描述為可穿 plate armor、混合 melee skills 與 spells 的職業。
 > Nevergrind Wiki 的 `Paladin` 說法也接近：defensive hybrid melee、plate armor、stuns、healing，以及對 undead 的強化。
 > 種族上可選 `Dwarf`、`Half Elf`、`High Elf`、`Human`、`Seraph`；高階 build 常在魔法型 Judicator 與物理型 Herald / Protector 之間取捨。
-> 若目標是比較終局單刷職業，先看 [終局單刷職業與流派總覽](./endgame-solo-classes/)；本頁負責展開十字軍本身的機制與配裝讀法。
+> 若目標是比較終局單刷職業，先看 [終局單刷職業與流派總覽](/endgame-solo-classes/)；本頁負責展開十字軍本身的機制與配裝讀法。
 
 <a id="crusader-tank-context"></a>
 
@@ -115,7 +115,7 @@ FC2 把十字軍拆成偏魔法與偏物理的裝備 / talent 讀法。這些不
 | `Holy Wrath` | 對 `Rampage` 或危險連擊留 stun；物理型也可配合 `Consecrate` 節奏使用 |
 | `Divine Grace` | 單體即時補血，適合救自己或關鍵隊友；治療也會產生 threat，使用時要看戰場節奏 |
 | `Benevolence` | 群體補血工具；可補位，但不要把十字軍寫成能完全取代 healer |
-| `Gra` rune / hit mana 回復 | FC2 提到 rapid attack 與 hit mana recovery rune 相性好；既有 [Runes 指南](./runes/#rune-tactical-uses) 也把十字軍列為可用 `Gra` 穩續航的例子 |
+| `Gra` rune / hit mana 回復 | FC2 提到 rapid attack 與 hit mana recovery rune 相性好；既有 [Runes 指南](/runes/#rune-tactical-uses) 也把十字軍列為可用 `Gra` 穩續航的例子 |
 
 天賦點不足時，先保主路線：魔法型優先 `Judicator` 與 `Blessed Hammer` 斷點，物理型優先 `Herald`、`Consecrate` 與 `Mastery: Harbinger`。多出的點數再考慮 `Stamina`、`Divine Grace`、`Benevolence` 或 `Seal of Sanctuary` 這類提高容錯的功能點。
 
@@ -166,7 +166,7 @@ FC2 的魔法型裝備例核心是讓 `Superior Blessed Hammer` 先達到 rank 2
 > **提示**
 > 物理型若常缺 mana，不要只加傷害。先看 `Gra` 類 hit mana recovery、攻擊頻率與 ranged slot / 副手工具裝，讓循環不中斷通常比多一點帳面 strength 更有感。
 
-FC2 的魔法型十字軍裝備例提到，雖然 `Consecrate` 可疊抗性，但高壓地城仍可能需要額外抗性腿；像 [Zamtil's Plenitude](./set-items/#zamtils-plenitude) 這種跨職業抗性裝就屬於「為了通過高難度生存檢查而借 slot」的案例。
+FC2 的魔法型十字軍裝備例提到，雖然 `Consecrate` 可疊抗性，但高壓地城仍可能需要額外抗性腿；像 [Zamtil's Plenitude](/set-items/#zamtils-plenitude) 這種跨職業抗性裝就屬於「為了通過高難度生存檢查而借 slot」的案例。
 
 隊伍上，十字軍和支援職的關係很密切。恩路者 / 幻術師（Enchanter）提供的 haste / control 會改善部分循環；吟遊詩人（Bard）則能用歌曲提高團隊節奏與容錯。相反地，如果輸出和治療在十字軍還沒建立 threat 前就爆發，十字軍再硬也很難把每隻怪立刻拉回來。
 

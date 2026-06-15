@@ -10,7 +10,7 @@ status: "整理改寫"
 Nevergrind Online 的鐵匠鋪（Blacksmith） / 鐵匠位於 Edenburg（伊登堡）右側，是重裝武庫，也是後期裝備客製化的工坊。想買 plate / mail armor、重型近戰武器、處理裝備升級，或把 runes 放進 socketed items，都會回到這裡；真正要投入高價符文前，先確認裝備會穿很久、roll 夠好、sockets 值得，會比事後心痛便宜很多。
 
 - 檢視日期：`2026-05-03`
-- 分類：[Edenburg（伊登堡）城鎮設施總覽](./edenburg/)
+- 分類：[Edenburg（伊登堡）城鎮設施總覽](/edenburg/)
 - 資料來源：來源摘要、Nevergrind Wiki / SteamDB patch notes、[Nevergrind Online 攻略DB：クラフト](https://atelier3.web.fc2.com/ngo/mythical.html) 與來源資料整理
 - 版本提醒：鐵匠鋪（Blacksmith）的販售品類、裝備升級、enchanting / crafting counter、rune upgrade 與符文是否可取回，可能因版本更新而調整；實際操作請以目前遊戲內 UI 與 tooltip 為準
 
@@ -21,12 +21,12 @@ Nevergrind Online 的鐵匠鋪（Blacksmith） / 鐵匠位於 Edenburg（伊登�
 
 ## 鐵匠鋪（Blacksmith）在 Edenburg（伊登堡）的定位
 
-Edenburg（伊登堡）裡不同設施負責不同裝備層級。[藥劑店（Apothecary）](./apothecary/) 偏補給、鑑定與法系需求，`Merchant` 偏背包與一般商品，`Blacksmith` 則面向重型防具、近戰武器與後期強化。
+Edenburg（伊登堡）裡不同設施負責不同裝備層級。[藥劑店（Apothecary）](/apothecary/) 偏補給、鑑定與法系需求，`Merchant` 偏背包與一般商品，`Blacksmith` 則面向重型防具、近戰武器與後期強化。
 
 | 設施 | 裝備 / 功能重點 | 使用情境 |
 | ------ | ------ | ------ |
 | 鐵匠鋪（Blacksmith） | `Plate`、`Mail`、重型武器、item upgrades、runes / crafting | 重裝職業補裝、長期裝備強化、socketed items 客製化 |
-| [藥劑店（Apothecary）](./apothecary/) | 藥水、鑑定卷軸、`Identify All`、偏法系或布甲需求 | 地城後補給、批量鑑定與 caster 方向整理 |
+| [藥劑店（Apothecary）](/apothecary/) | 藥水、鑑定卷軸、`Identify All`、偏法系或布甲需求 | 地城後補給、批量鑑定與 caster 方向整理 |
 | 商人（Merchant） | 背包擴展、一般商品、部分輕型防具 | 早期生活品質、背包管理與一般購買 |
 
 對戰士（Warrior）、十字軍（Crusader） / 聖騎士（Paladin）、暗影騎士（Shadow Knight）、牧師（Cleric）這類能穿 plate 的角色來說，鐵匠鋪不只是商店，而是每次推高難度前確認物理防禦、抗性與重武器替換的地方。
@@ -46,10 +46,10 @@ Edenburg（伊登堡）裡不同設施負責不同裝備層級。[藥劑店（Ap
 
 - 等級貼近當前角色時，先看 plate / mail / heavy weapon base 是否能補防禦或傷害缺口。
 - 出現 talents、高抗性、主屬性、防禦或 sockets 時，值得和地城掉落一起比較。
-- 買裝前先確認 gold 是否該留給 skills、inventory upgrade、補給或 [賭博（Gambling）](./gambling/)。
+- 買裝前先確認 gold 是否該留給 skills、inventory upgrade、補給或 [賭博（Gambling）](/gambling/)。
 
 > **提醒**
-> 職業可穿防具與武器 proficiency 仍要以角色本身為準。完整職業裝備可用性可看 [Nevergrind Online 職業系統總覽](./classes/)。
+> 職業可穿防具與武器 proficiency 仍要以角色本身為準。完整職業裝備可用性可看 [Nevergrind Online 職業系統總覽](/classes/)。
 
 ## 符文（Runes）與後期客製化
 
@@ -78,7 +78,7 @@ Edenburg（伊登堡）裡不同設施負責不同裝備層級。[藥劑店（Ap
 > **注意**
 > 來源摘要把 rune 鑲嵌視為永久且不可逆。即使目前版本已有 crafting / upgrade 類功能，也建議先把高階 rune 當成慎重資源：先查 tooltip，再點確認，不要把頂級 rune 塞進很快會換掉的過渡裝。
 
-完整 rune 取捨、物理 / 魔法 / 防具方向，可看 [符文（Runes）指南](./runes/)。
+完整 rune 取捨、物理 / 魔法 / 防具方向，可看 [符文（Runes）指南](/runes/)。
 
 ## 裝備升級（Item Upgrades）與投入順序
 
@@ -186,7 +186,7 @@ Socketed base item 可以在地城裡掉落，也可能出現在藥劑店（Apot
 | Mythical tooltip 沒顯示 total sockets | 2025-05-20 patch notes 調整過 Mythical / crafting descriptions 的 socket 顯示方式 |
 | Rune upgrade 成本看起來怪 | 2025-10-07 patch notes 曾修正 craft rune 後的 cost 錯誤；以目前 UI 顯示為準 |
 
-更完整的來源分級、[快速製作指南](./blacksmith-crafting-recipe-research/#crafting-quick-guide)、[素材選擇優先級](./blacksmith-crafting-recipe-research/#crafting-base-selection)、[屬性繼承規則](./blacksmith-crafting-recipe-research/#crafting-inheritance)、官方已確認神話系列（Mythical Families）、素材刷寶（farming）與版本風險，可看 [鐵匠鋪製作與配方（Blacksmith Crafting / Recipe）深度筆記](./blacksmith-crafting-recipe-research/)。
+更完整的來源分級、[快速製作指南](/blacksmith-crafting-recipe-research/#crafting-quick-guide)、[素材選擇優先級](/blacksmith-crafting-recipe-research/#crafting-base-selection)、[屬性繼承規則](/blacksmith-crafting-recipe-research/#crafting-inheritance)、官方已確認神話系列（Mythical Families）、素材刷寶（farming）與版本風險，可看 [鐵匠鋪製作與配方（Blacksmith Crafting / Recipe）深度筆記](/blacksmith-crafting-recipe-research/)。
 
 ## 金幣與回收價值
 
@@ -195,7 +195,7 @@ Socketed base item 可以在地城裡掉落，也可能出現在藥劑店（Apot
 地城後的整理策略：
 
 - 未鑑定的 plate、mail、重型武器，如果等級與底材不差，通常值得優先帶回。
-- 先到 [鑑定（Identification）指南](./identification/) 介紹的流程揭示 mods。
+- 先到 [鑑定（Identification）指南](/identification/) 介紹的流程揭示 mods。
 - 若鑑定出 talents、高額抗性、主屬性、防禦或高價值詞綴，先比較自用、分身、交易與出售。
 - 若詞綴不合 build，但 vendor value 高，可以當作穩定金幣來源。
 
@@ -206,8 +206,8 @@ Socketed base item 可以在地城裡掉落，也可能出現在藥劑店（Apot
 
 鐵匠鋪（Blacksmith）的價值通常不是單獨發生，而是和其他城鎮流程串起來：
 
-1. 從 [酒館（Tavern）](./tavern/) 選任務，依掉落偏好 farm 裝備。
-2. 地城後回 [藥劑店（Apothecary）](./apothecary/) 鑑定與補給。
+1. 從 [酒館（Tavern）](/tavern/) 選任務，依掉落偏好 farm 裝備。
+2. 地城後回 [藥劑店（Apothecary）](/apothecary/) 鑑定與補給。
 3. 把 plate、mail、重武器、socketed items 交給 鐵匠鋪（Blacksmith）方向評估。
 4. 有長期價值的裝備才投入 upgrades、runes 或 crafting。
 5. 沒有 build 價值但售價高的重裝，轉成金幣支援下一輪 farm。
@@ -227,9 +227,9 @@ Socketed base item 可以在地城裡掉落，也可能出現在藥劑店（Apot
 - [SteamDB: Added ability to upgrade runes via crafting](https://steamdb.info/patchnotes/18527675/)
 - [SteamDB: Season 3 full crafting system unlocked](https://steamdb.info/patchnotes/18665521/)
 - [SteamDB: Crafting and 學院（Academy） Bug Fixes](https://steamdb.info/patchnotes/20293638/)
-- [鐵匠鋪製作與配方（Blacksmith Crafting / Recipe）深度筆記](./blacksmith-crafting-recipe-research/)
-- [符文（Runes）指南](./runes/)
-- [Edenburg（伊登堡）城鎮設施總覽](./edenburg/)
+- [鐵匠鋪製作與配方（Blacksmith Crafting / Recipe）深度筆記](/blacksmith-crafting-recipe-research/)
+- [符文（Runes）指南](/runes/)
+- [Edenburg（伊登堡）城鎮設施總覽](/edenburg/)
 
 ---
 

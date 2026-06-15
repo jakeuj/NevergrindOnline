@@ -18,7 +18,7 @@ status: "整理改寫"
 Nevergrind Online 的鐵匠鋪製作（Blacksmith crafting）不是單一版本一次完成的功能，而是從 Season 2 的 runes、socketed items、ethereal / indestructible 裝備開始鋪路，再逐步啟用 enchanting counter、Craft tab、Mythical items / Rune Words、rune upgrade 與 Season 3 全配方。實務上，玩家應該先理解「已公開的規則」與「尚未公開的精確配方」之間的界線，再決定哪些 socketed base 值得留下來做 Mythical 裝備。
 
 - 檢視日期：`2026-05-27`
-- 前置閱讀：[鐵匠鋪（Blacksmith）指南](./blacksmith/)、[符文（Runes）指南](./runes/)
+- 前置閱讀：[鐵匠鋪（Blacksmith）指南](/blacksmith/)、[符文（Runes）指南](/runes/)
 - 資料來源：使用者提供的研究報告摘要、SteamDB patch notes、[Nevergrind Online 攻略DB：クラフト](https://atelier3.web.fc2.com/ngo/mythical.html)、[Nevergrind Online 攻略DB：レシピ](https://atelier3.web.fc2.com/ngo/recipe.html)
 - 版本提醒：crafting recipes、rune upgrade、socket 上限、UI 成本顯示與可 craft 底材，仍可能隨版本更新；投入稀有 rune 前請再看當前遊戲內 UI
 
@@ -327,7 +327,7 @@ Crafting 相關 patch notes 顯示，系統上線後修過不少 UI、成本、t
 
 ## FC2 Recipe 全量表
 
-FC2 的 recipe 頁已整理成 [FC2 Recipe 全量表](./fc2-recipes/)，保留 recipe 名稱、需求等級、rune 組合與 mods。本文保留 crafting 規則與風險判讀。
+FC2 的 recipe 頁已整理成 [FC2 Recipe 全量表](/fc2-recipes/)，保留 recipe 名稱、需求等級、rune 組合與 mods。本文保留 crafting 規則與風險判讀。
 
 ## 參考資料
 

@@ -10,7 +10,7 @@ status: "整理改寫"
 Nevergrind Online 的藍色 `Magic` 裝備是玩家最常接觸到的強化掉落物，通常只有 1 到 2 個隨機 mods。它們不是單純的低階垃圾：來源摘要特別指出，magic 單一詞綴有時能 roll 得比同等級 rare 更高，因此在補抗性、資源或特定缺口時，藍裝仍然可能是很精準的解法。
 
 - 檢視日期：`2026-05-03`
-- 分類：[Nevergrind Online 物品與戰利品總覽](./items-loot/)
+- 分類：[Nevergrind Online 物品與戰利品總覽](/items-loot/)
 - 資料來源：來源摘要、[Swiftyhorn's Nevergrind Online - Legendary Items](https://docs.google.com/spreadsheets/d/1Do2qcmxTgIuzzhTcagiydvEu-TI86JoT5BOPFVuN0vA/edit?gid=1080992867#gid=1080992867)、Swiftyhorn / 高階玩家指南相關來源摘要
 - 版本提醒：magic 詞綴池、roll range、怪物掉落保證與販售價格可能因版本調整；實際價值請以目前遊戲內 tooltip、角色需求與當前經濟環境判斷
 
@@ -69,7 +69,7 @@ Nevergrind Online 的藍色 `Magic` 裝備是玩家最常接觸到的強化掉�
 
 ## 掉落與鑑定經濟
 
-來源摘要把 magic 放在很常見、但仍值得篩選的掉落層。擊敗 `Champion Monsters` 時，通常至少會掉 1 件藍色或更好的物品；`Unique Monsters` 與 boss 則通常至少掉 2 件藍色或更好的戰利品。這讓藍裝成為刷地城時最常進入背包、也最需要快速判斷的類別；完整操作可搭配 [鑑定（Identification）指南](./identification/)。
+來源摘要把 magic 放在很常見、但仍值得篩選的掉落層。擊敗 `Champion Monsters` 時，通常至少會掉 1 件藍色或更好的物品；`Unique Monsters` 與 boss 則通常至少掉 2 件藍色或更好的戰利品。這讓藍裝成為刷地城時最常進入背包、也最需要快速判斷的類別；完整操作可搭配 [鑑定（Identification）指南](/identification/)。
 
 比較值得帶回鑑定的藍裝部位：
 
@@ -83,9 +83,9 @@ Nevergrind Online 的藍色 `Magic` 裝備是玩家最常接觸到的強化掉�
 
 ## 和稀有（Rare）/ 獨特（Unique）/ 套裝（Set）的取捨
 
-Magic 和 [Rare Items](./rare-items/) 的差異，主要是「單點」對「組合」。Rare 有機會靠 2 到 6 個 mods 組成完整解法；magic 則是在更少詞綴裡追求更高的單點補強。
+Magic 和 [Rare Items](/rare-items/) 的差異，主要是「單點」對「組合」。Rare 有機會靠 2 到 6 個 mods 組成完整解法；magic 則是在更少詞綴裡追求更高的單點補強。
 
-和 [Unique Items](./unique-items/) 或 [Set Items](./set-items/) 比較時，magic 通常不會負責 build 核心，但它很適合補固定裝沒照顧到的洞。例如你換上強力 unique weapon 後抗性掉太多，或為了維持 set bonus 犧牲了資源恢復，一件好藍裝就能暫時把角色拉回安全線。
+和 [Unique Items](/unique-items/) 或 [Set Items](/set-items/) 比較時，magic 通常不會負責 build 核心，但它很適合補固定裝沒照顧到的洞。例如你換上強力 unique weapon 後抗性掉太多，或為了維持 set bonus 犧牲了資源恢復，一件好藍裝就能暫時把角色拉回安全線。
 
 常見判斷：
 

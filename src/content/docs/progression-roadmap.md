@@ -10,10 +10,10 @@ status: "整理改寫"
 Nevergrind Online 的成長不要只從「哪個職業最強」或「哪件裝備顏色最高」開始看。比較穩的讀法是先抓住幾個節點：前期把續航與背包空間做起來，Lv25 左右集中單一天賦樹拿到 `Superior`，Lv45 左右再重置拿 `Mastery`，進 `Nightmare` / `Hell` 前先補抗性與生存，真正進入 `Heroic` 後才開始追固定刷圖與畢業散件。
 
 - 檢視日期：`2026-05-03`
-- 分類：[Nevergrind Online（絕不刷怪）遊戲指南](./guide/)
+- 分類：[Nevergrind Online（絕不刷怪）遊戲指南](/guide/)
 - 資料來源：整理後的研究摘要、FC2 Nevergrind Online 攻略DB、官方 Steam 頁與社群攻略交叉整理
 - 版本提醒：本文把 FC2 與社群攻略視為高密度的玩家 meta snapshot，不是官方規則書；技能 rank、掉落、登入獎勵與地圖效率仍要以目前遊戲內 tooltip 與公告為準
-- 來源查核：[公開來源判讀與疑難排解](./public-source-notes/)、[FC2 攻略 DB 連結索引](./fc2-link-index/)
+- 來源查核：[公開來源判讀與疑難排解](/public-source-notes/)、[FC2 攻略 DB 連結索引](/fc2-link-index/)
 
 > **快速重點**
 > 先追成長節點，再追畢業裝。前期重點是續航、背包與常用技能；中期重點是 `Superior` / `Mastery` 斷點；Hell 以後先讓抗性與生存過線，再談極限輸出。
@@ -26,7 +26,7 @@ Nevergrind Online 的成長不要只從「哪個職業最強」或「哪件裝�
 
 FC2 攻略DB 的優點是細：職業、技能、天賦、裝備、符文、地圖與 FAQ 都拆得很深。它的限制也很明顯：它是玩家資料庫，不是官方文件，而且許多配裝範例站在「你已經有高階裝備」的角度寫。
 
-如果只是想知道 FC2 站內每個頁面該查什麼，先看 [FC2 攻略 DB 連結索引](./fc2-link-index/)。那篇把首頁、側欄、職業頁、物品頁、Unique 部位頁與 Set 明細頁拆成 106 個入口，這篇則只保留成長路線的讀法。
+如果只是想知道 FC2 站內每個頁面該查什麼，先看 [FC2 攻略 DB 連結索引](/fc2-link-index/)。那篇把首頁、側欄、職業頁、物品頁、Unique 部位頁與 Set 明細頁拆成 106 個入口，這篇則只保留成長路線的讀法。
 
 | 來源層 | 適合拿來確認 | 判讀方式 |
 | ------ | ------ | ------ |
@@ -73,16 +73,16 @@ FC2 攻略DB 的優點是細：職業、技能、天賦、裝備、符文、地�
 
 | 職業 / 流派方向 | 核心觀念 | 新手提醒 |
 | ------ | ------ | ------ |
-| 戰士（Warrior） | 不只是坦，後期也能成為物理核心；`Rupture`、防禦 buff 與高價值武器很關鍵；頂裝路線可看 [戰士（Goliath）終局單刷](./warrior-goliath-solo/) | 先學會穩定開場與控仇恨，再追輸出 |
+| 戰士（Warrior） | 不只是坦，後期也能成為物理核心；`Rupture`、防禦 buff 與高價值武器很關鍵；頂裝路線可看 [戰士（Goliath）終局單刷](/warrior-goliath-solo/) | 先學會穩定開場與控仇恨，再追輸出 |
 | 暗影騎士（Shadow Knight） | 高火力坦，常靠特定技能 spam 與隊友 haste / support 起飛 | 沒有足夠盾牌、生存與支援時，不要把自己當純 DPS |
 | 武僧（Monk） | 終局輸出很漂亮，但不少配置吃裝；前中期可先走較穩的續航路線 | 不要直接照抄滿裝 cooldown build |
 | 遊俠（Ranger） | 物理 DPS 之外，也能提供很強的隊伍 buff / debuff；弓術與多 hit 斷點重要 | 保留強力套裝 bonus，但必要時用散件補主屬與命中 |
 | 巫師（Wizard） | 上限高，但很吃 skill rank、施法節奏與隊友支援 | 前中期可用較穩的元素路線過渡，不必一開始就追最高上限 |
-| 牧師（Cleric） / 德魯伊（Druid） / 薩滿（Shaman） | 治療與抗性支援在 Hell 過線時很有價值；德魯伊後期可走 [Stormcaller 單刷](./druid-stormcaller-solo/) | 不要只用單人傷害判斷補職價值 |
-| 術士（Warlock） | `Lich Form`、`Drain Soul`、恐懼與 `Poison Shock` 讓它有明確單刷潛力 | 要先理解武器速度與仇恨控制，細節可看 [術士終局單刷](./warlock-lich-solo/) |
+| 牧師（Cleric） / 德魯伊（Druid） / 薩滿（Shaman） | 治療與抗性支援在 Hell 過線時很有價值；德魯伊後期可走 [Stormcaller 單刷](/druid-stormcaller-solo/) | 不要只用單人傷害判斷補職價值 |
+| 術士（Warlock） | `Lich Form`、`Drain Soul`、恐懼與 `Poison Shock` 讓它有明確單刷潛力 | 要先理解武器速度與仇恨控制，細節可看 [術士終局單刷](/warlock-lich-solo/) |
 | 吟遊詩人（Bard） / 恩路者 / 幻術師（Enchanter） | 團隊節奏、haste、控制與 buff 是核心價值 | 組隊時常比面板最高 DPS 更能改變整場效率 |
 
-如果要看職業定位、裝甲階級與可用武器，回到 [職業系統總覽](./classes/)。若你想比較終局單刷職業，接著看 [終局單刷職業與流派總覽](./endgame-solo-classes/)；若目標是 Heroic 滿隊周回，則看 [Heroic 終局五人隊伍協同指南](./heroic-party-comps/)。若你正在玩牧師，可以接著看 [牧師（Cleric）](./cleric/) 與 [牧師（Scion）輸出](./cleric-scion-dps/)。
+如果要看職業定位、裝甲階級與可用武器，回到 [職業系統總覽](/classes/)。若你想比較終局單刷職業，接著看 [終局單刷職業與流派總覽](/endgame-solo-classes/)；若目標是 Heroic 滿隊周回，則看 [Heroic 終局五人隊伍協同指南](/heroic-party-comps/)。若你正在玩牧師，可以接著看 [牧師（Cleric）](/cleric/) 與 [牧師（Scion）輸出](/cleric-scion-dps/)。
 
 <a id="farming-route-principles"></a>
 
@@ -90,7 +90,7 @@ FC2 攻略DB 的優點是細：職業、技能、天賦、裝備、符文、地�
 
 刷圖不要只記「某張圖最好」。更耐版本變動的判斷是把 mission 長度、怪物 species、元素傷害、traits、隊伍組成、掉落偏好與你正在追的部位放在一起看。
 
-Heroic 滿隊時，隊伍協同比單一角色強度更重要。物理核心、魔法隊、`Nimble`、`Armored` 與 undead 路線的取捨，可搭配 [Heroic 終局五人隊伍協同指南](./heroic-party-comps/) 一起判斷。
+Heroic 滿隊時，隊伍協同比單一角色強度更重要。物理核心、魔法隊、`Nimble`、`Armored` 與 undead 路線的取捨，可搭配 [Heroic 終局五人隊伍協同指南](/heroic-party-comps/) 一起判斷。
 
 | 路線方向 | 來源整理出的用途 | 判斷重點 |
 | ------ | ------ | ------ |
@@ -100,7 +100,7 @@ Heroic 滿隊時，隊伍協同比單一角色強度更重要。物理核心、�
 | `Galeblast` 前段 | 來源提到可作火屬或特定隊伍的早期 Heroic 周回候選 | 看元素匹配與地圖長度，不要硬套 |
 | `Ashenflow` 前段 | 來源提到可作冰系或德魯伊（Druid）核心隊伍的周回候選 | 看隊伍是否能穩定處理該區傷害與 traits |
 
-完整地城導航、怪物顏色、traits 與結算流程可看 [地城冒險與任務攻略](./dungeons/) 和 [怪物分類與 Traits](./monsters/)。
+完整地城導航、怪物顏色、traits 與結算流程可看 [地城冒險與任務攻略](/dungeons/) 和 [怪物分類與 Traits](/monsters/)。
 
 <a id="roadmap-economy-routine"></a>
 
@@ -109,12 +109,12 @@ Heroic 滿隊時，隊伍協同比單一角色強度更重要。物理核心、�
 Gold 的目標不是把數字囤高，而是讓下一場地城更穩、更快、更能帶回好東西。
 
 1. 前期優先把背包擴起來，再補核心技能與必要補給。
-2. 每次回城先到 [藥劑店（Apothecary）](./apothecary/) 做 `Identify All`，再出售低價值裝備。
+2. 每次回城先到 [藥劑店（Apothecary）](/apothecary/) 做 `Identify All`，再出售低價值裝備。
 3. 有 `All Talents`、核心技能、抗性、haste、資源恢復、socketed base、Ethereal / Indestructible 的物品先放慢判斷。
 4. 銀行用來存通用神件、分身可用裝、抗性裝、craft base 與高價值套裝部位。
-5. 金幣壓力小、技能與背包都穩後，再把 [賭博（Gambling）](./gambling/) 當成後期 gold sink。
+5. 金幣壓力小、技能與背包都穩後，再把 [賭博（Gambling）](/gambling/) 當成後期 gold sink。
 
-更細的賣裝優先序、鑑定溢價與背包滿時取捨，可看 [金錢效率與賣裝策略](./money-efficiency/)。
+更細的賣裝優先序、鑑定溢價與背包滿時取捨，可看 [金錢效率與賣裝策略](/money-efficiency/)。
 
 <a id="fc2-terms"></a>
 
@@ -148,16 +148,16 @@ FC2 攻略會混用日文、英文技能名與機翻詞。下面先整理最常�
 
 ## 延伸閱讀
 
-- [核心架構心智圖](./core-structure/)
-- [終局單刷職業與流派總覽](./endgame-solo-classes/)
-- [FC2 攻略 DB 連結索引](./fc2-link-index/)
-- [公開來源判讀與疑難排解](./public-source-notes/)
-- [職業系統總覽](./classes/)
-- [地城冒險與任務攻略](./dungeons/)
-- [物品與戰利品總覽](./items-loot/)
-- [裝備收集路線](./equipment-collection/)
-- [金錢效率與賣裝策略](./money-efficiency/)
-- [鐵匠鋪製作與配方（Blacksmith Crafting / Recipe）深度筆記](./blacksmith-crafting-recipe-research/)
+- [核心架構心智圖](/core-structure/)
+- [終局單刷職業與流派總覽](/endgame-solo-classes/)
+- [FC2 攻略 DB 連結索引](/fc2-link-index/)
+- [公開來源判讀與疑難排解](/public-source-notes/)
+- [職業系統總覽](/classes/)
+- [地城冒險與任務攻略](/dungeons/)
+- [物品與戰利品總覽](/items-loot/)
+- [裝備收集路線](/equipment-collection/)
+- [金錢效率與賣裝策略](/money-efficiency/)
+- [鐵匠鋪製作與配方（Blacksmith Crafting / Recipe）深度筆記](/blacksmith-crafting-recipe-research/)
 
 ## 參考資料
 

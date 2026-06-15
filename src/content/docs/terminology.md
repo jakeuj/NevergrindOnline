@@ -14,8 +14,8 @@ status: "整理改寫"
 這份名詞表用來統一《絕不刷怪》（Nevergrind Online, NGO）攻略中的中文化寫法。正文第一次提到重要系統時，優先寫成「中文名稱（English）」；指令、UI label、物品名稱、技能名稱與查表關鍵字則保留英文，方便和遊戲內 tooltip、wiki、FC2 與社群資料互相對照。
 
 - 檢視日期：`2026-05-04`
-- 分類：[Nevergrind Online（絕不刷怪）遊戲指南](./guide/)
-- 相關閱讀：[公開來源判讀與疑難排解](./public-source-notes/)
+- 分類：[Nevergrind Online（絕不刷怪）遊戲指南](/guide/)
+- 相關閱讀：[公開來源判讀與疑難排解](/public-source-notes/)
 - 版本提醒：名稱、難度、模式、裝備分類、數值與特殊效果可能隨版本或資料來源不同而調整；正式判斷仍以目前遊戲內 UI、tooltip 與官方公告為準
 
 > **快速重點**

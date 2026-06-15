@@ -7,7 +7,7 @@ sourceLastModified: "N/A"
 status: "遊戲內資料整理"
 ---
 
-本頁整理 2026-05-20 觀測到的 rune upgrade 資訊，方便查 `Val` 到 `Fyrm` 的 required level、升級材料與鑲嵌效果。完整策略與配置取捨請搭配 [符文（Runes）指南](./runes/) 閱讀；本頁只做資料查表，不把高階 rune 視為一定要從低階 rune 一路合上去。
+本頁整理 2026-05-20 觀測到的 rune upgrade 資訊，方便查 `Val` 到 `Fyrm` 的 required level、升級材料與鑲嵌效果。完整策略與配置取捨請搭配 [符文（Runes）指南](/runes/) 閱讀；本頁只做資料查表，不把高階 rune 視為一定要從低階 rune 一路合上去。
 
 - 檢視日期：`2026-05-20`
 - 資料來源：遊戲 live 頁面 `Craft` tab DOM snapshot、`Val Rune` 截圖確認、`ngo.bin` readable string check
@@ -108,10 +108,10 @@ status: "遊戲內資料整理"
 
 ## 相關閱讀
 
-- [符文（Runes）指南](./runes/)
-- [鐵匠鋪（Blacksmith）指南](./blacksmith/)
-- [鐵匠鋪製作與配方深度筆記](./blacksmith-crafting-recipe-research/)
-- [FC2 Rune、Craft 與 Item Mods 全量參考](./fc2-rune-craft-reference/)
+- [符文（Runes）指南](/runes/)
+- [鐵匠鋪（Blacksmith）指南](/blacksmith/)
+- [鐵匠鋪製作與配方深度筆記](/blacksmith-crafting-recipe-research/)
+- [FC2 Rune、Craft 與 Item Mods 全量參考](/fc2-rune-craft-reference/)
 
 ---
 

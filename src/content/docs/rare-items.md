@@ -10,7 +10,7 @@ status: "整理改寫"
 Nevergrind Online 的黃色 `Rare` 裝備代表稀有物品，核心特色是 2 到 6 個隨機 mods。它不像 unique 那樣有固定詞綴方向，也不像 set 那樣靠多件 bonus 成形；rare 的價值來自高度 RNG，一旦詞綴剛好命中 build，某些部位甚至可以成為中後期長期裝備。
 
 - 檢視日期：`2026-05-05`
-- 分類：[Nevergrind Online 物品與戰利品總覽](./items-loot/)
+- 分類：[Nevergrind Online 物品與戰利品總覽](/items-loot/)
 - 資料來源：來源摘要、Swiftyhorn / 高階玩家指南相關來源摘要、FC2 / atelier3 loot 頁
 - 版本提醒：rare 詞綴池、roll range、gambling 規則與販售價格可能因版本調整；實際價值請以目前遊戲內 tooltip 和角色需求判斷
 
@@ -27,7 +27,7 @@ Nevergrind Online 的黃色 `Rare` 裝備代表稀有物品，核心特色是 2 
 
 | 類型 | 詞綴結構 | 判斷方式 |
 | ------ | ------ | ------ |
-| `Magic` | 1 到 2 個隨機 mods | 單一詞綴可能很高，適合補抗性、資源或短板；可看 [魔法裝備（Magic Items）指南](./magic-items/) |
+| `Magic` | 1 到 2 個隨機 mods | 單一詞綴可能很高，適合補抗性、資源或短板；可看 [魔法裝備（Magic Items）指南](/magic-items/) |
 | `Rare` | 2 到 6 個隨機 mods | 看多個詞綴是否同時支援 build |
 | `Unique` | 固定 mods，數值浮動 | 方向穩定，但要追好 roll 與技能命中 |
 | `Set` | 固定 mods，加上多件 bonus | 看 bonus 是否值得犧牲其他部位 |
@@ -68,11 +68,11 @@ FC2 loot 頁還補了一個很實用的讀法：`Tree Talents +3` amulet 不一�
 | 技能門檻差 1 級 | 若 `Condemnation`、`Blessed Hammer` 這類核心技能快到 bonus hit / 次數增加門檻，命中核心 tree 的 +3 項鍊可能比泛用 `All Talents +2` 更有即戰力。 |
 | 詞綴方向分散 | 只有 talent 但主屬性、抗性、critical、資源與技能強化都沒補到需求時，先降為待比較，不要自動長留。 |
 
-Unique amulet 則看固定方向：`Sayanim Kaleidoscope` 的價值在於穩定的 `All Talents` 與高抗性，`Shimmering Fragment` 要看隨機職業天賦與隨機天賦是否命中，`Syzygy Shard` / `Dossam's Morning Star` 這類屬性 talent 項鍊則偏向特定元素 build。完整數值可回 [FC2 獨特飾品表](./fc2-unique-accessories/#fc2-uamulet) 查。
+Unique amulet 則看固定方向：`Sayanim Kaleidoscope` 的價值在於穩定的 `All Talents` 與高抗性，`Shimmering Fragment` 要看隨機職業天賦與隨機天賦是否命中，`Syzygy Shard` / `Dossam's Morning Star` 這類屬性 talent 項鍊則偏向特定元素 build。完整數值可回 [FC2 獨特飾品表](/fc2-unique-accessories/#fc2-uamulet) 查。
 
 ## 鑑定與取捨
 
-地城裡會掉很多黃裝，不可能每件都慢慢比較。比較實用的做法是先用部位、等級與角色需求做第一輪篩選；若要看 `Identify Scrolls`、`Identify All` 與高價部位判斷，可接著看 [鑑定（Identification）指南](./identification/)。
+地城裡會掉很多黃裝，不可能每件都慢慢比較。比較實用的做法是先用部位、等級與角色需求做第一輪篩選；若要看 `Identify Scrolls`、`Identify All` 與高價部位判斷，可接著看 [鑑定（Identification）指南](/identification/)。
 
 優先帶回或鑑定的候選：
 
@@ -90,7 +90,7 @@ Unique amulet 則看固定方向：`Sayanim Kaleidoscope` 的價值在於穩定�
 
 ## 賭博（Gambling）與經濟策略
 
-來源摘要把 rare 視為 [gambling](./gambling/) 裡常見的「沒中 unique / set 時的安慰獎」，但這不代表它沒價值。特別是 ring、amulet、charm 這類飾品，rare 的詞綴組合仍可能非常實用。
+來源摘要把 rare 視為 [gambling](/gambling/) 裡常見的「沒中 unique / set 時的安慰獎」，但這不代表它沒價值。特別是 ring、amulet、charm 這類飾品，rare 的詞綴組合仍可能非常實用。
 
 金幣使用建議：
 
@@ -104,7 +104,7 @@ Unique amulet 則看固定方向：`Sayanim Kaleidoscope` 的價值在於穩定�
 
 ## 和高階裝備的取捨
 
-Rare 的戰略價值在於靈活填補。當你為了保留 [Cryptic Paragon（Haniwa）](./cryptic-paragon-haniwa/) 這類 unique weapon 而拆掉部分 set，或還湊不出完整 [Set Items](./set-items/) bonus 時，rare 常是用來補抗性、主屬性、talents 或資源缺口的工具。
+Rare 的戰略價值在於靈活填補。當你為了保留 [Cryptic Paragon（Haniwa）](/cryptic-paragon-haniwa/) 這類 unique weapon 而拆掉部分 set，或還湊不出完整 [Set Items](/set-items/) bonus 時，rare 常是用來補抗性、主屬性、talents 或資源缺口的工具。
 
 常見判斷：
 

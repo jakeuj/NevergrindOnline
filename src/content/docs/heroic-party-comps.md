@@ -10,7 +10,7 @@ status: "整理改寫"
 Heroic / 終局五人隊伍的強度，通常不是把五個單人輸出最高的角色塞在一起，而是看隊友能不能讓核心技能跨過斷點。FC2 與玩家 meta 筆記反覆指向同一個判斷：加速、命中、降抗、仇恨、治療與怪物 species 能否疊成一套穩定循環，比單一職業的面板更重要。
 
 - 檢視日期：`2026-06-04`
-- 分類：[Nevergrind Online（絕不刷怪）遊戲指南](./guide/)
+- 分類：[Nevergrind Online（絕不刷怪）遊戲指南](/guide/)
 - 資料來源：使用者補充筆記、FC2 / atelier3 職業頁與一般攻略、站內職業 / 地城 / 牧師筆記、官方 Steam 頁與 Steam News API
 - 官方查核：Steam News API 於本次檢視仍以 `Release Version 1.5.2`（2026-01-09 EST）為最新公告；該公告只提 Season 4 historic leaderboards，未見新的職業平衡說明
 - 版本提醒：本文是 FC2 / 玩家 meta snapshot 的繁中整理，不是官方隊伍排名；技能斷點、tooltip、職業名稱與實際數值仍以目前遊戲內 UI 為準
@@ -94,14 +94,14 @@ Heroic 隊伍不是固定卡牌表。進地城前先看任務，進地城後先�
 
 ## 延伸閱讀
 
-- [職業系統與裝備可用性總覽](./classes/)
-- [進度路線與 FC2 攻略讀法](./progression-roadmap/)
-- [地城冒險與任務攻略](./dungeons/)
-- [怪物分類與 Traits 指南](./monsters/)
-- [牧師刷區域指南](./cleric-farming-zones/)
-- [戰士（Goliath）終局單刷指南](./warrior-goliath-solo/)
-- [術士終局單刷指南](./warlock-lich-solo/)
-- [符文（Runes）指南](./runes/)
+- [職業系統與裝備可用性總覽](/classes/)
+- [進度路線與 FC2 攻略讀法](/progression-roadmap/)
+- [地城冒險與任務攻略](/dungeons/)
+- [怪物分類與 Traits 指南](/monsters/)
+- [牧師刷區域指南](/cleric-farming-zones/)
+- [戰士（Goliath）終局單刷指南](/warrior-goliath-solo/)
+- [術士終局單刷指南](/warlock-lich-solo/)
+- [符文（Runes）指南](/runes/)
 
 ## 參考資料
 
@@ -115,8 +115,8 @@ Heroic 隊伍不是固定卡牌表。進地城前先看任務，進地城後先�
 - [Nevergrind Online 攻略DB：Cleric](https://atelier3.web.fc2.com/ngo/cleric.html)
 - [Nevergrind Online 攻略DB：Warlock](https://atelier3.web.fc2.com/ngo/warlock.html)
 - [Nevergrind Online 攻略DB：Wizard](https://atelier3.web.fc2.com/ngo/wizard.html)
-- [FC2 職業 Build 摘要](./fc2-class-build-index/)
-- [FC2 一般攻略全量參考](./fc2-general-reference/)
+- [FC2 職業 Build 摘要](/fc2-class-build-index/)
+- [FC2 一般攻略全量參考](/fc2-general-reference/)
 
 ---
 

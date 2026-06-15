@@ -10,8 +10,8 @@ status: "整理改寫"
 這份筆記把 Twloli 牧師技能表整理成可公開查閱的 Nevergrind Online 牧師（Cleric）快速參考：先用熱鍵找技能，再看冷卻、施法時間、資源、中文名稱與戰術用途。要打 Scion 輸出循環時，最重要的是記住 `Sacred Revelation` / `Force of Glory` 製造 stun window，接 `Deliverance`，再用 `Condemnation` 與 `Smite` 補循環。
 
 - 檢視日期：`2026-05-03`
-- 前置閱讀：[Nevergrind Online 牧師（Cleric）指南](./cleric/)
-- 流派參考：[Nevergrind Online 牧師（Scion）輸出指南](./cleric-scion-dps/)
+- 前置閱讀：[Nevergrind Online 牧師（Cleric）指南](/cleric/)
+- 流派參考：[Nevergrind Online 牧師（Scion）輸出指南](/cleric-scion-dps/)
 - 資料來源：Twloli 技能表、Fandom 牧師（Cleric）頁、Nevergrind Wiki 牧師（Cleric）頁
 - 版本提醒：技能名稱、資源類型、冷卻、施法時間與 threat 可能隨版本變動；正式配點與巨集邏輯仍以目前遊戲內 tooltip 為準
 
@@ -96,9 +96,9 @@ Scion / Arbiter 混合輸出可以先記這個優先順序：
 
 這篇是技能表與熱鍵速查，不取代 build 文：
 
-- 要理解牧師（Cleric）為什麼能補、能暈、能打，先看 [牧師（Cleric）指南](./cleric/)。
-- 要把 `Deliverance`、`Condemnation`、`Smite` 串成輸出循環，看 [牧師（Scion）輸出指南](./cleric-scion-dps/)。
-- 要找 undead / demon 密集區練輸出，看 [牧師刷區域指南](./cleric-farming-zones/)。
+- 要理解牧師（Cleric）為什麼能補、能暈、能打，先看 [牧師（Cleric）指南](/cleric/)。
+- 要把 `Deliverance`、`Condemnation`、`Smite` 串成輸出循環，看 [牧師（Scion）輸出指南](/cleric-scion-dps/)。
+- 要找 undead / demon 密集區練輸出，看 [牧師刷區域指南](/cleric-farming-zones/)。
 
 ## 參考資料
 

@@ -10,7 +10,7 @@ status: "整理改寫"
 Nevergrind Online 可以先用四個核心系統來理解：職業決定隊伍責任，物品與戰利品決定長期成長，Edenburg（伊登堡）提供補給與角色養成節點，戰鬥機制則把仇恨值、位置、狀態與隊伍協作串成每一場地城的實際節奏。
 
 - 檢視日期：`2026-05-03`
-- 分類：[Nevergrind Online（絕不刷怪）遊戲指南](./guide/)
+- 分類：[Nevergrind Online（絕不刷怪）遊戲指南](/guide/)
 - 資料來源：來源摘要與來源資料整理
 - 版本提醒：職業名稱、城鎮功能、技能與物品規則可能因版本不同而調整；實際名稱與數值請以目前遊戲內 UI / tooltip 為準
 
@@ -19,29 +19,29 @@ Nevergrind Online 可以先用四個核心系統來理解：職業決定隊伍�
 > 職業不是死板標籤；後期強度會被技能循環、天賦、裝備詞綴、runes 與隊伍協作改寫。
 > 刷寶的重點不是只追顏色，而是讓裝備服務你的技能循環、生存缺口與 farm 目標。
 
-這篇是攻略首頁底下的系統地圖，只保留各系統之間怎麼互相影響。若你已經理解四大系統，下一步可以看 [進度路線與 FC2 攻略讀法](./progression-roadmap/)，把 `Superior`、`Mastery`、`Nightmare`、`Hell` 與 `Heroic` 串成實際養成順序。
+這篇是攻略首頁底下的系統地圖，只保留各系統之間怎麼互相影響。若你已經理解四大系統，下一步可以看 [進度路線與 FC2 攻略讀法](/progression-roadmap/)，把 `Superior`、`Mastery`、`Nightmare`、`Hell` 與 `Heroic` 串成實際養成順序。
 
 ## 架構總覽
 
 - 職業系統（Classes）
   - 決定坦克、治療、輸出、支援的基本責任。
   - 後期會被天賦、裝備詞綴、加速、抗性與隊伍需求改寫。
-  - 詳細名詞對照與裝備可用性可看 [職業系統與裝備可用性總覽](./classes/)。
+  - 詳細名詞對照與裝備可用性可看 [職業系統與裝備可用性總覽](/classes/)。
 - 物品與戰利品（Items & Loot）
   - 透過 rarity、quality tier、mods、set bonus、unique effect 與 legendary effect 形成刷寶核心。
-  - 詳細稀有度、magic find、鑑定與商店策略可看 [物品與戰利品總覽](./items-loot/)，鑑定流程則可接著看 [鑑定（Identification）指南](./identification/)。
+  - 詳細稀有度、magic find、鑑定與商店策略可看 [物品與戰利品總覽](/items-loot/)，鑑定流程則可接著看 [鑑定（Identification）指南](/identification/)。
 - 城鎮設施（Town - Edenburg（伊登堡））
-  - 負責任務、補給、技能、鑑定、銀行、背包與裝備強化；完整入口可看 [Edenburg（伊登堡）城鎮設施總覽](./edenburg/)。
-  - 酒館是接任務、查看排行榜與出發前 ready 的核心入口；可看 [酒館（Tavern）指南](./tavern/)。
-  - 藥劑店負責補給、`Identify All` 與 caster / healer 向裝備；可看 [藥劑店（Apothecary）指南](./apothecary/)。
-  - 鐵匠鋪負責重甲、重武器與 rune / crafting 類後期強化；可看 [鐵匠鋪（Blacksmith）指南](./blacksmith/)。
-  - 商人負責背包擴張、皮甲與隨機庫存，是刷寶續航的後勤核心；可看 [商人（Merchant）指南](./merchant/)。
+  - 負責任務、補給、技能、鑑定、銀行、背包與裝備強化；完整入口可看 [Edenburg（伊登堡）城鎮設施總覽](/edenburg/)。
+  - 酒館是接任務、查看排行榜與出發前 ready 的核心入口；可看 [酒館（Tavern）指南](/tavern/)。
+  - 藥劑店負責補給、`Identify All` 與 caster / healer 向裝備；可看 [藥劑店（Apothecary）指南](/apothecary/)。
+  - 鐵匠鋪負責重甲、重武器與 rune / crafting 類後期強化；可看 [鐵匠鋪（Blacksmith）指南](/blacksmith/)。
+  - 商人負責背包擴張、皮甲與隨機庫存，是刷寶續航的後勤核心；可看 [商人（Merchant）指南](/merchant/)。
   - 每次地城結束後，角色成長大多在這裡完成。
 - 戰鬥與機制（Combat & Mechanics）
   - aggro / threat、前後排位置、異常狀態、難度與隊伍人數會共同影響戰鬥結果。
   - 新手先學會等 tank 建立威脅值，再進入輸出或治療循環。
-  - 地城任務、難度、導航、怪物 traits 與結算流程可看 [地城冒險與任務攻略](./dungeons/)，怪物 con、階級與特殊屬性則可看 [怪物分類與 Traits](./monsters/)。
-  - 熱鍵、物品操作與聊天指令可看 [熱鍵與聊天指令速查](./hotkeys-commands/)。
+  - 地城任務、難度、導航、怪物 traits 與結算流程可看 [地城冒險與任務攻略](/dungeons/)，怪物 con、階級與特殊屬性則可看 [怪物分類與 Traits](/monsters/)。
+  - 熱鍵、物品操作與聊天指令可看 [熱鍵與聊天指令速查](/hotkeys-commands/)。
 
 ## 職業系統
 
@@ -64,11 +64,11 @@ NGO 的物品系統把老派 RPG 的刷寶感做成核心循環：一件裝備�
 
 | 系統 | 重點 | 延伸閱讀 |
 | ------ | ------ | ------ |
-| 稀有度（Rarities） | `Magic`、`Rare`、`Unique`、`Set`、`Legendary` 各自代表不同隨機性與固定效果 | [物品與戰利品總覽](./items-loot/) |
-| 品質階級（Quality Tiers） | `Normal`、`Exceptional`、`Elite` 影響基礎性能與裝備階段 | [傳奇裝備（Legendary Items）清單](./legendary-items/) |
-| 套裝（Set Items） | 綠色裝備，多件同套會啟用 `Set Bonus` | [套裝（Set Items）指南](./set-items/) |
-| 符文（Runes） | 帶孔裝備可以鑲嵌 rune，永久補強特定性能 | [符文（Runes）指南](./runes/) |
-| 賭博（Gambling） | 用 gold 嘗試定向取得特定部位或高階裝備 | 後期金幣出口；可看 [賭博（Gambling）指南](./gambling/) |
+| 稀有度（Rarities） | `Magic`、`Rare`、`Unique`、`Set`、`Legendary` 各自代表不同隨機性與固定效果 | [物品與戰利品總覽](/items-loot/) |
+| 品質階級（Quality Tiers） | `Normal`、`Exceptional`、`Elite` 影響基礎性能與裝備階段 | [傳奇裝備（Legendary Items）清單](/legendary-items/) |
+| 套裝（Set Items） | 綠色裝備，多件同套會啟用 `Set Bonus` | [套裝（Set Items）指南](/set-items/) |
+| 符文（Runes） | 帶孔裝備可以鑲嵌 rune，永久補強特定性能 | [符文（Runes）指南](/runes/) |
+| 賭博（Gambling） | 用 gold 嘗試定向取得特定部位或高階裝備 | 後期金幣出口；可看 [賭博（Gambling）指南](/gambling/) |
 
 特殊狀態也會改寫裝備價值：
 
@@ -78,15 +78,15 @@ NGO 的物品系統把老派 RPG 的刷寶感做成核心循環：一件裝備�
 
 ## 城鎮設施
 
-Edenburg（伊登堡）可以想成每次地城之間的整理台。打完一場回來，不只是賣垃圾，而是要把角色下一場的成功率往上推；如果想先看完整城鎮循環，直接看 [Edenburg（伊登堡）城鎮設施總覽](./edenburg/)。
+Edenburg（伊登堡）可以想成每次地城之間的整理台。打完一場回來，不只是賣垃圾，而是要把角色下一場的成功率往上推；如果想先看完整城鎮循環，直接看 [Edenburg（伊登堡）城鎮設施總覽](/edenburg/)。
 
 | 設施 | 功能 | 使用時機 |
 | ------ | ------ | ------ |
-| 酒館（Tavern） | 接任務、前往地城、查看排行榜與 tips | 每次出發前確認任務、掉落偏好與隊伍目標；可看 [酒館（Tavern）指南](./tavern/) |
+| 酒館（Tavern） | 接任務、前往地城、查看排行榜與 tips | 每次出發前確認任務、掉落偏好與隊伍目標；可看 [酒館（Tavern）指南](/tavern/) |
 | 學院（Academy） | 學習或升級職業技能 | 金幣優先投入常用 rotation 技能 |
-| 藥劑店（Apothecary） | 購買藥水、鑑定卷軸、使用 `Identify All` 類服務 | 地城後大量鑑定與補給；可看 [藥劑店（Apothecary）指南](./apothecary/) |
-| 鐵匠鋪（Blacksmith） | 購買重型武裝、裝備升級、rune / crafting 相關功能 | 裝備確定會穿一段時間後再投入；可看 [鐵匠鋪（Blacksmith）指南](./blacksmith/) |
-| 商人（Merchant） | 擴展背包、購買皮甲或一般商品 | 背包空間不足會直接降低刷寶效率；可看 [商人（Merchant）指南](./merchant/) |
+| 藥劑店（Apothecary） | 購買藥水、鑑定卷軸、使用 `Identify All` 類服務 | 地城後大量鑑定與補給；可看 [藥劑店（Apothecary）指南](/apothecary/) |
+| 鐵匠鋪（Blacksmith） | 購買重型武裝、裝備升級、rune / crafting 相關功能 | 裝備確定會穿一段時間後再投入；可看 [鐵匠鋪（Blacksmith）指南](/blacksmith/) |
+| 商人（Merchant） | 擴展背包、購買皮甲或一般商品 | 背包空間不足會直接降低刷寶效率；可看 [商人（Merchant）指南](/merchant/) |
 | 銀行（Bank） | 帳號共享倉庫 | 存 set、分身裝、抗性裝與高價交易品 |
 | 公會大廳（Guild Hall） | 公會建立與管理 | 長期組隊、社群與固定團需求 |
 
@@ -118,11 +118,11 @@ Edenburg（伊登堡）可以想成每次地城之間的整理台。打完一場
 
 系統地圖看懂後，不要把所有細節塞回同一頁。依你現在卡住的問題分流：
 
-- 想決定職業、定位或裝備可用性：看 [職業系統與裝備可用性總覽](./classes/)。
-- 想把成長節點接到 `Hell` / `Heroic`：看 [進度路線與 FC2 攻略讀法](./progression-roadmap/)。
-- 想規劃地城、怪物 traits 與任務：看 [地城冒險與任務攻略](./dungeons/)。
-- 想整理掉落、鑑定、留裝與金幣效率：看 [物品與戰利品總覽](./items-loot/)。
-- 想研究牧師後期刷區域：看 [牧師刷區域指南](./cleric-farming-zones/)。
+- 想決定職業、定位或裝備可用性：看 [職業系統與裝備可用性總覽](/classes/)。
+- 想把成長節點接到 `Hell` / `Heroic`：看 [進度路線與 FC2 攻略讀法](/progression-roadmap/)。
+- 想規劃地城、怪物 traits 與任務：看 [地城冒險與任務攻略](/dungeons/)。
+- 想整理掉落、鑑定、留裝與金幣效率：看 [物品與戰利品總覽](/items-loot/)。
+- 想研究牧師後期刷區域：看 [牧師刷區域指南](/cleric-farming-zones/)。
 
 ---
 

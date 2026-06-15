@@ -59,6 +59,20 @@ function lastmodsFromXml(xml) {
   return [...xml.matchAll(/<lastmod>([^<]+)<\/lastmod>/g)].map((match) => match[1]);
 }
 
+function titleFromHtml(html) {
+  return html.match(/<title>([^<]+)<\/title>/i)?.[1]?.trim();
+}
+
+function isCanonicalHtmlFile(file) {
+  const fileRel = rel(file);
+  return !fileRel.startsWith('dist/nevergrind-online/') && fileRel !== 'dist/404.html';
+}
+
+function hasDuplicatedPipeTitle(title) {
+  const parts = title.split(/\s+\|\s+/);
+  return parts.length === 2 && parts[0] === parts[1];
+}
+
 const problems = [];
 
 const publicRobotsPath = join(PUBLIC_ROOT, 'robots.txt');
@@ -177,6 +191,15 @@ if (!existsSync(DIST_ROOT)) {
     const html = await readFile(file, 'utf8');
     if (/http:\/\/localhost:4321|http:\/\/127\.0\.0\.1/i.test(html)) {
       problems.push(`${rel(file)} contains a local URL.`);
+    }
+
+    if (isCanonicalHtmlFile(file)) {
+      const title = titleFromHtml(html);
+      if (!title) {
+        problems.push(`${rel(file)} is missing a <title>.`);
+      } else if (hasDuplicatedPipeTitle(title)) {
+        problems.push(`${rel(file)} has duplicated title text: ${title}`);
+      }
     }
   }
 

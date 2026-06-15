@@ -10,8 +10,8 @@ status: "整理改寫"
 戰士（Warrior）在終局單刷的定位不是「最早舒服」，而是「裝備成形後上限很高」。FC2 戰士頁的核心觀察很直接：戰士是唯一能雙持雙手武器的職業，因此能從兩把高階雙手武器、傳奇裝備或神話製作武器中取得大量屬性與技能收益。這也代表它比十字軍、牧師更吃裝備基礎。
 
 - 檢視日期：`2026-05-27`
-- 分類：[終局單刷職業與流派總覽](./endgame-solo-classes/)
-- 前置閱讀：[職業系統總覽](./classes/)、[進度路線與 FC2 攻略讀法](./progression-roadmap/)、[符文指南](./runes/)
+- 分類：[終局單刷職業與流派總覽](/endgame-solo-classes/)
+- 前置閱讀：[職業系統總覽](/classes/)、[進度路線與 FC2 攻略讀法](/progression-roadmap/)、[符文指南](/runes/)
 - 資料來源：FC2 / atelier3 `Warrior` 職業頁、站內職業總覽、裝備收集與符文頁
 - 版本提醒：本頁的 rank、裝備例與武器速度讀法來自 FC2 / 玩家 meta snapshot；實際斷點與技能效果請以目前遊戲內 tooltip 為準
 
@@ -98,10 +98,10 @@ FC2 戰士例使用本職套裝 0 件，代表終局戰士常用高價值散件�
 
 - [FC2 攻略 DB：Warrior](https://atelier3.web.fc2.com/ngo/warrior.html)
 - [Nevergrind Online Wiki: Warrior](https://nevergrind-online.fandom.com/wiki/Warrior)
-- [FC2 職業 Build 摘要：戰士](./fc2-class-build-index/#fc2-warrior)
-- [職業系統與裝備可用性總覽](./classes/)
-- [符文（Runes）指南](./runes/)
-- [裝備收集路線](./equipment-collection/)
+- [FC2 職業 Build 摘要：戰士](/fc2-class-build-index/#fc2-warrior)
+- [職業系統與裝備可用性總覽](/classes/)
+- [符文（Runes）指南](/runes/)
+- [裝備收集路線](/equipment-collection/)
 
 ---
 

@@ -10,8 +10,8 @@ status: "整理改寫"
 Nevergrind Online 的裝備收集不是只把顏色往上換，而是把「稀有度、品質階級、詞綴 roll、掉落來源、金幣投資、銀行保存與鐵匠強化」串成長期路線。新手先學會保留能補洞的藍黃裝，中期開始追 unique、set 與高價部位，後期再把 sockets、runes、符合 recipe 的 craft base、Ethereal / Indestructible 放進同一個收集計畫。
 
 - 檢視日期：`2026-05-25`
-- 分類：[Nevergrind Online 物品與戰利品總覽](./items-loot/)
-- 延伸閱讀：[FC2 各職代表技能速查](./fc2-signature-skills/)、[FC2 各職嚴選 Unique 裝備速查](./fc2-selected-unique-items/)、[金錢效率與賣裝策略](./money-efficiency/)、[賭博（Gambling）指南](./gambling/)、[鐵匠鋪製作與配方（Blacksmith Crafting / Recipe）深度筆記](./blacksmith-crafting-recipe-research/)
+- 分類：[Nevergrind Online 物品與戰利品總覽](/items-loot/)
+- 延伸閱讀：[FC2 各職代表技能速查](/fc2-signature-skills/)、[FC2 各職嚴選 Unique 裝備速查](/fc2-selected-unique-items/)、[金錢效率與賣裝策略](/money-efficiency/)、[賭博（Gambling）指南](/gambling/)、[鐵匠鋪製作與配方（Blacksmith Crafting / Recipe）深度筆記](/blacksmith-crafting-recipe-research/)
 - 資料來源：來源摘要、既有 Nevergrind 筆記、Fandom Loot / Items / Races、Nevergrind Wiki、FC2 / atelier3 攻略 DB 與 SteamDB patch notes
 - 版本提醒：稀有度顏色、legendary / mythical 分類、掉落保證、商店 restock、gambling 池與 craft 規則可能隨版本變動；最後判斷請以目前遊戲內 tooltip、酒館（Tavern）任務資訊與 鐵匠鋪（Blacksmith） / 商人（Merchant） UI 為準
 
@@ -34,7 +34,7 @@ Nevergrind Online 的裝備收集不是只把顏色往上換，而是把「稀�
 
 ## 稀有度與品質階級
 
-完整稀有度可回到 [物品與戰利品總覽](./items-loot/#item-system-loop)，這裡只整理收集時的判斷方式。
+完整稀有度可回到 [物品與戰利品總覽](/items-loot/#item-system-loop)，這裡只整理收集時的判斷方式。
 
 | 顏色 / 類型 | 收集意義 | 典型保留理由 |
 | ------ | ------ | ------ |
@@ -63,8 +63,8 @@ Nevergrind Online 的裝備收集不是只把顏色往上換，而是把「稀�
 | Champion / Unique / Boss 怪 | 高稀有度或 magic+ 掉落期待 | 掉落數量與保證規則請以目前版本為準 |
 | 酒館（Tavern）任務偏好 | 指定部位，例如 shield、plate、weapon 類 farming | 出發前先看任務目標與掉落偏好 |
 | 商店巡視 | 過渡裝、caster base、plate / mail、socketed base | 藥劑店（Apothecary）、鐵匠鋪（Blacksmith）、商人（Merchant）偏好不同；restock 週期以 UI 為準 |
-| Gambling | elite 飾品、Haniwa、Shako、特定 unique / set / legendary 候選 | 高風險 gold sink；先讀 [賭博（Gambling）指南](./gambling/) |
-| Crafting | Mythical / Rune Words、職業鎖定 base、Superior / Ethereal 成品 | 先看 [屬性繼承規則](./blacksmith-crafting-recipe-research/#crafting-inheritance) |
+| Gambling | elite 飾品、Haniwa、Shako、特定 unique / set / legendary 候選 | 高風險 gold sink；先讀 [賭博（Gambling）指南](/gambling/) |
+| Crafting | Mythical / Rune Words、職業鎖定 base、Superior / Ethereal 成品 | 先看 [屬性繼承規則](/blacksmith-crafting-recipe-research/#crafting-inheritance) |
 | 共享銀行 | 分身裝、套裝件、抗性裝、交易品、craft base | 讓不同角色共用收集成果 |
 
 > **提醒**
@@ -79,7 +79,7 @@ Nevergrind Online 的裝備收集不是只把顏色往上換，而是把「稀�
 | 目標 | 為什麼重要 |
 | ------ | ------ |
 | `All Talents` / `All Skills` | 直接提高多數 build 的技能與天賦效率 |
-| Talent tree / specific skill | 命中核心技能時，價值可能超過泛用詞綴；可用 [FC2 各職代表技能速查](./fc2-signature-skills/) 先判斷 |
+| Talent tree / specific skill | 命中核心技能時，價值可能超過泛用詞綴；可用 [FC2 各職代表技能速查](/fc2-signature-skills/) 先判斷 |
 | 高 resistance | 高難度地城與元素 boss 的生存門檻 |
 | `Magic Find` / `Gold Find` | 提高 farming 期待，但要平衡 clear speed 與生存 |
 | Sockets | 後期 rune plan 或工具裝價值來源 |
@@ -92,24 +92,24 @@ Nevergrind Online 的裝備收集不是只把顏色往上換，而是把「稀�
 
 | 裝備 / 關鍵字 | 收集理由 | 延伸閱讀 |
 | ------ | ------ | ------ |
-| `Cryptic Paragon` / Haniwa | 施法職 / 支援 / 牧師（Cleric）常追的 `All Talents`、全抗、全法術傷與隨機技能武器 | [Haniwa 指南](./cryptic-paragon-haniwa/) |
-| `Zamtil's Plenitude` | FC2 多個施法 / 支援職裝備例反覆採用的 elite 太腿部位；主要價值是補高難度地城所需的耐性與控場抗性，而不是只看 Enchanter 套裝歸屬 | [Set Items](./set-items/#zamtils-plenitude) |
-| `Charlatan's Crest` / Shako | `All Talents`、屬性傷害與高 MF 類 farm 頭部目標 | [Unique Items](./unique-items/#unique-keywords) |
-| `Demetrium's Ballista` / 低等 6-slot bow | FC2 set 頁列為 `Socketed (1-6)`；若 roll 到高 sockets，可讓遊俠、戰士、十字軍、暗影騎士、盜賊、吟遊詩人當 `+60%` XP 或 stat stick 副手工具 | [Set Items](./set-items/#set-notable-pieces) |
-| 低等 6-slot `1h Blunt` | 單手鈍器 14 職業都可用；最好留兩把，雙持後可用 12 顆 `Thex` 組成 `+120%` 的最通用傳家核心 | [符文（Runes）指南](./runes/#跨職業經驗值升級套裝) |
-| 低等 6-slot `2h Blunt` / `Stave` | 雙手武器吃 `Thex` 的雙倍經驗值效果；單件 6 顆 `Thex` 就是 `+120%`，戰士可評估雙持雙手搭 bow 的 `+300%` 極限，但不是吟遊詩人 / 盜賊通用 | [符文（Runes）指南](./runes/#跨職業經驗值升級套裝) |
-| 低等高 socket `Charm`（護石 / 查姆） | Charm 14 職業都可用；5 slots 先按 `+50%` XP 計算，不能用 bow 的職業尤其需要，若看到疑似 6-slot Charm 先截圖複核 tooltip | [符文（Runes）指南](./runes/#跨職業經驗值升級套裝) |
-| `Stormcaller Bow` | FC2 loot 頁把最高 socket roll 的 `Stormcaller Bow` 列為 Normal unique / set bow 裡值得帶回的例外；若剛好補 talents 或 rune space，先比較再賣 | [Unique Items](./unique-items/) |
-| FC2 倉庫保留清單 | 依職業 build 裝備例整理固定裝備名，另有低階優先速查，方便先找 Normal / Exceptional 中容易被誤賣的工具裝與過渡件 | [FC2 職業畢業裝倉庫保留清單](./fc2-class-build-gear-keeper-list/#低階優先保留速查) |
-| FC2 嚴選 Unique 速查 | FC2 `各職の厳選ユニーク` 頁整理了各職值得先留的 Unique / 特殊單件，包含 weapon breakpoint、class talent、skill enhancement、rare drop、主屬性與抗性用途 | [FC2 各職嚴選 Unique 裝備速查](./fc2-selected-unique-items/) |
-| Elite amulet / ring / charm | gambling、跨職業與長期保留價值高 | [賭博（Gambling）指南](./gambling/) |
-| Superior / Ethereal socketed base | Mythical / Rune Words 的核心素材；先確認是否符合 recipe socket count | [Mythical 素體保留篩選表](./blacksmith-crafting-recipe-research/#crafting-base-keeper-checklist) |
+| `Cryptic Paragon` / Haniwa | 施法職 / 支援 / 牧師（Cleric）常追的 `All Talents`、全抗、全法術傷與隨機技能武器 | [Haniwa 指南](/cryptic-paragon-haniwa/) |
+| `Zamtil's Plenitude` | FC2 多個施法 / 支援職裝備例反覆採用的 elite 太腿部位；主要價值是補高難度地城所需的耐性與控場抗性，而不是只看 Enchanter 套裝歸屬 | [Set Items](/set-items/#zamtils-plenitude) |
+| `Charlatan's Crest` / Shako | `All Talents`、屬性傷害與高 MF 類 farm 頭部目標 | [Unique Items](/unique-items/#unique-keywords) |
+| `Demetrium's Ballista` / 低等 6-slot bow | FC2 set 頁列為 `Socketed (1-6)`；若 roll 到高 sockets，可讓遊俠、戰士、十字軍、暗影騎士、盜賊、吟遊詩人當 `+60%` XP 或 stat stick 副手工具 | [Set Items](/set-items/#set-notable-pieces) |
+| 低等 6-slot `1h Blunt` | 單手鈍器 14 職業都可用；最好留兩把，雙持後可用 12 顆 `Thex` 組成 `+120%` 的最通用傳家核心 | [符文（Runes）指南](/runes/#跨職業經驗值升級套裝) |
+| 低等 6-slot `2h Blunt` / `Stave` | 雙手武器吃 `Thex` 的雙倍經驗值效果；單件 6 顆 `Thex` 就是 `+120%`，戰士可評估雙持雙手搭 bow 的 `+300%` 極限，但不是吟遊詩人 / 盜賊通用 | [符文（Runes）指南](/runes/#跨職業經驗值升級套裝) |
+| 低等高 socket `Charm`（護石 / 查姆） | Charm 14 職業都可用；5 slots 先按 `+50%` XP 計算，不能用 bow 的職業尤其需要，若看到疑似 6-slot Charm 先截圖複核 tooltip | [符文（Runes）指南](/runes/#跨職業經驗值升級套裝) |
+| `Stormcaller Bow` | FC2 loot 頁把最高 socket roll 的 `Stormcaller Bow` 列為 Normal unique / set bow 裡值得帶回的例外；若剛好補 talents 或 rune space，先比較再賣 | [Unique Items](/unique-items/) |
+| FC2 倉庫保留清單 | 依職業 build 裝備例整理固定裝備名，另有低階優先速查，方便先找 Normal / Exceptional 中容易被誤賣的工具裝與過渡件 | [FC2 職業畢業裝倉庫保留清單](/fc2-class-build-gear-keeper-list/#低階優先保留速查) |
+| FC2 嚴選 Unique 速查 | FC2 `各職の厳選ユニーク` 頁整理了各職值得先留的 Unique / 特殊單件，包含 weapon breakpoint、class talent、skill enhancement、rare drop、主屬性與抗性用途 | [FC2 各職嚴選 Unique 裝備速查](/fc2-selected-unique-items/) |
+| Elite amulet / ring / charm | gambling、跨職業與長期保留價值高 | [賭博（Gambling）指南](/gambling/) |
+| Superior / Ethereal socketed base | Mythical / Rune Words 的核心素材；先確認是否符合 recipe socket count | [Mythical 素體保留篩選表](/blacksmith-crafting-recipe-research/#crafting-base-keeper-checklist) |
 
 <a id="fc2-loot-carry-priority"></a>
 
 ## FC2 loot 頁的帶回城判斷
 
-FC2 的 [持ち帰るアイテム](https://atelier3.web.fc2.com/ngo/loot.html) 頁把「這趟要不要帶回城」拆成裝備收集與金錢效率兩件事。這是玩家整理的 meta snapshot，適合作為背包取捨規則；頁面本身也提醒 crafting 因為實裝較新，沒有納入該頁討論，所以 rune / crafting base 仍要回到 [符文](./runes/) 與 [製作與配方](./blacksmith-crafting-recipe-research/) 另外判斷。
+FC2 的 [持ち帰るアイテム](https://atelier3.web.fc2.com/ngo/loot.html) 頁把「這趟要不要帶回城」拆成裝備收集與金錢效率兩件事。這是玩家整理的 meta snapshot，適合作為背包取捨規則；頁面本身也提醒 crafting 因為實裝較新，沒有納入該頁討論，所以 rune / crafting base 仍要回到 [符文](/runes/) 與 [製作與配方](/blacksmith-crafting-recipe-research/) 另外判斷。
 
 | 候選 | FC2 頁面的判斷重點 | 本地筆記讀法 |
 | ------ | ------ | ------ |
@@ -123,13 +123,13 @@ FC2 的 [持ち帰るアイテム](https://atelier3.web.fc2.com/ngo/loot.html) �
 
 ## 背包 / 銀行爆倉時的清理順序
 
-當背包或共享銀行開始爆倉，先把問題拆成「空間」、「鑑定」、「保留價值」三件事。背包本身可透過 [商人（Merchant）](./merchant/) 的 inventory upgrade 擴張，來源摘要整理為 8 格逐步提升到 40 格；銀行則適合放跨角色裝、套裝件、高抗性裝、rune / crafting base 與待比較的高價物。若空間仍不夠，就用下面的順序清。
+當背包或共享銀行開始爆倉，先把問題拆成「空間」、「鑑定」、「保留價值」三件事。背包本身可透過 [商人（Merchant）](/merchant/) 的 inventory upgrade 擴張，來源摘要整理為 8 格逐步提升到 40 格；銀行則適合放跨角色裝、套裝件、高抗性裝、rune / crafting base 與待比較的高價物。若空間仍不夠，就用下面的順序清。
 
-1. 先到 [藥劑店（Apothecary）](./apothecary/) 用 `Identify All` 批量鑑定，不要逐件猜價值。
+1. 先到 [藥劑店（Apothecary）](/apothecary/) 用 `Identify All` 批量鑑定，不要逐件猜價值。
 2. 把自用、分身、交易、craft base 與明確賣店品分開。
 3. Normal 階級的藍 / 黃裝若沒有高抗性、talents、主屬性、sockets 或過渡用途，後期可以優先賣掉。
 4. Normal unique / set 不要一律收藏；`Demetrium's Ballista`、`Stormcaller Bow` 這類可能 roll 高 sockets 或有工具用途的例外，先比較再賣。
-5. Exceptional / Elite unique / set 先不要批量清掉，回城後對照 [FC2 各職嚴選 Unique 裝備速查](./fc2-selected-unique-items/)、[Unique Items](./unique-items/) 與 [Set Items](./set-items/) 判斷 roll、職業需求與交易價值。
+5. Exceptional / Elite unique / set 先不要批量清掉，回城後對照 [FC2 各職嚴選 Unique 裝備速查](/fc2-selected-unique-items/)、[Unique Items](/unique-items/) 與 [Set Items](/set-items/) 判斷 roll、職業需求與交易價值。
 
 | 類型 | 爆倉時的處理 |
 | ------ | ------ |
@@ -139,17 +139,17 @@ FC2 的 [持ち帰るアイテム](https://atelier3.web.fc2.com/ngo/loot.html) �
 | 普通過渡裝 | 只補一點 armor 或小數值、沒有 talents / 抗性 / sockets / 分身需求的 Normal magic / rare，後期優先換 gold |
 | 高價賣店品 | rare magic blunt、`Focus` / `Stave`、胴體、plate / mail、shield、head、gloves、legs、boots，背包滿時比低價 cloth / leather 更值得帶回鑑定 |
 
-清倉的目標不是把銀行變空，而是讓每格都有用途：分身會穿、build 會用、交易有價、賣店值錢，或未來 crafting / rune plan 真的需要。其餘裝備轉成 gold 後，可以回投背包、技能、補給、[賭博（Gambling）](./gambling/) 或製作材料。
+清倉的目標不是把銀行變空，而是讓每格都有用途：分身會穿、build 會用、交易有價、賣店值錢，或未來 crafting / rune plan 真的需要。其餘裝備轉成 gold 後，可以回投背包、技能、補給、[賭博（Gambling）](/gambling/) 或製作材料。
 
 ## 收集與篩選流程
 
 每趟地城後可以照這個流程清背包：
 
 1. 先分出高稀有度、缺口部位、高價部位與 socketed base。
-2. 到 [藥劑店（Apothecary）](./apothecary/) 使用 `Identify All` 類服務。
+2. 到 [藥劑店（Apothecary）](/apothecary/) 使用 `Identify All` 類服務。
 3. 先留自用候選：補抗性、資源、talents、core skill、haste 或 survivability。
 4. 再留跨角色候選：set、unique、rare jewelry、抗性裝、high socket 工具裝。
-5. 將分身、交易、套裝與 craft base 放入 [銀行（Bank）](./edenburg/)。
+5. 將分身、交易、套裝與 craft base 放入 [銀行（Bank）](/edenburg/)。
 6. 其餘高售價裝備轉成 gold，支援技能、背包、補給、gambling 或 crafting。
 
 > **提示**
@@ -162,7 +162,7 @@ FC2 的 [持ち帰るアイテム](https://atelier3.web.fc2.com/ngo/loot.html) �
 | 它能補目前短板嗎 | 高抗性、高 HP、資源恢復、armor、命中或 threat / sustain 工具 |
 | 它能改變 rotation 嗎 | `All Talents`、特定技能、cooldown、haste、bonus hit / proc 相關 |
 | 它能服務多角色嗎 | 飾品、泛用 unique、set 件、高 resist 裝、MF / Gold Find 裝 |
-| 它是好 base 嗎 | 正確 quality、socket count、Superior、Ethereal、職業詞綴或 skill enhancement；高成本 craft 優先對照 [素體保留篩選表](./blacksmith-crafting-recipe-research/#crafting-base-keeper-checklist) |
+| 它是好 base 嗎 | 正確 quality、socket count、Superior、Ethereal、職業詞綴或 skill enhancement；高成本 craft 優先對照 [素體保留篩選表](/blacksmith-crafting-recipe-research/#crafting-base-keeper-checklist) |
 | 它有交易價值嗎 | 常見高需求關鍵字、好 roll、好部位、稀有狀態或終局材料 |
 
 如果一件裝備不能穿、不能賣好價、不能交易、不能給分身、不能當 craft base，也沒有特殊紀念價值，就不要讓它長期佔銀行格。
@@ -173,18 +173,18 @@ FC2 的 [持ち帰るアイテム](https://atelier3.web.fc2.com/ngo/loot.html) �
 
 若要逐列查 FC2 裝備資料，可從這些全量表進入：
 
-- [Unique 武器](./fc2-unique-weapons/)、[Unique 防具](./fc2-unique-armor/)、[Unique 飾品](./fc2-unique-accessories/)
-- [Set Normal](./fc2-set-normal/)、[Set Exceptional](./fc2-set-exceptional/)、[Set Elite](./fc2-set-elite/)
-- [Legendary 全量表](./fc2-legendary-table/)
-- [Recipe 全量表](./fc2-recipes/)
+- [Unique 武器](/fc2-unique-weapons/)、[Unique 防具](/fc2-unique-armor/)、[Unique 飾品](/fc2-unique-accessories/)
+- [Set Normal](/fc2-set-normal/)、[Set Exceptional](/fc2-set-exceptional/)、[Set Elite](/fc2-set-elite/)
+- [Legendary 全量表](/fc2-legendary-table/)
+- [Recipe 全量表](/fc2-recipes/)
 
 ## 參考資料
 
-- [物品與戰利品總覽](./items-loot/)
-- [獨特裝備（Unique Items）指南](./unique-items/)
-- [套裝（Set Items）指南](./set-items/)
-- [賭博（Gambling）指南](./gambling/)
-- [鐵匠鋪製作與配方（Blacksmith Crafting / Recipe）深度筆記](./blacksmith-crafting-recipe-research/)
+- [物品與戰利品總覽](/items-loot/)
+- [獨特裝備（Unique Items）指南](/unique-items/)
+- [套裝（Set Items）指南](/set-items/)
+- [賭博（Gambling）指南](/gambling/)
+- [鐵匠鋪製作與配方（Blacksmith Crafting / Recipe）深度筆記](/blacksmith-crafting-recipe-research/)
 - [Nevergrind Online Wiki: Loot](https://nevergrind-online.fandom.com/wiki/Loot)
 - [Nevergrind Online Wiki: Items](https://nevergrind-online.fandom.com/wiki/Items)
 - [Nevergrind Wiki: Magic Find Mechanics](https://nevergrind.com/wiki/index.php?title=Magic_Find_Mechanics)

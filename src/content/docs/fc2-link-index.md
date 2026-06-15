@@ -18,7 +18,7 @@ status: "整理改寫"
 這篇是 FC2 原站 HTML 對照索引，負責記錄 106 個來源檔案的分類、整理目標與完成狀態；實際全量表格分散在職業、Unique、Set、Legendary、Recipe、Rune / Craft 與一般攻略參考頁。
 
 - 檢視日期：`2026-05-05`
-- 分類：[Nevergrind Online（絕不刷怪）遊戲指南](./guide/)
+- 分類：[Nevergrind Online（絕不刷怪）遊戲指南](/guide/)
 - 來源首頁：[Nevergrind Online 攻略DB](https://atelier3.web.fc2.com/ngo/index.html)
 - 抓取範圍：本地鏡像中的 `/ngo/*.html` 與 `/ngo/` 內容圖片；CSS、JavaScript 與 tracking 圖不搬入公開攻略
 - 收錄數量：106 個 HTML，全部已有整理目標且狀態為完成
@@ -217,18 +217,18 @@ status: "整理改寫"
 
 |主題|Topic|
 |---|---|
-|FC2 一般攻略全量參考|[nevergrind-online-fc2-general-reference.md](./fc2-general-reference/)|
-|FC2 職業 Build 摘要|[nevergrind-online-fc2-class-build-index.md](./fc2-class-build-index/)|
-|FC2 Unique 武器 / 防具 / 飾品|[武器](./fc2-unique-weapons/)、[防具](./fc2-unique-armor/)、[飾品](./fc2-unique-accessories/)|
-|FC2 Set Normal / Exceptional / Elite|[Normal](./fc2-set-normal/)、[Exceptional](./fc2-set-exceptional/)、[Elite](./fc2-set-elite/)|
-|FC2 Legendary 全量表|[nevergrind-online-fc2-legendary-table.md](./fc2-legendary-table/)|
-|FC2 Recipe 全量表|[nevergrind-online-fc2-recipes.md](./fc2-recipes/)|
-|FC2 Rune / Craft / Item Mods|[nevergrind-online-fc2-rune-craft-reference.md](./fc2-rune-craft-reference/)|
+|FC2 一般攻略全量參考|[nevergrind-online-fc2-general-reference.md](/fc2-general-reference/)|
+|FC2 職業 Build 摘要|[nevergrind-online-fc2-class-build-index.md](/fc2-class-build-index/)|
+|FC2 Unique 武器 / 防具 / 飾品|[武器](/fc2-unique-weapons/)、[防具](/fc2-unique-armor/)、[飾品](/fc2-unique-accessories/)|
+|FC2 Set Normal / Exceptional / Elite|[Normal](/fc2-set-normal/)、[Exceptional](/fc2-set-exceptional/)、[Elite](/fc2-set-elite/)|
+|FC2 Legendary 全量表|[nevergrind-online-fc2-legendary-table.md](/fc2-legendary-table/)|
+|FC2 Recipe 全量表|[nevergrind-online-fc2-recipes.md](/fc2-recipes/)|
+|FC2 Rune / Craft / Item Mods|[nevergrind-online-fc2-rune-craft-reference.md](/fc2-rune-craft-reference/)|
 
 ## 更新本地筆記時的注意事項
 
 - 不要把 FC2 數值寫成官方保證。
-- 若 FC2、Fandom、Steam 或遊戲內資料互相衝突，回到 [公開來源判讀與疑難排解](./public-source-notes/) 的來源優先順序。
+- 若 FC2、Fandom、Steam 或遊戲內資料互相衝突，回到 [公開來源判讀與疑難排解](/public-source-notes/) 的來源優先順序。
 - 新增 build 建議時，連到對應全量參考頁，而不是重複貼同一張大表。
 
 ---

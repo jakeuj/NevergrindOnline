@@ -10,8 +10,8 @@ status: "整理改寫"
 Nevergrind Online 的怪物不能只看血量。進地城後先讀怪物名字顏色、背景顏色、職業圖示、species / type 與 traits，才能判斷這場戰鬥該先控誰、先殺誰、誰能放著給 tank 扛，誰會把隊伍資源直接抽乾。
 
 - 檢視日期：`2026-05-03`
-- 分類：[Nevergrind Online 地城冒險與任務攻略](./dungeons/)
-- 延伸閱讀：[職業系統總覽](./classes/)、[物品與戰利品總覽](./items-loot/)
+- 分類：[Nevergrind Online 地城冒險與任務攻略](/dungeons/)
+- 延伸閱讀：[職業系統總覽](/classes/)、[物品與戰利品總覽](/items-loot/)
 - 資料來源：來源摘要、來源資料整理、Nevergrind Wiki Monsters、Fandom general mechanics 與既有筆記交叉整理
 - 版本提醒：怪物類型名稱、掉落保證、trait 數量、con 顏色與 boss 圖示可能因版本不同或資料來源不同；實戰請以目前怪物 tooltip、地圖 UI 與 combat log 為準
 
@@ -83,7 +83,7 @@ Nevergrind Online 的怪物不能只看血量。進地城後先讀怪物名字�
 
 ## 物種（Species）與特攻詞綴
 
-怪物 species / type 會影響裝備上的特攻詞綴與某些職業技能價值。這對 [牧師（Cleric）](./cleric/)、施法職、特定 unique 與 farming route 尤其重要。
+怪物 species / type 會影響裝備上的特攻詞綴與某些職業技能價值。這對 [牧師（Cleric）](/cleric/)、施法職、特定 unique 與 farming route 尤其重要。
 
 | 類型 | 常見例子 | 戰略意義 |
 | ------ | ------ | ------ |
@@ -142,9 +142,9 @@ Nevergrind Online 的怪物不能只看血量。進地城後先讀怪物名字�
 
 ## 參考資料
 
-- [地城冒險與任務攻略](./dungeons/)
-- [職業系統總覽](./classes/)
-- [物品與戰利品總覽](./items-loot/)
+- [地城冒險與任務攻略](/dungeons/)
+- [職業系統總覽](/classes/)
+- [物品與戰利品總覽](/items-loot/)
 - [Nevergrind Wiki: Monsters](https://nevergrind.com/wiki/index.php?title=Monsters)
 - [Nevergrind Online Wiki: General Game Mechanics](https://nevergrind-online.fandom.com/wiki/General_Game_Mechanics)
 

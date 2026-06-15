@@ -10,7 +10,7 @@ status: "整理改寫"
 Nevergrind Online 的藥劑店（Apothecary），也可能在部分資料中被稱為 `Alchemist`，是 Edenburg（伊登堡）裡支撐冒險續航的補給站，也是施法職 / 治療者常回頭檢查裝備的法系商店。出發前買好藥水與 `Identify Scrolls`，回城後用 `Identify All` 類服務處理戰利品，再檢查 cloth armor、focus 或 stave 是否剛好補到 talents / 資源缺口，會讓每一趟地城更順。
 
 - 檢視日期：`2026-05-03`
-- 分類：[Nevergrind Online（絕不刷怪）遊戲指南](./guide/)
+- 分類：[Nevergrind Online（絕不刷怪）遊戲指南](/guide/)
 - 資料來源：來源摘要、Fandom / 公開 wiki 與來源資料整理
 - 版本提醒：藥劑店（Apothecary） / Alchemist 名稱、位置、補給品項、`Identify All` 按鈕、restock 週期與裝備品類可能因版本或語系調整；實際操作請以目前遊戲內 UI 與 tooltip 為準
 
@@ -40,7 +40,7 @@ Edenburg（伊登堡）的商業設施有明確分工。`Blacksmith` 供應重�
 1. 目前地城長度與難度，是否需要多帶 spirit / mana / health 類補給。
 2. 治療者是否需要額外 `Spirit Potions` 來支撐補血與 buff uptime。
 3. 施法職是否常因 mana / spirit 不足而斷 rotation。
-4. 背包空間是否足夠；若不夠，先看 [商人（Merchant）指南](./merchant/) 的背包擴張策略。
+4. 背包空間是否足夠；若不夠，先看 [商人（Merchant）指南](/merchant/) 的背包擴張策略。
 5. 是否要帶 `Identify Scrolls`，在地城中即時篩掉低價掉落。
 
 > **提示**
@@ -60,7 +60,7 @@ Edenburg（伊登堡）的商業設施有明確分工。`Blacksmith` 供應重�
 > **提醒**
 > 來源摘要提到當背包中有未鑑定物品時，藥劑店（Apothecary）視窗可能出現 `Identify All`、全部鑑定、全て鑑定或近似按鈕。按鈕位置與名稱請以目前 UI 為準。
 
-完整鑑定流程與高價部位判斷，可接著看 [鑑定（Identification）指南](./identification/)。
+完整鑑定流程與高價部位判斷，可接著看 [鑑定（Identification）指南](/identification/)。
 
 ## 施法職裝備與商店刷新
 
@@ -73,7 +73,7 @@ Edenburg（伊登堡）的商業設施有明確分工。`Blacksmith` 供應重�
 - 隨機刷新：來源摘要提到商店商品會依角色等級調整，約每 1 小時的角色在線時間 restock；實際週期仍以目前版本為準。
 - 角色等級：商店裝備跟著角色進度變化，中期之後更值得順手看一眼。
 
-對牧師（Cleric）這類能穿 plate 但也會走施法職 / 治療者路線的職業來說，藥劑店（Apothecary）和 [鐵匠鋪（Blacksmith）](./blacksmith/) 都值得看：鐵匠鋪（Blacksmith）提供生存與重甲底材，藥劑店（Apothecary）則可能提供法系武器與資源解法。
+對牧師（Cleric）這類能穿 plate 但也會走施法職 / 治療者路線的職業來說，藥劑店（Apothecary）和 [鐵匠鋪（Blacksmith）](/blacksmith/) 都值得看：鐵匠鋪（Blacksmith）提供生存與重甲底材，藥劑店（Apothecary）則可能提供法系武器與資源解法。
 
 ## 鑑定後的金幣效率
 
@@ -93,10 +93,10 @@ Edenburg（伊登堡）的商業設施有明確分工。`Blacksmith` 供應重�
 
 1. 出發前到藥劑店（Apothecary）補藥水與 `Identify Scrolls`。
 2. 治療者 / 施法職額外確認 spirit、mana 與長時間戰鬥的續航。
-3. 從 [酒館（Tavern）](./tavern/) 選任務並確認隊伍 ready。
+3. 從 [酒館（Tavern）](/tavern/) 選任務並確認隊伍 ready。
 4. 地城中背包快滿時，用 scroll 鑑定最有機會升級或最高價的掉落。
 5. 回城後到藥劑店（Apothecary）使用 `Identify All` 類服務。
-6. 自用與高價候選留下，低價裝備賣掉，長期裝備再考慮 [符文（Runes）](./runes/) 或升級。
+6. 自用與高價候選留下，低價裝備賣掉，長期裝備再考慮 [符文（Runes）](/runes/) 或升級。
 
 總結來說，藥劑店（Apothecary）是 NGO 的後勤心臟之一：它讓隊伍能帶著足夠補給進地城，也讓玩家能快速把未知掉落轉成實際裝備判斷。對治療者 / 施法職來說，它更是維持資源、尋找法系武器與緩解續航壓力的固定巡迴點。
 

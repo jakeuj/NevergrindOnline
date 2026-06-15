@@ -10,7 +10,7 @@ status: "整理改寫"
 這份 Legendary Items 筆記把玩家整理的試算表當成查裝索引：先用 `Quality`、`Slot`、`Proficiency`、`Level` 篩出角色真的能穿的裝備，再看 `All Talents`、`Tree Talents`、`Specific Talent`、`Specific Skill %` 與核心攻防詞綴。資料表目前整理 65 件 legendary，分成 Normal / Exceptional / Elite 三段；實際數值與掉落狀態仍以遊戲內 tooltip 為準。
 
 - 檢視日期：`2026-05-05`
-- 分類：[Nevergrind Online 物品與戰利品總覽](./items-loot/)
+- 分類：[Nevergrind Online 物品與戰利品總覽](/items-loot/)
 - 資料來源：[Swiftyhorn's Nevergrind Online - Legendary Items](https://docs.google.com/spreadsheets/d/1Do2qcmxTgIuzzhTcagiydvEu-TI86JoT5BOPFVuN0vA/edit?gid=1080992867#gid=1080992867)、FC2 / atelier3 攻略 DB legendary 與 rune select 頁
 - 版本提醒：試算表、公開 wiki 與遊戲內版本可能不同步；交易、鑲嵌高價 rune 或判斷 BiS 前，請先回遊戲內 tooltip 核對
 
@@ -72,7 +72,7 @@ status: "整理改寫"
 | `Ginjirou's Emerald Sash` | 71 | 腰帶 / `Belt` | `All Talents`、agility / dexterity、全抗、run speed、dragonkin 特攻 |
 | `Witherstorm` | 51 | 盾牌 / `Shield` | `All Passive Skills`、全抗、block rate、magic damage reduction |
 | `Olivia's Chain of Fealty` | 12 | 胴體 / `Chest` | 低等就有 `All Talents`、多屬性、全抗與 magic find，前期過渡價值高 |
-| [Cryptic Paragon（Haniwa）](./cryptic-paragon-haniwa/) | 75 | 單手鈍器 / `1h Blunt` | `All Talents`、隨機技能強化、全抗、全法術傷害、undead 特攻，caster / support 長期目標 |
+| [Cryptic Paragon（Haniwa）](/cryptic-paragon-haniwa/) | 75 | 單手鈍器 / `1h Blunt` | `All Talents`、隨機技能強化、全抗、全法術傷害、undead 特攻，caster / support 長期目標 |
 
 ## 快速索引
 
@@ -99,7 +99,7 @@ status: "整理改寫"
 5. 技能線是否真的有用，不要被高百分比但錯技能的 roll 迷惑。
 6. 生存線是否補到高難度門檻：`All Res %`、`Res Physical %`、`All Status Res %`、health / mana / spirit。
 7. 輸出線是否和流派一致：物理、元素、spell power、enemy resistance reduction、attack speed 或 cast rate。
-8. 是否值得投入 [符文](./runes/)：普通過渡裝先不要塞高價 rune。
+8. 是否值得投入 [符文](/runes/)：普通過渡裝先不要塞高價 rune。
 
 ## 值得優先看的詞綴
 
@@ -151,10 +151,10 @@ status: "整理改寫"
 
 這份清單是「找名字與篩候選」用；真正做裝備決策時，還是要回到整體角色路線：
 
-- 先用 [物品與戰利品總覽](./items-loot/) 判斷 magic find、商店、升級與掉落邏輯。
-- 如果這件裝備有 socket 或會穿很久，再看 [符文（Runes）指南](./runes/)。
-- 如果要用 gold 追特定部位或 elite 候選，先看 [賭博（Gambling）指南](./gambling/)，確認品質階級、圖示與版本規則。
-- Caster / support 類高階武器可以參考 [Cryptic Paragon（Haniwa）](./cryptic-paragon-haniwa/) 的判斷方式：名字重要，但 roll、技能、天賦與 build 契合度更重要。
+- 先用 [物品與戰利品總覽](/items-loot/) 判斷 magic find、商店、升級與掉落邏輯。
+- 如果這件裝備有 socket 或會穿很久，再看 [符文（Runes）指南](/runes/)。
+- 如果要用 gold 追特定部位或 elite 候選，先看 [賭博（Gambling）指南](/gambling/)，確認品質階級、圖示與版本規則。
+- Caster / support 類高階武器可以參考 [Cryptic Paragon（Haniwa）](/cryptic-paragon-haniwa/) 的判斷方式：名字重要，但 roll、技能、天賦與 build 契合度更重要。
 
 ## 常見誤區
 
@@ -168,7 +168,7 @@ status: "整理改寫"
 
 ## FC2 Legendary 全量表
 
-FC2 的 Legendary 頁已整理成 [FC2 Legendary 全量表](./fc2-legendary-table/)。既有本文保留查裝策略與判斷流程；逐列數值與 mods 以全量表為主。
+FC2 的 Legendary 頁已整理成 [FC2 Legendary 全量表](/fc2-legendary-table/)。既有本文保留查裝策略與判斷流程；逐列數值與 mods 以全量表為主。
 
 ## 參考資料
 
