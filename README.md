@@ -45,6 +45,7 @@ scripts/sync-fc2-images.mjs          FC2 圖片同步器
 scripts/build-fc2-docs.mjs           FC2 HTML 到繁中 Markdown 產生器
 scripts/check-coverage.mjs           106 頁來源覆蓋檢查
 scripts/check-quality.mjs            內容品質與占位文字檢查
+scripts/check-links.mjs              Build 產物站內連結與 hash 檢查
 scripts/check-seo.mjs                Google Search SEO 輸出檢查
 tests/weapon-dps-calculator.test.mjs 武器 DPS 公式與預設驗證
 public/CNAME                         GitHub Pages custom domain
@@ -101,6 +102,7 @@ npm run check:quality
 npm run test:weapon-dps
 npm run lint:md
 $env:SITE="https://ngo.jakeuj.com"; $env:BASE_PATH="/"; npm run build
+npm run check:links
 npm run check:seo
 git diff --check
 ```
@@ -113,14 +115,17 @@ git diff --check
 食人魔 / 獸人再次被誤譯為不自然詞。
 `test:weapon-dps` 會檢查 FC2 武器 DPS 公式契約、rounding、乙太、Cros/Rok
 符文與本地預設資料範例。
+`check:links` 會在 build 後檢查 `dist/` 內的站內連結、路由與 hash anchor，
+避免 `/apothecary/guide/` 這類由相對連結解析出的 404 回歸。
 `check:seo` 會在正式網域 build 後檢查 `robots.txt`、sitemap/canonical 網域、
 `/sitemap.xml` 相容入口、JSON-LD、legacy `noindex`、以及 frontmatter
-description 長度與禁用片段。
+description 長度、禁用片段與重複 title。
 
 macOS / Linux shell 可用：
 
 ```bash
 SITE=https://ngo.jakeuj.com BASE_PATH=/ npm run build
+npm run check:links
 npm run check:seo
 ```
 
@@ -134,6 +139,9 @@ npm run check:seo
   內容與 `sitemap-index.xml` 相同。
 - 文件 frontmatter 的 `description` 應保持唯一、自然繁中、約 70-150 字，
   不要留下 `.md` 檔名或舊 `/nevergrind-online/` 檔名片段。
+- 公開文件之間的 Markdown 連結使用 root-relative route，例如 `/guide/`
+  或 `/fc2-general-reference/#fc2-chart`；只對同目錄圖片等 colocated assets
+  保留 `./asset.png`。
 - 自訂 Starlight 包裝頁（例如 `/weapon-dps-calculator/`）若不在
   `src/content/docs/` 內，需在 `astro.config.mjs` 保持 sitemap `lastmod`
   與頁面 reviewed / 資料快照日期一致。
@@ -149,8 +157,9 @@ GitHub Actions 會在 push 到 `main` 時執行：
 2. `npm run check:coverage`
 3. `npm run lint:md`
 4. `npm run build`
-5. `npm run check:seo`
-6. 上傳 `dist/` 到 GitHub Pages
+5. `npm run check:links`
+6. `npm run check:seo`
+7. 上傳 `dist/` 到 GitHub Pages
 
 正式站使用 `public/CNAME` 中的 `ngo.jakeuj.com`。GitHub Pages 設定應選
 `GitHub Actions` 作為 Build and deployment source。

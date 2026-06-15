@@ -1,6 +1,6 @@
 ---
 name: maintain-nevergrind-docs
-description: Maintain the repo-local Astro Starlight Traditional Chinese Nevergrind Online guide site, especially FC2 / atelier3 source-driven ingestion, supplemental FC2 keeper lists, low-tier-first keeper quick tables, local weapon DPS calculator, zh-TW Markdown generation, terminology consistency, sidebar organization, Google Search SEO metadata, robots.txt, JSON-LD, coverage and quality gates, GitHub Pages publishing, and CNAME/domain-safe deployment. Use when Codex works in this repository on Nevergrind Online docs, FC2 HTML refreshes, placeholder cleanup, source URL coverage, translation quality, terminology drift, sidebar/menu changes, Starlight build issues, search optimization, Search Console readiness, local interactive tools, or pushing site updates.
+description: Maintain the repo-local Astro Starlight Traditional Chinese Nevergrind Online guide site, especially FC2 / atelier3 source-driven ingestion, supplemental FC2 keeper lists, low-tier-first keeper quick tables, local weapon DPS calculator, zh-TW Markdown generation, terminology consistency, sidebar organization, Google Search SEO metadata, robots.txt, JSON-LD, internal link checking, coverage and quality gates, GitHub Pages publishing, and CNAME/domain-safe deployment. Use when Codex works in this repository on Nevergrind Online docs, FC2 HTML refreshes, placeholder cleanup, source URL coverage, translation quality, terminology drift, sidebar/menu changes, Starlight build issues, search optimization, Search Console readiness, local interactive tools, or pushing site updates.
 ---
 
 # Maintain Nevergrind Docs
@@ -20,7 +20,7 @@ description: Maintain the repo-local Astro Starlight Traditional Chinese Nevergr
 - FC2 content images are mirrored under `public/fc2-assets/ngo/`; CSS, JavaScript, counter images, tracking images, and external non-`/ngo/` assets are not published.
 - FC2 source snapshots are generated under `.cache/fc2/` and are intentionally ignored.
 - The public site targets GitHub Pages and the custom domain `ngo.jakeuj.com`.
-- Google Search metadata is handled by `src/components/SeoHead.astro`, `public/robots.txt`, `@astrojs/sitemap`, the `sitemap.xml` compatibility alias in `astro.config.mjs`, and `scripts/check-seo.mjs`.
+- Google Search metadata is handled by `src/components/SeoHead.astro`, `public/robots.txt`, `@astrojs/sitemap`, the `sitemap.xml` compatibility alias in `astro.config.mjs`, `scripts/check-links.mjs`, and `scripts/check-seo.mjs`.
 - Legacy `/nevergrind-online/...` compatibility pages live only in `src/pages/nevergrind-online/`; keep them `noindex`, `data-pagefind-ignore`, hash-preserving, and excluded from the sitemap.
 
 ## FC2 Refresh Workflow
@@ -44,12 +44,13 @@ npm run build
 - `check:coverage` verifies every FC2 URL is routed and appears in frontmatter.
 - `check:quality` blocks old placeholder text, leaked translation guard tokens, missing render coverage, terminology drift, stale machine-translation phrases, and large untranslated Japanese fragments. It may intentionally ignore FC2 source-title rows where the Japanese original title is metadata.
 - `test:weapon-dps` verifies the local `/weapon-dps-calculator/` formula contract and FC2 preset snapshot examples.
-- After a production-style build with `SITE=https://ngo.jakeuj.com` and `BASE_PATH=/`, `check:seo` verifies robots, sitemap URLs, canonical host, JSON-LD, legacy noindex behavior, and frontmatter description length.
+- After a production-style build with `SITE=https://ngo.jakeuj.com` and `BASE_PATH=/`, run `check:links` and `check:seo`; `check:links` verifies resolved internal routes and hash anchors, while `check:seo` verifies robots, sitemap URLs, canonical host, JSON-LD, legacy noindex behavior, title duplication, and frontmatter description length.
 - Do not use `import:writerside` for FC2 pages. It is intentionally disabled by default because the old Writerside seed can overwrite source-driven FC2 docs with placeholder summaries.
 
 ## Routes And Source Lookup
 
 - Public links, sidebar `slug` values, and `src/data/fc2-topic-map.json` targets must use root routes such as `guide`, `fc2-general-reference`, and `/fc2-general-reference/#fc2-chart`.
+- Markdown links between public docs must use root-relative URLs such as `/guide/` and `/fc2-general-reference/#fc2-chart`, not `./guide/`; keep relative paths only for colocated assets such as `./nevergrind-online-items-loot-mind-map.png`.
 - Do not add `/nevergrind-online/` to sidebar links, Markdown links, generated topic-map slugs, README examples, or GitHub Pages config.
 - Keep `astro.config.mjs` using `@astrojs/sitemap` with a filter that excludes legacy `/nevergrind-online/` paths from `dist/sitemap*.xml`.
 - Keep `/weapon-dps-calculator/` as a user-facing supplemental tool route in the sidebar, not as an FC2 source document route. The FC2 `dpscalc.html` section in `fc2-general-reference.md` should point to the local tool and keep the original FC2 source link for attribution.
@@ -65,7 +66,7 @@ npm run build
 - Keep docs frontmatter `description` unique, natural zh-TW, and roughly 70-150 characters. Remove raw `.md` filenames, truncated fragments, and `nevergrind-online-*` legacy filename references.
 - For generated FC2 page descriptions, update `TOPIC_META` in `scripts/build-fc2-docs.mjs` as well as the generated Markdown so reruns do not regress SEO snippets.
 - For custom Starlight-wrapped pages outside `src/content/docs/`, such as `/weapon-dps-calculator/`, keep sitemap `lastmod` handling in `astro.config.mjs` aligned with the page's reviewed / data snapshot date.
-- After Search-related changes, run `SITE=https://ngo.jakeuj.com BASE_PATH=/ npm run build` and `npm run check:seo`. Search Console submission remains a manual post-deploy step for `https://ngo.jakeuj.com/sitemap-index.xml`.
+- After Search-related or link-related changes, run `SITE=https://ngo.jakeuj.com BASE_PATH=/ npm run build`, `npm run check:links`, and `npm run check:seo`. Search Console submission remains a manual post-deploy step for `https://ngo.jakeuj.com/sitemap-index.xml`.
 
 ## Terminology And Content Rules
 
@@ -126,17 +127,17 @@ npm run build
 - Keep FC2 original-source navigation separate from user-facing supplemental guides. Use the FC2 section for source-aligned entries and the supplemental section for non-FC2 pages.
 - For `fc2-class-build-gear-keeper-list.md`, keep equipment sections in FC2 item-category order: `頭部`, `弓術`, `副手 / Charm`, `肩部`, `項鍊`, `背部`, `單手斬擊`, `單手鈍器（物理）`, `雙手鈍器（物理）`, `刺擊`, `雙手鈍器（魔法）`, `單手鈍器（魔法）`, `胴體`, `盾牌 / 左手`, `護腕`, `腰帶`, `手套`, `戒指`, `腿甲`, `靴子`. Do not add empty `雙手斬擊` or `Rune` sections unless keeper rows exist; keep rows within each section sorted by rarity, tier, Lv, and name.
 - In `fc2-class-build-gear-keeper-list.md`, keep `## 低階優先保留速查` immediately after `## 優先保留速查`. Derive it from fixed equipment rows only (`| ![...] |` rows), exclude Rare condition rows, omit icons, and use columns `階級 / 稀有度 / Lv / 名稱 / 種類 / 基底 / 使用職業 / 保留重點`. Sort by Normal -> Exceptional -> Elite, then Unique -> Set -> Legendary, then the FC2 item-category order above, base, Lv, and name. Recheck row counts when the full keeper list changes.
-- After route, sidebar, or topic-map changes, search for accidental public nested paths with `rg -n 'nevergrind-online/' src/content/docs src/data README.md scripts .github/workflows .agents/skills/maintain-nevergrind-docs -S`. Allow only intentional legacy redirect code, sitemap filtering, and external source URLs.
-- After `npm run build`, `rg -n '<loc>[^<]*/nevergrind-online/' dist -g 'sitemap*.xml'` should return nothing. `npm run check:seo` also enforces this.
+- After route, sidebar, topic-map, or Markdown link changes, search for accidental public nested paths with `rg -n 'nevergrind-online/' src/content/docs src/data README.md scripts .github/workflows .agents/skills/maintain-nevergrind-docs -S`. Allow only intentional legacy redirect code, sitemap filtering, and external source URLs.
+- After `npm run build`, `rg -n '<loc>[^<]*/nevergrind-online/' dist -g 'sitemap*.xml'` should return nothing. `npm run check:links` catches broken internal routes / hashes and `npm run check:seo` enforces sitemap and metadata rules.
 - For local route checks, root pages such as `http://127.0.0.1:4322/guide/` and `http://127.0.0.1:4322/weapon-dps-calculator/` should render directly, while legacy pages such as `http://127.0.0.1:4322/nevergrind-online/guide/#x` should redirect to `/guide/#x`.
-- Before finishing changes that touch the calculator route, formulas, data, sidebar entry, or generated `dpscalc.html` note, run `npm run test:weapon-dps`, `SITE=https://ngo.jakeuj.com BASE_PATH=/ npm run build`, and `SITE=https://ngo.jakeuj.com BASE_PATH=/ npm run check:seo`.
+- Before finishing changes that touch the calculator route, formulas, data, sidebar entry, or generated `dpscalc.html` note, run `npm run test:weapon-dps`, `SITE=https://ngo.jakeuj.com BASE_PATH=/ npm run build`, `npm run check:links`, and `npm run check:seo`.
 - Before committing, run `git diff --check` and confirm `.cache/`, `.astro/`, `dist/`, and `.idea/` are not staged. `public/fc2-assets/ngo/` is an intended tracked asset mirror; `public/robots.txt` is source and should be tracked.
 
 ## Deploy Workflow
 
 - Commit source files and generated Markdown, not `.cache/`, `.astro/`, `dist/`, or `.idea/`.
 - Keep `public/CNAME` set to `ngo.jakeuj.com` for the GitHub Pages custom domain.
-- Keep GitHub Actions publishing with `SITE=https://ngo.jakeuj.com` and `BASE_PATH=/` so the custom domain serves root paths. The workflow should run `npm run check:seo` after `npm run build`.
+- Keep GitHub Actions publishing with `SITE=https://ngo.jakeuj.com` and `BASE_PATH=/` so the custom domain serves root paths. The workflow should run `npm run check:links` and `npm run check:seo` after `npm run build`.
 - Push `main` to `https://github.com/jakeuj/NevergrindOnline.git`.
 - GitHub Actions builds Pages from source. After deploy, expected canonical URLs look like `https://ngo.jakeuj.com/guide/`, not `https://ngo.jakeuj.com/nevergrind-online/guide/`.
 - After deploy, use Google Search Console URL Inspection on `/`, `/guide/`, `/fc2-rune-craft-reference/`, and `/nevergrind-online/guide/`, and submit `https://ngo.jakeuj.com/sitemap-index.xml` if needed.

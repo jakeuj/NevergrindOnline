@@ -1,4 +1,4 @@
 interface:
   display_name: "Maintain Nevergrind Docs"
-  short_description: "維護 Nevergrind 繁中攻略、FC2 匯入、互動工具與 SEO"
-  default_prompt: "Use $maintain-nevergrind-docs to maintain the GitHub Pages site at https://ngo.jakeuj.com/ from the current NevergrindOnline repository checkout, covering FC2 refreshes, local interactive tools, routing, terminology, SEO metadata, quality gates, and publishing."
+  short_description: "維護 Nevergrind 繁中攻略、FC2 匯入、連結與 SEO"
+  default_prompt: "Use $maintain-nevergrind-docs to maintain the GitHub Pages site at https://ngo.jakeuj.com/ from the current NevergrindOnline repository checkout, covering FC2 refreshes, local interactive tools, routing, internal links, terminology, SEO metadata, quality gates, and publishing."
