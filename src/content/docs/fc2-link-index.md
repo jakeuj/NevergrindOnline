@@ -67,7 +67,7 @@ status: "整理改寫"
 |[`boss.html`](https://atelier3.web.fc2.com/ngo/boss.html)|一般攻略頁|`nevergrind-online-fc2-general-reference.md`|完成|已轉為繁體中文整理；內容圖片已本地鏡像。|
 |[`charamake.html`](https://atelier3.web.fc2.com/ngo/charamake.html)|一般攻略頁|`nevergrind-online-fc2-general-reference.md`|完成|已轉為繁體中文整理；內容圖片已本地鏡像。|
 |[`chart.html`](https://atelier3.web.fc2.com/ngo/chart.html)|一般攻略頁|`nevergrind-online-fc2-general-reference.md`|完成|已轉為繁體中文整理；內容圖片已本地鏡像。|
-|[`dpscalc.html`](https://atelier3.web.fc2.com/ngo/dpscalc.html)|一般攻略頁|`nevergrind-online-fc2-general-reference.md`|完成|已轉為繁體中文整理；內容圖片已本地鏡像。|
+|[`dpscalc.html`](https://atelier3.web.fc2.com/ngo/dpscalc.html)|一般攻略頁|`nevergrind-online-fc2-general-reference.md / weapon-dps-calculator`|完成|原站互動工具已本地重製為[武器 DPS 計算機](/weapon-dps-calculator/)；來源連結保留於一般攻略參考頁。|
 |[`english.html`](https://atelier3.web.fc2.com/ngo/english.html)|一般攻略頁|`nevergrind-online-fc2-general-reference.md`|完成|已轉為繁體中文整理；內容圖片已本地鏡像。|
 |[`faq.html`](https://atelier3.web.fc2.com/ngo/faq.html)|一般攻略頁|`nevergrind-online-fc2-general-reference.md`|完成|已轉為繁體中文整理；內容圖片已本地鏡像。|
 |[`gambling.html`](https://atelier3.web.fc2.com/ngo/gambling.html)|一般攻略頁|`nevergrind-online-fc2-general-reference.md`|完成|已轉為繁體中文整理；內容圖片已本地鏡像。|

@@ -54,6 +54,7 @@ npm run build
 - Do not add `/nevergrind-online/` to sidebar links, Markdown links, generated topic-map slugs, README examples, or GitHub Pages config.
 - Keep `astro.config.mjs` using `@astrojs/sitemap` with a filter that excludes legacy `/nevergrind-online/` paths from `dist/sitemap*.xml`.
 - Keep `/weapon-dps-calculator/` as a user-facing supplemental tool route in the sidebar, not as an FC2 source document route. The FC2 `dpscalc.html` section in `fc2-general-reference.md` should point to the local tool and keep the original FC2 source link for attribution.
+- Keep the `dpscalc.html` row in `fc2-link-index.md` pointing to both `fc2-general-reference.md` and the local `weapon-dps-calculator` tool, with a note that the original interactive calculator has been locally rebuilt.
 - When checking an FC2 source file, find its target with `src/data/fc2-topic-map.json`; the public section is `https://ngo.jakeuj.com/<slug>/#fc2-<source-file-stem>`, for example `chart.html` maps to `/fc2-general-reference/#fc2-chart`.
 - In `fc2-general-reference.md`, render sections in sidebar / FC2 menu order via `OUTPUT_PAGE_ORDER_OVERRIDES`: `index.html`, `chart.html`, `faq.html`, `charamake.html`, `statuseffect.html`, `unimon.html`, `boss.html`, `english.html`, `dpscalc.html`, `loot.html`, `gambling.html`. Do not hand-move generated Markdown.
 - If changing the custom-domain route strategy, update `src/content/docs/`, `src/data/sidebar.json`, `src/data/fc2-topic-map.json`, redirect pages, sitemap filtering, README, this skill, and GitHub Actions together.
